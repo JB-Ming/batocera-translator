@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+  <game>
+    <path>./Old-Towers.bin</path>
+    <name>Old Towers (Old Towers)</name>
+    <desc>你在充滿致命陷阱和醜陋骷髏的塔樓中扮演小探險家。幫助你獲勝的唯一武器：敏捷的思維和技巧。</desc>
+    <image>./images/Old-Towers-image.png</image>
+    <video>./videos/Old-Towers-video.mp4</video>
+    <marquee>./images/Old-Towers-marquee.png</marquee>
+    <thumbnail>./images/Old-Towers-thumb.png</thumbnail>
+    <rating>0.9</rating>
+    <releasedate>20190318T000000</releasedate>
+    <developer>Denis Grachev</developer>
+    <publisher>RetroSouls</publisher>
+    <genre>Puzzle-Game</genre>
+    <players>1</players>
+    <playcount>1</playcount>
+    <lastplayed>20200403T105321</lastplayed>
+    <crc32>D875E97D</crc32>
+    <md5>96216acdb9b8eb86f8fa7209a5cc5619</md5>
+    <lang>en</lang>
+    <cheevosHash>96216ACDB9B8EB86F8FA7209A5CC5619</cheevosHash>
+  </game>
+</gameList>

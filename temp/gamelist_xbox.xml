@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+	<game id="15024">
+		<path>./Fuzion Frenzy (USA).xiso.iso</path>
+		<name>Fuzion Frenzy (Fuzion Frenzy)</name>
+		<desc>Fuzion Frenzy 是 Microsoft Xbox 的首發遊戲。從本質上講，Fuzion Frenzy 是一款四人派對遊戲，包含 45 個不同的迷你游戲（不包括名義上的 Fuzion Frenzy）。該遊戲的演示版包含在美國其他一些發布的遊戲中，包括 Halo、Munch's Oddysee、第一款 Project Gotham Racing 遊戲和 Amped。該遊戲是首批作為 Xbox Originals 計劃的一部分發布的遊戲之一。
+
+隨後，Xbox 360 發布了續作，名為《Fuzion Frenzy 2》。</desc>
+		<image>./images/Fuzion Frenzy (USA).xiso-image.png</image>
+		<marquee>./images/Fuzion Frenzy (USA).xiso-marquee.png</marquee>
+		<thumbnail>./images/Fuzion Frenzy (USA).xiso-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>20011115T000000</releasedate>
+		<developer>Blitz Games</developer>
+		<publisher>Microsoft</publisher>
+		<genre>Casual Game</genre>
+		<players>1-4</players>
+		<playcount>2</playcount>
+		<lastplayed>20251026T011032</lastplayed>
+		<gametime>1792</gametime>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251026T011057" />
+	</game>
+	<game id="14653">
+		<path>./JSRF - Jet Set Radio Future (USA).xiso.iso</path>
+		<name>JSRF : Jet Set Radio Future (JSRF : Jet Set Radio Future)</name>
+		<desc>Dreamcast 作品 Jet Grind Radio 的後續作品。故事背景是 2024 年的東京。自由是一種寶貴的商品，言論自由更是如此。一群行為不端的青少年綁上火箭驅動的輪滑鞋，滑冰、磨蹭，並用塗鴉標籤標記他們的領地。玩家扮演 GG 的角色，可以在幫派總部中選擇幫派的任何成員，每個成員都有不同的屬性。東京這座城市可以不受時間限制地悠閒地探索，但炎熱的天氣會......</desc>
+		<image>./images/JSRF - Jet Set Radio Future (USA).xiso-image.png</image>
+		<marquee>./images/JSRF - Jet Set Radio Future (USA).xiso-marquee.png</marquee>
+		<thumbnail>./images/JSRF - Jet Set Radio Future (USA).xiso-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>20020225T000000</releasedate>
+		<developer>Smilebit</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Jet Set Radio</family>
+		<players>1-4</players>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251026T011231" />
+	</game>
+</gameList>

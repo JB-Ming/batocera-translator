@@ -1,0 +1,327 @@
+[
+  {
+    "platform": "xrick",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\xrick\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\xrick\\gamelist.xml"
+  },
+  {
+    "platform": "xbox",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\xbox\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\xbox\\gamelist.xml"
+  },
+  {
+    "platform": "megadrive",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\megadrive\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\megadrive\\gamelist.xml"
+  },
+  {
+    "platform": "sg1000",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\sg1000\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\sg1000\\gamelist.xml"
+  },
+  {
+    "platform": "wswan",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\wswan\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\wswan\\gamelist.xml"
+  },
+  {
+    "platform": "dreamcast",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\dreamcast\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\dreamcast\\gamelist.xml"
+  },
+  {
+    "platform": "msx1",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\msx1\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\msx1\\gamelist.xml"
+  },
+  {
+    "platform": "amstradcpc",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\amstradcpc\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\amstradcpc\\gamelist.xml"
+  },
+  {
+    "platform": "openbor",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\openbor\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\openbor\\gamelist.xml"
+  },
+  {
+    "platform": "atari800",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\atari800\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\atari800\\gamelist.xml"
+  },
+  {
+    "platform": "vectrex",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\vectrex\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\vectrex\\gamelist.xml"
+  },
+  {
+    "platform": "ngp",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\ngp\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\ngp\\gamelist.xml"
+  },
+  {
+    "platform": "gbc",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\gbc\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\gbc\\gamelist.xml"
+  },
+  {
+    "platform": "msx2",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\msx2\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\msx2\\gamelist.xml"
+  },
+  {
+    "platform": "gba",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\gba\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\gba\\gamelist.xml"
+  },
+  {
+    "platform": "switch",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\switch\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\switch\\gamelist.xml"
+  },
+  {
+    "platform": "scummvm",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\scummvm\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\scummvm\\gamelist.xml"
+  },
+  {
+    "platform": "c64",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\c64\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\c64\\gamelist.xml"
+  },
+  {
+    "platform": "gx4000",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\gx4000\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\gx4000\\gamelist.xml"
+  },
+  {
+    "platform": "lynx",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\lynx\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\lynx\\gamelist.xml"
+  },
+  {
+    "platform": "virtualboy",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\virtualboy\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\virtualboy\\gamelist.xml"
+  },
+  {
+    "platform": "intellivision",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\intellivision\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\intellivision\\gamelist.xml"
+  },
+  {
+    "platform": "atari7800",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\atari7800\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\atari7800\\gamelist.xml"
+  },
+  {
+    "platform": "wii",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\wii\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\wii\\gamelist.xml"
+  },
+  {
+    "platform": "amigacd32",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\amigacd32\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\amigacd32\\gamelist.xml"
+  },
+  {
+    "platform": "pcengine",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\pcengine\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\pcengine\\gamelist.xml"
+  },
+  {
+    "platform": "megacd",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\megacd\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\megacd\\gamelist.xml"
+  },
+  {
+    "platform": "steam",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\steam\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\steam\\gamelist.xml"
+  },
+  {
+    "platform": "snes",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\snes\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\snes\\gamelist.xml"
+  },
+  {
+    "platform": "prboom",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\prboom\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\prboom\\gamelist.xml"
+  },
+  {
+    "platform": "lutro",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\lutro\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\lutro\\gamelist.xml"
+  },
+  {
+    "platform": "windows",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\windows\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\windows\\gamelist.xml"
+  },
+  {
+    "platform": "gb",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\gb\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\gb\\gamelist.xml"
+  },
+  {
+    "platform": "nes",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\nes\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\nes\\gamelist.xml"
+  },
+  {
+    "platform": "xash3d_fwgs",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\xash3d_fwgs\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\xash3d_fwgs\\gamelist.xml"
+  },
+  {
+    "platform": "mrboom",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\mrboom\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\mrboom\\gamelist.xml"
+  },
+  {
+    "platform": "psx",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\psx\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\psx\\gamelist.xml"
+  },
+  {
+    "platform": "mame",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\mame\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\mame\\gamelist.xml"
+  },
+  {
+    "platform": "pygame",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\pygame\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\pygame\\gamelist.xml"
+  },
+  {
+    "platform": "sdlpop",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\sdlpop\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\sdlpop\\gamelist.xml"
+  },
+  {
+    "platform": "mastersystem",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\mastersystem\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\mastersystem\\gamelist.xml"
+  },
+  {
+    "platform": "cannonball",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\cannonball\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\cannonball\\gamelist.xml"
+  },
+  {
+    "platform": "sgb",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\sgb\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\sgb\\gamelist.xml"
+  },
+  {
+    "platform": "apple2",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\apple2\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\apple2\\gamelist.xml"
+  },
+  {
+    "platform": "odcommander",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\odcommander\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\odcommander\\gamelist.xml"
+  },
+  {
+    "platform": "ngpc",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\ngpc\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\ngpc\\gamelist.xml"
+  },
+  {
+    "platform": "windows_installers",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\windows_installers\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\windows_installers\\gamelist.xml"
+  },
+  {
+    "platform": "3ds",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\3ds\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\3ds\\gamelist.xml"
+  },
+  {
+    "platform": "fbneo",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\fbneo\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\fbneo\\gamelist.xml"
+  },
+  {
+    "platform": "x68000",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\x68000\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\x68000\\gamelist.xml"
+  },
+  {
+    "platform": "supervision",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\supervision\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\supervision\\gamelist.xml"
+  },
+  {
+    "platform": "zxspectrum",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\zxspectrum\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\zxspectrum\\gamelist.xml"
+  },
+  {
+    "platform": "atari2600",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\atari2600\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\atari2600\\gamelist.xml"
+  },
+  {
+    "platform": "satellaview",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\satellaview\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\satellaview\\gamelist.xml"
+  },
+  {
+    "platform": "uzebox",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\uzebox\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\uzebox\\gamelist.xml"
+  },
+  {
+    "platform": "colecovision",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\colecovision\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\colecovision\\gamelist.xml"
+  },
+  {
+    "platform": "gameandwatch",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\gameandwatch\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\gameandwatch\\gamelist.xml"
+  },
+  {
+    "platform": "wswanc",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\wswanc\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\wswanc\\gamelist.xml"
+  },
+  {
+    "platform": "devilutionx",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\devilutionx\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\devilutionx\\gamelist.xml"
+  },
+  {
+    "platform": "o2em",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\o2em\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\o2em\\gamelist.xml"
+  },
+  {
+    "platform": "nds",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\nds\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\nds\\gamelist.xml"
+  },
+  {
+    "platform": "jaguar",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\jaguar\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\jaguar\\gamelist.xml"
+  },
+  {
+    "platform": "fds",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\fds\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\fds\\gamelist.xml"
+  },
+  {
+    "platform": "zx81",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\zx81\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\zx81\\gamelist.xml"
+  },
+  {
+    "platform": "sega32x",
+    "source": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms\\sega32x\\gamelist.xml",
+    "local": "D:\\Source\\batocera-translator\\gamelists_local\\sega32x\\gamelist.xml"
+  }
+]

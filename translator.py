@@ -532,8 +532,14 @@ class GamelistTranslator:
 
         # 儲存檔案
         if not dry_run:
-            # 直接寫入新檔案(備份由外部處理)
-            tree.write(gamelist_path, encoding='utf-8', xml_declaration=True)
+            # 使用 tostring + open 寫入 (相容 WSL 路徑)
+            xml_str = ET.tostring(tree.getroot(), encoding='unicode',
+                                  method='xml')
+            xml_content = f'<?xml version="1.0" encoding="utf-8"?>\n{xml_str}'
+
+            with open(gamelist_path, 'w', encoding='utf-8') as f:
+                f.write(xml_content)
+
             print(f"[OK] 已更新 {updated}/{total} 個遊戲")
         else:
             print(f"\n[預覽模式] 將更新 {updated}/{total} 個遊戲")

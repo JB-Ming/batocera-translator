@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+	<game>
+		<path>./xrick-data.zip</path>
+		<name>XRick (XRick)</name>
+		<desc>XRick 是遊戲“Rick Dangerous”的開源重新實現。它是一款流行的平台遊戲，最初於 1989 年發布，並為 20 世紀 90 年代初的大多數計算機開發。改編自《奪寶奇兵》系列電影，背景設定在 1945 年，特工瑞克·危險墜入叢林，必須與敵人戰鬥並收集寶藏。</desc>
+		<image>./images/xrick.png</image>
+		<video>./videos/xrick.mp4</video>
+		<rating />
+		<releasedate>19890913T000000</releasedate>
+		<developer>BigOrno, Fabien, R-Type and team</developer>
+		<publisher>https://github.com/libretro/xrick-libretro</publisher>
+		<genre>Platformer</genre>
+		<players>1</players>
+	</game>
+</gameList>

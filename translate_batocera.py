@@ -123,50 +123,27 @@ def translate_platform(platform_info, config):
     print(f"路徑: {gamelist_path}")
     print(f"{'='*60}")
 
-    # 建立臨時工作目錄
-    temp_dir = Path(__file__).parent / "temp"
-    temp_dir.mkdir(exist_ok=True)
-
-    temp_gamelist = temp_dir / f"gamelist_{platform_name}.xml"
-
     try:
-        # 1. 複製到本機臨時目錄
-        print(f"  [1/4] 複製檔案到本機...")
-        shutil.copy2(gamelist_path, temp_gamelist)
-
-        # 2. 建立備份
+        # 建立備份
         if config.get('auto_backup', True):
             backup_gamelist(gamelist_path)
 
-        # 3. 翻譯本機檔案
-        print(f"  [2/4] 開始翻譯...")
+        # 直接翻譯原檔案 (透過 Windows UNC 路徑)
+        print(f"  [1/2] 開始翻譯...")
         translator = GamelistTranslator(
             translations_dir=config.get('translations_dir', 'translations'),
-            display_mode=config.get('display_mode', 'chinese_only'),
+            display_mode='chinese_english',  # 改為「中文 (English)」格式
             translate_desc=config.get('translate_desc', True),
             max_name_length=config.get('max_length', 100),
             search_delay=0.5  # 縮短延遲時間
         )
 
-        # 使用本機檔案翻譯 (翻譯全部遊戲)
+        # 直接翻譯檔案 (翻譯全部遊戲)
         translator.update_gamelist(
-            str(temp_gamelist), platform_name, dry_run=False, limit=0)
+            str(gamelist_path), platform_name, dry_run=False, limit=0)
 
-        # 4. 直接複製回 Batocera (透過 Windows 路徑)
-        print("  [3/4] 寫回 Batocera...")
-        try:
-            shutil.copy2(temp_gamelist, gamelist_path)
-            print("  [4/4] [OK] 翻譯完成並寫回!")
-            temp_gamelist.unlink()
-            return True
-        except PermissionError:
-            print("  [X] 權限不足")
-            print(f"  本機檔案: {temp_gamelist}")
-            return False
-        except Exception as copy_error:
-            print(f"  [X] 寫回失敗: {copy_error}")
-            print(f"  檔案保存在: {temp_gamelist}")
-            return False
+        print("  [2/2] [OK] 翻譯完成!")
+        return True
 
     except Exception as e:
         print(f"\n[X] 翻譯時發生錯誤: {e}")
@@ -204,24 +181,10 @@ def main():
     for i, platform in enumerate(platforms, 1):
         print(f"  {i}. {platform['name']}")
 
-    # 自動選擇 3DS 平台進行測試 (有最多遊戲)
-    print("\n自動選擇 3DS 平台進行測試...")
-    selected_platforms = []
-
-    for platform in platforms:
-        if platform['name'].lower() == '3ds':
-            selected_platforms.append(platform)
-            print(f"[OK] 已選擇: {platform['name']}")
-            break
-
-    if not selected_platforms:
-        print("[X] 找不到 3DS 平台,改為翻譯第一個平台")
-        if platforms:
-            selected_platforms.append(platforms[0])
-            print(f"[OK] 已選擇: {platforms[0]['name']}")
-        else:
-            print("[X] 沒有可用的平台")
-            sys.exit(1)
+    # 選擇所有平台進行翻譯
+    print("\n選擇所有平台進行完整翻譯...")
+    selected_platforms = platforms
+    print(f"[OK] 已選擇全部 {len(selected_platforms)} 個平台")
 
     # 開始翻譯
     print(f"\n開始翻譯 {len(selected_platforms)} 個平台...")

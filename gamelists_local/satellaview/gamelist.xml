@@ -1,0 +1,626 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="38629">
+		<path>./BS F-Zero Grand Prix 2 - Practice (Japan) (BS).sfc</path>
+		<name>BS F-Zero Grand Prix 2</name>
+		<desc>BS F-Zero Grand Prix 2 is the direct sequel to the original F-Zero game released for the Super Famicom via the Satellaview. Two versions were released - a non-SoundLink game and a SoundLink game. The original non-SoundLink version was released as BSF-Zero 2 Practice on June 1, 1997 (although the title screen remained the same). It contained the four courses first seen throughout BS F-Zero Grand Prix (a Satellaview remake of the original), along with a new course called Mute City IV. Little is known about the later SoundLink version outside of surviving videos, but it was distributed in two halves in August 1997 and had a similar announcer and redone soundtrack as the previous Satellaview entry. At least the first week rearranged a few courses, and replaced two with new locations called "Forest I" and "Forest II". Presuming no areas were repeated, this likely means the SoundLink version had twice as many courses total. In addition, it can be seen that the player cannot choose between Grand Prix and Practice modes in the SoundLink version; as it was a live broadcast, the player is forced to play each course in a timed Practice mode, and then the Grand Prix race.</desc>
+		<image>./images/BS F-Zero Grand Prix 2 - Practice (Japan) (BS)-image.png</image>
+		<rating>0.8</rating>
+		<releasedate>10/08/1997</releasedate>
+		<developer>St.GIGA</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving</genre>
+		<family>F-Zero</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>c1008db81315057be63c2901a39eb1fb</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38625">
+		<path>./BS F-ZERO Grand Prix Ace League (J).smc</path>
+		<name>BS F-Zero Grand Prix</name>
+		<desc>BS F-Zero Grand Prix was a four-part Soundlink game to the original F-Zero. It was launched only in Japan for the Satellaview attachment for the Super Famicom. BS F-Zero Grand Prix contained four different playable vehicles and four new tracks near the end of each broadcast, as well as the 15 tracks from the original game. Commentary was provided by Bucky Koba, Tsutomu Tareki, and Seiichi Hirai. A follow-up to the game was later distributed as BS F-Zero Grand Prix 2.</desc>
+		<image>./images/BS F-ZERO Grand Prix Ace League (J)-image.png</image>
+		<releasedate>29/12/1996</releasedate>
+		<developer>St.GIGA</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving</genre>
+		<family>F-Zero</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>32a7a9d2ded989ad7889dc086c522d66</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38625">
+		<path>./BS F-ZERO Grand Prix King League (J).smc</path>
+		<name>BS F-Zero Grand Prix</name>
+		<desc>BS F-Zero Grand Prix was a four-part Soundlink game to the original F-Zero. It was launched only in Japan for the Satellaview attachment for the Super Famicom. BS F-Zero Grand Prix contained four different playable vehicles and four new tracks near the end of each broadcast, as well as the 15 tracks from the original game. Commentary was provided by Bucky Koba, Tsutomu Tareki, and Seiichi Hirai. A follow-up to the game was later distributed as BS F-Zero Grand Prix 2.</desc>
+		<image>./images/BS F-ZERO Grand Prix King League (J)-image.png</image>
+		<releasedate>29/12/1996</releasedate>
+		<developer>St.GIGA</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving</genre>
+		<family>F-Zero</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>c395949eb2d7a4b1441286c5475c2f60</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38625">
+		<path>./BS F-ZERO Grand Prix Knight League (J).smc</path>
+		<name>BS F-Zero Grand Prix</name>
+		<desc>BS F-Zero Grand Prix was a four-part Soundlink game to the original F-Zero. It was launched only in Japan for the Satellaview attachment for the Super Famicom. BS F-Zero Grand Prix contained four different playable vehicles and four new tracks near the end of each broadcast, as well as the 15 tracks from the original game. Commentary was provided by Bucky Koba, Tsutomu Tareki, and Seiichi Hirai. A follow-up to the game was later distributed as BS F-Zero Grand Prix 2.</desc>
+		<image>./images/BS F-ZERO Grand Prix Knight League (J)-image.png</image>
+		<releasedate>29/12/1996</releasedate>
+		<developer>St.GIGA</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving</genre>
+		<family>F-Zero</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>bf62b4f3ce20ce3f87db35fa47a6df8e</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38625">
+		<path>./BS F-ZERO Grand Prix Queen League (J).smc</path>
+		<name>BS F-Zero Grand Prix</name>
+		<desc>BS F-Zero Grand Prix was a four-part Soundlink game to the original F-Zero. It was launched only in Japan for the Satellaview attachment for the Super Famicom. BS F-Zero Grand Prix contained four different playable vehicles and four new tracks near the end of each broadcast, as well as the 15 tracks from the original game. Commentary was provided by Bucky Koba, Tsutomu Tareki, and Seiichi Hirai. A follow-up to the game was later distributed as BS F-Zero Grand Prix 2.</desc>
+		<image>./images/BS F-ZERO Grand Prix Queen League (J)-image.png</image>
+		<releasedate>29/12/1996</releasedate>
+		<developer>St.GIGA</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving</genre>
+		<family>F-Zero</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>4d6363d3d8204e064873b937e468b87f</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38994">
+		<path>./BS Kirby no Omochabako - Baseball (J).smc</path>
+		<name>Kirby No Omochabako - Baseball</name>
+		<desc>Kirby's Toy Box is the translated name of a small series of Kirby sub-games titled (Kabi no Omochabako, meaning Kirby's Toy Box) in Japan. The Kirby's Toy Box series was broadcast over Nintendo's first form of digital distribution, the Satellaview satellite network, and, depending on when the player connected to the network, different games were available at different times. These could be downloaded to the Satellaview base unit, or an 8-megabit rewritable "Memory Pak" ROM cartridge compatible with the Satellaview. As these games did not use the SoundLink live audio streaming technology utilized by other Satellaview games, after being downloaded, they could be played at any time after the broadcast as long as they were not deleted or overwritten.</desc>
+		<image>./images/BS Kirby no Omochabako - Baseball (J)-image.png</image>
+		<thumbnail>./images/BS Kirby no Omochabako - Baseball (J)-thumb.png</thumbnail>
+		<genre>Sports / Baseball</genre>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>5cd6f8e34db146954cdd183bd6111436</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="2364">
+		<path>./BS Radical Dreamers (J) [T+Eng1.2_Demiforce].smc</path>
+		<name>Radical Dreamers: Nusumenai Hōseki</name>
+		<desc>This text-based adventure (with some interesting background graphics) was originally released in Japan over the Satellaview system. The game is a spin-off from the Chrono Series, and was the precursor to Chrono Cross. It tells the story of Serge (travelling musician), Kid (thief), and Magil (wizard) as they attempt to steal the Frozen Flame from Viper Manor.  Contains multiple, often humorous endings. An interesting game for Chrono Trigger/Cross fans, as this was the game that Chrono Cross was essentially a remake of.
+
+Gameplay is something between a standard text adventure and a Choose Your Own Adventure book.  Rather than having a full array of possible actions, players are limited to the several options it presents at any time.  With newly discovered items and information, new areas can be reached.  Occasionally battles will occur during the exploration, which are also handled by displaying several possible actions to choose between, such as "Run" or "Jump back as it swings!"</desc>
+		<image>./images/BS Radical Dreamers (J) [T+Eng1.2_Demiforce]-image.png</image>
+		<thumbnail>./images/BS Radical Dreamers (J) [T+Eng1.2_Demiforce]-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>01/06/1996</releasedate>
+		<developer>Square Enix</developer>
+		<publisher>Square Enix</publisher>
+		<genre>Role playing games</genre>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>e4261891fed6c819a474d5781a7861c2</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38655">
+		<path>./BS Super Mario USA - Power Challenge - Dai-1-kai (Japan) (BS SoundLink).sfc</path>
+		<name>Bs Super Mario Usa Power Challenge</name>
+		<desc>BS Super Mario USA Power Challenge is an ura- or gaiden-version of Super Mario Bros. 2 for the Satellaview system featuring graphical enhancements similar to its Super Mario All-Stars version. While the underlying gameplay itself is largely similar, some content has been rearranged and new content has been added. The game was released in four installments, in each of which the player is sent to a different SMB2 "World" to collect the Gold Mario Statues located in each level, defeat the boss, and then find and beat Wart, who can be battled in any world when going down in any vase while the player is in Subspace. The player can select the levels in any order and return to the levels as often as desired until the "episode" ends at around 50 minutes on the clock. The player starts the game as Mario, and character changing is forced in timed events. A points system was added. Points can be gained, among other things, by defeating enemies in various ways.</desc>
+		<image>./images/BS Super Mario USA - Power Challenge - Dai-1-kai (Japan) (BS SoundLink)-image.png</image>
+		<releasedate>01/01/1996</releasedate>
+		<developer>Nintendo EAD</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<family>Super Mario Bros</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>be58760840703a1f1f36b3bfa2e7b108</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38655">
+		<path>./BS Super Mario USA - Power Challenge - Dai-2-kai (Japan) (BS SoundLink).sfc</path>
+		<name>Bs Super Mario Usa Power Challenge</name>
+		<desc>BS Super Mario USA Power Challenge is an ura- or gaiden-version of Super Mario Bros. 2 for the Satellaview system featuring graphical enhancements similar to its Super Mario All-Stars version. While the underlying gameplay itself is largely similar, some content has been rearranged and new content has been added. The game was released in four installments, in each of which the player is sent to a different SMB2 "World" to collect the Gold Mario Statues located in each level, defeat the boss, and then find and beat Wart, who can be battled in any world when going down in any vase while the player is in Subspace. The player can select the levels in any order and return to the levels as often as desired until the "episode" ends at around 50 minutes on the clock. The player starts the game as Mario, and character changing is forced in timed events. A points system was added. Points can be gained, among other things, by defeating enemies in various ways.</desc>
+		<image>./images/BS Super Mario USA - Power Challenge - Dai-2-kai (Japan) (BS SoundLink)-image.png</image>
+		<releasedate>01/01/1996</releasedate>
+		<developer>Nintendo EAD</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<family>Super Mario Bros</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>effd7e9360be56da5a9876b45a5989fc</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38655">
+		<path>./BS Super Mario USA - Power Challenge - Dai-3-kai (Japan) (BS SoundLink).sfc</path>
+		<name>Bs Super Mario Usa Power Challenge</name>
+		<desc>BS Super Mario USA Power Challenge is an ura- or gaiden-version of Super Mario Bros. 2 for the Satellaview system featuring graphical enhancements similar to its Super Mario All-Stars version. While the underlying gameplay itself is largely similar, some content has been rearranged and new content has been added. The game was released in four installments, in each of which the player is sent to a different SMB2 "World" to collect the Gold Mario Statues located in each level, defeat the boss, and then find and beat Wart, who can be battled in any world when going down in any vase while the player is in Subspace. The player can select the levels in any order and return to the levels as often as desired until the "episode" ends at around 50 minutes on the clock. The player starts the game as Mario, and character changing is forced in timed events. A points system was added. Points can be gained, among other things, by defeating enemies in various ways.</desc>
+		<image>./images/BS Super Mario USA - Power Challenge - Dai-3-kai (Japan) (BS SoundLink)-image.png</image>
+		<releasedate>01/01/1996</releasedate>
+		<developer>Nintendo EAD</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<family>Super Mario Bros</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>62331bfa00172b3e2705dc33dc93e1ee</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="151239">
+		<path>./BS-Zelda MottZilla Patch (v0.95) (Eng).smc</path>
+		<name>BS The Legend of Zelda - Ancient Stone Tablets</name>
+		<desc>The events of Ancient Stone Tablets occur a mere six years after the destruction of Ganon by the hero, Link in A Link to the Past. Hyrule is enjoying a time of peace and tranquility, but Princess Zelda suffers from a dark, recurring dream showing a shadow over a temple; a premonition of evil to come. One day, she witnesses a mysterious and brilliant light in the sky to the east. Aginah, the younger brother of the wise man Sahasrahla and now living in his old hideout near the Eastern Palace also witnesses such a light, and travels to investigate. There he finds a strange youth lying on the ground. Zelda, also following the light, meets up with Aginah, and they both carry the child to rest in Sahasrahla's hideout. Confused by the youth's unusual clothes, they believe the child not to hail from Kakariko Village. Speaking to Aginah while the youngster sleeps, Zelda learns that his brother Sahasrahla had also sensed danger surrounding Hyrule and had left the land to find the hero, Link. While Link has not yet returned, Zelda senses that if this new youth was endowed with courage, he or she may be the Hero of Light.Ancient Stone Tablets is different from most other Zelda games as the game's central heroes are actually the avatars of the player's ID for the BS-X Broadcasting System, drawn into Hyrule, which is also true for BS The Legend of Zelda. The difference being that this time the player does not take the place of Link, but takes part in a new tale set after the events of A Link to the Past. The male character wears a green tunic</desc>
+		<image>./images/BS-Zelda MottZilla Patch (v0.95) (Eng)-image.png</image>
+		<thumbnail>./images/BS-Zelda MottZilla Patch (v0.95) (Eng)-thumb.png</thumbnail>
+		<releasedate>30/03/1997</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>St.GIGA</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>792ccc88eff0716704d604879d556ebd</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="151239">
+		<path>./bszelda_ast1.smc</path>
+		<name>BS The Legend of Zelda - Ancient Stone Tablets</name>
+		<desc>The events of Ancient Stone Tablets occur a mere six years after the destruction of Ganon by the hero, Link in A Link to the Past. Hyrule is enjoying a time of peace and tranquility, but Princess Zelda suffers from a dark, recurring dream showing a shadow over a temple; a premonition of evil to come. One day, she witnesses a mysterious and brilliant light in the sky to the east. Aginah, the younger brother of the wise man Sahasrahla and now living in his old hideout near the Eastern Palace also witnesses such a light, and travels to investigate. There he finds a strange youth lying on the ground. Zelda, also following the light, meets up with Aginah, and they both carry the child to rest in Sahasrahla's hideout. Confused by the youth's unusual clothes, they believe the child not to hail from Kakariko Village. Speaking to Aginah while the youngster sleeps, Zelda learns that his brother Sahasrahla had also sensed danger surrounding Hyrule and had left the land to find the hero, Link. While Link has not yet returned, Zelda senses that if this new youth was endowed with courage, he or she may be the Hero of Light.Ancient Stone Tablets is different from most other Zelda games as the game's central heroes are actually the avatars of the player's ID for the BS-X Broadcasting System, drawn into Hyrule, which is also true for BS The Legend of Zelda. The difference being that this time the player does not take the place of Link, but takes part in a new tale set after the events of A Link to the Past. The male character wears a green tunic</desc>
+		<image>./images/bszelda_ast1-image.png</image>
+		<thumbnail>./images/bszelda_ast1-thumb.png</thumbnail>
+		<releasedate>30/03/1997</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>St.GIGA</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2953e24903b3724b90dd4da2ecf6de4d</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="151239">
+		<path>./bszelda_ast2.smc</path>
+		<name>BS The Legend of Zelda - Ancient Stone Tablets</name>
+		<desc>The events of Ancient Stone Tablets occur a mere six years after the destruction of Ganon by the hero, Link in A Link to the Past. Hyrule is enjoying a time of peace and tranquility, but Princess Zelda suffers from a dark, recurring dream showing a shadow over a temple; a premonition of evil to come. One day, she witnesses a mysterious and brilliant light in the sky to the east. Aginah, the younger brother of the wise man Sahasrahla and now living in his old hideout near the Eastern Palace also witnesses such a light, and travels to investigate. There he finds a strange youth lying on the ground. Zelda, also following the light, meets up with Aginah, and they both carry the child to rest in Sahasrahla's hideout. Confused by the youth's unusual clothes, they believe the child not to hail from Kakariko Village. Speaking to Aginah while the youngster sleeps, Zelda learns that his brother Sahasrahla had also sensed danger surrounding Hyrule and had left the land to find the hero, Link. While Link has not yet returned, Zelda senses that if this new youth was endowed with courage, he or she may be the Hero of Light.Ancient Stone Tablets is different from most other Zelda games as the game's central heroes are actually the avatars of the player's ID for the BS-X Broadcasting System, drawn into Hyrule, which is also true for BS The Legend of Zelda. The difference being that this time the player does not take the place of Link, but takes part in a new tale set after the events of A Link to the Past. The male character wears a green tunic</desc>
+		<image>./images/bszelda_ast2-image.png</image>
+		<thumbnail>./images/bszelda_ast2-thumb.png</thumbnail>
+		<releasedate>30/03/1997</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>St.GIGA</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>0717d9c68fe527006d952fb651abd501</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="151239">
+		<path>./bszelda_ast3.smc</path>
+		<name>BS The Legend of Zelda - Ancient Stone Tablets</name>
+		<desc>The events of Ancient Stone Tablets occur a mere six years after the destruction of Ganon by the hero, Link in A Link to the Past. Hyrule is enjoying a time of peace and tranquility, but Princess Zelda suffers from a dark, recurring dream showing a shadow over a temple; a premonition of evil to come. One day, she witnesses a mysterious and brilliant light in the sky to the east. Aginah, the younger brother of the wise man Sahasrahla and now living in his old hideout near the Eastern Palace also witnesses such a light, and travels to investigate. There he finds a strange youth lying on the ground. Zelda, also following the light, meets up with Aginah, and they both carry the child to rest in Sahasrahla's hideout. Confused by the youth's unusual clothes, they believe the child not to hail from Kakariko Village. Speaking to Aginah while the youngster sleeps, Zelda learns that his brother Sahasrahla had also sensed danger surrounding Hyrule and had left the land to find the hero, Link. While Link has not yet returned, Zelda senses that if this new youth was endowed with courage, he or she may be the Hero of Light.Ancient Stone Tablets is different from most other Zelda games as the game's central heroes are actually the avatars of the player's ID for the BS-X Broadcasting System, drawn into Hyrule, which is also true for BS The Legend of Zelda. The difference being that this time the player does not take the place of Link, but takes part in a new tale set after the events of A Link to the Past. The male character wears a green tunic</desc>
+		<image>./images/bszelda_ast3-image.png</image>
+		<thumbnail>./images/bszelda_ast3-thumb.png</thumbnail>
+		<releasedate>30/03/1997</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>St.GIGA</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>1e1e2d4bc5788f8c0d968daf2debcaca</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="151239">
+		<path>./bszelda_ast4.smc</path>
+		<name>BS The Legend of Zelda - Ancient Stone Tablets</name>
+		<desc>The events of Ancient Stone Tablets occur a mere six years after the destruction of Ganon by the hero, Link in A Link to the Past. Hyrule is enjoying a time of peace and tranquility, but Princess Zelda suffers from a dark, recurring dream showing a shadow over a temple; a premonition of evil to come. One day, she witnesses a mysterious and brilliant light in the sky to the east. Aginah, the younger brother of the wise man Sahasrahla and now living in his old hideout near the Eastern Palace also witnesses such a light, and travels to investigate. There he finds a strange youth lying on the ground. Zelda, also following the light, meets up with Aginah, and they both carry the child to rest in Sahasrahla's hideout. Confused by the youth's unusual clothes, they believe the child not to hail from Kakariko Village. Speaking to Aginah while the youngster sleeps, Zelda learns that his brother Sahasrahla had also sensed danger surrounding Hyrule and had left the land to find the hero, Link. While Link has not yet returned, Zelda senses that if this new youth was endowed with courage, he or she may be the Hero of Light.Ancient Stone Tablets is different from most other Zelda games as the game's central heroes are actually the avatars of the player's ID for the BS-X Broadcasting System, drawn into Hyrule, which is also true for BS The Legend of Zelda. The difference being that this time the player does not take the place of Link, but takes part in a new tale set after the events of A Link to the Past. The male character wears a green tunic</desc>
+		<image>./images/bszelda_ast4-image.png</image>
+		<thumbnail>./images/bszelda_ast4-thumb.png</thumbnail>
+		<releasedate>30/03/1997</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>St.GIGA</publisher>
+		<genre>Action / Adventure</genre>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>7c5957eb76810c15e67ad0ea4bf983b3</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38675">
+		<path>./Chrono Trigger - Character Zukan (Japan) (BS).sfc</path>
+		<name>Chrono Trigger : Jet Bike Spécial</name>
+		<desc>BS Chrono Trigger: Character Library is essentially a bestiary containing not only all of the playable characters, but all of the enemies as well. The game was released for the Japan only Satellaview in 1995, and was developed by Squaresoft and published by Nintendo. The game is nothing more than an addon to Chrono Trigger, containing every sprite for each character and enemy, as well as a brief description of each one. BS Chrono Trigger: Character Library is also included in Final Fantasy Chronicles.</desc>
+		<image>./images/Chrono Trigger - Character Zukan (Japan) (BS)-image.png</image>
+		<releasedate>16/08/1995</releasedate>
+		<publisher>Squaresoft</publisher>
+		<genre>Race, Driving</genre>
+		<family>Chrono Trigger</family>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>fe72292b679f743dad8e93da4102da3e</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38675">
+		<path>./Chrono Trigger - Jet Bike Special (Japan) (BS).sfc</path>
+		<name>Chrono Trigger : Jet Bike Spécial</name>
+		<desc>BS Chrono Trigger: Character Library is essentially a bestiary containing not only all of the playable characters, but all of the enemies as well. The game was released for the Japan only Satellaview in 1995, and was developed by Squaresoft and published by Nintendo. The game is nothing more than an addon to Chrono Trigger, containing every sprite for each character and enemy, as well as a brief description of each one. BS Chrono Trigger: Character Library is also included in Final Fantasy Chronicles.</desc>
+		<image>./images/Chrono Trigger - Jet Bike Special (Japan) (BS)-image.png</image>
+		<releasedate>16/08/1995</releasedate>
+		<publisher>Squaresoft</publisher>
+		<genre>Race, Driving</genre>
+		<family>Chrono Trigger</family>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>948256257bffc94b876e2b4a3b988f54</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38675">
+		<path>./Chrono Trigger - Music Library (Japan) (BS).sfc</path>
+		<name>Chrono Trigger : Jet Bike Spécial</name>
+		<desc>BS Chrono Trigger: Character Library is essentially a bestiary containing not only all of the playable characters, but all of the enemies as well. The game was released for the Japan only Satellaview in 1995, and was developed by Squaresoft and published by Nintendo. The game is nothing more than an addon to Chrono Trigger, containing every sprite for each character and enemy, as well as a brief description of each one. BS Chrono Trigger: Character Library is also included in Final Fantasy Chronicles.</desc>
+		<image>./images/Chrono Trigger - Music Library (Japan) (BS)-image.png</image>
+		<releasedate>16/08/1995</releasedate>
+		<publisher>Squaresoft</publisher>
+		<genre>Race, Driving</genre>
+		<family>Chrono Trigger</family>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>26bacc5bc306454a74e4da1ebd9530d7</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38713">
+		<path>./Dezaemon BSX Version - BS-X Shooting (Japan) (En) (BS).sfc</path>
+		<name>Dezaemon Bsx Version - Bs-x Shooting</name>
+		<image>./images/Dezaemon BSX Version - BS-X Shooting (Japan) (En) (BS)-image.png</image>
+		<thumbnail>./images/Dezaemon BSX Version - BS-X Shooting (Japan) (En) (BS)-thumb.png</thumbnail>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>7328c333cc54aee986b981f816e30830</md5>
+		<gametime></gametime>
+		<lang>en,jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="109025">
+		<path>./Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (BS SoundLink).sfc</path>
+		<name>Excitebike - Bun Bun Mario Battle</name>
+		<desc>BS Excitebike Bun Bun Mario Stadium was the a game released in four downloadable versions on the Satellaview download service. The game is also known as Mario Excitebike. It was released for the Satellaview in 1996 only in Japan, and is the obscure sequel to the NES game Excitebike. Each version added a number of new characters, eventually adding up to six characters in all. The game plays similarly to Excitebike on the NES, although it does have a couple differences. One difference is the fact that the player can pick up coins along the racetrack (which do nothing besides adding to the score). The only other change was an added SUPER mode, which gave the player infinite boost.</desc>
+		<image>./images/Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (BS SoundLink)-image.png</image>
+		<thumbnail>./images/Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (BS SoundLink)-thumb.png</thumbnail>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving / Race</genre>
+		<players>2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>272968c6a21f5b558dbcaabe09ae693b</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="109025">
+		<path>./Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (BS SoundLink).sfc</path>
+		<name>Excitebike - Bun Bun Mario Battle</name>
+		<desc>BS Excitebike Bun Bun Mario Stadium was the a game released in four downloadable versions on the Satellaview download service. The game is also known as Mario Excitebike. It was released for the Satellaview in 1996 only in Japan, and is the obscure sequel to the NES game Excitebike. Each version added a number of new characters, eventually adding up to six characters in all. The game plays similarly to Excitebike on the NES, although it does have a couple differences. One difference is the fact that the player can pick up coins along the racetrack (which do nothing besides adding to the score). The only other change was an added SUPER mode, which gave the player infinite boost.</desc>
+		<image>./images/Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (BS SoundLink)-image.png</image>
+		<thumbnail>./images/Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (BS SoundLink)-thumb.png</thumbnail>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving / Race</genre>
+		<players>2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>4dbb2cb2da2057586f8d0f06c6ae7315</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="109025">
+		<path>./Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (BS SoundLink).sfc</path>
+		<name>Excitebike - Bun Bun Mario Battle</name>
+		<desc>BS Excitebike Bun Bun Mario Stadium was the a game released in four downloadable versions on the Satellaview download service. The game is also known as Mario Excitebike. It was released for the Satellaview in 1996 only in Japan, and is the obscure sequel to the NES game Excitebike. Each version added a number of new characters, eventually adding up to six characters in all. The game plays similarly to Excitebike on the NES, although it does have a couple differences. One difference is the fact that the player can pick up coins along the racetrack (which do nothing besides adding to the score). The only other change was an added SUPER mode, which gave the player infinite boost.</desc>
+		<image>./images/Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (BS SoundLink)-image.png</image>
+		<thumbnail>./images/Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (BS SoundLink)-thumb.png</thumbnail>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving / Race</genre>
+		<players>2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>6c5c2343d96bc234a3d8cd37b37b9515</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38813">
+		<path>./Golf Daisuki! O.B. Club (Japan) (BS).sfc</path>
+		<name>Golf Daisuki! O.b. Club</name>
+		<desc>Golf Daisuki! O.B. Club is a view-limited Downloadable golfing game for the Satellaview initially running between August 10, 1997 and August 23, 1997. The game was rebroadcast for at least 4 runs ending in March 30, 1998.
+Electronic Gaming Monthly magazine produced a preview of this game. Their preview had an English-language logo even though the game was never released in the USA in any form.</desc>
+		<image>./images/Golf Daisuki! O.B. Club (Japan) (BS)-image.png</image>
+		<thumbnail>./images/Golf Daisuki! O.B. Club (Japan) (BS)-thumb.png</thumbnail>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>64cc98482de6fab9b750464b5f2a3d35</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="19096">
+		<path>./Kaizou Chounin Shubibinman Zero (Japan) (BS).sfc</path>
+		<name>Kaizou Choujin Shubibinman Zero</name>
+		<desc>A sequel to the Shubibinman Turbografx action platformers developed exclusively for the SNES.
+
+A new gang of cyborg-enhanced goons threatens peace in the city, so "Doc" decides to test his newest creations: Raita and Azuki, by sending them to destroy all the baddies and restore peace.
+
+The game plays as an 2D action platformer as previous entries in the series, in which you proceed through each stage pummeling enemies and collecting power-ups to enhance your powers. Now for the first time each character has unique abilities and attacks, furthermore each character has a charging attack that can be used to energize your partner thus encouraging teamplay in the two-player cooperative mode.</desc>
+		<image>./images/Kaizou Chounin Shubibinman Zero (Japan) (BS)-image.png</image>
+		<thumbnail>./images/Kaizou Chounin Shubibinman Zero (Japan) (BS)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>30/06/2017</releasedate>
+		<developer>Masaya Games</developer>
+		<publisher>Columbus Circle</publisher>
+		<players>1-2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>3f17a37f25266bbd6e37ebfe12108319</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="126167">
+		<path>./Kirby no Omochabako - Hoshi Kuzushi (Japan) (BS).sfc</path>
+		<name>Kirby No Omochabako - Hoshi Kuzushi</name>
+		<image>./images/Kirby no Omochabako - Hoshi Kuzushi (Japan) (BS)-image.png</image>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>81b0f5ef9e0d42656f7a874b9a7da0dc</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="126192">
+		<path>./Konae-chan no Dokidoki Penguin Kazoku (Japan) (BS).sfc</path>
+		<name>Konae-chan No Dokidoki Penguin Kazoku</name>
+		<desc>Konae-chan no DokiDoki Pengin Kazoku is a Downloadable Event Game developed by Pax Softnica for the Satellaview. It stars Konae and was distributed as a tie in to the Radio Program "If Tomorrow Comes...".</desc>
+		<image>./images/Konae-chan no Dokidoki Penguin Kazoku (Japan) (BS)-image.png</image>
+		<thumbnail>./images/Konae-chan no Dokidoki Penguin Kazoku (Japan) (BS)-thumb.png</thumbnail>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>66b7cab6599dd0bf840baddb2a2e5fe7</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="38655">
+		<path>./BS Super Mario USA - Power Challenge - Dai-4-kai (Japan) (BS SoundLink).sfc</path>
+		<name>Bs Super Mario Usa Power Challenge</name>
+		<desc>BS Super Mario USA Power Challenge is an ura- or gaiden-version of Super Mario Bros. 2 for the Satellaview system featuring graphical enhancements similar to its Super Mario All-Stars version. While the underlying gameplay itself is largely similar, some content has been rearranged and new content has been added. The game was released in four installments, in each of which the player is sent to a different SMB2 "World" to collect the Gold Mario Statues located in each level, defeat the boss, and then find and beat Wart, who can be battled in any world when going down in any vase while the player is in Subspace. The player can select the levels in any order and return to the levels as often as desired until the "episode" ends at around 50 minutes on the clock. The player starts the game as Mario, and character changing is forced in timed events. A points system was added. Points can be gained, among other things, by defeating enemies in various ways.</desc>
+		<image>./images/BS Super Mario USA - Power Challenge - Dai-4-kai (Japan) (BS SoundLink)-image.png</image>
+		<releasedate>01/01/1996</releasedate>
+		<developer>Nintendo EAD</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<family>Super Mario Bros</family>
+		<players>1</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f08e24ffd1c2b1f0c85cd81ba72c66bd</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="109025">
+		<path>./Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (xxxx-02-08) (BS SoundLink).sfc</path>
+		<name>Excitebike - Bun Bun Mario Battle</name>
+		<desc>BS Excitebike Bun Bun Mario Stadium was the a game released in four downloadable versions on the Satellaview download service. The game is also known as Mario Excitebike. It was released for the Satellaview in 1996 only in Japan, and is the obscure sequel to the NES game Excitebike. Each version added a number of new characters, eventually adding up to six characters in all. The game plays similarly to Excitebike on the NES, although it does have a couple differences. One difference is the fact that the player can pick up coins along the racetrack (which do nothing besides adding to the score). The only other change was an added SUPER mode, which gave the player infinite boost.</desc>
+		<image>./images/Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (xxxx-02-08) (BS SoundLink)-image.png</image>
+		<thumbnail>./images/Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (xxxx-02-08) (BS SoundLink)-thumb.png</thumbnail>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving / Race</genre>
+		<players>2</players>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>ca0811ec969841eaba612c2b59b076d8</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="126197">
+		<path>./Mario Paint - Yuushou Naizou Ban (Japan) (BS).sfc</path>
+		<name>Mario Paint - Yuushou Naizou Ban</name>
+		<image>./images/Mario Paint - Yuushou Naizou Ban (Japan) (BS)-image.png</image>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>fb7adb28d74f2f1c56998d527b5be6bb</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="126199">
+		<path>./New Yatterman - Nandai Kandai Yajirobee (Japan) (BS) [b].sfc</path>
+		<name>New Yatterman - Nandai Kandai Yajirobee</name>
+		<desc>New Yatterman: Nandai Kandai Yajirobee is a multiplayer-focused game for the Super Famicom that is based on the 1970s Yatterman anime franchise.
+
+Yatterman features a team of three heroes, all called Yatterman, who attempt to beat the supervillain team Doronbo (also a group of three) to a set of skull coins which will reveal the way to a giant treasure horde. The heroes often use toys and mechs to defeat their incompetent opponents, such as the male protagonist's kendamagic.
+
+The game is similar to First Star's Spy vs. Spy series, in that both teams are attempting to reach the treasure first. They can trip up their opponents via a number of traps, some of which have conditional uses. By burying mines and setting off missiles, the player can whittle down the health of their opponents as well as keep them off their tracks. If the two teams meet, they fight each other in a three-on-three tag team battle with the losing side taking a large hit to their health. The game can be played single-player (as either the Yatterman team or the Doronbo team) or multiplayer.</desc>
+		<image>./images/New Yatterman - Nandai Kandai Yajirobee (Japan) (BS) [b]-image.png</image>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>69d367cc4664d1f579315578dbc1534e</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65289">
+		<path>./Panel de Pon - Event '98 (Japan) (BS).sfc</path>
+		<name>Panel De Pon - Event '98</name>
+		<desc>Panel de Pon Event '98 is a Downloadable game for the Satellaview that was broadcast on January 31, 1998, it is a slightly modified event version of the game Panel de Pon.</desc>
+		<image>./images/Panel de Pon - Event '98 (Japan) (BS)-image.png</image>
+		<thumbnail>./images/Panel de Pon - Event '98 (Japan) (BS)-thumb.png</thumbnail>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>cb2aee8e56fa50bbc4e4d9a1494c4699</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65295">
+		<path>./Shanghai - Banri no Choujou (Japan) (BS).sfc</path>
+		<name>Shanghai - Banri No Choujou</name>
+		<desc>Shanghai: Banri no Choujou is a view-limited Downloadable game for the Satellaview that was broadcast between November 15, 1998 and November 28, 1998.</desc>
+		<image>./images/Shanghai - Banri no Choujou (Japan) (BS)-image.png</image>
+		<genre>Asiatic board game</genre>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>2172e624fbb095c53e130221740c7b37</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65300">
+		<path>./Special Tee Shot (Japan) (BS).sfc</path>
+		<name>Special Tee Shot</name>
+		<desc>BS Special Tee Shot is a game that was planned to be released on the SNES, though eventually was just made exclusively for the Super Famicom's Satellaview service. The game was later retooled and made into the game that is known as Kirby's Dream Course. It is unknown why the game was remade to feature Kirby characters, though it's presumed that it as because Nintendo thought that the game would prove more successful with a well known brand behind it.
+The Satellaview video game had unique characters rather than already developed ones. Overall, however, the player character was uninspiring as it was simply just a red sphere that bounced around. Despite the fact that the game would be remade to feature Kirby characters, there are dramatic differences between the two titles, including the overall gameplay concept and levels. For example, in this game, the goal was simply to shoot the ball in the hole, while in the Kirby game you want to crash into enemies to destroy them. However, despite this, the games still share many similarities, such as graphics and the overall way the player controls the ball.
+
+Interestingly, Special Tee Shot was featured not only in magazines but also on the back of SNES packages as advertisements before ultimately being cancelled and brought back with Kirby characters. It should also be noted that before being titled Kirby's Dream Course, the game was officially called Kirby's Tee Shot.</desc>
+		<image>./images/Special Tee Shot (Japan) (BS)-image.png</image>
+		<thumbnail>./images/Special Tee Shot (Japan) (BS)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>25/04/1999</releasedate>
+		<developer>HAL Laboratory</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Sports / Golf</genre>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>05ab2908f7e96fb6681727ddc129b4e1</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65311">
+		<path>./Sutte Hakkun - 98 Fuyu Event Version (Japan) (BS) 14-04-50-178.sfc</path>
+		<name>Sutte Hakkun - 98 Fuyu Event Version</name>
+		<desc>Sutte Hakkun BS Version 2 is a platform/puzzle game that was released in 1998 in Japan. As the game's title implies, it is a sequel of sorts to the earlier Sutte Hakkun (Nov. 1997) and Sutte Hakkun Event Version (Oct. 1997). A later titles in the same series, Sutte Hakkun '98 (Dec. 1998) followed a month after the broadcast of Sutte Hakkun Version 2</desc>
+		<image>./images/Sutte Hakkun - 98 Fuyu Event Version (Japan) (BS) 14-04-50-178-image.png</image>
+		<thumbnail>./images/Sutte Hakkun - 98 Fuyu Event Version (Japan) (BS) 14-04-50-178-thumb.png</thumbnail>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>b5f98a3cf4f345f948cc8db8d2eb77cb</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65312">
+		<path>./Sutte Hakkun - BS Version 2 (Japan) (xxxx-06-03) (BS).sfc</path>
+		<name>Sutte Hakkun - Bs Version 2</name>
+		<desc>Sutte Hakkun BS Version 2 is a platform/puzzle game that was released in 1998 in Japan. As the game's title implies, it is a sequel of sorts to the earlier Sutte Hakkun (Nov. 1997) and Sutte Hakkun Event Version (Oct. 1997). A later titles in the same series, Sutte Hakkun '98 (Dec. 1998) followed a month after the broadcast of Sutte Hakkun Version 2</desc>
+		<image>./images/Sutte Hakkun - BS Version 2 (Japan) (xxxx-06-03) (BS)-image.png</image>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>ecabe007d8b86a546e92b3a910d1c570</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65311">
+		<path>./Sutte Hakkun - Event Version (Japan) (BS).sfc</path>
+		<name>Sutte Hakkun - 98 Fuyu Event Version</name>
+		<desc>Sutte Hakkun BS Version 2 is a platform/puzzle game that was released in 1998 in Japan. As the game's title implies, it is a sequel of sorts to the earlier Sutte Hakkun (Nov. 1997) and Sutte Hakkun Event Version (Oct. 1997). A later titles in the same series, Sutte Hakkun '98 (Dec. 1998) followed a month after the broadcast of Sutte Hakkun Version 2</desc>
+		<image>./images/Sutte Hakkun - Event Version (Japan) (BS)-image.png</image>
+		<thumbnail>./images/Sutte Hakkun - Event Version (Japan) (BS)-thumb.png</thumbnail>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>26603b9ca7a789ead6894262f5714ab4</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65313">
+		<path>./Table Game Daisyugo!! Shougi Mahjong Hanafuda (Japan) (BS).sfc</path>
+		<name>Table Game Daisyugo!! Shougi Mahjong Hanafuda</name>
+		<image>./images/Table Game Daisyugo!! Shougi Mahjong Hanafuda (Japan) (BS)-image.png</image>
+		<genre>Asiatic board game / Hanafuda</genre>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>c82883ee4cbcf978bc9085d87ff70e25</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="126200">
+		<path>./Undake 30 Same Game Daisakusen - Mario Version (Japan) (BS).sfc</path>
+		<name>Same Game</name>
+		<image>./images/Undake 30 Same Game Daisakusen - Mario Version (Japan) (BS)-image.png</image>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>f5fe0c5154a3ecf6ec1d0e279cede468</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+	<game id="65317">
+		<path>./Waiwai Check 3-21 Saihousou + Yuki no Waiwai Kids 3-16 Ban (Japan) (BS).sfc</path>
+		<name>Waiwai Check 3</name>
+		<desc>WaiWai Check is a Downloadable Digital Magazine that was broadcast in at least 3 segments for the Satellaview in 1995.</desc>
+		<image>./images/Waiwai Check 3-21 Saihousou + Yuki no Waiwai Kids 3-16 Ban (Japan) (BS)-image.png</image>
+		<playcount></playcount>
+		<lastplayed></lastplayed>
+		<md5>9d531acb20f61b40f59427a9b23009bc</md5>
+		<gametime></gametime>
+		<lang>jp</lang>
+		<region>jp</region>
+	</game>
+</gameList>
