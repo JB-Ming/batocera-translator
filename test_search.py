@@ -28,8 +28,10 @@ soup = BeautifulSoup(html, 'html.parser')
 print("\n所有包含中文的文字片段:")
 print("-" * 60)
 
-for i, text_elem in enumerate(soup.find_all(['h3', 'span', 'div', 'p']), 1):
+count = 0
+for text_elem in soup.find_all(['h3', 'span', 'div', 'p']):
     text = text_elem.get_text().strip()
     if re.search(r'[\u4e00-\u9fff]', text) and len(text) > 0:
-        if i <= 30:  # 只顯示前30個
-            print(f"\n[{i}] {text[:200]}")
+        count += 1
+        if count <= 50:  # 顯示前50個
+            print(f"\n[{count}] {text[:300]}")

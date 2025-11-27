@@ -328,6 +328,20 @@ class GamelistTranslator:
 
         candidates = {}
 
+        # 優先從 h1, h2, h3 標題提取 (通常是頁面主標題)
+        for heading in soup.find_all(['h1', 'h2', 'h3']):
+            text = heading.get_text().strip()
+
+            # 尋找包含中英文的標題格式: "中文名稱 (English Name)"
+            # 例如: "動物森友會 快樂之家設計師 (Animal Crossing: Happy Home Designer)"
+            match = re.search(r'([^\(]+)\s*\([^)]*' + re.escape(original_name.replace(
+                '-', '').replace(':', '')) + r'[^)]*\)', text, re.IGNORECASE)
+            if match:
+                chinese_part = match.group(1).strip()
+                if self.contains_chinese(chinese_part) and not is_blacklisted(chinese_part):
+                    candidates[chinese_part] = candidates.get(
+                        chinese_part, 0) + 10
+
         # 尋找所有文字內容
         for text_elem in soup.find_all(['h3', 'span', 'div', 'p']):
             text = text_elem.get_text()
@@ -379,9 +393,8 @@ class GamelistTranslator:
             print(f"  >> 字典查詢: {clean_name} -> {translation}")
             return translation
 
-        # Google 搜尋
-        platform_name = PLATFORM_NAMES.get(platform, platform)
-        query = f"{clean_name} {platform_name} 遊戲 中文"
+        # Google 搜尋 - 簡化搜尋詞提高準確度
+        query = clean_name
         print(f"  >> Google搜尋中...", end='', flush=True)
 
         html = self.search_google(query)

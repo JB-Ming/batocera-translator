@@ -148,9 +148,9 @@ def translate_platform(platform_info, config):
             search_delay=0.5  # 縮短延遲時間
         )
 
-        # 使用本機檔案翻譯 (限制前 10 個遊戲)
+        # 使用本機檔案翻譯 (翻譯全部遊戲)
         translator.update_gamelist(
-            str(temp_gamelist), platform_name, dry_run=False, limit=10)
+            str(temp_gamelist), platform_name, dry_run=False, limit=0)
 
         # 4. 直接複製回 Batocera (透過 Windows 路徑)
         print("  [3/4] 寫回 Batocera...")
