@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+    <game>
+        <path>./Super Mario Bros.nes</path>
+        <name>超級瑪利歐兄弟</name>
+        <desc>A classic platformer game where Mario must rescue Princess Peach from Bowser.</desc>
+        <developer>Nintendo</developer>
+        <publisher>Nintendo</publisher>
+        <releasedate>19850913T000000</releasedate>
+        <genre>Platform</genre>
+    </game>
+    <game>
+        <path>./Contra.nes</path>
+        <name>魂斗羅</name>
+        <desc>A run and gun action game with intense shooting gameplay.</desc>
+        <developer>Konami</developer>
+        <publisher>Konami</publisher>
+        <releasedate>19880209T000000</releasedate>
+        <genre>Action</genre>
+    </game>
+    <game>
+        <path>./The Legend of Zelda.nes</path>
+        <name>薩爾達傳說</name>
+        <desc>An action-adventure game where Link must rescue Princess Zelda and save Hyrule.</desc>
+        <developer>Nintendo</developer>
+        <publisher>Nintendo</publisher>
+        <releasedate>19860221T000000</releasedate>
+        <genre>Action-Adventure</genre>
+    </game>
+    <game>
+        <path>./Mega Man 2.nes</path>
+        <name>洛克人2</name>
+        <desc>The second game in the Mega Man series featuring Dr. Wily's Robot Masters.</desc>
+        <developer>Capcom</developer>
+        <publisher>Capcom</publisher>
+        <releasedate>19881224T000000</releasedate>
+        <genre>Action-Platform</genre>
+    </game>
+    <game>
+        <path>./Castlevania.nes</path>
+        <name>惡魔城</name>
+        <desc>Simon Belmont battles Dracula and his minions in this gothic action platformer.</desc>
+        <developer>Konami</developer>
+        <publisher>Konami</publisher>
+        <releasedate>19860921T000000</releasedate>
+        <genre>Action-Platform</genre>
+    </game>
+</gameList>
