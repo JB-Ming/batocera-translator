@@ -1,0 +1,52 @@
+"""
+測試用的範例 gamelist.xml
+"""
+
+sample_gamelist = """<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./SuperMarioBros.nes</path>
+    <name>Super Mario Bros (USA)</name>
+    <desc>A classic platformer game where Mario rescues Princess Peach.</desc>
+    <image>./images/SuperMarioBros-image.png</image>
+    <rating>0.95</rating>
+    <releasedate>19850913T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <players>2</players>
+  </game>
+  
+  <game>
+    <path>./Contra.nes</path>
+    <name>Contra (USA) [!]</name>
+    <desc>Run and gun action game with two players co-op.</desc>
+    <image>./images/Contra-image.png</image>
+    <rating>0.90</rating>
+    <releasedate>19880209T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Action</genre>
+    <players>2</players>
+  </game>
+  
+  <game>
+    <path>./Zelda.nes</path>
+    <name>The Legend of Zelda (USA) (Rev 1)</name>
+    <desc>Adventure game with puzzles and exploration.</desc>
+    <image>./images/Zelda-image.png</image>
+    <rating>0.98</rating>
+    <releasedate>19870222T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Adventure</genre>
+    <players>1</players>
+  </game>
+</gameList>
+"""
+
+# 將範例寫入檔案
+if __name__ == "__main__":
+    with open("sample_gamelist.xml", "w", encoding="utf-8") as f:
+        f.write(sample_gamelist)
+    print("✓ 已建立 sample_gamelist.xml")

@@ -1,0 +1,14 @@
+{
+  "_comment": "這是預設設定檔範本，實際使用時會由程式自動產生 gui_config.json",
+  "roms_path": "",
+  "translations_dir": "translations",
+  "display_mode": "chinese_only",
+  "translate_desc": true,
+  "max_length": 100,
+  "api_choice": "googletrans",
+  "api_key": "",
+  "search_delay": 2.0,
+  "auto_backup": true,
+  "show_report": true,
+  "log_level": "INFO"
+}
