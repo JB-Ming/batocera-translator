@@ -308,22 +308,52 @@ class GamelistTranslator:
             return None
 
         soup = BeautifulSoup(html, 'html.parser')
+
+        # 擴展黑名單：排除這些詞和包含這些關鍵字的句子
+        blacklist = {'請按一下這裡', '請按此處', '點擊這裡', '點此', '更多資訊',
+                     '查看更多', '閱讀更多', '繼續閱讀', '了解更多', '系統', '重新導向',
+                     '數秒鐘', '頁面', '網站', '連結', '存取', '瀏覽器'}
+
+        # 黑名單關鍵字 - 包含任一關鍵字就排除整個句子
+        blacklist_keywords = ['系統', '重新導向', '數秒鐘', '請按', '點擊', '點此', '連結']
+
+        def is_blacklisted(text):
+            """檢查文字是否在黑名單中或包含黑名單關鍵字"""
+            if text in blacklist:
+                return True
+            for keyword in blacklist_keywords:
+                if keyword in text:
+                    return True
+            return False
+
         candidates = {}
 
         # 尋找所有文字內容
         for text_elem in soup.find_all(['h3', 'span', 'div', 'p']):
             text = text_elem.get_text()
 
-            # 尋找書名號內的內容
+            # 過濾掉黑名單句子
+            if is_blacklisted(text):
+                continue
+
+            # 尋找書名號內的內容（最高優先級）
             matches = re.findall(r'《([^》]+)》', text)
             for match in matches:
-                if self.contains_chinese(match):
-                    candidates[match] = candidates.get(match, 0) + 3  # 書名號內容加分
+                if self.contains_chinese(match) and not is_blacklisted(match):
+                    candidates[match] = candidates.get(match, 0) + 5
+
+            # 尋找「中文名：XXX」或「中文譯名：XXX」格式
+            title_matches = re.findall(
+                r'(?:中文名|中文譯名|譯名)[：:](.*?)(?:[，。；]|$)', text)
+            for match in title_matches:
+                match = match.strip()
+                if self.contains_chinese(match) and not is_blacklisted(match):
+                    candidates[match] = candidates.get(match, 0) + 4
 
             # 尋找包含中文的片段
             chinese_parts = re.findall(r'[\u4e00-\u9fff]+', text)
             for part in chinese_parts:
-                if 4 <= len(part) <= 15:  # 長度適中
+                if 3 <= len(part) <= 20 and not is_blacklisted(part):
                     candidates[part] = candidates.get(part, 0) + 1
 
         if not candidates:
@@ -362,20 +392,17 @@ class GamelistTranslator:
         print(f" 完成", flush=True)
 
         if chinese_name:
-            print(f"  >> 找到翻譯: {clean_name} -> {chinese_name}")
+            print(f"  -> {chinese_name}")
             # 加入本地快取
             self.local_cache["names"][clean_name] = chinese_name
             self.save_local_cache()
 
-            # 延遲避免被封鎖
+            # 短暫延遲避免被封鎖(不顯示進度)
             if self.search_delay > 0:
-                print(f"  >> 等待 {self.search_delay} 秒避免被封鎖...",
-                      end='', flush=True)
                 time.sleep(self.search_delay)
-                print(f" 完成", flush=True)
             return chinese_name
         else:
-            print(f"  >> 找不到翻譯,保持原名: {clean_name}")
+            print(f"  -> 保持原名")
             return clean_name
 
     def translate_description(self, description: str, platform: str) -> str:
@@ -456,13 +483,12 @@ class GamelistTranslator:
         updated = 0
 
         for idx, game in enumerate(games, 1):
-            print(f"[{idx}/{total}] ", end='', flush=True)
             name_elem = game.find('name')
             desc_elem = game.find('desc')
 
             if name_elem is not None and name_elem.text:
                 original_name = name_elem.text
-                print(f"{original_name}")
+                print(f"\n[{idx}/{len(games)}] {original_name}")
                 clean_name = self.clean_game_name(original_name)
 
                 # 翻譯名稱
@@ -473,7 +499,7 @@ class GamelistTranslator:
                 if not dry_run:
                     name_elem.text = formatted_name
 
-                print(f"  結果: {formatted_name}\n")
+                print(f"  最終: {formatted_name}")
                 updated += 1
 
                 # 翻譯描述
@@ -485,7 +511,11 @@ class GamelistTranslator:
 
                     if not dry_run and translated_desc != original_desc:
                         desc_elem.text = translated_desc
-                    print(" 完成\n", flush=True)
+
+                    if translated_desc != original_desc:
+                        print(f" {translated_desc[:50]}...", flush=True)
+                    else:
+                        print(" 保持原文", flush=True)
 
         # 儲存檔案
         if not dry_run:

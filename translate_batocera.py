@@ -145,41 +145,27 @@ def translate_platform(platform_info, config):
             display_mode=config.get('display_mode', 'chinese_only'),
             translate_desc=config.get('translate_desc', True),
             max_name_length=config.get('max_length', 100),
-            search_delay=config.get('search_delay', 2.0)
+            search_delay=0.5  # 縮短延遲時間
         )
 
         # 使用本機檔案翻譯 (限制前 10 個遊戲)
         translator.update_gamelist(
             str(temp_gamelist), platform_name, dry_run=False, limit=10)
 
-        # 4. 複製回 Batocera (使用 WSL)
+        # 4. 直接複製回 Batocera (透過 Windows 路徑)
         print("  [3/4] 寫回 Batocera...")
-        wsl_target = gamelist_path.replace(
-            "\\\\wsl$\\Ubuntu", "").replace("\\", "/")
-
-        # 將 Windows 路徑轉換為 WSL 路徑 (D:\... -> /mnt/d/...)
-        win_temp = str(temp_gamelist.absolute())
-        if ":" in win_temp:
-            drive = win_temp[0].lower()
-            wsl_temp = f"/mnt/{drive}/{win_temp[3:]}".replace("\\", "/")
-        else:
-            wsl_temp = win_temp.replace("\\", "/")
-
-        # 使用 WSL 複製檔案 (需要 sudo 因為檔案屬於 root)
-        cmd = f'wsl sudo cp "{wsl_temp}" "{wsl_target}"'
-        result = subprocess.run(
-            cmd, shell=True, capture_output=True,
-            text=True, encoding='utf-8', errors='ignore'
-        )
-
-        if result.returncode == 0:
-            print(f"  [4/4] [OK] 翻譯完成並寫回 Batocera!")
-            # 清理臨時檔案
+        try:
+            shutil.copy2(temp_gamelist, gamelist_path)
+            print("  [4/4] [OK] 翻譯完成並寫回!")
             temp_gamelist.unlink()
             return True
-        else:
-            print(f"  [X] 寫回失敗: {result.stderr}")
-            print(f"  翻譯後的檔案保存在: {temp_gamelist}")
+        except PermissionError:
+            print("  [X] 權限不足")
+            print(f"  本機檔案: {temp_gamelist}")
+            return False
+        except Exception as copy_error:
+            print(f"  [X] 寫回失敗: {copy_error}")
+            print(f"  檔案保存在: {temp_gamelist}")
             return False
 
     except Exception as e:

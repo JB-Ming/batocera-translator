@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0"?>
 <gameList>
 	<provider>
 		<system>3ds</system>
@@ -7,13 +7,15 @@
 	</provider>
 	<game id="12043">
 		<path>./Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted.3ds</path>
-		<name>請按一下這裡</name>
+		<name>Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted</name>
 		<sortname>05 =-  Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted</sortname>
-		<desc>為所有你最喜歡的《動物之森》村民設計家園，展示你的風格！發揮您的創造力，為新老朋友設計從內到外的完美房屋。使用新的 amiibo 卡，您可以召喚您最喜歡的村民進入遊戲。
-特點：
-為動物村民設計數百個房屋的內部和外部
-為學校、醫院和其他公共設施留下您的裝飾風格
-收集並連接 - 收集並分享您最喜歡的 amiibo 卡...</desc>
+		<desc>Show off your style by designing homes for all of your favorite Animal Crossing villagers! Use your creativity to design the perfect houses - inside and out - for both old and new friends. With the new amiibo cards, you can call your favorite villagers into the game.
+Features:
+Design the interior and exterior of hundreds of homes for animal villagers
+Leave your decorative touch on the school, hospital and other public facilities
+Collect and Connect - Collect and share amiibo cards of your favorite villagers, and invite them into your game
+Tap amiibo cards to invite up to four characters into a room to hang out
+Tap the amiibo cards of special characters to call in animals that would otherwise not appear in your game with requests</desc>
 		<rating>0.5</rating>
 		<releasedate>20150925T000000</releasedate>
 		<developer>Nintendo</developer>
@@ -30,11 +32,11 @@
 	</game>
 	<game id="11971">
 		<path>./Hello Kitty Happy Happy Family (Europe).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Hello Kitty Happy Happy Family (Europe)</name>
 		<sortname>36 =-  Hello Kitty Happy Happy Family (Europe)</sortname>
-		<desc>與凱蒂和她的全家人一起玩耍。
-通過 25 個有趣的研討會，邊學習邊享受樂趣。
-為凱蒂和咪咪收集數百張圖像和偽裝！</desc>
+		<desc>Play with Kitty and her entire family.
+Learn while having fun with 25 entertaining workshops.
+Collect hundreds of images and disguises for Kitty and Mimmy!</desc>
 		<developer>Bigben Interactive</developer>
 		<publisher>Bigben Interactive</publisher>
 		<genre>Various</genre>
@@ -48,10 +50,10 @@
 	</game>
 	<game id="176339">
 		<path>./Poochy &amp; Yoshi's Woolly World (USA).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Poochy &amp; Yoshi's Woolly World (USA)</name>
 		<sortname>62 =-  Poochy &amp; Yoshi's Woolly World (USA)</sortname>
-		<desc>當您引導 Yarn Yoshi 或 Yarn Poochy 通過巧妙的橫向捲軸關卡時，探索充滿創意的手工藝世界。解開秘密，將紗線扔到編織平台上，並通過羊毛變形來增強力量。Wii U 版本的所有關卡均加入了由 Poochy 主演的新關卡以及更多 Nintendo 3DS 獨有功能！
-在新的 Poochy 關卡中，這是一次瘋狂的珠子衝刺：躲避樹樁，衝破雪路，追逐拉基圖，並挖掘隱藏的道路和物品。嗅出秘密...</desc>
+		<desc>Discover a handicraft world bursting at the seams with creativity, as you guide Yarn Yoshi or Yarn Poochy through clever side-scrolling stages. Unravel secrets, toss yarn to weave platforms, and power up with woolly transformations. All stages from the Wii U version are joined by new ones starring Poochy and more Nintendo 3DS exclusive features!
+It's a mad dash for beads in new Poochy stages: dodge stumps, mush down snowy paths, chase Lakitu, and unearth hidden paths and items. Sniffing out secrets is always a charm in Mellow Mode, thanks to the curious Poochy Pups. As you find collectables, you'll unlock rewards, from extra stages to new Patterned Yoshi. You can also design and play as your very own Yarn Yoshi, or share it with friends via the StreetPass function! When you want a break from exploring, peek into the lives of Yarn Poochy and Yarn Yoshi in 30 hilarious stop-motion shorts. It's time to get crafty!</desc>
 		<developer>Good-Feel</developer>
 		<publisher>Nintendo</publisher>
 		<genre>Puzzle-Game</genre>
@@ -65,10 +67,15 @@
 	</game>
 	<game id="11060">
 		<path>./Professor Layton and the Miracle Mask (Europe).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Professor Layton and the Miracle Mask (Europe)</name>
 		<sortname>63 =-  Professor Layton and the Miracle Mask (Europe)</sortname>
-		<desc>雷頓教授和盧克前往奇蹟小鎮蒙多爾尋找奇蹟面具。面具有能力實現佩戴者的願望。雷頓和盧克到達小鎮後發現為時已晚，一名神秘男子正在利用面具的力量將人們變成石頭。雷頓和盧克的任務是解開蒙多爾之謎和奇蹟面具。
-《雷頓教授》系列的第五款遊戲更多地利用物理按鈕控制來解決謎題……</desc>
+		<desc>Professor Layton and Luke head to the town of miracles, Montdol, in search of the Mask of Miracle. The mask has the ability to grant wishes to its wearer. Layton and Luke arrive at the town to see they are too late, as a mysterious man is using the power of the mask to turn people to stone. Layton and Luke task themselves with solving the mystery of Montdol and the Mask of Miracles.
+This fifth game in the Professor Layton series makes more use of the physical button controls for puzzle-solving as opposed to just the touchscreen. To take advantage of the hardware capabilities of the Nintendo 3DS, the characters are rendered in polygons outside of cutscenes, as opposed to sprites, in addition to other polishings of the interface.
+Beside the regular adventure where you traverse the town, talk to the characters and solve puzzles, there are several mini-games that get gradually unlocked as you play and find the unlockable items:
+ Bunny - after a while, you will stumble upon a circus bunny that isn't performing well and decide to help it along. This will require constant training of new moves which will become available over time as you acquire them. After you teach the bunny new moves, you will be able to instruct it to use those moves during the theatrical performances. Theatrical performances consist of a director telling you what the story is about and what he wants to see in each scene, and you will have to instruct bunny to act accordingly, providing you have taught it the moves necessary to perform the full play.
+ Robot - after you acquire a toy robot from one of the street vendors, you will be able to play levels that will become gradually available. Levels are rectangular in shape and you can move your robot left, right, up or down through the field of squares. Each movement uses some of the battery and you have to reach the end square before the battery depletes which still gives you a lot of time for trial and error. Single movement will move your robot by three steps unless it bumps into a wall or picks up some special items that may temporarily boost its power to eat through the wall and enemies that move in pre-defined patterns.
+ Shop - helping the friend in need, as a true gentleman, this mini-game will let you order the items in the store so that when customer comes to buy what he or she wants, the rest of the items also catch his/her eye and in turn you end up selling all your wares. Base item is initially set in the store, and you can place other items only adjacent to already placed items in the store. What will catch the eye of the customer after purchasing some item is the adjacent item that is either of the same type or of the same color. Placing two similar items might confuse the customer due to ambiguity which may lead the customer to stop buying after a while if the net remaining adjacent item has no connection to the last item he or she purchased.
+Beside mini-games there are many collectible items you can find during your exploration and some of the flashback sub-stories become available after certain key events which can then be watched as short episodes where characters vary from event to event, and might not even be one of the leading three characters.</desc>
 		<rating>0.9</rating>
 		<releasedate>20121028T000000</releasedate>
 		<developer>Level-5</developer>
@@ -84,9 +91,9 @@
 	</game>
 	<game id="11099">
 		<path>./Project X Zone (USA).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Project X Zone (USA)</name>
 		<sortname>64 =-  Project X Zone (USA)</sortname>
-		<desc>Project X Zone 由 Banpresto 和 Monolith Soft 開發，擁有來自日本最多產的三個視頻遊戲公司的 29 個歷史遊戲系列的 50 多個角色。在 Project X Zone 中，玩家將使用兩個角色組成的團隊（稱為“配對單位”）來探索遊戲中的世界。稱為單人單位的附加角色可以與配對單位組合，以協助單人攻擊的戰鬥，並增強玩家可以執行的攻擊。在整個比賽過程中，ep...</desc>
+		<desc>Developed by Banpresto and Monolith Soft, Project X Zone features over 50 characters from 29 historic game franchises by three of Japan's most prolific video game companies. In Project X Zone players will use a team of two characters known as a Pair Unit to explore the world within the game. An additional character known as a Solo Unit can be combined with the Pair Unit to assist in battles with Solo Attacks as well as augment the attacks available for players to execute. Throughout the game, epic battles are waiting to erupt at a moment's notice. Players will have to master an array of screen-busting moves including Solo Attacks, Support Attacks, Cross Hits, and Finishing Moves in order to defeat a multitude of foes</desc>
 		<rating>0.8</rating>
 		<releasedate>20121011T000000</releasedate>
 		<developer>Monolith Soft</developer>
@@ -102,9 +109,9 @@
 	</game>
 	<game id="12051">
 		<path>./Project X Zone 2 (USA).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Project X Zone 2 (USA)</name>
 		<sortname>65 =-  Project X Zone 2 (USA)</sortname>
-		<desc>在原創跨界 RPG 冒險的續集中，來自日本最多產的視頻遊戲發行商的傳奇人物齊聚一堂，創造了有史以來最大的混搭策略遊戲！Project X Zone 2 讓玩家有機會扮演眾多系列中他們最喜歡的角色，並組建來自經典和當前系列的角色團隊，並通過戰略回合製戰鬥與敵人交戰。</desc>
+		<desc>In the sequel to the original world-crossing RPG adventure, legendary characters from Japan's most prolific video game publishers come together to create the biggest mash-up strategy game ever! Project X Zone 2 gives gamers the opportunity to play as their favorite characters from a multitude of franchises and form teams of characters hailing from classic and current franchises and engage enemies through strategic turn-based battles.</desc>
 		<rating>0.6</rating>
 		<releasedate>20160216T000000</releasedate>
 		<developer>Capcom</developer>
@@ -120,9 +127,9 @@
 	</game>
 	<game id="176356">
 		<path>./Puzzler World 2012 3D (USA).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Puzzler World 2012 3D (USA)</name>
 		<sortname>66 =-  Puzzler World 2012 3D (USA)</sortname>
-		<desc>借助 Puzzler World 2012 3D，玩家可以在個人獎杯櫃中收集獎杯作為技能證明，收集提示標記以幫助解決棘手的線索和謎題，並教遊戲使用手寫識別功能記住單個字母和數字。通過使用新模式解鎖獎勵遊戲來增加更多的多樣性和更多的樂趣。通過挑戰模式進行額外的獎勵遊戲，例如絞刑吏、連環信、失踪的碎片等等。如需額外挑戰，請解鎖大師模式謎題......</desc>
+		<desc>With Puzzler World 2012 3D, players can collect trophies in a personal trophy cabinet as proof of skill, collect hint tokens for help on tricky clues and puzzles, and teach the game to remember individual letters and numbers using the handwriting recognition feature. Add more variety and hours of fun by unlocking bonus games with new modes. Take on additional bonus games such as Hangman, Chain Letters, Missing Piece, and more with Challenge mode. For an extra challenge, unlock Master mode puzzles to reveal a broad range of even tougher puzzles.</desc>
 		<genreid>0</genreid>
 		<md5>4c4226f730f616308fcc7852cfebbceb</md5>
 		<region>us</region>
@@ -133,11 +140,11 @@
 	</game>
 	<game id="176357">
 		<path>./Puzzler World 2013 (USA).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Puzzler World 2013 (USA)</name>
 		<sortname>67 =-  Puzzler World 2013 (USA)</sortname>
-		<desc>Puzzler World 2013 包含 1,200 多個腦筋急轉彎謎題，並推出了 Maze-a-Pix、Number Jig 和 Loko 等新遊戲。
-
-Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅的挑戰，玩家可以解鎖並測試自己。</desc>
+		<desc>Puzzler World 2013 features over 1,200 brain teasing puzzles and introduces new games such as Maze-a-Pix, Number Jig and Loko.
+ 
+Puzzler World 2013 takes Master Mode even further with new, tougher challenge that the player can unlock and test themselves against.</desc>
 		<genreid>0</genreid>
 		<md5>15859a610351d00f2191ef58537d2ca7</md5>
 		<region>us</region>
@@ -148,9 +155,9 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176358">
 		<path>./Rabbids - Travel in Time 3D (USA).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Rabbids - Travel in Time 3D (USA)</name>
 		<sortname>68 =-  Rabbids - Travel in Time 3D (USA)</sortname>
-		<desc>兔子們瘋了，這一次他們有一個萬無一失的計劃：回到過去併入侵人類歷史！與古怪的瘋兔一起沉浸在過去，重溫歷史上最偉大的時刻，比如火的發現、獅身人面像的斷鼻子或亞瑟的傳說。揭開瘋狂兔子如何造成嚴重破壞並改變歷史進程......</desc>
+		<desc>Rabbids are bwaaack and this time they have an infallible plan: travel back in time and invade human history! Plunge into the past with the wacky Rabbids and revisit the greatest moments of history like the discovery of fire, the broken nose of the Sphinx or the legend of Arthur. Uncover how Rabbids wreaked havoc and changed the course of history...</desc>
 		<developer>Ubisoft</developer>
 		<genre>Action</genre>
 		<genreid>0</genreid>
@@ -163,10 +170,10 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176368">
 		<path>./Rhythm Paradise Megamix (Europe).3ds</path>
-		<name>請按一下這裡</name>
+		<name>Rhythm Paradise Megamix (Europe)</name>
 		<sortname>69 =-  Rhythm Paradise Megamix (Europe)</sortname>
-		<desc>有節奏的遊戲樂趣，山羊吃蘿蔔，還有你按下按鈕聽過的最時髦的曲調？這裡一定是節奏天堂吧？超級混音。這個新鮮的組合擁有 70 多款節奏遊戲，包括新遊戲、粉絲最愛的混音遊戲以及美國首發遊戲。嘗試到達天堂世界，刺殺病毒、餵熊等等！只是不要錯過任何一個節拍。
-當你深入研究每一個搞笑的隨機活動時，你會被傳奇人物創造的引人入勝的配樂帶入節奏天堂的世界......</desc>
+		<desc>Rhythmic gaming bliss, goats eating turnips, and the funkiest tunes you?ve ever bashed a button to? This must be the Rhythm Heaven? Megamix. With 70+ rhythm games, including new ones, remixed fan-favorites, and US debuts, this fresh mix has it all. Try to reach Heaven World as you stab viruses, feed a bear, and more! Just don't miss a beat.
+As you dig into each hilariously random activity, you'll get pulled into the world of Rhythm Heaven by the riveting soundtrack, created with help from legendary music producer, Tsunku?. Hang out in a café to check out new rhythm games and chat with a drink-serving dog. Or feed your pet goat using a turnip-powered game machine! You can even visit a museum to enjoy the game's music and artwork. In the party mood? Then team up with three other players to take down challenges. Every time you encounter a player via the StreetPass? feature, you'll do battle with their punching robot. It's time to kick back! Heaven World is just a few head bops away.</desc>
 		<rating>0.95</rating>
 		<releasedate>20150611T000000</releasedate>
 		<developer>Nintendo</developer>
