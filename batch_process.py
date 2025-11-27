@@ -22,13 +22,90 @@ def load_config():
         return json.load(f)
 
 
+def generate_gamelist_from_roms(platform_dir):
+    """從遊戲檔案生成 gamelist.xml"""
+    # 支援的遊戲檔案副檔名
+    ROM_EXTENSIONS = {
+        '.zip', '.7z', '.rar',  # 壓縮檔
+        '.iso', '.cue', '.bin', '.img',  # 光碟映像
+        '.nes', '.smc', '.sfc', '.gba', '.gbc', '.gb',  # 任天堂
+        '.md', '.smd', '.gen', '.32x',  # SEGA
+        '.psx', '.pbp', '.chd',  # PlayStation
+        '.n64', '.z64', '.v64',  # N64
+        '.nds', '.3ds', '.cia',  # DS/3DS
+        '.wad', '.wbfs',  # Wii
+        '.gcz', '.gcm',  # GameCube
+        '.xex',  # Xbox
+        '.cso', '.dax',  # PSP
+        '.ws', '.wsc',  # WonderSwan
+        '.ngp', '.ngc',  # Neo Geo Pocket
+        '.a26', '.a52', '.a78',  # Atari
+        '.col',  # ColecoVision
+        '.int',  # Intellivision
+        '.jag', '.j64',  # Jaguar
+        '.lnx',  # Lynx
+        '.pce',  # PC Engine
+        '.sg', '.sc',  # SG-1000
+        '.vec',  # Vectrex
+        '.vb',  # Virtual Boy
+        '.tap', '.tzx', '.z80', '.sna',  # ZX Spectrum
+        '.d64', '.t64', '.prg',  # C64
+        '.adf', '.ipf', '.dms',  # Amiga
+        '.st', '.stx', '.msa',  # Atari ST
+        '.dsk', '.cas',  # MSX/Amstrad
+        '.p', '.81',  # ZX81
+        '.o', '.o2',  # Odyssey2
+        '.bin', '.a52',  # Atari 5200
+        '.rom',  # 通用
+    }
+    
+    # 掃描遊戲檔案
+    game_files = []
+    for ext in ROM_EXTENSIONS:
+        game_files.extend(platform_dir.glob(f"*{ext}"))
+    
+    if not game_files:
+        return None
+    
+    # 建立 XML 結構
+    root = ET.Element('gameList')
+    
+    for game_file in sorted(game_files):
+        # 移除副檔名作為遊戲名稱
+        game_name = game_file.stem
+        
+        # 移除常見的標籤 (如 (USA), [!], 等)
+        import re
+        game_name = re.sub(r'\s*[\(\[].*?[\)\]]', '', game_name)
+        game_name = game_name.strip()
+        
+        if not game_name:
+            game_name = game_file.stem
+        
+        # 建立 game 元素
+        game = ET.SubElement(root, 'game')
+        
+        path_elem = ET.SubElement(game, 'path')
+        path_elem.text = f"./{game_file.name}"
+        
+        name_elem = ET.SubElement(game, 'name')
+        name_elem.text = game_name
+        
+        # 加入空的 desc 元素供後續翻譯
+        desc_elem = ET.SubElement(game, 'desc')
+        desc_elem.text = ""
+    
+    return ET.ElementTree(root)
+
+
 def copy_all_gamelists(batocera_path, local_base):
     """
     步驟1: 複製所有 gamelist.xml 到本機
+    如果沒有 gamelist.xml,從遊戲檔案自動生成
     保持原本的資料夾結構
     """
     print("\n" + "="*60)
-    print("步驟 1: 複製所有 gamelist.xml 到本機")
+    print("步驟 1: 複製/生成所有 gamelist.xml 到本機")
     print("="*60)
 
     batocera_roms = Path(batocera_path)
@@ -36,43 +113,64 @@ def copy_all_gamelists(batocera_path, local_base):
     local_gamelists.mkdir(exist_ok=True)
 
     copied_files = []
+    generated_count = 0
 
     # 掃描所有平台
     for platform_dir in batocera_roms.iterdir():
         if not platform_dir.is_dir():
             continue
 
-        gamelist_path = platform_dir / "gamelist.xml"
-        if not gamelist_path.exists():
-            continue
-
         # 建立本機目錄
         local_platform_dir = local_gamelists / platform_dir.name
         local_platform_dir.mkdir(exist_ok=True)
-
-        # 複製檔案
+        
         local_gamelist = local_platform_dir / "gamelist.xml"
+        gamelist_path = platform_dir / "gamelist.xml"
+
         try:
-            shutil.copy2(gamelist_path, local_gamelist)
+            if gamelist_path.exists():
+                # 複製現有的 gamelist.xml
+                shutil.copy2(gamelist_path, local_gamelist)
+                print(f"  ✓ {platform_dir.name} (已複製)")
+            else:
+                # 從遊戲檔案生成 gamelist.xml
+                tree = generate_gamelist_from_roms(platform_dir)
+                if tree:
+                    xml_str = ET.tostring(tree.getroot(), encoding='unicode', method='xml')
+                    xml_content = f'<?xml version="1.0" encoding="utf-8"?>\n{xml_str}'
+                    
+                    with open(local_gamelist, 'w', encoding='utf-8') as f:
+                        f.write(xml_content)
+                    
+                    # 也寫一份到 Batocera
+                    with open(gamelist_path, 'w', encoding='utf-8') as f:
+                        f.write(xml_content)
+                    
+                    generated_count += 1
+                    print(f"  ✓ {platform_dir.name} (已生成 {len(tree.findall('.//game'))} 個遊戲)")
+                else:
+                    print(f"  - {platform_dir.name} (無遊戲檔案)")
+                    continue
+            
             copied_files.append({
                 'platform': platform_dir.name,
                 'source': str(gamelist_path),
                 'local': str(local_gamelist)
             })
-            print(f"  ✓ {platform_dir.name}")
         except Exception as e:
             print(f"  ✗ {platform_dir.name}: {e}")
 
-    print(f"\n共複製 {len(copied_files)} 個平台")
-
+    
+    print(f"\n共處理 {len(copied_files)} 個平台")
+    if generated_count > 0:
+        print(f"其中 {generated_count} 個平台自動生成了 gamelist.xml")
+    
     # 儲存複製清單
     manifest_path = local_gamelists / "manifest.json"
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump(copied_files, f, ensure_ascii=False, indent=2)
 
     return copied_files
-
-
 def extract_all_texts(copied_files):
     """
     步驟2: 提取所有需要翻譯的文字
