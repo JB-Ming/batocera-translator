@@ -45,4 +45,13 @@
         <releasedate>19860921T000000</releasedate>
         <genre>Action-Platform</genre>
     </game>
+    <game>
+        <path>./NinjaGaiden.nes</path>
+        <name>請按一下這裡</name>
+        <desc>An action platformer featuring ninja combat and cinematic storytelling.</desc>
+        <developer>Tecmo</developer>
+        <publisher>Tecmo</publisher>
+        <releasedate>19890310T000000</releasedate>
+        <genre>Action-Platform</genre>
+    </game>
 </gameList>

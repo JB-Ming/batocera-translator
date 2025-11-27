@@ -346,32 +346,39 @@ class GamelistTranslator:
         translation = self.lookup_translation(
             clean_name, platform, is_description=False)
         if translation:
-            print(f"✓ 從字典找到翻譯: {clean_name} → {translation}")
+            print(f"  >> 字典查詢: {clean_name} -> {translation}")
             return translation
 
         # Google 搜尋
         platform_name = PLATFORM_NAMES.get(platform, platform)
         query = f"{clean_name} {platform_name} 遊戲 中文"
-        print(f"搜尋: {query}")
+        print(f"  >> Google搜尋中...", end='', flush=True)
 
         html = self.search_google(query)
+        print(f" 完成", flush=True)
+        
+        print(f"  >> 分析搜尋結果...", end='', flush=True)
         chinese_name = self.extract_chinese_name(html, clean_name)
+        print(f" 完成", flush=True)
 
         if chinese_name:
-            print(f"✓ 找到翻譯: {clean_name} → {chinese_name}")
+            print(f"  >> 找到翻譯: {clean_name} -> {chinese_name}")
             # 加入本地快取
             self.local_cache["names"][clean_name] = chinese_name
             self.save_local_cache()
+            
+            # 延遲避免被封鎖
+            if self.search_delay > 0:
+                print(f"  >> 等待 {self.search_delay} 秒避免被封鎖...", end='', flush=True)
+                time.sleep(self.search_delay)
+                print(f" 完成", flush=True)
             return chinese_name
         else:
-            print(f"✗ 找不到翻譯，保持原名: {clean_name}")
+            print(f"  >> 找不到翻譯,保持原名: {clean_name}")
             return clean_name
 
-        # 延遲避免被封鎖
-        time.sleep(self.search_delay)
-
     def translate_description(self, description: str, platform: str) -> str:
-        """翻譯遊戲描述（先查字典，再用 API）"""
+        """翻譯遊戲描述(使用 googletrans)"""
         if not description or self.contains_chinese(description):
             return description
 
@@ -381,10 +388,26 @@ class GamelistTranslator:
         if translation:
             return translation
 
-        # TODO: 整合翻譯 API (googletrans, Google Cloud, etc.)
-        # 目前先返回原文
-        print(f"描述翻譯功能待實作: {description[:50]}...")
-        return description
+        # 使用 googletrans 翻譯
+        try:
+            from googletrans import Translator
+            translator = Translator()
+            
+            # 限制描述長度避免翻譯太久
+            if len(description) > 500:
+                description = description[:500] + "..."
+            
+            result = translator.translate(description, src='en', dest='zh-tw')
+            translated = result.text
+            
+            # 儲存到快取
+            self.local_cache["descriptions"][description] = translated
+            self.save_local_cache()
+            
+            return translated
+        except Exception as e:
+            print(f" 翻譯失敗: {e}", flush=True)
+            return description
 
     def format_game_name(self, english_name: str, chinese_name: str) -> str:
         """根據顯示模式格式化遊戲名稱"""
@@ -405,27 +428,40 @@ class GamelistTranslator:
 
         return result
 
-    def update_gamelist(self, gamelist_path: str, platform: str, dry_run: bool = False):
-        """更新單一 gamelist.xml"""
-        print(f"\n處理平台: {platform.upper()}")
-        print(f"檔案: {gamelist_path}")
+    def update_gamelist(self, gamelist_path: str, platform: str, dry_run: bool = False, limit: int = 0):
+        """更新單一 gamelist.xml
+        
+        Args:
+            limit: 限制處理的遊戲數量,0 表示處理全部
+        """
+        print(f"\n>> 開始處理平台: {platform.upper()}")
+        print(f">> 讀取檔案: {gamelist_path}...", end='', flush=True)
 
         # 解析 XML
         tree = ET.parse(gamelist_path)
         root = tree.getroot()
+        print(" 完成", flush=True)
 
         games = root.findall('game')
         total = len(games)
+        
+        # 如果有限制,只處理指定數量
+        if limit > 0 and limit < total:
+            games = games[:limit]
+            print(f">> 限制處理前 {limit} 個遊戲 (總共 {total} 個)\n")
+        else:
+            print(f">> 共有 {total} 個遊戲需要處理\n")
+        
         updated = 0
 
-        print(f"共有 {total} 個遊戲\n")
-
         for idx, game in enumerate(games, 1):
+            print(f"[{idx}/{total}] ", end='', flush=True)
             name_elem = game.find('name')
             desc_elem = game.find('desc')
 
             if name_elem is not None and name_elem.text:
                 original_name = name_elem.text
+                print(f"{original_name}")
                 clean_name = self.clean_game_name(original_name)
 
                 # 翻譯名稱
@@ -436,34 +472,25 @@ class GamelistTranslator:
                 if not dry_run:
                     name_elem.text = formatted_name
 
-                print(f"[{idx}/{total}] {original_name} → {formatted_name}")
+                print(f"  結果: {formatted_name}\n")
                 updated += 1
 
                 # 翻譯描述
                 if self.translate_desc and desc_elem is not None and desc_elem.text:
                     original_desc = desc_elem.text
+                    print(f"  >> 翻譯描述...", end='', flush=True)
                     translated_desc = self.translate_description(
                         original_desc, platform)
 
                     if not dry_run and translated_desc != original_desc:
                         desc_elem.text = translated_desc
-
-                    if translated_desc != original_desc:
-                        print(
-                            f"    描述: {original_desc[:50]}... → {translated_desc[:50]}...")
+                    print(" 完成\n", flush=True)
 
         # 儲存檔案
         if not dry_run:
-            # 備份原始檔案
-            backup_path = gamelist_path + ".backup"
-            if not os.path.exists(backup_path):
-                import shutil
-                shutil.copy2(gamelist_path, backup_path)
-                print(f"\n✓ 已備份原始檔案: {backup_path}")
-
-            # 寫入新檔案
+            # 直接寫入新檔案(備份由外部處理)
             tree.write(gamelist_path, encoding='utf-8', xml_declaration=True)
-            print(f"✓ 已更新 {updated}/{total} 個遊戲")
+            print(f"[OK] 已更新 {updated}/{total} 個遊戲")
         else:
             print(f"\n[預覽模式] 將更新 {updated}/{total} 個遊戲")
 

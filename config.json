@@ -1,6 +1,7 @@
 {
-  "_comment": "這是預設設定檔範本，實際使用時會由程式自動產生 gui_config.json",
+  "_comment": "這是預設設定檔範本,實際使用時會由程式自動產生 gui_config.json",
   "roms_path": "",
+  "batocera_mount_path": "\\\\wsl$\\Ubuntu\\mnt\\wsl\\PHYSICALDRIVE2p2\\roms",
   "translations_dir": "translations",
   "display_mode": "chinese_only",
   "translate_desc": true,
