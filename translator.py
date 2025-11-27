@@ -356,7 +356,7 @@ class GamelistTranslator:
 
         html = self.search_google(query)
         print(f" 完成", flush=True)
-        
+
         print(f"  >> 分析搜尋結果...", end='', flush=True)
         chinese_name = self.extract_chinese_name(html, clean_name)
         print(f" 完成", flush=True)
@@ -366,10 +366,11 @@ class GamelistTranslator:
             # 加入本地快取
             self.local_cache["names"][clean_name] = chinese_name
             self.save_local_cache()
-            
+
             # 延遲避免被封鎖
             if self.search_delay > 0:
-                print(f"  >> 等待 {self.search_delay} 秒避免被封鎖...", end='', flush=True)
+                print(f"  >> 等待 {self.search_delay} 秒避免被封鎖...",
+                      end='', flush=True)
                 time.sleep(self.search_delay)
                 print(f" 完成", flush=True)
             return chinese_name
@@ -392,18 +393,18 @@ class GamelistTranslator:
         try:
             from googletrans import Translator
             translator = Translator()
-            
+
             # 限制描述長度避免翻譯太久
             if len(description) > 500:
                 description = description[:500] + "..."
-            
+
             result = translator.translate(description, src='en', dest='zh-tw')
             translated = result.text
-            
+
             # 儲存到快取
             self.local_cache["descriptions"][description] = translated
             self.save_local_cache()
-            
+
             return translated
         except Exception as e:
             print(f" 翻譯失敗: {e}", flush=True)
@@ -430,7 +431,7 @@ class GamelistTranslator:
 
     def update_gamelist(self, gamelist_path: str, platform: str, dry_run: bool = False, limit: int = 0):
         """更新單一 gamelist.xml
-        
+
         Args:
             limit: 限制處理的遊戲數量,0 表示處理全部
         """
@@ -444,14 +445,14 @@ class GamelistTranslator:
 
         games = root.findall('game')
         total = len(games)
-        
+
         # 如果有限制,只處理指定數量
         if limit > 0 and limit < total:
             games = games[:limit]
             print(f">> 限制處理前 {limit} 個遊戲 (總共 {total} 個)\n")
         else:
             print(f">> 共有 {total} 個遊戲需要處理\n")
-        
+
         updated = 0
 
         for idx, game in enumerate(games, 1):
