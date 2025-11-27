@@ -12,7 +12,6 @@ import threading
 import queue
 import json
 import os
-from pathlib import Path
 from datetime import datetime
 from translator import GamelistTranslator
 
@@ -31,8 +30,7 @@ class TranslatorGUI:
 
         # 設定變數
         self.roms_path = tk.StringVar()
-        self.translations_dir = tk.StringVar(
-            value=str(Path("translations").absolute()))
+        self.translations_dir = tk.StringVar(value="translations")  # 使用相對路徑
         self.display_mode = tk.StringVar(value="chinese_only")
         self.translate_desc = tk.BooleanVar(value=True)
         self.fuzzy_match = tk.BooleanVar(value=True)  # 模糊比對（預設開啟）

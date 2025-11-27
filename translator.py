@@ -12,6 +12,7 @@ Batocera Gamelist 自動翻譯工具 - 核心翻譯邏輯
 """
 
 import os
+import sys
 import json
 import time
 import re
@@ -20,6 +21,19 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 import requests
 from bs4 import BeautifulSoup
+
+
+def get_resource_path(relative_path: str) -> Path:
+    """取得資源檔案的絕對路徑（支援 PyInstaller 打包）"""
+    try:
+        # PyInstaller 建立的臨時資料夾
+        base_path = Path(sys._MEIPASS)
+    except AttributeError:
+        # 正常 Python 環境
+        base_path = Path(__file__).parent
+
+    return base_path / relative_path
+
 
 # 平台對照表
 PLATFORM_NAMES = {
@@ -87,7 +101,7 @@ class GamelistTranslator:
         初始化翻譯器
 
         Args:
-            translations_dir: 語系包目錄
+            translations_dir: 語系包目錄（可以是相對路徑）
             local_cache_file: 本地快取檔案
             display_mode: 顯示模式 (chinese_only, chinese_english, english_chinese, english_only)
             max_name_length: 名稱最大長度
@@ -95,7 +109,12 @@ class GamelistTranslator:
             search_delay: 搜尋延遲（秒）
             fuzzy_match: 是否啟用模糊比對（處理大小寫、空白等差異）
         """
-        self.translations_dir = Path(translations_dir)
+        # 處理相對路徑（支援打包後的執行檔）
+        if os.path.isabs(translations_dir):
+            self.translations_dir = Path(translations_dir)
+        else:
+            self.translations_dir = get_resource_path(translations_dir)
+
         self.local_cache_file = local_cache_file
         self.display_mode = display_mode
         self.max_name_length = max_name_length
@@ -103,7 +122,7 @@ class GamelistTranslator:
         self.search_delay = search_delay
         self.fuzzy_match = fuzzy_match
 
-        # 建立語系包目錄
+        # 建立語系包目錄（如果不存在）
         self.translations_dir.mkdir(exist_ok=True)
 
         # 載入快取
