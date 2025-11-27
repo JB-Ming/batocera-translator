@@ -35,6 +35,7 @@ class TranslatorGUI:
             value=str(Path("translations").absolute()))
         self.display_mode = tk.StringVar(value="chinese_only")
         self.translate_desc = tk.BooleanVar(value=True)
+        self.fuzzy_match = tk.BooleanVar(value=True)  # 模糊比對（預設開啟）
         self.max_length = tk.IntVar(value=100)
         self.api_choice = tk.StringVar(value="googletrans")
         self.api_key = tk.StringVar()
@@ -129,27 +130,33 @@ class TranslatorGUI:
         ttk.Checkbutton(frame, text="翻譯遊戲描述", variable=self.translate_desc).grid(
             row=1, column=0, columnspan=3, sticky=tk.W, pady=5)
 
+        # 模糊比對
+        fuzzy_cb = ttk.Checkbutton(
+            frame, text="啟用模糊比對 (忽略大小寫、空白差異)",
+            variable=self.fuzzy_match)
+        fuzzy_cb.grid(row=2, column=0, columnspan=3, sticky=tk.W, pady=5)
+
         # 最大長度
         ttk.Label(frame, text="最大名稱長度:").grid(
-            row=2, column=0, sticky=tk.W, pady=5)
+            row=3, column=0, sticky=tk.W, pady=5)
         length_spinbox = ttk.Spinbox(
             frame, from_=50, to=200, textvariable=self.max_length, width=10)
-        length_spinbox.grid(row=2, column=1, sticky=tk.W, padx=5)
-        ttk.Label(frame, text="字元").grid(row=2, column=2, sticky=tk.W)
+        length_spinbox.grid(row=3, column=1, sticky=tk.W, padx=5)
+        ttk.Label(frame, text="字元").grid(row=3, column=2, sticky=tk.W)
 
         # 翻譯 API
         ttk.Label(frame, text="翻譯 API:").grid(
-            row=3, column=0, sticky=tk.W, pady=5)
+            row=4, column=0, sticky=tk.W, pady=5)
         api_combo = ttk.Combobox(frame, textvariable=self.api_choice,
                                  values=["googletrans", "Google Cloud", "其他"],
                                  state="readonly", width=15)
-        api_combo.grid(row=3, column=1, sticky=tk.W, padx=5)
+        api_combo.grid(row=4, column=1, sticky=tk.W, padx=5)
 
         # API Key
         ttk.Label(frame, text="API Key (選填):").grid(
-            row=4, column=0, sticky=tk.W, pady=5)
+            row=5, column=0, sticky=tk.W, pady=5)
         ttk.Entry(frame, textvariable=self.api_key, show="*").grid(
-            row=4, column=1, columnspan=2, sticky=(tk.W, tk.E), padx=5)
+            row=5, column=1, columnspan=2, sticky=(tk.W, tk.E), padx=5)
 
     def create_progress_section(self, parent):
         """建立進度顯示區"""
@@ -350,6 +357,7 @@ class TranslatorGUI:
             'display_mode': self.display_mode.get(),
             'max_name_length': self.max_length.get(),
             'translate_desc': self.translate_desc.get(),
+            'fuzzy_match': self.fuzzy_match.get(),
         }
 
     def translation_worker(self, config: dict, dry_run: bool):
@@ -360,7 +368,8 @@ class TranslatorGUI:
                 translations_dir=config['translations_dir'],
                 display_mode=config['display_mode'],
                 max_name_length=config['max_name_length'],
-                translate_desc=config['translate_desc']
+                translate_desc=config['translate_desc'],
+                fuzzy_match=config['fuzzy_match']
             )
 
             # 執行翻譯
@@ -432,6 +441,7 @@ class TranslatorGUI:
                 self.display_mode.set(config.get(
                     'display_mode', 'chinese_only'))
                 self.translate_desc.set(config.get('translate_desc', True))
+                self.fuzzy_match.set(config.get('fuzzy_match', True))
                 self.max_length.set(config.get('max_length', 100))
                 self.api_choice.set(config.get('api_choice', 'googletrans'))
 
@@ -446,6 +456,7 @@ class TranslatorGUI:
             'translations_dir': self.translations_dir.get(),
             'display_mode': self.display_mode.get(),
             'translate_desc': self.translate_desc.get(),
+            'fuzzy_match': self.fuzzy_match.get(),
             'max_length': self.max_length.get(),
             'api_choice': self.api_choice.get(),
         }

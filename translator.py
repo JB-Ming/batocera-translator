@@ -81,7 +81,8 @@ class GamelistTranslator:
                  display_mode: str = "chinese_only",
                  max_name_length: int = 100,
                  translate_desc: bool = True,
-                 search_delay: float = 2.0):
+                 search_delay: float = 2.0,
+                 fuzzy_match: bool = True):
         """
         初始化翻譯器
 
@@ -92,6 +93,7 @@ class GamelistTranslator:
             max_name_length: 名稱最大長度
             translate_desc: 是否翻譯描述
             search_delay: 搜尋延遲（秒）
+            fuzzy_match: 是否啟用模糊比對（處理大小寫、空白等差異）
         """
         self.translations_dir = Path(translations_dir)
         self.local_cache_file = local_cache_file
@@ -99,6 +101,7 @@ class GamelistTranslator:
         self.max_name_length = max_name_length
         self.translate_desc = translate_desc
         self.search_delay = search_delay
+        self.fuzzy_match = fuzzy_match
 
         # 建立語系包目錄
         self.translations_dir.mkdir(exist_ok=True)
@@ -175,6 +178,31 @@ class GamelistTranslator:
         """檢查文字是否包含中文字元"""
         return any('\u4e00' <= char <= '\u9fff' for char in text)
 
+    def normalize_key(self, text: str) -> str:
+        """
+        正規化字串用於模糊比對
+        - 轉小寫
+        - 移除多餘空白
+        - 移除常見標點符號
+        - 統一連字符
+        """
+        if not text:
+            return ""
+
+        # 轉小寫
+        normalized = text.lower()
+
+        # 移除常見標點符號（保留連字符和撇號）
+        normalized = re.sub(r'[.!?,;:"\[\]\(\)]', '', normalized)
+
+        # 統一連字符（- 和 –）
+        normalized = normalized.replace('–', '-').replace('—', '-')
+
+        # 移除多餘空白
+        normalized = ' '.join(normalized.split())
+
+        return normalized
+
     def clean_game_name(self, name: str) -> str:
         """
         清理遊戲名稱（移除區域標記等）
@@ -190,19 +218,19 @@ class GamelistTranslator:
 
         return name.strip()
 
-    def lookup_translation(self, game_name: str, platform: str, is_description: bool = False) -> Optional[str]:
+    def lookup_translation(self, game_name: str, platform: str,
+                           is_description: bool = False) -> Optional[str]:
         """
         查找翻譯（按優先順序）
-        1. 預設翻譯（僅名稱）
-        2. 語系包字典
-        3. 本地快取
-        4. 返回 None（需要搜尋）
+        1. 精確匹配：預設翻譯、語系包、本地快取
+        2. 模糊匹配（如果啟用）：正規化後比對
+        3. 返回 None（需要搜尋）
         """
-        # 1. 預設翻譯（僅遊戲名稱）
+        # 1. 精確匹配 - 預設翻譯（僅遊戲名稱）
         if not is_description and game_name in DEFAULT_TRANSLATIONS:
             return DEFAULT_TRANSLATIONS[game_name]
 
-        # 2. 語系包
+        # 2. 精確匹配 - 語系包
         if is_description:
             desc_dict = self.load_description_dict(platform)
             if game_name in desc_dict:
@@ -212,10 +240,34 @@ class GamelistTranslator:
             if game_name in trans_dict:
                 return trans_dict[game_name]
 
-        # 3. 本地快取
+        # 3. 精確匹配 - 本地快取
         cache_key = "descriptions" if is_description else "names"
         if game_name in self.local_cache[cache_key]:
             return self.local_cache[cache_key][game_name]
+
+        # 4. 模糊匹配（如果啟用）
+        if self.fuzzy_match:
+            normalized_input = self.normalize_key(game_name)
+
+            # 從預設翻譯模糊匹配
+            if not is_description:
+                for key, value in DEFAULT_TRANSLATIONS.items():
+                    if self.normalize_key(key) == normalized_input:
+                        print(f"  ✓ 模糊匹配: '{game_name}' → '{key}' = {value}")
+                        return value
+
+            # 從語系包模糊匹配
+            target_dict = desc_dict if is_description else trans_dict
+            for key, value in target_dict.items():
+                if self.normalize_key(key) == normalized_input:
+                    print(f"  ✓ 模糊匹配: '{game_name}' → '{key}' = {value}")
+                    return value
+
+            # 從本地快取模糊匹配
+            for key, value in self.local_cache[cache_key].items():
+                if self.normalize_key(key) == normalized_input:
+                    print(f"  ✓ 模糊匹配: '{game_name}' → '{key}' = {value}")
+                    return value
 
         return None
 
@@ -442,6 +494,8 @@ def main():
                         help='顯示模式')
     parser.add_argument('--max-length', type=int, default=100, help='名稱最大長度')
     parser.add_argument('--no-desc', action='store_true', help='不翻譯描述')
+    parser.add_argument('--no-fuzzy', action='store_true',
+                        help='停用模糊比對（精確匹配）')
     parser.add_argument('--dry-run', action='store_true', help='預覽模式（不實際修改檔案）')
     parser.add_argument('--translations-dir',
                         default='translations', help='語系包目錄')
@@ -453,7 +507,8 @@ def main():
         translations_dir=args.translations_dir,
         display_mode=args.mode,
         max_name_length=args.max_length,
-        translate_desc=not args.no_desc
+        translate_desc=not args.no_desc,
+        fuzzy_match=not args.no_fuzzy
     )
 
     # 執行批次更新
