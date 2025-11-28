@@ -37,8 +37,10 @@ class TranslatorGUI:
         self.max_length = tk.IntVar(value=100)
 
         # API 設定
+        self.groq_api_key = tk.StringVar(value="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")
         self.gemini_api_key = tk.StringVar()
         self.deepl_api_key = tk.StringVar()
+        self.enable_groq = tk.BooleanVar(value=True)
         self.enable_gemini = tk.BooleanVar(value=True)
         self.enable_deepl = tk.BooleanVar(value=True)
         self.enable_mymemory = tk.BooleanVar(value=True)
@@ -155,11 +157,21 @@ class TranslatorGUI:
         ttk.Label(frame, text="API 設定", font=('', 9, 'bold')).grid(
             row=5, column=0, columnspan=3, sticky=tk.W, pady=(0, 5))
 
+        # Groq API (最優先)
+        groq_frame = ttk.Frame(frame)
+        groq_frame.grid(row=6, column=0, columnspan=3,
+                        sticky=(tk.W, tk.E), pady=2)
+        ttk.Checkbutton(groq_frame, text="Groq API (遊戲名稱，速度最快)",
+                        variable=self.enable_groq).pack(side=tk.LEFT)
+        ttk.Label(groq_frame, text="Key:").pack(side=tk.LEFT, padx=(10, 2))
+        ttk.Entry(groq_frame, textvariable=self.groq_api_key,
+                  show="*", width=30).pack(side=tk.LEFT, padx=2)
+
         # Gemini API
         gemini_frame = ttk.Frame(frame)
-        gemini_frame.grid(row=6, column=0, columnspan=3,
+        gemini_frame.grid(row=7, column=0, columnspan=3,
                           sticky=(tk.W, tk.E), pady=2)
-        ttk.Checkbutton(gemini_frame, text="Gemini API (遊戲名稱)",
+        ttk.Checkbutton(gemini_frame, text="Gemini API (遊戲名稱備援)",
                         variable=self.enable_gemini).pack(side=tk.LEFT)
         ttk.Label(gemini_frame, text="Key:").pack(side=tk.LEFT, padx=(10, 2))
         ttk.Entry(gemini_frame, textvariable=self.gemini_api_key,
@@ -167,7 +179,7 @@ class TranslatorGUI:
 
         # DeepL API
         deepl_frame = ttk.Frame(frame)
-        deepl_frame.grid(row=7, column=0, columnspan=3,
+        deepl_frame.grid(row=8, column=0, columnspan=3,
                          sticky=(tk.W, tk.E), pady=2)
         ttk.Checkbutton(deepl_frame, text="DeepL API (描述翻譯)",
                         variable=self.enable_deepl).pack(side=tk.LEFT)
@@ -178,12 +190,12 @@ class TranslatorGUI:
         # MyMemory API
         ttk.Checkbutton(frame, text="MyMemory API (描述翻譯，免費無需 Key)",
                         variable=self.enable_mymemory).grid(
-            row=8, column=0, columnspan=3, sticky=tk.W, pady=2)
+            row=9, column=0, columnspan=3, sticky=tk.W, pady=2)
 
         # googletrans
         ttk.Checkbutton(frame, text="googletrans (備用，不穩定)",
                         variable=self.enable_googletrans).grid(
-            row=9, column=0, columnspan=3, sticky=tk.W, pady=2)
+            row=10, column=0, columnspan=3, sticky=tk.W, pady=2)
 
     def create_progress_section(self, parent):
         """建立進度顯示區"""
@@ -385,8 +397,10 @@ class TranslatorGUI:
             'max_name_length': self.max_length.get(),
             'translate_desc': self.translate_desc.get(),
             'fuzzy_match': self.fuzzy_match.get(),
+            'groq_api_key': self.groq_api_key.get() or None,
             'gemini_api_key': self.gemini_api_key.get() or None,
             'deepl_api_key': self.deepl_api_key.get() or None,
+            'enable_groq': self.enable_groq.get(),
             'enable_gemini': self.enable_gemini.get(),
             'enable_deepl': self.enable_deepl.get(),
             'enable_mymemory': self.enable_mymemory.get(),
@@ -402,7 +416,15 @@ class TranslatorGUI:
                 display_mode=config['display_mode'],
                 max_name_length=config['max_name_length'],
                 translate_desc=config['translate_desc'],
-                fuzzy_match=config['fuzzy_match']
+                fuzzy_match=config['fuzzy_match'],
+                groq_api_key=config.get('groq_api_key'),
+                gemini_api_key=config.get('gemini_api_key'),
+                deepl_api_key=config.get('deepl_api_key'),
+                enable_groq=config.get('enable_groq', True),
+                enable_gemini=config.get('enable_gemini', True),
+                enable_deepl=config.get('enable_deepl', True),
+                enable_mymemory=config.get('enable_mymemory', True),
+                enable_googletrans=config.get('enable_googletrans', True)
             )
 
             # 執行翻譯
@@ -478,8 +500,10 @@ class TranslatorGUI:
                 self.max_length.set(config.get('max_length', 100))
 
                 # API 設定
+                # 注意: groq_api_key 已在初始化時設定，不從配置檔載入
                 self.gemini_api_key.set(config.get('gemini_api_key', ''))
                 self.deepl_api_key.set(config.get('deepl_api_key', ''))
+                self.enable_groq.set(config.get('enable_groq', True))
                 self.enable_gemini.set(config.get('enable_gemini', True))
                 self.enable_deepl.set(config.get('enable_deepl', True))
                 self.enable_mymemory.set(config.get('enable_mymemory', True))
@@ -499,8 +523,10 @@ class TranslatorGUI:
             'translate_desc': self.translate_desc.get(),
             'fuzzy_match': self.fuzzy_match.get(),
             'max_length': self.max_length.get(),
+            # 注意: groq_api_key 不儲存到配置檔（已寫死在程式碼中）
             'gemini_api_key': self.gemini_api_key.get(),
             'deepl_api_key': self.deepl_api_key.get(),
+            'enable_groq': self.enable_groq.get(),
             'enable_gemini': self.enable_gemini.get(),
             'enable_deepl': self.enable_deepl.get(),
             'enable_mymemory': self.enable_mymemory.get(),

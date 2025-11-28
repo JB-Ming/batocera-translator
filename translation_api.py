@@ -24,8 +24,10 @@ class TranslationAPIManager:
     """多 API 翻譯管理器，實作降級機制"""
 
     def __init__(self,
+                 groq_api_key: Optional[str] = None,
                  gemini_api_key: Optional[str] = None,
                  deepl_api_key: Optional[str] = None,
+                 enable_groq: bool = True,
                  enable_gemini: bool = True,
                  enable_deepl: bool = True,
                  enable_mymemory: bool = True,
@@ -34,16 +36,20 @@ class TranslationAPIManager:
         初始化翻譯 API 管理器
 
         Args:
+            groq_api_key: Groq API Key
             gemini_api_key: Google Gemini API Key
             deepl_api_key: DeepL API Key
+            enable_groq: 是否啟用 Groq
             enable_gemini: 是否啟用 Gemini
             enable_deepl: 是否啟用 DeepL
             enable_mymemory: 是否啟用 MyMemory
             enable_googletrans: 是否啟用 googletrans
         """
+        self.groq_api_key = groq_api_key
         self.gemini_api_key = gemini_api_key
         self.deepl_api_key = deepl_api_key
 
+        self.enable_groq = enable_groq
         self.enable_gemini = enable_gemini
         self.enable_deepl = enable_deepl
         self.enable_mymemory = enable_mymemory
@@ -51,6 +57,7 @@ class TranslationAPIManager:
 
         # 統計資訊
         self.stats = {
+            'groq': {'success': 0, 'fail': 0},
             'gemini': {'success': 0, 'fail': 0},
             'deepl': {'success': 0, 'fail': 0},
             'mymemory': {'success': 0, 'fail': 0},
@@ -61,7 +68,7 @@ class TranslationAPIManager:
         """
         翻譯遊戲名稱（台灣慣用譯名）
 
-        策略：Gemini API (AI 推斷) → 返回 None (保持原名)
+        策略：Groq API (速度最快) → Gemini API (備援) → 返回 None (保持原名)
 
         Args:
             game_name: 遊戲英文名稱
@@ -70,7 +77,16 @@ class TranslationAPIManager:
         Returns:
             台灣慣用譯名，如果失敗返回 None
         """
-        # 1. 嘗試 Gemini API
+        # 1. 嘗試 Groq API (速度最快，優先使用)
+        if self.enable_groq and self.groq_api_key:
+            result = self._translate_with_groq(game_name, platform)
+            if result:
+                self.stats['groq']['success'] += 1
+                return result
+            else:
+                self.stats['groq']['fail'] += 1
+
+        # 2. 嘗試 Gemini API (備援)
         if self.enable_gemini and self.gemini_api_key:
             result = self._translate_with_gemini(game_name, platform)
             if result:
@@ -79,7 +95,7 @@ class TranslationAPIManager:
             else:
                 self.stats['gemini']['fail'] += 1
 
-        # 2. 失敗或未啟用，返回 None（由 translator.py 決定保持原名）
+        # 3. 失敗或未啟用，返回 None（由 translator.py 決定保持原名）
         return None
 
     def translate_description(self, description: str) -> Optional[str]:
@@ -126,6 +142,72 @@ class TranslationAPIManager:
 
         # 全部失敗
         return None
+
+    def _translate_with_groq(self, game_name: str, platform: str) -> Optional[str]:
+        """
+        使用 Groq API (Llama 3.1) 推斷台灣慣用遊戲譯名
+
+        Args:
+            game_name: 遊戲英文名稱
+            platform: 遊戲平台
+
+        Returns:
+            台灣慣用譯名或 None
+        """
+        try:
+            from groq import Groq
+
+            # 初始化 Groq 客戶端
+            client = Groq(api_key=self.groq_api_key)
+
+            # 專業提示詞（與 Gemini 相同）
+            prompt = f"""你是遊戲本地化專家。請提供這款遊戲在台灣的正式譯名或慣用名稱。
+
+遊戲：{game_name}
+平台：{platform}
+
+要求：
+- 只回答遊戲名稱，不要解釋或加其他內容
+- 使用台灣慣用譯名（例如「瑪利歐」而非「馬里奧」）
+- 如果是知名遊戲，使用官方中文名稱
+- 如果沒有官方譯名，提供台灣玩家常用的稱呼
+- 如果完全不確定，回答「未知」
+
+範例：
+- Super Mario Bros → 超級瑪利歐兄弟
+- The Legend of Zelda → 薩爾達傳說
+- Contra → 魂斗羅
+- Street Fighter II → 快打旋風II"""
+
+            # 使用 Llama 3.1 70B 模型（速度快、品質好）
+            chat_completion = client.chat.completions.create(
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    }
+                ],
+                model="llama-3.1-70b-versatile",  # Groq 推薦的高效模型
+                temperature=0.3,  # 降低隨機性，提高一致性
+                max_tokens=100,  # 遊戲名稱不需要太長
+            )
+
+            # 提取回應文字
+            if chat_completion and chat_completion.choices:
+                result = chat_completion.choices[0].message.content.strip()
+
+                # 過濾無效回應
+                if result and result != "未知" and len(result) > 0:
+                    # 移除可能的引號或多餘標點
+                    result = result.strip('"\'\'。！？')
+                    print(f"  [Groq] {game_name} → {result}")
+                    return result
+
+            return None
+
+        except Exception as e:
+            print(f"  [Groq 錯誤] {e}")
+            return None
 
     def _translate_with_gemini(self, game_name: str, platform: str) -> Optional[str]:
         """

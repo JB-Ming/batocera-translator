@@ -98,8 +98,10 @@ class GamelistTranslator:
                  translate_desc: bool = True,
                  search_delay: float = 2.0,
                  fuzzy_match: bool = True,
+                 groq_api_key: Optional[str] = None,
                  gemini_api_key: Optional[str] = None,
                  deepl_api_key: Optional[str] = None,
+                 enable_groq: bool = True,
                  enable_gemini: bool = True,
                  enable_deepl: bool = True,
                  enable_mymemory: bool = True,
@@ -115,8 +117,10 @@ class GamelistTranslator:
             translate_desc: 是否翻譯描述
             search_delay: 搜尋延遲（秒）
             fuzzy_match: 是否啟用模糊比對（處理大小寫、空白等差異）
+            groq_api_key: Groq API Key
             gemini_api_key: Google Gemini API Key
             deepl_api_key: DeepL API Key
+            enable_groq: 是否啟用 Groq
             enable_gemini: 是否啟用 Gemini
             enable_deepl: 是否啟用 DeepL
             enable_mymemory: 是否啟用 MyMemory
@@ -148,8 +152,10 @@ class GamelistTranslator:
 
         # 初始化 API 管理器
         self.api_manager = TranslationAPIManager(
+            groq_api_key=groq_api_key,
             gemini_api_key=gemini_api_key,
             deepl_api_key=deepl_api_key,
+            enable_groq=enable_groq,
             enable_gemini=enable_gemini,
             enable_deepl=enable_deepl,
             enable_mymemory=enable_mymemory,

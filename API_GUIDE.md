@@ -10,9 +10,11 @@
    ↓ 找不到
 2. Google 搜尋 (抓取維基百科、巴哈姆特等網站譯名)
    ↓ 找不到
-3. Gemini API (AI 推斷台灣慣用譯名) ⭐
+3. Groq API (AI 推斷，速度最快) ⭐
    ↓ 失敗/無額度
-4. 保持英文原名 (避免亂翻)
+4. Gemini API (AI 推斷，備援) ⭐
+   ↓ 失敗/無額度
+5. 保持英文原名 (避免亂翻)
 ```
 
 ### 📝 遊戲描述翻譯（流暢中文）
@@ -30,9 +32,51 @@
 
 ## 🔑 API 申請教學
 
-### 1️⃣ Google Gemini API（推薦）⭐
+### 1️⃣ Groq API（最推薦）⭐⭐⭐
 
 **用途**：遊戲名稱本地化（AI 推斷台灣慣用譯名）
+
+**免費額度**：
+- 每分钟 **30 次請求**（比 Gemini 多 2 倍！）
+- 每天 **14,400 次請求**
+- **完全免費！**
+
+**申請步驟**：
+1. 前往 https://console.groq.com/
+2. 點擊 "Sign Up" 註冊帳號（可用 Google 登入）
+3. 點擊 "API Keys" 選單
+4. 點擊 "Create API Key"
+5. 輸入名稱（例如：Batocera Translator）
+6. 複製 API Key（格式：`gsk_...`）
+
+**特色**：
+- ✅ **速度超快**：Groq 的 LPU 架構比傳統 GPU 快 10 倍以上
+- ✅ **免費額度高**：30次/分钟，足夠大多數情況使用
+- ✅ **Llama 3.1 70B 模型**：理解遊戲文化，知道台灣慣用譯名
+- ✅ **無需信用卡**：只需 Email 即可註冊
+
+**範例回應**：
+```
+問：Super Mario Bros (FC紅白機)
+答：超級瑪利歐兄弟
+
+問：The Legend of Zelda (FC紅白機)
+答：薩爾達傳說
+
+問：Street Fighter II (Arcade)
+答：快打旋風II
+```
+
+**為什麼推薦 Groq？**
+- 🚀 速度最快：翻譯遊戲名稱幾乎是瞬間完成
+- 🆓 額度充足：30次/分钟，足夠處理大型遊戲庫
+- 🎯 品質優異：Llama 3.1 70B 模型的中文能力非常好
+
+---
+
+### 2️⃣ Google Gemini API（備援）⭐
+
+**用途**：遊戲名稱本地化（Groq 失敗時使用）
 
 **免費額度**：
 - 每分鐘 15 次請求
@@ -63,7 +107,7 @@
 
 ---
 
-### 2️⃣ DeepL API Free（推薦）⭐
+### 3️⃣ DeepL API Free（推薦）⭐
 
 **用途**：遊戲描述翻譯（高品質中文）
 
@@ -86,7 +130,7 @@
 
 ---
 
-### 3️⃣ MyMemory API（備用）
+### 4️⃣ MyMemory API（備用）
 
 **用途**：遊戲描述翻譯（DeepL 失敗時使用）
 
@@ -106,7 +150,7 @@
 
 ---
 
-### 4️⃣ googletrans（最後手段）
+### 5️⃣ googletrans（最後手段）
 
 **用途**：所有 API 都失敗時的備援
 
@@ -131,19 +175,24 @@
 
 在「翻譯設定」區域：
 
-1. **Gemini API（遊戲名稱）**
-   - ☑ 勾選「Gemini API (遊戲名稱)」
-   - 填寫 Key: `AIzaSy...` （你的 API Key）
+1. **Groq API（遊戲名稱，速度最快）** ⭐ **優先使用**
+   - ☑ 勾選「Groq API (遊戲名稱，速度最快)」
+   - 填寫 Key: `gsk_...` （你的 API Key）
 
-2. **DeepL API（描述翻譯）**
+2. **Gemini API（遊戲名稱備援）**
+   - ☑ 勾選「Gemini API (遊戲名稱備援)」
+   - 填寫 Key: `AIzaSy...` （你的 API Key）
+   - 💡 建議填寫，作為 Groq 的備援
+
+3. **DeepL API（描述翻譯）**
    - ☑ 勾選「DeepL API (描述翻譯)」
    - 填寫 Key: `xxxxxxxx-...` （你的 API Key）
 
-3. **MyMemory API（描述翻譯，免費無需 Key）**
+4. **MyMemory API（描述翻譯，免費無需 Key）**
    - ☑ 勾選「MyMemory API」
    - 不需填寫 Key
 
-4. **googletrans（備用）**
+5. **googletrans（備用）**
    - ☑ 勾選「googletrans」
    - 不需填寫 Key
 
@@ -152,16 +201,18 @@
 點擊「開始翻譯」，程式會自動：
 1. 先查詢語系包字典（最快）
 2. 找不到時用 Google 搜尋
-3. 搜尋失敗時用 Gemini AI 推斷
-4. 描述翻譯依序嘗試 DeepL → MyMemory → googletrans
+3. 搜尋失敗時用 **Groq AI** 推斷（速度最快）
+4. Groq 失敗時用 **Gemini AI** 推斷（備援）
+5. 描述翻譯依序嘗試 DeepL → MyMemory → googletrans
 
 ---
 
 ## 💡 使用建議
 
-### 最佳配置（推薦）
+### 最佳配置（推薦）⭐
 
-✅ **Gemini API** - 遊戲名稱本地化  
+✅ **Groq API** - 遊戲名稱本地化（速度最快，優先使用）  
+✅ **Gemini API** - 遊戲名稱備援  
 ✅ **DeepL API** - 高品質描述翻譯  
 ✅ **MyMemory API** - 描述翻譯備援  
 ✅ **googletrans** - 最後備援  
