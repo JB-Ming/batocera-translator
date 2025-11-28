@@ -37,7 +37,8 @@ class TranslatorGUI:
         self.max_length = tk.IntVar(value=100)
 
         # API 設定
-        self.groq_api_key = tk.StringVar(value="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")
+        self.groq_api_key = tk.StringVar(
+            value="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")
         self.gemini_api_key = tk.StringVar()
         self.deepl_api_key = tk.StringVar()
         self.enable_groq = tk.BooleanVar(value=True)
