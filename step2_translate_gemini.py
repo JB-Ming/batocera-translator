@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import google.generativeai as genai
 import time
+from datetime import timedelta
 
 # 設定路徑
 TRANSLATIONS_DIR = Path("translations")
@@ -91,7 +92,6 @@ def batch_translate_with_gemini(to_translate_dict, is_description=False):
 {json.dumps(texts, ensure_ascii=False, indent=2)}"""
 
     try:
-        print(f"  正在呼叫 Gemini API 翻譯 {len(texts)} 個項目...")
         response = model.generate_content(prompt)
 
         # 解析回應
@@ -110,7 +110,6 @@ def batch_translate_with_gemini(to_translate_dict, is_description=False):
         # 解析 JSON
         translations = json.loads(response_text)
 
-        print(f"  ✓ API 回傳 {len(translations)} 個翻譯")
         return translations
 
     except json.JSONDecodeError as e:
@@ -122,48 +121,67 @@ def batch_translate_with_gemini(to_translate_dict, is_description=False):
         return {}
 
 
-def translate_dictionary(to_translate_file, output_file, is_description=False):
-    """翻譯字典檔案"""
-    print(f"\n處理: {to_translate_file.name}")
+def translate_dictionary(to_translate_file, output_file, is_description=False,
+                         current=0, total=0, start_time=None):
+    """翻譯字典檔案（附進度和預估時間）"""
+    platform = to_translate_file.name.replace(
+        "to_translate_names_" if not is_description else "to_translate_descriptions_",
+        "").replace(".json", "")
 
     # 讀取待翻譯檔案
     with open(to_translate_file, 'r', encoding='utf-8') as f:
         to_translate = json.load(f)
 
-    total = len(to_translate)
-    print(f"  待翻譯項目: {total} 個")
+    item_count = len(to_translate)
 
-    if total == 0:
+    # 計算進度和預估時間
+    progress = f"[{current}/{total}]"
+    if start_time and current > 1:
+        elapsed = time.time() - start_time
+        avg_time = elapsed / (current - 1)
+        remaining = total - current + 1
+        eta_seconds = avg_time * remaining
+        eta = timedelta(seconds=int(eta_seconds))
+        time_info = f"預估剩餘: {eta}"
+    else:
+        time_info = "計算中..."
+
+    print(f"\n{progress} {platform} ({item_count} 項) - {time_info}")
+
+    if item_count == 0:
         print("  ⊘ 跳過（無內容）")
         return 0
 
     # 批次翻譯
+    api_start = time.time()
     translated = batch_translate_with_gemini(to_translate, is_description)
+    api_duration = time.time() - api_start
 
     if not translated:
-        print("  ✗ 翻譯失敗，使用原文")
+        print(f"  ✗ 翻譯失敗，使用原文 ({api_duration:.1f}秒)")
         translated = {k: k for k in to_translate.keys()}
+    else:
+        print(f"  ✓ 翻譯完成 ({api_duration:.1f}秒)")
 
     # 儲存翻譯結果
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(translated, f, ensure_ascii=False, indent=2)
 
-    print(f"  ✓ 已生成: {output_file.name}")
-
     return len(translated)
 
 
 def main():
-    print("=" * 60)
+    print("=" * 80)
     print("階段 2：翻譯語系包（Gemini API 批次翻譯）")
-    print("=" * 60)
+    print("=" * 80)
 
     if TEST_MODE:
         print(f"\n⚠️  測試模式：只處理 {TEST_PLATFORMS} 平台")
 
-    print(f"\nAPI: Gemini 1.5 Flash")
+    print(f"\nAPI: Gemini 2.5 Flash")
+    print(f"策略: 官方譯名優先 → 通用譯名 → 合理意譯 → 保持原文")
     print(f"模式: 批次翻譯（整包傳送）")
-    print("-" * 60)
+    print("-" * 80)
 
     total_translated_names = 0
     total_translated_descs = 0
@@ -180,20 +198,26 @@ def main():
         desc_files = [f for f in desc_files
                       if any(p in f.name for p in TEST_PLATFORMS)]
 
+    total_files = len(name_files) + len(desc_files)
     print(f"\n找到 {len(name_files)} 個名稱檔案，{len(desc_files)} 個描述檔案")
+    print(f"總共需要處理: {total_files} 個檔案")
 
     # 翻譯名稱
-    print("\n" + "=" * 60)
-    print("翻譯遊戲名稱")
-    print("=" * 60)
+    print("\n" + "=" * 80)
+    print("📝 翻譯遊戲名稱")
+    print("=" * 80)
 
-    for to_translate_file in name_files:
+    start_time = time.time()
+
+    for i, to_translate_file in enumerate(name_files, 1):
         platform = to_translate_file.name.replace(
             "to_translate_names_", "").replace(".json", "")
         output_file = TRANSLATIONS_DIR / f"translations_{platform}.json"
 
         count = translate_dictionary(to_translate_file, output_file,
-                                     is_description=False)
+                                     is_description=False,
+                                     current=i, total=len(name_files),
+                                     start_time=start_time)
         if count:
             total_translated_names += count
 
@@ -201,17 +225,21 @@ def main():
         time.sleep(2)
 
     # 翻譯描述
-    print("\n" + "=" * 60)
-    print("翻譯遊戲描述")
-    print("=" * 60)
+    print("\n" + "=" * 80)
+    print("📖 翻譯遊戲描述")
+    print("=" * 80)
 
-    for to_translate_file in desc_files:
+    desc_start_time = time.time()
+
+    for i, to_translate_file in enumerate(desc_files, 1):
         platform = to_translate_file.name.replace(
             "to_translate_descriptions_", "").replace(".json", "")
         output_file = TRANSLATIONS_DIR / f"descriptions_{platform}.json"
 
         count = translate_dictionary(to_translate_file, output_file,
-                                     is_description=True)
+                                     is_description=True,
+                                     current=i, total=len(desc_files),
+                                     start_time=desc_start_time)
         if count:
             total_translated_descs += count
 
@@ -219,11 +247,19 @@ def main():
         time.sleep(2)
 
     # 統計報告
-    print("\n" + "=" * 60)
-    print("階段 2 完成統計")
-    print("=" * 60)
+    total_time = time.time() - start_time
+    total_time_str = str(timedelta(seconds=int(total_time)))
+
+    print("\n" + "=" * 80)
+    print("✅ 階段 2 完成統計")
+    print("=" * 80)
     print(f"已翻譯名稱: {total_translated_names} 個")
     print(f"已翻譯描述: {total_translated_descs} 個")
+    print(f"總處理時間: {total_time_str}")
+    print(f"處理檔案數: {total_files} 個")
+    if total_files > 0:
+        avg_time = total_time / total_files
+        print(f"平均每檔: {avg_time:.1f} 秒")
     print(f"\n生成檔案位置:")
     print(f"  - 名稱翻譯: {TRANSLATIONS_DIR}/translations_*.json")
     print(f"  - 描述翻譯: {TRANSLATIONS_DIR}/descriptions_*.json")
