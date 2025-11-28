@@ -8,8 +8,8 @@ import time
 API_KEY = "AIzaSyACoHJ8APFTe8bN2auolexAp8AMyAneEes"
 genai.configure(api_key=API_KEY)
 
-# 建立模型
-model = genai.GenerativeModel('gemini-pro')
+# 建立模型（使用最新的 Gemini 1.5 Flash）
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 
 def translate_with_gemini(text, target_lang='繁體中文'):
