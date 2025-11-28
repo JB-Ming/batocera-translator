@@ -5,11 +5,17 @@
   "translations_dir": "translations",
   "display_mode": "chinese_only",
   "translate_desc": true,
+  "fuzzy_match": true,
   "max_length": 100,
-  "api_choice": "googletrans",
-  "api_key": "",
   "search_delay": 2.0,
   "auto_backup": true,
   "show_report": true,
-  "log_level": "INFO"
+  "log_level": "INFO",
+  "_api_comment": "API 設定 - 遊戲名稱使用 Gemini，描述使用 DeepL/MyMemory/googletrans",
+  "gemini_api_key": "",
+  "deepl_api_key": "",
+  "enable_gemini": true,
+  "enable_deepl": true,
+  "enable_mymemory": true,
+  "enable_googletrans": true
 }

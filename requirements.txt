@@ -9,5 +9,12 @@ requests>=2.31.0
 # XML 處理（效能較佳）
 lxml>=4.9.0
 
-# 免費翻譯 API（描述翻譯用）
+# 翻譯 API
+# Google Gemini API (遊戲名稱本地化推斷)
+google-generativeai>=0.3.0
+
+# DeepL API (高品質描述翻譯)
+deepl>=1.16.0
+
+# googletrans (備用翻譯方案)
 googletrans==4.0.0rc1

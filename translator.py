@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 import requests
 from bs4 import BeautifulSoup
+from translation_api import TranslationAPIManager
 
 
 def get_resource_path(relative_path: str) -> Path:
@@ -96,7 +97,13 @@ class GamelistTranslator:
                  max_name_length: int = 100,
                  translate_desc: bool = True,
                  search_delay: float = 2.0,
-                 fuzzy_match: bool = True):
+                 fuzzy_match: bool = True,
+                 gemini_api_key: Optional[str] = None,
+                 deepl_api_key: Optional[str] = None,
+                 enable_gemini: bool = True,
+                 enable_deepl: bool = True,
+                 enable_mymemory: bool = True,
+                 enable_googletrans: bool = True):
         """
         初始化翻譯器
 
@@ -108,6 +115,12 @@ class GamelistTranslator:
             translate_desc: 是否翻譯描述
             search_delay: 搜尋延遲（秒）
             fuzzy_match: 是否啟用模糊比對（處理大小寫、空白等差異）
+            gemini_api_key: Google Gemini API Key
+            deepl_api_key: DeepL API Key
+            enable_gemini: 是否啟用 Gemini
+            enable_deepl: 是否啟用 DeepL
+            enable_mymemory: 是否啟用 MyMemory
+            enable_googletrans: 是否啟用 googletrans
         """
         # 處理相對路徑（支援打包後的執行檔）
         if os.path.isabs(translations_dir):
@@ -132,6 +145,16 @@ class GamelistTranslator:
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
+
+        # 初始化 API 管理器
+        self.api_manager = TranslationAPIManager(
+            gemini_api_key=gemini_api_key,
+            deepl_api_key=deepl_api_key,
+            enable_gemini=enable_gemini,
+            enable_deepl=enable_deepl,
+            enable_mymemory=enable_mymemory,
+            enable_googletrans=enable_googletrans
+        )
 
     def scan_roms_directory(self, roms_path: str) -> List[Tuple[str, str]]:
         """
@@ -378,7 +401,15 @@ class GamelistTranslator:
         return best_candidate[0]
 
     def translate_name(self, game_name: str, platform: str) -> str:
-        """翻譯遊戲名稱（先查字典，再搜尋）"""
+        """
+        翻譯遊戲名稱（台灣慣用譯名）
+
+        策略：
+        1. 字典查詢（語系包、預設翻譯、本地快取）
+        2. Google 搜尋（抓取維基百科、巴哈姆特等網站的譯名）
+        3. Gemini API（AI 推斷台灣慣用譯名）
+        4. 保持原名
+        """
         # 如果已是中文，直接返回
         if self.contains_chinese(game_name):
             return game_name
@@ -386,68 +417,82 @@ class GamelistTranslator:
         # 清理名稱
         clean_name = self.clean_game_name(game_name)
 
-        # 查找翻譯
+        # 1. 查找翻譯（語系包、預設翻譯、本地快取）
         translation = self.lookup_translation(
             clean_name, platform, is_description=False)
         if translation:
-            print(f"  >> 字典查詢: {clean_name} -> {translation}")
+            print(f"  [字典] {clean_name} → {translation}")
             return translation
 
-        # Google 搜尋 - 簡化搜尋詞提高準確度
+        # 2. Google 搜尋
         query = clean_name
-        print(f"  >> Google搜尋中...", end='', flush=True)
+        print(f"  [Google搜尋] {clean_name}...", end='', flush=True)
 
         html = self.search_google(query)
         print(f" 完成", flush=True)
 
-        print(f"  >> 分析搜尋結果...", end='', flush=True)
+        print(f"  [分析結果]...", end='', flush=True)
         chinese_name = self.extract_chinese_name(html, clean_name)
         print(f" 完成", flush=True)
 
         if chinese_name:
-            print(f"  -> {chinese_name}")
+            print(f"  → {chinese_name}")
             # 加入本地快取
             self.local_cache["names"][clean_name] = chinese_name
             self.save_local_cache()
 
-            # 短暫延遲避免被封鎖(不顯示進度)
+            # 短暫延遲避免被封鎖
             if self.search_delay > 0:
                 time.sleep(self.search_delay)
             return chinese_name
-        else:
-            print(f"  -> 保持原名")
-            return clean_name
+
+        # 3. 嘗試 Gemini API（AI 推斷台灣慣用譯名）
+        platform_chinese = PLATFORM_NAMES.get(platform.lower(), platform)
+        gemini_result = self.api_manager.translate_game_name(
+            clean_name, platform_chinese)
+
+        if gemini_result:
+            print(f"  → {gemini_result}")
+            # 加入本地快取
+            self.local_cache["names"][clean_name] = gemini_result
+            self.save_local_cache()
+            return gemini_result
+
+        # 4. 全部失敗，保持原名
+        print(f"  [保持原名] {clean_name}")
+        return clean_name
 
     def translate_description(self, description: str, platform: str) -> str:
-        """翻譯遊戲描述(使用 googletrans)"""
+        """
+        翻譯遊戲描述
+
+        策略：
+        1. 字典查詢（描述語系包、本地快取）
+        2. DeepL API（品質最好）
+        3. MyMemory API（免費，無需 Key）
+        4. googletrans（最後手段）
+        """
         if not description or self.contains_chinese(description):
             return description
 
-        # 查找快取
+        # 1. 查找快取
         translation = self.lookup_translation(
             description, platform, is_description=True)
         if translation:
+            print(f"  [字典] 描述翻譯")
             return translation
 
-        # 使用 googletrans 翻譯
-        try:
-            from googletrans import Translator
-            translator = Translator()
+        # 2-4. 使用 API 管理器翻譯（會自動降級）
+        translated = self.api_manager.translate_description(description)
 
-            # 限制描述長度避免翻譯太久
-            if len(description) > 500:
-                description = description[:500] + "..."
-
-            result = translator.translate(description, src='en', dest='zh-tw')
-            translated = result.text
-
+        if translated:
             # 儲存到快取
             self.local_cache["descriptions"][description] = translated
             self.save_local_cache()
-
             return translated
-        except Exception as e:
-            print(f" 翻譯失敗: {e}", flush=True)
+        else:
+            # 全部失敗，保持原文
+            print(f"  [描述] 翻譯失敗，保持原文")
             return description
 
     def format_game_name(self, english_name: str, chinese_name: str) -> str:

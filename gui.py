@@ -35,8 +35,14 @@ class TranslatorGUI:
         self.translate_desc = tk.BooleanVar(value=True)
         self.fuzzy_match = tk.BooleanVar(value=True)  # 模糊比對（預設開啟）
         self.max_length = tk.IntVar(value=100)
-        self.api_choice = tk.StringVar(value="googletrans")
-        self.api_key = tk.StringVar()
+
+        # API 設定
+        self.gemini_api_key = tk.StringVar()
+        self.deepl_api_key = tk.StringVar()
+        self.enable_gemini = tk.BooleanVar(value=True)
+        self.enable_deepl = tk.BooleanVar(value=True)
+        self.enable_mymemory = tk.BooleanVar(value=True)
+        self.enable_googletrans = tk.BooleanVar(value=True)
 
         # 狀態變數
         self.is_running = False
@@ -142,19 +148,42 @@ class TranslatorGUI:
         length_spinbox.grid(row=3, column=1, sticky=tk.W, padx=5)
         ttk.Label(frame, text="字元").grid(row=3, column=2, sticky=tk.W)
 
-        # 翻譯 API
-        ttk.Label(frame, text="翻譯 API:").grid(
-            row=4, column=0, sticky=tk.W, pady=5)
-        api_combo = ttk.Combobox(frame, textvariable=self.api_choice,
-                                 values=["googletrans", "Google Cloud", "其他"],
-                                 state="readonly", width=15)
-        api_combo.grid(row=4, column=1, sticky=tk.W, padx=5)
+        # API 設定區
+        ttk.Separator(frame, orient='horizontal').grid(
+            row=4, column=0, columnspan=3, sticky=(tk.W, tk.E), pady=10)
 
-        # API Key
-        ttk.Label(frame, text="API Key (選填):").grid(
-            row=5, column=0, sticky=tk.W, pady=5)
-        ttk.Entry(frame, textvariable=self.api_key, show="*").grid(
-            row=5, column=1, columnspan=2, sticky=(tk.W, tk.E), padx=5)
+        ttk.Label(frame, text="API 設定", font=('', 9, 'bold')).grid(
+            row=5, column=0, columnspan=3, sticky=tk.W, pady=(0, 5))
+
+        # Gemini API
+        gemini_frame = ttk.Frame(frame)
+        gemini_frame.grid(row=6, column=0, columnspan=3,
+                          sticky=(tk.W, tk.E), pady=2)
+        ttk.Checkbutton(gemini_frame, text="Gemini API (遊戲名稱)",
+                        variable=self.enable_gemini).pack(side=tk.LEFT)
+        ttk.Label(gemini_frame, text="Key:").pack(side=tk.LEFT, padx=(10, 2))
+        ttk.Entry(gemini_frame, textvariable=self.gemini_api_key,
+                  show="*", width=30).pack(side=tk.LEFT, padx=2)
+
+        # DeepL API
+        deepl_frame = ttk.Frame(frame)
+        deepl_frame.grid(row=7, column=0, columnspan=3,
+                         sticky=(tk.W, tk.E), pady=2)
+        ttk.Checkbutton(deepl_frame, text="DeepL API (描述翻譯)",
+                        variable=self.enable_deepl).pack(side=tk.LEFT)
+        ttk.Label(deepl_frame, text="Key:").pack(side=tk.LEFT, padx=(10, 2))
+        ttk.Entry(deepl_frame, textvariable=self.deepl_api_key,
+                  show="*", width=30).pack(side=tk.LEFT, padx=2)
+
+        # MyMemory API
+        ttk.Checkbutton(frame, text="MyMemory API (描述翻譯，免費無需 Key)",
+                        variable=self.enable_mymemory).grid(
+            row=8, column=0, columnspan=3, sticky=tk.W, pady=2)
+
+        # googletrans
+        ttk.Checkbutton(frame, text="googletrans (備用，不穩定)",
+                        variable=self.enable_googletrans).grid(
+            row=9, column=0, columnspan=3, sticky=tk.W, pady=2)
 
     def create_progress_section(self, parent):
         """建立進度顯示區"""
@@ -356,6 +385,12 @@ class TranslatorGUI:
             'max_name_length': self.max_length.get(),
             'translate_desc': self.translate_desc.get(),
             'fuzzy_match': self.fuzzy_match.get(),
+            'gemini_api_key': self.gemini_api_key.get() or None,
+            'deepl_api_key': self.deepl_api_key.get() or None,
+            'enable_gemini': self.enable_gemini.get(),
+            'enable_deepl': self.enable_deepl.get(),
+            'enable_mymemory': self.enable_mymemory.get(),
+            'enable_googletrans': self.enable_googletrans.get(),
         }
 
     def translation_worker(self, config: dict, dry_run: bool):
@@ -441,7 +476,15 @@ class TranslatorGUI:
                 self.translate_desc.set(config.get('translate_desc', True))
                 self.fuzzy_match.set(config.get('fuzzy_match', True))
                 self.max_length.set(config.get('max_length', 100))
-                self.api_choice.set(config.get('api_choice', 'googletrans'))
+
+                # API 設定
+                self.gemini_api_key.set(config.get('gemini_api_key', ''))
+                self.deepl_api_key.set(config.get('deepl_api_key', ''))
+                self.enable_gemini.set(config.get('enable_gemini', True))
+                self.enable_deepl.set(config.get('enable_deepl', True))
+                self.enable_mymemory.set(config.get('enable_mymemory', True))
+                self.enable_googletrans.set(
+                    config.get('enable_googletrans', True))
 
                 self.log("✓ 已載入設定")
             except Exception as e:
@@ -456,7 +499,12 @@ class TranslatorGUI:
             'translate_desc': self.translate_desc.get(),
             'fuzzy_match': self.fuzzy_match.get(),
             'max_length': self.max_length.get(),
-            'api_choice': self.api_choice.get(),
+            'gemini_api_key': self.gemini_api_key.get(),
+            'deepl_api_key': self.deepl_api_key.get(),
+            'enable_gemini': self.enable_gemini.get(),
+            'enable_deepl': self.enable_deepl.get(),
+            'enable_mymemory': self.enable_mymemory.get(),
+            'enable_googletrans': self.enable_googletrans.get(),
         }
 
         try:
