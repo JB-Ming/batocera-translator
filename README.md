@@ -13,6 +13,224 @@
 
 ---
 
+## 工作流程
+
+本工具採用「提取 → 翻譯 → 寫回」三階段流程，確保翻譯過程可控且高效：
+
+### 階段 1：提取待翻譯內容
+1. **掃描 ROMS 目錄**：遍歷指定路徑下的所有平台資料夾（nes, snes, gba 等）
+   - 支援 Windows 路徑：`D:\Games\roms`
+   - **支援 WSL 路徑**：`\\wsl$\Ubuntu\userdata\roms` 或 `\\wsl.localhost\Ubuntu\userdata\roms`
+   - 使用 Windows CLI 直接存取，無需 sudo 權限
+2. **複製 gamelist.xml**：將每個平台的 `gamelist.xml` 複製到專案目錄（`gamelists_local/<platform>/gamelist.xml`）
+   - 使用 Python 的 `shutil.copy2()` 或 Windows CLI 的 `copy` 指令
+   - 避免使用 WSL 內的 `cp` 指令，防止權限問題
+3. **解析 XML 檔案**：從所有 gamelist.xml 中提取 `<name>` 和 `<desc>` 欄位的內容
+4. **生成待翻譯語系包**：
+   - `to_translate_names_<platform>.json`：遊戲名稱待翻譯清單（Key-Value 格式）
+   - `to_translate_descriptions_<platform>.json`：遊戲描述待翻譯清單
+   - 格式範例：`{"Super Mario Bros": "", "The Legend of Zelda": ""}`
+
+### 階段 2：翻譯語系包
+1. **載入待翻譯檔案**：讀取 `to_translate_*.json`
+2. **檢查現有翻譯**：比對既有的 `translations_*.json`，避免重複翻譯
+3. **執行翻譯**（多種方案可選）：
+   - **方案 A - 雲端 API**：Google Translate API、DeepL API、Azure Translator
+   - **方案 B - 本地 LLM**：透過 Ollama、LM Studio 等本地模型翻譯
+   - **方案 C - 混合模式**：名稱用 Google 搜尋，描述用翻譯 API
+   - **方案 D - 手動翻譯**：匯出成 Excel/CSV，人工翻譯後匯入
+4. **生成完整語系包**：
+   - `translations_<platform>.json`：遊戲名稱翻譯（英文 → 中文）
+   - `descriptions_<platform>.json`：遊戲描述翻譯（英文 → 中文）
+
+### 階段 3：應用翻譯並寫回
+1. **讀取本地 gamelist.xml**：從 `gamelists_local/` 讀取檔案
+2. **套用翻譯**：根據語系包替換 `<name>` 和 `<desc>` 欄位
+3. **格式化顯示**：依據使用者選擇的模式：
+   - **僅中文**：`超級瑪利歐兄弟`
+   - **中文 (英文)**：`超級瑪利歐兄弟 (Super Mario Bros)`
+   - **英文 (中文)**：`Super Mario Bros (超級瑪利歐兄弟)`
+   - **僅英文**：保持原樣
+4. **寫回原目錄**：
+   - 備份原始 `gamelist.xml`（加上時間戳記，存到 `backups/` 資料夾）
+   - **使用 Windows CLI 直接寫回 WSL 路徑**（`\\wsl$\Ubuntu\userdata\roms\<platform>\gamelist.xml`）
+   - 使用 Python 的 `shutil.copy2()` 保留檔案屬性
+   - 無需 sudo 權限，避免 WSL 權限問題
+
+### 流程圖示
+```
+ROMS 目錄 (例: /userdata/roms/)
+    │
+    ├─ nes/gamelist.xml
+    ├─ snes/gamelist.xml
+    └─ gba/gamelist.xml
+          ↓
+┌─────────────────────────────────────────┐
+│  階段 1：提取                            │
+├─────────────────────────────────────────┤
+│  • 複製到 gamelists_local/              │
+│  • 解析 <name> 和 <desc>                │
+│  • 生成 to_translate_*.json             │
+└─────────────────────────────────────────┘
+          ↓
+┌─────────────────────────────────────────┐
+│  階段 2：翻譯                            │
+├─────────────────────────────────────────┤
+│  • API / LLM / 手動翻譯                 │
+│  • 生成 translations_*.json             │
+│  • 生成 descriptions_*.json             │
+└─────────────────────────────────────────┘
+          ↓
+┌─────────────────────────────────────────┐
+│  階段 3：寫回                            │
+├─────────────────────────────────────────┤
+│  • 套用翻譯到 gamelists_local/          │
+│  • 備份原檔到 backups/                  │
+│  • 寫回 ROMS 目錄                       │
+└─────────────────────────────────────────┘
+          ↓
+    完成！
+```
+
+### 流程優點
+✅ **可控性**：每個階段可獨立執行和驗證  
+✅ **可恢復**：中斷後可從任意階段繼續  
+✅ **可重用**：語系包可分享、重複使用  
+✅ **安全性**：先在專案目錄操作，確認無誤後才寫回  
+✅ **靈活性**：支援多種翻譯方案，可依需求選擇  
+
+### 目錄結構
+```
+batocera-translator/
+├── gamelists_local/          # 階段1：從 ROMS 複製來的 gamelist.xml
+│   ├── nes/gamelist.xml
+│   ├── snes/gamelist.xml
+│   └── gba/gamelist.xml
+├── translations/             # 階段2：翻譯語系包
+│   ├── to_translate_names_nes.json
+│   ├── to_translate_descriptions_nes.json
+│   ├── translations_nes.json
+│   └── descriptions_nes.json
+├── backups/                  # 階段3：原始檔案備份
+│   ├── gamelist_nes_20251128_143052.xml
+│   └── gamelist_snes_20251128_143053.xml
+└── translator.py             # 主程式
+```
+
+---
+
+## WSL 路徑存取說明
+
+### 為何使用 Windows CLI 而非 WSL 指令
+
+當 Batocera 的 ROMS 目錄位於 WSL（如 Ubuntu）中時，直接在 WSL 內使用 `cp`、`mv` 等指令可能會遇到權限問題，需要使用 `sudo`。為避免這些問題，本工具採用 **Windows CLI 直接存取 WSL 路徑** 的方式。
+
+### WSL 路徑格式
+
+Windows 10/11 提供兩種方式存取 WSL 檔案系統：
+
+1. **新版格式**（推薦，Windows 10 1903+ / Windows 11）：
+   ```
+   \\wsl.localhost\<發行版名稱>\<路徑>
+   ```
+   範例：
+   ```
+   \\wsl.localhost\Ubuntu\userdata\roms\nes\gamelist.xml
+   \\wsl.localhost\Debian\home\user\batocera\roms
+   ```
+
+2. **舊版格式**（相容性佳）：
+   ```
+   \\wsl$\<發行版名稱>\<路徑>
+   ```
+   範例：
+   ```
+   \\wsl$\Ubuntu\userdata\roms\nes\gamelist.xml
+   \\wsl$\Ubuntu-20.04\userdata\roms
+   ```
+
+### Python 程式碼範例
+
+```python
+import os
+import shutil
+from pathlib import Path
+
+# WSL 路徑（Windows 可直接存取）
+wsl_roms_path = r"\\wsl.localhost\Ubuntu\userdata\roms"
+# 或使用舊格式：r"\\wsl$\Ubuntu\userdata\roms"
+
+# 本地專案目錄
+local_dir = Path("gamelists_local")
+local_dir.mkdir(exist_ok=True)
+
+# 遍歷 WSL 中的 ROMS 目錄
+for platform_dir in Path(wsl_roms_path).iterdir():
+    if platform_dir.is_dir():
+        gamelist_file = platform_dir / "gamelist.xml"
+        
+        if gamelist_file.exists():
+            # 建立本地平台目錄
+            local_platform_dir = local_dir / platform_dir.name
+            local_platform_dir.mkdir(exist_ok=True)
+            
+            # 使用 shutil.copy2 複製檔案（保留屬性）
+            # 無需 sudo 權限！
+            shutil.copy2(gamelist_file, local_platform_dir / "gamelist.xml")
+            print(f"✓ 已複製: {platform_dir.name}/gamelist.xml")
+
+# 寫回 WSL 時同樣簡單
+dest_path = Path(wsl_roms_path) / "nes" / "gamelist.xml"
+shutil.copy2("gamelists_local/nes/gamelist.xml", dest_path)
+```
+
+### PowerShell 範例
+
+```powershell
+# 列出 WSL 中的所有平台
+Get-ChildItem "\\wsl.localhost\Ubuntu\userdata\roms"
+
+# 複製檔案從 WSL 到 Windows
+Copy-Item "\\wsl$\Ubuntu\userdata\roms\nes\gamelist.xml" -Destination ".\gamelists_local\nes\"
+
+# 複製檔案從 Windows 回 WSL
+Copy-Item ".\gamelists_local\nes\gamelist.xml" -Destination "\\wsl$\Ubuntu\userdata\roms\nes\"
+```
+
+### 注意事項
+
+✅ **優點**：
+- 無需 `sudo` 權限
+- 避免 WSL 檔案權限問題
+- Windows 和 WSL 雙向存取
+- Python 標準庫 `pathlib` 和 `shutil` 原生支援
+
+⚠️ **限制**：
+- WSL 必須已啟動（存取時會自動啟動）
+- 路徑必須使用正確的發行版名稱
+- 大量檔案操作時速度可能較慢（相較於原生 WSL 指令）
+
+### 如何查詢 WSL 發行版名稱
+
+```powershell
+# 列出所有已安裝的 WSL 發行版
+wsl --list --verbose
+# 或簡寫
+wsl -l -v
+```
+
+輸出範例：
+```
+  NAME            STATE           VERSION
+* Ubuntu          Running         2
+  Debian          Stopped         2
+  Ubuntu-20.04    Stopped         2
+```
+
+然後使用對應的名稱：`\\wsl.localhost\Ubuntu\...`
+
+---
+
 ## GUI 設計需求
 
 ### 主視窗佈局

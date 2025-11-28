@@ -1,0 +1,1781 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameList>
+	<provider>
+		<system>3ds</system>
+		<software>ARRM</software>
+		<web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
+	</provider>
+	<game id="12043">
+		<path>./Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted.3ds</path>
+		<name>[中文]動物森友會 快樂之家設計師 (Animal Crossing - Happy Home Designer Decrypted)</name>
+		<sortname>05 =-  Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted</sortname>
+		<desc>為所有你最喜歡的《動物之森》村民設計家園，展示你的風格！發揮您的創造力，為新老朋友設計從內到外的完美房屋。使用新的 amiibo 卡，您可以召喚您最喜歡的村民進入遊戲。
+特點：
+為動物村民設計數百個房屋的內部和外部
+為學校、醫院和其他公共設施留下您的裝飾風格
+收集並連接 - 收集並分享您最喜歡的 amiibo 卡...</desc>
+		<rating>0.5</rating>
+		<releasedate>20150925T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Simulation</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<family>Animal Crossing</family>
+		<region>eu</region>
+		<lang>fr,en</lang>
+		<image>./images/Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted-image.png</image>
+		<thumbnail>./images/Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted-thumb.png</thumbnail>
+		<mix>./images/Animal Crossing - Happy Home Designer (USA)(En,Fr) Decrypted-image.png</mix>
+	</game>
+	<game id="11971">
+		<path>./Hello Kitty Happy Happy Family (Europe).3ds</path>
+		<name>[中文]Hello Kitty 快樂家庭 (Hello Kitty Happy Happy Family)</name>
+		<sortname>36 =-  Hello Kitty Happy Happy Family (Europe)</sortname>
+		<desc>與凱蒂和她的全家人一起玩耍。
+通過 25 個有趣的研討會，邊學習邊享受樂趣。
+為凱蒂和咪咪收集數百張圖像和偽裝！</desc>
+		<developer>Bigben Interactive</developer>
+		<publisher>Bigben Interactive</publisher>
+		<genre>Various</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Hello Kitty Happy Happy Family (Europe)-image.png</image>
+		<thumbnail>./images/Hello Kitty Happy Happy Family (Europe)-thumb.png</thumbnail>
+		<mix>./images/Hello Kitty Happy Happy Family (Europe)-image.png</mix>
+	</game>
+	<game id="176339">
+		<path>./Poochy &amp; Yoshi's Woolly World (USA).3ds</path>
+		<name>[中文]毛線耀西與寶貝耀西 (Poochy &amp; Yoshi's Woolly World)</name>
+		<sortname>62 =-  Poochy &amp; Yoshi's Woolly World (USA)</sortname>
+		<desc>當您引導 Yarn Yoshi 或 Yarn Poochy 通過巧妙的橫向捲軸關卡時，探索充滿創意的手工藝世界。解開秘密，將紗線扔到編織平台上，並通過羊毛變形來增強力量。Wii U 版本的所有關卡均加入了由 Poochy 主演的新關卡以及更多 Nintendo 3DS 獨有功能！
+在新的 Poochy 關卡中，這是一次瘋狂的珠子衝刺：躲避樹樁，衝破雪路，追逐拉基圖，並挖掘隱藏的路徑和物品。嗅出秘密...</desc>
+		<developer>Good-Feel</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Puzzle-Game</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Poochy &amp; Yoshi's Woolly World (USA)-image.png</image>
+		<thumbnail>./images/Poochy &amp; Yoshi's Woolly World (USA)-thumb.png</thumbnail>
+		<mix>./images/Poochy &amp; Yoshi's Woolly World (USA)-image.png</mix>
+	</game>
+	<game id="11060">
+		<path>./Professor Layton and the Miracle Mask (Europe).3ds</path>
+		<name>[中文]雷頓教授與奇蹟假面 (Professor Layton and the Miracle Mask)</name>
+		<sortname>63 =-  Professor Layton and the Miracle Mask (Europe)</sortname>
+		<desc>雷頓教授和盧克前往奇蹟小鎮蒙多爾尋找奇蹟面具。面具有能力實現佩戴者的願望。雷頓和盧克到達小鎮後發現為時已晚，一名神秘男子正在利用面具的力量將人們變成石頭。雷頓和盧克的任務是解開蒙多爾之謎和奇蹟面具。
+《雷頓教授》系列的第五款遊戲更多地利用物理按鈕控制來解決謎題……</desc>
+		<rating>0.9</rating>
+		<releasedate>20121028T000000</releasedate>
+		<developer>Level-5</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Adventure</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Professor Layton and the Miracle Mask (Europe)-image.png</image>
+		<thumbnail>./images/Professor Layton and the Miracle Mask (Europe)-thumb.png</thumbnail>
+		<mix>./images/Professor Layton and the Miracle Mask (Europe)-image.png</mix>
+	</game>
+	<game id="11099">
+		<path>./Project X Zone (USA).3ds</path>
+		<name>[中文]超級機器人大戰 X-Ω (Project X Zone)</name>
+		<sortname>64 =-  Project X Zone (USA)</sortname>
+		<desc>Project X Zone 由 Banpresto 和 Monolith Soft 開發，擁有來自日本最多產的三個視頻遊戲公司的 29 個歷史遊戲系列的 50 多個角色。在 Project X Zone 中，玩家將使用兩個角色組成的團隊（稱為“配對單位”）來探索遊戲中的世界。稱為單人單位的附加角色可以與配對單位組合，以協助單人攻擊的戰鬥，並增強玩家可以執行的攻擊。在整個比賽過程中，ep...</desc>
+		<rating>0.8</rating>
+		<releasedate>20121011T000000</releasedate>
+		<developer>Monolith Soft</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Role Playing Games</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Project X Zone (USA)-image.png</image>
+		<thumbnail>./images/Project X Zone (USA)-thumb.png</thumbnail>
+		<mix>./images/Project X Zone (USA)-image.png</mix>
+	</game>
+	<game id="12051">
+		<path>./Project X Zone 2 (USA).3ds</path>
+		<name>[中文]超級機器人大戰 X-Ω 2 (Project X Zone 2)</name>
+		<sortname>65 =-  Project X Zone 2 (USA)</sortname>
+		<desc>在原創跨界 RPG 冒險的續集中，來自日本最多產的視頻遊戲發行商的傳奇人物齊聚一堂，創造了有史以來最大的混搭策略遊戲！Project X Zone 2 讓玩家有機會扮演眾多系列中他們最喜歡的角色，並組建來自經典和當前系列的角色團隊，並通過戰略回合製戰鬥與敵人交戰。</desc>
+		<rating>0.6</rating>
+		<releasedate>20160216T000000</releasedate>
+		<developer>Capcom</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Games</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Project X Zone 2 (USA)-image.png</image>
+		<thumbnail>./images/Project X Zone 2 (USA)-thumb.png</thumbnail>
+		<mix>./images/Project X Zone 2 (USA)-image.png</mix>
+	</game>
+	<game id="176356">
+		<path>./Puzzler World 2012 3D (USA).3ds</path>
+		<name>[中文]益智世界 2012 3D (Puzzler World 2012 3D)</name>
+		<sortname>66 =-  Puzzler World 2012 3D (USA)</sortname>
+		<desc>借助 Puzzler World 2012 3D，玩家可以在個人獎杯櫃中收集獎杯作為技能證明，收集提示標記以幫助解決棘手的線索和謎題，並教遊戲使用手寫識別功能記住單個字母和數字。通過使用新模式解鎖獎勵遊戲來增加更多的多樣性和更多的樂趣。通過挑戰模式進行額外的獎勵遊戲，例如絞刑吏、連環信、失踪的碎片等等。如需額外挑戰，請解鎖大師模式謎題......</desc>
+		<genreid>0</genreid>
+		<md5>4c4226f730f616308fcc7852cfebbceb</md5>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Puzzler World 2012 3D (USA)-image.png</image>
+		<thumbnail>./images/Puzzler World 2012 3D (USA)-thumb.png</thumbnail>
+		<mix>./images/Puzzler World 2012 3D (USA)-image.png</mix>
+	</game>
+	<game id="176357">
+		<path>./Puzzler World 2013 (USA).3ds</path>
+		<name>[中文]益智世界 2013 (Puzzler World 2013)</name>
+		<sortname>67 =-  Puzzler World 2013 (USA)</sortname>
+		<desc>Puzzler World 2013 包含 1,200 多個腦筋急轉彎謎題，並推出了 Maze-a-Pix、Number Jig 和 Loko 等新遊戲。
+
+Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅的挑戰，玩家可以解鎖並測試自己。</desc>
+		<genreid>0</genreid>
+		<md5>15859a610351d00f2191ef58537d2ca7</md5>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Puzzler World 2013 (USA)-image.png</image>
+		<thumbnail>./images/Puzzler World 2013 (USA)-thumb.png</thumbnail>
+		<mix>./images/Puzzler World 2013 (USA)-image.png</mix>
+	</game>
+	<game id="176358">
+		<path>./Rabbids - Travel in Time 3D (USA).3ds</path>
+		<name>[中文]瘋狂兔子 時空之旅 3D (Rabbids - Travel in Time 3D)</name>
+		<sortname>68 =-  Rabbids - Travel in Time 3D (USA)</sortname>
+		<desc>兔子們瘋了，這一次他們有一個萬無一失的計劃：回到過去併入侵人類歷史！與古怪的瘋兔一起沉浸在過去，重溫歷史上最偉大的時刻，比如火的發現、獅身人面像的斷鼻子或亞瑟的傳說。揭開瘋狂兔子如何造成嚴重破壞並改變歷史進程......</desc>
+		<developer>Ubisoft</developer>
+		<genre>Action</genre>
+		<genreid>0</genreid>
+		<md5>cc34cf2cf16474224229f11cd2d8700f</md5>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Rabbids - Travel in Time 3D (USA)-image.png</image>
+		<thumbnail>./images/Rabbids - Travel in Time 3D (USA)-thumb.png</thumbnail>
+		<mix>./images/Rabbids - Travel in Time 3D (USA)-image.png</mix>
+	</game>
+	<game id="176368">
+		<path>./Rhythm Paradise Megamix (Europe).3ds</path>
+		<name>[中文]節奏天國 The Best+ (Rhythm Paradise Megamix)</name>
+		<sortname>69 =-  Rhythm Paradise Megamix (Europe)</sortname>
+		<desc>有節奏的遊戲樂趣，山羊吃蘿蔔，還有你按下按鈕聽過的最時髦的曲調？這裡一定是節奏天堂吧？超級混音。這個新鮮的組合擁有 70 多款節奏遊戲，包括新遊戲、粉絲最愛的混音遊戲以及美國首發遊戲。嘗試到達天堂世界，刺殺病毒、餵熊等等！只是不要錯過任何一個節拍。
+當你深入研究每一個搞笑的隨機活動時，你會被傳奇人物創造的引人入勝的配樂帶入節奏天堂的世界......</desc>
+		<rating>0.95</rating>
+		<releasedate>20150611T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Action</genre>
+		<genreid>0</genreid>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Rhythm Paradise Megamix (Europe)-image.png</image>
+		<thumbnail>./images/Rhythm Paradise Megamix (Europe)-thumb.png</thumbnail>
+		<mix>./images/Rhythm Paradise Megamix (Europe)-image.png</mix>
+	</game>
+	<game id="11204">
+		<path>./Rhythm Thief &amp; the Emperor's Treasure (USA).3ds</path>
+		<name>[中文]節奏怪盜R 拿破崙的遺產 (Rhythm Thief &amp; the Emperor's Treasure)</name>
+		<sortname>70 =-  Rhythm Thief &amp; the Emperor's Treasure (USA)</sortname>
+		<desc>拉斐爾白天是一個普通男孩，晚上則扮演傳奇的藝術品竊賊 Phantom R。他因偷竊珍貴畫作並在幾天后歸還而從未被抓而聞名。他的真正動機可以追溯到遊戲開始前三年，拉斐爾的父親神秘失踪，並給他留下了一枚奇怪的硬幣。拉斐爾不久後發現了他父親偷來的所有畫作，並用贗品取代了它們。作為幻影 R，拉斐爾致力於取代他的父親......</desc>
+		<rating>0.85</rating>
+		<releasedate>20120119T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Music And Dance</genre>
+		<genreid>0</genreid>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Rhythm Thief &amp; the Emperor's Treasure (USA)-image.png</image>
+		<thumbnail>./images/Rhythm Thief &amp; the Emperor's Treasure (USA)-thumb.png</thumbnail>
+		<mix>./images/Rhythm Thief &amp; the Emperor's Treasure (USA)-image.png</mix>
+	</game>
+	<game id="11068">
+		<path>./Rune Factory 4 (USA).3ds</path>
+		<name>[中文]符文工房4 (Rune Factory 4)</name>
+		<sortname>71 =-  Rune Factory 4 (USA)</sortname>
+		<desc>《符文工廠 4》標誌著廣受歡迎的《牧場物語》衍生遊戲的回歸，該遊戲將農業與地下城冒險結合在一起。在該系列中，玩家第一次可以選擇扮演男性或女性英雄，並且也可以選擇任何性別的潛在追求者來追求愛情、婚姻，甚至可能是孩子。作為新任命的王子或公主，你可以履行保護城鎮免受入侵者的皇家職責，或者通過養育自己的孩子來採取更鄉村的方式進行治理。</desc>
+		<rating>0.9</rating>
+		<releasedate>20131002T000000</releasedate>
+		<developer>Xseed Games</developer>
+		<publisher>Neverland</publisher>
+		<genre>Simulation</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Rune Factory 4 (USA)-image.png</image>
+		<thumbnail>./images/Rune Factory 4 (USA)-thumb.png</thumbnail>
+		<mix>./images/Rune Factory 4 (USA)-image.png</mix>
+	</game>
+	<game id="11102">
+		<path>./Senran Kagura Burst (Europe).3ds</path>
+		<name>[中文]閃亂神樂 Burst (Senran Kagura Burst)</name>
+		<sortname>72 =-  Senran Kagura Burst (Europe)</sortname>
+		<desc>閃亂神樂爆裂是原始閃亂神樂的增強和更新版本。它包括完整的原創遊戲，以及由對手 Hebijo 忍者隊主演的全新場景，從不同的角度講述原創故事。還添加了許多新服裝和可解鎖任務。</desc>
+		<rating>0.85</rating>
+		<releasedate>20131114T000000</releasedate>
+		<developer>Tamsoft Corporation</developer>
+		<publisher>Xseed Games</publisher>
+		<genre>Role Playing Games</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Senran Kagura Burst (Europe)-image.png</image>
+		<thumbnail>./images/Senran Kagura Burst (Europe)-thumb.png</thumbnail>
+		<mix>./images/Senran Kagura Burst (Europe)-image.png</mix>
+	</game>
+	<game id="11253">
+		<path>./Shantae and the Pirates Curse (USA).3ds</path>
+		<name>[中文]珊蒂與海盜的詛咒 (Shantae and the Pirates Curse)</name>
+		<sortname>73 =-  Shantae and the Pirates Curse (USA)</sortname>
+		<desc>與甩頭髮的肚皮舞精靈桑塔一起踏上全新的冒險之旅！當桑塔失去精靈魔法時，她必須與她的宿敵、邪惡的海盜風險靴子聯手，以拯救亮片之地免受邪惡的侵害。作為一名海盜，桑塔獲得了新的武器和工具來推進她的任務、殺死怪物、與史詩般的頭目戰鬥——並希望能重新獲得她的魔法！但她真的能相信她最致命的敵人嗎？</desc>
+		<releasedate>20141023T000000</releasedate>
+		<developer>Wayforward</developer>
+		<publisher>Capcom</publisher>
+		<genre>Platform</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Shantae and the Pirates Curse (USA)-image.png</image>
+		<thumbnail>./images/Shantae and the Pirates Curse (USA)-thumb.png</thumbnail>
+		<mix>./images/Shantae and the Pirates Curse (USA)-image.png</mix>
+	</game>
+	<game id="11119">
+		<path>./Shin Megami Tensei - Devil Summoner - Soul Hackers (USA).3ds</path>
+		<name>[中文]真・女神轉生 惡魔召喚師 靈魂駭客 (Shin Megami Tensei - Devil Summoner - Soul Hackers)</name>
+		<sortname>74 =-  Shin Megami Tensei - Devil Summoner - Soul Hackers (USA)</sortname>
+		<desc>《Soul Hackers》提供了第一人稱、地下城探索的角色扮演遊戲體驗，背景設定在未來，科技與超凡脫俗的力量相遇，賽博朋克未來主義與哥特式恐怖的可怕融合。《靈魂黑客》是一款第一人稱科幻角色扮演遊戲史詩，講述了一座被視為人類科技勝利燈塔的城市，但卻隱藏著一個地獄般的秘密。在這個未來的烏托邦中，一群黑客挑戰了一個有著數百年曆史的神秘社會，一場爭奪人類命運控制權的戰鬥即將開始。</desc>
+		<rating>0.85</rating>
+		<releasedate>20130416T000000</releasedate>
+		<developer>NIS America</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role Playing Games</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Shin Megami Tensei - Devil Summoner - Soul Hackers (USA)-image.png</image>
+		<thumbnail>./images/Shin Megami Tensei - Devil Summoner - Soul Hackers (USA)-thumb.png</thumbnail>
+		<mix>./images/Shin Megami Tensei - Devil Summoner - Soul Hackers (USA)-image.png</mix>
+	</game>
+	<game id="11107">
+		<path>./Shin Megami Tensei - Devil Survivor Overclocked (USA).3ds</path>
+		<name>[中文]真・女神轉生 惡魔求生者 超頻版 (Shin Megami Tensei - Devil Survivor Overclocked)</name>
+		<sortname>75 =-  Shin Megami Tensei - Devil Survivor Overclocked (USA)</sortname>
+		<desc>任天堂 3DS 版《惡魔倖存者超頻》經過擴展和增強，以遊戲的原始版本為基礎，並為整個遊戲冗長、非傳統的敘述添加了配音。此外，這個故事已經擁有基於玩家關鍵決定的多個結局，現在以特殊的第八章結束，這是真女神轉生粉絲們激動人心的尾聲。遊戲精美的重製手繪藝術作品和人物肖像受益於新...</desc>
+		<rating>0.8</rating>
+		<developer>Ghostlight</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role Playing Games</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Shin Megami Tensei - Devil Survivor Overclocked (USA)-image.png</image>
+		<thumbnail>./images/Shin Megami Tensei - Devil Survivor Overclocked (USA)-thumb.png</thumbnail>
+		<mix>./images/Shin Megami Tensei - Devil Survivor Overclocked (USA)-image.png</mix>
+	</game>
+	<game id="11019">
+		<path>./Shin Megami Tensei IV (USA).3ds</path>
+		<name>[中文]真・女神轉生IV (Shin Megami Tensei IV)</name>
+		<sortname>76 =-  Shin Megami Tensei IV (USA)</sortname>
+		<desc>SMTIV 以 ATLUS 的《女神異聞錄》、《惡魔召喚師》和《惡魔倖存者》遊戲的風格為基礎，是 2004 年《真女神轉生：夜曲》的第一個真正的繼承者。SMTIV 的故事圍繞東方天皇王國的神聖保護者武士展開。作為一名新任命的武士，玩家將與對世界懷有邪惡圖謀的派系進行鬥爭，同時保衛自己的祖國免受日益壯大的惡魔大軍的侵害。玩家在整個故事過程中做出的決定將...</desc>
+		<rating>0.95</rating>
+		<releasedate>20130716T000000</releasedate>
+		<developer>Atlus</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role Playing Games</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Shin Megami Tensei IV (USA)-image.png</image>
+		<thumbnail>./images/Shin Megami Tensei IV (USA)-thumb.png</thumbnail>
+		<mix>./images/Shin Megami Tensei IV (USA)-image.png</mix>
+	</game>
+	<game id="11181">
+		<path>./Shinobi (Europe).3ds</path>
+		<name>[中文]忍 (Shinobi)</name>
+		<sortname>77 =-  Shinobi (Europe)</sortname>
+		<desc>在這部廣受好評的忍者係列的史詩重啟中，你被朋友背叛，必須與一個古老而邪惡的部落戰鬥。Shinobi 捕捉了原版 Shinobi 遊戲中的經典橫向捲軸動作。再加上異國情調的激烈戰鬥和頂級的 Boss 遭遇，是該系列早期以來玩家所喜愛的。</desc>
+		<rating>0.75</rating>
+		<releasedate>20111115T000000</releasedate>
+		<developer>Griptonite Games</developer>
+		<publisher>SEGA</publisher>
+		<genre>Beat'em Up</genre>
+		<genreid>0</genreid>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Shinobi (Europe)-image.png</image>
+		<thumbnail>./images/Shinobi (Europe)-thumb.png</thumbnail>
+		<mix>./images/Shinobi (Europe)-image.png</mix>
+	</game>
+	<game id="11003">
+		<path>./Shovel Knight (USA).3ds</path>
+		<name>[中文]鏟子騎士 (Shovel Knight)</name>
+		<sortname>78 =-  Shovel Knight (USA)</sortname>
+		<desc>《鏟子騎士》是一款 2014 年動作平台視頻遊戲，由獨立開發商 Yacht Club Games 為 Nintendo 3DS、Wii U 和個人電腦平台開發和發行。該遊戲於 2014 年 6 月 26 日在全球發布。 《鏟子騎士》由前 WayForward Technologies 成員 Sean Velasco 執導，音樂由 Jake Kaufman 和 Manami Matsumae 創作。
+遊戲開始前，冒險家鏟子騎士和盾騎士並肩作戰，穿越世界……</desc>
+		<rating>0.85</rating>
+		<releasedate>20140626T000000</releasedate>
+		<developer>Yacht Club Games</developer>
+		<publisher>Yacht Club Games</publisher>
+		<genre>Adventure</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Shovel Knight (USA)-image.png</image>
+		<thumbnail>./images/Shovel Knight (USA)-thumb.png</thumbnail>
+		<mix>./images/Shovel Knight (USA)-image.png</mix>
+	</game>
+	<game id="11110">
+		<path>./Sonic - Lost World (Europe).3ds</path>
+		<name>[中文]音速小子 失落世界 (Sonic - Lost World)</name>
+		<sortname>79 =-  Sonic - Lost World (Europe)</sortname>
+		<desc>艾格曼博士利用了被稱為“致命六人”的六種威脅生物的力量，但當“致命六人”奮起反抗他們的主人時，索尼克必須與他的宿敵聯合起來，才能與新敵人正面交鋒。索尼克必須利用他充滿活力的新跑酷動作和改進的色彩力量，在各種不斷變化的地形中奔跑、跳躍和競賽，才能擊敗致命六人組。</desc>
+		<rating>0.75</rating>
+		<developer>SEGA</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<genreid>0</genreid>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Sonic - Lost World (Europe)-image.png</image>
+		<thumbnail>./images/Sonic - Lost World (Europe)-thumb.png</thumbnail>
+		<mix>./images/Sonic - Lost World (Europe)-image.png</mix>
+	</game>
+	<game id="11089">
+		<path>./Sonic Generations (Europe).3ds</path>
+		<name>[中文]音速小子 世代 (Sonic Generations)</name>
+		<sortname>80 =-  Sonic Generations (Europe)</sortname>
+		<desc>《刺猬索尼克》視頻遊戲歷史跨越了 20 年的三個決定性時代，《索尼克世代》中可立即識別的環境已以令人驚嘆的高清版本重新構建，現在可以以 1991 年的經典橫向捲軸 2D 模式以及索尼克最新冒險中的現代 3D 風格進行遊戲。索尼克在《索尼克世代》中的每一個化身都配有他標誌性的特殊動作，經典索尼克的旋轉衝刺和旋轉攻擊，現代索尼克的歸巢攻擊和音速增強……</desc>
+		<rating>0.75</rating>
+		<releasedate>20111102T000000</releasedate>
+		<developer>Dimps</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<genreid>0</genreid>
+		<players>1-2</players>
+		<family>Sonic the Hedgehog</family>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Sonic Generations (Europe)-image.png</image>
+		<thumbnail>./images/Sonic Generations (Europe)-thumb.png</thumbnail>
+		<mix>./images/Sonic Generations (Europe)-image.png</mix>
+	</game>
+	<game id="11117">
+		<path>./Star Fox 64 3D (Europe).3ds</path>
+		<name>[中文]星際火狐64 3D (Star Fox 64 3D)</name>
+		<sortname>81 =-  Star Fox 64 3D (Europe)</sortname>
+		<desc>《星際火狐》團隊以全 3D 方式重製《星際火狐 64》，並進行了完整的圖形更新，成功回歸其最偉大的任務之一。
+整個《星際火狐》宇宙真實地展開到任天堂 3DS 屏幕的深處，而 3D 視覺效果讓玩家更清楚地掌握距離和位置。這使得遊戲更加平易近人、直觀，從而讓玩家能夠專注於動作。</desc>
+		<rating>0.8</rating>
+		<releasedate>20110911T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Lightgun Shooter</genre>
+		<genreid>0</genreid>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Star Fox 64 3D (Europe)-image.png</image>
+		<thumbnail>./images/Star Fox 64 3D (Europe)-thumb.png</thumbnail>
+		<mix>./images/Star Fox 64 3D (Europe)-image.png</mix>
+	</game>
+	<game id="191994">
+		<path>./Story of Seasons - Trio of Towns (USA).3ds</path>
+		<name>[中文]牧場物語 三座鄉鎮的重要朋友們 (Story of Seasons - Trio of Towns)</name>
+		<sortname>82 =-  Story of Seasons - Trio of Towns (USA)</sortname>
+		<desc>今天你會做什麼？負責管理三個獨特而令人興奮的城鎮附近的廣闊農場，並選擇過什麼樣的生活。
+原創最暢銷的農業/生活模擬遊戲帶著全新的冒險回歸 20 週年！
+扮演一位年輕的城市人，一直渴望在農場生活。你的夢想會帶你來到一大片開闊的土地，準備種植農作物、牲畜、裝飾品等等。
+你的新農場位於三個不同的十字路口......</desc>
+		<developer>Marvelous Interactive</developer>
+		<genre>Simulation</genre>
+		<genreid>0</genreid>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Story of Seasons - Trio of Towns (USA)-image.png</image>
+		<thumbnail>./images/Story of Seasons - Trio of Towns (USA)-thumb.png</thumbnail>
+		<mix>./images/Story of Seasons - Trio of Towns (USA)-image.png</mix>
+	</game>
+	<game id="12017">
+		<path>./Story of Seasons (USA).3ds</path>
+		<name>[中文]牧場物語 連接新天地 (Story of Seasons)</name>
+		<sortname>83 =-  Story of Seasons (USA)</sortname>
+		<desc>Story of Seasons 是 Marvelous Entertainment 為任天堂 3DS 開發的一款農業模擬視頻遊戲。該遊戲於2014年2月27日在日本發行，並於2015年3月31日在北美髮行。由於夏目擁有該名稱，該遊戲在北美並未以Harvest Moon為標題。然而，不到一個月後，夏目自己宣布了自己的原創作品，不是由 Marvelous 製作的，《牧場物語：失落的山谷》僅在北美和歐洲發行，還發行了……</desc>
+		<releasedate>20150310T000000</releasedate>
+		<developer>Xseed Games</developer>
+		<publisher>Marvelous AQL</publisher>
+		<genre>Simulation</genre>
+		<genreid>0</genreid>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Story of Seasons (USA)-image.png</image>
+		<thumbnail>./images/Story of Seasons (USA)-thumb.png</thumbnail>
+		<mix>./images/Story of Seasons (USA)-image.png</mix>
+	</game>
+	<game id="11030">
+		<path>./Super Mario 3D Land (USA).3ds</path>
+		<name>[中文]超級瑪利歐 3D樂園 (Super Mario 3D Land)</name>
+		<sortname>84 =-  Super Mario 3D Land (USA)</sortname>
+		<desc>《超級馬里奧 3D 大陸》是一款平台遊戲，遊戲設計師宮本茂將其描述為“像 2D 馬里奧遊戲一樣玩的 3D 馬里奧”。因此，《Super Mario 3D Land》結合了傳統橫向捲軸 Mario 遊戲的元素（例如基於線性的關卡）與現代開放世界 Mario 遊戲的元素（例如在三個維度中移動 Mario 並執行各種動作）。與經典的橫向捲軸馬里奧遊戲類似，每個級別的目標都是到達並抓住......</desc>
+		<rating>0.8</rating>
+		<releasedate>20111113T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Super Mario 3D Land (USA)-image.png</image>
+		<thumbnail>./images/Super Mario 3D Land (USA)-thumb.png</thumbnail>
+		<mix>./images/Super Mario 3D Land (USA)-image.png</mix>
+	</game>
+	<game id="190672">
+		<path>./Taiko no Tatsujin - Don to Katsu no Jikuu Daibouken (Japan) (Translated En).3ds</path>
+		<name>[中文]太鼓之達人 咚咚咔咔時空大冒險 (Taiko no Tatsujin - Don to Katsu no Jikuu Daibouken)</name>
+		<sortname>85 =-  Taiko no Tatsujin - Don to Katsu no Jikuu Daibouken (Japan) (Translated En)</sortname>
+		<releasedate>20140626T000000</releasedate>
+		<developer>Bandai Namco</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Music And Dance</genre>
+		<genreid>0</genreid>
+		<region>jp</region>
+		<lang>en,jp</lang>
+		<image>./images/Taiko no Tatsujin - Don to Katsu no Jikuu Daibouken (Japan) (Translated En)-image.png</image>
+		<thumbnail>./images/Taiko no Tatsujin - Don to Katsu no Jikuu Daibouken (Japan) (Translated En)-thumb.png</thumbnail>
+		<mix>./images/Taiko no Tatsujin - Don to Katsu no Jikuu Daibouken (Japan) (Translated En)-image.png</mix>
+	</game>
+	<game id="11159">
+		<path>./Tekken 3D - Prime Edition (Europe).3ds</path>
+		<name>[中文]鐵拳3D 首要版 (Tekken 3D - Prime Edition)</name>
+		<sortname>86 =-  Tekken 3D - Prime Edition (Europe)</sortname>
+		<desc>玩遊戲，看電影！
+鐵拳 3D Prime 版將《鐵拳》的完整娛樂世界包含在一張任天堂 3DS 卡上！
+玩遊戲，看電影！鐵拳 3D Prime 版將《鐵拳》的完整娛樂世界包含在一張任天堂 3DS 卡上！有史以來第一次與 TEKKEN 宇宙中的 40 多名戰士以及幼年平八一起戰鬥！此外，觀看《鐵拳：血色復仇》，這是由 Digital Frontier 聯合製作的全 3D 影院體驗。</desc>
+		<rating>0.65</rating>
+		<releasedate>20120216T000000</releasedate>
+		<developer>Bandai Namco</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Fight</genre>
+		<genreid>0</genreid>
+		<players>2</players>
+		<family>Tekken</family>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Tekken 3D - Prime Edition (Europe)-image.png</image>
+		<thumbnail>./images/Tekken 3D - Prime Edition (Europe)-thumb.png</thumbnail>
+		<mix>./images/Tekken 3D - Prime Edition (Europe)-image.png</mix>
+	</game>
+	<game id="12079">
+		<path>./Terraria (USA) (Rev 1) Decrypted.3ds</path>
+		<name>[中文]泰拉瑞亞 (Terraria Decrypted)</name>
+		<sortname>87 =-  Terraria (USA) (Rev 1) Decrypted</sortname>
+		<desc>Terraria 是一款探索和製作的二維平台遊戲。玩家可以使用地雷和鎬從環境中收集各種物品，包括木材、礦石甚至蜘蛛網。從環境中獲取的資源可以放置或製作成各種物品。
+簡單的製作系統會自動列出您擁有製作材料的所有物品。當務之急是在夜幕降臨之前建立一個基地，以保護自己免受遊蕩的殭屍和眼球怪物的侵害。</desc>
+		<developer>Re-Logic</developer>
+		<genre>Adventure</genre>
+		<genreid>0</genreid>
+		<md5>62726d37938010ee9cb4757f2425766e</md5>
+		<region>us</region>
+		<lang>en</lang>
+		<image>./images/Terraria (USA) (Rev 1) Decrypted-image.png</image>
+		<thumbnail>./images/Terraria (USA) (Rev 1) Decrypted-thumb.png</thumbnail>
+		<mix>./images/Terraria (USA) (Rev 1) Decrypted-image.png</mix>
+	</game>
+	<game id="11007">
+		<path>./Tomodachi Life (Europe).3ds</path>
+		<name>[中文]Tomodachi Collection 新生活 (Tomodachi Life)</name>
+		<sortname>88 =-  Tomodachi Life (Europe)</sortname>
+		<desc>Tomodachi Life 是一款 3DS 通訊遊戲，玩家可以將他們的 Miis 轉換為 Tomodachi（或創建新的），並將它們置於從迷人到完全荒謬的各種場景中。該遊戲的一個關鍵功能是其文本轉語音技術，該技術可將用戶生成的文本輸出為七種語言（EFIGS、日語和韓語）的計算機化語音。</desc>
+		<rating>0.75</rating>
+		<releasedate>20130418T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Simulation</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Tomodachi Life (Europe)-image.png</image>
+		<thumbnail>./images/Tomodachi Life (Europe)-thumb.png</thumbnail>
+		<mix>./images/Tomodachi Life (Europe)-image.png</mix>
+	</game>
+	<game id="11059">
+		<path>./Yu-Gi-Oh! Zexal - World Duel Carnival.3ds</path>
+		<name>[中文]遊戲王 ZEXAL 世界決鬥嘉年華 (Yu-Gi-Oh! Zexal - World Duel Carnival)</name>
+		<sortname>89 =-  Yu-Gi-Oh! Zexal - World Duel Carnival</sortname>
+		<desc>扮演您自己或該系列中的 11 個可玩角色之一，如 Yuma、Astral、Tori、Shark 等，每個角色都有自己的故事情節，並獲得參加世界決鬥嘉年華的邀請，在那裡您可以與電視節目中的 40 多名決鬥者戰鬥！玩家可以享受故事模式和自由決鬥模式，在其中可以玩超過 5,700 張卡牌。
+-第一個遊戲王！ZEXAL 視頻遊戲和第一款遊戲王！適用於任天堂 3DS 手持系統的視頻遊戲。
+- 十二個可玩的...</desc>
+		<rating>0.55</rating>
+		<developer>Konami</developer>
+		<publisher>Konami</publisher>
+		<genre>Playing Cards</genre>
+		<genreid>0</genreid>
+		<lang>en</lang>
+		<image>./images/Yu-Gi-Oh! Zexal - World Duel Carnival-image.png</image>
+		<thumbnail>./images/Yu-Gi-Oh! Zexal - World Duel Carnival-thumb.png</thumbnail>
+		<mix>./images/Yu-Gi-Oh! Zexal - World Duel Carnival-image.png</mix>
+	</game>
+	<game id="11086">
+		<path>./Zero Escape - Virtue's Last Reward (Europe).3ds</path>
+		<name>[中文]極限脫出 善人死亡 (Zero Escape - Virtue's Last Reward)</name>
+		<sortname>90 =-  Zero Escape - Virtue's Last Reward (Europe)</sortname>
+		<desc>你以為你已經打敗了九元遊戲，但現在它又回來了，而且比以往任何時候都更加致命。要想活著逃脫，需要狡猾、技巧和一點點運氣，但你真的有選擇嗎？
+在加州工作的 IDO 特工報告說，初步調查結果表明，極其危險的日本冒險遊戲“Zennin Shiboudesu”已經以某種方式穿越了太平洋。人們曾試圖遏制它，但一些攜帶者似乎已經逃脫了隔離，目前在逃。</desc>
+		<rating>0.9</rating>
+		<releasedate>20121023T000000</releasedate>
+		<developer>Rising Star Games</developer>
+		<publisher>Chunsoft</publisher>
+		<genre>Adventure</genre>
+		<genreid>0</genreid>
+		<players>1</players>
+		<region>eu</region>
+		<lang>en</lang>
+		<image>./images/Zero Escape - Virtue's Last Reward (Europe)-image.png</image>
+		<thumbnail>./images/Zero Escape - Virtue's Last Reward (Europe)-thumb.png</thumbnail>
+		<mix>./images/Zero Escape - Virtue's Last Reward (Europe)-image.png</mix>
+	</game>
+	<game id="176095">
+		<path>./Ever Oasis (Europe).cxi</path>
+		<name>[中文]永遠的綠洲 (Ever Oasis)</name>
+		<desc>沙漠最後的避風港是你稱之為家的孤獨綠洲。所以，在沙子上畫一條線，並努力保護它！當你探索沙漠並解決令人費解的地牢時，你將收集資源，與水精靈埃斯納一起建造你的綠洲。盟友將加入你的事業，所以為他們配備武器，並利用他們的技能殺死高大的頭目。
+
+《Ever Oasis™》遊戲是一款全新的動作冒險角色扮演遊戲，由《聖劍傳說》系列的創作者兼 GREZZO 製作人石井浩一 (Koichi Ishii) 精心打造。</desc>
+		<image>./images/Ever Oasis (Europe)-image.png</image>
+		<marquee>./images/Ever Oasis (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Ever Oasis (Europe)-thumb.png</thumbnail>
+		<mix>./images/Ever Oasis (Europe)-image.png</mix>
+		<releasedate>20170623T000000</releasedate>
+		<developer>Grezzo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Role playing games / Action RPG</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>27 =-  Ever Oasis (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103608" />
+	</game>
+	<game id="11626">
+		<path>./50 Classic Games 3D (USA).cxi</path>
+		<name>[中文]50款經典遊戲3D (50 Classic Games 3D)</name>
+		<desc>Nintendo.com 描述（來自 Ad Blurbs）Nintendo 3DS 的 50 款經典遊戲就在這裡！與新
+令人瞠目結舌的圖形和交互功能，你會迷失幾個小時
+在從雙陸棋到
+腦筋急轉彎！試試德州撲克、二十一點和輪盤賭。
+重新發現經典的棋盤和骰子遊戲，例如 Farkle、國際象棋和
+麻將。釣魚、打空氣曲棍球、幹掉敵方戰艦，
+扔飛鏢！解決棘手的腦筋急轉彎，圖片...</desc>
+		<image>./images/50 Classic Games 3D (USA)-image.png</image>
+		<marquee>./images/50 Classic Games 3D (USA)-marquee.png</marquee>
+		<thumbnail>./images/50 Classic Games 3D (USA)-thumb.png</thumbnail>
+		<mix>./images/50 Classic Games 3D (USA)-image.png</mix>
+		<rating>0.5</rating>
+		<releasedate>20120424T000000</releasedate>
+		<developer>Cerasus Media</developer>
+		<publisher>Maximum Family Games, LLC</publisher>
+		<genre>Puzzle-Game</genre>
+		<players>1</players>
+		<md5>b82e62f18127b1a9382c08d0839187c0</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>02 =-  50 Classic Games 3D (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103559" />
+	</game>
+	<game id="176106">
+		<path>./Fire Emblem Fates - Conquest (USA) Decrypted.3ds</path>
+		<name>[中文]聖火降魔錄 if 暗夜王國 (Fire Emblem Fates: Conquest)</name>
+		<desc>兩個王國正處於戰爭邊緣。你會選擇哪一邊呢？你是星戶的繼承人，由諾里王室成員撫養長大，夾在兩個家庭之間。如果你走征服之路，你就必須努力從內部改變你被誤導的王國。以專業的精確度指揮戰士並建立深厚的關係，以掌握這款回合製策略遊戲。</desc>
+		<image>./images/Fire Emblem Fates - Conquest (USA) Decrypted-image.png</image>
+		<marquee>./images/Fire Emblem Fates - Conquest (USA) Decrypted-marquee.png</marquee>
+		<thumbnail>./images/Fire Emblem Fates - Conquest (USA) Decrypted-thumb.png</thumbnail>
+		<mix>./images/Fire Emblem Fates - Conquest (USA) Decrypted-image.png</mix>
+		<developer>Intelligent Systems</developer>
+		<publisher>Nintendo</publisher>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>34 =-  Fire Emblem Fates - Conquest (USA) Decrypted</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103607" />
+	</game>
+	<game id="11758">
+		<path>./Face Racers - Photo Finish (USA).3ds</path>
+		<name>[中文]臉部賽車 (Face Racers - Photo Finish)</name>
+		<desc>啟動你的渦輪增壓引擎，衝進令人驚嘆的街機賽車遊戲《Face Racers: Photo Finish》，照片可定制的 3D 賽車讓你身臨其境！Face Racers 可在 Nintendo 3DS 上使用，提供獨特的、面對面的遊戲玩法，危險的障礙物以 3D 形式呈現在您眼前！使用 3DS 相機拍攝照片並將其放置在自定義 3D 賽車、廣告牌和道具的表面上。在多人遊戲模式中與朋友較量，獲得真正的照片完成...</desc>
+		<image>./images/Face Racers - Photo Finish (USA)-image.png</image>
+		<marquee>./images/Face Racers - Photo Finish (USA)-marquee.png</marquee>
+		<thumbnail>./images/Face Racers - Photo Finish (USA)-thumb.png</thumbnail>
+		<mix>./images/Face Racers - Photo Finish (USA)-image.png</mix>
+		<releasedate>20110906T000000</releasedate>
+		<developer>Renegade Kid</developer>
+		<publisher>Majesco</publisher>
+		<genre>Race, Driving</genre>
+		<players>1-4</players>
+		<md5>a5f262f6398ef8fcfc349d203c0c04f4</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>29 =-  Face Racers - Photo Finish (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103607" />
+	</game>
+	<game id="11365">
+		<path>./Crush3d.3ds</path>
+		<name>[中文]粉碎3D (CRUSH3D)</name>
+		<desc>丹尼飽受失眠之苦。由於極度渴望睡眠卻無法入睡，他發現自己成為了瘋狂魯本斯博士的最高成就 C.R.U.S.H. 的測試對象。（或者如果您願意的話，利用精神病學啟發法進行認知回歸）。壓碎。將受試者置於催眠狀態，讓他們探索自己的心靈，面對自己內心深處、黑暗的秘密。</desc>
+		<image>./images/Crush3d-image.png</image>
+		<marquee>./images/Crush3d-marquee.png</marquee>
+		<thumbnail>./images/Crush3d-thumb.png</thumbnail>
+		<mix>./images/Crush3d-image.png</mix>
+		<rating>0.7</rating>
+		<releasedate>20120215T000000</releasedate>
+		<developer>Zoë Mode</developer>
+		<publisher>SEGA</publisher>
+		<genre>Puzzle-Game</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<sortname>16 =-  Crush3d</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103606" />
+	</game>
+	<game id="176236">
+		<path>./Mario &amp; Luigi - Superstar Saga + Bowser's Minions (USA).3ds</path>
+		<name>[中文]瑪利歐與路易吉RPG1 DX (Mario &amp; Luigi: Superstar Saga + Bowser's Minions)</name>
+		<desc>拯救桃子公主的聲音、豆豆王國和……庫巴？ ！
+
+
+
+推出《馬里奧與路易吉》系列的遊戲回歸，看起來比以往任何時候都更好。在這部全新經典中，馬里奧和路易吉與庫巴一起前往豆豆王國，恢復桃子公主的聲音。同時控制馬里奧和路易吉，利用他們獨特的兄弟動作來解決謎題並在充滿動作的戰鬥中取得勝利。注意敵人的模式並及時做出反應，以獲得滿意的結果...</desc>
+		<image>./images/Mario &amp; Luigi - Superstar Saga + Bowser's Minions (USA)-image.png</image>
+		<marquee>./images/Mario &amp; Luigi - Superstar Saga + Bowser's Minions (USA)-marquee.png</marquee>
+		<thumbnail>./images/Mario &amp; Luigi - Superstar Saga + Bowser's Minions (USA)-thumb.png</thumbnail>
+		<mix>./images/Mario &amp; Luigi - Superstar Saga + Bowser's Minions (USA)-image.png</mix>
+		<rating>0.95</rating>
+		<releasedate>20171006T000000</releasedate>
+		<developer>Alphadream Corporation</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Action</genre>
+		<family>Mario</family>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>48 =-  Mario &amp; Luigi - Superstar Saga + Bowser's Minions (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103607" />
+	</game>
+	<game id="11135">
+		<path>./F1 2011 (USA).3ds</path>
+		<name>[中文]一級方程式賽車2011 (F1 2011)</name>
+		<desc>F1 2011 是主要 F1 2011 遊戲的掌機改編版。它提供了完整的 2011 年賽車賽季的所有階段，並融入了主遊戲中的多賽季生涯模式。此外還有大獎賽週末和三圈衝刺賽。大獎賽分為練習賽、排位賽和正賽。有駕駛輔助（包括確定比賽距離）、天氣影響、燃料和輪胎選項，並且包括來自...的 KERS 和 DRS 系統。</desc>
+		<image>./images/F1 2011 (USA)-image.png</image>
+		<marquee>./images/F1 2011 (USA)-marquee.png</marquee>
+		<thumbnail>./images/F1 2011 (USA)-thumb.png</thumbnail>
+		<mix>./images/F1 2011 (USA)-image.png</mix>
+		<rating>0.85</rating>
+		<developer>Sumo Digital</developer>
+		<publisher>Codemasters</publisher>
+		<genre>Race, Driving</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>28 =-  F1 2011 (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103618" />
+	</game>
+	<game id="10998">
+		<path>./Bravely Default (Europe).3ds</path>
+		<name>[中文]勇氣默示錄 (Bravely Default)</name>
+		<desc>Square Enix 推出的這款全新而傳統的產品捕捉了昔日經典角色扮演遊戲的魅力、優雅和簡潔。在這個關於個人成長和冒險的經典故事中，成為一名光之戰士並前往盧森達爾克之地。</desc>
+		<image>./images/Bravely Default (Europe)-image.png</image>
+		<marquee>./images/Bravely Default (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Bravely Default (Europe)-thumb.png</thumbnail>
+		<mix>./images/Bravely Default (Europe)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20121011T000000</releasedate>
+		<developer>Square Enix</developer>
+		<publisher>Silicon Studio</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>09 =-  Bravely Default (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103613" />
+	</game>
+	<game id="11094">
+		<path>./Dead or Alive - Dimensions (Europe).3ds</path>
+		<name>[中文]生死格鬥 次元 (Dead Or Alive - Dimensions)</name>
+		<desc>《DEAD OR ALIVE Dimensions》採用了 DOA 系列深受世界各地玩家歡迎的活潑角色和場景，並以令人瞠目結舌的 3D 方式呈現。將該系列定義為頂級格鬥遊戲的所有拳擊、踢腿、反擊和握持動作均首次出現在便攜式遊戲系統 - 任天堂 3DS 上。DEAD OR ALIVE Dimensions 收錄了該系列的一些最佳內容，涵蓋從最初的《DOA》到《DOA 4》的所有遊戲。</desc>
+		<image>./images/Dead or Alive - Dimensions (Europe)-image.png</image>
+		<marquee>./images/Dead or Alive - Dimensions (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Dead or Alive - Dimensions (Europe)-thumb.png</thumbnail>
+		<mix>./images/Dead or Alive - Dimensions (Europe)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20110524T000000</releasedate>
+		<developer>Team Ninja</developer>
+		<publisher>Tecmo</publisher>
+		<genre>Fight</genre>
+		<players>2</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>18 =-  Dead or Alive - Dimensions (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103623" />
+	</game>
+	<game id="11032">
+		<path>./Etrian Odyssey Untold The Millennium Girl (USA).cxi</path>
+		<name>[中文]世界樹迷宮 千年少女 (Etrian Odyssey Untold: The Millennium Girl)</name>
+		<desc>Etrian Odyssey Untold 是一款由兩部分組成的遊戲：第一部分是故事驅動的第一人稱冒險，進入 Etria 世界。故事模式適合該系列的新玩家和老玩家，為玩家提供五個預製角色，每個角色都有自己的個性和對話，以探索第一款遊戲中未見的 Etria 的一面。冒險者必須勇敢面對新的地牢佈局、樓層和敵人，找出世界之樹和神秘女孩弗雷德麗卡的真相。
+
+對於系列...</desc>
+		<image>./images/Etrian Odyssey Untold The Millennium Girl (USA)-image.png</image>
+		<marquee>./images/Etrian Odyssey Untold The Millennium Girl (USA)-marquee.png</marquee>
+		<thumbnail>./images/Etrian Odyssey Untold The Millennium Girl (USA)-thumb.png</thumbnail>
+		<mix>./images/Etrian Odyssey Untold The Millennium Girl (USA)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20131001T000000</releasedate>
+		<developer>Atlus</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>26 =-  Etrian Odyssey Untold The Millennium Girl (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103623" />
+	</game>
+	<game id="11009">
+		<path>./Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1) Decrypted.3ds</path>
+		<name>[中文]瑪利歐賽車7 (Mario Kart 7)</name>
+		<desc>深受粉絲喜愛的《馬里奧賽車》系列的最新作品將蘑菇王國的賽車樂趣帶入光彩奪目的 3D 之中。車手們第一次探索新的競技卡丁車可能性，例如翱翔於天空或潛入大海深處。新賽道、戰略性新能力和可定制的卡丁車將賽車的興奮感提升到了新的高度。</desc>
+		<image>./images/Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1) Decrypted-image.png</image>
+		<marquee>./images/Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1) Decrypted-marquee.png</marquee>
+		<thumbnail>./images/Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1) Decrypted-thumb.png</thumbnail>
+		<mix>./images/Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1) Decrypted-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20111201T000000</releasedate>
+		<developer>Retro Studios</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Race, Driving</genre>
+		<family>Mario Kart</family>
+		<players>2-8</players>
+		<lang>ru,pt,nl,it,es,de,fr,en</lang>
+		<region>ru</region>
+		<sortname>51 =-  Mario Kart 7 (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (Rev 1) Decrypted</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103623" />
+	</game>
+	<game id="11062">
+		<path>./Etrian Odyssey IV - Legends of the Titan (Europe).3ds</path>
+		<name>[中文]世界樹迷宮4 傳承的巨神 (Etrian Odyssey 4 - Legends Of The Titan)</name>
+		<desc>幾個世紀以來，世界之樹一直存在於塔爾西斯人民的生活中。它隱約出現在地平線上，從城市的任何地方都可以看到。但它的根源在於一片遙遠的土地，直到塔西斯外域伯爵贊助探險家公會到達世界樹並發現它的秘密之前，沒有人冒險去過那裡。您是最新抵達塔爾西斯尋求名譽和財富的探險家。登上你的飛船，出發進入雲端，尋找寶藏、榮耀和……</desc>
+		<image>./images/Etrian Odyssey IV - Legends of the Titan (Europe)-image.png</image>
+		<marquee>./images/Etrian Odyssey IV - Legends of the Titan (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Etrian Odyssey IV - Legends of the Titan (Europe)-thumb.png</thumbnail>
+		<mix>./images/Etrian Odyssey IV - Legends of the Titan (Europe)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20130226T000000</releasedate>
+		<developer>NIS America</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role playing games</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>25 =-  Etrian Odyssey IV - Legends of the Titan (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103628" />
+	</game>
+	<game id="11051">
+		<path>./Donkey Kong Country Returns 3D (Europe).3ds</path>
+		<name>[中文]大金剛 熱帶急凍 3D (Donkey Kong Country Returns 3D)</name>
+		<desc>超過 70 個級別的香蕉囤積樂趣，以大金剛和吹笛人為主角。在不同的環境中奔跑、跳躍、攀爬並擊敗敵人，直到找回大金剛偷來的香蕉寶藏。針對任天堂 3DS 系統上的便攜式遊戲進行了重建和優化。</desc>
+		<image>./images/Donkey Kong Country Returns 3D (Europe)-image.png</image>
+		<marquee>./images/Donkey Kong Country Returns 3D (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Donkey Kong Country Returns 3D (Europe)-thumb.png</thumbnail>
+		<mix>./images/Donkey Kong Country Returns 3D (Europe)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20130524T000000</releasedate>
+		<developer>Retro Studios</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<players>2</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>19 =-  Donkey Kong Country Returns 3D (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103628" />
+	</game>
+	<game id="11056">
+		<path>./Legend of Korra - A New Era Begins, The (USA).3ds</path>
+		<name>[中文]降世神通 科拉傳奇 (The Legend of Korra: A New Era Begins)</name>
+		<desc>與科拉和她的朋友們一起阻止從傳送門中出現並威脅兩個世界平衡的遠古邪惡！
+
+
+
+《阿凡達》的原創故事情節由電視節目的創作者撰寫。
+
+像阿凡達一樣運用所有 4 種元素的力量：水、土、火和空氣！
+
+在全球範圍內的戰略戰鬥中控制科拉和她的朋友們。
+
+通過激活全能的阿凡達狀態來克服壓倒性的困難。</desc>
+		<image>./images/Legend of Korra - A New Era Begins, The (USA)-image.png</image>
+		<marquee>./images/Legend of Korra - A New Era Begins, The (USA)-marquee.png</marquee>
+		<thumbnail>./images/Legend of Korra - A New Era Begins, The (USA)-thumb.png</thumbnail>
+		<mix>./images/Legend of Korra - A New Era Begins, The (USA)-image.png</mix>
+		<developer>Activision</developer>
+		<publisher>Webfoot</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>41 =-  Legend of Korra - A New Era Begins, The (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103640" />
+	</game>
+	<game id="11312">
+		<path>./Cooking Mama 5 - Bon Appetit! (USA).3ds</path>
+		<name>[中文]料理媽媽5 (Cooking Mama 5 : Bon Appétit !)</name>
+		<desc>烹飪媽媽 5：祝你胃口好！（庫金古媽媽 5）是任天堂 3DS 視頻遊戲《烹飪媽媽 4：廚房魔法》的續作，也是任天堂 3DS 上烹飪媽媽系列的第五部。它於2013年11月21日在日本發行，2014年9月16日在北美髮行[2]，2015年3月6日在歐洲發行。[3]它包含 60 多種食譜和新的家庭活動/遊戲。 [4]</desc>
+		<image>./images/Cooking Mama 5 - Bon Appetit! (USA)-image.png</image>
+		<marquee>./images/Cooking Mama 5 - Bon Appetit! (USA)-marquee.png</marquee>
+		<thumbnail>./images/Cooking Mama 5 - Bon Appetit! (USA)-thumb.png</thumbnail>
+		<mix>./images/Cooking Mama 5 - Bon Appetit! (USA)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20140916T000000</releasedate>
+		<developer>Cooking Mama</developer>
+		<publisher>505 Games</publisher>
+		<genre>Various</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>14 =-  Cooking Mama 5 - Bon Appetit! (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103642" />
+	</game>
+	<game id="12009">
+		<path>./Flap Flap (Europe).3ds</path>
+		<name>[中文]拍拍飛 (Flap Flap)</name>
+		<desc>調動你所有的技能、精確度和鋼鐵般的意志：Flap Flap 對你來說並不容易！
+
+
+有點輕？那麼所有的加成和特殊能力都會派上用場嗎？
+
+
+不幸的是，還有敵人和障礙讓事情變得複雜！</desc>
+		<image>./images/Flap Flap (Europe)-image.png</image>
+		<marquee>./images/Flap Flap (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Flap Flap (Europe)-thumb.png</thumbnail>
+		<mix>./images/Flap Flap (Europe)-image.png</mix>
+		<developer>Bigben Interactive</developer>
+		<publisher>Sanuk Games</publisher>
+		<genre>Adventure</genre>
+		<md5>a962fd6d05e14331650ded27c50fc8cf</md5>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>35 =-  Flap Flap (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103644" />
+	</game>
+	<game id="11106">
+		<path>./Code Name - S.T.E.A.M. (USA).3ds</path>
+		<name>[中文]蒸汽世界 (Code Name S.t.e.a.m)</name>
+		<desc>成立 S.T.E.A.M.，這是一支由蒸汽動力特種部隊士兵組成的精英團隊，旨在拯救世界免受外星威脅。在這種行動與策略的新融合中，我們的突擊隊員使用特殊背包中存儲的蒸汽動力移動到位並發射一系列不同的武器。選擇你的團隊成員並裝載，然後使用策略來決定接近這個蒸汽朋克風格的戰場的最佳方式。</desc>
+		<image>./images/Code Name - S.T.E.A.M. (USA)-image.png</image>
+		<marquee>./images/Code Name - S.T.E.A.M. (USA)-marquee.png</marquee>
+		<thumbnail>./images/Code Name - S.T.E.A.M. (USA)-thumb.png</thumbnail>
+		<mix>./images/Code Name - S.T.E.A.M. (USA)-image.png</mix>
+		<rating>0.8</rating>
+		<developer>Nintendo</developer>
+		<publisher>Intelligent Systems</publisher>
+		<genre>Strategy</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>12 =-  Code Name - S.T.E.A.M. (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103646" />
+	</game>
+	<game id="11076">
+		<path>./Dragon Quest VII - Fragments of the Forgotten Past (USA).cxi</path>
+		<name>[中文]勇者鬥惡龍VII 伊甸的戰士們 (Dragon Quest VII: Fragments of the Forgotten Past)</name>
+		<desc>在這款經典勇者鬥惡龍冒險遊戲中穿越到過去拯救現在，該冒險遊戲已針對 Nintendo 3DS 進行了徹底重製。世界已經重建，角色有了新的 3D 模型，故事也已經完全重新本地化。甚至可以用 30 多個類別來定制您的隊伍，並在回合製戰鬥中升級以學習新的咒語和能力。</desc>
+		<image>./images/Dragon Quest VII - Fragments of the Forgotten Past (USA)-image.png</image>
+		<marquee>./images/Dragon Quest VII - Fragments of the Forgotten Past (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dragon Quest VII - Fragments of the Forgotten Past (USA)-thumb.png</thumbnail>
+		<mix>./images/Dragon Quest VII - Fragments of the Forgotten Past (USA)-image.png</mix>
+		<rating>0.8</rating>
+		<releasedate>20160916T000000</releasedate>
+		<developer>Square Enix</developer>
+		<publisher>Square Enix</publisher>
+		<genre>Role playing games</genre>
+		<family>Dragon Quest</family>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>21 =-  Dragon Quest VII - Fragments of the Forgotten Past (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103653" />
+	</game>
+	<game id="10989">
+		<path>./Fantasy Life.3ds</path>
+		<name>[中文]奇幻生活 (Fantasy Life)</name>
+		<desc>FANTASY LIFE* 是任天堂 3DS 的原創角色扮演遊戲，從 LEVEL-5 開始，由植松伸夫 (Nobuo Uematsu) 創作音樂，天野喜孝 (Yoshitaka Amano) 繪製插圖。
+以美麗而廣闊的開放世界為背景，玩家創建自己的化身並從事自己選擇的職業，過著自己認為合適的生活。您可以踏上拯救世界的冒險之旅，也可以享受烹飪或釣魚等休閒活動。在無限的可能性中找到新生活的意義......</desc>
+		<image>./images/Fantasy Life-image.png</image>
+		<marquee>./images/Fantasy Life-marquee.png</marquee>
+		<thumbnail>./images/Fantasy Life-thumb.png</thumbnail>
+		<mix>./images/Fantasy Life-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20140101T000000</releasedate>
+		<developer>Level-5</developer>
+		<publisher>Brownie Brown</publisher>
+		<genre>Role playing games</genre>
+		<playcount>1</playcount>
+		<lastplayed>20220219T152127</lastplayed>
+		<gametime>224</gametime>
+		<lang>en</lang>
+		<sortname>30 =-  Fantasy Life</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103651" />
+	</game>
+	<game id="11021">
+		<path>./Kirby - Triple Deluxe.3ds</path>
+		<name>[中文]星之卡比 三倍豪華版 (Kirby : Triple Deluxe)</name>
+		<desc>粉色的？查看。蓬鬆？查看。強大的？你不知道。
+
+使用卡比的超新星能力吞噬樹木、障礙物和大塊舞台，並吸入敵人以模仿弓箭手等史詩般的新動作。這是一場盛大的全新卡比冒險之旅，還有全新的多人戰鬥模式“卡比戰士”！
+
+當一個神秘生物在巨大的夢莖上綁架了帝帝帝國王時，只有卡比可以拯救世界！在動態 3D 橫向捲軸環境中從前台跳轉到後台，同時使用新的和返回的...</desc>
+		<image>./images/Kirby - Triple Deluxe-image.png</image>
+		<marquee>./images/Kirby - Triple Deluxe-marquee.png</marquee>
+		<thumbnail>./images/Kirby - Triple Deluxe-thumb.png</thumbnail>
+		<mix>./images/Kirby - Triple Deluxe-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20140111T000000</releasedate>
+		<developer>HAL Laboratory</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<family>Kirby</family>
+		<lang>en</lang>
+		<sortname>39 =-  Kirby - Triple Deluxe</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103655" />
+	</game>
+	<game id="176223">
+		<path>./LEGO Star Wars - The Force Awakens (USA).3ds</path>
+		<name>[中文]樂高星際大戰 原力覺醒 (LEGO Star Wars: The Force Awakens)</name>
+		<desc>樂高星球大戰：原力覺醒標誌著第一大樂高電子遊戲系列的凱旋歸來，讓粉絲們以前所未有的方式沉浸在全新的星球大戰冒險中。玩家可以以只有樂高才能提供的方式重溫這部大片中的史詩般的動作，其中包含《星球大戰：原力覺醒》的所有故事情節，並通過巧妙而詼諧的樂高鏡頭重述。該遊戲還將提供獨家可玩內容，帶領玩家踏上《星球大戰：第六集：回歸》之間的冒險……</desc>
+		<image>./images/LEGO Star Wars - The Force Awakens (USA)-image.png</image>
+		<marquee>./images/LEGO Star Wars - The Force Awakens (USA)-marquee.png</marquee>
+		<thumbnail>./images/LEGO Star Wars - The Force Awakens (USA)-thumb.png</thumbnail>
+		<mix>./images/LEGO Star Wars - The Force Awakens (USA)-image.png</mix>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>45 =-  LEGO Star Wars - The Force Awakens (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103659" />
+	</game>
+	<game id="10992">
+		<path>./Monster Hunter 3 Ultimate (Europe).3ds</path>
+		<name>[中文]魔物獵人3 終極版 (Monster Hunter 3 Ultimate)</name>
+		<desc>廣受歡迎的奇幻動作系列《怪物獵人》自 2004 年推出以來，現已成為世界上最具標誌性的遊戲系列之一，全球銷量超過 2100 萬份。玩家扮演獵人的角色，被派去探索《怪物獵人》宇宙中的定居點，在旅途中完成尋找和殺死怪物的任務，同時提高技能並獲得裝備升級。該系列的最新版本包含許多具有挑戰性的怪物和超過 200 個任務...</desc>
+		<image>./images/Monster Hunter 3 Ultimate (Europe)-image.png</image>
+		<marquee>./images/Monster Hunter 3 Ultimate (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Monster Hunter 3 Ultimate (Europe)-thumb.png</thumbnail>
+		<mix>./images/Monster Hunter 3 Ultimate (Europe)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20130302T000000</releasedate>
+		<developer>Capcom</developer>
+		<publisher>Capcom</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>54 =-  Monster Hunter 3 Ultimate (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103658" />
+	</game>
+	<game id="11246">
+		<path>./Cooking Mama 4 (Europe).3ds</path>
+		<name>[中文]料理媽媽4 (Cooking Mama 4)</name>
+		<desc>與原創數字廚師一起在 Nintendo 3DS 上首次亮相《烹飪媽媽 4：廚房魔法》！從新的食譜和玩法到新鮮的廚房活動和菜餚組合，這位標誌性的廚房小可愛有一些妙招，可以神奇地將廚房新手變成烹飪大師！當您使用 Nintendo 3DS 陀螺儀以全新方式烹飪時，您可以在 200 多個獨特的觸摸屏迷你游戲中進行切片、切丁、揉捏、拋擲和翻轉：打雞蛋、翻轉...</desc>
+		<image>./images/Cooking Mama 4 (Europe)-image.png</image>
+		<marquee>./images/Cooking Mama 4 (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Cooking Mama 4 (Europe)-thumb.png</thumbnail>
+		<mix>./images/Cooking Mama 4 (Europe)-image.png</mix>
+		<rating>0.6</rating>
+		<releasedate>20111011T000000</releasedate>
+		<developer>Cooking Mama</developer>
+		<publisher>505 Games</publisher>
+		<genre>Various</genre>
+		<players>4</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>13 =-  Cooking Mama 4 (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103659" />
+	</game>
+	<game id="11241">
+		<path>./Ace Combat - Assault Horizon Legacy (Europe).3ds</path>
+		<name>[中文]空戰奇兵 突擊地平線 遺產 (Ace Combat: Assault Horizon Legacy)</name>
+		<desc>皇牌空戰：突擊地平線遺產是一款飛行模擬/街機戰鬥機格鬥動作遊戲。該遊戲通常以第三人稱（在飛機後面）或第一人稱（在駕駛艙視圖內）進行。它具有系列支柱，例如眾多可選擇的飛機以及購買零件和武器來定制戰鬥機的能力。《突擊地平線：遺產》與當前主機版《突擊地平線》的不同之處在於，遊戲玩法更傾向於街機風格的遊戲……</desc>
+		<image>./images/Ace Combat - Assault Horizon Legacy (Europe)-image.png</image>
+		<marquee>./images/Ace Combat - Assault Horizon Legacy (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Ace Combat - Assault Horizon Legacy (Europe)-thumb.png</thumbnail>
+		<mix>./images/Ace Combat - Assault Horizon Legacy (Europe)-image.png</mix>
+		<rating>0.75</rating>
+		<releasedate>20111115T000000</releasedate>
+		<developer>Access Games</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Action</genre>
+		<players>1</players>
+		<playcount>1</playcount>
+		<lastplayed>20220219T151726</lastplayed>
+		<gametime>296</gametime>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>03 =-  Ace Combat - Assault Horizon Legacy (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103659" />
+	</game>
+	<game id="11031">
+		<path>./Kingdom Hearts 3D - Dream Drop Distance (Europe).3ds</path>
+		<name>[中文]王國之心3D 夢降深處 (Kingdom Hearts 3D: Dream Drop Distance)</name>
+		<desc>隨著邪惡的 Xehanort 捲土重來的威脅，米奇國王和 Yen Sid 開始準備對抗他。他們的第一步是將鍵刃持有者 Sora 和 Riku 轉變為鍵刃大師。Sora 和 Riku 接到了完成精通標記考試的任務，完成後將幫助他們獲得強大的力量來幫助對抗 Xehanort。這項測試不會那麼容易，因為兩人必須一起冒險進入七個睡眠世界並找到睡眠的鑰匙孔以喚醒......</desc>
+		<image>./images/Kingdom Hearts 3D - Dream Drop Distance (Europe)-image.png</image>
+		<marquee>./images/Kingdom Hearts 3D - Dream Drop Distance (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Kingdom Hearts 3D - Dream Drop Distance (Europe)-thumb.png</thumbnail>
+		<mix>./images/Kingdom Hearts 3D - Dream Drop Distance (Europe)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20120731T000000</releasedate>
+		<developer>Square Enix</developer>
+		<publisher>Square Enix</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>38 =-  Kingdom Hearts 3D - Dream Drop Distance (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103707" />
+	</game>
+	<game id="11385">
+		<path>./Bella Sara 2 (Europe).3ds</path>
+		<name>[中文]貝拉莎拉2 (Bella Sara 2)</name>
+		<image>./images/Bella Sara 2 (Europe)-image.png</image>
+		<marquee>./images/Bella Sara 2 (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Bella Sara 2 (Europe)-thumb.png</thumbnail>
+		<mix>./images/Bella Sara 2 (Europe)-image.png</mix>
+		<releasedate>20110101T000000</releasedate>
+		<developer>Bigben Interactive</developer>
+		<publisher>Bigben Interactive</publisher>
+		<genre>Simulation</genre>
+		<players>1</players>
+		<md5>7feb8e8699ede9036a99b3a3bd173cd7</md5>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>08 =-  Bella Sara 2 (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103659" />
+	</game>
+	<game id="11148">
+		<path>./Mario &amp; Sonic at the London 2012 Olympic Games (Europe).3ds</path>
+		<name>[中文]瑪利歐與索尼克 倫敦奧運 (Mario &amp; Sonic at the London 2012 Olympic Games)</name>
+		<desc>2012 年倫敦奧運會上首次登陸任天堂全新掌上系統的《馬里奧與索尼克》包含 50 多個原創奧運主題賽事，可在單人和多人模式下進行。裸眼 3D 視覺效果和獨特的控制系統為《馬里奧與索尼克》宇宙帶來了全新的維度，這意味著有很多新的、令人興奮的方式來爭奪令人垂涎的金牌！</desc>
+		<image>./images/Mario &amp; Sonic at the London 2012 Olympic Games (Europe)-image.png</image>
+		<marquee>./images/Mario &amp; Sonic at the London 2012 Olympic Games (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Mario &amp; Sonic at the London 2012 Olympic Games (Europe)-thumb.png</thumbnail>
+		<mix>./images/Mario &amp; Sonic at the London 2012 Olympic Games (Europe)-image.png</mix>
+		<rating>0.7</rating>
+		<releasedate>20111115T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Sports</genre>
+		<family>Mario &amp; Sonic</family>
+		<players>2-4</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>49 =-  Mario &amp; Sonic at the London 2012 Olympic Games (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103712" />
+	</game>
+	<game id="11011">
+		<path>./Luigi's Mansion 2 (Europe).3ds</path>
+		<name>[中文]路易吉洋樓2 (Luigi's Mansion 2)</name>
+		<desc>路易吉洋館發生事件後，路易吉再次穿上他的捉鬼裝備。這次他來到了永影谷，闇月的毀滅導致所有鬼魂都對人類產生了敵意。路易吉受古怪教授加德的僱傭，前往五座鬼屋取回闇月部件。
+
+路易吉選擇的武器是名為 PolterGust 5000 的真空裝置，用於對抗眾多幽靈敵人。基本程序始終相同：Luigi...</desc>
+		<image>./images/Luigi's Mansion 2 (Europe)-image.png</image>
+		<marquee>./images/Luigi's Mansion 2 (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Luigi's Mansion 2 (Europe)-thumb.png</thumbnail>
+		<mix>./images/Luigi's Mansion 2 (Europe)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20130101T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Next Level Games</publisher>
+		<genre>Adventure</genre>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>47 =-  Luigi's Mansion 2 (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103712" />
+	</game>
+	<game id="176265">
+		<path>./Monster Hunter Generations (USA).3ds</path>
+		<name>[中文]魔物獵人X (Monster Hunter Generations)</name>
+		<desc>《怪物獵人世代》是一款由 Capcom 為任天堂 3DS 開發和發行的動作角色扮演視頻遊戲。該遊戲於 2015 年 5 月發布，並於 2015 年 11 月在日本發布，遊戲名稱為《怪物獵人 Cross》，並於 2016 年 7 月在全球發布。與《怪物獵人》系列中的其他遊戲一樣，玩家將承擔涉及狩獵危險生物的任務。本期的主要新增內容包括特殊攻擊、新的戰鬥風格以及扮演 F...</desc>
+		<image>./images/Monster Hunter Generations (USA)-image.png</image>
+		<marquee>./images/Monster Hunter Generations (USA)-marquee.png</marquee>
+		<thumbnail>./images/Monster Hunter Generations (USA)-thumb.png</thumbnail>
+		<mix>./images/Monster Hunter Generations (USA)-image.png</mix>
+		<releasedate>20160715T000000</releasedate>
+		<developer>Capcom</developer>
+		<publisher>Capcom</publisher>
+		<players>2-4</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>55 =-  Monster Hunter Generations (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103718" />
+	</game>
+	<game id="176104">
+		<path>./Fire Emblem Echoes Shadows of Valentia (USA).cxi</path>
+		<name>[中文]聖火降魔錄 Echoes 另一位英雄王 (Fire Emblem Echoes: Shadows of Valentia)</name>
+		<desc>兩支軍隊同命運的故事
+
+在一個被戰神撕裂的大陸上，引導兩支軍隊進行殘酷的戰術戰鬥——這款重新想像的角色扮演史詩入侵了西方！揭開阿爾姆和塞莉卡相互交織的故事，與敵人交戰，擊退巨龍，並探索 3D 地下城。當你掌握了現代與傳統火焰紋章™遊戲玩法的融合時，你的實力將會不斷增強。
+
+阿爾姆和塞莉卡領導著各自的軍隊，為了一個共同的目標而團結起來：停止戰爭並統一瓦倫西亞。每隻手臂...</desc>
+		<image>./images/Fire Emblem Echoes Shadows of Valentia (USA)-image.png</image>
+		<marquee>./images/Fire Emblem Echoes Shadows of Valentia (USA)-marquee.png</marquee>
+		<thumbnail>./images/Fire Emblem Echoes Shadows of Valentia (USA)-thumb.png</thumbnail>
+		<mix>./images/Fire Emblem Echoes Shadows of Valentia (USA)-image.png</mix>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>33 =-  Fire Emblem Echoes Shadows of Valentia (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103714" />
+	</game>
+	<game id="10980">
+		<path>./Pokemon Omega Ruby (USA).3ds</path>
+		<name>[中文]精靈寶可夢 終極紅寶石 (Pokemon Omega Ruby)</name>
+		<desc>在這款神奇寶貝紅寶石版的增強版重製版中，玩家將穿越豐緣地區，踏上成為神奇寶貝大師的旅程。與原版一樣，目標是挑戰豐緣聯盟的八個神奇寶貝道館，並從道館領袖那裡獲得徽章，然後挑戰精英四強和冠軍。然而，當邪惡的岩漿隊試圖通過復活古老的傳奇神奇寶貝固拉多來擴張大陸時，世界正面臨危險。
+
+除了技術升級之外，遊戲...</desc>
+		<image>./images/Pokemon Omega Ruby (USA)-image.png</image>
+		<marquee>./images/Pokemon Omega Ruby (USA)-marquee.png</marquee>
+		<thumbnail>./images/Pokemon Omega Ruby (USA)-thumb.png</thumbnail>
+		<mix>./images/Pokemon Omega Ruby (USA)-image.png</mix>
+		<rating>0.9</rating>
+		<developer>Game Freak</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Role playing games</genre>
+		<family>Pokémon</family>
+		<players>2-4</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>59 =-  Pokemon Omega Ruby (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103712" />
+	</game>
+	<game id="11072">
+		<path>./Paper Mario - Sticker Star (Europe).3ds</path>
+		<name>[中文]紙片瑪利歐 超級貼紙 (Paper Mario : Sticker Star)</name>
+		<desc>在一年一度的貼紙節當天，鮑澤決定搞個惡作劇，將六張皇家貼紙撒在了整個土地上。為了取回這些貼在鮑澤和他的部下身上的神秘魔法貼紙，馬里奧與貼紙仙子克斯蒂一起踏上了冒險之旅，參觀了世界各地的草原、沙漠、森林、雪山和火山。</desc>
+		<image>./images/Paper Mario - Sticker Star (Europe)-image.png</image>
+		<marquee>./images/Paper Mario - Sticker Star (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Paper Mario - Sticker Star (Europe)-thumb.png</thumbnail>
+		<mix>./images/Paper Mario - Sticker Star (Europe)-image.png</mix>
+		<rating>0.75</rating>
+		<releasedate>20121111T000000</releasedate>
+		<developer>Intelligent Systems</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Role playing games</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>58 =-  Paper Mario - Sticker Star (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103720" />
+	</game>
+	<game id="154934">
+		<path>./Pokemon Sun (USA).cxi</path>
+		<name>[中文]精靈寶可夢 太陽 (Pokemon Sun)</name>
+		<desc>《精靈寶可夢太陽》和《精靈寶可夢月亮》標誌著第七代《精靈寶可夢》系列的開始。遊戲發生在阿羅拉群島，該群島的文化、地理和本土野生動物均以夏威夷為基礎。許多阿羅拉本土神奇寶貝以前從未見過，使該系列的神奇寶貝種類總數超過 800 種。
+
+這個故事講述了一個可定制的主角，他剛剛搬到該地區並收到了他們的第一隻神奇寶貝。與...有何不同</desc>
+		<image>./images/Pokemon Sun (USA)-image.png</image>
+		<marquee>./images/Pokemon Sun (USA)-marquee.png</marquee>
+		<thumbnail>./images/Pokemon Sun (USA)-thumb.png</thumbnail>
+		<mix>./images/Pokemon Sun (USA)-image.png</mix>
+		<rating>0.8</rating>
+		<developer>Game Freak</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Role playing games</genre>
+		<family>Pokémon</family>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>60 =-  Pokemon Sun (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103724" />
+	</game>
+	<game id="11209">
+		<path>./Cars 2 (europe) (En,Fi,Sv,No,Da) Decrypted.3ds</path>
+		<name>[中文]汽車總動員2 (Cars 2)</name>
+		<desc>受到即將上映的迪士尼皮克斯動畫電影的啟發，《汽車總動員 2：電子遊戲》讓玩家與他們最喜歡的汽車總動員人物一起進入全球異國他鄉的汽車總動員 2 宇宙。</desc>
+		<image>./images/Cars 2 (europe) (En,Fi,Sv,No,Da) Decrypted-image.png</image>
+		<marquee>./images/Cars 2 (europe) (En,Fi,Sv,No,Da) Decrypted-marquee.png</marquee>
+		<thumbnail>./images/Cars 2 (europe) (En,Fi,Sv,No,Da) Decrypted-thumb.png</thumbnail>
+		<mix>./images/Cars 2 (europe) (En,Fi,Sv,No,Da) Decrypted-image.png</mix>
+		<rating>0.5</rating>
+		<releasedate>20111101T000000</releasedate>
+		<developer>Firebrand Games</developer>
+		<publisher>Disney Interactive</publisher>
+		<genre>Various</genre>
+		<players>1-4</players>
+		<lang>no,en</lang>
+		<region>eu</region>
+		<sortname>10 =-  Cars 2 (europe) (En,Fi,Sv,No,Da) Decrypted</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103721" />
+	</game>
+	<game id="11183">
+		<path>./Cave Story 3D (Europe).3ds</path>
+		<name>[中文]洞窟物語3D (Cave Story 3d)</name>
+		<desc>《Cave Story》是一款獨立橫向捲軸 2D 動作遊戲，在之前的 PC 和 WiiWare 版本中獲得了巨大好評，現在憑藉適用於 Nintendo 3DS 的《Cave Story 3D》進入了一個全新的維度。Cave Story 3D 既是對經典 2D 動作平台遊戲的回歸，也是該類型的潛在未來，它融合了嚴格的控制、精湛的關卡設計以及出色的故事和演示，帶來令人難忘、令人上癮的複古體驗！</desc>
+		<image>./images/Cave Story 3D (Europe)-image.png</image>
+		<marquee>./images/Cave Story 3D (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Cave Story 3D (Europe)-thumb.png</thumbnail>
+		<mix>./images/Cave Story 3D (Europe)-image.png</mix>
+		<rating>0.7</rating>
+		<releasedate>20111108T000000</releasedate>
+		<developer>Nicalis</developer>
+		<publisher>Pixel</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>11 =-  Cave Story 3D (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103725" />
+	</game>
+	<game id="12074">
+		<path>./Mario and Sonic at the Rio 2016 Olympic Games (Europe).3ds</path>
+		<name>[中文]瑪利歐與索尼克 里約奧運 (Mario &amp; Sonic at the Rio 2016 Olympic Games)</name>
+		<desc>與馬里奧和索尼克一起隨時隨地競爭！所有你最喜歡的馬里奧？索尼克和索尼克角色已準備好加入 2016 年奧運會主辦國里約熱內盧的歡樂之旅。然後參加足球、乒乓球等一系列超強賽事的便攜式賽事，在公路上展開競爭，或者在具有挑戰性的高爾夫比賽中測試您的技能。參加在主辦城市里約熱內盧舉辦的有趣而激動人心的活動。與馬里奧、索尼克和您最喜歡的角色一起參加足球等新的挑戰性活動......</desc>
+		<image>./images/Mario and Sonic at the Rio 2016 Olympic Games (Europe)-image.png</image>
+		<marquee>./images/Mario and Sonic at the Rio 2016 Olympic Games (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Mario and Sonic at the Rio 2016 Olympic Games (Europe)-thumb.png</thumbnail>
+		<mix>./images/Mario and Sonic at the Rio 2016 Olympic Games (Europe)-image.png</mix>
+		<rating>0.75</rating>
+		<releasedate>20160408T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>SEGA</publisher>
+		<genre>Casual Game</genre>
+		<family>Sonic</family>
+		<players>1</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>50 =-  Mario and Sonic at the Rio 2016 Olympic Games (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103728" />
+	</game>
+	<game id="11048">
+		<path>./Mario Party - Island Tour (Europe).3ds</path>
+		<name>[中文]瑪利歐派對 島嶼之旅 (Mario Party Island Tour)</name>
+		<desc>《馬里奧派對：島嶼之旅》讓您使用 Nintendo 3DS 系統享受旅途的樂趣！
+
+在全新的終極《馬里奧派對》中與朋友和家人對決——這是一款充滿遊戲可能性的便攜式迷你游戲盛宴。如果您以前從未玩過《馬里奧派對》遊戲，那麼您一定會大飽眼福。
+
+在派對群島上總有新的東西可看。
+在這場終極對決中，您可以上路，在 7 個新遊戲版塊中大放異彩，其中一些只需幾分鐘...</desc>
+		<image>./images/Mario Party - Island Tour (Europe)-image.png</image>
+		<marquee>./images/Mario Party - Island Tour (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Mario Party - Island Tour (Europe)-thumb.png</thumbnail>
+		<mix>./images/Mario Party - Island Tour (Europe)-image.png</mix>
+		<rating>0.65</rating>
+		<releasedate>20131122T000000</releasedate>
+		<developer>Nd Cube</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Casual Game</genre>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>52 =-  Mario Party - Island Tour (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103732" />
+	</game>
+	<game id="12069">
+		<path>./Dragon Quest VIII - Journey of the Cursed King (USA).cxi</path>
+		<name>[中文]勇者鬥惡龍VIII 空與海與大地與被詛咒的公主 (Dragon Quest VIII: Journey of the Cursed King)</name>
+		<desc>特羅丹王國的宮廷小丑杜爾馬格斯偷走了封印在皇家城堡下方的強大魔法權杖。杜爾馬格斯利用權杖的力量摧毀了城堡，對王國及其人民下了詛咒，並將特羅德國王變成了巨魔，公主變成了馬。唯一倖存的城堡守衛與國王、公主、改過自新的強盜楊格斯以及其他幾個同伴一起踏上旅程，尋找邪惡的小丑和打破詛咒的方法。
+
+勇者鬥惡龍 V..</desc>
+		<image>./images/Dragon Quest VIII - Journey of the Cursed King (USA)-image.png</image>
+		<marquee>./images/Dragon Quest VIII - Journey of the Cursed King (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dragon Quest VIII - Journey of the Cursed King (USA)-thumb.png</thumbnail>
+		<mix>./images/Dragon Quest VIII - Journey of the Cursed King (USA)-image.png</mix>
+		<developer>Square Enix</developer>
+		<publisher>Square Enix</publisher>
+		<genre>Role playing games</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>22 =-  Dragon Quest VIII - Journey of the Cursed King (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103734" />
+	</game>
+	<game id="11011">
+		<path>./Luigis Mansion - Dark Moon (USA).3ds</path>
+		<name>[中文]路易吉洋樓2 (Luigi's Mansion: Dark Moon)</name>
+		<desc>路易吉洋館發生事件後，路易吉再次穿上他的捉鬼裝備。這次他來到了永影谷，闇月的毀滅導致所有鬼魂都對人類產生了敵意。路易吉受古怪教授加德的僱傭，前往五座鬼屋取回闇月部件。
+
+路易吉選擇的武器是名為 PolterGust 5000 的真空裝置，用於對抗眾多幽靈敵人。基本程序始終相同：Luigi...</desc>
+		<image>./images/Luigis Mansion - Dark Moon (USA)-image.png</image>
+		<marquee>./images/Luigis Mansion - Dark Moon (USA)-marquee.png</marquee>
+		<thumbnail>./images/Luigis Mansion - Dark Moon (USA)-thumb.png</thumbnail>
+		<mix>./images/Luigis Mansion - Dark Moon (USA)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>20130101T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Next Level Games</publisher>
+		<genre>Adventure</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>46 =-  Luigis Mansion - Dark Moon (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103737" />
+	</game>
+	<game id="11690">
+		<path>./Culdcept Revolt (USA).3ds</path>
+		<name>[中文]卡片召喚師 (Culdcept)</name>
+		<desc>Culdcept 是一款混合棋盤/紙牌遊戲，其目標是在返回城堡之前產生最多的法力。
+
+每個玩家一開始都有一副 50 張牌。卡牌類型包括怪物卡（例如骷髏），用於在棋盤上積累領土以增加法力；裝備（例如鎖子甲），可以增強怪物戰鬥時的能力；和魔法（例如聖言0），可以用來幫助你或阻礙棋盤上的其他玩家。當一個...</desc>
+		<image>./images/Culdcept Revolt (USA)-image.png</image>
+		<marquee>./images/Culdcept Revolt (USA)-marquee.png</marquee>
+		<thumbnail>./images/Culdcept Revolt (USA)-thumb.png</thumbnail>
+		<mix>./images/Culdcept Revolt (USA)-image.png</mix>
+		<releasedate>20120628T000000</releasedate>
+		<developer>OmiyaSoft</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>17 =-  Culdcept Revolt (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103739" />
+	</game>
+	<game id="11392">
+		<path>./Pac-Man &amp; Galaga Dimensions (Europe).3ds</path>
+		<name>[中文]小精靈與快打旋風 次元 (Pac-Man &amp; Galaga Dimensions)</name>
+		<desc>PAC-MAN 和 Galaga 將他們的標誌性遊戲玩法帶入令人興奮的 3D 3D 遊戲中，為 Nintendo 3DS 推出了令人興奮的六款遊戲套裝！享受經典熱門 PAC-MAN、PAC-MAN 冠軍版、Galaga 和 Galaga Legions，或者玩專為 Nintendo 3DS 開發的兩款全新遊戲。在 PAC-MAN Tilt 中，通過傾斜控制移動 PAC-MAN 通過充滿障礙物、平台和幽靈的舞台。腳蹼、平台和動力丸幫助 PAC-MAN 跳躍、翻轉、擺動和吃食，直至終點線。擺脫空間...</desc>
+		<image>./images/Pac-Man &amp; Galaga Dimensions (Europe)-image.png</image>
+		<marquee>./images/Pac-Man &amp; Galaga Dimensions (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Pac-Man &amp; Galaga Dimensions (Europe)-thumb.png</thumbnail>
+		<mix>./images/Pac-Man &amp; Galaga Dimensions (Europe)-image.png</mix>
+		<rating>0.65</rating>
+		<releasedate>20110826T000000</releasedate>
+		<developer>Bandai Namco</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Various</genre>
+		<family>Pac-Man</family>
+		<players>1</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>57 =-  Pac-Man &amp; Galaga Dimensions (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103741" />
+	</game>
+	<game id="11683">
+		<path>./LBX Little Battlers eXperience (Europe).3ds</path>
+		<name>[中文]紙箱戰機 (LBX: Little Battlers eXperience)</name>
+		<desc>收集、建造並與你的手掌大小的機器人進行戰鬥。扮演 Van Yamano，一個小男孩，他遇到了一個獨特的 LBX——一個複雜的、可定制的、手掌大小的機器人。使用它 - 並與熱門電視劇中熟悉的角色合作 - 摧毀名為“新黎明崛起者”的邪惡公司。
+
+特點：
+-用 4,000 多個零件收集並建造您自己的手掌大小的機器人，打造出獨一無二的 LBX
+- 從超過 130 種不同的全套匹配零件中進行選擇，或混合搭配。
+-定制...</desc>
+		<image>./images/LBX Little Battlers eXperience (Europe)-image.png</image>
+		<marquee>./images/LBX Little Battlers eXperience (Europe)-marquee.png</marquee>
+		<thumbnail>./images/LBX Little Battlers eXperience (Europe)-thumb.png</thumbnail>
+		<mix>./images/LBX Little Battlers eXperience (Europe)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>20120705T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Level-5</publisher>
+		<genre>Role playing games</genre>
+		<players>6</players>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>40 =-  LBX Little Battlers eXperience (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103751" />
+	</game>
+	<game id="12082">
+		<path>./Hyrule Warriors Legends (USA).3ds</path>
+		<name>[中文]薩爾達無雙 (Hyrule Warriors Legends)</name>
+		<desc>在任天堂 3DS 上，海拉爾無雙 (Hyrule Warriors) 登場，扮演深受粉絲喜愛的《塞爾達傳說》角色，使用強大的招式消滅大批敵人。控制多個角色來增強你的策略，並通過《塞爾達傳說：風之杖》中的可玩角色（例如 Tetra、King Daphnes 等）享受新的故事元素。
+
+三角力量的微妙平衡被破壞，戰爭愈演愈烈。海拉魯王國再次被黑暗力量撕裂，這次由女巫茨領導……</desc>
+		<image>./images/Hyrule Warriors Legends (USA)-image.png</image>
+		<marquee>./images/Hyrule Warriors Legends (USA)-marquee.png</marquee>
+		<thumbnail>./images/Hyrule Warriors Legends (USA)-thumb.png</thumbnail>
+		<mix>./images/Hyrule Warriors Legends (USA)-image.png</mix>
+		<developer>Omega Force</developer>
+		<publisher>Koei</publisher>
+		<genre>Action</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>37 =-  Hyrule Warriors Legends (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103749" />
+	</game>
+	<game id="11251">
+		<path>./Bella Sara - The Magical Horse Adventures (Europe).3ds</path>
+		<name>[中文]貝拉莎拉 魔法馬冒險 (Bella Sara : The Magical Horse Adventures)</name>
+		<image>./images/Bella Sara - The Magical Horse Adventures (Europe)-image.png</image>
+		<marquee>./images/Bella Sara - The Magical Horse Adventures (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Bella Sara - The Magical Horse Adventures (Europe)-thumb.png</thumbnail>
+		<mix>./images/Bella Sara - The Magical Horse Adventures (Europe)-image.png</mix>
+		<rating>0.55</rating>
+		<developer>Bigben Interactive</developer>
+		<publisher>Eko Software</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<md5>836aab163ed3905bdd5fed705e0384a9</md5>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>07 =-  Bella Sara - The Magical Horse Adventures (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103743" />
+	</game>
+	<game id="176005">
+		<path>./Alliance Alive, The (USA).cxi</path>
+		<name>[中文]同盟之星 (The Alliance Alive)</name>
+		<desc>《The Legend of Legacy》的製作者在《The Alliance Alive》中將經典 JRPG 重新演繹出來，這是一款全新的冒險遊戲，通過提供宏大的世界探索、9 位主角相互交織的故事以及精心設計的戰鬥機制，喚起了 JRPG 偉人的懷舊之情。
+
+
+一千年前，惡魔入侵人類世界。他們征服了人類並創造了隔離各個領域的大屏障。世界陷入劇變，暗流誕生。人類慘遭毀滅……</desc>
+		<image>./images/Alliance Alive, The (USA)-image.png</image>
+		<marquee>./images/Alliance Alive, The (USA)-marquee.png</marquee>
+		<thumbnail>./images/Alliance Alive, The (USA)-thumb.png</thumbnail>
+		<mix>./images/Alliance Alive, The (USA)-image.png</mix>
+		<developer>Cattle Call, Inc.</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role playing games</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>04 =-  Alliance Alive, The (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103746" />
+	</game>
+	<game id="11396">
+		<path>./Dream Trigger 3D (USA).3ds</path>
+		<name>[中文]夢境扳機3D (Dream Trigger 3d)</name>
+		<desc>Dream Trigger 3D 展示了 3DS 的令人驚嘆的因素，這是其他遊戲所無法比擬的。它是爆炸性圖形和不間斷動作的驚人結合，​​是該系統的標誌性射擊遊戲。在這款 3DS 新用戶必備的視覺傑作中，扮演夢想的修復者，將噩夢般的風景變成華麗的夢境。</desc>
+		<image>./images/Dream Trigger 3D (USA)-image.png</image>
+		<marquee>./images/Dream Trigger 3D (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dream Trigger 3D (USA)-thumb.png</thumbnail>
+		<mix>./images/Dream Trigger 3D (USA)-image.png</mix>
+		<rating>0.8</rating>
+		<releasedate>20110610T000000</releasedate>
+		<developer>Art Co. Ltd.</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Shoot'em Up</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>23 =-  Dream Trigger 3D (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103754" />
+	</game>
+	<game id="11151">
+		<path>./Metroid - Samus Returns (USA).cxi</path>
+		<name>[中文]密特羅德 薩姆斯歸來 (Metroid : Samus Returns)</name>
+		<desc>《銀河戰士：薩姆斯歸來》是一款由 MercurySteam 和任天堂合作開發的橫向捲軸動作冒險視頻遊戲，後者還為任天堂 3DS 手持遊戲機發行了該遊戲。作為科幻小說《銀河戰士》系列的一部分，該遊戲是對 1991 年 Game Boy 遊戲《銀河戰士 II：薩姆斯歸來》的重新演繹，於 2017 年 9 月 15 日在全球發行。該遊戲講述了系列主角薩姆斯·阿蘭 (Samus Aran) 被銀河聯邦派去消滅寄生銀河戰士的故事……</desc>
+		<image>./images/Metroid - Samus Returns (USA)-image.png</image>
+		<marquee>./images/Metroid - Samus Returns (USA)-marquee.png</marquee>
+		<thumbnail>./images/Metroid - Samus Returns (USA)-thumb.png</thumbnail>
+		<mix>./images/Metroid - Samus Returns (USA)-image.png</mix>
+		<rating>0.8</rating>
+		<releasedate>20170915T000000</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>53 =-  Metroid - Samus Returns (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103754" />
+	</game>
+	<game id="11087">
+		<path>./Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted.3ds</path>
+		<name>[中文]世界樹迷宮2 法夫納騎士 (Etrian Odyssey 2 Untold: The Fafnir Knight)</name>
+		<desc>Etrian Odyssey 2 Untold - 法夫納騎士是 Etrian Odyssey 的 Untold 衍生系列的延續。這款《Etrian Odyssey Untold》遊戲是原版 Nintendo DS 遊戲《Etrian Odyssey II：拉加德英雄》的升級版和增強版。
+
+與《Etrian Odyssey Untold：千禧年女孩》一脈相承，這款 Untold 遊戲具有原版 Nintendo DS 遊戲的增強版本，玩家可以在“經典模式”下玩該遊戲，也可以探索法夫尼爾騎士（法夫納騎士）的神秘面紗。</desc>
+		<image>./images/Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted-image.png</image>
+		<marquee>./images/Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted-marquee.png</marquee>
+		<thumbnail>./images/Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted-thumb.png</thumbnail>
+		<mix>./images/Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted-image.png</mix>
+		<developer>Atlus</developer>
+		<publisher>Atlus</publisher>
+		<genre>Role playing games</genre>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>24 =-  Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103757" />
+	</game>
+	<game id="11545">
+		<path>./3D Game Collection (USA).cxi</path>
+		<name>[中文]3D遊戲合集 (3d Game Collection)</name>
+		<desc>終於來了：eShop 上的第一個 Nintendo 3DS 遊戲合集！
+
+終於來了：eShop 上的第一個 Nintendo 3DS 遊戲合集！
+
+
+玩一輪數獨、玩一個輕鬆的謎題或製作其他玩家的遊戲
+船隻沉入海底。共有25種遊戲類型
+三個宏偉的主題世界提供了豐富的多樣性和豐富的內容
+有趣。
+
+
+
+接受挑戰並嘗試收集所有獎杯。但要...</desc>
+		<image>./images/3D Game Collection (USA)-image.png</image>
+		<marquee>./images/3D Game Collection (USA)-marquee.png</marquee>
+		<thumbnail>./images/3D Game Collection (USA)-thumb.png</thumbnail>
+		<mix>./images/3D Game Collection (USA)-image.png</mix>
+		<developer>Reactor s.c.</developer>
+		<publisher>Joindots</publisher>
+		<genre>Compilation</genre>
+		<playcount>1</playcount>
+		<lastplayed>20220218T092417</lastplayed>
+		<md5>e4d963de24071ba082a57168a40c2cbe</md5>
+		<gametime>13</gametime>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>01 =-  3D Game Collection (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103752" />
+	</game>
+	<game id="176337">
+		<path>./Pokemon Super Mystery Dungeon (USA).3ds</path>
+		<name>[中文]精靈寶可夢 超級不可思議迷宮 (Pokemon Super Mystery Dungeon)</name>
+		<desc>終極寶可夢不可思議的迷宮！準備好迎接一場盛大的冒險吧，你將成為一名神奇寶貝，與傳奇和神話的神奇寶貝一起戰鬥，幫助拯救世界！與神奇寶貝交朋友，與它們一起探索不斷變化的神秘地下城！玩家突然變成了神奇寶貝，並被傳送到只有神奇寶貝居住的世界。從 20 只 Pokemon 中，包括核心 RPG Pokemon 遊戲的入門者以及皮卡丘和利歐魯，您可以選擇您的 Pokemon 和您的伙伴......</desc>
+		<image>./images/Pokemon Super Mystery Dungeon (USA)-image.png</image>
+		<marquee>./images/Pokemon Super Mystery Dungeon (USA)-marquee.png</marquee>
+		<thumbnail>./images/Pokemon Super Mystery Dungeon (USA)-thumb.png</thumbnail>
+		<mix>./images/Pokemon Super Mystery Dungeon (USA)-image.png</mix>
+		<releasedate>20160219T000000</releasedate>
+		<developer>The pokemon company LTD.</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Adventure</genre>
+		<family>Pokémon</family>
+		<players>1</players>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>61 =-  Pokemon Super Mystery Dungeon (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103804" />
+	</game>
+	<game id="176088">
+		<path>./Dragon Ball - Fusions (USA).3ds</path>
+		<name>[中文]七龍珠 融合 (Dragon Ball Fusions)</name>
+		<desc>Dragon Ball Fusions 是一款 RPG 動作遊戲，結合了戰鬥、自定義和收集元素，將 Dragon Ball 提升到了一個新的水平。在這個新世界中，玩家將發現強大的物品，尋找可以成為盟友的戰士，並組建團隊參加戰鬥，看看誰是最好的戰士。戰鬥系統結合了策略和實時動作，為粉絲們帶來有趣而獨特的龍珠體驗。</desc>
+		<image>./images/Dragon Ball - Fusions (USA)-image.png</image>
+		<marquee>./images/Dragon Ball - Fusions (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dragon Ball - Fusions (USA)-thumb.png</thumbnail>
+		<mix>./images/Dragon Ball - Fusions (USA)-image.png</mix>
+		<developer>Ganbarion Co., Ltd.</developer>
+		<publisher>Bandai Namco</publisher>
+		<genre>Action</genre>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>20 =-  Dragon Ball - Fusions (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103806" />
+	</game>
+	<game id="176215">
+		<path>./Legends of Oz - Dorothy's Return (USA).3ds</path>
+		<name>[中文]綠野仙蹤 桃樂絲歸來 (Legends of Oz - Dorothy's Return)</name>
+		<desc>多蘿西回來了！
+由於邪惡的小丑，奧茲國再次陷入麻煩！一個名叫小丑的新反派出現了，並開始綁架很多奧茲國的傳奇人物！稻草人、獅子、鐵皮人都被他的飛猴抓走了，現在又被強行關押在一起！多蘿西需要招募一些新同伴來幫助她到達翡翠城。探索令人興奮的奧茲國新大陸，您可以幫助多蘿西並成為奧茲國傳奇！</desc>
+		<image>./images/Legends of Oz - Dorothy's Return (USA)-image.png</image>
+		<marquee>./images/Legends of Oz - Dorothy's Return (USA)-marquee.png</marquee>
+		<thumbnail>./images/Legends of Oz - Dorothy's Return (USA)-thumb.png</thumbnail>
+		<mix>./images/Legends of Oz - Dorothy's Return (USA)-image.png</mix>
+		<players>1</players>
+		<md5>600202e6ad4374014deb7e2a2b1ec38f</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>44 =-  Legends of Oz - Dorothy's Return (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103810" />
+	</game>
+	<game id="11380">
+		<path>./Crash Time 3D (Europe).3ds</path>
+		<name>[中文]警匪追逐3D (Crash Time 3d)</name>
+		<image>./images/Crash Time 3D (Europe)-image.png</image>
+		<marquee>./images/Crash Time 3D (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Crash Time 3D (Europe)-thumb.png</thumbnail>
+		<mix>./images/Crash Time 3D (Europe)-image.png</mix>
+		<rating>0.3</rating>
+		<developer>DTP Entertainment</developer>
+		<publisher>Synetic</publisher>
+		<genre>Race, Driving</genre>
+		<md5>e6516f6b3e8e2312c7e841b0cbf62d7f</md5>
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>15 =-  Crash Time 3D (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103807" />
+	</game>
+	<game id="10987">
+		<path>./Animal Crossing - New Leaf (Europe).3ds</path>
+		<name>[中文]動物森友會 (Animal Crossing - New Leaf)</name>
+		<desc>《動物之森：新葉》是一款社交模擬遊戲。你在一個充滿動物的小村莊里擔任新村長。遊戲包括用新的建築和裝飾來改善村莊，為自己的房子收集家具和物品，以及向當地博物館捐贈化石、魚類、昆蟲和藝術品。
+
+《動物之森™：新葉》中有比以往更多的內容等待您探索——歡迎來到 amiibo 遊戲！此更新版本的《Animal Crossing™：New Leaf》添加了...</desc>
+		<image>./images/Animal Crossing - New Leaf (Europe)-image.png</image>
+		<marquee>./images/Animal Crossing - New Leaf (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Animal Crossing - New Leaf (Europe)-thumb.png</thumbnail>
+		<mix>./images/Animal Crossing - New Leaf (Europe)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>08/11/2012</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Simulation</genre>
+		<family>Animal Crossing</family>
+		<players>4</players>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>06 =-  Animal Crossing - New Leaf (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103738" />
+	</game>
+	<game id="10996">
+		<path>./Fire Emblem - Awakening (Europe).3ds</path>
+		<name>[中文]聖火降魔錄 覺醒 (Fire Emblem: Awakening)</name>
+		<desc>《火焰紋章覺醒》將戰鬥策略、大量角色定制和豐富的 3D 電影圖形獨特地融合在一起，吸引了廣泛的遊戲玩家。在這款遊戲中，你將與伊利斯皇后的兄弟、軍隊的指揮官克羅姆一起，進入一個瀕臨戰爭邊緣的奇幻世界。你的職責是帶領一支由伊利斯最優秀的士兵組成的隊伍——騎士、法師、弓箭手等等——對抗掠奪成性的普雷吉亞強盜。為了成功，您需要仔細選擇您的單位...</desc>
+		<image>./images/Fire Emblem - Awakening (Europe)-image.png</image>
+		<marquee>./images/Fire Emblem - Awakening (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Fire Emblem - Awakening (Europe)-thumb.png</thumbnail>
+		<mix>./images/Fire Emblem - Awakening (Europe)-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>04/02/2013</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Intelligent Systems</publisher>
+		<genre>Role playing games</genre>
+		<players>2</players>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>31 =-  Fire Emblem - Awakening (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103741" />
+	</game>
+	<game id="10997">
+		<path>./Legend of Zelda, The - A Link Between Worlds (Europe).3ds</path>
+		<name>[中文]薩爾達傳說 眾神的三角神力2 (The Legend of Zelda - A Link Between Worlds)</name>
+		<desc>兩個世界在 Super NES 經典《塞爾達傳說：眾神的三角力量》世界中展開全新冒險。在這個新編的故事中，林克變成了一幅活生生的畫作，穿越到一個反映海拉爾的黑暗平行維度。征服致命地牢的謎題、陷阱和隱藏房間，將兩個世界從厄運中拯救出來！
+
+這個受人喜愛的自上而下的世界以 3D 形式栩栩如生，是全新故事的完美背景。當林克和他的...</desc>
+		<image>./images/Legend of Zelda, The - A Link Between Worlds (Europe)-image.png</image>
+		<marquee>./images/Legend of Zelda, The - A Link Between Worlds (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Legend of Zelda, The - A Link Between Worlds (Europe)-thumb.png</thumbnail>
+		<mix>./images/Legend of Zelda, The - A Link Between Worlds (Europe)-image.png</mix>
+		<rating>0.85</rating>
+		<releasedate>22/11/2013</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Nintendo</publisher>
+		<genre>Adventure</genre>
+		<family>The Legend of Zelda</family>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>42 =-  Legend of Zelda, The - A Link Between Worlds (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103637" />
+	</game>
+	<game id="11000">
+		<path>./Legend of Zelda, The - Ocarina of Time 3D (Europe).3ds</path>
+		<name>[中文]薩爾達傳說 時之笛3D (The Legend of Zelda - Ocarina of Time 3D)</name>
+		<desc>《塞爾達傳說：時之笛 3D》將深受喜愛的《塞爾達傳說》遊戲系列中史詩般的作品的完全重新製作版本帶到了任天堂最新的手持系統 Nintendo 3DS 上。該遊戲將顯著增強的圖形與令人驚嘆的裸眼 3D 視覺效果結合在一起，將英雄林克的大膽冒險帶入生活。流線型的觸摸屏界面和新實現的運動控制提供了新鮮直觀的感覺，讓玩家沉浸在……的故事中。</desc>
+		<image>./images/Legend of Zelda, The - Ocarina of Time 3D (Europe)-image.png</image>
+		<marquee>./images/Legend of Zelda, The - Ocarina of Time 3D (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Legend of Zelda, The - Ocarina of Time 3D (Europe)-thumb.png</thumbnail>
+		<mix>./images/Legend of Zelda, The - Ocarina of Time 3D (Europe)-image.png</mix>
+		<rating>0.95</rating>
+		<releasedate>19/06/2011</releasedate>
+		<developer>Nintendo</developer>
+		<publisher>Grezzo</publisher>
+		<genre>Adventure</genre>
+		<family>The Legend of Zelda</family>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>eu</region>
+		<sortname>43 =-  Legend of Zelda, The - Ocarina of Time 3D (Europe)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103613" />
+	</game>
+	<game id="10990">
+		<path>./Monster.Hunter.4.Ultimate.3ds</path>
+		<name>[中文]魔物獵人4 終極版 (Monster Hunter 4 Ultimate)</name>
+		<desc>《怪物獵人 4 Ultimate》（在日本稱為《怪物獵人 4G》）是廣受歡迎的《怪物獵人》系列的最新作品，迄今為止該系列在全球的銷量已超過 2800 萬份。在《怪物獵人 4 Ultimate》中，玩家將扮演獵人的角色，與旅行商隊一起探索沿途的新土地和城鎮。這場盛大的冒險將包括數百個任務，以應對各種非凡的生物，這些生物會產生用於武器和裝備的寶貴資源......</desc>
+		<image>./images/Monster.Hunter.4.Ultimate-image.png</image>
+		<marquee>./images/Monster.Hunter.4.Ultimate-marquee.png</marquee>
+		<thumbnail>./images/Monster.Hunter.4.Ultimate-thumb.png</thumbnail>
+		<mix>./images/Monster.Hunter.4.Ultimate-image.png</mix>
+		<rating>0.9</rating>
+		<releasedate>11/10/2014</releasedate>
+		<developer>Capcom</developer>
+		<publisher>Capcom</publisher>
+		<genre>Action</genre>
+		<players>4+</players>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<sortname>56 =-  Monster.Hunter.4.Ultimate</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103631" />
+	</game>
+	<game id="176105">
+		<path>./Fire Emblem - Fates Birthright (USA).3ds</path>
+		<name>[中文]聖火降魔錄 if 白夜王國 (Fire Emblem Fates: Birthright)</name>
+		<desc>一名年輕人成長為追求榮耀的諾爾國家的皇室子弟之一。儘管父親禁止他們離開城堡，但他們仍然和四個兄弟姐妹過著幸福的生活。然而，當他們最終被派往外面的世界時，卻是去星戶執行任務，這是諾爾計劃入侵的一個愛好和平的國家。在那裡，他們得知自己出生於星戶皇室，並在嬰兒時期被諾爾綁架。一位名叫阿祖拉的諾爾公主被劫為人質……</desc>
+		<image>./images/Fire Emblem - Fates Birthright (USA)-image.png</image>
+		<marquee>./images/Fire Emblem - Fates Birthright (USA)-marquee.png</marquee>
+		<thumbnail>./images/Fire Emblem - Fates Birthright (USA)-thumb.png</thumbnail>
+		<mix>./images/Fire Emblem - Fates Birthright (USA)-image.png</mix>
+		<developer>Intelligent Systems</developer>
+		<publisher>Nintendo</publisher>
+		<playcount>1</playcount>
+		<lastplayed>20240313T173155</lastplayed>
+		<gametime>16</gametime>
+		<lang>en</lang>
+		<region>us</region>
+		<sortname>32 =-  Fire Emblem - Fates Birthright (USA)</sortname>
+		<genreid>0</genreid>
+		<scrap name="ScreenScraper" date="20220219T103636" />
+	</game>
+</gameList>
