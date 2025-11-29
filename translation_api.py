@@ -179,7 +179,7 @@ class TranslationAPIManager:
 - Contra → 魂斗羅
 - Street Fighter II → 快打旋風II"""
 
-            # 使用 Llama 3.1 70B 模型（速度快、品質好）
+            # 使用 Llama 3.3 70B 模型（最新版本，速度快、品質好）
             chat_completion = client.chat.completions.create(
                 messages=[
                     {
@@ -187,7 +187,7 @@ class TranslationAPIManager:
                         "content": prompt,
                     }
                 ],
-                model="llama-3.1-70b-versatile",  # Groq 推薦的高效模型
+                model="llama-3.3-70b-versatile",  # Groq 最新推薦模型
                 temperature=0.3,  # 降低隨機性，提高一致性
                 max_tokens=100,  # 遊戲名稱不需要太長
             )
