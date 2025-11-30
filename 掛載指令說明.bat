@@ -11,7 +11,7 @@ echo   步驟 1: 掛載分區
 echo ========================================
 echo.
 echo 執行以下指令掛載 Batocera userdata 分區:
-echo.
+echo.wmic diskdrive get model,deviceid,size,interfacetype
 echo   wsl --mount \\.\PHYSICALDRIVE2 --partition 2
 echo.
 echo 說明:
