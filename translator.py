@@ -503,6 +503,10 @@ class GamelistTranslator:
 
     def format_game_name(self, english_name: str, chinese_name: str) -> str:
         """根據顯示模式格式化遊戲名稱"""
+        # 如果沒有中文譯名，使用英文原名
+        if not chinese_name:
+            return english_name
+
         if self.display_mode == "chinese_only":
             result = chinese_name
         elif self.display_mode == "chinese_english":
@@ -520,11 +524,12 @@ class GamelistTranslator:
 
         return result
 
-    def update_gamelist(self, gamelist_path: str, platform: str, dry_run: bool = False, limit: int = 0):
+    def update_gamelist(self, gamelist_path: str, platform: str, dry_run: bool = False, limit: int = 0, use_batch: bool = True):
         """更新單一 gamelist.xml
 
         Args:
             limit: 限制處理的遊戲數量,0 表示處理全部
+            use_batch: 是否使用批次翻譯（預設 True，更快速）
         """
         print(f"\n>> 開始處理平台: {platform.upper()}")
         print(f">> 讀取檔案: {gamelist_path}...", end='', flush=True)
@@ -544,42 +549,136 @@ class GamelistTranslator:
         else:
             print(f">> 共有 {total} 個遊戲需要處理\n")
 
-        updated = 0
+        # === 批次翻譯模式 ===
+        if use_batch:
+            # 收集所有需要翻譯的遊戲名稱
+            games_to_translate = []
+            game_elements = []
 
-        for idx, game in enumerate(games, 1):
-            name_elem = game.find('name')
-            desc_elem = game.find('desc')
+            for game in games:
+                name_elem = game.find('name')
+                if name_elem is not None and name_elem.text:
+                    original_name = name_elem.text
+                    clean_name = self.clean_game_name(original_name)
 
-            if name_elem is not None and name_elem.text:
-                original_name = name_elem.text
-                print(f"\n[{idx}/{len(games)}] {original_name}")
-                clean_name = self.clean_game_name(original_name)
+                    # 檢查快取
+                    cached = self.lookup_translation(
+                        clean_name, platform, is_description=False)
+                    if not cached:
+                        games_to_translate.append(clean_name)
+                        game_elements.append(
+                            (game, original_name, clean_name, name_elem))
 
-                # 翻譯名稱
-                chinese_name = self.translate_name(clean_name, platform)
-                formatted_name = self.format_game_name(
-                    clean_name, chinese_name)
+            if games_to_translate:
+                print(f">> 使用批次翻譯模式，共 {len(games_to_translate)} 個遊戲需要翻譯\n")
 
-                if not dry_run:
-                    name_elem.text = formatted_name
+                # 分批處理（每批 50 個，避免超過 API token 限制）
+                batch_size = 50
+                all_batch_results = {}
 
-                print(f"  最終: {formatted_name}")
-                updated += 1
+                for i in range(0, len(games_to_translate), batch_size):
+                    batch = games_to_translate[i:i + batch_size]
+                    batch_num = i // batch_size + 1
+                    total_batches = (len(games_to_translate) +
+                                     batch_size - 1) // batch_size
 
-                # 翻譯描述
-                if self.translate_desc and desc_elem is not None and desc_elem.text:
-                    original_desc = desc_elem.text
-                    print(f"  >> 翻譯描述...", end='', flush=True)
-                    translated_desc = self.translate_description(
-                        original_desc, platform)
+                    print(
+                        f">> 批次 {batch_num}/{total_batches}：翻譯 {len(batch)} 個遊戲...")
 
-                    if not dry_run and translated_desc != original_desc:
-                        desc_elem.text = translated_desc
+                    # 批次呼叫 API
+                    platform_chinese = PLATFORM_NAMES.get(
+                        platform.lower(), platform)
+                    batch_results = self.api_manager.translate_game_names_batch(
+                        batch, platform_chinese)
 
-                    if translated_desc != original_desc:
-                        print(f" {translated_desc[:50]}...", flush=True)
+                    # 確保 batch_results 不為 None
+                    if batch_results:
+                        all_batch_results.update(batch_results)
                     else:
-                        print(" 保持原文", flush=True)
+                        print(f"   ⚠️  批次 {batch_num} API 翻譯失敗")
+
+                # 應用翻譯結果
+                success_count = 0
+                for game, original_name, clean_name, name_elem in game_elements:
+                    chinese_name = all_batch_results.get(clean_name)
+
+                    if chinese_name:
+                        # 加入本地快取
+                        self.local_cache["names"][clean_name] = chinese_name
+                        success_count += 1
+
+                    formatted_name = self.format_game_name(
+                        clean_name, chinese_name)
+
+                    if not dry_run:
+                        name_elem.text = formatted_name
+
+                    print(f"  {original_name} → {formatted_name}")
+
+                # 儲存快取
+                if all_batch_results:
+                    self.save_local_cache()
+                    print(
+                        f"\n>> API 翻譯成功: {success_count}/{len(games_to_translate)} 個遊戲")
+
+            # 處理已有快取的遊戲
+            cached_count = 0
+            for game in games:
+                name_elem = game.find('name')
+                if name_elem is not None and name_elem.text:
+                    clean_name = self.clean_game_name(name_elem.text)
+                    cached = self.lookup_translation(
+                        clean_name, platform, is_description=False)
+
+                    if cached and clean_name not in games_to_translate:
+                        formatted_name = self.format_game_name(
+                            clean_name, cached)
+                        if not dry_run:
+                            name_elem.text = formatted_name
+                        cached_count += 1
+
+            if cached_count > 0:
+                print(f"\n>> 從快取載入 {cached_count} 個遊戲翻譯")
+
+            updated = len(games_to_translate) + cached_count
+
+        # === 逐一翻譯模式（舊方法） ===
+        else:
+            updated = 0
+            for idx, game in enumerate(games, 1):
+                name_elem = game.find('name')
+                desc_elem = game.find('desc')
+
+                if name_elem is not None and name_elem.text:
+                    original_name = name_elem.text
+                    print(f"\n[{idx}/{len(games)}] {original_name}")
+                    clean_name = self.clean_game_name(original_name)
+
+                    # 翻譯名稱
+                    chinese_name = self.translate_name(clean_name, platform)
+                    formatted_name = self.format_game_name(
+                        clean_name, chinese_name)
+
+                    if not dry_run:
+                        name_elem.text = formatted_name
+
+                    print(f"  最終: {formatted_name}")
+                    updated += 1
+
+                    # 翻譯描述
+                    if self.translate_desc and desc_elem is not None and desc_elem.text:
+                        original_desc = desc_elem.text
+                        print(f"  >> 翻譯描述...", end='', flush=True)
+                        translated_desc = self.translate_description(
+                            original_desc, platform)
+
+                        if not dry_run and translated_desc != original_desc:
+                            desc_elem.text = translated_desc
+
+                        if translated_desc != original_desc:
+                            print(f" {translated_desc[:50]}...", flush=True)
+                        else:
+                            print(" 保持原文", flush=True)
 
         # 儲存檔案
         if not dry_run:
@@ -591,9 +690,11 @@ class GamelistTranslator:
             with open(gamelist_path, 'w', encoding='utf-8') as f:
                 f.write(xml_content)
 
-            print(f"[OK] 已更新 {updated}/{total} 個遊戲")
+            print(f"\n[OK] 已更新 {updated}/{total} 個遊戲")
         else:
             print(f"\n[預覽模式] 將更新 {updated}/{total} 個遊戲")
+
+        return updated  # 回傳更新數量
 
     def batch_update(self, roms_path: str, dry_run: bool = False):
         """

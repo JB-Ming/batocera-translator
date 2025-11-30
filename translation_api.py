@@ -98,6 +98,35 @@ class TranslationAPIManager:
         # 3. 失敗或未啟用，返回 None（由 translator.py 決定保持原名）
         return None
 
+    def translate_game_names_batch(self, game_names: list, platform: str) -> dict:
+        """
+        批次翻譯多個遊戲名稱（一次 API 呼叫）
+
+        Args:
+            game_names: 遊戲英文名稱列表
+            platform: 遊戲平台
+
+        Returns:
+            字典 {英文名: 中文譯名}，失敗的遊戲值為 None
+        """
+        if not game_names:
+            return {}
+
+        # 1. 嘗試 Groq API 批次翻譯
+        if self.enable_groq and self.groq_api_key:
+            result = self._translate_batch_with_groq(game_names, platform)
+            if result is not None:  # 明確檢查是否為 None（空字典也是有效結果）
+                return result
+
+        # 2. 嘗試 Gemini API 批次翻譯
+        if self.enable_gemini and self.gemini_api_key:
+            result = self._translate_batch_with_gemini(game_names, platform)
+            if result is not None:  # 明確檢查是否為 None
+                return result
+
+        # 3. 失敗，返回空字典
+        return {name: None for name in game_names}
+
     def translate_description(self, description: str) -> Optional[str]:
         """
         翻譯遊戲描述
@@ -142,6 +171,87 @@ class TranslationAPIManager:
 
         # 全部失敗
         return None
+
+    def _translate_batch_with_groq(self, game_names: list, platform: str) -> Optional[dict]:
+        """
+        使用 Groq API 批次翻譯多個遊戲名稱
+
+        Args:
+            game_names: 遊戲英文名稱列表
+            platform: 遊戲平台
+
+        Returns:
+            字典 {英文名: 中文譯名} 或 None
+        """
+        try:
+            from groq import Groq
+
+            client = Groq(api_key=self.groq_api_key)
+
+            # 建立遊戲列表
+            game_list = "\n".join(
+                [f"{i+1}. {name}" for i, name in enumerate(game_names)])
+
+            prompt = f"""你是遊戲本地化專家。請將以下 {len(game_names)} 款遊戲翻譯成台灣慣用的中文譯名。
+
+平台：{platform}
+遊戲列表：
+{game_list}
+
+要求：
+- 每行一個翻譯結果，格式：遊戲名稱|中文譯名
+- 使用台灣慣用譯名（例如「瑪利歐」而非「馬里奧」）
+- 如果是知名遊戲，使用官方中文名稱
+- 保持原始遊戲順序
+- 不要加入任何解釋或編號
+
+範例格式：
+Super Mario Bros|超級瑪利歐兄弟
+The Legend of Zelda|薩爾達傳說
+Contra|魂斗羅
+
+請開始翻譯："""
+
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3,
+                max_tokens=2000
+            )
+
+            result_text = response.choices[0].message.content.strip()
+
+            # 解析結果
+            translations = {}
+            for line in result_text.split('\n'):
+                line = line.strip()
+                if '|' in line:
+                    parts = line.split('|', 1)
+                    if len(parts) == 2:
+                        eng_name = parts[0].strip()
+                        chi_name = parts[1].strip()
+
+                        # 找到對應的原始遊戲名稱
+                        for original_name in game_names:
+                            if original_name in eng_name or eng_name in original_name:
+                                translations[original_name] = chi_name
+                                print(f"  [Groq] {original_name} → {chi_name}")
+                                self.stats['groq']['success'] += 1
+                                break
+
+            # 確保所有遊戲都有結果
+            for name in game_names:
+                if name not in translations:
+                    translations[name] = None
+                    self.stats['groq']['fail'] += 1
+
+            return translations  # 即使是空字典也要回傳
+
+        except Exception as e:
+            print(f"  [Groq 批次錯誤] {e}")
+            for _ in game_names:
+                self.stats['groq']['fail'] += 1
+            return {name: None for name in game_names}  # 回傳失敗字典而非 None
 
     def _translate_with_groq(self, game_name: str, platform: str) -> Optional[str]:
         """
@@ -208,6 +318,83 @@ class TranslationAPIManager:
         except Exception as e:
             print(f"  [Groq 錯誤] {e}")
             return None
+
+    def _translate_batch_with_gemini(self, game_names: list, platform: str) -> Optional[dict]:
+        """
+        使用 Gemini API 批次翻譯多個遊戲名稱
+
+        Args:
+            game_names: 遊戲英文名稱列表
+            platform: 遊戲平台
+
+        Returns:
+            字典 {英文名: 中文譯名} 或 None
+        """
+        try:
+            import google.generativeai as genai
+
+            genai.configure(api_key=self.gemini_api_key)
+            model = genai.GenerativeModel('gemini-2.5-flash')
+
+            # 建立遊戲列表
+            game_list = "\n".join(
+                [f"{i+1}. {name}" for i, name in enumerate(game_names)])
+
+            prompt = f"""你是遊戲本地化專家。請將以下 {len(game_names)} 款遊戲翻譯成台灣慣用的中文譯名。
+
+平台：{platform}
+遊戲列表：
+{game_list}
+
+要求：
+- 每行一個翻譯結果，格式：遊戲名稱|中文譯名
+- 使用台灣慣用譯名（例如「瑪利歐」而非「馬里奧」）
+- 如果是知名遊戲，使用官方中文名稱
+- 保持原始遊戲順序
+- 不要加入任何解釋或編號
+
+範例格式：
+Super Mario Bros|超級瑪利歐兄弟
+The Legend of Zelda|薩爾達傳說
+Contra|魂斗羅
+
+請開始翻譯："""
+
+            response = model.generate_content(prompt)
+            result_text = response.text.strip()
+
+            # 解析結果
+            translations = {}
+            for line in result_text.split('\n'):
+                line = line.strip()
+                if '|' in line:
+                    parts = line.split('|', 1)
+                    if len(parts) == 2:
+                        eng_name = parts[0].strip()
+                        chi_name = parts[1].strip()
+
+                        # 找到對應的原始遊戲名稱
+                        for original_name in game_names:
+                            if original_name in eng_name or eng_name in original_name:
+                                translations[original_name] = chi_name
+                                print(
+                                    f"  [Gemini] {original_name} → {chi_name}")
+                                self.stats['gemini']['success'] += 1
+                                break
+
+            # 確保所有遊戲都有結果
+            for name in game_names:
+                if name not in translations:
+                    translations[name] = None
+                    self.stats['gemini']['fail'] += 1
+
+            return translations  # 即使是空字典也要回傳
+
+        except Exception as e:
+            print(f"  [Gemini 批次錯誤] {e}")
+            for _ in game_names:
+                self.stats['gemini']['fail'] += 1
+            return {name: None for name in game_names}  # 回傳失敗字典而非 None
 
     def _translate_with_gemini(self, game_name: str, platform: str) -> Optional[str]:
         """
