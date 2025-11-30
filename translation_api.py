@@ -226,8 +226,8 @@ class TranslationAPIManager:
             # 設定 API Key
             genai.configure(api_key=self.gemini_api_key)
 
-            # 使用 Gemini 1.5 Flash (免費額度最高)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            # 使用 Gemini 2.5 Flash (速度快、免費額度高)
+            model = genai.GenerativeModel('gemini-2.5-flash')
 
             # 專業提示詞
             prompt = f"""你是遊戲本地化專家。請提供這款遊戲在台灣的正式譯名或慣用名稱。

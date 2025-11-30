@@ -39,7 +39,8 @@ class TranslatorGUI:
         # API 設定
         self.groq_api_key = tk.StringVar(
             value="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")
-        self.gemini_api_key = tk.StringVar()
+        self.gemini_api_key = tk.StringVar(
+            value="AIzaSyACoHJ8APFTe8bN2auolexAp8AMyAneEes")
         self.deepl_api_key = tk.StringVar()
         self.enable_groq = tk.BooleanVar(value=True)
         self.enable_gemini = tk.BooleanVar(value=True)
