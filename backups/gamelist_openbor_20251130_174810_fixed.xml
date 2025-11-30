@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+	<game>
+		<path>./SOR2X_V2.1.pak</path>
+		<name>[中文]Streets of Rage 2X</name>
+		<desc>A fan made remake of Streets of Rage 2 by Kradus.</desc>
+		<image>./images/SOR2X_V2.1-image.png</image>
+		<video>./videos/SOR2X_V2.1-video.mp4</video>
+		<releasedate>20171201T000000</releasedate>
+		<developer>Kratus</developer>
+		<genre>Beat'em All</genre>
+		<players>1-4</players>
+	</game>
+</gameList>

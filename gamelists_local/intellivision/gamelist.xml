@@ -490,7 +490,7 @@ You're on the green. Take into account which way the green "breaks" as you line 
 	</game>
 	<game id="97450" source="ScreenScraper.fr">
 		<path>./Commando (1987) (Mattel).zip</path>
-		<name>Commando</name>
+		<name>突擊隊</name>
 		<desc>TO: COMMANDO 
 FROM: COL N.K. NEWCOMBE 
 MISSION: CAPTURE ENEMY FORTRESS 
@@ -645,7 +645,7 @@ Options allow you to select 1 of 10 conditions of alley slickness and the weight
 	</game>
 	<game id="97545" source="ScreenScraper.fr">
 		<path>./Reversi (1984) (Mattel).zip</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a computerized version of the board game Othello. During the game, two players take turns placing game pieces on the board in an attempt to trap pieces of their opponents color. Any trapped pieces will then be reversed in color. When the board becomes completely filled up, whomever has the most pieces of his own color on the board wins. The game can be played by two players, or one player against the computer. There are three skill levels the computer can use, and three different board sizes are available, 6 by 6, 8 by 8, and 10 by 10.</desc>
 		<image>./media/screenshot/Reversi (1984) (Mattel).png</image>
 		<releasedate>01/01/1981</releasedate>
@@ -759,7 +759,7 @@ Note: If you tag all of the clones without letting the Clone Master create a new
 	</game>
 	<game id="97455" source="ScreenScraper.fr">
 		<path>./Demon Attack (1982) (Imagic) [!].zip</path>
-		<name>Demon Attack</name>
+		<name>惡魔攻擊</name>
 		<desc>Eerie creatures launch an assault against Moon Station Tranquillity. Use your Laser Cannon to blast them - or they'll devastate Earth! Waves of demons circle the lunar surface, bombarding Earth's last outpost. Resist their dive bombing blitz. Fire into their ranks and shatter their raid. 
  
 Then go on the offensive! Take off from the surface of the moon and combat the demon base. Eliminate the flickering shield. Repel the suicide patrollers that come hurtling your way. Place one shot directly through the revolving window and into the fiery core. The demon base will disintegrate. But the battle goes on!</desc>
@@ -868,7 +868,7 @@ The game is divided into four different one-screen stages. Each represents 25 me
 	</game>
 	<game id="97461" source="ScreenScraper.fr">
 		<path>./Dracula (1982) (Imagic) [!].zip</path>
-		<name>Dracula</name>
+		<name>德古拉</name>
 		<desc>As the sun sets, Dracula rises, hungry for the blood of fresh victims.  As Dracula, the goal of this game is to stalk the streets at night, feeding on people walking the streets, or by luring them out of their homes.  As Dracula bites his victims, his actions will call the attention of the local constable who will try to slow him down by driving a stake into him.  Dracula can respond by either turning one of his victims into zombies to attack the police, or by transforming into a bat to escape capture.  Even the forces of nature are against the vampire, as wolves will attack him on foot, and hawks will drag away his bat form.  Dracula must feed on a certain number of victims and return to his tomb before sunrise, or he will not survive to feed another night.</desc>
 		<image>./media/screenshot/Dracula (1982) (Imagic) [!].png</image>
 		<rating>0.85</rating>
@@ -990,7 +990,7 @@ You control Duncan by pressing the hand controller DISC.  Skate around the other
 	</game>
 	<game id="97471" source="ScreenScraper.fr">
 		<path>./Frogger (1983) (Parker Bros).zip</path>
-		<name>Frogger</name>
+		<name>熱門遊戲合輯</name>
 		<desc>Your task in this arcade conversion is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.
 
 The road is full of cars and trucks, at variable speeds. The river water itself is fatal, as are the snakes which hover within on later levels. Frogger must use the arrangement of logs, turtles (which are only there for a short time) and alligators (but stay away form their faces), and then jump into one of the open home-cells, ideally one containing a fly for extra points. Once all holes have been filled, you move onto the next, harder, level.</desc>
@@ -1083,7 +1083,7 @@ Programmers at Mattel Electronics came up with a series of casual games meant to
 	</game>
 	<game id="97483" source="ScreenScraper.fr">
 		<path>./Horse Racing (1980) (Mattel).zip</path>
-		<name>Horse Racing</name>
+		<name>賽馬</name>
 		<desc>This game is for 1 up to 6 players. When the game begins, you can place the bets, for the winner or  for the first and second place. Then you can choose if an horse must be driven by a player or by the CPU. Only the third and the fourth horse can be driven by the players. There are 3 types of terrain: turf, mud or dry. 
 When the race begins, the horses are speedier at the beginning, slower toward the end. They are different for speed at the starting gate, stamina, speed at the straight line, and for speed with different conditions of the race terrain. You (and the CPU too!) have the whip and the coax to spur a horse, and these tools could be useful to win a race even with a more tired horse.</desc>
 		<image>./media/screenshot/Horse Racing (1980) (Mattel).png</image>
@@ -1691,7 +1691,7 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
 	</game>
 	<game id="97540" source="ScreenScraper.fr">
 		<path>./Pole Position (1986) (Intv Corp).zip</path>
-		<name>Pole Position</name>
+		<name>桿位</name>
 		<desc>Pole Position is the conversion of the arcade racing game. Enter the Grand Prix, race against other racing cars to achieve the highest score possible in the shortest amount of time.
 
 Before the player can enter the Grand Prix, the player must first qualify by competing in the Qualifying Lap within 73 seconds or less. If the player however, does not qualify in the Qualifying Lap, the player may continue to race until the Race Timer runs after 90 seconds. The player will score 50 point per 5 meters and additionally 50 points for every racing car passed. When the time runs out - Game Over. The player will have to restart the Qualifying Lap.
@@ -1745,7 +1745,7 @@ Positions
 	</game>
 	<game id="97542" source="ScreenScraper.fr">
 		<path>./Popeye (1983) (Parker Bros).zip</path>
-		<name>Popeye</name>
+		<name>大力水手 2</name>
 		<desc>Popeye is a conversion of the arcade action/platform game. As Popeye, you are trying to win Olive Oyl's love! She is at the top of the screen dropping tokens of her love, and you need to collect them before they hit the ground. After you have collected the required number of items, you can move on to the next, more difficult level. There are many obstacles trying to stop you from completing your task, though! Brutus wanders around the screen and is constantly trying to catch you. If you collect a can of spinach, you can temporarily knock him out, otherwise Brutus will knock you out. Other objects such as bottles or birds are also flying around the screen and will cause you to lose one of your lives if you are hit. Each level features a different layout of platforms and ladders, and will have you collecting different items as they float towards the bottom of the screen!</desc>
 		<image>./media/screenshot/Popeye (1983) (Parker Bros).png</image>
 		<rating>0.6</rating>

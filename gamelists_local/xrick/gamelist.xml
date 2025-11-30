@@ -2,7 +2,7 @@
 <gameList>
 	<game>
 		<path>./xrick-data.zip</path>
-		<name>XRick</name>
+		<name>瑞克英雄</name>
 		<desc>XRick is an opensource reimplementation of the game "Rick Dangerous". It is a popular platform game originally published in 1989 and developed for most computers available in the early 1990s. Loosely based on the Indiana Jones film franchise and set in 1945, secret agent Rick Dangerous crashes in the jungleand must fight ennemies and gather treasures.</desc>
 		<image>./images/xrick.png</image>
 		<video>./videos/xrick.mp4</video>

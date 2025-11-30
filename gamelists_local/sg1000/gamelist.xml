@@ -1057,7 +1057,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65722" source="ScreenScraper.fr">
     <path>./Guzzler (Japan) (Othello Multivision).zip</path>
-    <name>Guzzler</name>
+    <name>貪吃鬼</name>
     <desc>Guzzler 是 Tehkan 開發的一款街機遊戲。它由 Tsukuda Original 移植到 SG-1000，並賦予 Othello Multivision 品牌。直到今天，SG-1000 版本仍然是 Guzzler 的唯一母港。
 
 你扮演的角色需要吸收水來撲滅迷宮周圍的火焰。火災還會產生基於火的敵人，可以用類似的方式擊敗它們。您一次最多只能存儲三張照片。
@@ -1073,7 +1073,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65722" source="ScreenScraper.fr">
     <path>./Guzzler (Taiwan) (Othello Multivision).zip</path>
-    <name>Guzzler</name>
+    <name>貪吃鬼</name>
     <desc>Guzzler 是 Tehkan 開發的一款街機遊戲。它由 Tsukuda Original 移植到 SG-1000，並賦予 Othello Multivision 品牌。直到今天，SG-1000 版本仍然是 Guzzler 的唯一母港。
 
 你扮演的角色需要吸收水來撲滅迷宮周圍的火災。火災還會產生基於火的敵人，可以用類似的方式擊敗它們。您一次最多只能存儲三張照片。
@@ -1233,7 +1233,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65727" source="ScreenScraper.fr">
     <path>./Hyper Sports (Japan).zip</path>
-    <name>Hyper Sports</name>
+    <name>超級運動會</name>
     <desc>Hyper Sports 是一款由 Konami 開發的體育遊戲，於 1985 年針對 SG-1000 發布（繼 1984 年 MSX 發布之後）。該遊戲讓玩家參加許多奧運會比賽項目。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Konami</developer>
@@ -1245,7 +1245,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65727" source="ScreenScraper.fr">
     <path>./Hyper Sports (Taiwan).zip</path>
-    <name>Hyper Sports</name>
+    <name>超級運動會</name>
     <desc>Hyper Sports 是一款由 Konami 開發的體育遊戲，於 1985 年針對 SG-1000 發布（繼 1984 年 MSX 發布之後）。該遊戲讓玩家參加許多奧運會比賽項目。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Konami</developer>
@@ -1293,7 +1293,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65729" source="ScreenScraper.fr">
     <path>./Lode Runner (Japan, Europe).zip</path>
-    <name>Lode Runner</name>
+    <name>淘金者</name>
     <desc>在這款遊戲中，玩家需要反复“思考”和“採取行動”，通過解開神秘謎題來穿越並通關迷宮場景，同時躲避窮追不捨的敵人守衛。收集完所有的金寶箱後，你必須想出新的想法才能成功挑戰下一關場景。雖然你從之前的遊戲動作中獲得的經驗將幫助你克服未來的一些迷宮場景，但你仍然需要...</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Compile</developer>
@@ -1305,7 +1305,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65729" source="ScreenScraper.fr">
     <path>./Lode Runner (Taiwan).zip</path>
-    <name>Lode Runner</name>
+    <name>淘金者</name>
     <desc>在這款遊戲中，玩家需要反复“思考”和“採取行動”，通過解開神秘謎題來穿越並通關迷宮場景，同時躲避窮追不捨的敵人守衛。收集完所有的金寶箱後，你必須想出新的想法才能成功挑戰下一關場景。雖然你從之前的遊戲動作中獲得的經驗將幫助你克服未來的一些迷宮場景，但你仍然需要...</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Compile</developer>

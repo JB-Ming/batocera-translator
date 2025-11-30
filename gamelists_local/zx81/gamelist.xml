@@ -192,7 +192,7 @@ The game uses absolute orientation and the player looks around by pressing six d
 	</game>
 	<game id="49404" source="ScreenScraper.fr">
 		<path>./Formula One (1983)(P. Dziwior).zip</path>
-		<name>Formula One</name>
+		<name>一級方程式賽車</name>
 		<desc>A simulation of a F1 racing car. Vertically scrolling track with bends in it.  Speed controlled by the gears selected.  Gameplay is good with control of speed making it more involved than some ZX81 racing games.</desc>
 		<image>./media/screenshot/Formula One (1983)(P. Dziwior).png</image>
 		<releasedate>01/01/1983</releasedate>
@@ -206,7 +206,7 @@ The game uses absolute orientation and the player looks around by pressing six d
 	</game>
 	<game id="49404" source="ScreenScraper.fr">
 		<path>./Formula One (1984)(John Diependaal).zip</path>
-		<name>Formula One</name>
+		<name>一級方程式賽車</name>
 		<desc>A simulation of a F1 racing car. Vertically scrolling track with bends in it.  Speed controlled by the gears selected.  Gameplay is good with control of speed making it more involved than some ZX81 racing games.</desc>
 		<image>./media/screenshot/Formula One (1984)(John Diependaal).png</image>
 		<releasedate>01/01/1983</releasedate>
@@ -220,7 +220,7 @@ The game uses absolute orientation and the player looks around by pressing six d
 	</game>
 	<game id="49404" source="ScreenScraper.fr">
 		<path>./Formula One (19xx)(-)(it).zip</path>
-		<name>Formula One</name>
+		<name>一級方程式賽車</name>
 		<desc>A simulation of a F1 racing car. Vertically scrolling track with bends in it.  Speed controlled by the gears selected.  Gameplay is good with control of speed making it more involved than some ZX81 racing games.</desc>
 		<image>./media/screenshot/Formula One (19xx)(-)(it).png</image>
 		<releasedate>01/01/1983</releasedate>
@@ -410,7 +410,7 @@ Cada cierto tiempo aparece en la pantalla, por encima de los invasores, un plati
 	</game>
 	<game id="49538" source="ScreenScraper.fr">
 		<path>./Mad Miner (19xx)(-).zip</path>
-		<name>Mad Miner</name>
+		<name>瘋狂礦工</name>
 		<image>./media/screenshot/Mad Miner (19xx)(-).png</image>
 		<releasedate />
 		<playcount />
@@ -419,7 +419,7 @@ Cada cierto tiempo aparece en la pantalla, por encima de los invasores, un plati
 	</game>
 	<game id="49538" source="ScreenScraper.fr">
 		<path>./Mad Miner (19xx)(-)[a].zip</path>
-		<name>Mad Miner</name>
+		<name>瘋狂礦工</name>
 		<image>./media/screenshot/Mad Miner (19xx)(-)[a].png</image>
 		<releasedate />
 		<playcount />
@@ -828,7 +828,7 @@ The bombing sections include high-level and low-level attacks, each with limited
 	</game>
 	<game id="49358" source="ScreenScraper.fr">
 		<path>./Dominoes (19xx)(M. Moll).zip</path>
-		<name>Dominoes</name>
+		<name>多米諾骨牌</name>
 		<desc>Dominoes is an adaptation of the traditional board game where the player competes against one computer opponent. The two players take turns laying domino bricks so that they create a chain of bricks. The bricks are placed so that adjacent numbers match. To win a game the player has to score exactly 72 points. Points are scored when the end dominoes totals a multiple of 3 or 5. So for example if the sum of the bricks is fifteen then the player scores eight points (15/3 + 15/5 = 8). If the sum is not divisible by 3 or 5 then no points will be given. If a player scores higher than 72, the score will be 72 minus the number of points above 72. When the player has used all his bricks a new game is started but the score will be kept.</desc>
 		<image>./media/screenshot/Dominoes (19xx)(M. Moll).png</image>
 		<releasedate />
@@ -1004,7 +1004,7 @@ The bombing sections include high-level and low-level attacks, each with limited
 	</game>
 	<game id="49456" source="ScreenScraper.fr">
 		<path>./Gunfight (19xx)(JMS).zip</path>
-		<name>Gunfight</name>
+		<name>槍戰</name>
 		<desc>Old fashioned western style gunfight either against the computer or another player (on same keyboard).  Surprisingly fun fast moving gunfight game. can set the game difficulty and speed.  Dodge the opponents bullet whilst shooting yours past the wagon to hit them.</desc>
 		<image>./media/screenshot/Gunfight (19xx)(JMS).png</image>
 		<releasedate />
@@ -1016,7 +1016,7 @@ The bombing sections include high-level and low-level attacks, each with limited
 	</game>
 	<game id="49456" source="ScreenScraper.fr">
 		<path>./Gunfight (19xx)(JMS)[a2].zip</path>
-		<name>Gunfight</name>
+		<name>槍戰</name>
 		<desc>Old fashioned western style gunfight either against the computer or another player (on same keyboard).  Surprisingly fun fast moving gunfight game. can set the game difficulty and speed.  Dodge the opponents bullet whilst shooting yours past the wagon to hit them.</desc>
 		<image>./media/screenshot/Gunfight (19xx)(JMS)[a2].png</image>
 		<releasedate />
@@ -1028,7 +1028,7 @@ The bombing sections include high-level and low-level attacks, each with limited
 	</game>
 	<game id="49456" source="ScreenScraper.fr">
 		<path>./Gunfight (19xx)(JMS)[a].zip</path>
-		<name>Gunfight</name>
+		<name>槍戰</name>
 		<desc>Old fashioned western style gunfight either against the computer or another player (on same keyboard).  Surprisingly fun fast moving gunfight game. can set the game difficulty and speed.  Dodge the opponents bullet whilst shooting yours past the wagon to hit them.</desc>
 		<image>./media/screenshot/Gunfight (19xx)(JMS)[a].png</image>
 		<releasedate />
@@ -1544,7 +1544,7 @@ The bombing sections include high-level and low-level attacks, each with limited
 	</game>
 	<game id="49318" source="ScreenScraper.fr">
 		<path>./Combat (19xx)(-).zip</path>
-		<name>Combat</name>
+		<name>戰鬥</name>
 		<image>./media/screenshot/Combat (19xx)(-).png</image>
 		<releasedate />
 		<players>1</players>
@@ -2179,7 +2179,7 @@ Once again points are awarded or deducted according to how much damage is caused
 	</game>
 	<game id="138041" source="ScreenScraper.fr">
 		<path>./Titanic (19xx)(Bert van Oortmarssen)(nl).zip</path>
-		<name>Titanic</name>
+		<name>鐵達尼號</name>
 		<releasedate />
 		<publisher>Bert van Oortmarssen</publisher>
 		<playcount />
@@ -2372,7 +2372,7 @@ Once again points are awarded or deducted according to how much damage is caused
 	</game>
 	<game id="49581" source="ScreenScraper.fr">
 		<path>./Missile Command (1983)(Ch. Zwerschke)(de).zip</path>
-		<name>Missile Command</name>
+		<name>飛彈指揮</name>
 		<image>./media/screenshot/Missile Command (1983)(Ch. Zwerschke)(de).png</image>
 		<releasedate>01/01/1983</releasedate>
 		<publisher>Ch. Zwerschke</publisher>
@@ -2382,7 +2382,7 @@ Once again points are awarded or deducted according to how much damage is caused
 	</game>
 	<game id="49581" source="ScreenScraper.fr">
 		<path>./Missile Command (1983)(Ch. Zwerschke)(de)[a].zip</path>
-		<name>Missile Command</name>
+		<name>飛彈指揮</name>
 		<image>./media/screenshot/Missile Command (1983)(Ch. Zwerschke)(de)[a].png</image>
 		<releasedate>01/01/1983</releasedate>
 		<publisher>Ch. Zwerschke</publisher>
@@ -2489,7 +2489,7 @@ This is one Adventure you won't get bored with!</desc>
 	</game>
 	<game id="49293" source="ScreenScraper.fr">
 		<path>./Caverns of Mars (1983)(W. Labus - Frank Beer)(de).zip</path>
-		<name>Caverns of Mars</name>
+		<name>火星洞穴</name>
 		<releasedate>01/01/1983</releasedate>
 		<publisher>W. Labus - Frank Beer</publisher>
 		<playcount />
@@ -3251,7 +3251,7 @@ This is the first game in history created in Spain in 1983 by Paco Suárez and P
 	</game>
 	<game id="49696" source="ScreenScraper.fr">
 		<path>./Reversi (19xx)(-).zip</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a simulation of the classic nineteenth century Othello board game. Strategy game.</desc>
 		<image>./media/screenshot/Reversi (19xx)(-).png</image>
 		<releasedate>01/01/1982</releasedate>
@@ -3599,7 +3599,7 @@ This is the first game in history created in Spain in 1983 by Paco Suárez and P
 	</game>
 	<game id="138028" source="ScreenScraper.fr">
 		<path>./Yahtzee (1983)(Carlo Delhez)(nl).zip</path>
-		<name>Yahtzee</name>
+		<name>快艇骰子</name>
 		<image>./media/screenshot/Yahtzee (1983)(Carlo Delhez)(nl).png</image>
 		<releasedate>01/01/1983</releasedate>
 		<publisher>Carlo Delhez</publisher>
@@ -3609,7 +3609,7 @@ This is the first game in history created in Spain in 1983 by Paco Suárez and P
 	</game>
 	<game id="138028" source="ScreenScraper.fr">
 		<path>./Yahtzee (1983)(Carlo Delhez)(nl)[a].zip</path>
-		<name>Yahtzee</name>
+		<name>快艇骰子</name>
 		<image>./media/screenshot/Yahtzee (1983)(Carlo Delhez)(nl)[a].png</image>
 		<releasedate>01/01/1983</releasedate>
 		<publisher>Carlo Delhez</publisher>
@@ -4357,7 +4357,7 @@ If you manage it king Kraktups sanity will return, he may give you a knighthood.
 	</game>
 	<game id="49553" source="ScreenScraper.fr">
 		<path>./Maze (19xx)(-).zip</path>
-		<name>Maze</name>
+		<name>迷宮</name>
 		<image>./media/screenshot/Maze (19xx)(-).png</image>
 		<releasedate />
 		<playcount />
@@ -4366,7 +4366,7 @@ If you manage it king Kraktups sanity will return, he may give you a knighthood.
 	</game>
 	<game id="49553" source="ScreenScraper.fr">
 		<path>./Maze (19xx)(-)[a].zip</path>
-		<name>Maze</name>
+		<name>迷宮</name>
 		<image>./media/screenshot/Maze (19xx)(-)[a].png</image>
 		<releasedate />
 		<playcount />
@@ -4963,7 +4963,7 @@ You also have speed restrictions for three major stations and two track repairs.
 	</game>
 	<game id="49798" source="ScreenScraper.fr">
 		<path>./Tempest (19xx)(S.P. Kelly).zip</path>
-		<name>Tempest</name>
+		<name>暴風雨</name>
 		<image>./media/screenshot/Tempest (19xx)(S.P. Kelly).png</image>
 		<releasedate />
 		<publisher>S.P. Kelly</publisher>
@@ -5100,7 +5100,7 @@ You also have speed restrictions for three major stations and two track repairs.
 	</game>
 	<game id="49351" source="ScreenScraper.fr">
 		<path>./Detective (19xx)(A. Watney).zip</path>
-		<name>Detective</name>
+		<name>偵探</name>
 		<image>./media/screenshot/Detective (19xx)(A. Watney).png</image>
 		<releasedate />
 		<publisher>A. Watney</publisher>
@@ -5110,7 +5110,7 @@ You also have speed restrictions for three major stations and two track repairs.
 	</game>
 	<game id="49351" source="ScreenScraper.fr">
 		<path>./Detective (19xx)(A. Watney)[a].zip</path>
-		<name>Detective</name>
+		<name>偵探</name>
 		<image>./media/screenshot/Detective (19xx)(A. Watney)[a].png</image>
 		<releasedate />
 		<publisher>A. Watney</publisher>
@@ -5441,7 +5441,7 @@ You also have speed restrictions for three major stations and two track repairs.
 	</game>
 	<game id="49438" source="ScreenScraper.fr">
 		<path>./Golf (19xx)(-).zip</path>
-		<name>Golf</name>
+		<name>高爾夫</name>
 		<image>./media/screenshot/Golf (19xx)(-).png</image>
 		<releasedate />
 		<playcount />
@@ -5943,7 +5943,7 @@ The first batch of swooping Galaxians are particularly good at searching out an 
 	</game>
 	<game id="49190" source="ScreenScraper.fr">
 		<path>./3D Tic-Tac-Toe (19xx)(-).zip</path>
-		<name>3D Tic-Tac-Toe</name>
+		<name>3D井字棋</name>
 		<desc>This is noughts and crosses on a 4x4x4 cube. Each move is entered as a 3 digit no. The digits indicate the level, row and column, respectively. 
 You must try and get 4 of your counters represented by "o" in one three dimensional line.</desc>
 		<image>./media/screenshot/3D Tic-Tac-Toe (19xx)(-).png</image>
@@ -5954,7 +5954,7 @@ You must try and get 4 of your counters represented by "o" in one three dimensio
 	</game>
 	<game id="49190" source="ScreenScraper.fr">
 		<path>./3D Tic-Tac-Toe (19xx)(-)[a].zip</path>
-		<name>3D Tic-Tac-Toe</name>
+		<name>3D井字棋</name>
 		<desc>This is noughts and crosses on a 4x4x4 cube. Each move is entered as a 3 digit no. The digits indicate the level, row and column, respectively. 
 You must try and get 4 of your counters represented by "o" in one three dimensional line.</desc>
 		<image>./media/screenshot/3D Tic-Tac-Toe (19xx)(-)[a].png</image>
@@ -6664,7 +6664,7 @@ You must try and get 4 of your counters represented by "o" in one three dimensio
 	</game>
 	<game id="49815" source="ScreenScraper.fr">
 		<path>./Trap (19xx)(-)(de).zip</path>
-		<name>Trap</name>
+		<name>陷阱</name>
 		<releasedate />
 		<playcount />
 		<lastplayed />
@@ -6672,7 +6672,7 @@ You must try and get 4 of your counters represented by "o" in one three dimensio
 	</game>
 	<game id="49815" source="ScreenScraper.fr">
 		<path>./Trap (19xx)(-)(de)[a].zip</path>
-		<name>Trap</name>
+		<name>陷阱</name>
 		<releasedate />
 		<playcount />
 		<lastplayed />
@@ -6738,7 +6738,7 @@ You must try and get 4 of your counters represented by "o" in one three dimensio
 	</game>
 	<game id="49574" source="ScreenScraper.fr">
 		<path>./Micro Mouse Goes De-Bugging (19xx)(MC Lothlorien).zip</path>
-		<name>Micro Mouse Goes De-Bugging</name>
+		<name>微型滑鼠去除錯</name>
 		<desc>Micro Mouse Goes De-bugging is an action set inside a computer program. Software bugs are trying to destroy Micro Mouse's programs and it's up to the player to help him out. In the middle of the screen there is a short Basic program with some letters missing. It's the player's job to collect these letters, which can be found in four cages at the corners of the screen, and put them back into the code. To make it easier to see which letters needs to be retrieved they are flashing in the code. At the same time the bugs run around and attempt to steal the letters and put them back into the cages. When more than a certain percentage of the letters are missing there will be a system crash and the player has to start again. To stop the bugs the player can pick up a can of datakill and shoot at the bugs. Problem is that it is not possible to both carry datakill and letters at the same time. When a bug carrying a letter is killed the letter automatically returns to the code. Once the program is complete it will run and the player can move on to the next level which has a more complex program and more attacking bugs.</desc>
 		<image>./media/screenshot/Micro Mouse Goes De-Bugging (19xx)(MC Lothlorien).png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -7053,7 +7053,7 @@ You must try and get 4 of your counters represented by "o" in one three dimensio
 	</game>
 	<game id="49367" source="ScreenScraper.fr">
 		<path>./Dracula (19xx)(S. Earl).zip</path>
-		<name>Dracula</name>
+		<name>德古拉</name>
 		<image>./media/screenshot/Dracula (19xx)(S. Earl).png</image>
 		<releasedate />
 		<publisher>S. Earl</publisher>
@@ -7335,7 +7335,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49333" source="ScreenScraper.fr">
 		<path>./Dallas (1982)(CCS).zip</path>
-		<name>Dallas</name>
+		<name>達拉斯</name>
 		<desc>Dallas is a simulation game where the player takes control of a company in the oil business. The game shows a map over Texas and is played by choosing from a text menu and entering coordinates on the map.</desc>
 		<image>./media/screenshot/Dallas (1982)(CCS).png</image>
 		<releasedate>01/01/1982</releasedate>
@@ -7457,7 +7457,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49431" source="ScreenScraper.fr">
 		<path>./Ghosts (19xx)(-).zip</path>
-		<name>Ghosts</name>
+		<name>鬼魂</name>
 		<releasedate />
 		<playcount />
 		<lastplayed />
@@ -7796,7 +7796,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49696" source="ScreenScraper.fr">
 		<path>./Reversi (1982)(MOI).zip</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a simulation of the classic nineteenth century Othello board game. Strategy game.</desc>
 		<image>./media/screenshot/Reversi (1982)(MOI).png</image>
 		<releasedate>01/01/1982</releasedate>
@@ -7808,7 +7808,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49696" source="ScreenScraper.fr">
 		<path>./Reversi (1982)(MOI)[a].zip</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a simulation of the classic nineteenth century Othello board game. Strategy game.</desc>
 		<image>./media/screenshot/Reversi (1982)(MOI)[a].png</image>
 		<releasedate>01/01/1982</releasedate>
@@ -7820,7 +7820,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49696" source="ScreenScraper.fr">
 		<path>./Reversi (19xx)(-)(nl).zip</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a simulation of the classic nineteenth century Othello board game. Strategy game.</desc>
 		<image>./media/screenshot/Reversi (19xx)(-)(nl).png</image>
 		<releasedate>01/01/1982</releasedate>
@@ -7832,7 +7832,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49696" source="ScreenScraper.fr">
 		<path>./Reversi (19xx)(-)(nl)[different].zip</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a simulation of the classic nineteenth century Othello board game. Strategy game.</desc>
 		<image>./media/screenshot/Reversi (19xx)(-)(nl)[different].png</image>
 		<releasedate>01/01/1982</releasedate>
@@ -8007,7 +8007,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49199" source="ScreenScraper.fr">
 		<path>./Adventure (19xx)(-)(de).zip</path>
-		<name>Adventure</name>
+		<name>ALF：首次冒險</name>
 		<image>./media/screenshot/Adventure (19xx)(-)(de).png</image>
 		<releasedate />
 		<playcount />
@@ -8016,7 +8016,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49199" source="ScreenScraper.fr">
 		<path>./Adventure (19xx)(-).zip</path>
-		<name>Adventure</name>
+		<name>ALF：首次冒險</name>
 		<image>./media/screenshot/Adventure (19xx)(-).png</image>
 		<releasedate />
 		<playcount />
@@ -8545,7 +8545,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49413" source="ScreenScraper.fr">
 		<path>./Frogger (1981)(Cornsoft).zip</path>
-		<name>Frogger</name>
+		<name>熱門遊戲合輯</name>
 		<desc>Your task in this arcade game is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.</desc>
 		<image>./media/screenshot/Frogger (1981)(Cornsoft).png</image>
 		<releasedate>01/01/1981</releasedate>
@@ -8557,7 +8557,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49413" source="ScreenScraper.fr">
 		<path>./Frogger (19xx)(-)(de).zip</path>
-		<name>Frogger</name>
+		<name>熱門遊戲合輯</name>
 		<desc>Your task in this arcade game is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.</desc>
 		<image>./media/screenshot/Frogger (19xx)(-)(de).png</image>
 		<releasedate>01/01/1981</releasedate>
@@ -8569,7 +8569,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49413" source="ScreenScraper.fr">
 		<path>./Frogger (19xx)(-).zip</path>
-		<name>Frogger</name>
+		<name>熱門遊戲合輯</name>
 		<desc>Your task in this arcade game is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.</desc>
 		<image>./media/screenshot/Frogger (19xx)(-).png</image>
 		<releasedate>01/01/1981</releasedate>
@@ -9040,7 +9040,7 @@ cockpit instruments.</desc>
 	</game>
 	<game id="49590" source="ScreenScraper.fr">
 		<path>./Monopoly (1982)(Work Force).zip</path>
-		<name>Monopoly</name>
+		<name>大富翁</name>
 		<image>./media/screenshot/Monopoly (1982)(Work Force).png</image>
 		<releasedate>01/01/1982</releasedate>
 		<publisher>Work Force</publisher>
@@ -9688,7 +9688,7 @@ The game consist of six levels each with a different platform layout. On the fir
 	</game>
 	<game id="49707" source="ScreenScraper.fr">
 		<path>./Roulette (19xx)(-).zip</path>
-		<name>Roulette</name>
+		<name>輪盤</name>
 		<image>./media/screenshot/Roulette (19xx)(-).png</image>
 		<releasedate />
 		<playcount />
@@ -10182,7 +10182,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (1984)(Mike Pike).zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (1984)(Mike Pike).png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10197,7 +10197,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (1984)(Mike Pike)[a2].zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (1984)(Mike Pike)[a2].png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10212,7 +10212,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (1984)(Mike Pike)[a].zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (1984)(Mike Pike)[a].png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10227,7 +10227,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (19xx)(-).zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (19xx)(-).png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10242,7 +10242,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (19xx)(-)[a2].zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (19xx)(-)[a2].png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10257,7 +10257,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (19xx)(-)[a3].zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (19xx)(-)[a3].png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10272,7 +10272,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (19xx)(-)[a4].zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (19xx)(-)[a4].png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10287,7 +10287,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49226" source="ScreenScraper.fr">
 		<path>./Asteroids (19xx)(-)[a].zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a clone of the Arcade version which sees your craft in the middle of an asteroid field and you must destroy all the asteroids to survive. The asteroids start off large and when you shoot one then it splits into two, and shooting an asteroid this size splits it into two again before being destroyed with another shot. Occasionally an alien craft appears moving across the screen and this can be destroyed for extra points. If you are hit by an asteroid or the alien craft then you lose one of three lives. You are able to turn your ship 360 degrees as well as move forward.</desc>
 		<image>./media/screenshot/Asteroids (19xx)(-)[a].png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -10375,7 +10375,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49460" source="ScreenScraper.fr">
 		<path>./Hangman (19xx)(-)(de).zip</path>
-		<name>Hangman</name>
+		<name>猜字遊戲</name>
 		<image>./media/screenshot/Hangman (19xx)(-)(de).png</image>
 		<releasedate />
 		<players>1-2</players>
@@ -10385,7 +10385,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49460" source="ScreenScraper.fr">
 		<path>./Hangman (19xx)(-)(de)[a].zip</path>
-		<name>Hangman</name>
+		<name>猜字遊戲</name>
 		<image>./media/screenshot/Hangman (19xx)(-)(de)[a].png</image>
 		<releasedate />
 		<players>1-2</players>
@@ -10395,7 +10395,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49460" source="ScreenScraper.fr">
 		<path>./Hangman (19xx)(-).zip</path>
-		<name>Hangman</name>
+		<name>猜字遊戲</name>
 		<image>./media/screenshot/Hangman (19xx)(-).png</image>
 		<releasedate />
 		<players>1-2</players>
@@ -10405,7 +10405,7 @@ There are six groups of humanoids. The player gets points for each successful la
 	</game>
 	<game id="49460" source="ScreenScraper.fr">
 		<path>./Hangman (19xx)(Elbert van Putten)(nl).zip</path>
-		<name>Hangman</name>
+		<name>猜字遊戲</name>
 		<image>./media/screenshot/Hangman (19xx)(Elbert van Putten)(nl).png</image>
 		<releasedate />
 		<players>1-2</players>

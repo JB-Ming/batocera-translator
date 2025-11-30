@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+	<game id="167356">
+		<path>./Deep Dungeon.lutro</path>
+		<name>[中文]Deep Dungeon</name>
+		<desc>Madō Senki is set in the town of Dorl. One day, monsters raided the town, stealing both the treasures and Princess Etna's soul. Despite the attempts of brave warriors to retrieve her soul, none have been successful.
+
+In the dungeon, the player is given a command list. The player can choose to attack if an enemy is in the vicinity, view allocated items, escape from battle, examine the area for items, and talk if there are people nearby. The character's effectiveness in battle is largely determined by numerical values for attacking power (AP), defensive power (AC), and health (HP). These values are determined by the character's experience level (LEVEL), which raises after the character's accumulated experience (EX) reaches a certain point.</desc>
+		<image>./images/Deep Dungeon-image.png</image>
+		<thumbnail>./images/Deep Dungeon-thumb.png</thumbnail>
+		<genre>Role playing games</genre>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>b7c6ce3a8282ea4f6d4d319d6d6a2b70</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186678">
+		<path>./Game of Life.lutro</path>
+		<name>[中文]Game Of Life</name>
+		<desc>A recreation of Conway's The Game Of Life. Press one of the buttons to regenerate the algorithm again. Can be quite CPU intensive depending on the system and environment you run Lutro on and/or whether or not LuaJIT is available.</desc>
+		<image>./images/Game of Life-image.png</image>
+		<thumbnail>./images/Game of Life-thumb.png</thumbnail>
+		<genre>Simulation</genre>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>8e305092557136f8106a1956290d2992</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186680">
+		<path>./In Your Face City Trains.lutro</path>
+		<name>[中文]In Your Face City Trains</name>
+		<desc>IYFCT is a simple but fun one-button-game similar to Canabalt.
+
+The goal of the game is to survive as long as you can. Jump over trains with closed doors and try (as much as possible) to run through trains with open doors to avoid birds and tunnels. Some open trains will give you coffee. When your coffee-meter is full, you have one extra life.</desc>
+		<image>./images/In Your Face City Trains-image.png</image>
+		<thumbnail>./images/In Your Face City Trains-thumb.png</thumbnail>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>f5995c79aaba73e474d1197b32169189</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186681">
+		<path>./Platformer.lutro</path>
+		<name>[中文]Platformer</name>
+		<desc>One of kivutar's first proof of concept demos showing off Lutro. It's a scrolling 2D platform game with no real game mechanics beyond jumping.</desc>
+		<image>./images/Platformer-image.png</image>
+		<thumbnail>./images/Platformer-thumb.png</thumbnail>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>4bf376597ca331be2ae43a6fcd414638</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186682">
+		<path>./Pong.lutro</path>
+		<name>[中文]Pong</name>
+		<desc>A recreation of the game Pong for Lutro.</desc>
+		<image>./images/Pong-image.png</image>
+		<thumbnail>./images/Pong-thumb.png</thumbnail>
+		<genre>Sports / Table tennis</genre>
+		<family>Pong</family>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>592a46693e51ee41b40b08144f2d9160</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="172285">
+		<path>./Sienna.lutro</path>
+		<name>[中文]Sienna</name>
+		<desc>This is a Love2D-based endless runner game that has been ported to Lutro.</desc>
+		<image>./images/Sienna-image.png</image>
+		<thumbnail>./images/Sienna-thumb.png</thumbnail>
+		<genre>Platform</genre>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>751cda756936e4545ca87bab241dfee4</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186677">
+		<path>./Snake.lutro</path>
+		<name>[中文]Snake</name>
+		<desc>A recreation of the Snake game for Lutro.</desc>
+		<image>./images/Snake-image.png</image>
+		<thumbnail>./images/Snake-thumb.png</thumbnail>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>fe32ef33b4f874074e2d1d2e9bae9868</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186683">
+		<path>./Spaceship.lutro</path>
+		<name>[中文]Spaceship</name>
+		<desc>Another 2D platformer showcase example for Lutro, this time illustrating how a Metroidvania-style game could work as a Lutro game. It has several screens which were implemented and some game mechanics including combat, item collecting, jumping, etc.</desc>
+		<image>./images/Spaceship-image.png</image>
+		<thumbnail>./images/Spaceship-thumb.png</thumbnail>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>1bff1fe2e5f05a2071f76b5697b8bc1c</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+	<game id="186679">
+		<path>./Tetris.lutro</path>
+		<name>俄羅斯方塊</name>
+		<desc>A version of Tetris for Lutro.</desc>
+		<image>./images/Tetris-image.png</image>
+		<thumbnail>./images/Tetris-thumb.png</thumbnail>
+		<genre>Puzzle-Game</genre>
+		<family>Tetris</family>
+		<players>1</players>
+		<playcount />
+		<lastplayed />
+		<md5>9d46d3e2647feb4a7c1ce79af4307b69</md5>
+		<gametime />
+		<lang>en</lang>
+	</game>
+</gameList>

@@ -7,7 +7,7 @@
 	</provider>
 	<game id="52207">
 		<path>./3-D Docking Mission (19xx)(Chris Oberth).dsk</path>
-		<name>3-D Docking Mission</name>
+		<name>三維對接任務</name>
 		<image>./images/3-D Docking Mission (19xx)(Chris Oberth)-image.png</image>
 		<thumbnail>./images/3-D Docking Mission (19xx)(Chris Oberth)-thumb.png</thumbnail>
 		<mix>./images/3-D Docking Mission (19xx)(Chris Oberth)-image.png</mix>
@@ -24,7 +24,7 @@
 	</game>
 	<game id="53328">
 		<path>./A Mind Forever Voyaging (1985)(Infocom)(Disk 1 of 1 Side A).dsk</path>
-		<name>A Mind Forever Voyaging</name>
+		<name>永恆旅程之心</name>
 		<desc>The year is 2031 and the world is near the brink of economic collapse. To avoid this, the president comes up with a plan to stop the disaster - but before applying it, the long-term impacts on the world need to be validated. This is done with a simulation visited by the computer project PRISM, designed to be a true AI. The game starts when PRISM awakes from a simulation of his own, human life and is told that he is in fact the world's first sentient machine. At this point, the player takes control over PRISM.
 A Mind Forever Voyaging is a text-based interactive fiction game. The player reads descriptions which detail the surroundings and communicates with the game by typing in commands. Most of the time is spent in simulation mode where the player repeatedly visits the town of Rockvil and needs to record situations of everyday or special activities going on. If the player has recorded enough, the game progresses and the simulation ten years ahead can be visited. However, the recording device has no unlimited capacity - when full, the player needs to exit the simulation and let the recordings review by the project leader. Then the current simulation can be simply started again from the start to find new situations - the same applies when dying.
 Between simulations and toward the end there are situations outside the simulation, but overall the game is light on puzzle-solving and more about experiencing how said plan changes Rockvil and its people over time. Outside the simulation there are three more modes to enter: communications (switching to various video/audio units to examine other locations and people), library (various documents and other information to read) and interlace (communicating and giving orders to the own subsystems).</desc>
@@ -45,7 +45,7 @@ Between simulations and toward the end there are situations outside the simulati
 	</game>
 	<game id="53328">
 		<path>./A Mind Forever Voyaging (1985)(Infocom)(Disk 1 of 1 Side B)[nib].nib</path>
-		<name>A Mind Forever Voyaging</name>
+		<name>永恆旅程之心</name>
 		<desc>The year is 2031 and the world is near the brink of economic collapse. To avoid this, the president comes up with a plan to stop the disaster - but before applying it, the long-term impacts on the world need to be validated. This is done with a simulation visited by the computer project PRISM, designed to be a true AI. The game starts when PRISM awakes from a simulation of his own, human life and is told that he is in fact the world's first sentient machine. At this point, the player takes control over PRISM.
 A Mind Forever Voyaging is a text-based interactive fiction game. The player reads descriptions which detail the surroundings and communicates with the game by typing in commands. Most of the time is spent in simulation mode where the player repeatedly visits the town of Rockvil and needs to record situations of everyday or special activities going on. If the player has recorded enough, the game progresses and the simulation ten years ahead can be visited. However, the recording device has no unlimited capacity - when full, the player needs to exit the simulation and let the recordings review by the project leader. Then the current simulation can be simply started again from the start to find new situations - the same applies when dying.
 Between simulations and toward the end there are situations outside the simulation, but overall the game is light on puzzle-solving and more about experiencing how said plan changes Rockvil and its people over time. Outside the simulation there are three more modes to enter: communications (switching to various video/audio units to examine other locations and people), library (various documents and other information to read) and interlace (communicating and giving orders to the own subsystems).</desc>
@@ -83,7 +83,7 @@ Between simulations and toward the end there are situations outside the simulati
 	</game>
 	<game id="52213">
 		<path>./A2-FS1 Flight Simulator (19xx)(Sublogic).dsk</path>
-		<name>A2-FS1 Flight Simulator</name>
+		<name>A2 飛行模擬器1</name>
 		<image>./images/A2-FS1 Flight Simulator (19xx)(Sublogic)-image.png</image>
 		<thumbnail>./images/A2-FS1 Flight Simulator (19xx)(Sublogic)-thumb.png</thumbnail>
 		<mix>./images/A2-FS1 Flight Simulator (19xx)(Sublogic)-image.png</mix>
@@ -100,7 +100,7 @@ Between simulations and toward the end there are situations outside the simulati
 	</game>
 	<game id="52214">
 		<path>./ABM (1980)(Muse).dsk</path>
-		<name>ABM</name>
+		<name>反彈道飛彈</name>
 		<desc>ABM is an EGA graphic remake of Missile Command. In this game you must stop missiles from coming down to destroy Shield Generators. You can use your mouse, or your arrow keys to aim where you want to fire, then click on the mouse buttons to fire and destroy the missiles. There are infinite levels and no high score table. When you get a game over their will be Statistics showing how many missiles you destroyed and how many interceptors you launched.</desc>
 		<image>./images/ABM (1980)(Muse)-image.png</image>
 		<thumbnail>./images/ABM (1980)(Muse)-thumb.png</thumbnail>
@@ -118,7 +118,7 @@ Between simulations and toward the end there are situations outside the simulati
 	</game>
 	<game id="117300">
 		<path>./Accounts Receivable (1980)(Continental Software).dsk</path>
-		<name>Accounts Receivable</name>
+		<name>應收帳款</name>
 		<image>./images/Accounts Receivable (1980)(Continental Software)-image.png</image>
 		<mix>./images/Accounts Receivable (1980)(Continental Software)-image.png</mix>
 		<releasedate>09/12/1983</releasedate>
@@ -134,7 +134,7 @@ Between simulations and toward the end there are situations outside the simulati
 	</game>
 	<game id="52220">
 		<path>./Adventure (1980)(A Bit Better Associates).dsk</path>
-		<name>Adventure</name>
+		<name>ALF：首次冒險</name>
 		<desc>A graphic dungeon quest inspired by the old mainframe game of the same name, Adventure is a graphic action-adventure game where you use your joystick to wander around, collecting keys to explore castles, labyrinths and everything in between, whilst slaying anything that moves (i.e. Dragons &amp; Co.) to get treasures. 
 The game has 3 difficulty settings:Level 1 (Easiest)Level 2: The Kingdom is larger than Level 1, containing secret rooms and hidden items to add difficulty.Level 3 (Hardest): Similar to Level 2 but all objects/items are placed randomly throughout the Kingdom.Gameplay revolves around picking up (and dropping) items, hacking your way though dragons, finding keys to open the castle gates and using magic (i.e. reincarnation) in case you get swallowed by failing-to-follow-their-diet-plan-dragons.</desc>
 		<image>./images/Adventure (1980)(A Bit Better Associates)-image.png</image>
@@ -267,7 +267,7 @@ The game has 3 difficulty settings:Level 1 (Easiest)Level 2: The Kingdom is larg
 	</game>
 	<game id="52234">
 		<path>./Aeronaut (1984)(Bill Edison).dsk</path>
-		<name>Aeronaut</name>
+		<name>飛行家</name>
 		<image>./images/Aeronaut (1984)(Bill Edison)-image.png</image>
 		<mix>./images/Aeronaut (1984)(Bill Edison)-image.png</mix>
 		<releasedate>01/01/1984</releasedate>
@@ -283,7 +283,7 @@ The game has 3 difficulty settings:Level 1 (Easiest)Level 2: The Kingdom is larg
 	</game>
 	<game id="117229">
 		<path>./Airplane Simulator (1983)(Ted Kurtz).dsk</path>
-		<name>Airplane Simulator</name>
+		<name>飛機模擬器</name>
 		<image>./images/Airplane Simulator (1983)(Ted Kurtz)-image.png</image>
 		<mix>./images/Airplane Simulator (1983)(Ted Kurtz)-image.png</mix>
 		<releasedate>01/01/1983</releasedate>
@@ -298,7 +298,7 @@ The game has 3 difficulty settings:Level 1 (Easiest)Level 2: The Kingdom is larg
 	</game>
 	<game id="52240">
 		<path>./Akalabeth (1980)(California Pacific Computer).dsk</path>
-		<name>Akalabeth</name>
+		<name>阿卡拉貝斯</name>
 		<desc>Once, the land of Akalabeth was peaceful and quiet. But then came Mondain, an evil and ambitious man who created dungeons and populated them with foul creatures. The noble warrior British was able to drive Mondain from Akalabeth, but the monsters he brought with him remain.
 As either a fighter or a mage, it is your job to explore Akalabeth, descend into the dungeons and vanquish the beasts dwelling within. On an overhead map of the land, one can find the dungeons, towns where one may buy supplies, weapons and armor, and a castle, where one will be given quests by Lord British. To fulfill such a quest, a certain type of creature must be destroyed in a dungeon.
 Inside the dungeons, the view switches to a first-person perspective. Fight, explore and find treasure on your way to complete a quest. Each successive quest will require you to destroy a stronger monster, which will reside on a deeper dungeon level than the one before it.
@@ -320,7 +320,7 @@ Akalabeth is the precursor to the Ultima Series.</desc>
 	</game>
 	<game id="118815">
 		<path>./Alesia (1984)(P. Garcia)(Fr)(Disk 1 of 1 Side A).dsk</path>
-		<name>Alesia</name>
+		<name>阿萊西亞</name>
 		<image>./images/Alesia (1984)(P. Garcia)(Fr)(Disk 1 of 1 Side A)-image.png</image>
 		<mix>./images/Alesia (1984)(P. Garcia)(Fr)(Disk 1 of 1 Side A)-image.png</mix>
 		<releasedate>01/01/1984</releasedate>
@@ -336,7 +336,7 @@ Akalabeth is the precursor to the Ultima Series.</desc>
 	</game>
 	<game id="118815">
 		<path>./Alesia (1984)(P. Garcia)(Fr)(Disk 1 of 1 Side B).dsk</path>
-		<name>Alesia</name>
+		<name>阿萊西亞</name>
 		<image>./images/Alesia (1984)(P. Garcia)(Fr)(Disk 1 of 1 Side B)-image.png</image>
 		<mix>./images/Alesia (1984)(P. Garcia)(Fr)(Disk 1 of 1 Side B)-image.png</mix>
 		<releasedate>01/01/1984</releasedate>
@@ -369,7 +369,7 @@ Akalabeth is the precursor to the Ultima Series.</desc>
 	</game>
 	<game id="52246">
 		<path>./Alice In Wonderland (1985)(Windham Classics)(Disk 1 of 1 Side A).dsk</path>
-		<name>Alice In Wonderland</name>
+		<name>愛麗絲夢遊仙境</name>
 		<desc>Alice in Wonderland is an adventure platformer based upon the two Alice books by Lewis Carrol and created using the same engine as Below the Root.  However, whereas that game had more of a focus on role playing, Alice has more of a focus on puzzle solving.
 Puzzles come in a variety of forms including many inventory based puzzles, and more appropriately, given the subject matter, riddles.  Also, there are many physical puzzles primarily taking the form of how to get from here to there through jumping and using inventory items to change Alice's size.  
 The plot is more inspired by the Alice books than strictly adapting them.  Especially the game tries to adapt Carrol's sense of humor in its rhymes and puns. Interestingly, Alice's end of conversations are driven by selecting emotions rather than typing words, and it is possible to anger NPCs and have them stalk off, leaving you to wait until a pre-appointed hour when they will reappear.  The time can be discovered by looking at one of the various clocks throughout the game.  Time is important because the game must be completed before the Red King wakes, although this isn't much of an issue especially since the game can be saved whenever and mistakes easily taken back.</desc>
@@ -390,7 +390,7 @@ The plot is more inspired by the Alice books than strictly adapting them.  Espec
 	</game>
 	<game id="52246">
 		<path>./Alice In Wonderland (1985)(Windham Classics)(Disk 1 of 1 Side B).dsk</path>
-		<name>Alice In Wonderland</name>
+		<name>愛麗絲夢遊仙境</name>
 		<desc>Alice in Wonderland is an adventure platformer based upon the two Alice books by Lewis Carrol and created using the same engine as Below the Root.  However, whereas that game had more of a focus on role playing, Alice has more of a focus on puzzle solving.
 Puzzles come in a variety of forms including many inventory based puzzles, and more appropriately, given the subject matter, riddles.  Also, there are many physical puzzles primarily taking the form of how to get from here to there through jumping and using inventory items to change Alice's size.  
 The plot is more inspired by the Alice books than strictly adapting them.  Especially the game tries to adapt Carrol's sense of humor in its rhymes and puns. Interestingly, Alice's end of conversations are driven by selecting emotions rather than typing words, and it is possible to anger NPCs and have them stalk off, leaving you to wait until a pre-appointed hour when they will reappear.  The time can be discovered by looking at one of the various clocks throughout the game.  Time is important because the game must be completed before the Red King wakes, although this isn't much of an issue especially since the game can be saved whenever and mistakes easily taken back.</desc>
@@ -430,7 +430,7 @@ The plot is more inspired by the Alice books than strictly adapting them.  Espec
 	</game>
 	<game id="52253">
 		<path>./Alien Rain (1981)(Broderbund)[nib].nib</path>
-		<name>Alien Rain</name>
+		<name>異形之雨</name>
 		<image>./images/Alien Rain (1981)(Broderbund)[nib]-image.png</image>
 		<thumbnail>./images/Alien Rain (1981)(Broderbund)[nib]-thumb.png</thumbnail>
 		<mix>./images/Alien Rain (1981)(Broderbund)[nib]-image.png</mix>
@@ -447,7 +447,7 @@ The plot is more inspired by the Alice books than strictly adapting them.  Espec
 	</game>
 	<game id="117230">
 		<path>./Alien Typhoon (1981)(Starcraft).dsk</path>
-		<name>Alien Typhoon</name>
+		<name>異形颱風</name>
 		<desc>Alien Typhoon is an enhanced version of Apple Galaxian,with more aliens on screen. In essence it is a variant of the arcade game Galaxian. It is a shoot-'em-up where a formation of alien ships attack your lone starship at the bottom of the screen.  The aliens peel off from the formation and attack you in different patterns, depending on the color of the ship. The two ships at the top are the motherships and they bring an escort of two red aliens with them to guard them, but if you can shoot the escort and then the mothership, you'll score lots of points.</desc>
 		<image>./images/Alien Typhoon (1981)(Starcraft)-image.png</image>
 		<thumbnail>./images/Alien Typhoon (1981)(Starcraft)-thumb.png</thumbnail>
@@ -500,7 +500,7 @@ The plot is more inspired by the Alice books than strictly adapting them.  Espec
 	</game>
 	<game id="52258">
 		<path>./Alter Ego (1985)(Activision)(Disk 1 of 3 Side A).dsk</path>
-		<name>Alter Ego</name>
+		<name>第二人生</name>
 		<desc>Alter Ego is a game which tries to simulate life itself. The player creates a character with different personality statistics, either by assigning them randomly or by answering a few introductory questions. They then guide this character through seven life phases, from infancy to old age.
 The gameplay consists of a series of situations where a decision has to be made. This is done by choosing one of multiple answer possibilities, sometimes accompanied with a mood. Then the player gets presented with the outcome and goes on to the next situation. Every decision has long-time consequences and influences the personality, health and which situations await further down the road. Some decisions may even result in an early death or instant game over.
 Every life phase is represented by a life tree where the situations are lined up; the motive of the situation card shows the general theme of the situation. After reaching a certain age, additional life options can be undergone at any time. Here the player can change his lifestyle and manage his love and professional life.
@@ -522,7 +522,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52258">
 		<path>./Alter Ego (1985)(Activision)(Disk 1 of 3 Side B).dsk</path>
-		<name>Alter Ego</name>
+		<name>第二人生</name>
 		<desc>Alter Ego is a game which tries to simulate life itself. The player creates a character with different personality statistics, either by assigning them randomly or by answering a few introductory questions. They then guide this character through seven life phases, from infancy to old age.
 The gameplay consists of a series of situations where a decision has to be made. This is done by choosing one of multiple answer possibilities, sometimes accompanied with a mood. Then the player gets presented with the outcome and goes on to the next situation. Every decision has long-time consequences and influences the personality, health and which situations await further down the road. Some decisions may even result in an early death or instant game over.
 Every life phase is represented by a life tree where the situations are lined up; the motive of the situation card shows the general theme of the situation. After reaching a certain age, additional life options can be undergone at any time. Here the player can change his lifestyle and manage his love and professional life.
@@ -544,7 +544,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52258">
 		<path>./Alter Ego (1985)(Activision)(Disk 2 of 3 Side A).dsk</path>
-		<name>Alter Ego</name>
+		<name>第二人生</name>
 		<desc>Alter Ego is a game which tries to simulate life itself. The player creates a character with different personality statistics, either by assigning them randomly or by answering a few introductory questions. They then guide this character through seven life phases, from infancy to old age.
 The gameplay consists of a series of situations where a decision has to be made. This is done by choosing one of multiple answer possibilities, sometimes accompanied with a mood. Then the player gets presented with the outcome and goes on to the next situation. Every decision has long-time consequences and influences the personality, health and which situations await further down the road. Some decisions may even result in an early death or instant game over.
 Every life phase is represented by a life tree where the situations are lined up; the motive of the situation card shows the general theme of the situation. After reaching a certain age, additional life options can be undergone at any time. Here the player can change his lifestyle and manage his love and professional life.
@@ -566,7 +566,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52258">
 		<path>./Alter Ego (1985)(Activision)(Disk 2 of 3 Side B).dsk</path>
-		<name>Alter Ego</name>
+		<name>第二人生</name>
 		<desc>Alter Ego is a game which tries to simulate life itself. The player creates a character with different personality statistics, either by assigning them randomly or by answering a few introductory questions. They then guide this character through seven life phases, from infancy to old age.
 The gameplay consists of a series of situations where a decision has to be made. This is done by choosing one of multiple answer possibilities, sometimes accompanied with a mood. Then the player gets presented with the outcome and goes on to the next situation. Every decision has long-time consequences and influences the personality, health and which situations await further down the road. Some decisions may even result in an early death or instant game over.
 Every life phase is represented by a life tree where the situations are lined up; the motive of the situation card shows the general theme of the situation. After reaching a certain age, additional life options can be undergone at any time. Here the player can change his lifestyle and manage his love and professional life.
@@ -588,7 +588,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52258">
 		<path>./Alter Ego (1985)(Activision)(Disk 3 of 3 Side B).dsk</path>
-		<name>Alter Ego</name>
+		<name>第二人生</name>
 		<desc>Alter Ego is a game which tries to simulate life itself. The player creates a character with different personality statistics, either by assigning them randomly or by answering a few introductory questions. They then guide this character through seven life phases, from infancy to old age.
 The gameplay consists of a series of situations where a decision has to be made. This is done by choosing one of multiple answer possibilities, sometimes accompanied with a mood. Then the player gets presented with the outcome and goes on to the next situation. Every decision has long-time consequences and influences the personality, health and which situations await further down the road. Some decisions may even result in an early death or instant game over.
 Every life phase is represented by a life tree where the situations are lined up; the motive of the situation card shows the general theme of the situation. After reaching a certain age, additional life options can be undergone at any time. Here the player can change his lifestyle and manage his love and professional life.
@@ -610,7 +610,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52260">
 		<path>./Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side A)[nib].nib</path>
-		<name>Alternate Reality - The Dungeon</name>
+		<name>交錯時空：地牢</name>
 		<image>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side A)[nib]-image.png</image>
 		<thumbnail>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side A)[nib]-thumb.png</thumbnail>
 		<mix>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side A)[nib]-image.png</mix>
@@ -627,7 +627,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52260">
 		<path>./Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side B)[nib].nib</path>
-		<name>Alternate Reality - The Dungeon</name>
+		<name>交錯時空：地牢</name>
 		<image>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side B)[nib]-image.png</image>
 		<thumbnail>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side B)[nib]-thumb.png</thumbnail>
 		<mix>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 1 of 3 Side B)[nib]-image.png</mix>
@@ -644,7 +644,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52260">
 		<path>./Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 2 of 3)[nib].nib</path>
-		<name>Alternate Reality - The Dungeon</name>
+		<name>交錯時空：地牢</name>
 		<image>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 2 of 3)[nib]-image.png</image>
 		<thumbnail>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 2 of 3)[nib]-thumb.png</thumbnail>
 		<mix>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 2 of 3)[nib]-image.png</mix>
@@ -661,7 +661,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52260">
 		<path>./Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 3 of 3)(Character)[nib].nib</path>
-		<name>Alternate Reality - The Dungeon</name>
+		<name>交錯時空：地牢</name>
 		<image>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 3 of 3)(Character)[nib]-image.png</image>
 		<thumbnail>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 3 of 3)(Character)[nib]-thumb.png</thumbnail>
 		<mix>./images/Alternate Reality - The Dungeon (1987)(Datasoft)(Disk 3 of 3)(Character)[nib]-image.png</mix>
@@ -678,7 +678,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="117231">
 		<path>./American Civil War 1, The (1987)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib].nib</path>
-		<name>American Civil War 1, The</name>
+		<name>美國南北戰爭1</name>
 		<image>./images/American Civil War 1, The (1987)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib]-image.png</image>
 		<mix>./images/American Civil War 1, The (1987)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib]-image.png</mix>
 		<releasedate>01/01/1987</releasedate>
@@ -693,7 +693,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="117231">
 		<path>./American Civil War 1, The (1987)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib].nib</path>
-		<name>American Civil War 1, The</name>
+		<name>美國南北戰爭1</name>
 		<image>./images/American Civil War 1, The (1987)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib]-image.png</image>
 		<mix>./images/American Civil War 1, The (1987)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib]-image.png</mix>
 		<releasedate>01/01/1987</releasedate>
@@ -708,7 +708,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="117232">
 		<path>./American Civil War 2, The (19xx)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib].nib</path>
-		<name>American Civil War 2, The</name>
+		<name>美國南北戰爭2</name>
 		<image>./images/American Civil War 2, The (19xx)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib]-image.png</image>
 		<mix>./images/American Civil War 2, The (19xx)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib]-image.png</mix>
 		<publisher>Roger Keating - Ian Trout</publisher>
@@ -722,7 +722,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="117232">
 		<path>./American Civil War 2, The (19xx)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib].nib</path>
-		<name>American Civil War 2, The</name>
+		<name>美國南北戰爭2</name>
 		<image>./images/American Civil War 2, The (19xx)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib]-image.png</image>
 		<mix>./images/American Civil War 2, The (19xx)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib]-image.png</mix>
 		<publisher>Roger Keating - Ian Trout</publisher>
@@ -769,7 +769,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52258">
 		<path>./Alter Ego (1985)(Activision)(Disk 3 of 3 Side A).dsk</path>
-		<name>Alter Ego</name>
+		<name>第二人生</name>
 		<desc>Alter Ego is a game which tries to simulate life itself. The player creates a character with different personality statistics, either by assigning them randomly or by answering a few introductory questions. They then guide this character through seven life phases, from infancy to old age.
 The gameplay consists of a series of situations where a decision has to be made. This is done by choosing one of multiple answer possibilities, sometimes accompanied with a mood. Then the player gets presented with the outcome and goes on to the next situation. Every decision has long-time consequences and influences the personality, health and which situations await further down the road. Some decisions may even result in an early death or instant game over.
 Every life phase is represented by a life tree where the situations are lined up; the motive of the situation card shows the general theme of the situation. After reaching a certain age, additional life options can be undergone at any time. Here the player can change his lifestyle and manage his love and professional life.
@@ -791,7 +791,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="117233">
 		<path>./American Civil War 3, The (19xx)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib].nib</path>
-		<name>American Civil War 3, The</name>
+		<name>美國南北戰爭3</name>
 		<image>./images/American Civil War 3, The (19xx)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib]-image.png</image>
 		<mix>./images/American Civil War 3, The (19xx)(Roger Keating - Ian Trout)(Disk 1 of 2)[nib]-image.png</mix>
 		<publisher>Roger Keating - Ian Trout</publisher>
@@ -805,7 +805,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52265">
 		<path>./Ancient Art of War, The (1984)(Broderbund)(Disk 1 of 2).dsk</path>
-		<name>Ancient Art of War, The</name>
+		<name>世紀戰略</name>
 		<image>./images/Ancient Art of War, The (1984)(Broderbund)(Disk 1 of 2)-image.png</image>
 		<thumbnail>./images/Ancient Art of War, The (1984)(Broderbund)(Disk 1 of 2)-thumb.png</thumbnail>
 		<mix>./images/Ancient Art of War, The (1984)(Broderbund)(Disk 1 of 2)-image.png</mix>
@@ -839,7 +839,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="52341">
 		<path>./Battle of Napoleon (1988)(SSI)(Disk 3 of 4 Side A)(Scenario).dsk</path>
-		<name>Battle of Napoleon</name>
+		<name>拿破崙戰役</name>
 		<image>./images/Battle of Napoleon (1988)(SSI)(Disk 3 of 4 Side A)(Scenario)-image.png</image>
 		<thumbnail>./images/Battle of Napoleon (1988)(SSI)(Disk 3 of 4 Side A)(Scenario)-thumb.png</thumbnail>
 		<mix>./images/Battle of Napoleon (1988)(SSI)(Disk 3 of 4 Side A)(Scenario)-image.png</mix>
@@ -856,7 +856,7 @@ The game exists in two variations which depict a male or female life.</desc>
 	</game>
 	<game id="117233">
 		<path>./American Civil War 3, The (19xx)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib].nib</path>
-		<name>American Civil War 3, The</name>
+		<name>美國南北戰爭3</name>
 		<image>./images/American Civil War 3, The (19xx)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib]-image.png</image>
 		<mix>./images/American Civil War 3, The (19xx)(Roger Keating - Ian Trout)(Disk 2 of 2)[nib]-image.png</mix>
 		<publisher>Roger Keating - Ian Trout</publisher>
@@ -954,7 +954,7 @@ The game also simulates the time of day which, for example, means that stores cl
 	</game>
 	<game id="52264">
 		<path>./Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side A).dsk</path>
-		<name>Ancient Art of War At Sea, The</name>
+		<name>世紀戰略：海上篇</name>
 		<image>./images/Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
 		<mix>./images/Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side A)-image.png</mix>
@@ -971,7 +971,7 @@ The game also simulates the time of day which, for example, means that stores cl
 	</game>
 	<game id="52264">
 		<path>./Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side B).dsk</path>
-		<name>Ancient Art of War At Sea, The</name>
+		<name>世紀戰略：海上篇</name>
 		<image>./images/Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
 		<mix>./images/Ancient Art of War At Sea, The (1987)(Broderbund)(Disk 1 of 1 Side B)-image.png</mix>
@@ -988,7 +988,7 @@ The game also simulates the time of day which, for example, means that stores cl
 	</game>
 	<game id="52265">
 		<path>./Ancient Art of War, The (1984)(Broderbund)(Disk 2 of 2).dsk</path>
-		<name>Ancient Art of War, The</name>
+		<name>世紀戰略</name>
 		<image>./images/Ancient Art of War, The (1984)(Broderbund)(Disk 2 of 2)-image.png</image>
 		<thumbnail>./images/Ancient Art of War, The (1984)(Broderbund)(Disk 2 of 2)-thumb.png</thumbnail>
 		<mix>./images/Ancient Art of War, The (1984)(Broderbund)(Disk 2 of 2)-image.png</mix>
@@ -1005,7 +1005,7 @@ The game also simulates the time of day which, for example, means that stores cl
 	</game>
 	<game id="52267">
 		<path>./Andromeda Conquest (1982)(Avalon Hill)[a].dsk</path>
-		<name>Andromeda Conquest</name>
+		<name>仙女座征服</name>
 		<desc>Andromeda Conquest is a strategy / conquest game in which one to four players build galactic empires by establishing and defending space colonies, managing resources, and battling other players for control of star systems. Before every turn, players receive resources from all their colonies. Those have to be used up during the turn or they are lost. Depending on the numbers of players the galaxy consists of 12 to 48 star systems.
 The layout is grid-based, and the package includes a pad of graph paper for keeping track of ship and colony locations.</desc>
 		<image>./images/Andromeda Conquest (1982)(Avalon Hill)[a]-image.png</image>
@@ -1026,7 +1026,7 @@ The layout is grid-based, and the package includes a pad of graph paper for keep
 	</game>
 	<game id="52276">
 		<path>./Apple Bowl (1979)(Apple Computer).dsk</path>
-		<name>Apple Bowl</name>
+		<name>蘋果盃</name>
 		<desc>Played from a 1st person perspective at a bowling alley. A throw indicator scrolls slowly along the bottom of the screen. The player controls the power and spin of the ball using the game paddles, and the game attempts to accurately simulate the physics of bowling, and follows standard 10-pin bowling rules.</desc>
 		<image>./images/Apple Bowl (1979)(Apple Computer)-image.png</image>
 		<thumbnail>./images/Apple Bowl (1979)(Apple Computer)-thumb.png</thumbnail>
@@ -1045,7 +1045,7 @@ The layout is grid-based, and the package includes a pad of graph paper for keep
 	</game>
 	<game id="52277">
 		<path>./Apple Cider Spider (1983)(Sierra).dsk</path>
-		<name>Apple Cider Spider</name>
+		<name>蘋果酒蜘蛛</name>
 		<desc>The player as a spider has to make their way through several obstacles to the top of an apple cider conveyor. Therefore the apples on the conveyor, the squeezing mechanisms and various living creatures disturb the player. Jumping over obstacles and climbing the thick threads, the player struggles doughtily, gaining points and progressing from level to level.</desc>
 		<image>./images/Apple Cider Spider (1983)(Sierra)-image.png</image>
 		<thumbnail>./images/Apple Cider Spider (1983)(Sierra)-thumb.png</thumbnail>
@@ -1066,7 +1066,7 @@ The layout is grid-based, and the package includes a pad of graph paper for keep
 	</game>
 	<game id="52278">
 		<path>./Apple Graphics Games (19xx)(-).dsk</path>
-		<name>Apple Graphics Games</name>
+		<name>蘋果圖形遊戲</name>
 		<image>./images/Apple Graphics Games (19xx)(-)-image.png</image>
 		<thumbnail>./images/Apple Graphics Games (19xx)(-)-thumb.png</thumbnail>
 		<mix>./images/Apple Graphics Games (19xx)(-)-image.png</mix>
@@ -1081,7 +1081,7 @@ The layout is grid-based, and the package includes a pad of graph paper for keep
 	</game>
 	<game id="52289">
 		<path>./Arcade Insanity (1983)(Avant-Garde).dsk</path>
-		<name>Arcade Insanity</name>
+		<name>街機瘋狂</name>
 		<image>./images/Arcade Insanity (1983)(Avant-Garde)-image.png</image>
 		<thumbnail>./images/Arcade Insanity (1983)(Avant-Garde)-thumb.png</thumbnail>
 		<mix>./images/Arcade Insanity (1983)(Avant-Garde)-image.png</mix>
@@ -1098,7 +1098,7 @@ The layout is grid-based, and the package includes a pad of graph paper for keep
 	</game>
 	<game id="192523">
 		<path>./Arkanoid (1987)(Taito).dsk</path>
-		<name>Arkanoid</name>
+		<name>阿爾康諾德</name>
 		<desc>The original Breakout concept involves controlling a bat at the bottom of the screen and using it to catch and direct a ball so as to hit all the bricks which are arranged at the top of the screen. It was unpopular for over a decade, before Taito revived it with some new ideas in this arcade game.
 The game's plot redefines the bat as a Vaus spaceship, the ball as an energy bolt, and the bricks form a mysterious wall stopping the ship from progressing to safety.
 By the mid-80s, power-ups were popular in most types of arcade games, and Arkanoid features them. They are caught by positioning the bat below them as they fall (meaning that you risk missing the ball if you go for them at the wrong time). The power-ups include lasers (which are mounted to each side of the ship and allow you to shoot out the blocks), a catching device (so as to be able to fire the ball off at a different angle every time you hit it) and one that slows the bolt down.</desc>
@@ -1119,7 +1119,7 @@ By the mid-80s, power-ups were popular in most types of arcade games, and Arkano
 	</game>
 	<game id="117236">
 		<path>./Arkanoid Editor (1989)(2c)(Fr).dsk</path>
-		<name>Arkanoid Editor</name>
+		<name>快打磚塊編輯器</name>
 		<image>./images/Arkanoid Editor (1989)(2c)(Fr)-image.png</image>
 		<mix>./images/Arkanoid Editor (1989)(2c)(Fr)-image.png</mix>
 		<releasedate>01/01/1989</releasedate>
@@ -1135,7 +1135,7 @@ By the mid-80s, power-ups were popular in most types of arcade games, and Arkano
 	</game>
 	<game id="117237">
 		<path>./Asteroids (1980)(Cavalier Computer).dsk</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Unlike Activision's earlier remake of an Atari arcade classic, Battlezone, this one stays close to its namesake.  Take the original, Atari coin-op game Asteroids, add in the features of the Atari 2600 cartridge, then give it 3-D graphics and a bunch of power-ups, and you've got Activision's Asteroids remake.
 You are an employee of the Astro-Mining Corporation.  Your mission is to simply go to an assigned area of space and clear the area of asteroids and the occassional debris.  The game consists of five zones, each with a different background and some with special features.  Each zone has 15 levels.  In addition to the standard asteroids, there are also mined asteroids that explode; indestructible asteroids that are, well, indestructible; fireball comets; crystal asteroids that regenerate; alien egg asteroids containing deadly baby space worms; and ancient energy asteroids that shoot back!  And there's plenty of enemies in addition to the asteroids, such as Standard and Super Saucers, Asteroids Tugs, Fuel Transports, Hexes, Nuke Drivers, and Vulturoids.
 There are three types of ships to choose from, each with different strengths and weaknesses.  There are also three skill levels.  If you beat the game at Expert or higher, you gain access to a fourth type of ship.  All ships features the standard laser, shield, flip (instantly flips your ship 180 degrees), and hyperspace.  There are also limited power-ups you can  pick up such as GunSat, Mines, Homing Missiles, Plasma Drill, and Trigger Bombs.
@@ -1157,7 +1157,7 @@ Lastly, if you shoot the classic-style asteroid in level 15 of the first zone, y
 	</game>
 	<game id="52311">
 		<path>./Autoduel (1985)(Origins)(Disk 1 of 1 Side A).dsk</path>
-		<name>Autoduel</name>
+		<name>致命車陣</name>
 		<desc>Autoduel is a hybrid game based on Steve Jackson Games board game Car Wars. It incorporates elements of role-playing, driving and action-based combat. The game is set in a futuristic version of USA, where gangs and vigilantes rule the wilderness, and people's only protection are armored cars with mounted weaponry. The player is cast in the role of an average person who must at first earn enough money to buy an own car, and then perform courier missions throughout the country.
 The game's progression is fairly open-ended: the player is free to visit different cities, explore highways, participate in car Arena battles to earn money, take on gangsters in the wilderness, salvage car parts, etc. A few courier missions must be completed in order to advance the story. The player can construct and customize vehicles using guns, mine-layers, smokescreens, oil slicks, rockets and other accessories, choosing between various body and chassis types for the car. The entire game is viewed from a top-down perspective.</desc>
 		<image>./images/Autoduel (1985)(Origins)(Disk 1 of 1 Side A)-image.png</image>
@@ -1177,7 +1177,7 @@ The game's progression is fairly open-ended: the player is free to visit differe
 	</game>
 	<game id="52311">
 		<path>./Autoduel (1985)(Origins)(Disk 1 of 1 Side B).dsk</path>
-		<name>Autoduel</name>
+		<name>致命車陣</name>
 		<desc>Autoduel is a hybrid game based on Steve Jackson Games board game Car Wars. It incorporates elements of role-playing, driving and action-based combat. The game is set in a futuristic version of USA, where gangs and vigilantes rule the wilderness, and people's only protection are armored cars with mounted weaponry. The player is cast in the role of an average person who must at first earn enough money to buy an own car, and then perform courier missions throughout the country.
 The game's progression is fairly open-ended: the player is free to visit different cities, explore highways, participate in car Arena battles to earn money, take on gangsters in the wilderness, salvage car parts, etc. A few courier missions must be completed in order to advance the story. The player can construct and customize vehicles using guns, mine-layers, smokescreens, oil slicks, rockets and other accessories, choosing between various body and chassis types for the car. The entire game is viewed from a top-down perspective.</desc>
 		<image>./images/Autoduel (1985)(Origins)(Disk 1 of 1 Side B)-image.png</image>
@@ -1215,7 +1215,7 @@ The game's progression is fairly open-ended: the player is free to visit differe
 	</game>
 	<game id="52317">
 		<path>./B1 Bomber Game (1980)(Avalon Hill).dsk</path>
-		<name>B1 Bomber Game</name>
+		<name>B1 轟炸機遊戲</name>
 		<image>./images/B1 Bomber Game (1980)(Avalon Hill)-image.png</image>
 		<thumbnail>./images/B1 Bomber Game (1980)(Avalon Hill)-thumb.png</thumbnail>
 		<mix>./images/B1 Bomber Game (1980)(Avalon Hill)-image.png</mix>
@@ -1232,7 +1232,7 @@ The game's progression is fairly open-ended: the player is free to visit differe
 	</game>
 	<game id="123544">
 		<path>./Baratin Blues (1986)(Froggy)(Fr)(Disk 1 of 1 Side A).dsk</path>
-		<name>Baratin Blues</name>
+		<name>巴拉汀藍調</name>
 		<image>./images/Baratin Blues (1986)(Froggy)(Fr)(Disk 1 of 1 Side A)-image.png</image>
 		<mix>./images/Baratin Blues (1986)(Froggy)(Fr)(Disk 1 of 1 Side A)-image.png</mix>
 		<releasedate>01/01/1986</releasedate>
@@ -1248,7 +1248,7 @@ The game's progression is fairly open-ended: the player is free to visit differe
 	</game>
 	<game id="123544">
 		<path>./Baratin Blues (1986)(Froggy)(Fr)(Disk 1 of 1 Side B).dsk</path>
-		<name>Baratin Blues</name>
+		<name>巴拉汀藍調</name>
 		<image>./images/Baratin Blues (1986)(Froggy)(Fr)(Disk 1 of 1 Side B)-image.png</image>
 		<mix>./images/Baratin Blues (1986)(Froggy)(Fr)(Disk 1 of 1 Side B)-image.png</mix>
 		<releasedate>01/01/1986</releasedate>
@@ -1264,7 +1264,7 @@ The game's progression is fairly open-ended: the player is free to visit differe
 	</game>
 	<game id="52328">
 		<path>./Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 1 of 4).dsk</path>
-		<name>Bard's Tale II - The Destiny Knight, The</name>
+		<name>吟遊詩人傳奇II：命運騎士</name>
 		<desc>The Bard's Tale II: The Destiny Knight is a fantasy role-playing video game created by Interplay Productions in 1986. It is the first sequel to The Bard's Tale, and the last game of the series that was designed and programmed by Michael Cranford.
 The game features Dungeons &amp; Dragons-style characters and follows in the footsteps of its predecessor, The Bard's Tale, also created by Michael Cranford. The Bard's Tale II takes place on a larger scale with an explorable wilderness, six cities, and multiple dungeons which give this game its dungeon crawl character. The game has new features such as casinos and banks, and introduces a new magic user called an Archmage, among other changes from the first game in the series.</desc>
 		<image>./images/Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 1 of 4)-image.png</image>
@@ -1284,7 +1284,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52328">
 		<path>./Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 2 of 4)(Character).dsk</path>
-		<name>Bard's Tale II - The Destiny Knight, The</name>
+		<name>吟遊詩人傳奇II：命運騎士</name>
 		<desc>The Bard's Tale II: The Destiny Knight is a fantasy role-playing video game created by Interplay Productions in 1986. It is the first sequel to The Bard's Tale, and the last game of the series that was designed and programmed by Michael Cranford.
 The game features Dungeons &amp; Dragons-style characters and follows in the footsteps of its predecessor, The Bard's Tale, also created by Michael Cranford. The Bard's Tale II takes place on a larger scale with an explorable wilderness, six cities, and multiple dungeons which give this game its dungeon crawl character. The game has new features such as casinos and banks, and introduces a new magic user called an Archmage, among other changes from the first game in the series.</desc>
 		<image>./images/Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 2 of 4)(Character)-image.png</image>
@@ -1304,7 +1304,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52328">
 		<path>./Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 3 of 4)(Dungeon 1).dsk</path>
-		<name>Bard's Tale II - The Destiny Knight, The</name>
+		<name>吟遊詩人傳奇II：命運騎士</name>
 		<desc>The Bard's Tale II: The Destiny Knight is a fantasy role-playing video game created by Interplay Productions in 1986. It is the first sequel to The Bard's Tale, and the last game of the series that was designed and programmed by Michael Cranford.
 The game features Dungeons &amp; Dragons-style characters and follows in the footsteps of its predecessor, The Bard's Tale, also created by Michael Cranford. The Bard's Tale II takes place on a larger scale with an explorable wilderness, six cities, and multiple dungeons which give this game its dungeon crawl character. The game has new features such as casinos and banks, and introduces a new magic user called an Archmage, among other changes from the first game in the series.</desc>
 		<image>./images/Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 3 of 4)(Dungeon 1)-image.png</image>
@@ -1324,7 +1324,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52328">
 		<path>./Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 4 of 4)(Dungeon 2).dsk</path>
-		<name>Bard's Tale II - The Destiny Knight, The</name>
+		<name>吟遊詩人傳奇II：命運騎士</name>
 		<desc>The Bard's Tale II: The Destiny Knight is a fantasy role-playing video game created by Interplay Productions in 1986. It is the first sequel to The Bard's Tale, and the last game of the series that was designed and programmed by Michael Cranford.
 The game features Dungeons &amp; Dragons-style characters and follows in the footsteps of its predecessor, The Bard's Tale, also created by Michael Cranford. The Bard's Tale II takes place on a larger scale with an explorable wilderness, six cities, and multiple dungeons which give this game its dungeon crawl character. The game has new features such as casinos and banks, and introduces a new magic user called an Archmage, among other changes from the first game in the series.</desc>
 		<image>./images/Bard's Tale II - The Destiny Knight, The (1986)(Electronic Arts)(Disk 4 of 4)(Dungeon 2)-image.png</image>
@@ -1344,7 +1344,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52329">
 		<path>./Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 1 of 4).dsk</path>
-		<name>Bard's Tale III - The Thief of Fate, The</name>
+		<name>吟遊詩人傳奇III：命運盜賊</name>
 		<image>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 1 of 4)-image.png</image>
 		<thumbnail>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 1 of 4)-thumb.png</thumbnail>
 		<mix>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 1 of 4)-image.png</mix>
@@ -1361,7 +1361,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52329">
 		<path>./Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 2 of 4)(Character).dsk</path>
-		<name>Bard's Tale III - The Thief of Fate, The</name>
+		<name>吟遊詩人傳奇III：命運盜賊</name>
 		<image>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 2 of 4)(Character)-image.png</image>
 		<thumbnail>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 2 of 4)(Character)-thumb.png</thumbnail>
 		<mix>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 2 of 4)(Character)-image.png</mix>
@@ -1378,7 +1378,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52329">
 		<path>./Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1).dsk</path>
-		<name>Bard's Tale III - The Thief of Fate, The</name>
+		<name>吟遊詩人傳奇III：命運盜賊</name>
 		<image>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)-image.png</image>
 		<thumbnail>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)-thumb.png</thumbnail>
 		<mix>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)-image.png</mix>
@@ -1395,7 +1395,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52329">
 		<path>./Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)[Fixed].dsk</path>
-		<name>Bard's Tale III - The Thief of Fate, The</name>
+		<name>吟遊詩人傳奇III：命運盜賊</name>
 		<image>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)[Fixed]-image.png</image>
 		<thumbnail>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)[Fixed]-thumb.png</thumbnail>
 		<mix>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 1)[Fixed]-image.png</mix>
@@ -1412,7 +1412,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52329">
 		<path>./Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 2).dsk</path>
-		<name>Bard's Tale III - The Thief of Fate, The</name>
+		<name>吟遊詩人傳奇III：命運盜賊</name>
 		<image>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 2)-image.png</image>
 		<thumbnail>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 2)-thumb.png</thumbnail>
 		<mix>./images/Bard's Tale III - The Thief of Fate, The (1988)(Interplay)(Disk 3 of 4)(Dungeon 2)-image.png</mix>
@@ -1429,7 +1429,7 @@ The game features Dungeons &amp; Dragons-style characters and follows in the foo
 	</game>
 	<game id="52332">
 		<path>./Baseball Strategy (1981)(Avalon Hill).dsk</path>
-		<name>Baseball Strategy</name>
+		<name>棒球戰略</name>
 		<image>./images/Baseball Strategy (1981)(Avalon Hill)-image.png</image>
 		<thumbnail>./images/Baseball Strategy (1981)(Avalon Hill)-thumb.png</thumbnail>
 		<mix>./images/Baseball Strategy (1981)(Avalon Hill)-image.png</mix>
@@ -1506,7 +1506,7 @@ Batman can attack his enemies with his Batarang. Through the levels, he will col
 	</game>
 	<game id="52335">
 		<path>./Battalion Commander (19xx)(SSI).dsk</path>
-		<name>Battalion Commander</name>
+		<name>營指揮官</name>
 		<desc>Battalion Commander is a real-time tactical (platoon/company level) simulation of modern warfare. The player is put in the role of a lieutenant colonel in charge of an entire armored battalion of either U.S., Soviet, or Chinese army. A combination of 5 scenarios and 40 maps of varied terrain (rivers, hills, minefields) is available, as well as infantry, tanks, APCs, artillery, assault guns, and other units.
 The commands are issued by pointing a spot on the map with the cursor (using the joystick) and then pressing a key combination selecting which company/platoon has to perform what action (these include fire support, smoke screen, laying bridges, digging in, etc.). A handicap can be chosen for either side to adjust difficulty.</desc>
 		<image>./images/Battalion Commander (19xx)(SSI)-image.png</image>
@@ -1525,7 +1525,7 @@ The commands are issued by pointing a spot on the map with the cursor (using the
 	</game>
 	<game id="52337">
 		<path>./Battle For Normandy (1982)(SSI).dsk</path>
-		<name>Battle For Normandy</name>
+		<name>諾曼第戰役</name>
 		<desc>June 6, 1941. The start of D-Day. Depending on your choice you will either lead or face the largest amphibious force ever assembled. As the Supreme Allied Commander your job is to establish beachheads on Utah, Omaha, Juno, Gold and Sword, consolidate them, then move out to capture the strategic towns of Cherbourg and Caen, the roadnet at St. Lo, penetrate as deeply as possible into the continent and destroy and disrupt enemy formations. As the German Commander your hope for victory is to deploy your land forces and powerful panzers and contain the enemy and drive him back to the beaches. Either way you have until noon on June 30th (25 days) to accomplish your mission at which time your position will be evaluated. This game provides for solitaire play as the Americans and provides the player with several levels of difficulty.</desc>
 		<image>./images/Battle For Normandy (1982)(SSI)-image.png</image>
 		<thumbnail>./images/Battle For Normandy (1982)(SSI)-thumb.png</thumbnail>
@@ -1544,7 +1544,7 @@ The commands are issued by pointing a spot on the map with the cursor (using the
 	</game>
 	<game id="52338">
 		<path>./Battle Group (1986)(SSI)(Disk 1 of 2).dsk</path>
-		<name>Battle Group</name>
+		<name>戰鬥群</name>
 		<desc>Battle Group is the sister game to Kampfgruppe but covers platoon level tactical combat on the Western Front from 1943-1945. This game includes practically all ground weapons used by Great Britain, US and Germany during this time frame. The game may be ended at any time but will automatically end after 30 turns. A game may be continued beyond its normal limits. At the end of the game victory points will be calculated to determine the margin of victory.</desc>
 		<image>./images/Battle Group (1986)(SSI)(Disk 1 of 2)-image.png</image>
 		<thumbnail>./images/Battle Group (1986)(SSI)(Disk 1 of 2)-thumb.png</thumbnail>
@@ -1562,7 +1562,7 @@ The commands are issued by pointing a spot on the map with the cursor (using the
 	</game>
 	<game id="52338">
 		<path>./Battle Group (1986)(SSI)(Disk 2 of 2).dsk</path>
-		<name>Battle Group</name>
+		<name>戰鬥群</name>
 		<desc>Battle Group is the sister game to Kampfgruppe but covers platoon level tactical combat on the Western Front from 1943-1945. This game includes practically all ground weapons used by Great Britain, US and Germany during this time frame. The game may be ended at any time but will automatically end after 30 turns. A game may be continued beyond its normal limits. At the end of the game victory points will be calculated to determine the margin of victory.</desc>
 		<image>./images/Battle Group (1986)(SSI)(Disk 2 of 2)-image.png</image>
 		<thumbnail>./images/Battle Group (1986)(SSI)(Disk 2 of 2)-thumb.png</thumbnail>
@@ -1580,7 +1580,7 @@ The commands are issued by pointing a spot on the map with the cursor (using the
 	</game>
 	<game id="52339">
 		<path>./Battle of Antietam (1985)(SSI)(Disk 1 of 2).dsk</path>
-		<name>Battle of Antietam</name>
+		<name>安提頓戰役</name>
 		<desc>Battle of Antietam is a grand tactical simulation of the bloodiest day of the Civil War at the little town of Sharpsburg, Maryland along Antietam Creek.
 The game is played in 11 turns each representing 1 hour of real time. Players are awarded points based on casualties and territorial objectives. At the end of each turn and the end of the game points are calculated and compared to a chart which determines your level of victory.
 The game can be played under 3 different sets of rules (Basic, Intermediate and Advanced) with 5 levels of difficulty for each and can be played against another person or the computer can play either side.</desc>
@@ -1601,7 +1601,7 @@ The game can be played under 3 different sets of rules (Basic, Intermediate and 
 	</game>
 	<game id="52339">
 		<path>./Battle of Antietam (1985)(SSI)(Disk 2 of 2).dsk</path>
-		<name>Battle of Antietam</name>
+		<name>安提頓戰役</name>
 		<desc>Battle of Antietam is a grand tactical simulation of the bloodiest day of the Civil War at the little town of Sharpsburg, Maryland along Antietam Creek.
 The game is played in 11 turns each representing 1 hour of real time. Players are awarded points based on casualties and territorial objectives. At the end of each turn and the end of the game points are calculated and compared to a chart which determines your level of victory.
 The game can be played under 3 different sets of rules (Basic, Intermediate and Advanced) with 5 levels of difficulty for each and can be played against another person or the computer can play either side.</desc>
@@ -1622,7 +1622,7 @@ The game can be played under 3 different sets of rules (Basic, Intermediate and 
 	</game>
 	<game id="52340">
 		<path>./Battle of Hoth (1980)(Tukumo).dsk</path>
-		<name>Battle of Hoth</name>
+		<name>霍斯戰役</name>
 		<desc>Battle of Hoth is a Star Wars themed 1-player arcade game for the Apple II.
 Three columns of Imperial AT-AT walkers walk inexorably from the right of the screen towards the Rebel defensive positions on the left. The player controls a Rebel snowspeeder, which travels from the left to right of the screen, and can fire horizontally to the right. The player can move the snowspeeder vertically up and down, and must avoid fire from the AT-ATs and shoot them down. Whenever an AT-AT is destroyed, a new AT-AT immediately appears to the right of the screen in that row. The player's goal is to survive for 300 seconds to allow for the evacuation of Rebel forces. If an Imperial vessel reaches the left of the screen, the Rebel forces are routed, and the player loses the game. The player starts with a total of 9 snowspeeders, and if all are lost to Imperial fire, it's game over.</desc>
 		<image>./images/Battle of Hoth (1980)(Tukumo)-image.png</image>
@@ -1642,7 +1642,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52341">
 		<path>./Battle of Napoleon (1988)(SSI)(Disk 1 of 4).dsk</path>
-		<name>Battle of Napoleon</name>
+		<name>拿破崙戰役</name>
 		<image>./images/Battle of Napoleon (1988)(SSI)(Disk 1 of 4)-image.png</image>
 		<thumbnail>./images/Battle of Napoleon (1988)(SSI)(Disk 1 of 4)-thumb.png</thumbnail>
 		<mix>./images/Battle of Napoleon (1988)(SSI)(Disk 1 of 4)-image.png</mix>
@@ -1659,7 +1659,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52341">
 		<path>./Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side A)(Game).dsk</path>
-		<name>Battle of Napoleon</name>
+		<name>拿破崙戰役</name>
 		<image>./images/Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side A)(Game)-image.png</image>
 		<thumbnail>./images/Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side A)(Game)-thumb.png</thumbnail>
 		<mix>./images/Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side A)(Game)-image.png</mix>
@@ -1676,7 +1676,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52341">
 		<path>./Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side B)(Game).dsk</path>
-		<name>Battle of Napoleon</name>
+		<name>拿破崙戰役</name>
 		<image>./images/Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side B)(Game)-image.png</image>
 		<thumbnail>./images/Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side B)(Game)-thumb.png</thumbnail>
 		<mix>./images/Battle of Napoleon (1988)(SSI)(Disk 2 of 4 Side B)(Game)-image.png</mix>
@@ -1693,7 +1693,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52341">
 		<path>./Battle of Napoleon (1988)(SSI)(Disk 4 of 4)(Save).dsk</path>
-		<name>Battle of Napoleon</name>
+		<name>拿破崙戰役</name>
 		<image>./images/Battle of Napoleon (1988)(SSI)(Disk 4 of 4)(Save)-image.png</image>
 		<thumbnail>./images/Battle of Napoleon (1988)(SSI)(Disk 4 of 4)(Save)-thumb.png</thumbnail>
 		<mix>./images/Battle of Napoleon (1988)(SSI)(Disk 4 of 4)(Save)-image.png</mix>
@@ -1710,7 +1710,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52342">
 		<path>./Battle of Shiloh, The (1981)(SSI)[nib].nib</path>
-		<name>Battle of Shiloh, The</name>
+		<name>夏伊洛戰役</name>
 		<image>./images/Battle of Shiloh, The (1981)(SSI)[nib]-image.png</image>
 		<thumbnail>./images/Battle of Shiloh, The (1981)(SSI)[nib]-thumb.png</thumbnail>
 		<mix>./images/Battle of Shiloh, The (1981)(SSI)[nib]-image.png</mix>
@@ -1727,7 +1727,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52344">
 		<path>./Battle of The Parthian Kings (1983)(Avalon Hill).dsk</path>
-		<name>Battle of The Parthian Kings</name>
+		<name>帕提亞諸王之戰</name>
 		<image>./images/Battle of The Parthian Kings (1983)(Avalon Hill)-image.png</image>
 		<thumbnail>./images/Battle of The Parthian Kings (1983)(Avalon Hill)-thumb.png</thumbnail>
 		<mix>./images/Battle of The Parthian Kings (1983)(Avalon Hill)-image.png</mix>
@@ -1744,7 +1744,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52345">
 		<path>./Battlecruiser 1 (1987)(SSI).dsk</path>
-		<name>Battlecruiser 1</name>
+		<name>戰鬥巡洋艦 1</name>
 		<image>./images/Battlecruiser 1 (1987)(SSI)-image.png</image>
 		<mix>./images/Battlecruiser 1 (1987)(SSI)-image.png</mix>
 		<releasedate>01/01/1987</releasedate>
@@ -1760,7 +1760,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52346">
 		<path>./Battlecruiser 2 (1987)(SSI).dsk</path>
-		<name>Battlecruiser 2</name>
+		<name>戰鬥巡洋艦 2</name>
 		<image>./images/Battlecruiser 2 (1987)(SSI)-image.png</image>
 		<mix>./images/Battlecruiser 2 (1987)(SSI)-image.png</mix>
 		<releasedate>01/01/1987</releasedate>
@@ -1776,7 +1776,7 @@ Three columns of Imperial AT-AT walkers walk inexorably from the right of the sc
 	</game>
 	<game id="52348">
 		<path>./Battlefront (1986)(SSG)(Disk 1 of 2)[nib].nib</path>
-		<name>Battlefront</name>
+		<name>戰線</name>
 		<desc>Battlefront offers corps-level command of embattled Axis and Allied forces in World War II. As corps commanders, players issue orders to up to a dozen regiments, which then attempt to comply in the face of deadly opposition. Your objectives and timetable are already set; with an overview of the battle, you decide the roles which your regiments will play in attaining those objectives, while maintaining supply and command lines to keep them moving.
 Turns represent six hours, in which you make your decisions, combat is resolved, and troops move. Map terrain resolves to square kilometers, controlled by individual battalions. There are fourteen types of battalions, from artillery to infantry, with varying levels of experience and morale. The battalions, however, are not yours to command; you can only issue orders to their regiment, whose commanding officer decides the best tactic depending on his skill, the terrain, and enemy pressure. To receive your orders, the regiments must be connected to their divisional commanders. Orders are nuanced versions of attack and move, selected from short menus occupying the bottom quarter of the screen with terrain and unit information. The rest of the game screen is devoted to a scrollable map showing all units and terrain, aided by an included map card for each of the four historical scenarios. While enemy movement is not invisible, intelligence on enemy units is dependent on contact and cover.
 Lines of supply are crucial not only for command, but combat effectiveness and reinforcements. Also key are air and naval support, factored in as off-map resources assigned proportionately among the regiments. Victory, however, comes solely from reaching and holding territory on schedule. Besides solitaire with scoring handicaps, two-player play is available, along with an observation mode in which the computer takes both sides. The game includes a complete scenario editor, unusual in that it enables creation of new terrain types, and even can be invoked mid-game. Four separate scenarios are provided: Crete (1941), Stalingrad (1942), Saipan (1944) and Bastogne (1944-45).</desc>
@@ -1797,7 +1797,7 @@ Lines of supply are crucial not only for command, but combat effectiveness and r
 	</game>
 	<game id="52348">
 		<path>./Battlefront (1986)(SSG)(Disk 2 of 2)[nib].nib</path>
-		<name>Battlefront</name>
+		<name>戰線</name>
 		<desc>Battlefront offers corps-level command of embattled Axis and Allied forces in World War II. As corps commanders, players issue orders to up to a dozen regiments, which then attempt to comply in the face of deadly opposition. Your objectives and timetable are already set; with an overview of the battle, you decide the roles which your regiments will play in attaining those objectives, while maintaining supply and command lines to keep them moving.
 Turns represent six hours, in which you make your decisions, combat is resolved, and troops move. Map terrain resolves to square kilometers, controlled by individual battalions. There are fourteen types of battalions, from artillery to infantry, with varying levels of experience and morale. The battalions, however, are not yours to command; you can only issue orders to their regiment, whose commanding officer decides the best tactic depending on his skill, the terrain, and enemy pressure. To receive your orders, the regiments must be connected to their divisional commanders. Orders are nuanced versions of attack and move, selected from short menus occupying the bottom quarter of the screen with terrain and unit information. The rest of the game screen is devoted to a scrollable map showing all units and terrain, aided by an included map card for each of the four historical scenarios. While enemy movement is not invisible, intelligence on enemy units is dependent on contact and cover.
 Lines of supply are crucial not only for command, but combat effectiveness and reinforcements. Also key are air and naval support, factored in as off-map resources assigned proportionately among the regiments. Victory, however, comes solely from reaching and holding territory on schedule. Besides solitaire with scoring handicaps, two-player play is available, along with an observation mode in which the computer takes both sides. The game includes a complete scenario editor, unusual in that it enables creation of new terrain types, and even can be invoked mid-game. Four separate scenarios are provided: Crete (1941), Stalingrad (1942), Saipan (1944) and Bastogne (1944-45).</desc>
@@ -1818,7 +1818,7 @@ Lines of supply are crucial not only for command, but combat effectiveness and r
 	</game>
 	<game id="52348">
 		<path>./Battlefront (1986)(SSG)[b](Disk 1 of 2)[nib].nib</path>
-		<name>Battlefront</name>
+		<name>戰線</name>
 		<desc>Battlefront offers corps-level command of embattled Axis and Allied forces in World War II. As corps commanders, players issue orders to up to a dozen regiments, which then attempt to comply in the face of deadly opposition. Your objectives and timetable are already set; with an overview of the battle, you decide the roles which your regiments will play in attaining those objectives, while maintaining supply and command lines to keep them moving.
 Turns represent six hours, in which you make your decisions, combat is resolved, and troops move. Map terrain resolves to square kilometers, controlled by individual battalions. There are fourteen types of battalions, from artillery to infantry, with varying levels of experience and morale. The battalions, however, are not yours to command; you can only issue orders to their regiment, whose commanding officer decides the best tactic depending on his skill, the terrain, and enemy pressure. To receive your orders, the regiments must be connected to their divisional commanders. Orders are nuanced versions of attack and move, selected from short menus occupying the bottom quarter of the screen with terrain and unit information. The rest of the game screen is devoted to a scrollable map showing all units and terrain, aided by an included map card for each of the four historical scenarios. While enemy movement is not invisible, intelligence on enemy units is dependent on contact and cover.
 Lines of supply are crucial not only for command, but combat effectiveness and reinforcements. Also key are air and naval support, factored in as off-map resources assigned proportionately among the regiments. Victory, however, comes solely from reaching and holding territory on schedule. Besides solitaire with scoring handicaps, two-player play is available, along with an observation mode in which the computer takes both sides. The game includes a complete scenario editor, unusual in that it enables creation of new terrain types, and even can be invoked mid-game. Four separate scenarios are provided: Crete (1941), Stalingrad (1942), Saipan (1944) and Bastogne (1944-45).</desc>
@@ -1839,7 +1839,7 @@ Lines of supply are crucial not only for command, but combat effectiveness and r
 	</game>
 	<game id="52349">
 		<path>./Battles In Normandy (1987)(Keating - Trout - Taubman - Power - Whiley)(Disk 1 of 2)[nib].nib</path>
-		<name>Battles In Normandy</name>
+		<name>諾曼第戰役</name>
 		<desc>Battles in Normandy is a turn-based wargame employing hex grids, built on the Battlefront engine. It deals with the 1944 Allied landing in German-occupied Normandy during the Second World War. The eight scenarios included are: Omaha, Utah, Sword, Cherbourg, Carentan, Villers-Bocage, Goodwood and Epsom.
 As with Battlefront the command scale is at the corps level. The battle system incorporates the factors of adverse weather and terrain, supply, experience and morale. A complete range of unit types is provided. Victory depends on seizing the key locations within the turn limit.</desc>
 		<image>./images/Battles In Normandy (1987)(Keating - Trout - Taubman - Power - Whiley)(Disk 1 of 2)[nib]-image.png</image>
@@ -1859,7 +1859,7 @@ As with Battlefront the command scale is at the corps level. The battle system i
 	</game>
 	<game id="52349">
 		<path>./Battles In Normandy (1987)(Keating - Trout - Taubman - Power - Whiley)(Disk 2 of 2)[nib].nib</path>
-		<name>Battles In Normandy</name>
+		<name>諾曼第戰役</name>
 		<desc>Battles in Normandy is a turn-based wargame employing hex grids, built on the Battlefront engine. It deals with the 1944 Allied landing in German-occupied Normandy during the Second World War. The eight scenarios included are: Omaha, Utah, Sword, Cherbourg, Carentan, Villers-Bocage, Goodwood and Epsom.
 As with Battlefront the command scale is at the corps level. The battle system incorporates the factors of adverse weather and terrain, supply, experience and morale. A complete range of unit types is provided. Victory depends on seizing the key locations within the turn limit.</desc>
 		<image>./images/Battles In Normandy (1987)(Keating - Trout - Taubman - Power - Whiley)(Disk 2 of 2)[nib]-image.png</image>
@@ -1879,7 +1879,7 @@ As with Battlefront the command scale is at the corps level. The battle system i
 	</game>
 	<game id="52352">
 		<path>./Battletech (1988)(Infocom - Westwood)(Disk 1 of 2).dsk</path>
-		<name>Battletech</name>
+		<name>戰鎚</name>
 		<desc>Steam Store Description (from Ad Blurbs)
 From original BATTLETECH/MechWarrior creator Jordan Weisman and the developers of the award-winning Shadowrun Returns series comes the next-generation of turn-based tactical 'Mech combat. 
 The year is 3025 and the galaxy is trapped in a cycle of perpetual war, fought by noble houses with enormous, mechanized combat vehicles called BattleMechs. Take command of your own mercenary outfit of 'Mechs and the MechWarriors that pilot them, struggling to stay afloat as you find yourself drawn into a brutal interstellar civil war. Upgrade your starfaring base of operations, negotiate mercenary contracts with feudal lords, repair and maintain your stable of aging BattleMechs, and execute devastating combat tactics to defeat your enemies on the battlefield.
@@ -1901,7 +1901,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="52352">
 		<path>./Battletech (1988)(Infocom - Westwood)(Disk 2 of 2)(Character).dsk</path>
-		<name>Battletech</name>
+		<name>戰鎚</name>
 		<desc>Steam Store Description (from Ad Blurbs)
 From original BATTLETECH/MechWarrior creator Jordan Weisman and the developers of the award-winning Shadowrun Returns series comes the next-generation of turn-based tactical 'Mech combat. 
 The year is 3025 and the galaxy is trapped in a cycle of perpetual war, fought by noble houses with enormous, mechanized combat vehicles called BattleMechs. Take command of your own mercenary outfit of 'Mechs and the MechWarriors that pilot them, struggling to stay afloat as you find yourself drawn into a brutal interstellar civil war. Upgrade your starfaring base of operations, negotiate mercenary contracts with feudal lords, repair and maintain your stable of aging BattleMechs, and execute devastating combat tactics to defeat your enemies on the battlefield.
@@ -1923,7 +1923,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="52371">
 		<path>./Best of Bill Budge, The (1979)(Bill Budge).dsk</path>
-		<name>Best of Bill Budge, The</name>
+		<name>比爾·巴吉精選</name>
 		<image>./images/Best of Bill Budge, The (1979)(Bill Budge)-image.png</image>
 		<thumbnail>./images/Best of Bill Budge, The (1979)(Bill Budge)-thumb.png</thumbnail>
 		<mix>./images/Best of Bill Budge, The (1979)(Bill Budge)-image.png</mix>
@@ -1940,7 +1940,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="52371">
 		<path>./Best of Bill Budge, The (1979)(Bill Budge)[a].dsk</path>
-		<name>Best of Bill Budge, The</name>
+		<name>比爾·巴吉精選</name>
 		<image>./images/Best of Bill Budge, The (1979)(Bill Budge)[a]-image.png</image>
 		<thumbnail>./images/Best of Bill Budge, The (1979)(Bill Budge)[a]-thumb.png</thumbnail>
 		<mix>./images/Best of Bill Budge, The (1979)(Bill Budge)[a]-image.png</mix>
@@ -1957,7 +1957,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="52372">
 		<path>./Beyond Beyond Castle Wolfenstein (19xx)(Mindscape)(Disk 1 of 1 Side A).dsk</path>
-		<name>Beyond Beyond Castle Wolfenstein</name>
+		<name>德軍總部以外</name>
 		<image>./images/Beyond Beyond Castle Wolfenstein (19xx)(Mindscape)(Disk 1 of 1 Side A)-image.png</image>
 		<mix>./images/Beyond Beyond Castle Wolfenstein (19xx)(Mindscape)(Disk 1 of 1 Side A)-image.png</mix>
 		<publisher>Mindscape</publisher>
@@ -1972,7 +1972,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="52372">
 		<path>./Beyond Beyond Castle Wolfenstein (19xx)(Mindscape)(Disk 1 of 1 Side B).dsk</path>
-		<name>Beyond Beyond Castle Wolfenstein</name>
+		<name>德軍總部以外</name>
 		<image>./images/Beyond Beyond Castle Wolfenstein (19xx)(Mindscape)(Disk 1 of 1 Side B)-image.png</image>
 		<mix>./images/Beyond Beyond Castle Wolfenstein (19xx)(Mindscape)(Disk 1 of 1 Side B)-image.png</mix>
 		<publisher>Mindscape</publisher>
@@ -2027,7 +2027,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="192529">
 		<path>./Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side A).dsk</path>
-		<name>Beyond Zork</name>
+		<name>索克傳奇：超越</name>
 		<image>./images/Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
 		<mix>./images/Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side A)-image.png</mix>
@@ -2044,7 +2044,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="192529">
 		<path>./Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side B)[nib].nib</path>
-		<name>Beyond Zork</name>
+		<name>索克傳奇：超越</name>
 		<image>./images/Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side B)[nib]-image.png</image>
 		<thumbnail>./images/Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side B)[nib]-thumb.png</thumbnail>
 		<mix>./images/Beyond Zork (1987)(Infocom)(Disk 1 of 1 Side B)[nib]-image.png</mix>
@@ -2061,7 +2061,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="117241">
 		<path>./Big Mac (19xx)(G. Bredon).dsk</path>
-		<name>Big Mac</name>
+		<name>大麥克</name>
 		<image>./images/Big Mac (19xx)(G. Bredon)-image.png</image>
 		<mix>./images/Big Mac (19xx)(G. Bredon)-image.png</mix>
 		<releasedate>01/01/1982</releasedate>
@@ -2076,7 +2076,7 @@ COMMAND A SQUAD OF 'MECHS IN TURN-BASED COMBATDeploy over 30 BattleMechs in a wi
 	</game>
 	<game id="52382">
 		<path>./Bilestoad, The (19xx)(-).dsk</path>
-		<name>Bilestoad, The</name>
+		<name>膽汁蟾蜍</name>
 		<desc>In The Bilestoad, players control "meatlings" that hack and battle with axes and shields from a top-view perspective. The name is derived from the German words Beil (axe) and Tod (death). The odd spelling reflects Goodman's idea of a future language similar to A Clockwork Orange's Nadsat in which English has been modified by the borrowing of foreign words. Although the game may seem medieval, the backstory in the manual explains that the axe fighting is actually a future virtual reality game designed to reduce real violence.</desc>
 		<image>./images/Bilestoad, The (19xx)(-)-image.png</image>
 		<thumbnail>./images/Bilestoad, The (19xx)(-)-thumb.png</thumbnail>
@@ -2181,7 +2181,7 @@ Collect helpful extras along the way to make your job easier. A shovel to help c
 	</game>
 	<game id="52389">
 		<path>./Black Sage, The (1980)(Poly-versa-technology).dsk</path>
-		<name>Black Sage, The</name>
+		<name>黑先知</name>
 		<image>./images/Black Sage, The (1980)(Poly-versa-technology)-image.png</image>
 		<thumbnail>./images/Black Sage, The (1980)(Poly-versa-technology)-thumb.png</thumbnail>
 		<mix>./images/Black Sage, The (1980)(Poly-versa-technology)-image.png</mix>
@@ -2198,7 +2198,7 @@ Collect helpful extras along the way to make your job easier. A shovel to help c
 	</game>
 	<game id="117242">
 		<path>./Blacksmith Market Falcons (1981)(-).dsk</path>
-		<name>Blacksmith Market Falcons</name>
+		<name>鐵匠市集獵鷹</name>
 		<image>./images/Blacksmith Market Falcons (1981)(-)-image.png</image>
 		<mix>./images/Blacksmith Market Falcons (1981)(-)-image.png</mix>
 		<releasedate>01/01/1981</releasedate>
@@ -2212,7 +2212,7 @@ Collect helpful extras along the way to make your job easier. A shovel to help c
 	</game>
 	<game id="52391">
 		<path>./Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side A).dsk</path>
-		<name>Blade of Blackpoole, The</name>
+		<name>黑潭之刃</name>
 		<image>./images/Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
 		<mix>./images/Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side A)-image.png</mix>
@@ -2229,7 +2229,7 @@ Collect helpful extras along the way to make your job easier. A shovel to help c
 	</game>
 	<game id="52391">
 		<path>./Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side B).dsk</path>
-		<name>Blade of Blackpoole, The</name>
+		<name>黑潭之刃</name>
 		<image>./images/Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
 		<mix>./images/Blade of Blackpoole, The (19xx)(Trestan II)(Disk 1 of 1 Side B)-image.png</mix>
@@ -2246,7 +2246,7 @@ Collect helpful extras along the way to make your job easier. A shovel to help c
 	</game>
 	<game id="52402">
 		<path>./Bomb Alley (19xx)(SSI).dsk</path>
-		<name>Bomb Alley</name>
+		<name>炸彈巷</name>
 		<desc>Bomb Alley is an operational level wargame built upon improved engine from Guadalcanal Campaign. It focuses on the battles between the British and Axis air, land and naval forces for control of the Mediterranean and North Africa in 1942, during the World War 2. There is a campaign game covering June 11 - August 31, 1942 and short scenarios covering the invasion of Crete in May 1941 and Operation Pedestal in August 1942. Each game turn represents the passage of 12 hours. A game turn consists of reinforcing your troops, moving troops into position, launching air missions and combat resolution. The map is a 40x40 grid representing the Mediterranean area. Victory points are computed at the end of each game.</desc>
 		<image>./images/Bomb Alley (19xx)(SSI)-image.png</image>
 		<thumbnail>./images/Bomb Alley (19xx)(SSI)-thumb.png</thumbnail>
@@ -2279,7 +2279,7 @@ Collect helpful extras along the way to make your job easier. A shovel to help c
 	</game>
 	<game id="52406">
 		<path>./Borrowed Time (1985)(Activision)(Disk 1 of 1 Side A).dsk</path>
-		<name>Borrowed Time</name>
+		<name>借來的時間</name>
 		<desc>Borrowed Time is set in mid-1930's. The player assumes the role of a private investigator named Sam Harlow, who has to solve the kidnapping of his ex-wife Rita Sweeney. At the beginning, he runs away from two thugs, who want to kill him for an unknown reason. They fail, and he begins to search the town for clues, asking its inhabitants for information. But if the player makes a wrong move, Sam dies - killers come from nowhere and murder him...
 The player has to type in combinations of verbs and nouns to make an action. Locations are described in text form and presented by pictures, the latter often providing additional information not contained in the text description.</desc>
 		<image>./images/Borrowed Time (1985)(Activision)(Disk 1 of 1 Side A)-image.png</image>
@@ -2299,7 +2299,7 @@ The player has to type in combinations of verbs and nouns to make an action. Loc
 	</game>
 	<game id="52406">
 		<path>./Borrowed Time (1985)(Activision)(Disk 1 of 1 Side B).dsk</path>
-		<name>Borrowed Time</name>
+		<name>借來的時間</name>
 		<desc>Borrowed Time is set in mid-1930's. The player assumes the role of a private investigator named Sam Harlow, who has to solve the kidnapping of his ex-wife Rita Sweeney. At the beginning, he runs away from two thugs, who want to kill him for an unknown reason. They fail, and he begins to search the town for clues, asking its inhabitants for information. But if the player makes a wrong move, Sam dies - killers come from nowhere and murder him...
 The player has to type in combinations of verbs and nouns to make an action. Locations are described in text form and presented by pictures, the latter often providing additional information not contained in the text description.</desc>
 		<image>./images/Borrowed Time (1985)(Activision)(Disk 1 of 1 Side B)-image.png</image>
@@ -2319,7 +2319,7 @@ The player has to type in combinations of verbs and nouns to make an action. Loc
 	</game>
 	<game id="52408">
 		<path>./Boulder Dash (1984)(Microlab).dsk</path>
-		<name>Boulder Dash</name>
+		<name>鑽石衝擊</name>
 		<desc>You are Rockford, and you have to dig through monster infested caves in search of diamonds. In each level you must collect a certain number of these diamonds, in order to open a portal to the next stage. Enemies can be squashed by falling boulders, which are released when the ground below them is removed or they are pushed onto empty ground, but be careful because these can also squash you. In later levels, difficulty is increased by many puzzle elements and shorter time limits.
 There are 16 levels to be completed and five different skill levels available, which affect the number of jewels which must be collected and the time limit.</desc>
 		<image>./images/Boulder Dash (1984)(Microlab)-image.png</image>
@@ -2339,7 +2339,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52410">
 		<path>./Boulder Dash II (19xx)(Micro Fun).dsk</path>
-		<name>Boulder Dash II</name>
+		<name>鑽石方塊 II</name>
 		<image>./images/Boulder Dash II (19xx)(Micro Fun)-image.png</image>
 		<thumbnail>./images/Boulder Dash II (19xx)(Micro Fun)-thumb.png</thumbnail>
 		<mix>./images/Boulder Dash II (19xx)(Micro Fun)-image.png</mix>
@@ -2356,7 +2356,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52417">
 		<path>./Break The Bank! (1983)(Gentry).dsk</path>
-		<name>Break The Bank!</name>
+		<name>搶銀行！</name>
 		<image>./images/Break The Bank! (1983)(Gentry)-image.png</image>
 		<thumbnail>./images/Break The Bank! (1983)(Gentry)-thumb.png</thumbnail>
 		<mix>./images/Break The Bank! (1983)(Gentry)-image.png</mix>
@@ -2373,7 +2373,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52417">
 		<path>./Break The Bank! (1983)(Gentry)[a].dsk</path>
-		<name>Break The Bank!</name>
+		<name>搶銀行！</name>
 		<image>./images/Break The Bank! (1983)(Gentry)[a]-image.png</image>
 		<thumbnail>./images/Break The Bank! (1983)(Gentry)[a]-thumb.png</thumbnail>
 		<mix>./images/Break The Bank! (1983)(Gentry)[a]-image.png</mix>
@@ -2390,7 +2390,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52419">
 		<path>./Breakthrough In The Ardennes (1984)(SSI)(Disk 1 of 1 Side A).dsk</path>
-		<name>Breakthrough In The Ardennes</name>
+		<name>亞爾丁突破</name>
 		<desc>Breakthrough in the Ardennes is a detailed regimental/brigade level simulation of the Battle of the Bulge. As the German Commander you win victory points by taking towns, exiting units, destroying American units and controlling specified road hexes and lose victory points for losing units and having a greater percentage of units destroyed than the Americans. When the game ends the German score is calculated and the level of German victory or American victory is displayed. The game covers 12 turns each covering a full day of operation. The game can be played solitaire as the American forces.</desc>
 		<image>./images/Breakthrough In The Ardennes (1984)(SSI)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Breakthrough In The Ardennes (1984)(SSI)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
@@ -2408,7 +2408,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52419">
 		<path>./Breakthrough In The Ardennes (1984)(SSI)(Disk 1 of 1 Side B).dsk</path>
-		<name>Breakthrough In The Ardennes</name>
+		<name>亞爾丁突破</name>
 		<desc>Breakthrough in the Ardennes is a detailed regimental/brigade level simulation of the Battle of the Bulge. As the German Commander you win victory points by taking towns, exiting units, destroying American units and controlling specified road hexes and lose victory points for losing units and having a greater percentage of units destroyed than the Americans. When the game ends the German score is calculated and the level of German victory or American victory is displayed. The game covers 12 turns each covering a full day of operation. The game can be played solitaire as the American forces.</desc>
 		<image>./images/Breakthrough In The Ardennes (1984)(SSI)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Breakthrough In The Ardennes (1984)(SSI)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
@@ -2426,7 +2426,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="117243">
 		<path>./Breaktrough (19xx)(-).dsk</path>
-		<name>Breaktrough</name>
+		<name>突破</name>
 		<image>./images/Breaktrough (19xx)(-)-image.png</image>
 		<mix>./images/Breaktrough (19xx)(-)-image.png</mix>
 		<playcount />
@@ -2439,7 +2439,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="117243">
 		<path>./Breaktrough (19xx)(-)[a].dsk</path>
-		<name>Breaktrough</name>
+		<name>突破</name>
 		<image>./images/Breaktrough (19xx)(-)[a]-image.png</image>
 		<mix>./images/Breaktrough (19xx)(-)[a]-image.png</mix>
 		<playcount />
@@ -2452,7 +2452,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52421">
 		<path>./Bridge Challenger (1978)(Georges Duisman).dsk</path>
-		<name>Bridge Challenger</name>
+		<name>橋牌挑戰者</name>
 		<image>./images/Bridge Challenger (1978)(Georges Duisman)-image.png</image>
 		<thumbnail>./images/Bridge Challenger (1978)(Georges Duisman)-thumb.png</thumbnail>
 		<mix>./images/Bridge Challenger (1978)(Georges Duisman)-image.png</mix>
@@ -2469,7 +2469,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52424">
 		<path>./Broadsides (1983)(SSI).dsk</path>
-		<name>Broadsides</name>
+		<name>艦砲齊射</name>
 		<desc>Broadsides is a tactical simulation of ship-to-ship combat between sailing ships of the Napoleonic era (late 18th and early 19th Century). The game can be played as two different games. The first game is an arcade mode where you can sail right into the action, set your course, maneuver, and fire your guns as fast as your crew can load. For authenticity and historical detail, the tactical game puts you on the quarterdeck where you will make all the decisions real captains had to make.
  If you wish to depart from the historical ships provided, you can design your own frigates and ships of the line from the keel up to rigging, arming and manning them. The game ends when either ship wins or at 6pm, whichever comes first. You will win if you sink the enemy ship, or accumulate enough points to force the enemy ship to surrender. You will lose if your crew size goes below one quarter of its original size or if 11 enemy crew members manage to board your ship and there are no standing friendly crew members occupying any of the first 10 boarding positions on your ship. If both ships sink, or no one wins by 6pm, the game is a draw. The game can be played by two players or against the computer.</desc>
 		<image>./images/Broadsides (1983)(SSI)-image.png</image>
@@ -2489,7 +2489,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52425">
 		<path>./Bronze Dragon (1985)(Commonwealth)(Disk 1 of 5)(Bronze Side).dsk</path>
-		<name>Bronze Dragon</name>
+		<name>青銅龍 II 輯</name>
 		<image>./images/Bronze Dragon (1985)(Commonwealth)(Disk 1 of 5)(Bronze Side)-image.png</image>
 		<thumbnail>./images/Bronze Dragon (1985)(Commonwealth)(Disk 1 of 5)(Bronze Side)-thumb.png</thumbnail>
 		<mix>./images/Bronze Dragon (1985)(Commonwealth)(Disk 1 of 5)(Bronze Side)-image.png</mix>
@@ -2506,7 +2506,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52425">
 		<path>./Bronze Dragon (1985)(Commonwealth)(Disk 2 of 5)(Character Disk).dsk</path>
-		<name>Bronze Dragon</name>
+		<name>青銅龍 II 輯</name>
 		<image>./images/Bronze Dragon (1985)(Commonwealth)(Disk 2 of 5)(Character Disk)-image.png</image>
 		<thumbnail>./images/Bronze Dragon (1985)(Commonwealth)(Disk 2 of 5)(Character Disk)-thumb.png</thumbnail>
 		<mix>./images/Bronze Dragon (1985)(Commonwealth)(Disk 2 of 5)(Character Disk)-image.png</mix>
@@ -2523,7 +2523,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52425">
 		<path>./Bronze Dragon (1985)(Commonwealth)(Disk 3 of 5)(Castle Disk).dsk</path>
-		<name>Bronze Dragon</name>
+		<name>青銅龍 II 輯</name>
 		<image>./images/Bronze Dragon (1985)(Commonwealth)(Disk 3 of 5)(Castle Disk)-image.png</image>
 		<thumbnail>./images/Bronze Dragon (1985)(Commonwealth)(Disk 3 of 5)(Castle Disk)-thumb.png</thumbnail>
 		<mix>./images/Bronze Dragon (1985)(Commonwealth)(Disk 3 of 5)(Castle Disk)-image.png</mix>
@@ -2540,7 +2540,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game id="52425">
 		<path>./Bronze Dragon (1985)(Commonwealth)(Disk 4 of 5)(Module Disk).dsk</path>
-		<name>Bronze Dragon</name>
+		<name>青銅龍 II 輯</name>
 		<image>./images/Bronze Dragon (1985)(Commonwealth)(Disk 4 of 5)(Module Disk)-image.png</image>
 		<thumbnail>./images/Bronze Dragon (1985)(Commonwealth)(Disk 4 of 5)(Module Disk)-thumb.png</thumbnail>
 		<mix>./images/Bronze Dragon (1985)(Commonwealth)(Disk 4 of 5)(Module Disk)-image.png</mix>
@@ -2557,7 +2557,7 @@ There are 16 levels to be completed and five different skill levels available, w
 	</game>
 	<game>
 		<path>./Bronze Dragon (1985)(Commonwealth)(Disk 5 of 5)(Dragon Side).dsk</path>
-		<name>Bronze Dragon</name>
+		<name>青銅龍 II 輯</name>
 		<playcount />
 		<lastplayed />
 		<md5>48ef4eb3444cda296aebbf28d3648ca7</md5>
@@ -2641,7 +2641,7 @@ Bubble Bobble is a platform game, with each level being a single screen. The ene
 	</game>
 	<game id="117244">
 		<path>./Bucks! (1984)(Bruce Jaeger).dsk</path>
-		<name>Bucks!</name>
+		<name>美金大作戰！</name>
 		<image>./images/Bucks! (1984)(Bruce Jaeger)-image.png</image>
 		<thumbnail>./images/Bucks! (1984)(Bruce Jaeger)-thumb.png</thumbnail>
 		<mix>./images/Bucks! (1984)(Bruce Jaeger)-image.png</mix>
@@ -2657,7 +2657,7 @@ Bubble Bobble is a platform game, with each level being a single screen. The ene
 	</game>
 	<game id="117244">
 		<path>./Bucks! (1984)(Bruce Jaeger)[a].dsk</path>
-		<name>Bucks!</name>
+		<name>美金大作戰！</name>
 		<image>./images/Bucks! (1984)(Bruce Jaeger)[a]-image.png</image>
 		<thumbnail>./images/Bucks! (1984)(Bruce Jaeger)[a]-thumb.png</thumbnail>
 		<mix>./images/Bucks! (1984)(Bruce Jaeger)[a]-image.png</mix>
@@ -2673,7 +2673,7 @@ Bubble Bobble is a platform game, with each level being a single screen. The ene
 	</game>
 	<game id="52432">
 		<path>./Bug Attack (1981)(Cavalier Computer).dsk</path>
-		<name>Bug Attack</name>
+		<name>蟲蟲危機</name>
 		<desc>Bug Attack is a colorful shoot-em-up where you are assaulted by dagger-throwing millipedes, ants, and med flies. The game looks similar to the arcade game Centipede, but plays quite differently. 
 In the first waves, you are a spider in a desert surround by cacti. First the ants come at you, wandering back and forth randomly between the cacti and chucking daggers at you if you get under them. If you dispatch the ants, you get to fight the millipede, which advances row by row, not stopping for anything including the plants (or your spider). It also throws daggers from time to time as it advances. The third wave pits you against the deadly med flies, which dance in a line around the screen. If you don't shoot them fast enough, they start to break off from the group, dancing wildly and raining daggers down upon you. Finish this last wave and you get bonus points for the amount of fuel you have left and get treated to a small interlude where a chorus of bugs sings to you as a med fly pollinates a flower.
 The second and third levels are similar to the first, except that they are tougher. The second wave takes place in a clover patch and the third wave puts you in the flower garden. The second and third waves also have tough bonus levels at the end. Once you finish the flower garden you begin all over again back in the desert, but the enemy is much more numerous and difficult this time around.</desc>
@@ -2694,7 +2694,7 @@ The second and third levels are similar to the first, except that they are tough
 	</game>
 	<game id="52444">
 		<path>./Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side A).dsk</path>
-		<name>Captain Cuckoo</name>
+		<name>杜鵑船長</name>
 		<image>./images/Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
 		<mix>./images/Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side A)-image.png</mix>
@@ -2711,7 +2711,7 @@ The second and third levels are similar to the first, except that they are tough
 	</game>
 	<game id="52444">
 		<path>./Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side B).dsk</path>
-		<name>Captain Cuckoo</name>
+		<name>杜鵑船長</name>
 		<image>./images/Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
 		<mix>./images/Captain Cuckoo (1984)(Kurt And Yan Software)(Disk 1 of 1 Side B)-image.png</mix>
@@ -3173,7 +3173,7 @@ As the first game set in Krynn, it has several features unique to that setting: 
 	</game>
 	<game id="52479">
 		<path>./Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 1 of 2).dsk</path>
-		<name>Chessmaster 2000, The</name>
+		<name>西洋棋大師 2000</name>
 		<image>./images/Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 1 of 2)-image.png</image>
 		<thumbnail>./images/Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 1 of 2)-thumb.png</thumbnail>
 		<mix>./images/Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 1 of 2)-image.png</mix>
@@ -3190,7 +3190,7 @@ As the first game set in Krynn, it has several features unique to that setting: 
 	</game>
 	<game id="52479">
 		<path>./Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 2 of 2).dsk</path>
-		<name>Chessmaster 2000, The</name>
+		<name>西洋棋大師 2000</name>
 		<image>./images/Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 2 of 2)-image.png</image>
 		<thumbnail>./images/Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 2 of 2)-thumb.png</thumbnail>
 		<mix>./images/Chessmaster 2000, The (1986)(The Software Toolworks)(Disk 2 of 2)-image.png</mix>
@@ -3321,7 +3321,7 @@ Originally released for Apple II home computers, Choplifter! was later ported to
 	</game>
 	<game id="52487">
 		<path>./Chuck Yeager's Advanced Flight Trainer (19xx)(Electronic Arts)(Disk 1 of 1 Side A)[nib].nib</path>
-		<name>Chuck Yeager's Advanced Flight Trainer</name>
+		<name>查克·葉格之高級飛行訓練器</name>
 		<desc>In Chuck Yeager's Advanced Flight Trainer you have the chance to test pilot 14 different airplanes, such as the Bell X-1 and the Lockheed SR-71. It features 10 different viewpoints both inside and outside of the plane, with a zoom of up to 256x, and different aerodynamics for each plane. You can do different things with the planes, from racing against a computer opponent, to practising formation and stunt flights. You can follow the testing and development programme through its evolution. There is a "black box recorder" to replay your flights, and analysis of your performance compared to an ideal one.</desc>
 		<image>./images/Chuck Yeager's Advanced Flight Trainer (19xx)(Electronic Arts)(Disk 1 of 1 Side A)[nib]-image.png</image>
 		<thumbnail>./images/Chuck Yeager's Advanced Flight Trainer (19xx)(Electronic Arts)(Disk 1 of 1 Side A)[nib]-thumb.png</thumbnail>
@@ -3342,7 +3342,7 @@ Originally released for Apple II home computers, Choplifter! was later ported to
 	</game>
 	<game id="52487">
 		<path>./Chuck Yeager's Advanced Flight Trainer (19xx)(Electronic Arts)(Disk 1 of 1 Side B).dsk</path>
-		<name>Chuck Yeager's Advanced Flight Trainer</name>
+		<name>查克·葉格之高級飛行訓練器</name>
 		<desc>In Chuck Yeager's Advanced Flight Trainer you have the chance to test pilot 14 different airplanes, such as the Bell X-1 and the Lockheed SR-71. It features 10 different viewpoints both inside and outside of the plane, with a zoom of up to 256x, and different aerodynamics for each plane. You can do different things with the planes, from racing against a computer opponent, to practising formation and stunt flights. You can follow the testing and development programme through its evolution. There is a "black box recorder" to replay your flights, and analysis of your performance compared to an ideal one.</desc>
 		<image>./images/Chuck Yeager's Advanced Flight Trainer (19xx)(Electronic Arts)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Chuck Yeager's Advanced Flight Trainer (19xx)(Electronic Arts)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
@@ -4012,7 +4012,7 @@ Once you have found the core room, use the abilities of your different droids an
 	</game>
 	<game id="52548">
 		<path>./Critical Mass (19xx)(-)(Disk 1 of 1 Side A).dsk</path>
-		<name>Critical Mass</name>
+		<name>臨界點</name>
 		<image>./images/Critical Mass (19xx)(-)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Critical Mass (19xx)(-)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
 		<mix>./images/Critical Mass (19xx)(-)(Disk 1 of 1 Side A)-image.png</mix>
@@ -4028,7 +4028,7 @@ Once you have found the core room, use the abilities of your different droids an
 	</game>
 	<game id="52548">
 		<path>./Critical Mass (19xx)(-)(Disk 1 of 1 Side B).dsk</path>
-		<name>Critical Mass</name>
+		<name>臨界點</name>
 		<image>./images/Critical Mass (19xx)(-)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Critical Mass (19xx)(-)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
 		<mix>./images/Critical Mass (19xx)(-)(Disk 1 of 1 Side B)-image.png</mix>
@@ -4099,7 +4099,7 @@ Once you have found the core room, use the abilities of your different droids an
 	</game>
 	<game id="52556">
 		<path>./Crossfire (19xx)(-).dsk</path>
-		<name>Crossfire</name>
+		<name>交火</name>
 		<desc>In this adaptation of the arcade game Targ your job is to defend your city from marauding alien beasts. You can simultaneously maneuver your craft and shoot in four directions while patrolling the regular grid of streets - the enemy has surrounded your city block, and attacks are coming in from all sides as the aliens swarm in with all guns blazing. To survive, you'll have to blast your way out by darting in and out of the line of fire and taking down the assailants with your own volleys: once they're all eliminated, you go forth to the next level, to face yet another wave.
 Ammunition is limited, and from time to time you'll have to restock by picking up a fresh supply.  Every level contains four bonus crystals: as time goes by, they emerge one-by-one to be picked up, and each is worth twice as much as the last.  The game starts you off with three ships, though you get a fresh one for every 5000 points you score.</desc>
 		<image>./images/Crossfire (19xx)(-)-image.png</image>
@@ -4473,7 +4473,7 @@ The second in the  Gold Box series of role-playing games, Curse of the Azure Bon
 	</game>
 	<game id="52573">
 		<path>./Cut Throats (1984)(Infocom).dsk</path>
-		<name>Cut Throats</name>
+		<name>割喉戰</name>
 		<desc>You live on a small seaport island called Hardscrabble -- hardly the hip place to be.  Working as a professional scuba diver, you have the chance to salvage a sunken treasure from one of four shipwrecks, earn the respect of all the old farts and become wealthy beyond all imagination.</desc>
 		<image>./images/Cut Throats (1984)(Infocom)-image.png</image>
 		<thumbnail>./images/Cut Throats (1984)(Infocom)-thumb.png</thumbnail>
@@ -13766,7 +13766,7 @@ The game interface is for the most part unchanged from Galactic Empire, but adap
 	</game>
 	<game id="192567">
 		<path>./Gauntlet (1986)(Atari - Mindscape)(Disk 1 of 1 Side A).dsk</path>
-		<name>Gauntlet</name>
+		<name>聖鎧傳說</name>
 		<desc>Gauntlet is an action game where players choose characters and fight their way through hordes of enemies that assault them on the way to the end of the level. One or two players must make their way through 100 levels of mayhem and magic. 
 The game features a choice of four characters to play with, each with different weapons. Thor the Warrior has a bludgeoning battle axe, Thyra the Valkyrie has a close range sword, Questor the Elf has his long range bow, and Merlin the Wizard has magical bolts.
 Ghosts, goblins and even the life-draining Death are among the enemies. Enemies stream out of generators, so destroy these before tackling the rest. 
@@ -13789,7 +13789,7 @@ Treasure is abundant throughout the levels and adds to the player's score.</desc
 	</game>
 	<game id="192567">
 		<path>./Gauntlet (1986)(Atari - Mindscape)(Disk 1 of 1 Side B).dsk</path>
-		<name>Gauntlet</name>
+		<name>聖鎧傳說</name>
 		<desc>Gauntlet is an action game where players choose characters and fight their way through hordes of enemies that assault them on the way to the end of the level. One or two players must make their way through 100 levels of mayhem and magic. 
 The game features a choice of four characters to play with, each with different weapons. Thor the Warrior has a bludgeoning battle axe, Thyra the Valkyrie has a close range sword, Questor the Elf has his long range bow, and Merlin the Wizard has magical bolts.
 Ghosts, goblins and even the life-draining Death are among the enemies. Enemies stream out of generators, so destroy these before tackling the rest. 
@@ -13905,7 +13905,7 @@ The player comes across the abandoned western town of Sandy Valley, population 0
 	</game>
 	<game id="53053">
 		<path>./Ghostbusters (1984)(Activision).dsk</path>
-		<name>Ghostbusters</name>
+		<name>魔鬼剋星</name>
 		<desc>Based on the 1984 film of the same name, the Ghostbusters are the ones to call to "bust" any ghost hauntings. They do this through the use of nuclear-accelerated "proton packs" and "ghost traps", whereby the ghosts can be captured and transferred to a secure storage facility at their Headquarters. However New York City has suddenly become a very haunted place, and the number of ghosts has suddenly and dramatically increased. The Ghostbusters must reduce the paranormal psychokinetic energy, the "PK level" in the city, which represents ghost power, before the Temple of Zuul awakens and resurrects an evil goddess called Gozer.
 Ghostbusters is an action game that features an overhead-view and a side-view. From Ghostbusters HQ, the player must monitor a map of midtown Manhattan for "ghost alarms", as well as for casual, roaming spirits, and plot a route to the alarmed area. Once the route is plotted, the player then controls the purchased Ghostmobile as it drives through traffic. Here, the player is able to capture casual ghosts on the way if they are en route. When the haunted location is reached, the game switches to a side-view. Two of the Ghostbusters will take position, activate their proton beams, and toss a trap to the ground. The player must then use the two Ghostbusters to attempt to lead the ghost(s) over the placed trap. Once activated, the trap springs to capture any ghosts directly above it. A successful capture will earn the player money, which can then be used to purchase new Ghostbusters vehicles and new modifications for it. An unsuccessful capture will see the ghost fly away (after nastily sliming one of the Ghostbusters).
 As the game progresses, the PK energy in the city increases. The Ghostbusters must keep it under critical levels by being constantly successful at busting ghosts. Eventually the Temple of Zuul will activate, and if the PK levels are still manageable, the Ghostbusters can venture there for a final showdown with Gozer.</desc>
@@ -14178,7 +14178,7 @@ The player starts each day at 0830 with a set quota of gumballs they must succes
 	</game>
 	<game id="53094">
 		<path>./Hacker (19xx)(Actisource).dsk</path>
-		<name>Hacker</name>
+		<name>駭客</name>
 		<desc>Hacker is an adventure/trading game based on what was then a unique idea. You're starting into the adventure as a real hacker would do, lacking information of what is to come, only driven by your ambition. Consequently, the game opens with a plain text screen, prompting you for the login password. To break into the system is the first puzzle you've got to solve.
 Once in, you'll soon find out that you've accidentally stumbled upon a conspiracy of global impact. From then on, you'll maneuver a robotic drone around the globe through a tunnel system deep in the earth. In major cities, you may surface and talk to contact persons, who'll trade items for cash. When delivered to the correct city, you can exchange these items for a piece of evidence. If all evidence is collected, you're to inform the FBI. As if figuring out the correct routes and trades wasn't hard enough, frequent system malfunctions and security checks test your skill as well...</desc>
 		<image>./images/Hacker (19xx)(Actisource)-image.png</image>
@@ -14285,7 +14285,7 @@ In this game the player replays historical battles in the wars with Mexico, Worl
 	</game>
 	<game id="123566">
 		<path>./Hawaii (1986)(Excalibur)(Fr)(Disk 1 of 1 Side A).dsk</path>
-		<name>Hawaii</name>
+		<name>夏威夷</name>
 		<image>./images/Hawaii (1986)(Excalibur)(Fr)(Disk 1 of 1 Side A)-image.png</image>
 		<mix>./images/Hawaii (1986)(Excalibur)(Fr)(Disk 1 of 1 Side A)-image.png</mix>
 		<releasedate>01/01/1986</releasedate>
@@ -14301,7 +14301,7 @@ In this game the player replays historical battles in the wars with Mexico, Worl
 	</game>
 	<game id="123566">
 		<path>./Hawaii (1986)(Excalibur)(Fr)(Disk 1 of 1 Side B).dsk</path>
-		<name>Hawaii</name>
+		<name>夏威夷</name>
 		<image>./images/Hawaii (1986)(Excalibur)(Fr)(Disk 1 of 1 Side B)-image.png</image>
 		<mix>./images/Hawaii (1986)(Excalibur)(Fr)(Disk 1 of 1 Side B)-image.png</mix>
 		<releasedate>01/01/1986</releasedate>
@@ -15244,7 +15244,7 @@ There are more items to collect in this installment, and more complex actions re
 	</game>
 	<game id="53261">
 		<path>./Lode Runner (1983)(broderbund)[h modified keys].dsk</path>
-		<name>Lode Runner</name>
+		<name>淘金者</name>
 		<desc>The Bungeling Empire has stolen a huge cache of gold from its rightful owners, and your mission is to infiltrate its treasury and recapture it. This entails progressing through 150 screens of platforms, ladders and ropes.
 The Empire has sent robotic guards down to protect the gold, and contact with any of these will cost you a life. Your method of escaping them is to press fire to dig a hole in their line of movement, thus causing them to fall in briefly, allowing you to move across the gap safely. Once all the gold has been collected, a ladder allowing you to move onto the next screen is added. Completing these screens often requires forward planning and precision.
 This was one of the earliest games to include a level editor, allowing the creation of new level designs with no programming skill.</desc>
@@ -15265,7 +15265,7 @@ This was one of the earliest games to include a level editor, allowing the creat
 	</game>
 	<game id="53261">
 		<path>./Lode Runner (1983)(broderbund)[h modified keys][a].dsk</path>
-		<name>Lode Runner</name>
+		<name>淘金者</name>
 		<desc>The Bungeling Empire has stolen a huge cache of gold from its rightful owners, and your mission is to infiltrate its treasury and recapture it. This entails progressing through 150 screens of platforms, ladders and ropes.
 The Empire has sent robotic guards down to protect the gold, and contact with any of these will cost you a life. Your method of escaping them is to press fire to dig a hole in their line of movement, thus causing them to fall in briefly, allowing you to move across the gap safely. Once all the gold has been collected, a ladder allowing you to move onto the next screen is added. Completing these screens often requires forward planning and precision.
 This was one of the earliest games to include a level editor, allowing the creation of new level designs with no programming skill.</desc>
@@ -15562,7 +15562,7 @@ Players start by choosing two students to accompany Dave to the Edison mansion, 
 	</game>
 	<game id="53285">
 		<path>./Marauder (1982)(On-Line Systems)[No Boot].dsk</path>
-		<name>Marauder</name>
+		<name>掠奪者</name>
 		<desc>Captain C T Cobra has the task of travelling through planet Mergatron where the jewels of Ozymandias have been placed by their captors. The road is long and tough but he has a Battlecar at his disposal.
 You play Cobra as he journeys vertically, taking out the mounted turrets and enemy cars as he goes. There are also colored turrets to shoot at - each colour represents a particular change to your car's performance (there are a few temporary negative ones alongside the upgrades). You have 16 smart bombs, which may sound generous, but just watch them go. A boss must be beaten at the end of each level.</desc>
 		<thumbnail>./images/Marauder (1982)(On-Line Systems)[No Boot]-thumb.png</thumbnail>
@@ -15581,7 +15581,7 @@ You play Cobra as he journeys vertically, taking out the mounted turrets and ene
 	</game>
 	<game id="192604">
 		<path>./Marble Madness (1986)(Atari Games - Electronics Arts)(Disk 1 of 1 Side B).dsk</path>
-		<name>Marble Madness</name>
+		<name>瘋狂彈珠建造組</name>
 		<desc>The idea of this arcade game is deceptively simple: Guide a marble down a path without hitting any obstacles or straying off the course. The game is viewed from an isometric perspective, which makes it harder to stay focused on the direction the ball is to follow. There are tight corridors to follow and enemies to avoid. There is a 2-player mode in which players must race to the finish, otherwise you're racing against the clock.</desc>
 		<image>./images/Marble Madness (1986)(Atari Games - Electronics Arts)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Marble Madness (1986)(Atari Games - Electronics Arts)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
@@ -15600,7 +15600,7 @@ You play Cobra as he journeys vertically, taking out the mounted turrets and ene
 	</game>
 	<game id="192604">
 		<path>./Marble Madness (1986)(Atari Games - Electronics Arts)[a2](Disk 1 of 1 Side A).dsk</path>
-		<name>Marble Madness</name>
+		<name>瘋狂彈珠建造組</name>
 		<desc>The idea of this arcade game is deceptively simple: Guide a marble down a path without hitting any obstacles or straying off the course. The game is viewed from an isometric perspective, which makes it harder to stay focused on the direction the ball is to follow. There are tight corridors to follow and enemies to avoid. There is a 2-player mode in which players must race to the finish, otherwise you're racing against the clock.</desc>
 		<image>./images/Marble Madness (1986)(Atari Games - Electronics Arts)[a2](Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Marble Madness (1986)(Atari Games - Electronics Arts)[a2](Disk 1 of 1 Side A)-thumb.png</thumbnail>
@@ -15619,7 +15619,7 @@ You play Cobra as he journeys vertically, taking out the mounted turrets and ene
 	</game>
 	<game id="192604">
 		<path>./Marble Madness (1986)(Atari Games - Electronics Arts)[a3](Disk 1 of 1 Side A).dsk</path>
-		<name>Marble Madness</name>
+		<name>瘋狂彈珠建造組</name>
 		<desc>The idea of this arcade game is deceptively simple: Guide a marble down a path without hitting any obstacles or straying off the course. The game is viewed from an isometric perspective, which makes it harder to stay focused on the direction the ball is to follow. There are tight corridors to follow and enemies to avoid. There is a 2-player mode in which players must race to the finish, otherwise you're racing against the clock.</desc>
 		<image>./images/Marble Madness (1986)(Atari Games - Electronics Arts)[a3](Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Marble Madness (1986)(Atari Games - Electronics Arts)[a3](Disk 1 of 1 Side A)-thumb.png</thumbnail>
@@ -15638,7 +15638,7 @@ You play Cobra as he journeys vertically, taking out the mounted turrets and ene
 	</game>
 	<game id="192604">
 		<path>./Marble Madness (1986)(Atari Games - Electronics Arts)[a](Disk 1 of 1 Side A).dsk</path>
-		<name>Marble Madness</name>
+		<name>瘋狂彈珠建造組</name>
 		<desc>The idea of this arcade game is deceptively simple: Guide a marble down a path without hitting any obstacles or straying off the course. The game is viewed from an isometric perspective, which makes it harder to stay focused on the direction the ball is to follow. There are tight corridors to follow and enemies to avoid. There is a 2-player mode in which players must race to the finish, otherwise you're racing against the clock.</desc>
 		<image>./images/Marble Madness (1986)(Atari Games - Electronics Arts)[a](Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Marble Madness (1986)(Atari Games - Electronics Arts)[a](Disk 1 of 1 Side A)-thumb.png</thumbnail>
@@ -16226,7 +16226,7 @@ Initially, the player has to search the house in order to find a hidden cache of
 	</game>
 	<game id="53366">
 		<path>./Moonmist (1986)(Infocom).dsk</path>
-		<name>Moonmist</name>
+		<name>月霧</name>
 		<desc>Tamara Lynd has recently become engaged to Jack Tresyllian, a wealthy owner of the Tresyllian Castle in Cornwall, England. Shortly afterwards, she began seeing a ghost-like figure, a mysterious White Lady, who has allegedly been haunting the castle for centuries. A series of events and dark suspicions involving hidden treasure convince Tamara that her life is in danger. She contacts a friend of hers, a young American detective, asking him to travel to the castle and investigate the mystery.  
 Moonmist is a text adventure game. In the beginning the player chooses between four different scenarios, represented by the colors red, blue, yellow and green. Each scenario has different tasks, a different criminal, and different treasure. The game has a built-in clock, and must be completed before 6:00 am in-game time, otherwise it ends prematurely. Depending on the player's choice of the protagonist's gender, characters may react differently to his or her actions.</desc>
 		<image>./images/Moonmist (1986)(Infocom)-image.png</image>
@@ -16246,7 +16246,7 @@ Moonmist is a text adventure game. In the beginning the player chooses between f
 	</game>
 	<game id="53366">
 		<path>./Moonmist (1986)(Infocom)[Fixed].dsk</path>
-		<name>Moonmist</name>
+		<name>月霧</name>
 		<desc>Tamara Lynd has recently become engaged to Jack Tresyllian, a wealthy owner of the Tresyllian Castle in Cornwall, England. Shortly afterwards, she began seeing a ghost-like figure, a mysterious White Lady, who has allegedly been haunting the castle for centuries. A series of events and dark suspicions involving hidden treasure convince Tamara that her life is in danger. She contacts a friend of hers, a young American detective, asking him to travel to the castle and investigate the mystery.  
 Moonmist is a text adventure game. In the beginning the player chooses between four different scenarios, represented by the colors red, blue, yellow and green. Each scenario has different tasks, a different criminal, and different treasure. The game has a built-in clock, and must be completed before 6:00 am in-game time, otherwise it ends prematurely. Depending on the player's choice of the protagonist's gender, characters may react differently to his or her actions.</desc>
 		<image>./images/Moonmist (1986)(Infocom)[Fixed]-image.png</image>
@@ -16511,7 +16511,7 @@ A multiplayer battle is included, featuring 19 multiplayer levels with different
 	</game>
 	<game id="53273">
 		<path>./Lurking Horror, The (1987)(Infocom).dsk</path>
-		<name>Lurking Horror, The</name>
+		<name>潛伏的恐怖</name>
 		<desc>In The Lurking Horror, you are a student at G.U.E. Tech. You have braved a snowstorm to get to the Computer Center and finish work on an assignment. But the snowstorm has turned into a raging blizzard, and has trapped you in a complex of buildings late at night. You are not alone, fortunely ... or perhaps, unfortunately. Thus you begin the story, unaware that anything may be wrong beneath or within the veneer of the quiet campus.</desc>
 		<image>./images/Lurking Horror, The (1987)(Infocom)-image.png</image>
 		<thumbnail>./images/Lurking Horror, The (1987)(Infocom)-thumb.png</thumbnail>
@@ -17610,7 +17610,7 @@ Bonuses are awarded for looping the flooz through both sides of at least 5 cross
 	</game>
 	<game id="192627">
 		<path>./Pirates! (1987)(Microprose)[a2](Disk 1 of 3 Side A).dsk</path>
-		<name>Pirates!</name>
+		<name>海盜</name>
 		<image>./images/Pirates! (1987)(Microprose)[a2](Disk 1 of 3 Side A)-image.png</image>
 		<thumbnail>./images/Pirates! (1987)(Microprose)[a2](Disk 1 of 3 Side A)-thumb.png</thumbnail>
 		<mix>./images/Pirates! (1987)(Microprose)[a2](Disk 1 of 3 Side A)-image.png</mix>
@@ -17687,7 +17687,7 @@ The player moves on to the next level when all asteroids in a field are destroye
 	</game>
 	<game id="53497">
 		<path>./Platoon (1988)(Disk 1 of 1 Side A).dsk</path>
-		<name>Platoon</name>
+		<name>戰鬥排</name>
 		<desc>The film Platoon featured a squad of five soldiers on their mission for the US Army in Vietnam. In this action game based around the film, you take control of these five guys in turn, with the chance to switch between them as they each take one of the 3 hits that would kill them.
 The game recreates each of the sections of the film, starting with a side-scrolling journey through the jungle, with paths to cross both horizontally and vertically, and the ability to jump or duck hazards. You will need to blow up a bridge and then locate a village, which contains a torch, a map and a trap-door. The enemy has booby-trapped the area and are launching airstrikes, so the danger is not all from enemy ground soldiers.
 The next section is in first-person 3D, as you move through a network of tunnels in search of flares and a compass. There are 3 distinct control methods, changing from the standard motion when an enemy appears (this puts you in control of a cross-hair for more accurate targeting), and when you enter a room to search.
@@ -17710,7 +17710,7 @@ Finally you face the treacherous Sergeant Barnes, and must hit him with grenades
 	</game>
 	<game id="53497">
 		<path>./Platoon (1988)(Disk 1 of 1 Side B).dsk</path>
-		<name>Platoon</name>
+		<name>戰鬥排</name>
 		<desc>The film Platoon featured a squad of five soldiers on their mission for the US Army in Vietnam. In this action game based around the film, you take control of these five guys in turn, with the chance to switch between them as they each take one of the 3 hits that would kill them.
 The game recreates each of the sections of the film, starting with a side-scrolling journey through the jungle, with paths to cross both horizontally and vertically, and the ability to jump or duck hazards. You will need to blow up a bridge and then locate a village, which contains a torch, a map and a trap-door. The enemy has booby-trapped the area and are launching airstrikes, so the danger is not all from enemy ground soldiers.
 The next section is in first-person 3D, as you move through a network of tunnels in search of flares and a compass. There are 3 distinct control methods, changing from the standard motion when an enemy appears (this puts you in control of a cross-hair for more accurate targeting), and when you enter a room to search.
@@ -17775,7 +17775,7 @@ The NES version was substantially different from other versions. It removed refe
 	</game>
 	<game id="53507">
 		<path>./Popeye (1984)(Software Computer).dsk</path>
-		<name>Popeye</name>
+		<name>大力水手 2</name>
 		<desc>As Popeye, you are trying to win Olive Oyl's love! She is at the top of the screen dropping tokens of her love, and you need to collect them before they hit the ground. After you have collected the required number of items, you can move on to the next, more difficult level. There are many obstacles trying to stop you from completing your task, though! Brutus wanders around the screen and is constantly trying to catch you. If you collect a can of spinach, you can temporarily knock him out, otherwise Brutus will knock you out. Other objects such as bottles or birds are also flying around the screen and will cause you to lose one of your lives if you are hit. Each level features a different layout of platforms and ladders, and will have you collecting different items as they float towards the bottom of the screen!</desc>
 		<image>./images/Popeye (1984)(Software Computer)-image.png</image>
 		<thumbnail>./images/Popeye (1984)(Software Computer)-thumb.png</thumbnail>
@@ -17905,7 +17905,7 @@ The game is viewed from overhead, with the entire hole on a single screen. The p
 	</game>
 	<game id="123911">
 		<path>./Profession Detective (19xx)(-)(Fr).dsk</path>
-		<name>Profession Detective</name>
+		<name>職業偵探</name>
 		<image>./images/Profession Detective (19xx)(-)(Fr)-image.png</image>
 		<mix>./images/Profession Detective (19xx)(-)(Fr)-image.png</mix>
 		<playcount />
@@ -17953,7 +17953,7 @@ The game is viewed from overhead, with the entire hole on a single screen. The p
 	</game>
 	<game id="123912">
 		<path>./Prohibition (19xx)(-)(Disk 1 of 1 Side B).dsk</path>
-		<name>Prohibition</name>
+		<name>禁酒令</name>
 		<desc>Prohibition is a shoot'em up taking place in New York in 1930. The town is overrun by gangsters and you're hired by the police to rid the town of them.
 The gameplay is simple: you're facing a row of buildings, a gangster pops up and you have to shoot him before the on-screen timer goes empty and he shoots you first. You can hide until the timer restarts but this is limited too. 
 At the end of each stage is a bonus round where you have to shoot gangsters in a room, with no more ability to hide and a faster timer.
@@ -18288,7 +18288,7 @@ This means that the game has two distinct styles, with your character limited to
 	</game>
 	<game id="53555">
 		<path>./Raid Over Moscow (1985)(Access).dsk</path>
-		<name>Raid Over Moscow</name>
+		<name>空襲莫斯科</name>
 		<desc>The USSR has launched a huge attack on the USA, and the only hope for the free world is for you (as leader of a US Squadron of fighters) to destroy their defense bases. This is done in a multi-stage action game with some similarities to the same developer's Beach Head. All the mini-games must be completed before the time limit on the bomb is expired.
 The first thing you will see is a missile being launched; the game then takes you to your hangar, from which you must quickly launch as many ships as possible, a task made difficult by the limited gravity. You must then fly it into Soviet airspace in a side-view shoot 'em up section, in which staying low keeps you safe from radars, and quick reactions see you shoot enemy fighters and avoid trees.
 The next scene takes place on a single-screen view, with five windows to shoot through, and enemies aiming at you to be avoided. You then reach the base, and must shoot out approaching enemies. Finally, you must use discs onto a wall, such that they rebound to hit maintenance robots, with the ultimate goal of causing the base to overheat, the Soviet attack to be thwarted, and the US to be saved.</desc>
@@ -18328,7 +18328,7 @@ The next scene takes place on a single-screen view, with five windows to shoot t
 	</game>
 	<game id="53562">
 		<path>./Rampage (1988)(Monarch Development).dsk</path>
-		<name>Rampage</name>
+		<name>毀滅大作戰</name>
 		<desc>George, Lizzy and Ralph were just ordinary Americans, until an experiment went wrong, turning them into a Gorilla, Lizard and Werewolf respectively. Following this, the three of them plan to go round destroying buildings, and up to 3 human players can join in.
 Smashing at the edges of the buildings for long enough will make them collapse. The police and military are after you, and will shoot at you, so try to destroy them (failing that, you can avoid the bullets). You will need to eat regularly, with things like plants on offer, to avoid shrinking back to being human.</desc>
 		<image>./images/Rampage (1988)(Monarch Development)-image.png</image>
@@ -18544,7 +18544,7 @@ You control up to 19 mythological heroes in an effort to perform all the tasks o
 	</game>
 	<game id="117280">
 		<path>./Reversi (19xx)(-).dsk</path>
-		<name>Reversi</name>
+		<name>翻轉棋</name>
 		<desc>Reversi is a computerized version of the board game Othello. During the game, two players take turns placing game pieces on the board in an attempt to trap pieces of their opponents color. Any trapped pieces will then be reversed in color. When the board becomes completely filled up, whomever has the most pieces of his own color on the board wins. The game can be played by two players, or one player against the computer. There are three skill levels the computer can use, and three different board sizes are available, 6 by 6, 8 by 8, and 10 by 10.</desc>
 		<image>./images/Reversi (19xx)(-)-image.png</image>
 		<mix>./images/Reversi (19xx)(-)-image.png</mix>
@@ -18679,7 +18679,7 @@ Each fighter is rated in over 25 categories such as strength, stamina and style.
 	</game>
 	<game id="53602">
 		<path>./Robocop (1988)(Data East)(Disk 1 of 2)[t].dsk</path>
-		<name>Robocop</name>
+		<name>機器戰警</name>
 		<desc>Patrolman Alex Murphy was killed on the streets of Detroit. The major corporation there, Omni Consumer Products (OCP) saw an opportunity to sell a new kind of law enforcement officer to the troubled city. They took what was left of Murphy, encased it in titanium armor, wiped his memory and created RoboCop. Now it's up to RoboCop to clean the streets of Detroit and eliminate the one responsible for his murder, Clarence Boddicker. But it looks like Clarence might not be the kingpin of this town...
 Based on the 1987 movie of the same name, RoboCop allows the player to control RoboCop. The majority of the game is a side scroller. RoboCop can punch unarmed citizens and shoot armed citizens. He can move left, right and duck but can not jump. Different weapons can be picked up from enemies, and power-ups to restore health and/or energy. Following levels, RoboCop will have to match a criminal's face to the proper mugshot and engage in a first-person shooting bonus round.
 Amiga and Atari ST versions are faithful to the original level design of the Arcade game, but they also add first-person rescue hostage scenarios, and a mini-game where the player needs to match the suspects' faces</desc>
@@ -18701,7 +18701,7 @@ Amiga and Atari ST versions are faithful to the original level design of the Arc
 	</game>
 	<game id="53602">
 		<path>./Robocop (1988)(Data East)(Disk 2 of 2).dsk</path>
-		<name>Robocop</name>
+		<name>機器戰警</name>
 		<desc>Patrolman Alex Murphy was killed on the streets of Detroit. The major corporation there, Omni Consumer Products (OCP) saw an opportunity to sell a new kind of law enforcement officer to the troubled city. They took what was left of Murphy, encased it in titanium armor, wiped his memory and created RoboCop. Now it's up to RoboCop to clean the streets of Detroit and eliminate the one responsible for his murder, Clarence Boddicker. But it looks like Clarence might not be the kingpin of this town...
 Based on the 1987 movie of the same name, RoboCop allows the player to control RoboCop. The majority of the game is a side scroller. RoboCop can punch unarmed citizens and shoot armed citizens. He can move left, right and duck but can not jump. Different weapons can be picked up from enemies, and power-ups to restore health and/or energy. Following levels, RoboCop will have to match a criminal's face to the proper mugshot and engage in a first-person shooting bonus round.
 Amiga and Atari ST versions are faithful to the original level design of the Arcade game, but they also add first-person rescue hostage scenarios, and a mini-game where the player needs to match the suspects' faces</desc>
@@ -18939,7 +18939,7 @@ The game also featured handicapping options, and, like most common card games, f
 	</game>
 	<game id="123912">
 		<path>./Prohibition (19xx)(-)(Disk 1 of 1 Side A).dsk</path>
-		<name>Prohibition</name>
+		<name>禁酒令</name>
 		<desc>Prohibition is a shoot'em up taking place in New York in 1930. The town is overrun by gangsters and you're hired by the police to rid the town of them.
 The gameplay is simple: you're facing a row of buildings, a gangster pops up and you have to shoot him before the on-screen timer goes empty and he shoots you first. You can hide until the timer restarts but this is limited too. 
 At the end of each stage is a bonus round where you have to shoot gangsters in a room, with no more ability to hide and a faster timer.
@@ -19046,7 +19046,7 @@ There are a total of eight enemies on screen at any given time. The Quarriers tr
 	</game>
 	<game>
 		<path>./Robocop (1988)(Data East)(Disk 1 of 2).dsk</path>
-		<name>Robocop</name>
+		<name>機器戰警</name>
 		<playcount />
 		<lastplayed />
 		<md5>dbbc33b82ce61d60bbd3d7dbfcfa8fb2</md5>
@@ -21027,7 +21027,7 @@ You control the now famous circular dot muncher that has to go around the maze a
 	</game>
 	<game id="53870">
 		<path>./Techno Cop (1988)(Gray Matter)(Disk 1 of 1 Side A).dsk</path>
-		<name>Techno Cop</name>
+		<name>科技警察</name>
 		<desc>Techno Cop is set in the near future. You are a cop who seeks to clear his town of all the criminal scum. The game consists of two parts; one driving-action and one sidescrolling-action. In the first part you drive around in your red Ferrari and destroy hostile cars; in the second part, you turn somersaults over gaps, use elevators and shoot lots of enemies until you reach the boss. After having killed / caught the villain, it's back to the road again for the next mission.</desc>
 		<image>./images/Techno Cop (1988)(Gray Matter)(Disk 1 of 1 Side A)-image.png</image>
 		<thumbnail>./images/Techno Cop (1988)(Gray Matter)(Disk 1 of 1 Side A)-thumb.png</thumbnail>
@@ -21046,7 +21046,7 @@ You control the now famous circular dot muncher that has to go around the maze a
 	</game>
 	<game id="53870">
 		<path>./Techno Cop (1988)(Gray Matter)(Disk 1 of 1 Side B).dsk</path>
-		<name>Techno Cop</name>
+		<name>科技警察</name>
 		<desc>Techno Cop is set in the near future. You are a cop who seeks to clear his town of all the criminal scum. The game consists of two parts; one driving-action and one sidescrolling-action. In the first part you drive around in your red Ferrari and destroy hostile cars; in the second part, you turn somersaults over gaps, use elevators and shoot lots of enemies until you reach the boss. After having killed / caught the villain, it's back to the road again for the next mission.</desc>
 		<image>./images/Techno Cop (1988)(Gray Matter)(Disk 1 of 1 Side B)-image.png</image>
 		<thumbnail>./images/Techno Cop (1988)(Gray Matter)(Disk 1 of 1 Side B)-thumb.png</thumbnail>
@@ -21694,7 +21694,7 @@ Like other Hi-Res Adventures by On-Line Systems, you can switch between graphic 
 	</game>
 	<game id="53903">
 		<path>./Times of Lore (1988)(Origin)(Disk 1 of 1 Side A).dsk</path>
-		<name>Times of Lore</name>
+		<name>傳奇時代</name>
 		<desc>The Kingdom of Albereth was under attack of barbarian forces. King Valwyn drove the barbarians away, but was wounded in battles. Searching for a place where he could rest and restore his strength, he left the city - but never returned. Now, a new hero must rise and defend his homeland.
 Times of Lore is an action game with light role-playing elements, which follows the adventures of a young warrior (strong barbarian, armored knight, or quick valkyrie) to assist a weakened kingdom from various threats, and to recover special Artifacts that once made the kingdom strong.
 Gameplay consists of moving the protagonist in real-time (day and night) through various terrains, like forests, towns, and dungeons. The player character gathers basic items, like health and magic potions, and increasingly powerful weapons as he completes tasks and advances the plot. Conversations are handled through key phrases. Battles involve a few types of creatures (skeletons, orcs, rogues) of which there can be various flavors.</desc>
@@ -21715,7 +21715,7 @@ Gameplay consists of moving the protagonist in real-time (day and night) through
 	</game>
 	<game id="53903">
 		<path>./Times of Lore (1988)(Origin)(Disk 1 of 1 Side B).dsk</path>
-		<name>Times of Lore</name>
+		<name>傳奇時代</name>
 		<desc>The Kingdom of Albereth was under attack of barbarian forces. King Valwyn drove the barbarians away, but was wounded in battles. Searching for a place where he could rest and restore his strength, he left the city - but never returned. Now, a new hero must rise and defend his homeland.
 Times of Lore is an action game with light role-playing elements, which follows the adventures of a young warrior (strong barbarian, armored knight, or quick valkyrie) to assist a weakened kingdom from various threats, and to recover special Artifacts that once made the kingdom strong.
 Gameplay consists of moving the protagonist in real-time (day and night) through various terrains, like forests, towns, and dungeons. The player character gathers basic items, like health and magic potions, and increasingly powerful weapons as he completes tasks and advances the plot. Conversations are handled through key phrases. Battles involve a few types of creatures (skeletons, orcs, rogues) of which there can be various flavors.</desc>
@@ -21955,7 +21955,7 @@ The game features 3D pre-rendered, high resolution (640x480) art with multi-laye
 	</game>
 	<game id="53933">
 		<path>./Tron (19xx)(Ivan).dsk</path>
-		<name>Tron</name>
+		<name>電子世界爭霸戰</name>
 		<desc>Based on the 1982 Midway arcade game based off the Disney film, players take control of TRON in four different game grid scenarios:
 Light Cycles: race TRON's blue Light Cycle against one or more enemy Cycles in an attempt to have them crash and de-rez against their own light walls.
 I/O Tower: blast through numerous Grid Bugs in an attempt to get into the I/O Tower.
@@ -24291,7 +24291,7 @@ Wishbringer is a text adventure set in the Zork universe. The player types in co
 	</game>
 	<game id="54014">
 		<path>./Witness, The (1983)(Infocom).dsk</path>
-		<name>Witness, The</name>
+		<name>見證者</name>
 		<desc>The Witness is a text adventure in which the player takes control of a police detective working near Los Angeles. The year is 1938, and on this stormy February night a wealthy but frightened man has asked the detective for protection. In spite of his best efforts, a death occurs, and the hero has twelve hours to solve the mystery and try to arrest the killer. If the player thinks there is enough evidence against one or more suspects to convince a jury of their guilt, he can arrest them and conclude the case.</desc>
 		<image>./images/Witness, The (1983)(Infocom)-image.png</image>
 		<thumbnail>./images/Witness, The (1983)(Infocom)-thumb.png</thumbnail>
@@ -25077,7 +25077,7 @@ Weightlifting</desc>
 	</game>
 	<game id="54039">
 		<path>./Xevious (1982)(Mindscape).dsk</path>
-		<name>Xevious</name>
+		<name>鐵板陣</name>
 		<desc>A hundred thousand years ago, an ancient civilization prospered on our Earth, their product being GAMP (General Artificial Matrix Producer). In order to survive the Ice Age, most of the Earth's inhabitants have decided to leave it, finally settling on a planet called Xevious. A group of humans remained, becoming our own ancestors. Many years have passed, and the Xevians are now planning a massive comeback to their long-lost homeland. The pilot Mu, his android companion Eve, and Mio, a Xevian who opposes the GAMP regime, are back from a space travel just in time to warn the Earth of the upcoming invasion. The prototype fighter craft Solvalou is going to be used as the main weapon against the Xevian attack.
 Xevious is a vertically-scrolling shooter which is notable for being the first game of that type to feature an aircraft flying over the Earth (as opposed to the outer space in other games), displaying views of South American nature. It also introduced, for the first time, two types of enemies to fight: aerial and ground-based (the menacing SOL towers invoked by GAMP to aid their planes). The player-controlled ship, Solvalou, is equipped with two weapons, each assigned to a button: the Zapper for air enemies, and the Blaster, which drops bombs on ground targets with the aid of a lock-on. The aerial enemies are divided into sub-categories distinguished by their attack and behavior patterns. Certain enemy types are immune to Solvalou's weapons, and must be avoided.</desc>
 		<image>./images/Xevious (1982)(Mindscape)-image.png</image>
@@ -25675,7 +25675,7 @@ Like its predecessor, Zork II plays like any other text adventure: there are no 
 	</game>
 	<game>
 		<path>./ZZZ-UNK-scott adams 1-4, 6-7, 9 - adventureland, pirate adventure, mission impossible, voodoo castle, strange odyssey, mystery fun house, ghost town.dsk</path>
-		<name>[中文]ZZZ-UNK-scott adams 1-4, 6-7, 9 - adventureland, pirate adventure, mission impossible, voodoo ca...</name>
+		<name>ZZZ-UNK-scott adams 1-4, 6-7, 9 - adventureland, pirate adventure, mission impossible, voodoo ca...</name>
 		<playcount />
 		<lastplayed />
 		<md5>b51d50858d5daffccb66f6cee2480967</md5>
@@ -26759,7 +26759,7 @@ Each game turn represents 12 hours (the full campaign lasting 147 days, 2 turns 
 	</game>
 	<game id="53129">
 		<path>./Hitchhiker's Guide To The Galaxy, The (1984)(Infocom).dsk</path>
-		<name>Hitchhiker's Guide To The Galaxy, The</name>
+		<name>銀河便車指南</name>
 		<image>./images/Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)-image.png</image>
 		<thumbnail>./images/Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)-thumb.png</thumbnail>
 		<mix>./images/Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)-image.png</mix>
@@ -26776,7 +26776,7 @@ Each game turn represents 12 hours (the full campaign lasting 147 days, 2 turns 
 	</game>
 	<game id="53129">
 		<path>./Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)[a].dsk</path>
-		<name>Hitchhiker's Guide To The Galaxy, The</name>
+		<name>銀河便車指南</name>
 		<image>./images/Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)[a]-image.png</image>
 		<thumbnail>./images/Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)[a]-thumb.png</thumbnail>
 		<mix>./images/Hitchhiker's Guide To The Galaxy, The (1984)(Infocom)[a]-image.png</mix>
@@ -27050,7 +27050,7 @@ After an uncatalogued giant asteroid is discovered approaching Earth, scientists
 	</game>
 	<game id="53578">
 		<path>./Renegade (1989)(Novalogic)(Disk 1 of 2).dsk</path>
-		<name>Renegade</name>
+		<name>熱血硬派 - 熊</name>
 		<desc>This is the scrolling beat 'em up by Technos which started the Kunio / Nekketsu High series. The original takes takes place in a Japanese city, whereas its western version named Renegade is set on the mean streets of Brooklyn. This conversion later produced unofficial sequels Target: Renegade and Renegade III: The Final Chapter.  You must venture through to meet your girlfriend, and then rescue her from her kidnappers. This is split into five levels, taking you through the subway and the docks as well as some inhospitable streets. A wide range of aggressive moves are on offer, including headbutts, kicks, punches and flying kicks. Much of the game's violence is depicted in a fairly tongue-in-cheek style, with an element of attempted humour along the way.</desc>
 		<image>./images/Renegade (1989)(Novalogic)(Disk 1 of 2)-image.png</image>
 		<thumbnail>./images/Renegade (1989)(Novalogic)(Disk 1 of 2)-thumb.png</thumbnail>
@@ -27068,7 +27068,7 @@ After an uncatalogued giant asteroid is discovered approaching Earth, scientists
 	</game>
 	<game id="53578">
 		<path>./Renegade (1989)(Novalogic)(Disk 2 of 2).dsk</path>
-		<name>Renegade</name>
+		<name>熱血硬派 - 熊</name>
 		<desc>This is the scrolling beat 'em up by Technos which started the Kunio / Nekketsu High series. The original takes takes place in a Japanese city, whereas its western version named Renegade is set on the mean streets of Brooklyn. This conversion later produced unofficial sequels Target: Renegade and Renegade III: The Final Chapter.  You must venture through to meet your girlfriend, and then rescue her from her kidnappers. This is split into five levels, taking you through the subway and the docks as well as some inhospitable streets. A wide range of aggressive moves are on offer, including headbutts, kicks, punches and flying kicks. Much of the game's violence is depicted in a fairly tongue-in-cheek style, with an element of attempted humour along the way.</desc>
 		<image>./images/Renegade (1989)(Novalogic)(Disk 2 of 2)-image.png</image>
 		<thumbnail>./images/Renegade (1989)(Novalogic)(Disk 2 of 2)-thumb.png</thumbnail>
@@ -27125,7 +27125,7 @@ There are a total of eight enemies on screen at any given time. The Quarriers tr
 	</game>
 	<game id="53595">
 		<path>./Risk (1988)(Leisure Genius)(Save)[nib].nib</path>
-		<name>Risk</name>
+		<name>戰國風雲</name>
 		<desc>Risk is a turn-based strategy game based on the board game of the same name. The players participate in a virtual world conquest: each player chooses a country to control, with the goal of engaging in war against the other countries, eventually dominating the whole world. The players are able to draft troops, build armies, move them on the map, and fortify their positions. Dice rolls are absent from the game; the victory depends on the player's actions more than on luck.</desc>
 		<image>./images/Risk (1988)(Leisure Genius)(Save)[nib]-image.png</image>
 		<thumbnail>./images/Risk (1988)(Leisure Genius)(Save)[nib]-thumb.png</thumbnail>
@@ -27144,7 +27144,7 @@ There are a total of eight enemies on screen at any given time. The Quarriers tr
 	</game>
 	<game id="53595">
 		<path>./Risk (1988)(Leisure Genius)[nib].nib</path>
-		<name>Risk</name>
+		<name>戰國風雲</name>
 		<desc>Risk is a turn-based strategy game based on the board game of the same name. The players participate in a virtual world conquest: each player chooses a country to control, with the goal of engaging in war against the other countries, eventually dominating the whole world. The players are able to draft troops, build armies, move them on the map, and fortify their positions. Dice rolls are absent from the game; the victory depends on the player's actions more than on luck.</desc>
 		<image>./images/Risk (1988)(Leisure Genius)[nib]-image.png</image>
 		<thumbnail>./images/Risk (1988)(Leisure Genius)[nib]-thumb.png</thumbnail>

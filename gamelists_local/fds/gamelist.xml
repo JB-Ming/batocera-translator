@@ -1909,7 +1909,7 @@ Can you do it? A man's romance and success game.</desc>
 	</game>
 	<game id="88188" source="ScreenScraper.fr">
 		<path>./Golf (Japan) (Rev 1).zip</path>
-		<name>Golf</name>
+		<name>高爾夫</name>
 		<desc>A port of the Nintendo Famicom game to the Famicom Disk System. 
  
 Golf is a sports-simulation video game released in 1984. The golfer is a mustached man who resembles Mario. 
@@ -1930,7 +1930,7 @@ The user must first decide whether to play single stroke play or the two player 
 	</game>
 	<game id="88188" source="ScreenScraper.fr">
 		<path>./Golf (Japan).zip</path>
-		<name>Golf</name>
+		<name>高爾夫</name>
 		<desc>A port of the Nintendo Famicom game to the Famicom Disk System. 
  
 Golf is a sports-simulation video game released in 1984. The golfer is a mustached man who resembles Mario. 
@@ -2045,7 +2045,7 @@ This game also contained a now defunct feature where players could record their 
 	</game>
 	<game id="98635" source="ScreenScraper.fr">
 		<path>./Green Beret (Japan) [b].zip</path>
-		<name>Green Beret</name>
+		<name>綠扁帽</name>
 		<desc>Based on the arcade game of the same name, the player's objective in the FDS version was changed from rescuing prisoners to destroying a secret weapon being developed in the enemy's headquarters. Additionally, a 2-players co-operative mode was introduced as well, allowing two players to play simultaneously (with Player 1 in blue and Player 2 in red). The play mechanics are essentially identical to the arcade version, however the Flamethrower is removed (only the Rocket Launcher and Grenades remained) and two new power-up items are introduced: a Star mark which grants invincibility and a pistol with unlimited ammo, both which are only usable for a limited period. The FDS version also features two additional stages that were not in the arcade game: an airport set between the Missile Base and the Harbor, where the player faces a group of rocket soldiers at the end; and a new final stage set inside the enemy's base in which the player must disarm a nuclear missile at the end that is about to be launched; by using rocket launchers dropped by enemy soldiers. The flamethrower corps at the end of the Warehouse stage was replaced by a paratrooper unit.</desc>
 		<image>./media/screenshot/Green Beret (Japan) [b].png</image>
 		<releasedate>10/04/1987</releasedate>
@@ -3114,7 +3114,7 @@ This game also contained a now defunct feature where players could record their 
 	</game>
 	<game id="98636" source="ScreenScraper.fr">
 		<path>./Gun.Smoke (Japan) [b].zip</path>
-		<name>Gun.Smoke</name>
+		<name>荒野大鏢客</name>
 		<desc>The objective is to free the town of Hicksville from the band of criminals known as the Wingates. But in order to capture their most dangerous henchmen, in each stage the player must retrieve a Wanted sign of said henchman, otherwise it is impossible to clear the stage. In this game, the main character is a bounty hunter named Billy Bob. 
  
 Although virtually identical to the NES version, the FDS version featured several differences: 
@@ -4160,7 +4160,7 @@ As with all the games that follow, the goal of the game is to discover the perpe
 	</game>
 	<game id="98687" source="ScreenScraper.fr">
 		<path>./Tarot Uranai (Japan) [b].zip</path>
-		<name>Tarot</name>
+		<name>塔羅牌</name>
 		<desc>Tarot Uranai (Lit. Tarot fortune telling) is a fortune telling simulation developed and published by Scorpion Soft for the Famicom Disk System in 1988. During play, the game predicts the player's future in several areas, including love, finance, and education. It followed a series of other astrological "utility" programs for the platform, including Chuugoku Senseijutsu and '89 Dennou Kyuusei Uranai. 
  
 The game focuses on the Tarot deck and their supposed clairvoyant properties. The game will randomly shuffle a deck and lay them out in a formation of the player's choosing - each formation is meant to predict a different aspect of the player's life. The game will then reveal cards that the player chooses and decipher the meaning behind them.</desc>
@@ -4509,7 +4509,7 @@ The game was presented as a virtual multi-sport carnival called the "Epyx Winter
 	</game>
 	<game id="98699" source="ScreenScraper.fr">
 		<path>./Xevious (Japan) (Disk Writer) [b].zip</path>
-		<name>Xevious</name>
+		<name>鐵板陣</name>
 		<desc>Xevious tells the story of the fight between humankind and the biocomputer GAMP, which controls the alien forces of planet Xevious. It turns out that the Xevious inhabitants are originally from Earth, and GAMP (General Artificial Matrix Producer) is the product of an ancient civilization that prospered on earth a hundred thousand years ago. During this golden age, the Gamps were human clones used in heavy labor, until they rebelled to their own creators. In order to survive the upcoming Ice Age, they planned to leave earth and migrate in search of a new homeland. They finally selected seven planets that were likely suitable to human life.</desc>
 		<image>./media/screenshot/Xevious (Japan) (Disk Writer) [b].png</image>
 		<releasedate>18/05/1990</releasedate>

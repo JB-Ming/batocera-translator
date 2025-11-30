@@ -90,7 +90,7 @@ A game point system has been devised to further measure your skills as a navigat
 	</game>
 	<game id="38066" source="ScreenScraper.fr">
 		<path>./Artillery Duel (USA).zip</path>
-		<name>Artillery Duel</name>
+		<name>炮兵對決</name>
 		<desc>In this two player game each player controls an artillery gun set in a mountain landscape with the goal of destroying the other player. Players take turns firing at each other; on each turn you have a limited amount of time in which the barrel angle and powder level can be set in order to control the direction and distance of the shot. When deciding on your shot, you will need to take the current conditions into account, which includes wind speed/direction and any mountains that may get in your way. Successfully destroying your opponents gun will earn you a point, and the first player to reach the set number of points wins the game. There are multiple skill levels available which set the amount of time you have to make a shot.</desc>
 		<rating>0.65</rating>
 		<releasedate>01/01/1983</releasedate>
@@ -176,7 +176,7 @@ Thor also has contend with rocks, potholes and pterodactyls (they'll eat his whe
 	</game>
 	<game id="38072" source="ScreenScraper.fr">
 		<path>./Boulder Dash (USA).zip</path>
-		<name>Boulder Dash</name>
+		<name>鑽石衝擊</name>
 		<desc>You're Rockford and have to dig through monster infested caves in search of diamonds. In each level you must collect a certain number of these diamonds, in order to open a portal to the next stage. Enemies can be squashed by falling boulders, which are released when the ground below them is removed or they are pushed onto empty ground, but be careful because these can also squash you. In later levels, difficulty is increased by many puzzle elements and shorter time limits.</desc>
 		<rating>0.6</rating>
 		<releasedate>01/01/1984</releasedate>
@@ -767,7 +767,7 @@ adjust it so that you land on your feet. The last floor you should be able to ha
 	</game>
 	<game id="38099" source="ScreenScraper.fr">
 		<path>./Frogger (USA).zip</path>
-		<name>Frogger</name>
+		<name>熱門遊戲合輯</name>
 		<desc>Your task in this arcade conversion is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.
 
 The road is full of cars and trucks, at variable speeds. The river water itself is fatal, as are the snakes which hover within on later levels. Frogger must use the arrangement of logs, turtles (which are only there for a short time) and alligators (but stay away form their faces), and then jump into one of the open home-cells, ideally one containing a fly for extra points. Once all holes have been filled, you move onto the next, harder, level.</desc>
@@ -1042,7 +1042,7 @@ Gameplay involves much strategic jumping and knife play (in the river/crocodile 
 	</game>
 	<game id="38113" source="ScreenScraper.fr">
 		<path>./Keystone Kapers (USA).zip</path>
-		<name>Keystone Kapers</name>
+		<name>警匪樂坊</name>
 		<desc>The notorious thief Harry Hooligan is on the loose! You play the part of Officer Keystone Kelly, sent in to capture Harry. Harry is trapped in a four story mall, and is running as fast as he can to reach the exit at the top. Your job is to catch up to him and send him to prison. You will need to use either the escalators at the end of each floor, or the elevator in the middle to go from floor to floor. The escalators may be further away, but the elevator moves pretty slowly so you will need to decide which route will be faster in getting you closer to your goal. If Harry can make it to the top before you catch him, you will have to retry that level. Harry has no intention of letting you catch him easily, and is hurling everything he can find in an attempt to slow you down. Shopping carts, bouncing balls, biplanes, and more will all be flying past on the screen and will either slow you down or send you back to the beginning if you get hit. As the levels progress, Harry will run faster and faster, and more objects will be tossed your way to duck and jump over.</desc>
 		<rating>0.7</rating>
 		<releasedate>01/01/1984</releasedate>
@@ -1373,7 +1373,7 @@ Nova Blast is a single player game with 3 difficulty levels.</desc>
 	</game>
 	<game id="38127" source="ScreenScraper.fr">
 		<path>./Omega Race (USA, Europe).zip</path>
-		<name>Omega Race</name>
+		<name>奧米加賽車</name>
 		<desc>This is a remake of a Bally-Midway arcade game.  You control a spaceship and shoot down the enemy "Droid" ships that attack you.  Your ship must survive Droid-dropped mines too--but you can shoot them too.  The last ship of the Droid flights goes into a spiraling pattern.
 
 There is no end to this game.  Rather, it is a game in which you try to get the highest score, or complete the highest number of levels.
@@ -1475,7 +1475,7 @@ and soon become their old selves, fast and sneaky, to try to put an end to Pac-M
 	</game>
 	<game id="38133" source="ScreenScraper.fr">
 		<path>./Popeye (USA).zip</path>
-		<name>Popeye</name>
+		<name>大力水手 2</name>
 		<desc>Popeye is a conversion of the arcade action/platform game. As Popeye, you are trying to win Olive Oyl's love! She is at the top of the screen dropping tokens of her love, and you need to collect them before they hit the ground. After you have collected the required number of items, you can move on to the next, more difficult level. There are many obstacles trying to stop you from completing your task, though! Brutus wanders around the screen and is constantly trying to catch you. If you collect a can of spinach, you can temporarily knock him out, otherwise Brutus will knock you out. Other objects such as bottles or birds are also flying around the screen and will cause you to lose one of your lives if you are hit. Each level features a different layout of platforms and ladders, and will have you collecting different items as they float towards the bottom of the screen!</desc>
 		<rating>0.8</rating>
 		<releasedate>01/01/1983</releasedate>
@@ -1594,7 +1594,7 @@ The plane is armed with a cannon with unlimited ammo. It can be used to destroy 
 	</game>
 	<game id="38138" source="ScreenScraper.fr">
 		<path>./Robin Hood (USA).zip</path>
-		<name>Robin Hood</name>
+		<name>羅賓漢</name>
 		<desc>Robin Hood is an action game where you need to rescue Maid Marian who is being held by the Sheriff of Nottingham in a castle (and while you're at it, steal some gold to give to the poor)! Gameplay takes place on several different screens which have different objectives. First you will need to make your way through Sherwood Forest; numerous henchman are hiding here, so use your arrows to shoot them. Surviving the forest, the next section takes place outside of the castle; naturally, numerous henchman guard the castle gate. While dodging incoming arrows, you need to shoot enough of the henchman to cause the gate to open. Once it opens, you can enter the castle for the final scene. Inside the castle you will be able to find Maid Marian behind one of the many doors, and gold behind another. The rest of the doors have henchman hiding behind them, but if you can find the Maid Marian or the gold then you win this round and the game repeats at a tougher skill level.</desc>
 		<releasedate>01/01/1984</releasedate>
 		<developer>Xonox</developer>
@@ -2050,7 +2050,7 @@ Fielding is simple, using the Super Action controllers, players have 4 buttons t
 	</game>
 	<game id="38159" source="ScreenScraper.fr">
 		<path>./Tapper (USA, Europe).zip</path>
-		<name>Tapper</name>
+		<name>酒吧服務生</name>
 		<desc>Tapper is an action game where you're a beer tapper (barman) and have to serve beer to demanding customers. There are four customers, each has its own lane lengthier than the previous one, whom you have to keep at bay. If they reach the end of the lane without receiving their beer, you're a goner; if you miss one and accidentally spill beer needlessly you lose a life and should one of them throw you back the mug and you fail to catch it, you lose a life as well.
 
 Occasionally a bizarre icon will appear on one of the lines and, should you grab it, will invoke a "cabarette"-style show which will keep some of the customers occupied.

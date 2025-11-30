@@ -56,7 +56,7 @@ Your mission ... stop enemy trains, intercept the terrible german V-1 buzz bombs
 	</game>
 	<game id="37997" source="ScreenScraper.fr">
 		<path>./Asteroids (1987) (Atari).zip</path>
-		<name>Asteroids</name>
+		<name>小行星</name>
 		<desc>Asteroids is a conversion of the arcade game of the same name.
 
 Play the role of a spaceship pilot trapped in a gigantic asteroid cloud and pulverize incoming asteroids with the ship's photon cannon.  When all asteroids are destroyed, the play can them move to the next round. In addition to asteroid, the player will also face an Alien Robot Saucer which shoots randomly across the screen.
@@ -250,7 +250,7 @@ Originally released for Apple II home computers, Choplifter was later ported to 
 	</game>
 	<game id="38006" source="ScreenScraper.fr">
 		<path>./Commando (1989) (Atari).zip</path>
-		<name>Commando</name>
+		<name>突擊隊</name>
 		<desc>Several levels await your super-tough Commando in this arcade conversion. Armed with only a standard rifle and a few grenades you must take on hordes of Nazis. Some are wandering around in the open, while others have picked out hiding places, which you must approach from certain angles. Trees, rivers and bridges create a varied combat-like terrain and must be incorporated into your thinking. Extra grenades can be collected, and will definitely be required, as they allow you to kill form distance and thus avoid some enemy shots.</desc>
 		<image>./media/screenshot/Commando (1989) (Atari).png</image>
 		<rating>0.8</rating>
@@ -369,7 +369,7 @@ Donkey Kong is also notable for being one of the first complete narratives in vi
 	</game>
 	<game id="38015" source="ScreenScraper.fr">
 		<path>./Double Dragon (1989) (Activision).zip</path>
-		<name>Double Dragon</name>
+		<name>雙截龍</name>
 		<desc>Set in a post-apocalyptic New York, Double Dragon is the story of Billy and Jimmy Lee, twin brothers trained in the fighting style of Sou-Setsu-Ken. Together, they manage a small martial arts training school, teaching their students in self-defense. One day, Billy's girlfriend, Marian, is kidnapped off the street by the "Black Warriors", a savage street gang led by a man named Willy. The Black Warriors demand the Lee brothers disclose their martial arts secrets in exchange for Marian's freedom. The Lee brothers set out on a rescue mission to crush the Black Warriors and save Marian.
 
 Using whatever techniques they have at their disposal, from the basic punches and kicks to the invulnerable elbow strike, as well any weapon that comes into their hands, the Lee brothers must pursue the gang through the city slum, industrial area and the forest before reaching their hideout to confront the big boss, Willy.</desc>
@@ -630,7 +630,7 @@ Thomas is able to move left and right, jump, duck, and punch and kick. Enemy pro
 	</game>
 	<game id="38029" source="ScreenScraper.fr">
 		<path>./Mario Brothers (1988) (Atari).zip</path>
-		<name>Mario Bros.</name>
+		<name>瑪利歐兄弟</name>
 		<desc>Mario and Luigi, the best plumbers in the world, have a real job on their hands. A host of characters have taken over the sewers, and the brothers must clear them out of the pipes.
 
 The platform puzzle which first introduced Luigi to the world has both single and multiplayer action with two differing game types, but with the same objective.
@@ -686,7 +686,7 @@ Beginner and Expert difficulty options are given - the latter mode has more pron
 	</game>
 	<game id="38032" source="ScreenScraper.fr">
 		<path>./Meltdown (1990) (Atari).zip</path>
-		<name>Meltdown</name>
+		<name>熔毀</name>
 		<desc>Meltdown is an arcade action game similar to Reactor. On the screen you will see a representation of a nuclear reactor; numerous control rods are located in the center of the screen, with the reactor walls around the edges. Inside the reactor are numerous (and dangerous) particles which will damage the control rods if they collide. Using the light gun, you need to shoot and destroy the various particles  before the control rods are destroyed. As the control rods take damage, the walls of the reactor will slowly cave inward, decreasing the amount of space available. From time to time power crystals may appear; if shot, these will provide bonuses such as extra points, control rod repair, temporarily freeze the particles, more powerful shots, and more. The game ends when the control rods have been completely destroyed causing the reactor to meltdown.</desc>
 		<image>./media/screenshot/Meltdown (1990) (Atari).png</image>
 		<releasedate>01/01/1990</releasedate>
@@ -796,7 +796,7 @@ Like the original Donkey Kong, the earlier 1980's console versions do not have a
 	</game>
 	<game id="44470" source="ScreenScraper.fr">
 		<path>./Rescue on Fractalus (1984) (Atari).zip</path>
-		<name>Rescue on Fractalus</name>
+		<name>法拉克塔勒斯救援</name>
 		<desc>Jet through the cavernous canyons of Fractalus?--in panormic realism. Your fellow pilots are waiting desperately for you. But so are the vicious Jaggi? aliens. You never know what's going to turn up--or where--until it happens...</desc>
 		<image>./media/screenshot/Rescue on Fractalus (1984) (Atari).png</image>
 		<releasedate>01/01/1984</releasedate>
@@ -907,7 +907,7 @@ One difference in this game that sets it apart from others of the same type is t
 	</game>
 	<game id="38042" source="ScreenScraper.fr">
 		<path>./Rampage (1989) (Activision).zip</path>
-		<name>Rampage</name>
+		<name>毀滅大作戰</name>
 		<desc>George, Lizzy and Ralph were just ordinary Americans, until an experiment went wrong, turning them into a Gorilla, Lizard and Werewolf respectively. Following this, the three of them plan to go round destroying buildings, and up to 3 human players can join in.
 
 Smashing at the edges of the buildings for long enough will make them collapse. The police and military are after you, and will shoot at you, so try to destroy them (failing that, you can avoid the bullets). You will need to eat regularly, with things like plants on offer, to avoid shrinking back to being human</desc>
@@ -1050,7 +1050,7 @@ Championship. Super Skateboardin' is a straightforward game from the designer of
 	</game>
 	<game id="38052" source="ScreenScraper.fr">
 		<path>./Tank Command (1988) (Froggo).zip</path>
-		<name>Tank Command</name>
+		<name>坦克指揮官</name>
 		<desc>Tank Command is a vertically scrolling action game. You control a tank on a mission to capture the enemy flag as well as earn as many points as possible. To do this, you will need to blast your way through their defenses on three levels of increasing difficulty. Blocking your progress are enemy tanks, pillboxes, missiles, jeeps, infantry, huts, and more, all of which earn you points when destroyed. Your tank is equipped with a limited amount of fuel and ammo, however it can be replenished occasionally by collecting the bonus icons when they appear on the screen. If you can make it past all of the obstacles and capture the flag, then you win the game!</desc>
 		<image>./media/screenshot/Tank Command (1988) (Froggo).png</image>
 		<rating>0.4</rating>
@@ -1174,7 +1174,7 @@ Towers are linked together via a voyage through the sea in your trusty MK.7 subm
 	</game>
 	<game id="38058" source="ScreenScraper.fr">
 		<path>./Xenophobe (1989) (Atari).zip</path>
-		<name>Xenophobe</name>
+		<name>異形恐懼者</name>
 		<desc>Xenos.  The very name strikes fear into every colonist's heart.  A distress call is received from space stations orbiting your homeworld, then silence.  A single ship escapes, piloted by a battered man who tells the tale of pods that hatch into acid-spitting Xenos.
 
 A small band of engineers has been dispatched to combat the Xeno threat before it takes over all the space stations and, eventually, your homeworld.  Assemble your band of engineers and fight the Xenos on each station, striving to either clear it or abandon it.  You start out with a standard issue laser, but can pick up additiona weapons as you find them, including Phasers, Lightning Rifles, Poofer guns, and bombs.
@@ -1194,7 +1194,7 @@ Xenophobe was originally an arcade coin-op by Bally/Midway, released in 1987.  G
 	</game>
 	<game id="38059" source="ScreenScraper.fr">
 		<path>./Xevious (1987) (Atari).zip</path>
-		<name>Xevious</name>
+		<name>鐵板陣</name>
 		<desc>It is discovered that the actual aliens on earth are human beings, and the ruthless Xevions want their planet back; but without us. Our only defense is the prototype Solvalou Fighter Plane. With this plane we can fight the deadly Domogram Rovers; the Toroid Patrol Fleets and the Zoshi Death Squads. 
 
 Xevious is a vertically scrolling shooter based on the 1982 coin-op of the same name. It was innovative in that it was the first vertically scrolling shooter to feature dual-level attacks; both ground and air.</desc>

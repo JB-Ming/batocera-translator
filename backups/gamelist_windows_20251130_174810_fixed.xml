@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+	<game>
+		<path>./Ri-li.wsquashfs</path>
+		<name>[中文]Ri-li - Windows arcade/reflexion game with toy trains</name>
+		<desc>Ri-li is an arcade/reflexion game licensed under the GPL (General Public License). You drive a toy wooden train engine in many levels and you must collect all the coaches to win.</desc>
+		<image>./images/Ri-li.png</image>
+		<video>./videos/Ri-li.mkv</video>
+		<rating />
+		<releasedate>20071101T000000</releasedate>
+		<developer>Dominique Roux-Serret</developer>
+		<publisher>http://ri-li.sourceforge.net</publisher>
+		<genre>Arcade</genre>
+		<players>1</players>
+		<lang>en</lang>
+	</game>
+	<game id="251499">
+		<path>./Plants vs Zombies/PlantsVsZombies.exe</path>
+		<name>[中文]Plants vs Zombies</name>
+		<desc>Plants vs. Zombies belongs to the "tower defense" sub-genre of casual games, where the objective is to deploy a series of stationary weapons to protect a structure against hordes of enemies. Plants provide the artillery, and can be bought with sun power, the game's currency. The enemies are zombies invading a suburban lawn. At the start of each level, the player starts to plant the available seeds on the lawn in a strategic manner. Zombies slowly begin to appear from the street at the right side, just a few initially, and must be destroyed before they can reach the house on the other side. Sun power icons falls from the sky randomly, and must be collected with the mouse to increase the funds. The sunflower can be planted to generate extra units of sun power, but doesn't have any attack power against the invading undead. Besides their cost, the seed packs take some time to recharge after being used.</desc>
+		<image>./images/PlantsVsZombies-image.png</image>
+		<marquee>./images/PlantsVsZombies-marquee.png</marquee>
+		<thumbnail>./images/PlantsVsZombies-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>20090818T000000</releasedate>
+		<developer>PopCap Games</developer>
+		<publisher>PopCap Games</publisher>
+		<genre>Strategy</genre>
+		<players>1</players>
+		<playcount>1</playcount>
+		<lastplayed>20251026T020710</lastplayed>
+		<md5>29e703d8b36df8cc8f5bb65c991557bd</md5>
+		<gametime>102</gametime>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20251026T000405" />
+	</game>
+	<game>
+		<path>./SOR4/SOR4.exe</path>
+		<name>[中文]SOR4</name>
+		<playcount>2</playcount>
+		<lastplayed>20251026T002932</lastplayed>
+		<gametime>55</gametime>
+		<lang>en</lang>
+	</game>
+	<game>
+		<path>./251026-003036_SOR4.wine</path>
+		<name>[中文]251026-003036_SOR4</name>
+		<playcount>1</playcount>
+		<lastplayed>20251026T003917</lastplayed>
+		<gametime>12</gametime>
+		<lang>en</lang>
+	</game>
+</gameList>
