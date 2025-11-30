@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
 	<game>
 		<path>./SOR2X_V2.1.pak</path>
-		<name>Streets of Rage 2X</name>
+		<name>[中文]Streets of Rage 2X</name>
 		<desc>A fan made remake of Streets of Rage 2 by Kradus.</desc>
 		<image>./images/SOR2X_V2.1-image.png</image>
 		<video>./videos/SOR2X_V2.1-video.mp4</video>

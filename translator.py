@@ -150,6 +150,22 @@ class GamelistTranslator:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
 
+        # 如果沒有提供 API Keys，嘗試從 config.json 載入
+        if not groq_api_key or not gemini_api_key:
+            config_file = Path("config.json")
+            if config_file.exists():
+                try:
+                    with open(config_file, 'r', encoding='utf-8') as f:
+                        config = json.load(f)
+                    if not groq_api_key:
+                        groq_api_key = config.get("groq_api_key")
+                    if not gemini_api_key:
+                        gemini_api_key = config.get("gemini_api_key")
+                    if not deepl_api_key:
+                        deepl_api_key = config.get("deepl_api_key")
+                except Exception as e:
+                    print(f"警告：無法載入 config.json: {e}")
+
         # 初始化 API 管理器
         self.api_manager = TranslationAPIManager(
             groq_api_key=groq_api_key,
@@ -218,9 +234,29 @@ class GamelistTranslator:
         return {"names": {}, "descriptions": {}}
 
     def save_local_cache(self):
-        """儲存本地快取"""
+        """儲存本地快取（過濾無效翻譯）"""
+        # 清理快取：移除中文對中文、英文對英文的無意義翻譯
+        cleaned_cache = {
+            "names": {},
+            "descriptions": {}
+        }
+
+        for key, value in self.local_cache.get("names", {}).items():
+            # 只保留有效的翻譯（英文→中文，且不相同）
+            if value and key != value:
+                # 如果原文是英文且譯文是中文，保留
+                if not self.contains_chinese(key) and self.contains_chinese(value):
+                    cleaned_cache["names"][key] = value
+                # 如果原文和譯文都是中文但不同（例如簡繁轉換），也保留
+                elif self.contains_chinese(key) and self.contains_chinese(value) and key != value:
+                    cleaned_cache["names"][key] = value
+
+        for key, value in self.local_cache.get("descriptions", {}).items():
+            if value and key != value:
+                cleaned_cache["descriptions"][key] = value
+
         with open(self.local_cache_file, 'w', encoding='utf-8') as f:
-            json.dump(self.local_cache, f, ensure_ascii=False, indent=2)
+            json.dump(cleaned_cache, f, ensure_ascii=False, indent=2)
 
     def contains_chinese(self, text: str) -> bool:
         """檢查文字是否包含中文字元"""
@@ -603,9 +639,13 @@ class GamelistTranslator:
                     chinese_name = all_batch_results.get(clean_name)
 
                     if chinese_name:
-                        # 加入本地快取
-                        self.local_cache["names"][clean_name] = chinese_name
-                        success_count += 1
+                        # 只儲存有效的英文→中文翻譯到快取
+                        # 避免中文對中文、或相同的無意義翻譯
+                        if (not self.contains_chinese(clean_name) and
+                            self.contains_chinese(chinese_name) and
+                                clean_name != chinese_name):
+                            self.local_cache["names"][clean_name] = chinese_name
+                            success_count += 1
 
                     formatted_name = self.format_game_name(
                         clean_name, chinese_name)
@@ -613,7 +653,11 @@ class GamelistTranslator:
                     if not dry_run:
                         name_elem.text = formatted_name
 
-                    print(f"  {original_name} → {formatted_name}")
+                    # 顯示翻譯結果（清楚顯示英文 → 中文）
+                    if chinese_name:
+                        print(f"  [API] {clean_name} → {chinese_name}")
+                    else:
+                        print(f"  [保留] {clean_name}")
 
                 # 儲存快取
                 if all_batch_results:
@@ -623,22 +667,33 @@ class GamelistTranslator:
 
             # 處理已有快取的遊戲
             cached_count = 0
+            cached_names_to_collect = []
             for game in games:
                 name_elem = game.find('name')
                 if name_elem is not None and name_elem.text:
                     clean_name = self.clean_game_name(name_elem.text)
-                    cached = self.lookup_translation(
-                        clean_name, platform, is_description=False)
 
-                    if cached and clean_name not in games_to_translate:
-                        formatted_name = self.format_game_name(
-                            clean_name, cached)
-                        if not dry_run:
-                            name_elem.text = formatted_name
-                        cached_count += 1
+                    # 只處理不在待翻譯清單中的遊戲
+                    if clean_name not in [g[2] for g in game_elements]:
+                        cached = self.lookup_translation(
+                            clean_name, platform, is_description=False)
+
+                        if cached:
+                            formatted_name = self.format_game_name(
+                                clean_name, cached)
+                            if not dry_run:
+                                name_elem.text = formatted_name
+                            cached_count += 1
+                            cached_names_to_collect.append(
+                                (clean_name, cached))
 
             if cached_count > 0:
                 print(f"\n>> 從快取載入 {cached_count} 個遊戲翻譯")
+                # 顯示前 5 個快取範例
+                for i, (eng, chi) in enumerate(cached_names_to_collect[:5]):
+                    print(f"  [快取] {eng} → {chi}")
+                if cached_count > 5:
+                    print(f"  ... 還有 {cached_count - 5} 個")
 
             updated = len(games_to_translate) + cached_count
 

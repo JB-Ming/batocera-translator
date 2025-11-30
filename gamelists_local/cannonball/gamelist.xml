@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <game>
     <path>./Cannonball.cannonball</path>
-    <name>Cannonball</name>
+    <name>[中文]Cannonball</name>
     <desc>Cannonball is an enhanced OutRun engine</desc>
     <image>./images/Cannonball.png</image>
     <thumbnail>./images/Cannonball-thumb.png</thumbnail>

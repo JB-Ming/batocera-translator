@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
 	<game>
 		<path>./Volgarr.cdi</path>
-		<name>Volgarr</name>
+		<name>[中文]Volgarr</name>
 		<desc>Do you have what it takes to be the greatest Viking Barbarian Lord in the world? Return to the Golden Age of arcade gaming with all-new hardcore action experience that pulls no punches. Playing as Volgarr the Viking, use your sword and spear to slaughter your foes in bloody combat. Battle Gigantic bosses in every world and find secrets that lead to unknown paths. Holding onto Volgarr's gear is key; his very life depends on it.</desc>
 		<image>./images/Volgarr-image.png</image>
 		<video>./videos/Volgarr-video.mp4</video>

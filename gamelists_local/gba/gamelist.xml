@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <game>
     <path>./SpaceTwins.gba</path>
-    <name>Space Twins</name>
+    <name>太空雙胞胎</name>
     <desc>Very professional and solid platform/puzzle game for Gameboy Advance.</desc>
     <image>./images/SpaceTwins-image.png</image>
     <video>./videos/SpaceTwins-video.mp4</video>

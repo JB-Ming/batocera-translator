@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <game>
     <path>./Old-Towers.bin</path>
-    <name>Old Towers</name>
+    <name>[中文]Old Towers</name>
     <desc>You play as a little explorers in a towers full of deadly traps and ugly skullz. Your only weapons to help you win: quick-thinking and skill.</desc>
     <image>./images/Old-Towers-image.png</image>
     <video>./videos/Old-Towers-video.mp4</video>

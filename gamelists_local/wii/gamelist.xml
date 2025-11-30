@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
 	<game>
 		<path>./Legend of Zelda, The - Twilight Princess (USA).wbfs</path>
-		<name>Legend of Zelda, The - Twilight Princess (USA)</name>
+		<name>Legend of Zelda, The - Twilight Princess</name>
 		<playcount>5</playcount>
 		<lastplayed>20251025T184837</lastplayed>
 		<gametime>1215</gametime>

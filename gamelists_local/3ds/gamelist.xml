@@ -84,7 +84,7 @@
 	</game>
 	<game id="11099">
 		<path>./Project X Zone (USA).3ds</path>
-		<name>超級機器人大戰 X-Ω</name>
+		<name>超級機器人大戰 X-Ω 2</name>
 		<sortname>64 =-  Project X Zone (USA)</sortname>
 		<desc>Project X Zone 由 Banpresto 和 Monolith Soft 開發，擁有來自日本最多產的三個視頻遊戲公司的 29 個歷史遊戲系列的 50 多個角色。在 Project X Zone 中，玩家將使用兩個角色組成的團隊（稱為“配對單位”）來探索遊戲中的世界。稱為單人單位的附加角色可以與配對單位組合，以協助單人攻擊的戰鬥，並增強玩家可以執行的攻擊。在整個比賽過程中，ep...</desc>
 		<rating>0.8</rating>
@@ -971,7 +971,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176223">
 		<path>./LEGO Star Wars - The Force Awakens (USA).3ds</path>
-		<name>樂高星際大戰 原力覺醒</name>
+		<name>樂高星際大戰：原力覺醒</name>
 		<desc>樂高星球大戰：原力覺醒標誌著第一大樂高電子遊戲系列的凱旋歸來，讓粉絲們以前所未有的方式沉浸在全新的星球大戰冒險中。玩家可以以只有樂高才能提供的方式重溫這部大片中的史詩般的動作，其中包含《星球大戰：原力覺醒》的所有故事情節，並通過巧妙而詼諧的樂高鏡頭重述。該遊戲還將提供獨家可玩內容，帶領玩家踏上《星球大戰：第六集：回歸》之間的冒險……</desc>
 		<image>./images/LEGO Star Wars - The Force Awakens (USA)-image.png</image>
 		<marquee>./images/LEGO Star Wars - The Force Awakens (USA)-marquee.png</marquee>
@@ -985,7 +985,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="10992">
 		<path>./Monster Hunter 3 Ultimate (Europe).3ds</path>
-		<name>魔物獵人3 終極版</name>
+		<name>魔物獵人3G</name>
 		<desc>廣受歡迎的奇幻動作系列《怪物獵人》自 2004 年推出以來，現已成為世界上最具標誌性的遊戲系列之一，全球銷量超過 2100 萬份。玩家扮演獵人的角色，被派去探索《怪物獵人》宇宙中的定居點，在旅途中完成尋找和殺死怪物的任務，同時提高技能並獲得裝備升級。該系列的最新版本包含許多具有挑戰性的怪物和超過 200 個任務...</desc>
 		<image>./images/Monster Hunter 3 Ultimate (Europe)-image.png</image>
 		<marquee>./images/Monster Hunter 3 Ultimate (Europe)-marquee.png</marquee>
@@ -1024,7 +1024,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11241">
 		<path>./Ace Combat - Assault Horizon Legacy (Europe).3ds</path>
-		<name>空戰奇兵 突擊地平線 遺產</name>
+		<name>空戰奇兵：突擊地平線 遺產</name>
 		<desc>皇牌空戰：突擊地平線遺產是一款飛行模擬/街機戰鬥機格鬥動作遊戲。該遊戲通常以第三人稱（在飛機後面）或第一人稱（在駕駛艙視圖內）進行。它具有系列支柱，例如眾多可選擇的飛機以及購買零件和武器來定制戰鬥機的能力。《突擊地平線：遺產》與當前主機版《突擊地平線》的不同之處在於，遊戲玩法更傾向於街機風格的遊戲……</desc>
 		<image>./images/Ace Combat - Assault Horizon Legacy (Europe)-image.png</image>
 		<marquee>./images/Ace Combat - Assault Horizon Legacy (Europe)-marquee.png</marquee>
@@ -1047,7 +1047,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11031">
 		<path>./Kingdom Hearts 3D - Dream Drop Distance (Europe).3ds</path>
-		<name>王國之心3D 夢降深處</name>
+		<name>王國之心 3D：夢降深處</name>
 		<desc>隨著邪惡的 Xehanort 捲土重來的威脅，米奇國王和 Yen Sid 開始準備對抗他。他們的第一步是將鍵刃持有者 Sora 和 Riku 轉變為鍵刃大師。Sora 和 Riku 接到了完成精通標記考試的任務，完成後將幫助他們獲得強大的力量來幫助對抗 Xehanort。這項測試不會那麼容易，因為兩人必須一起冒險進入七個睡眠世界並找到睡眠的鑰匙孔以喚醒......</desc>
 		<image>./images/Kingdom Hearts 3D - Dream Drop Distance (Europe)-image.png</image>
 		<marquee>./images/Kingdom Hearts 3D - Dream Drop Distance (Europe)-marquee.png</marquee>
@@ -1085,7 +1085,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11148">
 		<path>./Mario &amp; Sonic at the London 2012 Olympic Games (Europe).3ds</path>
-		<name>瑪利歐與索尼克 倫敦奧運</name>
+		<name>瑪利歐與索尼克在倫敦奧運</name>
 		<desc>2012 年倫敦奧運會上首次登陸任天堂全新掌上系統的《馬里奧與索尼克》包含 50 多個原創奧運主題賽事，可在單人和多人模式下進行。裸眼 3D 視覺效果和獨特的控制系統為《馬里奧與索尼克》宇宙帶來了全新的維度，這意味著有很多新的、令人興奮的方式來爭奪令人垂涎的金牌！</desc>
 		<image>./images/Mario &amp; Sonic at the London 2012 Olympic Games (Europe)-image.png</image>
 		<marquee>./images/Mario &amp; Sonic at the London 2012 Olympic Games (Europe)-marquee.png</marquee>
@@ -1145,7 +1145,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176104">
 		<path>./Fire Emblem Echoes Shadows of Valentia (USA).cxi</path>
-		<name>聖火降魔錄 Echoes 另一位英雄王</name>
+		<name>火焰紋章 回聲 另一位英雄王</name>
 		<desc>兩支軍隊同命運的故事
 
 在一個被戰神撕裂的大陸上，引導兩支軍隊進行殘酷的戰術戰鬥——這款重新想像的角色扮演史詩入侵了西方！揭開阿爾姆和塞莉卡相互交織的故事，與敵人交戰，擊退巨龍，並探索 3D 地下城。當你掌握了現代與傳統火焰紋章™遊戲玩法的融合時，你的實力將會不斷增強。
@@ -1163,7 +1163,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="10980">
 		<path>./Pokemon Omega Ruby (USA).3ds</path>
-		<name>精靈寶可夢 終極紅寶石</name>
+		<name>精靈寶可夢 紅寶石</name>
 		<desc>在這款神奇寶貝紅寶石版的增強版重製版中，玩家將穿越豐緣地區，踏上成為神奇寶貝大師的旅程。與原版一樣，目標是挑戰豐緣聯盟的八個神奇寶貝道館，並從道館領袖那裡獲得徽章，然後挑戰精英四強和冠軍。然而，當邪惡的岩漿隊試圖通過復活古老的傳奇神奇寶貝固拉多來擴張大陸時，世界正面臨危險。
 
 除了技術升級之外，遊戲...</desc>
@@ -1185,7 +1185,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11072">
 		<path>./Paper Mario - Sticker Star (Europe).3ds</path>
-		<name>紙片瑪利歐 超級貼紙</name>
+		<name>紙片瑪利歐：超級貼紙</name>
 		<desc>在一年一度的貼紙節當天，鮑澤決定搞個惡作劇，將六張皇家貼紙撒在了整個土地上。為了取回這些貼在鮑澤和他的部下身上的神秘魔法貼紙，馬里奧與貼紙仙子克斯蒂一起踏上了冒險之旅，參觀了世界各地的草原、沙漠、森林、雪山和火山。</desc>
 		<image>./images/Paper Mario - Sticker Star (Europe)-image.png</image>
 		<marquee>./images/Paper Mario - Sticker Star (Europe)-marquee.png</marquee>
@@ -1267,7 +1267,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="12074">
 		<path>./Mario and Sonic at the Rio 2016 Olympic Games (Europe).3ds</path>
-		<name>瑪利歐與索尼克 里約奧運</name>
+		<name>瑪利歐與索尼克在里約奧運</name>
 		<desc>與馬里奧和索尼克一起隨時隨地競爭！所有你最喜歡的馬里奧？索尼克和索尼克角色已準備好加入 2016 年奧運會主辦國里約熱內盧的歡樂之旅。然後參加足球、乒乓球等一系列超強賽事的便攜式賽事，在公路上展開競爭，或者在具有挑戰性的高爾夫比賽中測試您的技能。參加在主辦城市里約熱內盧舉辦的有趣而激動人心的活動。與馬里奧、索尼克和您最喜歡的角色一起參加足球等新的挑戰性活動......</desc>
 		<image>./images/Mario and Sonic at the Rio 2016 Olympic Games (Europe)-image.png</image>
 		<marquee>./images/Mario and Sonic at the Rio 2016 Olympic Games (Europe)-marquee.png</marquee>
@@ -1288,7 +1288,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11048">
 		<path>./Mario Party - Island Tour (Europe).3ds</path>
-		<name>瑪利歐派對 島嶼之旅</name>
+		<name>瑪利歐派對：島嶼之旅</name>
 		<desc>《馬里奧派對：島嶼之旅》讓您使用 Nintendo 3DS 系統享受旅途的樂趣！
 
 在全新的終極《馬里奧派對》中與朋友和家人對決——這是一款充滿遊戲可能性的便攜式迷你游戲盛宴。如果您以前從未玩過《馬里奧派對》遊戲，那麼您一定會大飽眼福。
@@ -1312,7 +1312,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="12069">
 		<path>./Dragon Quest VIII - Journey of the Cursed King (USA).cxi</path>
-		<name>勇者鬥惡龍VIII 空與海與大地與被詛咒的公主</name>
+		<name>勇者鬥惡龍VIII</name>
 		<desc>特羅丹王國的宮廷小丑杜爾馬格斯偷走了封印在皇家城堡下方的強大魔法權杖。杜爾馬格斯利用權杖的力量摧毀了城堡，對王國及其人民下了詛咒，並將特羅德國王變成了巨魔，公主變成了馬。唯一倖存的城堡守衛與國王、公主、改過自新的強盜楊格斯以及其他幾個同伴一起踏上旅程，尋找邪惡的小丑和打破詛咒的方法。
 
 勇者鬥惡龍 V..</desc>
@@ -1373,7 +1373,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11392">
 		<path>./Pac-Man &amp; Galaga Dimensions (Europe).3ds</path>
-		<name>小精靈與快打旋風 次元</name>
+		<name>小精靈與快打旋風：次元</name>
 		<desc>PAC-MAN 和 Galaga 將他們的標誌性遊戲玩法帶入令人興奮的 3D 3D 遊戲中，為 Nintendo 3DS 推出了令人興奮的六款遊戲套裝！享受經典熱門 PAC-MAN、PAC-MAN 冠軍版、Galaga 和 Galaga Legions，或者玩專為 Nintendo 3DS 開發的兩款全新遊戲。在 PAC-MAN Tilt 中，通過傾斜控制移動 PAC-MAN 通過充滿障礙物、平台和幽靈的舞台。腳蹼、平台和動力丸幫助 PAC-MAN 跳躍、翻轉、擺動和吃食，直至終點線。擺脫空間...</desc>
 		<image>./images/Pac-Man &amp; Galaga Dimensions (Europe)-image.png</image>
 		<marquee>./images/Pac-Man &amp; Galaga Dimensions (Europe)-marquee.png</marquee>
@@ -1497,7 +1497,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11151">
 		<path>./Metroid - Samus Returns (USA).cxi</path>
-		<name>密特羅德 薩姆斯歸來</name>
+		<name>密特羅德：薩姆斯歸來</name>
 		<desc>《銀河戰士：薩姆斯歸來》是一款由 MercurySteam 和任天堂合作開發的橫向捲軸動作冒險視頻遊戲，後者還為任天堂 3DS 手持遊戲機發行了該遊戲。作為科幻小說《銀河戰士》系列的一部分，該遊戲是對 1991 年 Game Boy 遊戲《銀河戰士 II：薩姆斯歸來》的重新演繹，於 2017 年 9 月 15 日在全球發行。該遊戲講述了系列主角薩姆斯·阿蘭 (Samus Aran) 被銀河聯邦派去消滅寄生銀河戰士的故事……</desc>
 		<image>./images/Metroid - Samus Returns (USA)-image.png</image>
 		<marquee>./images/Metroid - Samus Returns (USA)-marquee.png</marquee>
@@ -1517,7 +1517,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11087">
 		<path>./Etrian Odyssey 2 Untold - The Fafnir Knight (Europe) Decrypted.3ds</path>
-		<name>世界樹迷宮2 法夫納騎士</name>
+		<name>世界樹迷宮2：法夫納騎士</name>
 		<desc>Etrian Odyssey 2 Untold - 法夫納騎士是 Etrian Odyssey 的 Untold 衍生系列的延續。這款《Etrian Odyssey Untold》遊戲是原版 Nintendo DS 遊戲《Etrian Odyssey II：拉加德英雄》的升級版和增強版。
 
 與《Etrian Odyssey Untold：千禧年女孩》一脈相承，這款 Untold 遊戲具有原版 Nintendo DS 遊戲的增強版本，玩家可以在“經典模式”下玩該遊戲，也可以探索法夫尼爾騎士（法夫納騎士）的神秘面紗。</desc>
@@ -1569,7 +1569,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176337">
 		<path>./Pokemon Super Mystery Dungeon (USA).3ds</path>
-		<name>精靈寶可夢 超級不可思議迷宮</name>
+		<name>精靈寶可夢：超級不可思議迷宮</name>
 		<desc>終極寶可夢不可思議的迷宮！準備好迎接一場盛大的冒險吧，你將成為一名神奇寶貝，與傳奇和神話的神奇寶貝一起戰鬥，幫助拯救世界！與神奇寶貝交朋友，與它們一起探索不斷變化的神秘地下城！玩家突然變成了神奇寶貝，並被傳送到只有神奇寶貝居住的世界。從 20 只 Pokemon 中，包括核心 RPG Pokemon 遊戲的入門者以及皮卡丘和利歐魯，您可以選擇您的 Pokemon 和您的伙伴......</desc>
 		<image>./images/Pokemon Super Mystery Dungeon (USA)-image.png</image>
 		<marquee>./images/Pokemon Super Mystery Dungeon (USA)-marquee.png</marquee>
@@ -1589,7 +1589,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176088">
 		<path>./Dragon Ball - Fusions (USA).3ds</path>
-		<name>七龍珠 融合</name>
+		<name>七龍珠：融合</name>
 		<desc>Dragon Ball Fusions 是一款 RPG 動作遊戲，結合了戰鬥、自定義和收集元素，將 Dragon Ball 提升到了一個新的水平。在這個新世界中，玩家將發現強大的物品，尋找可以成為盟友的戰士，並組建團隊參加戰鬥，看看誰是最好的戰士。戰鬥系統結合了策略和實時動作，為粉絲們帶來有趣而獨特的龍珠體驗。</desc>
 		<image>./images/Dragon Ball - Fusions (USA)-image.png</image>
 		<marquee>./images/Dragon Ball - Fusions (USA)-marquee.png</marquee>
@@ -1606,7 +1606,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176215">
 		<path>./Legends of Oz - Dorothy's Return (USA).3ds</path>
-		<name>綠野仙蹤 桃樂絲歸來</name>
+		<name>綠野仙蹤：桃樂絲歸來</name>
 		<desc>多蘿西回來了！
 由於邪惡的小丑，奧茲國再次陷入麻煩！一個名叫小丑的新反派出現了，並開始綁架很多奧茲國的傳奇人物！稻草人、獅子、鐵皮人都被他的飛猴抓走了，現在又被強行關押在一起！多蘿西需要招募一些新同伴來幫助她到達翡翠城。探索令人興奮的奧茲國新大陸，您可以幫助多蘿西並成為奧茲國傳奇！</desc>
 		<image>./images/Legends of Oz - Dorothy's Return (USA)-image.png</image>
@@ -1667,7 +1667,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="10996">
 		<path>./Fire Emblem - Awakening (Europe).3ds</path>
-		<name>聖火降魔錄 覺醒</name>
+		<name>火焰紋章：覺醒</name>
 		<desc>《火焰紋章覺醒》將戰鬥策略、大量角色定制和豐富的 3D 電影圖形獨特地融合在一起，吸引了廣泛的遊戲玩家。在這款遊戲中，你將與伊利斯皇后的兄弟、軍隊的指揮官克羅姆一起，進入一個瀕臨戰爭邊緣的奇幻世界。你的職責是帶領一支由伊利斯最優秀的士兵組成的隊伍——騎士、法師、弓箭手等等——對抗掠奪成性的普雷吉亞強盜。為了成功，您需要仔細選擇您的單位...</desc>
 		<image>./images/Fire Emblem - Awakening (Europe)-image.png</image>
 		<marquee>./images/Fire Emblem - Awakening (Europe)-marquee.png</marquee>
@@ -1690,7 +1690,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="10997">
 		<path>./Legend of Zelda, The - A Link Between Worlds (Europe).3ds</path>
-		<name>薩爾達傳說 眾神的三角神力2</name>
+		<name>薩爾達傳說：眾神的三角神力2</name>
 		<desc>兩個世界在 Super NES 經典《塞爾達傳說：眾神的三角力量》世界中展開全新冒險。在這個新編的故事中，林克變成了一幅活生生的畫作，穿越到一個反映海拉爾的黑暗平行維度。征服致命地牢的謎題、陷阱和隱藏房間，將兩個世界從厄運中拯救出來！
 
 這個受人喜愛的自上而下的世界以 3D 形式栩栩如生，是全新故事的完美背景。當林克和他的...</desc>
@@ -1716,7 +1716,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="11000">
 		<path>./Legend of Zelda, The - Ocarina of Time 3D (Europe).3ds</path>
-		<name>薩爾達傳說 時之笛3D</name>
+		<name>薩爾達傳說：時之笛3D</name>
 		<desc>《塞爾達傳說：時之笛 3D》將深受喜愛的《塞爾達傳說》遊戲系列中史詩般的作品的完全重新製作版本帶到了任天堂最新的手持系統 Nintendo 3DS 上。該遊戲將顯著增強的圖形與令人驚嘆的裸眼 3D 視覺效果結合在一起，將英雄林克的大膽冒險帶入生活。流線型的觸摸屏界面和新實現的運動控制提供了新鮮直觀的感覺，讓玩家沉浸在……的故事中。</desc>
 		<image>./images/Legend of Zelda, The - Ocarina of Time 3D (Europe)-image.png</image>
 		<marquee>./images/Legend of Zelda, The - Ocarina of Time 3D (Europe)-marquee.png</marquee>
@@ -1739,7 +1739,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="10990">
 		<path>./Monster.Hunter.4.Ultimate.3ds</path>
-		<name>魔物獵人4 終極版</name>
+		<name>魔物獵人4G</name>
 		<desc>《怪物獵人 4 Ultimate》（在日本稱為《怪物獵人 4G》）是廣受歡迎的《怪物獵人》系列的最新作品，迄今為止該系列在全球的銷量已超過 2800 萬份。在《怪物獵人 4 Ultimate》中，玩家將扮演獵人的角色，與旅行商隊一起探索沿途的新土地和城鎮。這場盛大的冒險將包括數百個任務，以應對各種非凡的生物，這些生物會產生用於武器和裝備的寶貴資源......</desc>
 		<image>./images/Monster.Hunter.4.Ultimate-image.png</image>
 		<marquee>./images/Monster.Hunter.4.Ultimate-marquee.png</marquee>
@@ -1761,7 +1761,7 @@ Puzzler World 2013 進一步推進了大師模式，推出了新的、更艱鉅�
 	</game>
 	<game id="176105">
 		<path>./Fire Emblem - Fates Birthright (USA).3ds</path>
-		<name>聖火降魔錄 if 白夜王國</name>
+		<name>火焰紋章if</name>
 		<desc>一名年輕人成長為追求榮耀的諾爾國家的皇室子弟之一。儘管父親禁止他們離開城堡，但他們仍然和四個兄弟姐妹過著幸福的生活。然而，當他們最終被派往外面的世界時，卻是去星戶執行任務，這是諾爾計劃入侵的一個愛好和平的國家。在那裡，他們得知自己出生於星戶皇室，並在嬰兒時期被諾爾綁架。一位名叫阿祖拉的諾爾公主被劫為人質……</desc>
 		<image>./images/Fire Emblem - Fates Birthright (USA)-image.png</image>
 		<marquee>./images/Fire Emblem - Fates Birthright (USA)-marquee.png</marquee>

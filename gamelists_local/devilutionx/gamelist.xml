@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
 	<game>
 		<path>./diabdat.mpq</path>
-		<name>Diablo 1</name>
+		<name>[中文]Diablo 1</name>
 		<desc>Classic Hack &amp; Slash Action RPG</desc>
 		<image>./images/devilutionx-image.png</image>
 		<releasedate>19970103T000000</releasedate>
@@ -12,7 +12,7 @@
 	</game>
 	<game>
 		<path>./hellfire.mpq</path>
-		<name>Diablo 1: Hellfire</name>
+		<name>[中文]Diablo 1: Hellfire</name>
 		<desc>Classic Hack &amp; Slash Action RPG Expansion Pack</desc>
 		<image>./images/devilutionx-image.png</image>
 		<releasedate>19971125T000000</releasedate>

@@ -8,14 +8,14 @@
   </provider>
   <game id="65774" source="ScreenScraper.fr">
     <path>./[BIOS] Othello Multivision (Japan).zip</path>
-    <name>Othello Multivision (Othello Multivision)</name>
+    <name>Othello Multivision</name>
     <releasedate />
     <image>./media/screenshot/[BIOS] Othello Multivision (Japan).png</image>
     <hidden>true</hidden>
   </game>
   <game id="65728" source="ScreenScraper.fr">
     <path>./007 James Bond (Japan) (v2.6) (Othello Multivision).zip</path>
-    <name>007 James Bond (007 James Bond)</name>
+    <name>007 James Bond</name>
     <desc>007 詹姆斯·邦德是一款由 Tsukuda Original 為​​ SG-1000 開發和發行的射擊遊戲。它是從 Parker Brothers 1983 年的同名遊戲移植而來，該遊戲針對各種美國計算機/遊戲機發行。
 
 007 詹姆斯·邦德是該公司製作的最後一款 SG-1000 遊戲。</desc>
@@ -29,7 +29,7 @@
   </game>
   <game id="65728" source="ScreenScraper.fr">
     <path>./007 James Bond (Japan) (v2.7) (Othello Multivision).zip</path>
-    <name>007 James Bond (007 James Bond)</name>
+    <name>007 James Bond</name>
     <desc>007 詹姆斯·邦德是一款由 Tsukuda Original 為​​ SG-1000 開發和發行的射擊遊戲。它是從 Parker Brothers 1983 年的同名遊戲移植而來，該遊戲針對各種美國計算機/遊戲機發行。
 
 007 詹姆斯·邦德是該公司製作的最後一款 SG-1000 遊戲。</desc>
@@ -43,7 +43,7 @@
   </game>
   <game id="65728" source="ScreenScraper.fr">
     <path>./007 James Bond (Taiwan) (Othello Multivision).zip</path>
-    <name>007 James Bond (007 James Bond)</name>
+    <name>007 James Bond</name>
     <desc>007 詹姆斯·邦德是一款由 Tsukuda Original 為​​ SG-1000 開發和發行的射擊遊戲。它是從 Parker Brothers 1983 年的同名遊戲移植而來，該遊戲針對各種美國計算機/遊戲機發行。
 
 007 詹姆斯·邦德是該公司製作的最後一款 SG-1000 遊戲。</desc>
@@ -57,7 +57,7 @@
   </game>
   <game id="65692" source="ScreenScraper.fr">
     <path>./Bank Panic (Japan).zip</path>
-    <name>Bank Panic (Bank Panic)</name>
+    <name>Bank Panic</name>
     <desc>Bank Panic是一款由三立公司開發、世嘉於1984年製造的街機射擊遊戲。後來被世嘉移植到SG-1000和世嘉Master系統上。一個名為 West Bank 的未經許可的克隆程序被發布用於多種家用計算機系統。相同的硬件也將用於後來的 Sega/Sanritsu 遊戲 Combat Hawk。
 
 玩家扮演 19 世紀美國的警長，保護銀行免受武裝劫匪的襲擊。有十二扇門圍成一圈，玩家在...</desc>
@@ -72,7 +72,7 @@
   </game>
   <game id="65692" source="ScreenScraper.fr">
     <path>./Bank Panic (Taiwan).zip</path>
-    <name>Bank Panic (Bank Panic)</name>
+    <name>Bank Panic</name>
     <desc>Bank Panic是一款由三立公司開發、世嘉於1984年製造的街機射擊遊戲。後來被世嘉移植到SG-1000和世嘉Master系統上。一個名為 West Bank 的未經許可的克隆程序被發布用於多種家用計算機系統。相同的硬件也將用於後來的 Sega/Sanritsu 遊戲 Combat Hawk。
 
 玩家扮演 19 世紀美國的警長，保護銀行免受武裝劫匪的襲擊。有十二扇門圍成一圈，玩家在...</desc>
@@ -87,7 +87,7 @@
   </game>
   <game id="65694" source="ScreenScraper.fr">
     <path>./Bomb Jack (Japan).zip</path>
-    <name>Bomb Jack (Bomb Jack)</name>
+    <name>炸彈傑克</name>
     <desc>Bomb Jack 是一款由 Tehkan 開發的街機遊戲，後來由世嘉於 1985 年移植到 SG-1000 上。遊戲的目標是收集遊戲場地中的所有炸彈，同時避開怪物。按照特定順序收集炸彈可獲得額外積分。</desc>
     <rating>0.7</rating>
     <releasedate>01/01/1985</releasedate>
@@ -100,7 +100,7 @@
   </game>
   <game id="65694" source="ScreenScraper.fr">
     <path>./Bomb Jack (Taiwan) (Chinese Logo).zip</path>
-    <name>Bomb Jack (Bomb Jack)</name>
+    <name>炸彈傑克</name>
     <desc>Bomb Jack 是一款由 Tehkan 開發的街機遊戲，後來由世嘉於 1985 年移植到 SG-1000 上。遊戲的目標是收集遊戲場地中的所有炸彈，同時避開怪物。按照特定順序收集炸彈可獲得額外積分。</desc>
     <rating>0.7</rating>
     <releasedate>01/01/1985</releasedate>
@@ -113,7 +113,7 @@
   </game>
   <game id="65694" source="ScreenScraper.fr">
     <path>./Bomb Jack (Taiwan) (English Logo).zip</path>
-    <name>Bomb Jack (Bomb Jack)</name>
+    <name>炸彈傑克</name>
     <desc>Bomb Jack 是一款由 Tehkan 開發的街機遊戲，後來由世嘉於 1985 年移植到 SG-1000 上。遊戲的目標是收集遊戲場地中的所有炸彈，同時避開怪物。按照特定順序收集炸彈可獲得額外積分。</desc>
     <rating>0.7</rating>
     <releasedate>01/01/1985</releasedate>
@@ -126,7 +126,7 @@
   </game>
   <game id="102098" source="ScreenScraper.fr">
     <path>./Bomberman Special (Taiwan) (DahJee).zip</path>
-    <name>Bomberman Special (Bomberman Special)</name>
+    <name>Bomberman Special</name>
     <desc>Bomberman Special 是 Bomberman 系列遊戲中的 MSX 版本。它未經許可就被帶到台灣的 SG-1000。</desc>
     <rating>0.85</rating>
     <releasedate>01/01/1986</releasedate>
@@ -139,7 +139,7 @@
   </game>
   <game id="102098" source="ScreenScraper.fr">
     <path>./Bomberman Special (Taiwan).zip</path>
-    <name>Bomberman Special (Bomberman Special)</name>
+    <name>Bomberman Special</name>
     <desc>Bomberman Special 是 Bomberman 系列遊戲中的 MSX 版本。它未經許可就被帶到台灣的 SG-1000。</desc>
     <rating>0.85</rating>
     <releasedate>01/01/1986</releasedate>
@@ -152,7 +152,7 @@
   </game>
   <game id="65695" source="ScreenScraper.fr">
     <path>./Borderline (Japan, Europe).zip</path>
-    <name>Borderline (Borderline)</name>
+    <name>Borderline</name>
     <desc>Borderline是世嘉於1980年開發的一款VIC雙街機遊戲。這是一款射擊遊戲，玩家控制一輛紅色吉普車，必須摧毀敵人的煉油廠。
 
 Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一部分在日本發布。第二個遊戲部分也被用於 Atari 2600 版本的 Thunderground，不過玩家控制的是一輛坦克而不是駕駛吉普車。</desc>
@@ -166,7 +166,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65710" source="ScreenScraper.fr">
     <path>./C_So! (Japan).zip</path>
-    <name>C_So! (C_So!)</name>
+    <name>C_So!</name>
     <desc>C_那麼！(C-SO!) 是一款由 Compile 開發、世嘉發行的 1985 年 SG-1000 遊戲。它是同年 MSX 遊戲的移植版，由 Pony Canyon 發行。
 
 
@@ -186,7 +186,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65710" source="ScreenScraper.fr">
     <path>./C_So! (Taiwan).zip</path>
-    <name>C_So! (C_So!)</name>
+    <name>C_So!</name>
     <desc>C_那麼！(C-SO!) 是一款由 Compile 開發、世嘉發行的 1985 年 SG-1000 遊戲。它是同年 MSX 遊戲的移植版，由 Pony Canyon 發行。
 
 
@@ -206,7 +206,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65697" source="ScreenScraper.fr">
     <path>./Chack'n Pop (Japan).zip</path>
-    <name>Chack'n Pop (Chack'n Pop)</name>
+    <name>Chack'n Pop</name>
     <desc>Chack'n Pop 是一款由 Taito 開發的街機遊戲，隨後於 1985 年移植到 SG-1000。遊戲講述了一個名為 Chack'n 的黃色生物必須穿越幾個迷宮並炸毀怪物的故事。
 
 遊戲的 SG-1000 版本包括街機版本中未見的額外過場動畫和訓練關卡。
@@ -222,7 +222,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65697" source="ScreenScraper.fr">
     <path>./Chack'n Pop (Taiwan).zip</path>
-    <name>Chack'n Pop (Chack'n Pop)</name>
+    <name>Chack'n Pop</name>
     <desc>Chack'n Pop 是一款由 Taito 開發的街機遊戲，隨後於 1985 年移植到 SG-1000。遊戲講述了一個名為 Chack'n 的黃色生物必須穿越幾個迷宮並炸毀怪物的故事。
 
 遊戲的 SG-1000 版本包括街機版本中未見的額外過場動畫和訓練關卡。
@@ -238,7 +238,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65770" source="ScreenScraper.fr">
     <path>./Challenge Derby (Japan) (vA) (16kB) (Othello Multivision).zip</path>
-    <name>Challenge Derby (Challenge Derby)</name>
+    <name>Challenge Derby</name>
     <desc>Challenge Derby 是一款針對 SG-1000 的賽馬游戲。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Tsukuda Original</developer>
@@ -250,7 +250,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65770" source="ScreenScraper.fr">
     <path>./Challenge Derby (Japan) (vA) (40kB) (Othello Multivision).zip</path>
-    <name>Challenge Derby (Challenge Derby)</name>
+    <name>Challenge Derby</name>
     <desc>Challenge Derby 是一款針對 SG-1000 的賽馬游戲。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Tsukuda Original</developer>
@@ -262,7 +262,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65770" source="ScreenScraper.fr">
     <path>./Challenge Derby (Japan) (vB) (Othello Multivision).zip</path>
-    <name>Challenge Derby (Challenge Derby)</name>
+    <name>Challenge Derby</name>
     <desc>Challenge Derby 是一款針對 SG-1000 的賽馬游戲。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Tsukuda Original</developer>
@@ -274,7 +274,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65698" source="ScreenScraper.fr">
     <path>./Champion Baseball (Japan) (16kB).zip</path>
-    <name>Champion Baseball (Champion Baseball)</name>
+    <name>Champion Baseball</name>
     <desc>《冠軍棒球》是一款由ADK開發的街機棒球遊戲。世嘉在全球範圍內發行了該遊戲，並於 1983 年製作了 SG-1000 移植版。 Alpha Denshi 還製作了續作，僅在街機上發行。
 
 據說《冠軍棒球》在日本是一款非常成功的街機遊戲，甚至在日本擁有自己的專用遊戲廳（這種遊戲首次出現在 1978 年的《太空侵略者》中）。</desc>
@@ -288,7 +288,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65698" source="ScreenScraper.fr">
     <path>./Champion Baseball (Japan) (40kB).zip</path>
-    <name>Champion Baseball (Champion Baseball)</name>
+    <name>Champion Baseball</name>
     <desc>《冠軍棒球》是一款由ADK開發的街機棒球遊戲。世嘉在全球範圍內發行了該遊戲，並於 1983 年製作了 SG-1000 移植版。 Alpha Denshi 還製作了續作，僅在街機上發行。
 
 據說《冠軍棒球》在日本是一款非常成功的街機遊戲，甚至在日本擁有自己的專用遊戲廳（這種遊戲首次出現在 1978 年的《太空侵略者》中）。</desc>
@@ -302,7 +302,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65698" source="ScreenScraper.fr">
     <path>./Champion Baseball (Taiwan).zip</path>
-    <name>Champion Baseball (Champion Baseball)</name>
+    <name>Champion Baseball</name>
     <desc>《冠軍棒球》是一款由ADK開發的街機棒球遊戲。世嘉在全球範圍內發行了該遊戲，並於 1983 年製作了 SG-1000 移植版。 Alpha Denshi 還製作了續作，僅在街機上發行。
 
 據說《冠軍棒球》在日本是一款非常成功的街機遊戲，甚至在日本擁有自己的專用遊戲廳（這種遊戲首次出現在 1978 年的《太空侵略者》中）。</desc>
@@ -316,7 +316,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65699" source="ScreenScraper.fr">
     <path>./Champion Billiards (Japan).zip</path>
-    <name>Champion Billiards (Champion Billiards)</name>
+    <name>Champion Billiards</name>
     <desc>Champion Billiards 是一款專為 SG-1000 打造的簡單台球遊戲。這是Compile“月池”系列的第一款遊戲。它沒有在日本以外的地區發行。
 
 與其他冠軍體育遊戲不同，冠軍台球並不能準確代表其運動項目。相反，冠軍台球是一款基於關卡的物理遊戲。每個級別的目標是使用紅色母球擊沉其他球。
@@ -332,7 +332,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65699" source="ScreenScraper.fr">
     <path>./Champion Billiards (Taiwan).zip</path>
-    <name>Champion Billiards (Champion Billiards)</name>
+    <name>Champion Billiards</name>
     <desc>Champion Billiards 是一款專為 SG-1000 打造的簡單台球遊戲。這是Compile“月池”系列的第一款遊戲。它沒有在日本以外的地區發行。
 
 與其他冠軍體育遊戲不同，冠軍台球並不能準確代表其運動項目。相反，冠軍台球是一款基於關卡的物理遊戲。每個級別的目標是使用紅色母球擊沉其他球。
@@ -348,7 +348,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65700" source="ScreenScraper.fr">
     <path>./Champion Boxing (Japan) (MyCard).zip</path>
-    <name>Champion Boxing (Champion Boxing)</name>
+    <name>Champion Boxing</name>
     <desc>Champion Boxing 是一款專為 SG-1000 打造的簡單拳擊遊戲。後來它在基於 SG-1000 的街機硬件的街機中重新發布。MSX 版本於 1985 年發布，由 Pony Canyon 出版。
 
 有五個難度級別，目標是淘汰對手。1 攻擊，2 選擇攻擊。有趣的是，如果有玩家獲勝，Pengo 將會客串。
@@ -364,7 +364,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65700" source="ScreenScraper.fr">
     <path>./Champion Boxing (Japan).zip</path>
-    <name>Champion Boxing (Champion Boxing)</name>
+    <name>Champion Boxing</name>
     <desc>Champion Boxing 是一款專為 SG-1000 打造的簡單拳擊遊戲。後來它在基於 SG-1000 的街機硬件的街機中重新發布。MSX 版本於 1985 年發布，由 Pony Canyon 出版。
 
 有五個難度級別，目標是淘汰對手。1 攻擊，2 選擇攻擊。有趣的是，如果有玩家獲勝，Pengo 將會客串。
@@ -380,7 +380,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65700" source="ScreenScraper.fr">
     <path>./Champion Boxing (Taiwan).zip</path>
-    <name>Champion Boxing (Champion Boxing)</name>
+    <name>Champion Boxing</name>
     <desc>Champion Boxing 是一款專為 SG-1000 打造的簡單拳擊遊戲。後來它在基於 SG-1000 的街機硬件的街機中重新發布。MSX 版本於 1985 年發布，由 Pony Canyon 出版。
 
 有五個難度級別，目標是淘汰對手。1 攻擊，2 選擇攻擊。有趣的是，如果有玩家獲勝，Pengo 將會客串。
@@ -396,7 +396,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65701" source="ScreenScraper.fr">
     <path>./Champion Golf (Japan) (MyCard).zip</path>
-    <name>Champion Golf (Champion Golf)</name>
+    <name>Champion Golf</name>
     <desc>如果週日下雨……那就是冠軍高爾夫日。您可以享受用合適的球桿來擊球的樂趣，與體貼的球童一起在廣闊的球道、長草區、果嶺、池塘和沙坑區域漫步。獲得“小鳥”、“老鷹”或驚人的“一桿進洞”，甚至更神奇的“信天翁”會讓您感覺自己處於世界之巔。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Logitec</developer>
@@ -408,7 +408,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65701" source="ScreenScraper.fr">
     <path>./Champion Golf (Japan).zip</path>
-    <name>Champion Golf (Champion Golf)</name>
+    <name>Champion Golf</name>
     <desc>如果週日下雨……那就是冠軍高爾夫日。您可以享受用合適的球桿來擊球的樂趣，與體貼的球童一起在廣闊的球道、長草區、果嶺、池塘和沙坑區域漫步。獲得“小鳥”、“老鷹”或驚人的“一桿進洞”，甚至更神奇的“信天翁”會讓您感覺自己處於世界之巔。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Logitec</developer>
@@ -420,7 +420,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65702" source="ScreenScraper.fr">
     <path>./Champion Ice Hockey (Japan).zip</path>
-    <name>Champion Ice Hockey (Champion Ice Hockey)</name>
+    <name>Champion Ice Hockey</name>
     <desc>Champion Ice Hockey 是一款專為 SG-1000 打造的簡單冰球遊戲。
 
 您扮演紅隊對陣藍隊。一個按鈕射門，另一個按鈕傳球。上下不僅控制你的守門員，還控制射門的方向。</desc>
@@ -434,7 +434,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65702" source="ScreenScraper.fr">
     <path>./Champion Ice Hockey (Taiwan).zip</path>
-    <name>Champion Ice Hockey (Champion Ice Hockey)</name>
+    <name>Champion Ice Hockey</name>
     <desc>Champion Ice Hockey 是一款專為 SG-1000 打造的簡單冰球遊戲。
 
 您扮演紅隊對陣藍隊。一個按鈕射門，另一個按鈕傳球。上下不僅控制你的守門員，還控制射門的方向。</desc>
@@ -448,7 +448,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65703" source="ScreenScraper.fr">
     <path>./Champion Kendou (Japan).zip</path>
-    <name>Champion Kendou (Champion Kendou)</name>
+    <name>Champion Kendou</name>
     <desc>Champion Kendou 是一款專為 SG-1000 和 MSX 打造的簡單劍道遊戲。它僅在日本發行。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -460,7 +460,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65703" source="ScreenScraper.fr">
     <path>./Champion Kendou (Taiwan).zip</path>
-    <name>Champion Kendou (Champion Kendou)</name>
+    <name>Champion Kendou</name>
     <desc>Champion Kendou 是一款專為 SG-1000 和 MSX 打造的簡單劍道遊戲。它僅在日本發行。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -472,7 +472,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65704" source="ScreenScraper.fr">
     <path>./Champion Pro Wrestling (Japan).zip</path>
-    <name>Champion Pro Wrestling (Champion Pro Wrestling)</name>
+    <name>Champion Pro Wrestling</name>
     <desc>世嘉冠軍運動系列中一款簡單的職業摔跤遊戲。你總是從 C 級開始，然後必須努力提升到 B 級和 A 級。要達到某個等級，你必須打三場比賽。贏得三場比賽中的兩場可以讓你晉升到更高的排名。在比賽中可以選擇多種動作：砍、踢、打樁、踢。當你的對手或你倒下時，裁判會倒計時。</desc>
     <releasedate>01/02/1985</releasedate>
     <developer>SEGA</developer>
@@ -484,7 +484,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65705" source="ScreenScraper.fr">
     <path>./Champion Soccer (Japan).zip</path>
-    <name>Champion Soccer (Champion Soccer)</name>
+    <name>Champion Soccer</name>
     <desc>Champion Soccer 是一款專為 SG-1000 打造的簡單足球遊戲。Pony Canyon 後來將其帶到了 MSX 上。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -496,7 +496,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65705" source="ScreenScraper.fr">
     <path>./Champion Soccer (Taiwan).zip</path>
-    <name>Champion Soccer (Champion Soccer)</name>
+    <name>Champion Soccer</name>
     <desc>Champion Soccer 是一款專為 SG-1000 打造的簡單足球遊戲。Pony Canyon 後來將其帶到了 MSX 上。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -508,7 +508,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65706" source="ScreenScraper.fr">
     <path>./Champion Tennis (Japan).zip</path>
-    <name>Champion Tennis (Champion Tennis)</name>
+    <name>Champion Tennis</name>
     <desc>Champion Tennis 是一款專為 SG-1000 打造的簡單網球遊戲。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -520,7 +520,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65707" source="ScreenScraper.fr">
     <path>./Championship Lode Runner (Japan).zip</path>
-    <name>Championship Lode Runner (Championship Lode Runner)</name>
+    <name>Championship Lode Runner</name>
     <desc>原版 Lode Runner 的後續作品，具有相同的遊戲玩法。該包包含 50 個有史以來設計的最具挑戰性的關卡，並且僅供專家玩家使用。它不包括關卡編輯器，你必須按順序玩關卡，但提供了保存遊戲選項（儘管每次恢復時你都會失去一條生命）。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -532,7 +532,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65707" source="ScreenScraper.fr">
     <path>./Championship Lode Runner (Taiwan).zip</path>
-    <name>Championship Lode Runner (Championship Lode Runner)</name>
+    <name>Championship Lode Runner</name>
     <desc>原版 Lode Runner 的後續作品，具有相同的遊戲玩法。該包包含 50 個有史以來設計的最具挑戰性的關卡，並且僅供專家玩家使用。它不包括關卡編輯器，你必須按順序玩關卡，但提供了保存遊戲選項（儘管每次恢復時你都會失去一條生命）。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -544,7 +544,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65708" source="ScreenScraper.fr">
     <path>./Choplifter (Japan) (Beta).zip</path>
-    <name>Choplifter (Choplifter)</name>
+    <name>Choplifter</name>
     <desc>Choplifter 是一款 1982 年的 Apple II 遊戲，由 Dan Gorlin 開發並由 Broderbund 發行。在遊戲中，你駕駛一架直升機，必須從戰俘營中營救人員。1985 年，世嘉負責對 Sega System 1 和 Sega System 2 硬件進行街機重製。該版本被移植到各種平台，包括 1985 年的 SG-1000 和 1986 年的 Sega Master System。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -556,7 +556,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65708" source="ScreenScraper.fr">
     <path>./Choplifter (Japan).zip</path>
-    <name>Choplifter (Choplifter)</name>
+    <name>Choplifter</name>
     <desc>Choplifter 是一款 1982 年的 Apple II 遊戲，由 Dan Gorlin 開發並由 Broderbund 發行。在遊戲中，你駕駛一架直升機，必須從戰俘營中營救人員。1985 年，世嘉負責對 Sega System 1 和 Sega System 2 硬件進行街機重製。該版本被移植到各種平台，包括 1985 年的 SG-1000 和 1986 年的 Sega Master System。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -568,7 +568,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65708" source="ScreenScraper.fr">
     <path>./Choplifter (Korea).zip</path>
-    <name>Choplifter (Choplifter)</name>
+    <name>Choplifter</name>
     <desc>Choplifter 是一款 1982 年的 Apple II 遊戲，由 Dan Gorlin 開發並由 Broderbund 發行。在遊戲中，你駕駛一架直升機，必須從戰俘營中營救人員。1985 年，世嘉負責對 Sega System 1 和 Sega System 2 硬件進行街機重製。該版本被移植到各種平台，包括 1985 年的 SG-1000 和 1986 年的 Sega Master System。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -580,7 +580,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65708" source="ScreenScraper.fr">
     <path>./Choplifter (Taiwan) (Chinese Logo).zip</path>
-    <name>Choplifter (Choplifter)</name>
+    <name>Choplifter</name>
     <desc>Choplifter 是一款 1982 年的 Apple II 遊戲，由 Dan Gorlin 開發並由 Broderbund 發行。在遊戲中，你駕駛一架直升機，必須從戰俘營中營救人員。1985 年，世嘉負責對 Sega System 1 和 Sega System 2 硬件進行街機重製。該版本被移植到各種平台，包括 1985 年的 SG-1000 和 1986 年的 Sega Master System。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -592,7 +592,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65708" source="ScreenScraper.fr">
     <path>./Choplifter (Taiwan) (English Logo).zip</path>
-    <name>Choplifter (Choplifter)</name>
+    <name>Choplifter</name>
     <desc>Choplifter 是一款 1982 年的 Apple II 遊戲，由 Dan Gorlin 開發並由 Broderbund 發行。在遊戲中，你駕駛一架直升機，必須從戰俘營中營救人員。1985 年，世嘉負責對 Sega System 1 和 Sega System 2 硬件進行街機重製。該版本被移植到各種平台，包括 1985 年的 SG-1000 和 1986 年的 Sega Master System。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -604,7 +604,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65708" source="ScreenScraper.fr">
     <path>./Choplifter (Taiwan) (No Logo).zip</path>
-    <name>Choplifter (Choplifter)</name>
+    <name>Choplifter</name>
     <desc>Choplifter 是一款 1982 年的 Apple II 遊戲，由 Dan Gorlin 開發並由 Broderbund 發行。在遊戲中，你駕駛一架直升機，必須從戰俘營中營救人員。1985 年，世嘉負責對 Sega System 1 和 Sega System 2 硬件進行街機重製。該版本被移植到各種平台，包括 1985 年的 SG-1000 和 1986 年的 Sega Master System。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Compile</developer>
@@ -616,7 +616,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65771" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eibunpou (Chuugaku 1-Nen) (Japan) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eibunpou (Chuugaku Hisshuu Eibunpou)</name>
+    <name>Chuugaku Hisshuu Eibunpou</name>
     <desc>Chuugaku Hisshuu Eitango (Chuugaku 1-Nen)（翻譯：英語詞彙（初中一年級））是 SG-1000 與 SK-1100 鍵盤配對時的一系列教育遊戲的一部分。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -628,7 +628,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="172286" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eibunpou (Chuugaku 2-Nen) (Japan) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eibunpou (Chuugaku Hisshuu Eibunpou)</name>
+    <name>Chuugaku Hisshuu Eibunpou</name>
     <desc>Chuugaku Hisshuu Eibunpou (Chuugaku 2-Nen) soit en Français : Vocabulaire Anglais pour la 4ème。SG-1000 與鍵盤 SK-1100 關聯的教育遊戲。</desc>
     <releasedate />
     <developer>Stratford Computer Center</developer>
@@ -639,7 +639,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65772" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eisakubun (Chuugaku 1-Nen) (Japan) (16kB) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eisakubun (Chuugaku Hisshuu Eisakubun)</name>
+    <name>Chuugaku Hisshuu Eisakubun</name>
     <desc>Chuugaku Hisshuu Eisakubun (Chuugaku 1-Nen)（翻譯：英語作文（高中一年級））是 SC-3000（以及與 SK-1100 鍵盤配對時的 SG-1000）教育遊戲系列的一部分。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -651,7 +651,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65772" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eisakubun (Chuugaku 1-Nen) (Japan) (40kB) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eisakubun (Chuugaku Hisshuu Eisakubun)</name>
+    <name>Chuugaku Hisshuu Eisakubun</name>
     <desc>Chuugaku Hisshuu Eisakubun (Chuugaku 1-Nen)（翻譯：英語作文（高中一年級））是 SC-3000（以及與 SK-1100 鍵盤配對時的 SG-1000）教育遊戲系列的一部分。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -663,7 +663,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="102224" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eisakubun (Chuugaku 2-Nen) (Japan) (16kB) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eisakubun (Chuugaku Hisshuu Eisakubun)</name>
+    <name>Chuugaku Hisshuu Eisakubun</name>
     <desc>Chuugaku Hisshuu Eisakubun (Chuugaku 2-Nen) soit en Français : Vocabulaire Anglais pour la 1ère。SG-1000 與鍵盤 SK-1100 關聯的教育遊戲。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -675,7 +675,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="102224" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eisakubun (Chuugaku 2-Nen) (Japan) (40kB) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eisakubun (Chuugaku Hisshuu Eisakubun)</name>
+    <name>Chuugaku Hisshuu Eisakubun</name>
     <desc>Chuugaku Hisshuu Eisakubun (Chuugaku 2-Nen) soit en Français : Vocabulaire Anglais pour la 1ère。SG-1000 與鍵盤 SK-1100 關聯的教育遊戲。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -687,7 +687,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65773" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eitango (Chuugaku 1-Nen) (Japan) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eitango (Chuugaku Hisshuu Eitango)</name>
+    <name>Chuugaku Hisshuu Eitango</name>
     <desc>Chuugaku Hisshuu Eitango (Chuugaku 1-Nen)（翻譯：英語詞彙（高中一年級））是 SC-3000（以及與 SK-1100 鍵盤結合使用時的 SG-1000）教育遊戲系列的一部分。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -699,7 +699,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="102225" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eitango (Chuugaku 2-Nen) (Japan) (16kB) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eitango (Chuugaku Hisshuu Eitango)</name>
+    <name>Chuugaku Hisshuu Eitango</name>
     <desc>Chuugaku Hisshuu Eitango (Chuugaku 2-Nen)（翻譯：英語詞彙（初中二年級））是 SG-1000 與 SK-1100 鍵盤配對時的一系列教育遊戲的一部分。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -711,7 +711,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="102225" source="ScreenScraper.fr">
     <path>./Chuugaku Hisshuu Eitango (Chuugaku 2-Nen) (Japan) (40kB) (SC-3000).zip</path>
-    <name>Chuugaku Hisshuu Eitango (Chuugaku Hisshuu Eitango)</name>
+    <name>Chuugaku Hisshuu Eitango</name>
     <desc>Chuugaku Hisshuu Eitango (Chuugaku 2-Nen)（翻譯：英語詞彙（初中二年級））是 SG-1000 與 SK-1100 鍵盤配對時的一系列教育遊戲的一部分。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -723,7 +723,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65709" source="ScreenScraper.fr">
     <path>./Congo Bongo (Japan) (Rev 1) (40kB).zip</path>
-    <name>Congo Bongo (Congo Bongo)</name>
+    <name>Congo Bongo</name>
     <desc>Congo Bongo 最初稱為 Tip Top，是一款 1983 年由世嘉開發的街機平台遊戲。它通常被認為是任天堂的《大金剛》的等距版本，因為它的主角是追逐一隻大猩猩（在這個遊戲中，稱為“Bongo”）。然而，與《大金剛》不同的是，這款遊戲以叢林為背景，畫面更加細緻，敵人和陷阱也更多。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -735,7 +735,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65709" source="ScreenScraper.fr">
     <path>./Congo Bongo (Japan).zip</path>
-    <name>Congo Bongo (Congo Bongo)</name>
+    <name>Congo Bongo</name>
     <desc>Congo Bongo 最初稱為 Tip Top，是一款 1983 年由世嘉開發的街機平台遊戲。它通常被認為是任天堂的《大金剛》的等距版本，因為它的主角是追逐一隻大猩猩（在這個遊戲中，稱為“Bongo”）。然而，與《大金剛》不同的是，這款遊戲以叢林為背景，畫面更加細緻，敵人和陷阱也更多。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -747,7 +747,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65709" source="ScreenScraper.fr">
     <path>./Congo Bongo (Japan, Europe) (Rev 1).zip</path>
-    <name>Congo Bongo (Congo Bongo)</name>
+    <name>Congo Bongo</name>
     <desc>Congo Bongo 最初稱為 Tip Top，是一款 1983 年由世嘉開發的街機平台遊戲。它通常被認為是任天堂的《大金剛》的等距版本，因為它的主角是追逐一隻大猩猩（在這個遊戲中，稱為“Bongo”）。然而，與《大金剛》不同的是，這款遊戲以叢林為背景，畫面更加細緻，敵人和陷阱也更多。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -759,7 +759,7 @@ Borderline 於 1983 年移植到 SG-1000，並作為 Sega Ages 2500 系列的一
   </game>
   <game id="65711" source="ScreenScraper.fr">
     <path>./Dokidoki Penguin Land (Japan).zip</path>
-    <name>Dokidoki Penguin Land (Dokidoki Penguin Land)</name>
+    <name>Dokidoki Penguin Land</name>
     <desc>Doki Doki Penguin Land 是一款 1985 年的遊戲，最初由 Sega 為 SG-1000 開發。這是一款基於平台的益智遊戲，企鵝必須引導雞蛋穿過屏幕，並確保不要打破它。
 
 Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。這樣做意味著向下挖掘，並確保在此過程中不會破碎。作為一款解謎平台遊戲，一切都會受到重力的影響，如果雞蛋從很高的高度落下，它就會粉碎。蘇...</desc>
@@ -773,7 +773,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65712" source="ScreenScraper.fr">
     <path>./Dragon Wang (Japan) (Alt 1).zip</path>
-    <name>Dragon Wang (Dragon Wang)</name>
+    <name>Dragon Wang</name>
     <desc>主角是王（受到成龍和/或他的角色托馬斯的啟發），因此不幸的標題是龍王。王在漢語中意為“國王”。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -785,7 +785,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65712" source="ScreenScraper.fr">
     <path>./Dragon Wang (Japan).zip</path>
-    <name>Dragon Wang (Dragon Wang)</name>
+    <name>Dragon Wang</name>
     <desc>主角是王（受到成龍和/或他的角色托馬斯的啟發），因此不幸的標題是龍王。王在漢語中意為“國王”。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -797,7 +797,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65712" source="ScreenScraper.fr">
     <path>./Dragon Wang (Taiwan) (Chinese Logo).zip</path>
-    <name>Dragon Wang (Dragon Wang)</name>
+    <name>Dragon Wang</name>
     <desc>主角是王（受到成龍和/或他的角色托馬斯的啟發），因此不幸的標題是龍王。王在漢語中意為“國王”。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -809,7 +809,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65712" source="ScreenScraper.fr">
     <path>./Dragon Wang (Taiwan) (English Logo).zip</path>
-    <name>Dragon Wang (Dragon Wang)</name>
+    <name>Dragon Wang</name>
     <desc>主角是王（受到成龍和/或他的角色托馬斯的啟發），因此不幸的標題是龍王。王在漢語中意為“國王”。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -821,7 +821,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65713" source="ScreenScraper.fr">
     <path>./Drol (Japan).zip</path>
-    <name>Drol (Drol)</name>
+    <name>Drol</name>
     <desc>Drol是一款於1985年發布的SG-1000遊戲。最初由Broderbund為西方的各種家用電腦開發，後來由世嘉帶到SG-1000並在日本獨家發行。你扮演一個必須拯救他的孩子的機器人。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -833,7 +833,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65713" source="ScreenScraper.fr">
     <path>./Drol (Taiwan).zip</path>
-    <name>Drol (Drol)</name>
+    <name>Drol</name>
     <desc>Drol是一款於1985年發布的SG-1000遊戲。最初由Broderbund為西方的各種家用電腦開發，後來由世嘉帶到SG-1000並在日本獨家發行。你扮演一個必須拯救他的孩子的機器人。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -845,7 +845,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65714" source="ScreenScraper.fr">
     <path>./Elevator Action (Japan).zip</path>
-    <name>Elevator Action (Elevator Action)</name>
+    <name>電梯動作</name>
     <desc>玩家扮演一名間諜潛入一棟佈滿電梯的 30 層建築。玩家被從緊閉的門後出現的敵方特工追趕。必須通過武力或逃避來對付這些特工。成功完成一個關卡需要收集所有秘密文件並從上到下遍歷建築物。在建築物的較低樓層，電梯系統可能非常複雜，需要解決難題的技能。控制裝置包括一個 4 路 J...</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Taito</developer>
@@ -857,7 +857,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65714" source="ScreenScraper.fr">
     <path>./Elevator Action (Taiwan).zip</path>
-    <name>Elevator Action (Elevator Action)</name>
+    <name>電梯動作</name>
     <desc>玩家扮演一名間諜潛入一棟佈滿電梯的 30 層建築。玩家被從緊閉的門後出現的敵方特工追趕。必須通過武力或逃避來對付這些特工。成功完成一個關卡需要收集所有秘密文件並從上到下遍歷建築物。在建築物的較低樓層，電梯系統可能非常複雜，需要解決難題的技能。控制裝置包括一個 4 路 J...</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Taito</developer>
@@ -869,7 +869,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65715" source="ScreenScraper.fr">
     <path>./Exerion (Japan, Europe).zip</path>
-    <name>Exerion (Exerion)</name>
+    <name>Exerion</name>
     <desc>FIGHTER EX 衝進衝出，攻擊 6 個神秘的不同維度世界中的可怕敵人。
 敵人不斷追擊FIGTHER EX。
 戰鬥機攻擊敵人的導彈如冰雹般落下。保持警惕！
@@ -885,7 +885,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65715" source="ScreenScraper.fr">
     <path>./Exerion (Taiwan).zip</path>
-    <name>Exerion (Exerion)</name>
+    <name>Exerion</name>
     <desc>FIGHTER EX 衝進衝出，攻擊 6 個神秘的不同維度世界中的可怕敵人。
 敵人不斷追擊FIGTHER EX。
 戰鬥機攻擊敵人的導彈如冰雹般落下。保持警惕！
@@ -901,7 +901,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65716" source="ScreenScraper.fr">
     <path>./Flicky (Japan) (Rev 1).zip</path>
-    <name>Flicky (Flicky)</name>
+    <name>Flicky</name>
     <desc>小鳥 PIOPIOes 在陽光明媚的露台上曬太陽。現在是小 PIOPIO 吃午後零食的時候了。FLICKY，你的媽媽，要來接你們所有人回家了。讓我們和 FLICKY 媽媽手牽著手，快樂地跳繩回來吧。哦哦哦，我們遇到大問題了！ ！脾氣暴躁的流浪貓（NYANNYAN）來了。跳過他並扔錘子和杯子來逃脫，試圖擊中並摧毀這隻大壞貓。FLICKY，當你...時，你會感到非常輕鬆。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -913,7 +913,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65716" source="ScreenScraper.fr">
     <path>./Flicky (Japan).zip</path>
-    <name>Flicky (Flicky)</name>
+    <name>Flicky</name>
     <desc>小鳥 PIOPIOes 在陽光明媚的露台上曬太陽。現在是小 PIOPIO 吃午後零食的時候了。FLICKY，你的媽媽，要來接你們所有人回家了。讓我們和 FLICKY 媽媽手牽著手，快樂地跳繩回來吧。哦哦哦，我們遇到大問題了！ ！脾氣暴躁的流浪貓（NYANNYAN）來了。跳過他並扔錘子和杯子來逃脫，試圖擊中並摧毀這隻大壞貓。FLICKY，當你...時，你會感到非常輕鬆。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -925,7 +925,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65716" source="ScreenScraper.fr">
     <path>./Flicky (Taiwan).zip</path>
-    <name>Flicky (Flicky)</name>
+    <name>Flicky</name>
     <desc>小鳥 PIOPIOes 在陽光明媚的露台上曬太陽。現在是小 PIOPIO 吃午後零食的時候了。FLICKY，你的媽媽，要來接你們所有人回家了。讓我們和 FLICKY 媽媽手牽著手，快樂地跳繩回來吧。哦哦哦，我們遇到大問題了！ ！脾氣暴躁的流浪貓（NYANNYAN）來了。跳過他並扔錘子和杯子來逃脫，試圖擊中並摧毀這隻大壞貓。FLICKY，當你...時，你會感到非常輕鬆。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -937,7 +937,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65749" source="ScreenScraper.fr">
     <path>./Flipper (Taiwan).zip</path>
-    <name>Flipper (Flipper)</name>
+    <name>Flipper</name>
     <desc>這款電腦彈球視頻遊戲伴隨著朗朗上口、有節奏的腳蹼聲音。具有可讓您賺取獎勵積分的 D.T.（掉落目標）和 K.H. （踢球洞）使您有權賺取獎勵積分 X 倍增率！瞄準好，然後射擊！祝您在球場上快​​樂地旋轉，尋找眾所周知的“高分”時取得成功。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -949,7 +949,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65717" source="ScreenScraper.fr">
     <path>./Galaga (Taiwan).zip</path>
-    <name>Galaga (Galaga)</name>
+    <name>Galaga</name>
     <desc>控制戰鬥機宇宙飛船並擊落入侵的外星人。小心俯衝的母艦，它們會試圖偷走你的戰鬥機。營救被俘的戰士，使你的火力加倍。在不同的挑戰階段中一波又一波地戰鬥，賺取完美獎勵。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Namco</developer>
@@ -961,7 +961,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65718" source="ScreenScraper.fr">
     <path>./Girl's Garden (Japan).zip</path>
-    <name>Girl's Garden (Girl's Garden)</name>
+    <name>Girl's Garden</name>
     <desc>為了阻止男友Minto去找另一個名叫Cocco的小女孩，Papri必須收集十種不同的花並把它們送回男友家。必須捕捉盛開的花朵，這樣她擁有的花朵數量就會增加；採花太早會認為花朵浪費，採得太晚會導致花朵枯萎。枯萎的花朵會毀掉花束，導致玩家失去一半的花朵。
 
 熊喜歡吃蜂蜜，...</desc>
@@ -975,7 +975,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65718" source="ScreenScraper.fr">
     <path>./Girl's Garden (Taiwan).zip</path>
-    <name>Girl's Garden (Girl's Garden)</name>
+    <name>Girl's Garden</name>
     <desc>為了阻止男友Minto去找另一個名叫Cocco的小女孩，Papri必須收集十種不同的花並把它們送回男友家。必須捕捉盛開的花朵，這樣她擁有的花朵數量就會增加；採花太早會認為花朵浪費，採得太晚會導致花朵枯萎。枯萎的花朵會毀掉花束，導致玩家失去一半的花朵。
 
 熊喜歡吃蜂蜜，...</desc>
@@ -989,7 +989,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65719" source="ScreenScraper.fr">
     <path>./Golgo 13 (Japan).zip</path>
-    <name>Golgo 13 (Golgo 13)</name>
+    <name>Golgo 13</name>
     <desc>Golgo 13 是一款適用於 SG-1000 的射擊遊戲，改編自日本同名漫畫。
 
 遊戲要求你向一列經過的火車的窗戶射擊。擊中擋道的物體會使子彈反彈並可能殺死你。</desc>
@@ -1003,7 +1003,7 @@ Doki Doki Penguin Land 的基本目標是將蛋從屏幕頂部引導到底部。
   </game>
   <game id="65720" source="ScreenScraper.fr">
     <path>./GP World (Japan) (Rev 1).zip</path>
-    <name>GP World (GP World)</name>
+    <name>GP World</name>
     <desc>SG-1000 和 MSX 的 GP World 是 1984 年基於 LaserDisc 的街機遊戲 GP World 的鬆散轉換。它於1985年在日本獨家發行。
 
 GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World 類似，但由於硬件差異很大，執行方式也有所不同。最值得注意的是，遊戲中的所有圖形都是由 SG-1000 實時生成，而不是從激光光盤流式傳輸，這反過來又導致了更可預測的汽車物理特性。RA的概念...</desc>
@@ -1017,7 +1017,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65720" source="ScreenScraper.fr">
     <path>./GP World (Japan).zip</path>
-    <name>GP World (GP World)</name>
+    <name>GP World</name>
     <desc>SG-1000 和 MSX 的 GP World 是 1984 年基於 LaserDisc 的街機遊戲 GP World 的鬆散轉換。它於1985年在日本獨家發行。
 
 GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World 類似，但由於硬件差異很大，執行方式也有所不同。最值得注意的是，遊戲中的所有圖形都是由 SG-1000 實時生成，而不是從激光光盤流式傳輸，這反過來又導致了更可預測的汽車物理特性。RA的概念...</desc>
@@ -1031,7 +1031,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65720" source="ScreenScraper.fr">
     <path>./GP World (Taiwan).zip</path>
-    <name>GP World (GP World)</name>
+    <name>GP World</name>
     <desc>SG-1000 和 MSX 的 GP World 是 1984 年基於 LaserDisc 的街機遊戲 GP World 的鬆散轉換。它於1985年在日本獨家發行。
 
 GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World 類似，但由於硬件差異很大，執行方式也有所不同。最值得注意的是，遊戲中的所有圖形都是由 SG-1000 實時生成，而不是從激光光盤流式傳輸，這反過來又導致了更可預測的汽車物理特性。RA的概念...</desc>
@@ -1045,7 +1045,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65721" source="ScreenScraper.fr">
     <path>./Gulkave (Japan).zip</path>
-    <name>Gulkave (Gulkave)</name>
+    <name>Gulkave</name>
     <desc>Gulkave是一款由Compile開發、世嘉於1986年發行的SG-1000射擊遊戲。它是一款水平射擊遊戲，玩家在遊戲中控制一艘宇宙飛船，必須摧毀古爾巴斯帝國的8個堡壘和幾個不同的敵人。儘管受到控制台的限制，但仍有 30 個“幕”，每個“幕”都有不同的背景，並且有大量可用的道具，這使其與當時大多數其他 SG-1000 射擊遊戲區分開來。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>Compile</developer>
@@ -1057,7 +1057,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65722" source="ScreenScraper.fr">
     <path>./Guzzler (Japan) (Othello Multivision).zip</path>
-    <name>Guzzler (Guzzler)</name>
+    <name>Guzzler</name>
     <desc>Guzzler 是 Tehkan 開發的一款街機遊戲。它由 Tsukuda Original 移植到 SG-1000，並賦予 Othello Multivision 品牌。直到今天，SG-1000 版本仍然是 Guzzler 的唯一母港。
 
 你扮演的角色需要吸收水來撲滅迷宮周圍的火焰。火災還會產生基於火的敵人，可以用類似的方式擊敗它們。您一次最多只能存儲三張照片。
@@ -1073,7 +1073,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65722" source="ScreenScraper.fr">
     <path>./Guzzler (Taiwan) (Othello Multivision).zip</path>
-    <name>Guzzler (Guzzler)</name>
+    <name>Guzzler</name>
     <desc>Guzzler 是 Tehkan 開發的一款街機遊戲。它由 Tsukuda Original 移植到 SG-1000，並賦予 Othello Multivision 品牌。直到今天，SG-1000 版本仍然是 Guzzler 的唯一母港。
 
 你扮演的角色需要吸收水來撲滅迷宮周圍的火災。火災還會產生基於火的敵人，可以用類似的方式擊敗它們。您一次最多只能存儲三張照片。
@@ -1089,7 +1089,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65723" source="ScreenScraper.fr">
     <path>./H.E.R.O. (Japan).zip</path>
-    <name>H.E.R.O. (H.E.R.O.)</name>
+    <name>H.E.R.O.</name>
     <desc>英雄。是一款最初由動視公司開發和發行的動作遊戲。世嘉將其帶到了日本的 SG-1000 上。
 
 遊戲的目標是營救被困在火山中的礦工。1 扔下一根炸藥來炸毀障礙物並殺死敵人。2 發射類似激光的東西，你可以用它來殺死敵人。屏幕底部有一個功率計，顯示您還剩下多少能量；隨著時間的推移，能量會下降。只需觸摸礦工即可營救他並繼續前進......</desc>
@@ -1103,7 +1103,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65723" source="ScreenScraper.fr">
     <path>./H.E.R.O. (Taiwan).zip</path>
-    <name>H.E.R.O. (H.E.R.O.)</name>
+    <name>H.E.R.O.</name>
     <desc>英雄。是一款最初由動視公司開發和發行的動作遊戲。世嘉將其帶到了日本的 SG-1000 上。
 
 遊戲的目標是營救被困在火山中的礦工。1 扔下一根炸藥來炸毀障礙物並殺死敵人。2 發射類似激光的東西，你可以用它來殺死敵人。屏幕底部有一個功率計，顯示您還剩下多少能量；隨著時間的推移，能量會下降。只需觸摸礦工即可營救他並繼續前進......</desc>
@@ -1117,7 +1117,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65724" source="ScreenScraper.fr">
     <path>./Hang-On II (Japan).zip</path>
-    <name>Hang-On II (Hang-On II)</name>
+    <name>Hang-On II</name>
     <desc>Hang-On II 是廣受好評的 Hang-On 的 SG-1000 續作。
 
 儘管有這個名字，該遊戲實際上是 Mark III 版本的 Hang-On 的直接續集，並且與該遊戲幾乎相同。唯一的區別是街機版的圖形被降級並添加了音樂。同時，《Super Hang-On》是街機遊戲的直接續集。
@@ -1133,7 +1133,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65724" source="ScreenScraper.fr">
     <path>./Hang-On II (Taiwan) (Chinese Logo).zip</path>
-    <name>Hang-On II (Hang-On II)</name>
+    <name>Hang-On II</name>
     <desc>Hang-On II 是廣受好評的 Hang-On 的 SG-1000 續作。
 
 儘管有這個名字，該遊戲實際上是 Mark III 版本的 Hang-On 的直接續集，並且與該遊戲幾乎相同。唯一的區別是街機版的圖形被降級並添加了音樂。同時，《Super Hang-On》是街機遊戲的直接續集。
@@ -1149,7 +1149,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65724" source="ScreenScraper.fr">
     <path>./Hang-On II (Taiwan) (English Logo).zip</path>
-    <name>Hang-On II (Hang-On II)</name>
+    <name>Hang-On II</name>
     <desc>Hang-On II 是廣受好評的 Hang-On 的 SG-1000 續作。
 
 儘管有這個名字，該遊戲實際上是 Mark III 版本的 Hang-On 的直接續集，並且與該遊戲幾乎相同。唯一的區別是街機版的圖形被降級並添加了音樂。同時，《Super Hang-On》是街機遊戲的直接續集。
@@ -1165,7 +1165,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65775" source="ScreenScraper.fr">
     <path>./Home Basic (Japan) (SC-3000).zip</path>
-    <name>Home BASIC (Home BASIC)</name>
+    <name>Home BASIC</name>
     <desc>Home BASIC 是 SC-3000 的 BASIC 語言盒。與之前的軟件迭代不同，Home BASIC 提供了第一個有意義的升級以及演示軟件。它也是第一個可在 SC-3000 和 SG-1000 上使用的 BASIC 墨盒。該墨盒的主菜單中有 4 個選項。</desc>
     <releasedate />
     <developer>Mitec</developer>
@@ -1175,7 +1175,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65725" source="ScreenScraper.fr">
     <path>./Home Mahjong (Japan) (Rev 1).zip</path>
-    <name>Home Mahjong (Home Mahjong)</name>
+    <name>Home Mahjong</name>
     <desc>Home Mahjong 是 SG-1000 的麻將游戲。
 
 該遊戲配有塑料屏幕，在 2 人遊戲期間，塑料屏幕會粘在電視上，以隱藏其他玩家的圖塊。</desc>
@@ -1189,7 +1189,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65725" source="ScreenScraper.fr">
     <path>./Home Mahjong (Japan).zip</path>
-    <name>Home Mahjong (Home Mahjong)</name>
+    <name>Home Mahjong</name>
     <desc>Home Mahjong 是 SG-1000 的麻將游戲。
 
 該遊戲配有塑料屏幕，在 2 人遊戲期間，塑料屏幕會粘在電視上，以隱藏其他玩家的圖塊。</desc>
@@ -1203,7 +1203,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65725" source="ScreenScraper.fr">
     <path>./Home Mahjong (Taiwan).zip</path>
-    <name>Home Mahjong (Home Mahjong)</name>
+    <name>Home Mahjong</name>
     <desc>Home Mahjong 是 SG-1000 的麻將游戲。
 
 該遊戲配有塑料屏幕，在 2 人遊戲期間，塑料屏幕會粘在電視上，以隱藏其他玩家的圖塊。</desc>
@@ -1217,7 +1217,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65726" source="ScreenScraper.fr">
     <path>./Hustle Chumy (Japan).zip</path>
-    <name>Hustle Chumy (Hustle Chumy)</name>
+    <name>Hustle Chumy</name>
     <desc>Hustle Chumy 是一款由 Compile 開發並於 1984 年發布的 SG-1000 和 MSX 遊戲。
 
 在《Hustle Chumy》中，玩家控制一隻名為 Chumy 的老鼠，它需要在下水道中收集蘋果（和其他食物），同時避開其他生物。隨著丘米吃更多的食物，他的速度會降低，但他的火球射程會更長。關卡有不同的佈局。
@@ -1233,7 +1233,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65727" source="ScreenScraper.fr">
     <path>./Hyper Sports (Japan).zip</path>
-    <name>Hyper Sports (Hyper Sports)</name>
+    <name>Hyper Sports</name>
     <desc>Hyper Sports 是一款由 Konami 開發的體育遊戲，於 1985 年針對 SG-1000 發布（繼 1984 年 MSX 發布之後）。該遊戲讓玩家參加許多奧運會比賽項目。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Konami</developer>
@@ -1245,7 +1245,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65727" source="ScreenScraper.fr">
     <path>./Hyper Sports (Taiwan).zip</path>
-    <name>Hyper Sports (Hyper Sports)</name>
+    <name>Hyper Sports</name>
     <desc>Hyper Sports 是一款由 Konami 開發的體育遊戲，於 1985 年針對 SG-1000 發布（繼 1984 年 MSX 發布之後）。該遊戲讓玩家參加許多奧運會比賽項目。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>Konami</developer>
@@ -1257,7 +1257,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="102226" source="ScreenScraper.fr">
     <path>./Kagaku (Gensokigou Master) (Japan) (SC-3000).zip</path>
-    <name>Kagaku (Kagaku)</name>
+    <name>Kagaku</name>
     <desc>Kagaku（Gensokigou Master）（翻譯：化學（化學符號大師））是 SC-3000（以及與 SK-1100 鍵盤配對時的 SG-1000）教育遊戲系列的一部分。這集中在元素週期表上。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -1269,7 +1269,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="102099" source="ScreenScraper.fr">
     <path>./King's Valley (Taiwan).zip</path>
-    <name>King's Valley (King's Valley)</name>
+    <name>King's Valley</name>
     <desc>Aaronix 在台灣發布的 SG-1000 的 King's Valley。該遊戲需要 DahJee 發布的特殊適配器，將 SG-1000 內存擴展至 8 KB（了解有關 SG-1000 的 DahJee 適配器的更多信息）。否則它可以在正常的亞洲主系統上運行。King's Valley 非常符合前捲軸物品收集街機遊戲的風格，《Think Lode Runner》與《Pac-Man》以埃及古墓冒險為主題。Konami 的一款非常好的遊戲。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Aaronix</developer>
@@ -1281,7 +1281,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="102100" source="ScreenScraper.fr">
     <path>./Knightmare (Taiwan).zip</path>
-    <name>Knightmare (Knightmare)</name>
+    <name>騎士惡夢</name>
     <desc>Knightmare 是 Konami 出品的一款 MSX 垂直射擊遊戲。它未經許可就被帶到台灣的 SG-1000。在《Knightmare》中，玩家控制一位名叫 Popolon 的勇敢騎士，他必須從邪惡的 Hudnos 手中救出他的心上人阿佛洛狄忒。該遊戲本質上是一款自上而下的射擊遊戲。波波隆可以向他的敵人射箭，並在關卡結束時面對老闆，例如女巫等。射擊怪物，避開障礙物，通過橋樑並收集升級以獲取獎勵......</desc>
     <releasedate>01/01/1987</releasedate>
     <developer>Konami</developer>
@@ -1293,7 +1293,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65729" source="ScreenScraper.fr">
     <path>./Lode Runner (Japan, Europe).zip</path>
-    <name>Lode Runner (Lode Runner)</name>
+    <name>Lode Runner</name>
     <desc>在這款遊戲中，玩家需要反复“思考”和“採取行動”，通過解開神秘謎題來穿越並通關迷宮場景，同時躲避窮追不捨的敵人守衛。收集完所有的金寶箱後，你必須想出新的想法才能成功挑戰下一關場景。雖然你從之前的遊戲動作中獲得的經驗將幫助你克服未來的一些迷宮場景，但你仍然需要...</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Compile</developer>
@@ -1305,7 +1305,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65729" source="ScreenScraper.fr">
     <path>./Lode Runner (Taiwan).zip</path>
-    <name>Lode Runner (Lode Runner)</name>
+    <name>Lode Runner</name>
     <desc>在這款遊戲中，玩家需要反复“思考”和“採取行動”，通過解開神秘謎題來穿越並通關迷宮場景，同時躲避窮追不捨的敵人守衛。收集完所有的金寶箱後，你必須想出新的想法才能成功挑戰下一關場景。雖然你從之前的遊戲動作中獲得的經驗將幫助你克服未來的一些迷宮場景，但你仍然需要...</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Compile</developer>
@@ -1317,7 +1317,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="102102" source="ScreenScraper.fr">
     <path>./Magical Kid Wiz (Taiwan).zip</path>
-    <name>Magical Kid Wiz (Magical Kid Wiz)</name>
+    <name>Magical Kid Wiz</name>
     <desc>你扮演一個拿著魔法棒的小巫師，用它可以扔出小火球來拯救美麗的公主。</desc>
     <rating>0.6</rating>
     <releasedate>01/01/1986</releasedate>
@@ -1330,7 +1330,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65732" source="ScreenScraper.fr">
     <path>./Monaco GP (Japan) (Rev 1).zip</path>
-    <name>Monaco GP (Monaco GP)</name>
+    <name>Monaco GP</name>
     <desc>一輛紅色方程式賽車在街道上高速行駛，加速、跳躍、左右操縱，躲避擋道的汽車和靠近你的機器的魯莽汽車，........ 留意突然駛過的救護車...... 並留意路標！滑行區、危險的建築工地、急彎和狹窄的海灣橋樑等充滿刺激的挑戰也會出現。在隧道中時，您的車頭燈...</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1342,7 +1342,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65732" source="ScreenScraper.fr">
     <path>./Monaco GP (Japan) (Rev 2).zip</path>
-    <name>Monaco GP (Monaco GP)</name>
+    <name>Monaco GP</name>
     <desc>一輛紅色方程式賽車在街道上高速行駛，加速、跳躍、左右操縱，躲避擋道的汽車和靠近你的機器的魯莽汽車，........ 留意突然駛過的救護車...... 並留意路標！滑行區、危險的建築工地、急彎和狹窄的海灣橋樑等充滿刺激的挑戰也會出現。在隧道中時，您的車頭燈...</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1354,7 +1354,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65732" source="ScreenScraper.fr">
     <path>./Monaco GP (Japan).zip</path>
-    <name>Monaco GP (Monaco GP)</name>
+    <name>Monaco GP</name>
     <desc>一輛紅色方程式賽車在街道上高速行駛，加速、跳躍、左右操縱，躲避擋道的汽車和靠近你的機器的魯莽汽車，........ 留意突然駛過的救護車...... 並留意路標！滑行區、危險的建築工地、急彎和狹窄的海灣橋樑等充滿刺激的挑戰也會出現。在隧道中時，您的車頭燈...</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1366,7 +1366,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65732" source="ScreenScraper.fr">
     <path>./Monaco GP (Taiwan).zip</path>
-    <name>Monaco GP (Monaco GP)</name>
+    <name>Monaco GP</name>
     <desc>一輛紅色方程式賽車在街道上高速行駛，加速、跳躍、左右操縱，躲避擋道的汽車和靠近你的機器的魯莽汽車，........ 留意突然駛過的救護車...... 並留意路標！滑行區、危險的建築工地、急彎和狹窄的海灣橋樑等充滿刺激的挑戰也會出現。在隧道中時，您的車頭燈...</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1378,7 +1378,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="102227" source="ScreenScraper.fr">
     <path>./Music (Japan) (SC-3000).zip</path>
-    <name>Music (Music)</name>
+    <name>Music</name>
     <desc>Music 是由 Mitec 開發並由 Sega 為 SC-3000 發布的音樂創作程序。
 任何人都可以在電視屏幕上輕鬆創作音樂。此外，您還可以使用鍵盤輸入您喜愛的歌曲的音符，並享受 SC-3000 演奏的樂趣！
 “MUSIC”軟件最有效的功能之一就是電腦的高和弦聲音。
@@ -1394,7 +1394,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="102228" source="ScreenScraper.fr">
     <path>./Nihonshi Nenpyou (Japan) (SC-3000).zip</path>
-    <name>Nihonshi Nenpyou (Nihonshi Nenpyou)</name>
+    <name>Nihonshi Nenpyou</name>
     <desc>日本歷史年表</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -1406,7 +1406,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65734" source="ScreenScraper.fr">
     <path>./Ninja Princess (Japan).zip</path>
-    <name>Ninja Princess (Ninja Princess)</name>
+    <name>Ninja Princess</name>
     <desc>忍者公主在西方被稱為世嘉忍者，是世嘉公司的一款世嘉系統1街機遊戲。這是一款自上而下的射擊/動作遊戲，您將扮演一位偽裝成忍者的公主，試圖阻止邪惡的暴君玉露。
 
 該遊戲於 1986 年專門移植到日本的 SG-1000 上，隨後不久又移植到 MSX。它也以《忍者》的形式被引入世嘉大師系統，但《忍者》對故事和角色進行了一些調整，並更新了……</desc>
@@ -1420,7 +1420,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65734" source="ScreenScraper.fr">
     <path>./Ninja Princess (Taiwan).zip</path>
-    <name>Ninja Princess (Ninja Princess)</name>
+    <name>Ninja Princess</name>
     <desc>忍者公主在西方被稱為世嘉忍者，是世嘉公司的一款世嘉系統1街機遊戲。這是一款自上而下的射擊/動作遊戲，您將扮演一位偽裝成忍者的公主，試圖阻止邪惡的暴君玉露。
 
 該遊戲於 1986 年專門移植到日本的 SG-1000 上，隨後不久又移植到 MSX。它也以《忍者》的形式被引入世嘉大師系統，但《忍者》對故事和角色進行了一些調整，並更新了……</desc>
@@ -1434,7 +1434,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65735" source="ScreenScraper.fr">
     <path>./N-Sub (Europe).zip</path>
-    <name>N-Sub (N-Sub)</name>
+    <name>N-Sub</name>
     <desc>一場大戰在鈷藍色的大海上展開。當你發現敵人的船隻時發射魚雷。使用導彈、魚雷和深水炸彈躲避驅逐艦的攻擊。反擊並擊沉敵方船隻。每新一輪敵人的攻擊都會變得更加猛烈！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Compile</developer>
@@ -1446,7 +1446,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65735" source="ScreenScraper.fr">
     <path>./N-Sub (Japan) (16kB).zip</path>
-    <name>N-Sub (N-Sub)</name>
+    <name>N-Sub</name>
     <desc>一場大戰在鈷藍色的大海上展開。當你發現敵人的船隻時發射魚雷。使用導彈、魚雷和深水炸彈躲避驅逐艦的攻擊。反擊並擊沉敵方船隻。每新一輪敵人的攻擊都會變得更加猛烈！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Compile</developer>
@@ -1458,7 +1458,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65735" source="ScreenScraper.fr">
     <path>./N-Sub (Japan) (40kB).zip</path>
-    <name>N-Sub (N-Sub)</name>
+    <name>N-Sub</name>
     <desc>一場大戰在鈷藍色的大海上展開。當你發現敵人的船隻時發射魚雷。使用導彈、魚雷和深水炸彈躲避驅逐艦的攻擊。反擊並擊沉敵方船隻。每新一輪敵人的攻擊都會變得更加猛烈！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Compile</developer>
@@ -1470,7 +1470,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65735" source="ScreenScraper.fr">
     <path>./N-Sub (Taiwan).zip</path>
-    <name>N-Sub (N-Sub)</name>
+    <name>N-Sub</name>
     <desc>一場大戰在鈷藍色的大海上展開。當你發現敵人的船隻時發射魚雷。使用導彈、魚雷和深水炸彈躲避驅逐艦的攻擊。反擊並擊沉敵方船隻。每新一輪敵人的攻擊都會變得更加猛烈！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Compile</developer>
@@ -1482,7 +1482,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65779" source="ScreenScraper.fr">
     <path>./Okamoto Ayako no Match Play Golf (Japan) (Othello Multivision).zip</path>
-    <name>Okamoto Ayako no Match Play Golf (Okamoto Ayako no Match Play Golf)</name>
+    <name>Okamoto Ayako no Match Play Golf</name>
     <desc>岡本綾子的比洞賽高爾夫是由佃原創發行的 Othello Multivision 高爾夫遊戲。它還與 Sega SG-1000 兼容。</desc>
     <rating>0.6</rating>
     <releasedate>01/01/1984</releasedate>
@@ -1495,7 +1495,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65779" source="ScreenScraper.fr">
     <path>./Okamoto Ayako no Match Play Golf (Japan) (Rev 1) (Othello Multivision).zip</path>
-    <name>Okamoto Ayako no Match Play Golf (Okamoto Ayako no Match Play Golf)</name>
+    <name>Okamoto Ayako no Match Play Golf</name>
     <desc>岡本綾子的比洞賽高爾夫是由佃原創發行的 Othello Multivision 高爾夫遊戲。它還與 Sega SG-1000 兼容。</desc>
     <rating>0.6</rating>
     <releasedate>01/01/1984</releasedate>
@@ -1508,7 +1508,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65779" source="ScreenScraper.fr">
     <path>./Okamoto Ayako no Match Play Golf (Taiwan) (Othello Multivision).zip</path>
-    <name>Okamoto Ayako no Match Play Golf (Okamoto Ayako no Match Play Golf)</name>
+    <name>Okamoto Ayako no Match Play Golf</name>
     <desc>岡本綾子的比洞賽高爾夫是由佃原創發行的 Othello Multivision 高爾夫遊戲。它還與 Sega SG-1000 兼容。</desc>
     <rating>0.6</rating>
     <releasedate>01/01/1984</releasedate>
@@ -1521,7 +1521,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65737" source="ScreenScraper.fr">
     <path>./Orguss (Japan, Europe).zip</path>
-    <name>Orguss (Orguss)</name>
+    <name>Orguss</name>
     <desc>Orguss 是一款由 Sega 為 SG-1000 開發和發行的射擊遊戲。在遊戲中，玩家控制一個可以變身為星際飛船的機器人。它是根據科幻動漫系列《超維度世紀奧古斯》改編的。
 
 玩家可以在機器人和星艦模式之間自由切換，儘管兩者都有各自的優點和缺點。在機器人模式下，您可以摧毀地面目標並在屏幕上擁有更大的自由度，但代價是成為雙...</desc>
@@ -1535,7 +1535,7 @@ GP World 的“8 位”版本中的遊戲玩法在概念上與街機 GP World �
   </game>
   <game id="65738" source="ScreenScraper.fr">
     <path>./Othello (Japan).zip</path>
-    <name>Othello (Othello)</name>
+    <name>黑白棋</name>
     <desc>黑白棋是一款基於棋盤遊戲黑白棋的 SG-1000 視頻遊戲。
 
 SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內置於 Othello Multivision（該系統由此得名）中。世嘉後來於 1985 年以卡帶形式重新發行了這款遊戲，與佃原版的版本相比，在圖形和人工智能方面有了顯著的改進。</desc>
@@ -1549,7 +1549,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65738" source="ScreenScraper.fr">
     <path>./Othello (Taiwan).zip</path>
-    <name>Othello (Othello)</name>
+    <name>黑白棋</name>
     <desc>黑白棋是一款基於棋盤遊戲黑白棋的 SG-1000 視頻遊戲。
 
 SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內置於 Othello Multivision（該系統由此得名）中。世嘉後來於 1985 年以卡帶形式重新發行了這款遊戲，與佃原版的版本相比，在圖形和人工智能方面有了顯著的改進。</desc>
@@ -1563,7 +1563,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65739" source="ScreenScraper.fr">
     <path>./Pacar (Japan) (40kB).zip</path>
-    <name>Pacar (Pacar)</name>
+    <name>Pacar</name>
     <desc>PACAR是一輛調皮小車，在3D路線中自由前進、後退，時速快時慢。嘗試刪除屏幕上的所有點，同時避開兩種敵方汽車。當你穿過特殊的點時，PACAR的力量會增強，變得越來越無敵，即使撞上敵方車輛也不會受到傷害。保持快速的步伐並摧毀盡可能多的敵方車輛！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1575,7 +1575,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65739" source="ScreenScraper.fr">
     <path>./Pacar (Japan, Europe).zip</path>
-    <name>Pacar (Pacar)</name>
+    <name>Pacar</name>
     <desc>PACAR是一輛調皮小車，在3D路線中自由前進、後退，時速快時慢。嘗試刪除屏幕上的所有點，同時避開兩種敵方汽車。當你穿過特殊的點時，PACAR的力量會增強，變得越來越無敵，即使撞上敵方車輛也不會受到傷害。保持快速的步伐並摧毀盡可能多的敵方車輛！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1587,7 +1587,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65739" source="ScreenScraper.fr">
     <path>./Pacar (Taiwan).zip</path>
-    <name>Pacar (Pacar)</name>
+    <name>Pacar</name>
     <desc>PACAR是一輛調皮小車，在3D路線中自由前進、後退，時速快時慢。嘗試刪除屏幕上的所有點，同時避開兩種敵方汽車。當你穿過特殊的點時，PACAR的力量會增強，變得越來越無敵，即使撞上敵方車輛也不會受到傷害。保持快速的步伐並摧毀盡可能多的敵方車輛！</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1599,7 +1599,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65740" source="ScreenScraper.fr">
     <path>./Pachinko (Japan).zip</path>
-    <name>Pachinko (Pachinko)</name>
+    <name>Pachinko</name>
     <desc>Pachinko 是世嘉於 1983 年開發並發行的 SG-1000 遊戲。顧名思義，它是日本流行遊戲 Pachinko 的電子遊戲版本。該遊戲沒有在國際上發行。
 
 對於 SG-1000 來說，彈球盤是一款極為罕見的遊戲。發布後不久，由於一個破壞遊戲的錯誤（需要驗證），它被從銷售中召回，並且收藏家手中留下的副本很少。這可能是世嘉歷史上的第一次召回（？）。</desc>
@@ -1613,7 +1613,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65741" source="ScreenScraper.fr">
     <path>./Pachinko II (Japan).zip</path>
-    <name>Pachinko II (Pachinko II)</name>
+    <name>Pachinko II</name>
     <desc>Pachinko II 是 Pachinko 的錯誤修復版本，也是 1984 年針對 SG-1000 發布的“續集”。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -1625,7 +1625,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65741" source="ScreenScraper.fr">
     <path>./Pachinko II (Taiwan).zip</path>
-    <name>Pachinko II (Pachinko II)</name>
+    <name>Pachinko II</name>
     <desc>Pachinko II 是 Pachinko 的錯誤修復版本，也是 1984 年針對 SG-1000 發布的“續集”。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -1637,7 +1637,7 @@ SG-1000 存在兩個版本的黑白棋。第一個版本於 1983 年發布，內
   </game>
   <game id="65742" source="ScreenScraper.fr">
     <path>./Pitfall II (Taiwan) (Chinese Logo).zip</path>
-    <name>Pitfall II (Pitfall II)</name>
+    <name>Pitfall II</name>
     <desc>Pitfall II：失落的洞穴是 Pitfall 的續作，在 20 世紀 80 年代中期針對多種系統發布，其中包括 1985 年的 SG-1000。遊戲玩法與原版遊戲類似，但關卡更像迷宮。
 
 Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方版本相比進行了重大調整。遊戲玩法基本相同，但有許多補充。其中包括生命系統、礦車、氣球和最終的惡魔首領。...</desc>
@@ -1651,7 +1651,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65742" source="ScreenScraper.fr">
     <path>./Pitfall II (Taiwan) (English Logo).zip</path>
-    <name>Pitfall II (Pitfall II)</name>
+    <name>Pitfall II</name>
     <desc>Pitfall II：失落的洞穴是 Pitfall 的續作，在 20 世紀 80 年代中期針對多種系統發布，其中包括 1985 年的 SG-1000。遊戲玩法與原版遊戲類似，但關卡更像迷宮。
 
 Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方版本相比進行了重大調整。遊戲玩法基本相同，但有許多補充。其中包括生命系統、礦車、氣球和最終的惡魔首領。...</desc>
@@ -1665,7 +1665,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65742" source="ScreenScraper.fr">
     <path>./Pitfall II - The Lost Caverns (Japan) (Rev 1).zip</path>
-    <name>Pitfall II : The Lost Caverns (Pitfall II : The Lost Caverns)</name>
+    <name>Pitfall II : The Lost Caverns</name>
     <desc>Pitfall II：失落的洞穴是 Pitfall 的續作，在 20 世紀 80 年代中期針對多種系統發布，其中包括 1985 年的 SG-1000。遊戲玩法與原版遊戲類似，但關卡更像迷宮。
 
 Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方版本相比進行了重大調整。遊戲玩法基本相同，但有許多補充。其中包括生命系統、礦車、氣球和最終的惡魔首領。...</desc>
@@ -1679,7 +1679,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65742" source="ScreenScraper.fr">
     <path>./Pitfall II - The Lost Caverns (Japan).zip</path>
-    <name>Pitfall II : The Lost Caverns (Pitfall II : The Lost Caverns)</name>
+    <name>Pitfall II : The Lost Caverns</name>
     <desc>Pitfall II：失落的洞穴是 Pitfall 的續作，在 20 世紀 80 年代中期針對多種系統發布，其中包括 1985 年的 SG-1000。遊戲玩法與原版遊戲類似，但關卡更像迷宮。
 
 Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方版本相比進行了重大調整。遊戲玩法基本相同，但有許多補充。其中包括生命系統、礦車、氣球和最終的惡魔首領。...</desc>
@@ -1693,7 +1693,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65743" source="ScreenScraper.fr">
     <path>./Pop Flamer (Japan, Europe).zip</path>
-    <name>Pop Flamer (Pop Flamer)</name>
+    <name>Pop Flamer</name>
     <desc>“POP FLAMER”是一隻操作火焰噴射器的鼠標。
 作為一名玩家，你嘗試打破氣球並為火焰噴射器提供燃料，同時消除 3 種怪物和阻礙路線的障礙物青蛙。然而，要小心“哈拉頓”發出的鎮靜光束。當你暴露在這道光束之下時，你將無法移動時間！當 POP FLAMER 喝下“能量飲料”時，它會變成“超級老鼠”，吞下 n...</desc>
     <releasedate>01/01/1983</releasedate>
@@ -1706,7 +1706,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65743" source="ScreenScraper.fr">
     <path>./Pop Flamer (Taiwan).zip</path>
-    <name>Pop Flamer (Pop Flamer)</name>
+    <name>Pop Flamer</name>
     <desc>“POP FLAMER”是一隻操作火焰噴射器的鼠標。
 作為一名玩家，你嘗試打破氣球並為火焰噴射器提供燃料，同時消除 3 種怪物和阻礙路線的障礙物青蛙。然而，要小心“哈拉頓”發出的鎮靜光束。當你暴露在這道光束之下時，你將無法移動時間！當 POP FLAMER 喝下“能量飲料”時，它會變成“超級老鼠”，吞下 n...</desc>
     <releasedate>01/01/1983</releasedate>
@@ -1719,7 +1719,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65744" source="ScreenScraper.fr">
     <path>./Q-bert (Japan) (Othello Multivision).zip</path>
-    <name>Q*bert (Q*bert)</name>
+    <name>方塊人</name>
     <desc>Q*bert 是 Gottlieb 開發的一款街機遊戲。它由 Tsukuda Original 移植到 SG-1000，並在其 Othello Multivision 控制台上進行營銷。
 
 遊戲的目標是通過在屏幕上移動 Q*bert 來將屏幕上的所有立方體變成所需的顏色。Q*bert 只能沿對角線移動，玩家需要小心，不要讓 Q*bert 離開邊緣或與敵人/障礙物發生碰撞。屏幕邊緣偶爾會出現圓柱形平台，當跳躍時......</desc>
@@ -1733,7 +1733,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102103" source="ScreenScraper.fr">
     <path>./Rally-X (Taiwan) (DahJee).zip</path>
-    <name>Rally-X (Rally-X)</name>
+    <name>Rally-X</name>
     <desc>Rally-X 是 Namco 於 1980 年推出的街機遊戲，於 1984 年引入 MSX。隨後移植到台灣的 SG-1000。</desc>
     <rating>0.55</rating>
     <releasedate />
@@ -1746,7 +1746,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102103" source="ScreenScraper.fr">
     <path>./Rally-X (Taiwan).zip</path>
-    <name>Rally-X (Rally-X)</name>
+    <name>Rally-X</name>
     <desc>Rally-X 是 Namco 於 1980 年推出的街機遊戲，於 1984 年引入 MSX。隨後移植到台灣的 SG-1000。</desc>
     <rating>0.55</rating>
     <releasedate />
@@ -1759,7 +1759,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102104" source="ScreenScraper.fr">
     <path>./Road Fighter (Taiwan) (Jumbo).zip</path>
-    <name>Road Fighter (Road Fighter)</name>
+    <name>Road Fighter</name>
     <desc>《Road Fighter》是一款由 Konami 開發的賽車遊戲。Jumbo 將 MSX 版本的遊戲移植到台灣的 SG-1000 上，名稱為“Huojiàn che”。目前尚不清楚他們是否擁有該許可證。後來它作為 Sega Master 系統的卡帶在韓國發布，名稱為 Paiteo Lodeu。</desc>
     <releasedate />
     <developer>Konami</developer>
@@ -1771,7 +1771,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102104" source="ScreenScraper.fr">
     <path>./Road Fighter (Taiwan).zip</path>
-    <name>Road Fighter (Road Fighter)</name>
+    <name>Road Fighter</name>
     <desc>《Road Fighter》是一款由 Konami 開發的賽車遊戲。Jumbo 將 MSX 版本的遊戲移植到台灣的 SG-1000 上，名稱為“Huojiàn che”。目前尚不清楚他們是否擁有該許可證。後來它作為 Sega Master 系統的卡帶在韓國發布，名稱為 Paiteo Lodeu。</desc>
     <releasedate />
     <developer>Konami</developer>
@@ -1783,7 +1783,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65745" source="ScreenScraper.fr">
     <path>./Rock n' Bolt (Japan).zip</path>
-    <name>Rock n' Bolt (Rock n' Bolt)</name>
+    <name>Rock n' Bolt</name>
     <desc>在您等待建築世界最複雜、最混亂的藍圖、螺栓、橫樑和大樑之前。
 你和你自己必須弄清楚這一切並將它們放在一起。而且你沒有一整天的時間。
 這是一個令人眼花繚亂、令人眼花繚亂、令人難以置信的令人興奮的高層挑戰。一共100層。
@@ -1799,7 +1799,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65745" source="ScreenScraper.fr">
     <path>./Rock n' Bolt (Taiwan).zip</path>
-    <name>Rock n' Bolt (Rock n' Bolt)</name>
+    <name>Rock n' Bolt</name>
     <desc>在您等待建築世界最複雜、最混亂的藍圖、螺栓、橫樑和大樑之前。
 你和你自己必須弄清楚這一切並將它們放在一起。而且你沒有一整天的時間。
 這是一個令人眼花繚亂、令人眼花繚亂、令人難以置信的令人興奮的高層挑戰。一共100層。
@@ -1815,7 +1815,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65747" source="ScreenScraper.fr">
     <path>./Safari Hunting (Japan).zip</path>
-    <name>Safari Hunting (Safari Hunting)</name>
+    <name>Safari Hunting</name>
     <desc>深入叢林，獵殺兇猛的動物。你的武器是一把強大的鎮靜劑槍。將熟睡的蛇、大猩猩、獅子和大象關在籠子裡捕捉它們。捕獲盡可能多的動物，同時考慮鎮靜劑的有效時間和可用燃料的數量。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Compile</developer>
@@ -1827,7 +1827,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65747" source="ScreenScraper.fr">
     <path>./Safari Hunting (Taiwan).zip</path>
-    <name>Safari Hunting (Safari Hunting)</name>
+    <name>Safari Hunting</name>
     <desc>深入叢林，獵殺兇猛的動物。你的武器是一把強大的鎮靜劑槍。將熟睡的蛇、大猩猩、獅子和大象關在籠子裡捕捉它們。捕獲盡可能多的動物，同時考慮鎮靜劑的有效時間和可用燃料的數量。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Compile</developer>
@@ -1839,7 +1839,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65748" source="ScreenScraper.fr">
     <path>./Safari Race (Europe).zip</path>
-    <name>Safari Race (Safari Race)</name>
+    <name>Safari Race</name>
     <desc>在廣闊的稀樹草原上，SAFARI RACE 比賽剛剛開始。繼續全速奔跑，超越其他車輛，同時避開過馬路的各種野生動物。快速行駛，不斷前進，同時考慮到有限的時間、油耗和危險的急彎。通過檢查站。發動機以最大功率運行，全油門駛向目標。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -1851,7 +1851,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65748" source="ScreenScraper.fr">
     <path>./Safari Race (Japan).zip</path>
-    <name>Safari Race (Safari Race)</name>
+    <name>Safari Race</name>
     <desc>在廣闊的稀樹草原上，SAFARI RACE 比賽剛剛開始。繼續全速奔跑，超越其他車輛，同時避開過馬路的各種野生動物。快速行駛，不斷前進，同時考慮到有限的時間、油耗和危險的急彎。通過檢查站。發動機以最大功率運行，全油門駛向目標。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -1863,7 +1863,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65748" source="ScreenScraper.fr">
     <path>./Safari Race (Taiwan).zip</path>
-    <name>Safari Race (Safari Race)</name>
+    <name>Safari Race</name>
     <desc>在廣闊的稀樹草原上，SAFARI RACE 比賽剛剛開始。繼續全速奔跑，超越其他車輛，同時避開過馬路的各種野生動物。快速行駛，不斷前進，同時考慮到有限的時間、油耗和危險的急彎。通過檢查站。發動機以最大功率運行，全油門駛向目標。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -1875,7 +1875,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65780" source="ScreenScraper.fr">
     <path>./San-nin Mahjong (Japan).zip</path>
-    <name>San-nin Mahjong (San-nin Mahjong)</name>
+    <name>San-nin Mahjong</name>
     <desc>三忍麻將是 SG-1000 的麻將游戲。它有時也被稱為三人麻將，意思是三人麻將。這個數量的玩家在世嘉自己的遊戲版本《麻將》和《家庭麻將》中都是不可能的。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Tsukuda Original</developer>
@@ -1887,7 +1887,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65780" source="ScreenScraper.fr">
     <path>./San-nin Mahjong (Taiwan).zip</path>
-    <name>San-nin Mahjong (San-nin Mahjong)</name>
+    <name>San-nin Mahjong</name>
     <desc>三忍麻將是 SG-1000 的麻將游戲。它有時也被稱為三人麻將，意思是三人麻將。這個數量的玩家在世嘉自己的遊戲版本《麻將》和《家庭麻將》中都是不可能的。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Tsukuda Original</developer>
@@ -1899,7 +1899,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65749" source="ScreenScraper.fr">
     <path>./Sega Flipper (Japan) (40kB).zip</path>
-    <name>Sega Flipper (Sega Flipper)</name>
+    <name>Sega Flipper</name>
     <desc>這款電腦彈球視頻遊戲伴隨著朗朗上口、有節奏的腳蹼聲音。具有可讓您賺取獎勵積分的 D.T.（掉落目標）和 K.H. （踢球洞）使您有權賺取獎勵積分 X 倍增率！瞄準好，然後射擊！祝您在球場上快​​樂地旋轉，尋找眾所周知的“高分”時取得成功。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1911,7 +1911,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65749" source="ScreenScraper.fr">
     <path>./Sega Flipper (Japan, Europe).zip</path>
-    <name>Sega Flipper (Sega Flipper)</name>
+    <name>Sega Flipper</name>
     <desc>這款電腦彈球視頻遊戲伴隨著朗朗上口、有節奏的腳蹼聲音。具有可讓您賺取獎勵積分的 D.T.（掉落目標）和 K.H. （踢球洞）使您有權賺取獎勵積分 X 倍增率！瞄準好，然後射擊！祝您在球場上快​​樂地旋轉，尋找眾所周知的“高分”時取得成功。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1923,7 +1923,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65730" source="ScreenScraper.fr">
     <path>./Mahjong (Japan) (English Title).zip</path>
-    <name>Sega Mahjong (Sega Mahjong)</name>
+    <name>Sega Mahjong</name>
     <desc>這是第一款針對 SG-1000 發布的麻將游戲，由世嘉於 1983 年開發並發行。與後來針對該系統發布的麻將游戲不同，該遊戲僅供一名玩家使用。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1935,7 +1935,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65730" source="ScreenScraper.fr">
     <path>./Mahjong (Japan).zip</path>
-    <name>Sega Mahjong (Sega Mahjong)</name>
+    <name>Sega Mahjong</name>
     <desc>這是第一款針對 SG-1000 發布的麻將游戲，由世嘉於 1983 年開發並發行。與後來針對該系統發布的麻將游戲不同，該遊戲僅供一名玩家使用。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1947,7 +1947,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65730" source="ScreenScraper.fr">
     <path>./Mahjong (Taiwan).zip</path>
-    <name>Sega Mahjong (Sega Mahjong)</name>
+    <name>Sega Mahjong</name>
     <desc>這是第一款針對 SG-1000 發布的麻將游戲，由世嘉於 1983 年開發並發行。與後來針對該系統發布的麻將游戲不同，該遊戲僅供一名玩家使用。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -1959,7 +1959,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65717" source="ScreenScraper.fr">
     <path>./Sega-Galaga (Japan) (16kB).zip</path>
-    <name>Sega-Galaga (Sega-Galaga)</name>
+    <name>Sega-Galaga</name>
     <desc>控制戰鬥機宇宙飛船並擊落入侵的外星人。小心俯衝的母艦，它們會試圖偷走你的戰鬥機。營救被俘的戰士，使你的火力加倍。在不同的挑戰階段中一波又一波地戰鬥，賺取完美獎勵。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Namco</developer>
@@ -1971,7 +1971,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65717" source="ScreenScraper.fr">
     <path>./Sega-Galaga (Japan) (40kB).zip</path>
-    <name>Sega-Galaga (Sega-Galaga)</name>
+    <name>Sega-Galaga</name>
     <desc>控制戰鬥機宇宙飛船並擊落入侵的外星人。小心俯衝的母艦，它們會試圖偷走你的戰鬥機。營救被俘的戰士，使你的火力加倍。在不同的挑戰階段中一波又一波地戰鬥，賺取完美獎勵。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Namco</developer>
@@ -1983,7 +1983,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102229" source="ScreenScraper.fr">
     <path>./Sekaishi Nenpyou (Japan) (SC-3000).zip</path>
-    <name>Sekaishi Nenpyou (Sekaishi Nenpyou)</name>
+    <name>Sekaishi Nenpyou</name>
     <desc>Sekaishi Nenpyou（Monbushou Shidouyouryou Junkyo）（翻譯：世界歷史年表（基於教育部課程））是 SC-3000（以及與 SK-1100 鍵盤連接時的 SG-1000）的一系列教育遊戲的一部分。這集中於世界歷史。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>Stratford Computer</developer>
@@ -1995,7 +1995,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65750" source="ScreenScraper.fr">
     <path>./Serizawa Hachidan no Tsumeshougi (Japan).zip</path>
-    <name>Serizawa Hachidan no Tsumeshougi (Serizawa Hachidan no Tsumeshougi)</name>
+    <name>Serizawa Hachidan no Tsumeshougi</name>
     <desc>《芹澤八團之使令》是世嘉 1982 年推出的一款街機遊戲。隨後它被移植到 SG-1000。
 
 街機版本極為罕見且記錄很少。</desc>
@@ -2009,7 +2009,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65751" source="ScreenScraper.fr">
     <path>./Shinnyushain Tooru Kun (Japan).zip</path>
-    <name>Shinnyushain Tooru Kun (Shinnyushain Tooru Kun)</name>
+    <name>Shinnyushain Tooru Kun</name>
     <desc>Shinnyuushain Tooru-Kun 是一款針對 SG-1000 的遊戲。它最初是 Konami 推出的一款街機遊戲，在日本以外地區被稱為 Mikie。
 
 韓國的 Sega Master 系統發布了未經許可的版本。</desc>
@@ -2023,7 +2023,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65752" source="ScreenScraper.fr">
     <path>./Sindbad Mystery (Japan, Europe).zip</path>
-    <name>Sindbad Mystery (Sindbad Mystery)</name>
+    <name>Sindbad Mystery</name>
     <desc>《辛巴達之謎》是世嘉於1983年為世嘉G80（光柵）硬件開發的一款街機遊戲，同年移植到SG-1000上。故事講述了一個名叫辛巴達的男孩在拼湊一張類似於吃豆人的藏寶圖時必須避開怪物的故事。他還可以使用挖掘機制來困住敵人，類似於平安京外星人和太空恐慌。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -2035,7 +2035,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65752" source="ScreenScraper.fr">
     <path>./Sindbad Mystery (Taiwan).zip</path>
-    <name>Sindbad Mystery (Sindbad Mystery)</name>
+    <name>Sindbad Mystery</name>
     <desc>《辛巴達之謎》是世嘉於1983年為世嘉G80（光柵）硬件開發的一款街機遊戲，同年移植到SG-1000上。故事講述了一個名叫辛巴達的男孩在拼湊一張類似於吃豆人的藏寶圖時必須避開怪物的故事。他還可以使用挖掘機制來困住敵人，類似於平安京外星人和太空恐慌。</desc>
     <releasedate>01/01/1983</releasedate>
     <developer>SEGA</developer>
@@ -2047,7 +2047,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65754" source="ScreenScraper.fr">
     <path>./Soukoban (Japan).zip</path>
-    <name>Soukoban (Soukoban)</name>
+    <name>Soukoban</name>
     <desc>推箱子是Thinking Rabbit開發的一款益智遊戲。世嘉於 1985 年將其移植到 SG-1000 上。這兩個版本都沒有離開日本。
 
 推箱子是《Shove It!》的基礎...倉庫遊戲，為世嘉 Mega Drive 發布。</desc>
@@ -2061,7 +2061,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65754" source="ScreenScraper.fr">
     <path>./Soukoban (Taiwan).zip</path>
-    <name>Soukoban (Soukoban)</name>
+    <name>Soukoban</name>
     <desc>推箱子是Thinking Rabbit開發的一款益智遊戲。世嘉於 1985 年將其移植到 SG-1000 上。這兩個版本都沒有離開日本。
 
 推箱子是《Shove It!》的基礎...倉庫遊戲，為世嘉 Mega Drive 發布。</desc>
@@ -2075,7 +2075,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65783" source="ScreenScraper.fr">
     <path>./Space Armor (Japan) (v1.0) (Othello Multivision).zip</path>
-    <name>Space Armor (Space Armor)</name>
+    <name>Space Armor</name>
     <desc>《Space Armor》是一款 1984 年由 Tsukuda Original 開發並發行的射擊遊戲。它是根據 Othello Multivision 構建的，但與所有 Multivision 遊戲一樣，也與 SG-1000 兼容。《太空裝甲》並未在日本以外地區發行。
 
 該遊戲的構建類似於 Namco 的 Xevious，因為它是一款垂直射擊遊戲，其中一個按鈕向飛行目標開火，另一個按鈕向地面目標開火。</desc>
@@ -2089,7 +2089,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65783" source="ScreenScraper.fr">
     <path>./Space Armor (Japan) (v2.0) (Newer) (Othello Multivision).zip</path>
-    <name>Space Armor (Space Armor)</name>
+    <name>Space Armor</name>
     <desc>《Space Armor》是一款 1984 年由 Tsukuda Original 開發並發行的射擊遊戲。它是根據 Othello Multivision 構建的，但與所有 Multivision 遊戲一樣，也與 SG-1000 兼容。《太空裝甲》並未在日本以外地區發行。
 
 該遊戲的構建類似於 Namco 的 Xevious，因為它是一款垂直射擊遊戲，其中一個按鈕向飛行目標開火，另一個按鈕向地面目標開火。</desc>
@@ -2103,7 +2103,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65783" source="ScreenScraper.fr">
     <path>./Space Armor (Japan) (v2.0) (Othello Multivision).zip</path>
-    <name>Space Armor (Space Armor)</name>
+    <name>Space Armor</name>
     <desc>《Space Armor》是一款 1984 年由 Tsukuda Original 開發並發行的射擊遊戲。它是根據 Othello Multivision 構建的，但與所有 Multivision 遊戲一樣，也與 SG-1000 兼容。《太空裝甲》並未在日本以外地區發行。
 
 該遊戲的構建類似於 Namco 的 Xevious，因為它是一款垂直射擊遊戲，其中一個按鈕向飛行目標開火，另一個按鈕向地面目標開火。</desc>
@@ -2117,7 +2117,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65755" source="ScreenScraper.fr">
     <path>./Space Invaders (Japan).zip</path>
-    <name>Space Invaders (Space Invaders)</name>
+    <name>太空侵略者</name>
     <desc>地球正受到一排排投炸彈的外星人的攻擊，你需要保衛它！一排排外星人從屏幕頂部開始，你控制屏幕底部的激光炮。你的目標是在外星人著陸之前射擊他們來賺取積分。外星人來回行進，每次到達屏幕末端時，他們都會下降一排靠近底部。將它們全部射擊，然後您將進入下一個（更難的）關卡，但如果其中一個落地，遊戲就結束了……</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -2129,7 +2129,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65755" source="ScreenScraper.fr">
     <path>./Space Invaders (Taiwan).zip</path>
-    <name>Space Invaders (Space Invaders)</name>
+    <name>太空侵略者</name>
     <desc>地球正受到一排排投炸彈的外星人的攻擊，你需要保衛它！一排排外星人從屏幕頂部開始，你控制屏幕底部的激光炮。你的目標是在外星人著陸之前射擊他們來賺取積分。外星人來回行進，每次到達屏幕末端時，他們都會下降一排靠近底部。將它們全部射擊，然後您將進入下一個（更難的）關卡，但如果其中一個落地，遊戲就結束了……</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -2141,7 +2141,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65784" source="ScreenScraper.fr">
     <path>./Space Mountain (Japan) (Othello Multivision).zip</path>
-    <name>Space Mountain (Space Mountain)</name>
+    <name>Space Mountain</name>
     <desc>Space Mountain 是一款由 Tsukuda Original 開發和發行的 SG-1000 遊戲，其中考慮了 Othello Multivision。這是一款非常原始的第三人稱太空飛船射擊遊戲，玩家必須在滲透基地之前擊落敵方飛船。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>Tsukuda Original</developer>
@@ -2153,7 +2153,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65757" source="ScreenScraper.fr">
     <path>./Space Slalom (Japan).zip</path>
-    <name>Space Slalom (Space Slalom)</name>
+    <name>Space Slalom</name>
     <desc>Space Slalom 是一款由 Orca 開發、世嘉於 1983 年針對 SG-1000 發行的視頻遊戲。
 
 雖然表面上看這是一款以太空為主題的垂直射擊遊戲，但實際上並沒有涉及射擊。玩家控制航天飛機，必須引導它穿過由彩色星星定義的路線，類似於滑雪迴轉賽。玩家還必須避開障礙物，並將根據他/她在賽道上的速度獲得額外積分。</desc>
@@ -2167,7 +2167,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65758" source="ScreenScraper.fr">
     <path>./Star Force (Japan).zip</path>
-    <name>Star Force (Star Force)</name>
+    <name>Star Force</name>
     <desc>Star Force 是由 Tehkan（現在的 Tecmo）於 1984 年開發的一款街機垂直射擊遊戲，後來於 1985 年被引入到 SG-1000 中。
 
 該遊戲的 SG-1000 版本在卡帶和世嘉卡上發布。</desc>
@@ -2181,7 +2181,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65758" source="ScreenScraper.fr">
     <path>./Star Force (Taiwan) (Alt 1).zip</path>
-    <name>Star Force (Star Force)</name>
+    <name>Star Force</name>
     <desc>Star Force 是由 Tehkan（現在的 Tecmo）於 1984 年開發的一款街機垂直射擊遊戲，後來於 1985 年被引入到 SG-1000 中。
 
 該遊戲的 SG-1000 版本在卡帶和世嘉卡上發布。</desc>
@@ -2195,7 +2195,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65758" source="ScreenScraper.fr">
     <path>./Star Force (Taiwan).zip</path>
-    <name>Star Force (Star Force)</name>
+    <name>Star Force</name>
     <desc>Star Force 是由 Tehkan（現在的 Tecmo）於 1984 年開發的一款街機垂直射擊遊戲，後來於 1985 年被引入到 SG-1000 中。
 
 該遊戲的 SG-1000 版本在卡帶和世嘉卡上發布。</desc>
@@ -2209,7 +2209,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65759" source="ScreenScraper.fr">
     <path>./Star Jacker (Japan).zip</path>
-    <name>Star Jacker (Star Jacker)</name>
+    <name>Star Jacker</name>
     <desc>一款“新感覺”的太空遊戲。光榮的太空部隊與入侵的“德斯特”軍隊作戰。躲避UFO左右上下的連續攻擊。使用開火按鈕進行反擊。帶領太空部隊穿越各個神秘區域，前往航母。</desc>
     <releasedate>15/07/1983</releasedate>
     <developer>SEGA</developer>
@@ -2221,7 +2221,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65759" source="ScreenScraper.fr">
     <path>./Star Jacker (Japan, Europe) (Rev 1).zip</path>
-    <name>Star Jacker (Star Jacker)</name>
+    <name>Star Jacker</name>
     <desc>一款“新感覺”的太空遊戲。光榮的太空部隊與入侵的“德斯特”軍隊作戰。躲避UFO左右上下的連續攻擊。使用開火按鈕進行反擊。帶領太空部隊穿越各個神秘區域，前往航母。</desc>
     <releasedate>15/07/1983</releasedate>
     <developer>SEGA</developer>
@@ -2233,7 +2233,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65759" source="ScreenScraper.fr">
     <path>./Star Jacker (Japan, Europe) (Rev 2).zip</path>
-    <name>Star Jacker (Star Jacker)</name>
+    <name>Star Jacker</name>
     <desc>一款“新感覺”的太空遊戲。光榮的太空部隊與入侵的“德斯特”軍隊作戰。躲避UFO左右上下的連續攻擊。使用開火按鈕進行反擊。帶領太空部隊穿越各個神秘區域，前往航母。</desc>
     <releasedate>15/07/1983</releasedate>
     <developer>SEGA</developer>
@@ -2245,7 +2245,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65759" source="ScreenScraper.fr">
     <path>./Star Jacker (Taiwan).zip</path>
-    <name>Star Jacker (Star Jacker)</name>
+    <name>Star Jacker</name>
     <desc>一款“新感覺”的太空遊戲。光榮的太空部隊與入侵的“德斯特”軍隊作戰。躲避UFO左右上下的連續攻擊。使用開火按鈕進行反擊。帶領太空部隊穿越各個神秘區域，前往航母。</desc>
     <releasedate>15/07/1983</releasedate>
     <developer>SEGA</developer>
@@ -2257,7 +2257,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65761" source="ScreenScraper.fr">
     <path>./Super Tank (Japan).zip</path>
-    <name>Super Tank (Super Tank)</name>
+    <name>Super Tank</name>
     <desc>Super Tank 是一款適用於 SG-1000 的射擊遊戲。玩家駕駛一輛坦克，負責射擊並摧毀敵方單位和建築物。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -2269,7 +2269,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65761" source="ScreenScraper.fr">
     <path>./Super Tank (Taiwan).zip</path>
-    <name>Super Tank (Super Tank)</name>
+    <name>Super Tank</name>
     <desc>Super Tank 是一款適用於 SG-1000 的射擊遊戲。玩家駕駛一輛坦克，負責射擊並摧毀敵方單位和建築物。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -2281,7 +2281,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102105" source="ScreenScraper.fr">
     <path>./Tank Battalion (Taiwan).zip</path>
-    <name>Tank Battalion (Tank Battalion)</name>
+    <name>Tank Battalion</name>
     <desc>《坦克營》是 Namco 於 1980 年推出的街機遊戲，於 1984 年引入 MSX。隨後移植到台灣的 SG-1000 和韓國的 Sega Master System。</desc>
     <releasedate />
     <developer>Namco</developer>
@@ -2293,7 +2293,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102230" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 4-Nen Ge) (Japan) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（小學第 4 卷，第 1 卷）是 SC-3000（以及與 SK-1100 鍵盤連接時的 SG-1000）教育遊戲系列的一部分。這側重於四年級數學。</desc>
     <releasedate />
     <developer>Stratford Computer Center</developer>
@@ -2304,7 +2304,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102230" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 4-Nen Jou) (Japan) (16kB) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（小學第 4 卷，第 1 卷）是 SC-3000（以及與 SK-1100 鍵盤連接時的 SG-1000）教育遊戲系列的一部分。這側重於四年級數學。</desc>
     <releasedate />
     <developer>Stratford Computer Center</developer>
@@ -2315,7 +2315,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102230" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 4-Nen Jou) (Japan) (40kB) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（小學第 4 卷，第 1 卷）是 SC-3000（以及與 SK-1100 鍵盤連接時的 SG-1000）教育遊戲系列的一部分。這側重於四年級數學。</desc>
     <releasedate />
     <developer>Stratford Computer Center</developer>
@@ -2326,21 +2326,21 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="167354" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 5-Nen Ge) (Japan) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（Shougaku 5-Nen Jou）（翻譯：短算術（小學五年級，第 1 卷））是 SC-3000（以及與 SK-1100 鍵盤連接時的 SG-1000）教育遊戲系列的一部分。本條目重點關註五年級數學。</desc>
     <releasedate />
     <image>./media/screenshot/Tanoshii Sansuu (Shougaku 5-Nen Ge) (Japan) (SC-3000).png</image>
   </game>
   <game id="167354" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 5-Nen Jou) (Japan) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（Shougaku 5-Nen Jou）（翻譯：短算術（小學五年級，第 1 卷））是 SC-3000（以及與 SK-1100 鍵盤連接時的 SG-1000）教育遊戲系列的一部分。本條目重點關註五年級數學。</desc>
     <releasedate />
     <image>./media/screenshot/Tanoshii Sansuu (Shougaku 5-Nen Jou) (Japan) (SC-3000).png</image>
   </game>
   <game id="167355" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 6-Nen Ge) (Japan) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（Shougaku 6-Nen Ge）（翻譯：短算術（小學六年級，第 2 卷））是 SC-3000（以及與 SK 鍵盤連接時的 SG-1000）1100）系列教育遊戲的一部分。本條目重點關註六年級數學。</desc>
     <releasedate />
     <developer>Stratford Computer Center</developer>
@@ -2351,7 +2351,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="167355" source="ScreenScraper.fr">
     <path>./Tanoshii Sansuu (Shougaku 6-Nen Jou) (Japan) (SC-3000).zip</path>
-    <name>Tanoshii Sansuu (Tanoshii Sansuu)</name>
+    <name>Tanoshii Sansuu</name>
     <desc>Tanoshii Sansuu（Shougaku 6-Nen Ge）（翻譯：短算術（小學六年級，第 2 卷））是 SC-3000（以及與 SK 鍵盤連接時的 SG-1000）1100）系列教育遊戲的一部分。本條目重點關註六年級數學。</desc>
     <releasedate />
     <developer>Stratford Computer Center</developer>
@@ -2362,7 +2362,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65762" source="ScreenScraper.fr">
     <path>./Terebi Oekaki (Japan).zip</path>
-    <name>Terebi Oekaki (Terebi Oekaki)</name>
+    <name>Terebi Oekaki</name>
     <desc>Terebi Oekaki 是與 SG-1000 的 Sega 顯卡一起包裝的遊戲。這是一個簡單的繪畫程序。
 
 這是第一款使用觸摸控制的遊戲。它需要使用 Sega Graphic Board 平板電腦以及隨附的手寫筆。</desc>
@@ -2376,7 +2376,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65693" source="ScreenScraper.fr">
     <path>./Black Onyx, The (Japan).zip</path>
-    <name>The Black Onyx (The Black Onyx)</name>
+    <name>The Black Onyx</name>
     <desc>《黑瑪瑙》是一款由 Bullet Proof Software 開發的角​​色扮演遊戲。它是在 1987 年為 SG-1000 發布的，以及其他遊戲機和計算機。這是最後一款以卡片形式發布的 SG-1000 遊戲，也是世嘉發行的最後一款遊戲，但目前尚不清楚這是否是最後一款 SG-1000 遊戲。PC-8801 和 MSX 版本分別於 1984 年和 1985 年發布，這意味著這個版本異常晚。遊戲緊隨其後的是《黑瑪瑙 II：尋找火焰》……</desc>
     <releasedate>01/01/1987</releasedate>
     <developer>Bullet Proof Software</developer>
@@ -2388,7 +2388,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65764" source="ScreenScraper.fr">
     <path>./Castle, The (Japan).zip</path>
-    <name>The Castle (The Castle)</name>
+    <name>The Castle</name>
     <desc>The Castle 是由 ASCII 開發的視頻遊戲，於 1986 年針對 SG-1000 發布。它是同名 MSX 遊戲的移植版，由於兩台機器之間的硬件相似，因此在很大程度上是相同的。由於 SG-1000 的衰落和 Sega Master System 的出現，該遊戲沒有像許多其他 SG-1000 遊戲一樣在歐洲或澳大利亞發行。該遊戲有一個相當標準的從城堡中拯救公主的情節，儘管遊戲本身在當時被認為非常龐大。我...</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>ASCII Corporation</developer>
@@ -2400,7 +2400,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65764" source="ScreenScraper.fr">
     <path>./Castle, The (Taiwan) (MSX).zip</path>
-    <name>The Castle (The Castle)</name>
+    <name>The Castle</name>
     <desc>The Castle 是由 ASCII 開發的視頻遊戲，於 1986 年針對 SG-1000 發布。它是同名 MSX 遊戲的移植版，由於兩台機器之間的硬件相似，因此在很大程度上是相同的。由於 SG-1000 的衰落和 Sega Master System 的出現，該遊戲沒有像許多其他 SG-1000 遊戲一樣在歐洲或澳大利亞發行。該遊戲有一個相當標準的從城堡中拯救公主的情節，儘管遊戲本身在當時被認為非常龐大。我...</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>ASCII Corporation</developer>
@@ -2412,7 +2412,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102101" source="ScreenScraper.fr">
     <path>./Legend of Kage, The (Taiwan).zip</path>
-    <name>The Legend of Kage (The Legend of Kage)</name>
+    <name>The Legend of Kage</name>
     <desc>玩家扮演年輕的伊賀忍者，名叫影（“影子”），肩負著從邪惡軍閥耀西（久衣草郎飾）和邪惡武士由紀（野助理子飾）手中拯救幕府將軍的女兒桐公主（姬）的任務。Kage 必須殺出一條血路，穿過森林、沿著秘密通道、爬上堡壘牆、穿過城堡……拯救她兩次（在 FC/NES 版本中為三次）才能贏得遊戲。每次公主被救出，季節就會從夏天變成秋天……</desc>
     <rating>0.45</rating>
     <releasedate>01/01/1986</releasedate>
@@ -2425,7 +2425,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102106" source="ScreenScraper.fr">
     <path>./TwinBee (Taiwan).zip</path>
-    <name>TwinBee (TwinBee)</name>
+    <name>TwinBee</name>
     <desc>TwinBee 是 Konami 於 1985 年推出的一款街機遊戲，於 1986 年引入 MSX。 MSX 版本隨後移植到台灣的 SG-1000 上。</desc>
     <releasedate />
     <developer>Konami</developer>
@@ -2437,7 +2437,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="129673" source="ScreenScraper.fr">
     <path>./Uranai Angel Cutie (Japan) (SC-3000).zip</path>
-    <name>Uranai Angel Cutie (Uranai Angel Cutie)</name>
+    <name>Uranai Angel Cutie</name>
     <desc>適用於 SG-1000/SC-3000 系列的算命墨盒軟件。需要世嘉鍵盤輸入程序提出的各種問題的答案。</desc>
     <releasedate>01/01/1984</releasedate>
     <developer>SEGA</developer>
@@ -2449,7 +2449,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65765" source="ScreenScraper.fr">
     <path>./Wonder Boy (Japan) (Rev 1).zip</path>
-    <name>Wonder Boy (Wonder Boy)</name>
+    <name>Wonder Boy</name>
     <desc>神奇小子開始了一段漫長而危險的旅程，追捕綁架了女友蒂娜的 KING。KING住在一個遙遠的地方，那里居住著可怕的生物，充滿了許多驚喜。在路上，我們的英雄必須收集食物來增加他的能量。神奇小子的終極使命是營救蒂娜，並向所有人證明真愛總會勝利。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -2461,7 +2461,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65765" source="ScreenScraper.fr">
     <path>./Wonder Boy (Japan).zip</path>
-    <name>Wonder Boy (Wonder Boy)</name>
+    <name>Wonder Boy</name>
     <desc>神奇小子開始了一段漫長而危險的旅程，追捕綁架了女友蒂娜的 KING。KING住在一個遙遠的地方，那里居住著可怕的生物，充滿了許多驚喜。在路上，我們的英雄必須收集食物來增加他的能量。神奇小子的終極使命是營救蒂娜，並向所有人證明真愛總會勝利。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -2473,7 +2473,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65765" source="ScreenScraper.fr">
     <path>./Wonder Boy (Taiwan).zip</path>
-    <name>Wonder Boy (Wonder Boy)</name>
+    <name>Wonder Boy</name>
     <desc>神奇小子開始了一段漫長而危險的旅程，追捕綁架了女友蒂娜的 KING。KING住在一個遙遠的地方，那里居住著可怕的生物，充滿了許多驚喜。在路上，我們的英雄必須收集食物來增加他的能量。神奇小子的終極使命是營救蒂娜，並向所有人證明真愛總會勝利。</desc>
     <releasedate>01/01/1986</releasedate>
     <developer>SEGA</developer>
@@ -2485,7 +2485,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65766" source="ScreenScraper.fr">
     <path>./Yamato (Japan) (40kB).zip</path>
-    <name>Yamato (Yamato)</name>
+    <name>Yamato</name>
     <desc>躲避敵人魚雷和導彈的攻擊。擊落導彈。小心，如果大和被側面擊中就會爆炸。瞄準敵人並開槍。使用速射槍攻擊敵人的飛機。YAMATO能否在這場激烈的戰鬥中生存下來呢？</desc>
     <releasedate>01/03/1983</releasedate>
     <developer>SEGA</developer>
@@ -2497,7 +2497,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65766" source="ScreenScraper.fr">
     <path>./Yamato (Japan, Europe).zip</path>
-    <name>Yamato (Yamato)</name>
+    <name>Yamato</name>
     <desc>躲避敵人魚雷和導彈的攻擊。擊落導彈。小心，如果大和被側面擊中就會爆炸。瞄準敵人並開槍。使用速射槍攻擊敵人的飛機。YAMATO能否在這場激烈的戰鬥中生存下來呢？</desc>
     <releasedate>01/03/1983</releasedate>
     <developer>SEGA</developer>
@@ -2509,7 +2509,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65766" source="ScreenScraper.fr">
     <path>./Yamato (Taiwan).zip</path>
-    <name>Yamato (Yamato)</name>
+    <name>Yamato</name>
     <desc>躲避敵人魚雷和導彈的攻擊。擊落導彈。小心，如果大和被側面擊中就會爆炸。瞄準敵人並開槍。使用速射槍攻擊敵人的飛機。YAMATO能否在這場激烈的戰鬥中生存下來呢？</desc>
     <releasedate>01/03/1983</releasedate>
     <developer>SEGA</developer>
@@ -2521,7 +2521,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="102107" source="ScreenScraper.fr">
     <path>./Yie Ar Kung-Fu II (Taiwan).zip</path>
-    <name>Yie Ar Kung-Fu II (Yie Ar Kung-Fu II)</name>
+    <name>Yie Ar Kung-Fu II</name>
     <desc>《Yie Ar Kung-Fu 2：Emperor Yie-Gah》是 MSX / Famicom (NES) 版 Yie Ar Kung-Fu 的續集，而不是直接基於街機發行的版本。該遊戲延續了前作主角李英的追求，成為一名功夫大師。這涉及到在傳統的一對一 2D 環境中與各種對手進行戰鬥。李楊擁有多種攻擊動作，可以用來降低對手的生命值，包括傳統的拳擊和......</desc>
     <releasedate />
     <developer>Konami</developer>
@@ -2533,7 +2533,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65767" source="ScreenScraper.fr">
     <path>./Zaxxon (Japan).zip</path>
-    <name>Zaxxon (Zaxxon)</name>
+    <name>Zaxxon</name>
     <desc>ZAXXON 將您帶入外太空深處。當您坐上指揮位置時，測試您的飛行員技能。準備迎接充滿動感的太空生存挑戰。當你潛水、攀爬和俯衝摧毀敵人的漂浮堡壘時，即可得分。躲避致命的激光屏障、敵人的導彈和快速的槍聲！摧毀敵人的油箱並補充你自己的補給。在敵人戰鬥機艦隊的攻擊中倖存下來並面對終極挑戰……強大的裝甲 ZAXXON 機器人。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -2545,7 +2545,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65767" source="ScreenScraper.fr">
     <path>./Zaxxon (Taiwan).zip</path>
-    <name>Zaxxon (Zaxxon)</name>
+    <name>Zaxxon</name>
     <desc>ZAXXON 將您帶入外太空深處。當您坐上指揮位置時，測試您的飛行員技能。準備迎接充滿動感的太空生存挑戰。當你潛水、攀爬和俯衝摧毀敵人的漂浮堡壘時，即可得分。躲避致命的激光屏障、敵人的導彈和快速的槍聲！摧毀敵人的油箱並補充你自己的補給。在敵人戰鬥機艦隊的攻擊中倖存下來並面對終極挑戰……強大的裝甲 ZAXXON 機器人。</desc>
     <releasedate>01/01/1985</releasedate>
     <developer>SEGA</developer>
@@ -2557,7 +2557,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65768" source="ScreenScraper.fr">
     <path>./Zippy Race (Japan).zip</path>
-    <name>Zippy Race (Zippy Race)</name>
+    <name>Zippy Race</name>
     <desc>玩家控制一名摩托車手，參加一場比賽，爭奪第一個從西海岸到東海岸橫穿美國的人，從洛杉磯出發，最終到達紐約市。
 
 遊戲玩法包括玩家在前往下一個檢查站的途中躲避汽車和其他道路危險。玩家可以加速或踩下摩托車的剎車，以避免發生事故。事故會導致玩家失去燃料，耗盡燃料可能會結束遊戲。斯...</desc>
@@ -2571,7 +2571,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65768" source="ScreenScraper.fr">
     <path>./Zippy Race (Taiwan).zip</path>
-    <name>Zippy Race (Zippy Race)</name>
+    <name>Zippy Race</name>
     <desc>玩家控制一名摩托車手，參加一場比賽，爭奪第一個從西海岸到東海岸橫穿美國的人，從洛杉磯出發，最終到達紐約市。
 
 遊戲玩法包括玩家在前往下一個檢查站的途中躲避汽車和其他道路危險。玩家可以加速或踩下摩托車的剎車，以避免發生事故。事故會導致玩家失去燃料，耗盡燃料可能會結束遊戲。斯...</desc>
@@ -2585,7 +2585,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65769" source="ScreenScraper.fr">
     <path>./Zoom 909 (Japan).zip</path>
-    <name>Zoom 909 (Zoom 909)</name>
+    <name>Zoom 909</name>
     <desc>Zoom 909 是一款由 Sega 為 VCO Object 街機硬件開發的街機遊戲。該遊戲於 1982 年在全球發行，但在獲得巴克·羅傑斯 (Buck Rogers) 的許可後，該遊戲的西方版本被稱為“巴克·羅傑斯：Zoom 星球”。Zoom 909 和 Buck Rogers: Planet of Zoom 基本上是相同的遊戲，只是有一些細微的圖形差異。
 
 雖然該遊戲的大多數本地端口都是基於 Zoom 星球，但 Zoom 909 於 1983 年被引入日本 MSX，SG-1000 於 1985 年被引入。這些版本...</desc>
@@ -2599,7 +2599,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65769" source="ScreenScraper.fr">
     <path>./Zoom 909 (Taiwan).zip</path>
-    <name>Zoom 909 (Zoom 909)</name>
+    <name>Zoom 909</name>
     <desc>Zoom 909 是一款由 Sega 為 VCO Object 街機硬件開發的街機遊戲。該遊戲於 1982 年在全球發行，但在獲得巴克·羅傑斯 (Buck Rogers) 的許可後，該遊戲的西方版本被稱為“巴克·羅傑斯：Zoom 星球”。Zoom 909 和 Buck Rogers: Planet of Zoom 基本上是相同的遊戲，只是有一些細微的圖形差異。
 
 雖然該遊戲的大多數本地端口都是基於 Zoom 星球，但 Zoom 909 於 1983 年被引入日本 MSX，SG-1000 於 1985 年被引入。這些版本...</desc>
@@ -2613,7 +2613,7 @@ Sega 的 Pitfall II 版本與針對 Atari 2600、ColecoVision 等發布的西方
   </game>
   <game id="65782" source="ScreenScraper.fr">
     <path>./SG-1000 M2 Test Cartridge (Japan).zip</path>
-    <name>ZZZ:Sg-1000 M2 Test Cartridge (ZZZ:Sg-1000 M2 Test Cartridge)</name>
+    <name>ZZZ:Sg-1000 M2 Test Cartridge</name>
     <desc>它似乎在視頻 RAM 檢查中測試單個 1 位 DRAM，因此它僅適用於 SG-1000，不適用於 SG-1000 II，後者俱有兩個 4 位 DRAM，而不是八個 1 位 DRAM。[...] 嗯，我的意思是，測試有效，但 SG-1000 II 的 IC 編號是錯誤的。</desc>
     <releasedate />
     <developer>SEGA</developer>

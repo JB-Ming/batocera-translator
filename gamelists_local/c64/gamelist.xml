@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
 	<game>
 		<path>./fix_it_felix_64.d64</path>
-		<name>Fix It Felix Jr. 64</name>
+		<name>[中文]Fix It Felix Jr. 64</name>
 		<image>./images/fix_it_felix_64-image.png</image>
 		<video>./videos/fix_it_felix_64-video.mp4</video>
 		<marquee>./fix_it_felix_64-marquee.png</marquee>
@@ -30,7 +30,7 @@ Thankfully, the citizens of Niceland love Fix-It Felix Jr.! You will see them po
 	</game>
 	<game>
 		<path>./$100,000 Pyramid, The (USA).zip</path>
-		<name>$100,000 Pyramid, The (USA)</name>
+		<name>$100,000 Pyramid, The</name>
 		<lang>en</lang>
 		<region>us</region>
 	</game>
