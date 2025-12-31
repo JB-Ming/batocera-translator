@@ -197,11 +197,47 @@ class XmlWriter:
             
             result.updated += 1
         
-        # 寫入檔案
+        # 寫入檔案（保留原始格式）
         if not preview_only:
-            tree.write(xml_path, encoding='utf-8', xml_declaration=True)
+            self._write_preserving_format(xml_path, tree)
         
         return result
+    
+    def _write_preserving_format(self, xml_path: Path, tree: ET.ElementTree) -> None:
+        """
+        寫入 XML 並盡量保留原始格式
+        
+        使用 xml.etree.ElementTree 的 indent 功能來保持格式
+        """
+        import xml.etree.ElementTree as ET
+        
+        # 嘗試使用 Python 3.9+ 的 indent 功能
+        try:
+            ET.indent(tree.getroot(), space="\t", level=0)
+        except AttributeError:
+            # Python 3.8 及更早版本沒有 indent，手動處理
+            self._indent_xml(tree.getroot())
+        
+        # 寫入時使用 UTF-8 編碼
+        tree.write(xml_path, encoding='utf-8', xml_declaration=True)
+    
+    def _indent_xml(self, elem, level=0):
+        """
+        手動為 XML 元素添加縮排（相容舊版 Python）
+        """
+        indent = "\n" + "\t" * level
+        if len(elem):
+            if not elem.text or not elem.text.strip():
+                elem.text = indent + "\t"
+            if not elem.tail or not elem.tail.strip():
+                elem.tail = indent
+            for child in elem:
+                self._indent_xml(child, level + 1)
+            if not child.tail or not child.tail.strip():
+                child.tail = indent
+        else:
+            if level and (not elem.tail or not elem.tail.strip()):
+                elem.tail = indent
     
     def _has_non_ascii(self, text: str) -> bool:
         """檢查文字是否包含非 ASCII 字元（可能是已翻譯的內容）"""
