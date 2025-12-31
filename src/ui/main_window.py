@@ -162,6 +162,303 @@ class TranslationWorker(QThread):
         self._is_cancelled = True
 
 
+class StageWorker(QThread):
+    """階段工作執行緒基底類別"""
+    progress = pyqtSignal(int, int, str)  # current, total, message
+    finished = pyqtSignal(dict)           # result summary
+    error = pyqtSignal(str)               # error message
+    log = pyqtSignal(str, str, str)       # level, module, message
+    
+    def __init__(self):
+        super().__init__()
+        self._is_cancelled = False
+    
+    def cancel(self):
+        self._is_cancelled = True
+
+
+class ScanWorker(StageWorker):
+    """階段一：掃描取回 Worker"""
+    
+    def __init__(self, roms_path: str):
+        super().__init__()
+        self.roms_path = roms_path
+    
+    def run(self):
+        try:
+            from ..core import Scanner
+            
+            self.log.emit("INFO", "Stage1", "開始階段一：掃描與取回...")
+            self.progress.emit(0, 100, "正在掃描 ROM 資料夾...")
+            
+            scanner = Scanner(self.roms_path)
+            platforms = scanner.scan()
+            
+            self.log.emit("INFO", "Stage1", f"發現 {len(platforms)} 個資料夾")
+            self.progress.emit(30, 100, f"發現 {len(platforms)} 個資料夾")
+            
+            platforms_with_gamelist = scanner.get_platforms_with_gamelist()
+            self.log.emit("INFO", "Stage1", f"有 gamelist.xml 的平台: {len(platforms_with_gamelist)}")
+            self.progress.emit(50, 100, "正在複製 gamelist.xml 到暫存區...")
+            
+            # 複製到暫存區
+            copied = []
+            total = len(platforms_with_gamelist)
+            for i, platform in enumerate(platforms_with_gamelist):
+                if self._is_cancelled:
+                    break
+                
+                scanner.copy_gamelist_to_cache(platform)
+                copied.append(platform.name)
+                
+                progress = 50 + int((i + 1) / total * 50)
+                self.progress.emit(progress, 100, f"複製: {platform.name} ({i+1}/{total})")
+                self.log.emit("INFO", "Stage1", f"  複製: {platform.name}")
+            
+            self.progress.emit(100, 100, "階段一完成！")
+            self.log.emit("SUCCESS", "Stage1", f"階段一完成！複製 {len(copied)} 個 gamelist.xml 到暫存區")
+            
+            self.finished.emit({'copied': len(copied)})
+            
+        except Exception as e:
+            self.error.emit(str(e))
+
+
+class DictionaryWorker(StageWorker):
+    """階段二：產生字典 Worker"""
+    
+    def __init__(self, language: str):
+        super().__init__()
+        self.language = language
+    
+    def run(self):
+        try:
+            from ..core import DictionaryManager
+            from ..utils import parse_gamelist, get_game_key
+            from ..core.dictionary import GameEntry
+            
+            self.log.emit("INFO", "Stage2", "開始階段二：產生字典檔...")
+            self.progress.emit(0, 100, "正在掃描暫存區...")
+            
+            gamelists_dir = Path('./gamelists_local')
+            if not gamelists_dir.exists():
+                self.error.emit("請先執行階段一（掃描取回）")
+                return
+            
+            dict_manager = DictionaryManager()
+            
+            # 收集所有平台
+            platform_dirs = [d for d in gamelists_dir.iterdir() if d.is_dir() and (d / 'gamelist.xml').exists()]
+            total_platforms = len(platform_dirs)
+            total_games = 0
+            
+            for i, platform_dir in enumerate(platform_dirs):
+                if self._is_cancelled:
+                    break
+                
+                platform_name = platform_dir.name
+                gamelist_path = platform_dir / 'gamelist.xml'
+                
+                self.progress.emit(int((i / total_platforms) * 100), 100, f"處理平台: {platform_name}")
+                
+                games = parse_gamelist(gamelist_path)
+                dictionary = dict_manager.load_dictionary(self.language, platform_name)
+                
+                for game in games:
+                    key = get_game_key(game.path)
+                    if key not in dictionary:
+                        entry = GameEntry(
+                            key=key,
+                            original_name=game.name,
+                            original_desc=game.desc
+                        )
+                        dictionary[key] = entry
+                
+                dict_manager.save_dictionary(self.language, platform_name, dictionary)
+                
+                self.log.emit("INFO", "Stage2", f"  {platform_name}: {len(dictionary)} 個遊戲")
+                total_games += len(dictionary)
+            
+            self.progress.emit(100, 100, "階段二完成！")
+            self.log.emit("SUCCESS", "Stage2", f"階段二完成！{total_platforms} 個平台, {total_games} 個遊戲")
+            
+            self.finished.emit({'platforms': total_platforms, 'games': total_games})
+            
+        except Exception as e:
+            self.error.emit(str(e))
+
+
+class TranslateWorker(StageWorker):
+    """階段三：翻譯 Worker"""
+    
+    def __init__(self, language: str, translate_name: bool, translate_desc: bool, skip_translated: bool):
+        super().__init__()
+        self.language = language
+        self.translate_name = translate_name
+        self.translate_desc = translate_desc
+        self.skip_translated = skip_translated
+    
+    def run(self):
+        try:
+            from ..core import DictionaryManager, TranslationEngine
+            from ..services import WikipediaService, SearchService, TranslateService
+            
+            self.log.emit("INFO", "Stage3", "開始階段三：翻譯...")
+            self.progress.emit(0, 100, "正在初始化翻譯服務...")
+            
+            dict_manager = DictionaryManager()
+            lang_dir = Path('./dictionaries') / self.language
+            
+            if not lang_dir.exists():
+                self.error.emit("請先執行階段二（產生字典）")
+                return
+            
+            platforms = [f.stem for f in lang_dir.glob('*.json')]
+            
+            # 初始化翻譯引擎
+            translator = TranslationEngine(target_language=self.language)
+            translator.set_wiki_service(WikipediaService())
+            translator.set_search_service(SearchService())
+            translator.set_translate_api(TranslateService())
+            
+            self.progress.emit(5, 100, "翻譯服務初始化完成")
+            
+            total_translated = 0
+            total_entries = 0
+            processed_entries = 0
+            
+            # 先計算總數
+            for platform in platforms:
+                dictionary = dict_manager.load_dictionary(self.language, platform)
+                total_entries += len(dictionary)
+            
+            self.log.emit("INFO", "Stage3", f"共 {len(platforms)} 個平台, {total_entries} 個遊戲待處理")
+            
+            import time
+            start_time = time.time()
+            
+            for platform in platforms:
+                if self._is_cancelled:
+                    break
+                
+                dictionary = dict_manager.load_dictionary(self.language, platform)
+                platform_translated = 0
+                
+                for entry in dictionary.values():
+                    if self._is_cancelled:
+                        break
+                    
+                    processed_entries += 1
+                    progress = 5 + int((processed_entries / total_entries) * 90)
+                    
+                    # 計算預估剩餘時間
+                    elapsed = time.time() - start_time
+                    if processed_entries > 0:
+                        avg_time_per_entry = elapsed / processed_entries
+                        remaining_entries = total_entries - processed_entries
+                        eta_seconds = int(avg_time_per_entry * remaining_entries)
+                        
+                        if eta_seconds > 3600:
+                            eta_str = f"約 {eta_seconds // 3600} 小時 {(eta_seconds % 3600) // 60} 分鐘"
+                        elif eta_seconds > 60:
+                            eta_str = f"約 {eta_seconds // 60} 分鐘"
+                        else:
+                            eta_str = f"約 {eta_seconds} 秒"
+                    else:
+                        eta_str = "計算中..."
+                    
+                    self.progress.emit(progress, 100, f"[{platform}] {entry.original_name[:25]}... ({processed_entries}/{total_entries}, 剩餘 {eta_str})")
+                    
+                    output = translator.translate_game(
+                        entry,
+                        translate_name=self.translate_name,
+                        translate_desc=self.translate_desc,
+                        skip_translated=self.skip_translated
+                    )
+                    
+                    if output.name:
+                        entry.name = output.name
+                        entry.name_source = output.name_source
+                        platform_translated += 1
+                        self.log.emit("INFO", "Stage3", f"  ✓ {entry.original_name} → {output.name} ({output.name_source})")
+                    if output.desc:
+                        entry.desc = output.desc
+                        entry.desc_source = output.desc_source
+                
+                dict_manager.save_dictionary(self.language, platform, dictionary)
+                self.log.emit("INFO", "Stage3", f"  {platform}: 翻譯 {platform_translated} 個")
+                total_translated += platform_translated
+            
+            self.progress.emit(100, 100, "階段三完成！")
+            self.log.emit("SUCCESS", "Stage3", f"階段三完成！翻譯 {total_translated} 個遊戲")
+            
+            self.finished.emit({'translated': total_translated})
+            
+        except Exception as e:
+            self.error.emit(str(e))
+
+
+class WritebackWorker(StageWorker):
+    """階段四：寫回 Worker"""
+    
+    def __init__(self, language: str, auto_backup: bool):
+        super().__init__()
+        self.language = language
+        self.auto_backup = auto_backup
+    
+    def run(self):
+        try:
+            from ..core import DictionaryManager, XmlWriter
+            from ..core.writer import DisplayFormat
+            
+            self.log.emit("INFO", "Stage4", "開始階段四：寫回 XML...")
+            self.progress.emit(0, 100, "正在準備寫回...")
+            
+            dict_manager = DictionaryManager()
+            writer = XmlWriter()
+            
+            gamelists_dir = Path('./gamelists_local')
+            if not gamelists_dir.exists():
+                self.error.emit("請先執行階段一（掃描取回）")
+                return
+            
+            platform_dirs = [d for d in gamelists_dir.iterdir() if d.is_dir() and (d / 'gamelist.xml').exists()]
+            total = len(platform_dirs)
+            total_updated = 0
+            
+            for i, platform_dir in enumerate(platform_dirs):
+                if self._is_cancelled:
+                    break
+                
+                platform_name = platform_dir.name
+                gamelist_path = platform_dir / 'gamelist.xml'
+                
+                progress = int((i / total) * 100)
+                self.progress.emit(progress, 100, f"寫回: {platform_name}")
+                
+                dictionary = dict_manager.load_dictionary(self.language, platform_name)
+                
+                if dictionary:
+                    result = writer.write_translations(
+                        xml_path=gamelist_path,
+                        dictionary=dictionary,
+                        platform=platform_name,
+                        display_format=DisplayFormat.TRANSLATED_ONLY,
+                        auto_backup=self.auto_backup
+                    )
+                    
+                    self.log.emit("INFO", "Stage4", f"  {platform_name}: 更新 {result.updated} 個")
+                    total_updated += result.updated
+            
+            self.progress.emit(100, 100, "階段四完成！")
+            self.log.emit("SUCCESS", "Stage4", f"階段四完成！更新 {total_updated} 個遊戲")
+            
+            self.finished.emit({'updated': total_updated})
+            
+        except Exception as e:
+            self.error.emit(str(e))
+
+
 class MainWindow(QMainWindow):
     """
     主視窗
@@ -510,7 +807,7 @@ class MainWindow(QMainWindow):
         )
     
     def _run_stage_scan(self):
-        """階段一：掃描取回"""
+        """階段一：掃描取回（非同步）"""
         roms_path = self.path_input.text().strip()
         if not roms_path:
             QMessageBox.warning(self, "錯誤", "請先選擇 ROM 目錄")
@@ -520,190 +817,111 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "錯誤", "指定的目錄不存在")
             return
         
+        self._disable_stage_buttons()
         self.log_panel.clear()
-        self.log_panel.add_log("INFO", "Stage1", "開始階段一：掃描與取回...")
+        self.progress_panel.reset()
         
-        try:
-            from ..core import Scanner
-            
-            scanner = Scanner(roms_path)
-            platforms = scanner.scan()
-            platforms_with_gamelist = scanner.get_platforms_with_gamelist()
-            
-            self.log_panel.add_log("INFO", "Stage1", f"發現 {len(platforms)} 個資料夾")
-            self.log_panel.add_log("INFO", "Stage1", f"有 gamelist.xml 的平台: {len(platforms_with_gamelist)}")
-            
-            # 複製到暫存區
-            copied = scanner.copy_all_gamelists()
-            
-            for platform_name in copied:
-                self.log_panel.add_log("INFO", "Stage1", f"  複製: {platform_name}")
-            
-            self.log_panel.add_log("SUCCESS", "Stage1", f"階段一完成！複製 {len(copied)} 個 gamelist.xml 到暫存區")
-            QMessageBox.information(self, "完成", f"階段一完成！\n複製 {len(copied)} 個 gamelist.xml 到暫存區")
-            
-        except Exception as e:
-            self.log_panel.add_log("ERROR", "Stage1", f"錯誤: {str(e)}")
-            QMessageBox.critical(self, "錯誤", str(e))
+        self.stage_worker = ScanWorker(roms_path)
+        self.stage_worker.progress.connect(self._on_stage_progress)
+        self.stage_worker.log.connect(self._on_stage_log)
+        self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段一", f"複製 {r['copied']} 個 gamelist.xml"))
+        self.stage_worker.error.connect(self._on_stage_error)
+        self.stage_worker.start()
     
     def _run_stage_dictionary(self):
-        """階段二：產生字典"""
-        self.log_panel.add_log("INFO", "Stage2", "開始階段二：產生字典檔...")
+        """階段二：產生字典（非同步）"""
+        gamelists_dir = Path('./gamelists_local')
+        if not gamelists_dir.exists():
+            QMessageBox.warning(self, "錯誤", "請先執行階段一（掃描取回）")
+            return
         
-        try:
-            from ..core import DictionaryManager
-            from ..utils import parse_gamelist, get_game_key
-            from ..core.dictionary import GameEntry
-            
-            language = self._get_selected_language()
-            gamelists_dir = Path('./gamelists_local')
-            
-            if not gamelists_dir.exists():
-                QMessageBox.warning(self, "錯誤", "請先執行階段一（掃描取回）")
-                return
-            
-            dict_manager = DictionaryManager()
-            total_games = 0
-            platforms_count = 0
-            
-            for platform_dir in gamelists_dir.iterdir():
-                if platform_dir.is_dir():
-                    gamelist_path = platform_dir / 'gamelist.xml'
-                    if gamelist_path.exists():
-                        games = parse_gamelist(gamelist_path)
-                        
-                        # 載入現有字典
-                        dictionary = dict_manager.load_dictionary(language, platform_dir.name)
-                        
-                        # 新增遊戲項目
-                        for game in games:
-                            key = get_game_key(game.path)
-                            if key not in dictionary:
-                                entry = GameEntry(
-                                    key=key,
-                                    original_name=game.name,
-                                    original_desc=game.desc
-                                )
-                                dictionary[key] = entry
-                        
-                        # 儲存字典
-                        dict_manager.save_dictionary(language, platform_dir.name, dictionary)
-                        
-                        self.log_panel.add_log("INFO", "Stage2", f"  {platform_dir.name}: {len(dictionary)} 個遊戲")
-                        total_games += len(dictionary)
-                        platforms_count += 1
-            
-            self.log_panel.add_log("SUCCESS", "Stage2", f"階段二完成！{platforms_count} 個平台, {total_games} 個遊戲")
-            QMessageBox.information(self, "完成", f"階段二完成！\n{platforms_count} 個平台\n{total_games} 個遊戲")
-            
-        except Exception as e:
-            self.log_panel.add_log("ERROR", "Stage2", f"錯誤: {str(e)}")
-            QMessageBox.critical(self, "錯誤", str(e))
+        self._disable_stage_buttons()
+        self.progress_panel.reset()
+        
+        language = self._get_selected_language()
+        self.stage_worker = DictionaryWorker(language)
+        self.stage_worker.progress.connect(self._on_stage_progress)
+        self.stage_worker.log.connect(self._on_stage_log)
+        self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段二", f"{r['platforms']} 個平台, {r['games']} 個遊戲"))
+        self.stage_worker.error.connect(self._on_stage_error)
+        self.stage_worker.start()
     
     def _run_stage_translate(self):
-        """階段三：翻譯"""
-        self.log_panel.add_log("INFO", "Stage3", "開始階段三：翻譯...")
+        """階段三：翻譯（非同步）"""
+        lang_dir = Path('./dictionaries') / self._get_selected_language()
+        if not lang_dir.exists():
+            QMessageBox.warning(self, "錯誤", "請先執行階段二（產生字典）")
+            return
         
-        try:
-            from ..core import DictionaryManager, TranslationEngine
-            from ..services import WikipediaService, SearchService, TranslateService
-            
-            language = self._get_selected_language()
-            dict_manager = DictionaryManager()
-            
-            # 取得可用平台
-            lang_dir = Path('./dictionaries') / language
-            if not lang_dir.exists():
-                QMessageBox.warning(self, "錯誤", "請先執行階段二（產生字典）")
-                return
-            
-            platforms = [f.stem for f in lang_dir.glob('*.json')]
-            
-            # 初始化翻譯引擎
-            translator = TranslationEngine(target_language=language)
-            translator.set_wiki_service(WikipediaService())
-            translator.set_search_service(SearchService())
-            translator.set_translate_api(TranslateService())
-            
-            translate_name = self.name_checkbox.isChecked()
-            translate_desc = self.desc_checkbox.isChecked()
-            skip_translated = self.skip_checkbox.isChecked()
-            
-            total_translated = 0
-            total_skipped = 0
-            
-            for platform in platforms:
-                dictionary = dict_manager.load_dictionary(language, platform)
-                platform_translated = 0
-                
-                for entry in dictionary.values():
-                    output = translator.translate_game(
-                        entry,
-                        translate_name=translate_name,
-                        translate_desc=translate_desc,
-                        skip_translated=skip_translated
-                    )
-                    
-                    if output.name:
-                        entry.name = output.name
-                        entry.name_source = output.name_source
-                        platform_translated += 1
-                    if output.desc:
-                        entry.desc = output.desc
-                        entry.desc_source = output.desc_source
-                
-                dict_manager.save_dictionary(language, platform, dictionary)
-                self.log_panel.add_log("INFO", "Stage3", f"  {platform}: 翻譯 {platform_translated} 個")
-                total_translated += platform_translated
-            
-            self.log_panel.add_log("SUCCESS", "Stage3", f"階段三完成！翻譯 {total_translated} 個遊戲")
-            QMessageBox.information(self, "完成", f"階段三完成！\n翻譯 {total_translated} 個遊戲")
-            
-        except Exception as e:
-            self.log_panel.add_log("ERROR", "Stage3", f"錯誤: {str(e)}")
-            QMessageBox.critical(self, "錯誤", str(e))
+        self._disable_stage_buttons()
+        self.progress_panel.reset()
+        
+        language = self._get_selected_language()
+        self.stage_worker = TranslateWorker(
+            language,
+            self.name_checkbox.isChecked(),
+            self.desc_checkbox.isChecked(),
+            self.skip_checkbox.isChecked()
+        )
+        self.stage_worker.progress.connect(self._on_stage_progress)
+        self.stage_worker.log.connect(self._on_stage_log)
+        self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段三", f"翻譯 {r['translated']} 個遊戲"))
+        self.stage_worker.error.connect(self._on_stage_error)
+        self.stage_worker.start()
     
     def _run_stage_writeback(self):
-        """階段四：寫回"""
-        self.log_panel.add_log("INFO", "Stage4", "開始階段四：寫回 XML...")
+        """階段四：寫回（非同步）"""
+        gamelists_dir = Path('./gamelists_local')
+        if not gamelists_dir.exists():
+            QMessageBox.warning(self, "錯誤", "請先執行階段一（掃描取回）")
+            return
         
-        try:
-            from ..core import DictionaryManager, XmlWriter
-            from ..core.writer import DisplayFormat
-            
-            language = self._get_selected_language()
-            dict_manager = DictionaryManager()
-            writer = XmlWriter()
-            
-            gamelists_dir = Path('./gamelists_local')
-            if not gamelists_dir.exists():
-                QMessageBox.warning(self, "錯誤", "請先執行階段一（掃描取回）")
-                return
-            
-            auto_backup = self.backup_checkbox.isChecked()
-            total_updated = 0
-            
-            for platform_dir in gamelists_dir.iterdir():
-                if platform_dir.is_dir():
-                    gamelist_path = platform_dir / 'gamelist.xml'
-                    if gamelist_path.exists():
-                        dictionary = dict_manager.load_dictionary(language, platform_dir.name)
-                        
-                        if dictionary:
-                            result = writer.write_translations(
-                                xml_path=gamelist_path,
-                                dictionary=dictionary,
-                                platform=platform_dir.name,
-                                display_format=DisplayFormat.TRANSLATED_ONLY,
-                                auto_backup=auto_backup
-                            )
-                            
-                            self.log_panel.add_log("INFO", "Stage4", f"  {platform_dir.name}: 更新 {result.updated} 個")
-                            total_updated += result.updated
-            
-            self.log_panel.add_log("SUCCESS", "Stage4", f"階段四完成！更新 {total_updated} 個遊戲")
-            QMessageBox.information(self, "完成", f"階段四完成！\n更新 {total_updated} 個遊戲\n\n結果已寫入 gamelists_local/ 目錄")
-            
-        except Exception as e:
-            self.log_panel.add_log("ERROR", "Stage4", f"錯誤: {str(e)}")
-            QMessageBox.critical(self, "錯誤", str(e))
+        self._disable_stage_buttons()
+        self.progress_panel.reset()
+        
+        language = self._get_selected_language()
+        self.stage_worker = WritebackWorker(language, self.backup_checkbox.isChecked())
+        self.stage_worker.progress.connect(self._on_stage_progress)
+        self.stage_worker.log.connect(self._on_stage_log)
+        self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段四", f"更新 {r['updated']} 個遊戲\n\n結果已寫入 gamelists_local/ 目錄"))
+        self.stage_worker.error.connect(self._on_stage_error)
+        self.stage_worker.start()
+    
+    def _disable_stage_buttons(self):
+        """停用所有階段按鈕"""
+        self.scan_btn.setEnabled(False)
+        self.dict_btn.setEnabled(False)
+        self.translate_btn.setEnabled(False)
+        self.writeback_btn.setEnabled(False)
+        self.start_btn.setEnabled(False)
+        self.cancel_btn.setEnabled(True)
+        self.statusBar().showMessage("執行中...")
+    
+    def _enable_stage_buttons(self):
+        """啟用所有階段按鈕"""
+        self.scan_btn.setEnabled(True)
+        self.dict_btn.setEnabled(True)
+        self.translate_btn.setEnabled(True)
+        self.writeback_btn.setEnabled(True)
+        self.start_btn.setEnabled(True)
+        self.cancel_btn.setEnabled(False)
+        self.statusBar().showMessage("就緒")
+    
+    def _on_stage_progress(self, current: int, total: int, message: str):
+        """階段進度更新"""
+        self.progress_panel.update_progress(current, total, message)
+    
+    def _on_stage_log(self, level: str, module: str, message: str):
+        """階段日誌更新"""
+        self.log_panel.add_log(level, module, message)
+    
+    def _on_stage_finished(self, stage_name: str, result_msg: str):
+        """階段完成"""
+        self._enable_stage_buttons()
+        QMessageBox.information(self, "完成", f"{stage_name}完成！\n{result_msg}")
+    
+    def _on_stage_error(self, error: str):
+        """階段錯誤"""
+        self._enable_stage_buttons()
+        self.log_panel.add_log("ERROR", "Stage", f"錯誤: {error}")
+        QMessageBox.critical(self, "錯誤", error)
