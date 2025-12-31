@@ -1,0 +1,19 @@
+# Batocera Gamelist 翻譯工具 - 依賴套件
+
+# 核心框架
+PyQt6>=6.6.0                 # GUI 框架
+PyQt6-Qt6>=6.6.0             # Qt6 核心
+
+# 網路請求
+requests>=2.31.0             # HTTP 請求
+
+# 翻譯 API
+googletrans==4.0.0-rc1       # 免費 Google 翻譯
+
+# 打包工具
+pyinstaller>=6.3.0           # 打包為執行檔
+
+# 開發工具（可選）
+# pytest>=7.4.0              # 測試框架
+# black>=23.0.0              # 程式碼格式化
+# flake8>=6.1.0              # 程式碼檢查

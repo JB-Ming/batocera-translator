@@ -1,0 +1,139 @@
+{
+    "snes": {
+        "./Super Mario World.snes": {
+            "key": "./Super Mario World.snes",
+            "original_name": "Super Mario World",
+            "name": "超級瑪利歐世界",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Super Mario World 2 - Yoshi's Island.snes": {
+            "key": "./Super Mario World 2 - Yoshi's Island.snes",
+            "original_name": "Super Mario World 2 - Yoshi's Island",
+            "name": "超級瑪利歐世界2：耀西島",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./The Legend of Zelda - A Link to the Past.snes": {
+            "key": "./The Legend of Zelda - A Link to the Past.snes",
+            "original_name": "The Legend of Zelda - A Link to the Past",
+            "name": "薩爾達傳說：乘光神話",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Super Metroid.snes": {
+            "key": "./Super Metroid.snes",
+            "original_name": "Super Metroid",
+            "name": "超級銀河戰士",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Chrono Trigger.snes": {
+            "key": "./Chrono Trigger.snes",
+            "original_name": "Chrono Trigger",
+            "name": "乘諾乘觸發",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Final Fantasy VI.snes": {
+            "key": "./Final Fantasy VI.snes",
+            "original_name": "Final Fantasy VI",
+            "name": "太空乃戰士VI",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Secret of Mana.snes": {
+            "key": "./Secret of Mana.snes",
+            "original_name": "Secret of Mana",
+            "name": "聖劍傳說2",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Donkey Kong Country.snes": {
+            "key": "./Donkey Kong Country.snes",
+            "original_name": "Donkey Kong Country",
+            "name": "大金剛國度",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Street Fighter II.snes": {
+            "key": "./Street Fighter II.snes",
+            "original_name": "Street Fighter II",
+            "name": "快打族炫風II",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./F-Zero.snes": {
+            "key": "./F-Zero.snes",
+            "original_name": "F-Zero",
+            "name": "F-Zero",
+            "name_source": "keep",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Star Fox.snes": {
+            "key": "./Star Fox.snes",
+            "original_name": "Star Fox",
+            "name": "星際火狐",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Mega Man X.snes": {
+            "key": "./Mega Man X.snes",
+            "original_name": "Mega Man X",
+            "name": "洛克人X",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Earthbound.snes": {
+            "key": "./Earthbound.snes",
+            "original_name": "Earthbound",
+            "name": "乘球冒險2",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Super Mario Kart.snes": {
+            "key": "./Super Mario Kart.snes",
+            "original_name": "Super Mario Kart",
+            "name": "超級瑪利歐賽車",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        },
+        "./Contra III - The Alien Wars.snes": {
+            "key": "./Contra III - The Alien Wars.snes",
+            "original_name": "Contra III - The Alien Wars",
+            "name": "魂斗羅 Spirits",
+            "name_source": "pack",
+            "original_desc": "",
+            "desc": "",
+            "desc_source": ""
+        }
+    }
+}

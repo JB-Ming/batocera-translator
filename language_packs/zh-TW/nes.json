@@ -1,0 +1,139 @@
+{
+  "nes": {
+    "./Super Mario Bros.nes": {
+      "key": "./Super Mario Bros.nes",
+      "original_name": "Super Mario Bros",
+      "name": "超級瑪利歐兄弟",
+      "name_source": "pack",
+      "original_desc": "Super Mario Bros. is a platform video game developed and published by Nintendo.",
+      "desc": "《超級瑪利歐兄弟》是任天堂於1985年發行的經典橫向捲軸遊戲。玩家操控瑪利歐，穿越蘑菇王國的各個關卡，打敗庫巴並拯救桃花公主。",
+      "desc_source": "pack"
+    },
+    "./Super Mario Bros 2.nes": {
+      "key": "./Super Mario Bros 2.nes",
+      "original_name": "Super Mario Bros 2",
+      "name": "超級瑪利歐兄弟2",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Super Mario Bros 3.nes": {
+      "key": "./Super Mario Bros 3.nes",
+      "original_name": "Super Mario Bros 3",
+      "name": "超級瑪利歐兄弟3",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./The Legend of Zelda.nes": {
+      "key": "./The Legend of Zelda.nes",
+      "original_name": "The Legend of Zelda",
+      "name": "薩爾達傳說",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Zelda II - The Adventure of Link.nes": {
+      "key": "./Zelda II - The Adventure of Link.nes",
+      "original_name": "Zelda II - The Adventure of Link",
+      "name": "乙爾達傳說II：乙林克的冒險",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Contra.nes": {
+      "key": "./Contra.nes",
+      "original_name": "Contra",
+      "name": "魂斗羅",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Mega Man.nes": {
+      "key": "./Mega Man.nes",
+      "original_name": "Mega Man",
+      "name": "洛克人",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Mega Man 2.nes": {
+      "key": "./Mega Man 2.nes",
+      "original_name": "Mega Man 2",
+      "name": "洛克人2",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Castlevania.nes": {
+      "key": "./Castlevania.nes",
+      "original_name": "Castlevania",
+      "name": "惡魔城",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Metroid.nes": {
+      "key": "./Metroid.nes",
+      "original_name": "Metroid",
+      "name": "銀河戰士",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Final Fantasy.nes": {
+      "key": "./Final Fantasy.nes",
+      "original_name": "Final Fantasy",
+      "name": "太空乃戰士",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Dragon Quest.nes": {
+      "key": "./Dragon Quest.nes",
+      "original_name": "Dragon Quest",
+      "name": "勇者鬥惡龍",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Kirby's Adventure.nes": {
+      "key": "./Kirby's Adventure.nes",
+      "original_name": "Kirby's Adventure",
+      "name": "星之卡比：夢之泉物語",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Double Dragon.nes": {
+      "key": "./Double Dragon.nes",
+      "original_name": "Double Dragon",
+      "name": "雙乘龍",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    },
+    "./Ninja Gaiden.nes": {
+      "key": "./Ninja Gaiden.nes",
+      "original_name": "Ninja Gaiden",
+      "name": "忍乘龍劍傳",
+      "name_source": "pack",
+      "original_desc": "",
+      "desc": "",
+      "desc_source": ""
+    }
+  }
+}

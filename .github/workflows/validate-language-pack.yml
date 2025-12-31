@@ -1,0 +1,78 @@
+name: Merge Language Pack
+
+on:
+  pull_request:
+    paths:
+      - 'language_packs/**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Validate JSON files
+        run: |
+          echo "驗證語系包 JSON 格式..."
+          python -c "
+          import json
+          import os
+          import sys
+          
+          errors = []
+          
+          for root, dirs, files in os.walk('language_packs'):
+              for f in files:
+                  if f.endswith('.json'):
+                      path = os.path.join(root, f)
+                      try:
+                          with open(path, 'r', encoding='utf-8') as fp:
+                              data = json.load(fp)
+                              
+                          # 驗證結構
+                          for platform, games in data.items():
+                              for key, entry in games.items():
+                                  required = ['key', 'original_name', 'name', 'name_source']
+                                  for field in required:
+                                      if field not in entry:
+                                          errors.append(f'{path}: {key} 缺少字段 {field}')
+                                          
+                      except json.JSONDecodeError as e:
+                          errors.append(f'{path}: JSON 格式錯誤 - {e}')
+          
+          if errors:
+              print('發現以下錯誤:')
+              for e in errors:
+                  print(f'  - {e}')
+              sys.exit(1)
+          else:
+              print('✅ 所有語系包驗證通過')
+          "
+      
+      - name: Check for duplicates
+        run: |
+          echo "檢查重複項目..."
+          python -c "
+          import json
+          import os
+          
+          for root, dirs, files in os.walk('language_packs'):
+              for f in files:
+                  if f.endswith('.json'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as fp:
+                          data = json.load(fp)
+                      
+                      for platform, games in data.items():
+                          keys = list(games.keys())
+                          duplicates = [k for k in keys if keys.count(k) > 1]
+                          if duplicates:
+                              print(f'警告: {path} 有重複的 key: {set(duplicates)}')
+          
+          print('✅ 重複檢查完成')
+          "
