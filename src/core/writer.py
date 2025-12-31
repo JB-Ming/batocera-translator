@@ -11,6 +11,7 @@ from enum import Enum
 from datetime import datetime
 
 from .dictionary import GameEntry
+from ..utils import get_game_key
 
 
 class DisplayFormat(Enum):
@@ -151,7 +152,8 @@ class XmlWriter:
                 result.skipped += 1
                 continue
                 
-            game_key = path_elem.text
+            # 用 get_game_key 生成與字典一致的 KEY
+            game_key = get_game_key(path_elem.text)
             
             # 查找字典
             if game_key not in dictionary:
@@ -235,7 +237,8 @@ class XmlWriter:
             if path_elem is None or not path_elem.text:
                 continue
                 
-            game_key = path_elem.text
+            # 用 get_game_key 生成與字典一致的 KEY
+            game_key = get_game_key(path_elem.text)
             if game_key not in dictionary:
                 continue
                 

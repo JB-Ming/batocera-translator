@@ -39,7 +39,7 @@ class TranslationWorker(QThread):
         try:
             from ..core import Scanner, DictionaryManager, TranslationEngine, XmlWriter
             from ..services import WikipediaService, SearchService, TranslateService
-            from ..utils import parse_gamelist
+            from ..utils import parse_gamelist, get_game_key
             from ..core.dictionary import GameEntry
             
             # 初始化模組
@@ -103,15 +103,16 @@ class TranslationWorker(QThread):
                         break
                     
                     # 建立或取得字典項目
-                    if game.path not in dictionary:
+                    game_key = get_game_key(game.path)
+                    if game_key not in dictionary:
                         entry = GameEntry(
-                            key=game.path,
+                            key=game_key,
                             original_name=game.name,
                             original_desc=game.desc
                         )
-                        dictionary[game.path] = entry
+                        dictionary[game_key] = entry
                     else:
-                        entry = dictionary[game.path]
+                        entry = dictionary[game_key]
                     
                     # 翻譯
                     output = translator.translate_game(

@@ -6,6 +6,31 @@ import re
 from typing import Tuple
 
 
+def get_game_key(path: str) -> str:
+    """
+    從遊戲路徑生成字典 KEY
+    
+    處理項目：
+    - 移除 ./ 前綴
+    - 移除前導斜線
+    - 移除副檔名
+    
+    Args:
+        path: 遊戲路徑（如 ./Super Mario Bros.nes）
+        
+    Returns:
+        字典 KEY（如 Super Mario Bros）
+    """
+    # 移除 ./ 前綴
+    key = path.lstrip('./')
+    # 移除前導斜線
+    key = key.lstrip('/')
+    # 移除副檔名
+    if '.' in key:
+        key = key.rsplit('.', 1)[0]
+    return key
+
+
 def clean_game_name(filename: str) -> str:
     """
     清理遊戲檔名，移除雜訊保留遊戲名稱

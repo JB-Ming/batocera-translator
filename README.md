@@ -130,10 +130,14 @@
 
 程式解析 `gamelist.xml`，將遊戲資料整理成字典檔（每個平台一份 JSON）。
 
+**字典檔 KEY 格式：** 使用遊戲檔名（不含路徑前綴與副檔名）作為識別 KEY，例如 `Super Mario Bros (USA)` 而非 `./Super Mario Bros (USA).nes`。
+
 **字典檔欄位：**
 
 | 欄位 | 說明 |
 |------|------|
+| `key` | 遊戲識別 KEY（檔名，不含副檔名）|
+| `original_name` | 遊戲原始名稱 |
 | `name` / `name_source` | 遊戲名稱翻譯與來源標記 |
 | `desc` / `desc_source` | 遊戲描述翻譯與來源標記 |
 
