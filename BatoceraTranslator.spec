@@ -54,7 +54,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='assets/icon.ico',       # 程式圖示
+    icon=None,                    # 程式圖示（待補充）
 )
 
 coll = COLLECT(
