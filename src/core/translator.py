@@ -29,6 +29,30 @@ class TranslationOutput:
     error_message: str = ""
 
 
+# 繁簡轉換器（延遲初始化）
+_opencc_converter = None
+
+def get_opencc_converter():
+    """取得 OpenCC 轉換器（簡體轉繁體）"""
+    global _opencc_converter
+    if _opencc_converter is None:
+        try:
+            from opencc import OpenCC
+            _opencc_converter = OpenCC('s2twp')  # 簡體轉繁體（台灣用語）
+        except ImportError:
+            _opencc_converter = None
+    return _opencc_converter
+
+def to_traditional_chinese(text: str) -> str:
+    """將簡體中文轉換為繁體中文"""
+    if not text:
+        return text
+    converter = get_opencc_converter()
+    if converter:
+        return converter.convert(text)
+    return text
+
+
 class TranslationEngine:
     """
     翻譯引擎
@@ -172,6 +196,13 @@ class TranslationEngine:
                 translated_desc, source = self._translate_description(entry.original_desc)
                 output.desc = translated_desc or ""
                 output.desc_source = source
+        
+        # 套用繁簡轉換（確保輸出為繁體中文）
+        if self.target_language == 'zh-TW':
+            if output.name and output.name != clean_name:  # 只轉換翻譯結果
+                output.name = to_traditional_chinese(output.name)
+            if output.desc:
+                output.desc = to_traditional_chinese(output.desc)
         
         return output
     

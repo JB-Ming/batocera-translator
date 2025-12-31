@@ -195,10 +195,44 @@ class WikipediaService:
             r'小說',
             r'專輯',
             r'歌曲',
+            r'列表',           # 排除列表頁面
+            r'游戏列表',       # 排除遊戲列表頁面
+            r'遊戲列表',       # 繁體
+            r'List of',        # 英文列表
+            r'索引',
+            r'年表',
+            r'人物',
+            r'角色',
+            r'配音',
+            r'Category',
+            r'Template',
         ]
         
         for pattern in exclude_patterns:
-            if re.search(pattern, title):
+            if re.search(pattern, title, re.IGNORECASE):
+                return False
+        
+        # 檢查標題是否與查詢有關聯（至少包含查詢的一部分）
+        query_words = query.lower().split()
+        title_lower = title.lower()
+        
+        # 如果查詢詞完全不在標題中，可能是錯誤的結果
+        has_match = False
+        for word in query_words:
+            if len(word) > 2 and word in title_lower:
+                has_match = True
+                break
+        
+        # 如果沒有匹配且標題很不相關，返回 False
+        if not has_match and len(query) > 5:
+            # 計算相似度（簡單方法：共同字母）
+            query_set = set(query.lower().replace(' ', ''))
+            title_set = set(title_lower.replace(' ', ''))
+            common = len(query_set & title_set)
+            similarity = common / max(len(query_set), 1)
+            
+            if similarity < 0.3:  # 相似度太低
                 return False
         
         return True
+
