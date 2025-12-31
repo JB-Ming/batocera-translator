@@ -1,7 +1,0 @@
-# GUI 額外需求（tkinter 為 Python 內建，無需安裝）
-
-# 包含核心需求
--r requirements.txt
-
-# 打包成 .exe 執行檔
-pyinstaller>=6.0.0
