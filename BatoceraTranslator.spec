@@ -14,6 +14,7 @@ ROOT = Path(SPECPATH)
 datas = [
     (str(ROOT / 'assets'), 'assets'),           # 圖示等資源
     (str(ROOT / 'language_packs'), 'language_packs'),  # 內建語系包
+    (str(ROOT / 'src'), 'src'),                 # 源碼目錄
 ]
 
 # 隱藏導入（動態載入的模組）
@@ -21,11 +22,34 @@ hiddenimports = [
     'googletrans',
     'httpx',
     'httpcore',
+    'src',
+    'src.core',
+    'src.core.scanner',
+    'src.core.dictionary',
+    'src.core.translator',
+    'src.core.writer',
+    'src.services',
+    'src.services.wikipedia',
+    'src.services.search',
+    'src.services.translate',
+    'src.ui',
+    'src.ui.main_window',
+    'src.ui.log_panel',
+    'src.ui.progress_panel',
+    'src.ui.settings_dialog',
+    'src.ui.preview_dialog',
+    'src.ui.platform_selector',
+    'src.utils',
+    'src.utils.xml_utils',
+    'src.utils.file_utils',
+    'src.utils.logger',
+    'src.utils.name_cleaner',
+    'src.utils.settings',
 ]
 
 a = Analysis(
     ['main.py'],               # 主程式入口
-    pathex=[str(ROOT)],
+    pathex=[str(ROOT), str(ROOT / 'src')],
     binaries=[],
     datas=datas,
     hiddenimports=hiddenimports,

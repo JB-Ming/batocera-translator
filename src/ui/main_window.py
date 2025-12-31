@@ -17,6 +17,7 @@ from .progress_panel import ProgressPanel
 from .log_panel import LogPanel
 from .settings_dialog import SettingsDialog
 from .preview_dialog import PreviewDialog
+from .platform_selector import PlatformSelector
 
 
 class TranslationWorker(QThread):
@@ -180,9 +181,10 @@ class StageWorker(QThread):
 class ScanWorker(StageWorker):
     """階段一：掃描取回 Worker"""
     
-    def __init__(self, roms_path: str):
+    def __init__(self, roms_path: str, selected_platforms: List[str] = None):
         super().__init__()
         self.roms_path = roms_path
+        self.selected_platforms = selected_platforms or []  # 空清單表示全部
     
     def run(self):
         try:
@@ -198,6 +200,15 @@ class ScanWorker(StageWorker):
             self.progress.emit(30, 100, f"發現 {len(platforms)} 個資料夾")
             
             platforms_with_gamelist = scanner.get_platforms_with_gamelist()
+            
+            # 遞取選中的平台
+            if self.selected_platforms:
+                platforms_with_gamelist = [
+                    p for p in platforms_with_gamelist 
+                    if p.name in self.selected_platforms
+                ]
+                self.log.emit("INFO", "Stage1", f"選中 {len(platforms_with_gamelist)} 個平台進行處理")
+            
             self.log.emit("INFO", "Stage1", f"有 gamelist.xml 的平台: {len(platforms_with_gamelist)}")
             self.progress.emit(50, 100, "正在複製 gamelist.xml 到暫存區...")
             
@@ -211,7 +222,7 @@ class ScanWorker(StageWorker):
                 scanner.copy_gamelist_to_cache(platform)
                 copied.append(platform.name)
                 
-                progress = 50 + int((i + 1) / total * 50)
+                progress = 50 + int((i + 1) / total * 50) if total > 0 else 100
                 self.progress.emit(progress, 100, f"複製: {platform.name} ({i+1}/{total})")
                 self.log.emit("INFO", "Stage1", f"  複製: {platform.name}")
             
@@ -227,9 +238,10 @@ class ScanWorker(StageWorker):
 class DictionaryWorker(StageWorker):
     """階段二：產生字典 Worker"""
     
-    def __init__(self, language: str):
+    def __init__(self, language: str, selected_platforms: List[str] = None):
         super().__init__()
         self.language = language
+        self.selected_platforms = selected_platforms or []  # 空清單表示全部
     
     def run(self):
         try:
@@ -249,6 +261,12 @@ class DictionaryWorker(StageWorker):
             
             # 收集所有平台
             platform_dirs = [d for d in gamelists_dir.iterdir() if d.is_dir() and (d / 'gamelist.xml').exists()]
+            
+            # 過濾選中的平台
+            if self.selected_platforms:
+                platform_dirs = [d for d in platform_dirs if d.name in self.selected_platforms]
+                self.log.emit("INFO", "Stage2", f"選中 {len(platform_dirs)} 個平台進行處理")
+            
             total_platforms = len(platform_dirs)
             total_games = 0
             
@@ -259,7 +277,7 @@ class DictionaryWorker(StageWorker):
                 platform_name = platform_dir.name
                 gamelist_path = platform_dir / 'gamelist.xml'
                 
-                self.progress.emit(int((i / total_platforms) * 100), 100, f"處理平台: {platform_name}")
+                self.progress.emit(int((i / total_platforms) * 100) if total_platforms > 0 else 100, 100, f"處理平台: {platform_name}")
                 
                 games = parse_gamelist(gamelist_path)
                 dictionary = dict_manager.load_dictionary(self.language, platform_name)
@@ -291,12 +309,13 @@ class DictionaryWorker(StageWorker):
 class TranslateWorker(StageWorker):
     """階段三：翻譯 Worker"""
     
-    def __init__(self, language: str, translate_name: bool, translate_desc: bool, skip_translated: bool):
+    def __init__(self, language: str, translate_name: bool, translate_desc: bool, skip_translated: bool, selected_platforms: List[str] = None):
         super().__init__()
         self.language = language
         self.translate_name = translate_name
         self.translate_desc = translate_desc
         self.skip_translated = skip_translated
+        self.selected_platforms = selected_platforms or []  # 空清單表示全部
     
     def run(self):
         try:
@@ -314,6 +333,11 @@ class TranslateWorker(StageWorker):
                 return
             
             platforms = [f.stem for f in lang_dir.glob('*.json')]
+            
+            # 過濾選中的平台
+            if self.selected_platforms:
+                platforms = [p for p in platforms if p in self.selected_platforms]
+                self.log.emit("INFO", "Stage3", f"選中 {len(platforms)} 個平台進行翻譯")
             
             # 初始化翻譯引擎
             translator = TranslationEngine(target_language=self.language)
@@ -349,7 +373,7 @@ class TranslateWorker(StageWorker):
                         break
                     
                     processed_entries += 1
-                    progress = 5 + int((processed_entries / total_entries) * 90)
+                    progress = 5 + int((processed_entries / total_entries) * 90) if total_entries > 0 else 100
                     
                     # 計算預估剩餘時間
                     elapsed = time.time() - start_time
@@ -401,10 +425,11 @@ class TranslateWorker(StageWorker):
 class WritebackWorker(StageWorker):
     """階段四：寫回 Worker"""
     
-    def __init__(self, language: str, auto_backup: bool):
+    def __init__(self, language: str, auto_backup: bool, selected_platforms: List[str] = None):
         super().__init__()
         self.language = language
         self.auto_backup = auto_backup
+        self.selected_platforms = selected_platforms or []  # 空清單表示全部
     
     def run(self):
         try:
@@ -423,6 +448,12 @@ class WritebackWorker(StageWorker):
                 return
             
             platform_dirs = [d for d in gamelists_dir.iterdir() if d.is_dir() and (d / 'gamelist.xml').exists()]
+            
+            # 過濾選中的平台
+            if self.selected_platforms:
+                platform_dirs = [d for d in platform_dirs if d.name in self.selected_platforms]
+                self.log.emit("INFO", "Stage4", f"選中 {len(platform_dirs)} 個平台進行寫回")
+            
             total = len(platform_dirs)
             total_updated = 0
             
@@ -433,7 +464,7 @@ class WritebackWorker(StageWorker):
                 platform_name = platform_dir.name
                 gamelist_path = platform_dir / 'gamelist.xml'
                 
-                progress = int((i / total) * 100)
+                progress = int((i / total) * 100) if total > 0 else 100
                 self.progress.emit(progress, 100, f"寫回: {platform_name}")
                 
                 dictionary = dict_manager.load_dictionary(self.language, platform_name)
@@ -516,7 +547,18 @@ class MainWindow(QMainWindow):
         browse_btn.clicked.connect(self._browse_path)
         path_layout.addWidget(browse_btn)
         
+        # 路徑變更時自動掃描
+        self.path_input.textChanged.connect(self._on_path_changed)
+        
         main_layout.addWidget(path_group)
+        
+        # 平台選擇區域
+        self.platform_selector = PlatformSelector()
+        self.platform_selector.selection_changed.connect(self._on_platform_selection_changed)
+        main_layout.addWidget(self.platform_selector)
+        
+        # 儲存選擇的平台
+        self.selected_platforms: List[str] = []
         
         # 語系與選項
         options_layout = QHBoxLayout()
@@ -677,6 +719,45 @@ class MainWindow(QMainWindow):
         if path:
             self.path_input.setText(path)
     
+    def _on_path_changed(self, path: str):
+        """ROM 路徑變更時自動掃描平台"""
+        path = path.strip()
+        if not path:
+            self.platform_selector.clear()
+            return
+            
+        roms_path = Path(path)
+        if not roms_path.exists():
+            self.platform_selector.clear()
+            return
+            
+        try:
+            # 掃描資料夾
+            platforms = []
+            has_gamelist = set()
+            
+            for item in roms_path.iterdir():
+                if item.is_dir():
+                    platform_name = item.name
+                    platforms.append(platform_name)
+                    
+                    # 檢查是否有 gamelist.xml
+                    gamelist_path = item / 'gamelist.xml'
+                    if gamelist_path.exists():
+                        has_gamelist.add(platform_name)
+            
+            self.platform_selector.set_platforms(platforms, has_gamelist)
+            
+        except Exception as e:
+            self.log_panel.add_log("ERROR", "Main", f"掃描平台失敗: {e}")
+            self.platform_selector.clear()
+    
+    def _on_platform_selection_changed(self, selected: List[str]):
+        """平台選擇變更"""
+        self.selected_platforms = selected
+        count = len(selected)
+        self.statusBar().showMessage(f"已選擇 {count} 個平台")
+    
     def _get_selected_language(self) -> str:
         """取得選擇的語系代碼"""
         lang_map = {
@@ -821,7 +902,10 @@ class MainWindow(QMainWindow):
         self.log_panel.clear()
         self.progress_panel.reset()
         
-        self.stage_worker = ScanWorker(roms_path)
+        # 取得選中的平台
+        selected = self.selected_platforms if self.selected_platforms else []
+        
+        self.stage_worker = ScanWorker(roms_path, selected)
         self.stage_worker.progress.connect(self._on_stage_progress)
         self.stage_worker.log.connect(self._on_stage_log)
         self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段一", f"複製 {r['copied']} 個 gamelist.xml"))
@@ -839,7 +923,10 @@ class MainWindow(QMainWindow):
         self.progress_panel.reset()
         
         language = self._get_selected_language()
-        self.stage_worker = DictionaryWorker(language)
+        # 取得選中的平台
+        selected = self.selected_platforms if self.selected_platforms else []
+        
+        self.stage_worker = DictionaryWorker(language, selected)
         self.stage_worker.progress.connect(self._on_stage_progress)
         self.stage_worker.log.connect(self._on_stage_log)
         self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段二", f"{r['platforms']} 個平台, {r['games']} 個遊戲"))
@@ -857,11 +944,15 @@ class MainWindow(QMainWindow):
         self.progress_panel.reset()
         
         language = self._get_selected_language()
+        # 取得選中的平台
+        selected = self.selected_platforms if self.selected_platforms else []
+        
         self.stage_worker = TranslateWorker(
             language,
             self.name_checkbox.isChecked(),
             self.desc_checkbox.isChecked(),
-            self.skip_checkbox.isChecked()
+            self.skip_checkbox.isChecked(),
+            selected
         )
         self.stage_worker.progress.connect(self._on_stage_progress)
         self.stage_worker.log.connect(self._on_stage_log)
@@ -880,7 +971,10 @@ class MainWindow(QMainWindow):
         self.progress_panel.reset()
         
         language = self._get_selected_language()
-        self.stage_worker = WritebackWorker(language, self.backup_checkbox.isChecked())
+        # 取得選中的平台
+        selected = self.selected_platforms if self.selected_platforms else []
+        
+        self.stage_worker = WritebackWorker(language, self.backup_checkbox.isChecked(), selected)
         self.stage_worker.progress.connect(self._on_stage_progress)
         self.stage_worker.log.connect(self._on_stage_log)
         self.stage_worker.finished.connect(lambda r: self._on_stage_finished("階段四", f"更新 {r['updated']} 個遊戲\n\n結果已寫入 gamelists_local/ 目錄"))
