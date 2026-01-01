@@ -32,6 +32,7 @@ class MergeStrategy(Enum):
 @dataclass
 class GameEntry:
     """遊戲字典項目"""
+    # === 基本欄位 ===
     key: str                          # 遊戲識別 Key（通常是檔名或路徑）
     original_name: str                # 原始名稱
     name: str = ""                    # 翻譯後名稱
@@ -39,6 +40,15 @@ class GameEntry:
     original_desc: str = ""           # 原始描述
     desc: str = ""                    # 翻譯後描述
     desc_source: str = ""             # 描述翻譯來源
+    
+    # === 追蹤欄位 ===
+    needs_retranslate: bool = False   # 是否需要重新翻譯（手動標記翻譯品質不佳）
+    name_translated_at: str = ""      # 名稱翻譯時間 (ISO8601 格式)
+    desc_translated_at: str = ""      # 描述翻譯時間 (ISO8601 格式)
+    
+    # === 原文變更偵測 ===
+    original_name_hash: str = ""      # 原文名稱的 hash，用於偵測原文是否變更
+    original_desc_hash: str = ""      # 原文描述的 hash，用於偵測原文是否變更
     
     def to_dict(self) -> Dict[str, Any]:
         """轉換為字典"""
@@ -56,6 +66,35 @@ class GameEntry:
     def has_desc_translation(self) -> bool:
         """是否有描述翻譯"""
         return bool(self.desc and self.desc_source)
+    
+    def compute_original_hash(self, text: str) -> str:
+        """計算原文 hash（用於變更偵測）"""
+        import hashlib
+        return hashlib.md5(text.encode('utf-8')).hexdigest()[:8]
+    
+    def check_original_changed(self) -> bool:
+        """
+        檢查原文是否已變更
+        
+        Returns:
+            True 表示原文已變更，需要重新翻譯
+        """
+        if self.original_name and self.original_name_hash:
+            current_hash = self.compute_original_hash(self.original_name)
+            if current_hash != self.original_name_hash:
+                return True
+        if self.original_desc and self.original_desc_hash:
+            current_hash = self.compute_original_hash(self.original_desc)
+            if current_hash != self.original_desc_hash:
+                return True
+        return False
+    
+    def update_hashes(self) -> None:
+        """更新原文 hash（翻譯完成後呼叫）"""
+        if self.original_name:
+            self.original_name_hash = self.compute_original_hash(self.original_name)
+        if self.original_desc:
+            self.original_desc_hash = self.compute_original_hash(self.original_desc)
 
 
 class DictionaryManager:

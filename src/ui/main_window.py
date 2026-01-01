@@ -40,6 +40,7 @@ class TranslationWorker(QThread):
     def run(self):
         """執行翻譯"""
         try:
+            import time
             from ..core import Scanner, DictionaryManager, TranslationEngine, XmlWriter
             from ..services import WikipediaService, SearchService, TranslateService
             from ..utils import parse_gamelist, get_game_key
@@ -129,9 +130,14 @@ class TranslationWorker(QThread):
                     if output.name:
                         entry.name = output.name
                         entry.name_source = output.name_source
+                        entry.name_translated_at = time.strftime('%Y-%m-%dT%H:%M:%S')
                     if output.desc:
                         entry.desc = output.desc
                         entry.desc_source = output.desc_source
+                        entry.desc_translated_at = time.strftime('%Y-%m-%dT%H:%M:%S')
+                    
+                    # 更新原文 hash
+                    entry.update_hashes()
                     
                     result['games'] += 1
                     if output.result.value == 'success':
@@ -395,21 +401,34 @@ class TranslateWorker(StageWorker):
                     
                     self.progress.emit(progress, 100, f"[{platform}] {entry.original_name[:25]}... ({processed_entries}/{total_entries}, 剩餘 {eta_str})")
                     
+                    # 檢查是否需要強制重新翻譯
+                    force_retranslate = entry.needs_retranslate
+                    actual_skip_translated = self.skip_translated and not force_retranslate
+                    
                     output = translator.translate_game(
                         entry,
                         translate_name=self.translate_name,
                         translate_desc=self.translate_desc,
-                        skip_translated=self.skip_translated
+                        skip_translated=actual_skip_translated
                     )
                     
                     if output.name:
                         entry.name = output.name
                         entry.name_source = output.name_source
+                        entry.name_translated_at = time.strftime('%Y-%m-%dT%H:%M:%S')
                         platform_translated += 1
                         self.log.emit("INFO", "Stage3", f"  ✓ {entry.original_name} → {output.name} ({output.name_source})")
                     if output.desc:
                         entry.desc = output.desc
                         entry.desc_source = output.desc_source
+                        entry.desc_translated_at = time.strftime('%Y-%m-%dT%H:%M:%S')
+                    
+                    # 翻譯完成後清除重翻標記
+                    if force_retranslate and (output.name or output.desc):
+                        entry.needs_retranslate = False
+                    
+                    # 更新原文 hash（用於偵測原文變更）
+                    entry.update_hashes()
                 
                 dict_manager.save_dictionary(self.language, platform, dictionary)
                 self.log.emit("INFO", "Stage3", f"  {platform}: 翻譯 {platform_translated} 個")
@@ -721,6 +740,12 @@ class MainWindow(QMainWindow):
         
         # 工具選單
         tools_menu = menubar.addMenu("工具(&T)")
+        
+        dict_editor_action = QAction("字典編輯器...", self)
+        dict_editor_action.triggered.connect(self._show_dictionary_editor)
+        tools_menu.addAction(dict_editor_action)
+        
+        tools_menu.addSeparator()
         
         settings_action = QAction("設定...", self)
         settings_action.triggered.connect(self._show_settings)
@@ -1089,3 +1114,12 @@ class MainWindow(QMainWindow):
         self._enable_stage_buttons()
         self.log_panel.add_log("ERROR", "Stage", f"錯誤: {error}")
         QMessageBox.critical(self, "錯誤", error)
+    
+    def _show_dictionary_editor(self):
+        """開啟字典編輯器"""
+        from .dictionary_editor import DictionaryEditorDialog
+        
+        language = self._get_selected_language()
+        dialog = DictionaryEditorDialog(language, self)
+        dialog.exec()
+

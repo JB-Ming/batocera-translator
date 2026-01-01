@@ -39,6 +39,7 @@ hiddenimports = [
     'src.ui.settings_dialog',
     'src.ui.preview_dialog',
     'src.ui.platform_selector',
+    'src.ui.dictionary_editor',
     'src.utils',
     'src.utils.xml_utils',
     'src.utils.file_utils',
