@@ -22,6 +22,8 @@ hiddenimports = [
     'googletrans',
     'httpx',
     'httpcore',
+    'google.generativeai',
+    'google.ai.generativelanguage',
     'src',
     'src.core',
     'src.core.scanner',
@@ -32,6 +34,7 @@ hiddenimports = [
     'src.services.wikipedia',
     'src.services.search',
     'src.services.translate',
+    'src.services.gemini',
     'src.ui',
     'src.ui.main_window',
     'src.ui.log_panel',
@@ -48,6 +51,15 @@ hiddenimports = [
     'src.utils.settings',
 ]
 
+# 排除其他 Qt bindings，避免衝突
+excludes = [
+    'PySide2',
+    'PySide6',
+    'PyQt5',
+    'tkinter',
+    'matplotlib',
+]
+
 a = Analysis(
     ['main.py'],               # 主程式入口
     pathex=[str(ROOT), str(ROOT / 'src')],
@@ -57,7 +69,7 @@ a = Analysis(
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=[],
+    excludes=excludes,
     noarchive=False,
 )
 
