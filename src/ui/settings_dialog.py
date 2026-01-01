@@ -185,8 +185,38 @@ class SettingsDialog(QDialog):
         widget = QWidget()
         layout = QVBoxLayout(widget)
         
-        # API 選擇
-        api_group = QGroupBox("翻譯 API")
+        # Gemini AI 設定
+        gemini_group = QGroupBox("Gemini AI（遊戲名稱翻譯）")
+        gemini_form = QFormLayout(gemini_group)
+        
+        self.gemini_key_input = QLineEdit()
+        self.gemini_key_input.setEchoMode(QLineEdit.EchoMode.Password)
+        self.gemini_key_input.setPlaceholderText("留空則不使用 Gemini")
+        gemini_form.addRow("API Key:", self.gemini_key_input)
+        
+        # 測試連線按鈕
+        gemini_btn_layout = QHBoxLayout()
+        self.gemini_test_btn = QPushButton("測試連線")
+        self.gemini_test_btn.clicked.connect(self._test_gemini)
+        gemini_btn_layout.addWidget(self.gemini_test_btn)
+        
+        self.gemini_status_label = QLabel("")
+        gemini_btn_layout.addWidget(self.gemini_status_label)
+        gemini_btn_layout.addStretch()
+        gemini_form.addRow("", gemini_btn_layout)
+        
+        # 說明
+        gemini_info = QLabel("使用 Google Gemini API 進行遊戲名稱翻譯，比維基百科更精準。\n"
+                             "免費額度：每分鐘 60 次、每天約 1500 次請求。\n"
+                             "取得 API Key：https://aistudio.google.com/apikey")
+        gemini_info.setWordWrap(True)
+        gemini_info.setStyleSheet("color: gray; font-size: 11px;")
+        gemini_form.addRow("", gemini_info)
+        
+        layout.addWidget(gemini_group)
+        
+        # 翻譯 API 選擇
+        api_group = QGroupBox("描述翻譯 API")
         form = QFormLayout(api_group)
         
         self.api_combo = QComboBox()
@@ -221,8 +251,43 @@ class SettingsDialog(QDialog):
         
         return widget
     
+    def _test_gemini(self):
+        """測試 Gemini API 連線"""
+        api_key = self.gemini_key_input.text().strip()
+        if not api_key:
+            self.gemini_status_label.setText("請先輸入 API Key")
+            self.gemini_status_label.setStyleSheet("color: orange;")
+            return
+        
+        self.gemini_test_btn.setEnabled(False)
+        self.gemini_status_label.setText("測試中...")
+        self.gemini_status_label.setStyleSheet("color: gray;")
+        
+        try:
+            from ..services.gemini import GeminiService
+            
+            service = GeminiService(api_key)
+            success, message = service.test_connection()
+            
+            if success:
+                self.gemini_status_label.setText("✓ 連線成功")
+                self.gemini_status_label.setStyleSheet("color: green;")
+            else:
+                self.gemini_status_label.setText(f"✗ {message}")
+                self.gemini_status_label.setStyleSheet("color: red;")
+                
+        except Exception as e:
+            self.gemini_status_label.setText(f"✗ {str(e)}")
+            self.gemini_status_label.setStyleSheet("color: red;")
+        finally:
+            self.gemini_test_btn.setEnabled(True)
+    
     def _load_settings(self):
         """載入設定到 UI"""
+        # Gemini API Key
+        self.gemini_key_input.setText(self.settings.get('gemini_api_key', ''))
+        
+        # 翻譯 API
         api_map = {
             'googletrans': 0,
             'google_cloud': 1,
@@ -235,6 +300,10 @@ class SettingsDialog(QDialog):
     
     def _save_and_close(self):
         """儲存設定並關閉"""
+        # Gemini API Key
+        self.settings['gemini_api_key'] = self.gemini_key_input.text().strip()
+        
+        # 翻譯 API
         api_map = ['googletrans', 'google_cloud', 'deepl', 'azure']
         self.settings['translate_api'] = api_map[self.api_combo.currentIndex()]
         self.settings['api_key'] = self.api_key_input.text()

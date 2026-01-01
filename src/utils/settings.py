@@ -38,6 +38,7 @@ class AppSettings:
     # API 設定
     translate_api: str = "googletrans"  # googletrans, google_cloud, deepl, azure
     api_key: str = ""
+    gemini_api_key: str = ""  # Gemini AI API Key
     request_delay: int = 2000  # ms
     
     # 視窗設定

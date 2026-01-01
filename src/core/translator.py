@@ -82,12 +82,17 @@ class TranslationEngine:
         """
         self.target_language = target_language
         self._wiki_service = None
+        self._gemini_service = None
         self._search_service = None
         self._translate_api = None
         
     def set_wiki_service(self, service) -> None:
         """設定維基百科服務"""
         self._wiki_service = service
+    
+    def set_gemini_service(self, service) -> None:
+        """設定 Gemini AI 服務"""
+        self._gemini_service = service
         
     def set_search_service(self, service) -> None:
         """設定網路搜尋服務"""
@@ -210,7 +215,7 @@ class TranslationEngine:
         """
         翻譯遊戲名稱
         
-        查找順序：維基百科 → 網路搜尋 → API 直譯
+        查找順序：維基百科 → Gemini AI → 網路搜尋 → API 直譯
         
         Returns:
             (翻譯結果, 來源標記)
@@ -221,13 +226,19 @@ class TranslationEngine:
             if result:
                 return result, TranslationSource.WIKI.value
         
-        # 2. 網路搜尋
+        # 2. Gemini AI 翻譯
+        if self._gemini_service:
+            result = self._gemini_service.translate_game_name(name, self.target_language)
+            if result:
+                return result, "gemini"
+        
+        # 3. 網路搜尋
         if self._search_service:
             result = self._search_service.search(name, self.target_language)
             if result:
                 return result, TranslationSource.SEARCH.value
         
-        # 3. API 直譯
+        # 4. API 直譯
         if self._translate_api:
             result = self._translate_api.translate(name, self.target_language)
             if result:

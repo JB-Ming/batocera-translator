@@ -317,13 +317,14 @@ class DictionaryWorker(StageWorker):
 class TranslateWorker(StageWorker):
     """階段三：翻譯 Worker"""
     
-    def __init__(self, language: str, translate_name: bool, translate_desc: bool, skip_translated: bool, selected_platforms: List[str] = None):
+    def __init__(self, language: str, translate_name: bool, translate_desc: bool, skip_translated: bool, selected_platforms: List[str] = None, gemini_api_key: str = ""):
         super().__init__()
         self.language = language
         self.translate_name = translate_name
         self.translate_desc = translate_desc
         self.skip_translated = skip_translated
         self.selected_platforms = selected_platforms or []  # 空清單表示全部
+        self.gemini_api_key = gemini_api_key
     
     def run(self):
         try:
@@ -352,6 +353,16 @@ class TranslateWorker(StageWorker):
             translator.set_wiki_service(WikipediaService())
             translator.set_search_service(SearchService())
             translator.set_translate_api(TranslateService())
+            
+            # 如果有 Gemini API Key，初始化 Gemini 服務
+            if self.gemini_api_key:
+                try:
+                    from ..services.gemini import GeminiService
+                    gemini = GeminiService(self.gemini_api_key)
+                    translator.set_gemini_service(gemini)
+                    self.log.emit("INFO", "Stage3", "Gemini AI 服務已啟用")
+                except Exception as e:
+                    self.log.emit("WARNING", "Stage3", f"Gemini 服務初始化失敗: {e}")
             
             self.progress.emit(5, 100, "翻譯服務初始化完成")
             
@@ -546,6 +557,7 @@ class MainWindow(QMainWindow):
             'auto_backup': self.app_settings.auto_backup,
             'translate_api': self.app_settings.translate_api,
             'api_key': self.app_settings.api_key,
+            'gemini_api_key': self.app_settings.gemini_api_key,
         }
         
     def _default_settings(self) -> dict:
@@ -558,6 +570,7 @@ class MainWindow(QMainWindow):
             'auto_backup': True,
             'translate_api': 'googletrans',
             'api_key': '',
+            'gemini_api_key': '',
         }
     
     def _init_ui(self):
@@ -952,6 +965,11 @@ class MainWindow(QMainWindow):
         dialog = SettingsDialog(self.settings, self)
         if dialog.exec():
             self.settings = dialog.get_settings()
+            # 同步設定回 app_settings
+            self.app_settings.gemini_api_key = self.settings.get('gemini_api_key', '')
+            self.app_settings.translate_api = self.settings.get('translate_api', 'googletrans')
+            self.app_settings.api_key = self.settings.get('api_key', '')
+            self.settings_manager.save(self.app_settings)
     
     def _import_language_pack(self):
         """匯入語系包"""
@@ -1047,7 +1065,8 @@ class MainWindow(QMainWindow):
             self.name_checkbox.isChecked(),
             self.desc_checkbox.isChecked(),
             self.skip_checkbox.isChecked(),
-            selected
+            selected,
+            self.settings.get('gemini_api_key', '')
         )
         self.stage_worker.progress.connect(self._on_stage_progress)
         self.stage_worker.log.connect(self._on_stage_log)
