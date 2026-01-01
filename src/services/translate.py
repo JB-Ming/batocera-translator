@@ -3,9 +3,51 @@
 封裝各種翻譯 API，用於直接翻譯遊戲描述。
 """
 import time
+import re
 from typing import Optional
 from abc import ABC, abstractmethod
 from enum import Enum
+
+
+def clean_translation_text(text: Optional[str]) -> Optional[str]:
+    """
+    清理翻譯結果中的特殊字元
+    
+    移除或替換 API 返回時可能夾帶的不可見字元，如：
+    - ZWSP (Zero-Width Space, U+200B)
+    - ZWNJ (Zero-Width Non-Joiner, U+200C)
+    - ZWJ (Zero-Width Joiner, U+200D)
+    - Word Joiner (U+2060)
+    - %ZWSP% 等編碼殘留
+    
+    Args:
+        text: 原始翻譯文字
+        
+    Returns:
+        清理後的文字
+    """
+    if not text:
+        return text
+    
+    # 移除 %ZWSP% 等編碼殘留（可能是某些 API 的 bug）
+    text = re.sub(r'%ZWSP%', '', text, flags=re.IGNORECASE)
+    
+    # 移除零寬度字元
+    zero_width_chars = [
+        '\u200b',  # Zero-Width Space
+        '\u200c',  # Zero-Width Non-Joiner
+        '\u200d',  # Zero-Width Joiner
+        '\u2060',  # Word Joiner
+        '\ufeff',  # Byte Order Mark
+    ]
+    for char in zero_width_chars:
+        text = text.replace(char, '')
+    
+    # 清理多餘空格
+    text = re.sub(r' +', ' ', text)
+    text = text.strip()
+    
+    return text
 
 
 class TranslateProvider(Enum):
@@ -94,7 +136,7 @@ class GoogleTransService(BaseTranslateService):
         try:
             translator = self._get_translator()
             result = translator.translate(text, dest=target, src=source)
-            return result.text
+            return clean_translation_text(result.text)
         except Exception:
             return None
 
@@ -179,7 +221,7 @@ class DeepLService(BaseTranslateService):
             
             translations = result.get('translations', [])
             if translations:
-                return translations[0].get('text', '')
+                return clean_translation_text(translations[0].get('text', ''))
             
             return None
             
