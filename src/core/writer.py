@@ -89,6 +89,9 @@ class XmlWriter:
         """
         備份檔案
         
+        備份結構：backups/{timestamp}/{platform}/gamelist.xml
+        與原始 gamelists 資料夾結構一致，整個時間戳記資料夾可直接複製還原
+        
         Args:
             source_path: 來源檔案路徑
             platform: 平台名稱
@@ -97,10 +100,12 @@ class XmlWriter:
             備份檔案路徑
         """
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        backup_dir = self.backup_path / platform
+        # 時間戳記在前，平台在後，與 gamelists/{platform}/gamelist.xml 結構一致
+        backup_dir = self.backup_path / timestamp / platform
         backup_dir.mkdir(parents=True, exist_ok=True)
         
-        backup_file = backup_dir / f"gamelist_{timestamp}.xml"
+        # 保留原始檔名 (通常是 gamelist.xml)
+        backup_file = backup_dir / source_path.name
         shutil.copy2(source_path, backup_file)
         
         return backup_file

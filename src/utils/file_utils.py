@@ -3,10 +3,55 @@
 提供檔案操作相關的工具函式。
 """
 import os
+import sys
 import shutil
 import hashlib
 from pathlib import Path
 from typing import Optional
+
+
+# 應用程式名稱（用於使用者資料目錄）
+APP_NAME = "BatoceraTranslator"
+
+
+def get_app_data_dir() -> Path:
+    """
+    取得應用程式使用者資料目錄
+    
+    使用者資料（字典檔、備份、設定）會存放在此目錄，
+    避免程式更新或重新打包時遺失用戶資料。
+    
+    Windows: %LOCALAPPDATA%/BatoceraTranslator
+    Linux/Mac: ~/.local/share/BatoceraTranslator
+    
+    Returns:
+        使用者資料目錄路徑
+    """
+    if sys.platform == 'win32':
+        # Windows: 使用 LOCALAPPDATA
+        base = Path(os.environ.get('LOCALAPPDATA', os.path.expanduser('~')))
+    else:
+        # Linux/Mac: 使用 XDG_DATA_HOME 或 ~/.local/share
+        base = Path(os.environ.get('XDG_DATA_HOME', os.path.expanduser('~/.local/share')))
+    
+    app_dir = base / APP_NAME
+    app_dir.mkdir(parents=True, exist_ok=True)
+    return app_dir
+
+
+def get_dictionaries_dir() -> Path:
+    """取得字典檔目錄"""
+    return ensure_dir(get_app_data_dir() / 'dictionaries')
+
+
+def get_backups_dir() -> Path:
+    """取得備份目錄"""
+    return ensure_dir(get_app_data_dir() / 'backups')
+
+
+def get_settings_path() -> Path:
+    """取得設定檔路徑"""
+    return get_app_data_dir() / 'settings.json'
 
 
 def ensure_dir(path: Path) -> Path:

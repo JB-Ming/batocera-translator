@@ -18,6 +18,7 @@ from .log_panel import LogPanel
 from .settings_dialog import SettingsDialog
 from .preview_dialog import PreviewDialog
 from .platform_selector import PlatformSelector
+from ..utils.file_utils import get_dictionaries_dir
 
 
 class TranslationWorker(QThread):
@@ -326,7 +327,7 @@ class TranslateWorker(StageWorker):
             self.progress.emit(0, 100, "正在初始化翻譯服務...")
             
             dict_manager = DictionaryManager()
-            lang_dir = Path('./dictionaries') / self.language
+            lang_dir = get_dictionaries_dir() / self.language
             
             if not lang_dir.exists():
                 self.error.emit("請先執行階段二（產生字典）")
@@ -935,7 +936,7 @@ class MainWindow(QMainWindow):
     
     def _run_stage_translate(self):
         """階段三：翻譯（非同步）"""
-        lang_dir = Path('./dictionaries') / self._get_selected_language()
+        lang_dir = get_dictionaries_dir() / self._get_selected_language()
         if not lang_dir.exists():
             QMessageBox.warning(self, "錯誤", "請先執行階段二（產生字典）")
             return

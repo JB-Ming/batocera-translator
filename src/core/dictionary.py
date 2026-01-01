@@ -8,6 +8,8 @@ from typing import Dict, Optional, Any, List
 from dataclasses import dataclass, asdict
 from enum import Enum
 
+from ..utils.file_utils import get_dictionaries_dir
+
 
 class TranslationSource(Enum):
     """翻譯來源標記"""
@@ -64,16 +66,19 @@ class DictionaryManager:
     - 讀取/寫入字典檔（JSON 格式）
     - 字典檔合併（支援多種策略）
     - 語系包匯入/匯出
+    
+    字典檔存放於使用者資料目錄（%LOCALAPPDATA%/BatoceraTranslator/dictionaries），
+    確保程式更新時不會遺失翻譯資料。
     """
     
-    def __init__(self, dictionaries_path: str = './dictionaries'):
+    def __init__(self, dictionaries_path: Optional[Path] = None):
         """
         初始化字典管理器
         
         Args:
-            dictionaries_path: 字典檔根目錄
+            dictionaries_path: 字典檔根目錄，None 使用預設的使用者資料目錄
         """
-        self.dictionaries_path = Path(dictionaries_path)
+        self.dictionaries_path = dictionaries_path or get_dictionaries_dir()
         
     def _get_dict_path(self, language: str, platform: str) -> Path:
         """取得字典檔路徑"""

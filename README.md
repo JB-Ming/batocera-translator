@@ -115,6 +115,15 @@
 - 新版：`\\wsl.localhost\Ubuntu\userdata\roms`
 - 舊版：`\\wsl$\Ubuntu\userdata\roms`
 
+### Q：字典檔和設定檔存在哪裡？
+
+程式會將使用者資料（字典檔、設定檔）存放在：
+- **Windows**: `%LOCALAPPDATA%\BatoceraTranslator`
+  - 字典檔：`%LOCALAPPDATA%\BatoceraTranslator\dictionaries`
+  - 設定檔：`%LOCALAPPDATA%\BatoceraTranslator\settings.json`
+
+這樣即使程式更新或重新安裝，你的翻譯字典也不會丟失。
+
 ---
 
 # 技術規格
@@ -255,7 +264,7 @@
 
 如需修正翻譯錯誤：
 
-1. 開啟 `dictionaries/{語系}/{platform}.json`
+1. 開啟 `%LOCALAPPDATA%\BatoceraTranslator\dictionaries\{language}\{platform}.json`
 2. 找到對應的遊戲 Key
 3. 修改 `name` 或 `desc` 欄位
 4. 將 `source` 標記改為 `manual`
@@ -313,16 +322,29 @@
 
 ## 資料夾結構
 
+### 程式目錄（安裝位置）
+
 ```
-project/
+BatoceraTranslator/
+├── Batocera翻譯工具.exe   # 主程式
 ├── gamelists_local/      # gamelist.xml 暫存區
+├── language_packs/       # 內建語系包
+└── logs/                 # 日誌檔案
+```
+
+### 使用者資料目錄（%LOCALAPPDATA%\BatoceraTranslator）
+
+```
+%LOCALAPPDATA%\BatoceraTranslator/
 ├── dictionaries/         # 字典檔（依語系分類）
 │   ├── zh-TW/
 │   ├── ja/
 │   └── ko/
-├── logs/                 # 日誌檔案
-└── backups/              # 原始檔案備份
+├── backups/              # 原始檔案備份
+└── settings.json         # 程式設定
 ```
+
+❓ 字典檔存放在使用者資料目錄，確保程式更新時不會缺失翻譯資料。
 
 ---
 

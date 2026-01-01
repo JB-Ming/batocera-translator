@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import Dict, Any, Optional
 from dataclasses import dataclass, asdict, field
 
+from .file_utils import get_settings_path
+
 
 @dataclass
 class AppSettings:
@@ -68,18 +70,19 @@ class SettingsManager:
     - 載入設定檔
     - 儲存設定檔
     - 自動建立預設設定
-    """
     
-    DEFAULT_SETTINGS_PATH = Path('./settings.json')
+    設定檔存放於使用者資料目錄（%LOCALAPPDATA%/BatoceraTranslator），
+    確保程式更新時不會遺失設定。
+    """
     
     def __init__(self, settings_path: Optional[Path] = None):
         """
         初始化設定管理器
         
         Args:
-            settings_path: 設定檔路徑，None 使用預設路徑
+            settings_path: 設定檔路徑，None 使用預設的使用者資料目錄
         """
-        self.settings_path = settings_path or self.DEFAULT_SETTINGS_PATH
+        self.settings_path = settings_path or get_settings_path()
         self._settings: Optional[AppSettings] = None
     
     def load(self) -> AppSettings:
