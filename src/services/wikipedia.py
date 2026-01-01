@@ -81,7 +81,7 @@ class WikipediaService:
             'format': 'json',
             'list': 'search',
             'srsearch': f'{query} video game',
-            'srlimit': 3,
+            'srlimit': 10,
         }
         
         # 加入語系變體
@@ -99,12 +99,13 @@ class WikipediaService:
             if not search_results:
                 return None
             
-            # 取得第一個結果的標題
-            title = search_results[0].get('title', '')
-            
-            # 過濾非遊戲結果並驗證翻譯有效性
-            if self._is_game_page(title, query) and self._is_valid_translation(title, query, language):
-                return title
+            # 嘗試多個搜尋結果，找到第一個有效的
+            for result in search_results:
+                title = result.get('title', '')
+                
+                # 過濾非遊戲結果並驗證翻譯有效性
+                if self._is_game_page(title, query) and self._is_valid_translation(title, query, language):
+                    return title
             
             return None
             
@@ -235,33 +236,163 @@ class WikipediaService:
             r'配音',
             r'Category',
             r'Template',
+            r'\d{4}年',        # 年份頁面 (如 "1989年电子游戏界")
+            r'有生之年',       # 書籍/排行榜頁面
+            r'1001款',
+            r'游戏界',
+            r'遊戲界',
+            r'遊戲類型',
+            r'游戏类型',
+            r'砍殺遊戲',       # 遊戲類型頁面
+            r'砍杀游戏',
+            r'格鬥遊戲',
+            r'格斗游戏',
+            r'動作遊戲',
+            r'动作游戏',
+            r'射擊遊戲',
+            r'射击游戏',
+            r'角色扮演遊戲',
+            r'角色扮演游戏',
         ]
         
-        for pattern in exclude_patterns:
+        # 排除遊戲平台/訂閱服務頁面 - 這些頁面會提到很多遊戲但不是具體遊戲
+        platform_patterns = [
+            r'Nintendo Switch Online',
+            r'任天堂Switch Online',
+            r'Xbox Game Pass',
+            r'PlayStation Now',
+            r'PlayStation Plus',
+            r'Virtual Console',
+            r'虛擬主機',
+            r'虚拟主机',
+            r'Sega Genesis Mini',
+            r'迷你',
+            r'Mini',
+            r'Collection',       # 遊戲合集頁面
+            r'合集',
+            r'合輯',
+            r'Anthology',
+            r'Compilation',
+            r'經典回顧',
+            r'经典回顾',
+        ]
+        
+        for pattern in exclude_patterns + platform_patterns:
             if re.search(pattern, title, re.IGNORECASE):
                 return False
         
-        # 檢查標題是否與查詢有關聯（至少包含查詢的一部分）
-        query_words = query.lower().split()
+        # 檢查標題是否與查詢有足夠的關聯性
+        # 如果標題主要是中文，則不強制要求英文詞彙匹配
+        has_chinese = any('\u4e00' <= char <= '\u9fff' for char in title)
+        
+        if has_chinese:
+            # 常見英文遊戲詞彙的中文意譯對照表
+            # 用於判斷中文標題是否與英文查詢有語義關聯
+            translation_hints = {
+                'golden': ['金', '黃金'],
+                'axe': ['斧', '戰斧'],
+                'sonic': ['索尼克', '音速'],
+                'hedgehog': ['刺蝟', '刺猬'],
+                'mario': ['瑪利歐', '馬里奧', '瑪莉歐'],
+                'super': ['超級'],
+                'street': ['街', '街頭'],
+                'fighter': ['鬥士', '格鬥', '戰士', '快打'],
+                'knight': ['騎士', '武士'],
+                'dragon': ['龍', '飛龍'],
+                'sword': ['劍', '刀劍'],
+                'warrior': ['戰士', '勇士'],
+                'king': ['王', '國王'],
+                'legend': ['傳說', '傳奇'],
+                'world': ['世界'],
+                'adventure': ['冒險', '大冒險'],
+                'battle': ['戰鬥', '對戰'],
+                'force': ['力量', '戰隊', '部隊'],
+                'shadow': ['影', '暗影', '闇'],
+                'fire': ['火', '烈火', '炎'],
+                'ice': ['冰'],
+                'thunder': ['雷', '雷電'],
+                'light': ['光'],
+                'dark': ['暗', '黑暗', '闇'],
+                'castle': ['城', '城堡'],
+                'quest': ['任務', '探索', '傳說'],
+                'vector': ['向量', '維克特'],
+                'mega': ['百萬', '洛克人'],
+                'master': ['大師', '主人'],
+                'star': ['星', '明星', '星際'],
+                'space': ['太空', '宇宙'],
+                'heart': ['心', '之心'],
+                'soul': ['魂', '靈魂'],
+                'racing': ['賽車', '競速'],
+                'run': ['跑', '逃跑'],
+                'shooter': ['射擊'],
+                'contra': ['魂斗羅', '魂鬥羅'],
+                'metal': ['金屬', '鋼鐵'],
+                'gear': ['齒輪', '裝備'],
+                'mortal': ['真人', '致命'],
+                'kombat': ['快打', '格鬥'],
+                'tekken': ['鐵拳'],
+                'final': ['終極', '最終'],
+                'fantasy': ['幻想'],
+                'resident': ['惡靈', '生化'],
+                'evil': ['惡', '邪惡'],
+                'silent': ['沉默', '寂靜'],
+                'hill': ['之丘', '山丘'],
+                'tomb': ['古墓'],
+                'raider': ['奇兵', '掠奪者'],
+                'doom': ['毀滅'],
+                'wolf': ['狼'],
+                'stein': ['斯坦'],
+            }
+            
+            query_lower = query.lower()
+            query_words = query_lower.split()
+            title_lower = title.lower()
+            
+            # 檢查是否有語義關聯
+            has_semantic_match = False
+            for word in query_words:
+                # 檢查英文詞是否直接在標題中
+                if word in title_lower:
+                    has_semantic_match = True
+                    break
+                # 檢查對應的中文意譯是否在標題中
+                if word in translation_hints:
+                    for zh in translation_hints[word]:
+                        if zh in title:
+                            has_semantic_match = True
+                            break
+                if has_semantic_match:
+                    break
+            
+            # 如果沒有任何語義關聯，返回 False
+            if not has_semantic_match:
+                return False
+            
+            return True
+        
+        # 純英文標題：要求較嚴格的詞彙匹配
+        clean_query = re.sub(r'\s*\([^)]*\)\s*', ' ', query)  # 移除括號內容
+        clean_query = re.sub(r'\s*\[[^\]]*\]\s*', ' ', clean_query)  # 移除方括號內容
+        clean_query = re.sub(r'\s+(I{1,3}|IV|V|VI{0,3}|[2-9]|10)\s*$', '', clean_query)  # 移除羅馬數字/阿拉伯數字版本
+        
+        query_words = [w for w in clean_query.lower().split() if len(w) > 2]
         title_lower = title.lower()
         
-        # 如果查詢詞完全不在標題中，可能是錯誤的結果
-        has_match = False
+        # 計算匹配的核心詞彙數量
+        matched_words = 0
         for word in query_words:
-            if len(word) > 2 and word in title_lower:
-                has_match = True
-                break
+            if word in title_lower:
+                matched_words += 1
         
-        # 如果沒有匹配且標題很不相關，返回 False
-        if not has_match and len(query) > 5:
-            # 計算相似度（簡單方法：共同字母）
-            query_set = set(query.lower().replace(' ', ''))
+        # 至少有一個核心詞彙匹配
+        if len(query_words) > 0 and matched_words == 0:
+            # 沒有任何詞彙匹配，檢查字符相似度
+            query_set = set(clean_query.lower().replace(' ', ''))
             title_set = set(title_lower.replace(' ', ''))
             common = len(query_set & title_set)
             similarity = common / max(len(query_set), 1)
             
-            if similarity < 0.3:  # 相似度太低
+            if similarity < 0.4:  # 字符相似度太低
                 return False
         
         return True
-

@@ -194,20 +194,20 @@ class DictionaryEditorDialog(QDialog):
         
         right_layout.addLayout(toolbar_layout)
         
-        # 表格
+        # 表格（隱藏 Key 欄位，改存到 UserRole）
         self.entry_table = QTableWidget()
-        self.entry_table.setColumnCount(5)
-        self.entry_table.setHorizontalHeaderLabels(["Key", "原始名稱", "翻譯名稱", "來源", "重翻"])
-        self.entry_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
+        self.entry_table.setColumnCount(4)
+        self.entry_table.setHorizontalHeaderLabels(["原始名稱", "翻譯名稱", "來源", "重翻"])
+        self.entry_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)
         self.entry_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
-        self.entry_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)
+        self.entry_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
         self.entry_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)
-        self.entry_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)
         self.entry_table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self.entry_table.setAlternatingRowColors(True)
         self.entry_table.doubleClicked.connect(self._edit_entry)
         self.entry_table.setContextMenuPolicy(Qt.ContextMenuPolicy.CustomContextMenu)
         self.entry_table.customContextMenuRequested.connect(self._show_context_menu)
+        self.entry_table.cellChanged.connect(self._on_cell_changed)
         right_layout.addWidget(self.entry_table)
         
         # 統計區域
@@ -316,34 +316,42 @@ class DictionaryEditorDialog(QDialog):
             
             filtered.append((key, entry))
         
+        # 暫時阻擋訊號避免觸發 cellChanged
+        self.entry_table.blockSignals(True)
+        
         # 更新表格
         self.entry_table.setRowCount(len(filtered))
         
         for row, (key, entry) in enumerate(filtered):
-            # Key
-            key_item = QTableWidgetItem(key)
-            key_item.setData(Qt.ItemDataRole.UserRole, key)  # 儲存 key 用於編輯
-            self.entry_table.setItem(row, 0, key_item)
-            
-            # 原始名稱
+            # 原始名稱（儲存 key 到 UserRole）
             original_item = QTableWidgetItem(entry.original_name)
-            self.entry_table.setItem(row, 1, original_item)
+            original_item.setData(Qt.ItemDataRole.UserRole, key)  # 儲存 key 用於編輯
+            original_item.setFlags(original_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
+            self.entry_table.setItem(row, 0, original_item)
             
             # 翻譯名稱
             name_item = QTableWidgetItem(entry.name)
+            name_item.setFlags(name_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
             if entry.name:
                 name_item.setBackground(QColor(50, 80, 50))
-            self.entry_table.setItem(row, 2, name_item)
+            self.entry_table.setItem(row, 1, name_item)
             
             # 來源
             source_item = QTableWidgetItem(entry.name_source)
-            self.entry_table.setItem(row, 3, source_item)
+            source_item.setFlags(source_item.flags() & ~Qt.ItemFlag.ItemIsEditable)
+            self.entry_table.setItem(row, 2, source_item)
             
-            # 重翻標記
-            retranslate_item = QTableWidgetItem("✓" if entry.needs_retranslate else "")
+            # 重翻標記（可勾選的 checkbox）
+            retranslate_item = QTableWidgetItem()
+            retranslate_item.setFlags(Qt.ItemFlag.ItemIsUserCheckable | Qt.ItemFlag.ItemIsEnabled)
+            retranslate_item.setCheckState(Qt.CheckState.Checked if entry.needs_retranslate else Qt.CheckState.Unchecked)
+            retranslate_item.setData(Qt.ItemDataRole.UserRole, key)  # 儲存 key
             if entry.needs_retranslate:
                 retranslate_item.setBackground(QColor(100, 80, 50))
-            self.entry_table.setItem(row, 4, retranslate_item)
+            self.entry_table.setItem(row, 3, retranslate_item)
+        
+        # 恢復訊號
+        self.entry_table.blockSignals(False)
         
         # 更新統計
         total = len(self.current_dictionary)
@@ -353,6 +361,42 @@ class DictionaryEditorDialog(QDialog):
         self.stats_label.setText(
             f"共 {total} 個項目 | 已翻譯: {translated} | 待重翻: {retranslate} | 顯示: {len(filtered)}"
         )
+    
+    def _on_cell_changed(self, row: int, column: int):
+        """處理表格儲存格變更（主要處理重翻 checkbox）"""
+        # 只處理重翻欄位（第 3 欄，從 0 開始）
+        if column != 3:
+            return
+        
+        item = self.entry_table.item(row, column)
+        if not item:
+            return
+        
+        key = item.data(Qt.ItemDataRole.UserRole)
+        if not key or key not in self.current_dictionary:
+            return
+        
+        entry = self.current_dictionary[key]
+        new_state = item.checkState() == Qt.CheckState.Checked
+        
+        if entry.needs_retranslate != new_state:
+            entry.needs_retranslate = new_state
+            self._modified = True
+            self.save_btn.setEnabled(True)
+            
+            # 更新背景色
+            if new_state:
+                item.setBackground(QColor(100, 80, 50))
+            else:
+                item.setBackground(QColor(0, 0, 0, 0))  # 透明
+            
+            # 更新統計
+            retranslate = sum(1 for e in self.current_dictionary.values() if e.needs_retranslate)
+            total = len(self.current_dictionary)
+            translated = sum(1 for e in self.current_dictionary.values() if e.name)
+            self.stats_label.setText(
+                f"共 {total} 個項目 | 已翻譯: {translated} | 待重翻: {retranslate}"
+            )
     
     def _edit_entry(self):
         """編輯選中的項目"""
