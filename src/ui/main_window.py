@@ -19,6 +19,7 @@ from .settings_dialog import SettingsDialog
 from .preview_dialog import PreviewDialog
 from .platform_selector import PlatformSelector
 from ..utils.file_utils import get_dictionaries_dir
+from ..utils.settings import SettingsManager, AppSettings
 
 
 class TranslationWorker(QThread):
@@ -507,8 +508,26 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.worker: Optional[TranslationWorker] = None
-        self.settings = self._default_settings()
+        
+        # 載入設定
+        self.settings_manager = SettingsManager()
+        self.app_settings = self.settings_manager.load()
+        self.settings = self._settings_to_dict()
+        
         self._init_ui()
+        self._load_settings_to_ui()
+    
+    def _settings_to_dict(self) -> dict:
+        """將 AppSettings 轉換為 dict 供舊程式碼使用"""
+        return {
+            'translate_name': self.app_settings.translate_name,
+            'translate_desc': self.app_settings.translate_desc,
+            'skip_translated': self.app_settings.skip_translated,
+            'write_back': self.app_settings.write_back,
+            'auto_backup': self.app_settings.auto_backup,
+            'translate_api': self.app_settings.translate_api,
+            'api_key': self.app_settings.api_key,
+        }
         
     def _default_settings(self) -> dict:
         """預設設定"""
@@ -713,6 +732,56 @@ class MainWindow(QMainWindow):
         about_action = QAction("關於", self)
         about_action.triggered.connect(self._show_about)
         help_menu.addAction(about_action)
+    
+    def _load_settings_to_ui(self):
+        """將設定載入到 UI 元件"""
+        # ROM 路徑
+        if self.app_settings.last_roms_path:
+            self.path_input.setText(self.app_settings.last_roms_path)
+        
+        # 語系選擇
+        lang_map = {
+            'zh-TW': 0,
+            'zh-CN': 1,
+            'ja': 2,
+            'ko': 3,
+        }
+        lang_index = lang_map.get(self.app_settings.last_language, 0)
+        self.lang_combo.setCurrentIndex(lang_index)
+        
+        # 翻譯選項
+        self.name_checkbox.setChecked(self.app_settings.translate_name)
+        self.desc_checkbox.setChecked(self.app_settings.translate_desc)
+        self.skip_checkbox.setChecked(self.app_settings.skip_translated)
+        
+        # 寫入選項
+        self.writeback_checkbox.setChecked(self.app_settings.write_back)
+        self.backup_checkbox.setChecked(self.app_settings.auto_backup)
+    
+    def _save_settings(self):
+        """從 UI 元件儲存設定"""
+        # ROM 路徑
+        self.app_settings.last_roms_path = self.path_input.text().strip()
+        
+        # 語系選擇
+        self.app_settings.last_language = self._get_selected_language()
+        
+        # 翻譯選項
+        self.app_settings.translate_name = self.name_checkbox.isChecked()
+        self.app_settings.translate_desc = self.desc_checkbox.isChecked()
+        self.app_settings.skip_translated = self.skip_checkbox.isChecked()
+        
+        # 寫入選項
+        self.app_settings.write_back = self.writeback_checkbox.isChecked()
+        self.app_settings.auto_backup = self.backup_checkbox.isChecked()
+        
+        # 儲存到檔案
+        self.settings_manager.save(self.app_settings)
+    
+    def closeEvent(self, event):
+        """視窗關閉時自動儲存設定"""
+        self._save_settings()
+        event.accept()
     
     def _browse_path(self):
         """開啟資料夾選擇對話框"""
