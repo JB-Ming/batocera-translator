@@ -102,8 +102,8 @@ class WikipediaService:
             # 取得第一個結果的標題
             title = search_results[0].get('title', '')
             
-            # 過濾非遊戲結果
-            if self._is_game_page(title, query):
+            # 過濾非遊戲結果並驗證翻譯有效性
+            if self._is_game_page(title, query) and self._is_valid_translation(title, query, language):
                 return title
             
             return None
@@ -179,6 +179,35 @@ class WikipediaService:
             return page_info.get('extract', '')
         
         return None
+    
+    def _is_valid_translation(self, result: str, original: str, language: str) -> bool:
+        """
+        驗證翻譯結果是否有效
+        
+        判斷條件：
+        1. 結果不能與原文相同（忽略大小寫）
+        2. 若目標語言為中文，結果必須包含中文字符
+        
+        Args:
+            result: 翻譯結果
+            original: 原始查詢
+            language: 目標語系
+            
+        Returns:
+            翻譯是否有效
+        """
+        # 結果與原文相同，無效
+        if result.lower().strip() == original.lower().strip():
+            return False
+        
+        # 檢查是否為中文語系
+        if language.startswith('zh'):
+            # 必須包含至少一個中文字符（Unicode CJK 基本區）
+            has_chinese = any('\u4e00' <= char <= '\u9fff' for char in result)
+            if not has_chinese:
+                return False
+        
+        return True
     
     def _is_game_page(self, title: str, query: str) -> bool:
         """
