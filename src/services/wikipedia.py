@@ -188,6 +188,7 @@ class WikipediaService:
         判斷條件：
         1. 結果不能與原文相同（忽略大小寫）
         2. 若目標語言為中文，結果必須包含中文字符
+        3. 版本號必須匹配（如 II、III、2、3 等）
         
         Args:
             result: 翻譯結果
@@ -208,7 +209,109 @@ class WikipediaService:
             if not has_chinese:
                 return False
         
+        # 版本號匹配檢查
+        if not self._check_version_match(original, result):
+            return False
+        
         return True
+    
+    def _extract_version_numbers(self, text: str) -> list:
+        """
+        從文字中提取版本號
+        
+        支援格式：
+        - 羅馬數字：I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII 等
+        - 阿拉伯數字：1, 2, 3, 4 等
+        - 中文數字：一, 二, 三, 四 等
+        
+        Returns:
+            標準化後的版本號列表（全部轉為阿拉伯數字）
+        """
+        # 羅馬數字對照表
+        roman_to_arabic = {
+            'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5,
+            'VI': 6, 'VII': 7, 'VIII': 8, 'IX': 9, 'X': 10,
+            'XI': 11, 'XII': 12, 'XIII': 13, 'XIV': 14, 'XV': 15,
+            'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XIX': 19, 'XX': 20
+        }
+        
+        # 中文數字對照表
+        chinese_to_arabic = {
+            '一': 1, '二': 2, '三': 3, '四': 4, '五': 5,
+            '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+            '十一': 11, '十二': 12, '十三': 13, '十四': 14, '十五': 15,
+            '十六': 16
+        }
+        
+        versions = []
+        
+        # 提取羅馬數字（支援中文字符旁邊的羅馬數字）
+        # 使用負向前後斷言避免匹配英文單詞中的字母
+        roman_pattern = r'(?<![A-Za-z])(XVIII|XVII|XIII|XIV|XII|XVI|VIII|VII|III|IV|VI|IX|XV|XI|II|X|V|I)(?![A-Za-z])'
+        for match in re.finditer(roman_pattern, text):
+            roman = match.group(1)
+            if roman in roman_to_arabic:
+                versions.append(roman_to_arabic[roman])
+        
+        # 提取阿拉伯數字（使用更寬鬆的匹配，支援中文字串中的數字）
+        # 匹配獨立的數字，或在中文字符旁邊的數字
+        arabic_pattern = r'(?<![a-zA-Z])(\d+)(?![a-zA-Z])'
+        for match in re.finditer(arabic_pattern, text):
+            versions.append(int(match.group(1)))
+        
+        # 提取中文數字
+        for cn, num in sorted(chinese_to_arabic.items(), key=lambda x: -len(x[0])):
+            if cn in text:
+                versions.append(num)
+        
+        return versions
+    
+    def _check_version_match(self, original: str, result: str) -> bool:
+        """
+        檢查原始名稱和翻譯結果的版本號是否匹配
+        
+        規則：
+        - 如果原始名稱沒有版本號，不進行檢查（返回 True）
+        - 如果原始名稱有版本號，翻譯結果必須也包含相同的版本號
+        
+        Args:
+            original: 原始遊戲名稱
+            result: 翻譯結果
+            
+        Returns:
+            版本號是否匹配
+        """
+        orig_versions = self._extract_version_numbers(original)
+        
+        # 原始名稱沒有明確版本號，不需要檢查
+        if not orig_versions:
+            return True
+        
+        result_versions = self._extract_version_numbers(result)
+        
+        # 翻譯結果沒有版本號，可能有問題
+        if not result_versions:
+            # 但如果原始版本號是 1，有些遊戲第一代不會標示版本號
+            if orig_versions == [1]:
+                return True
+            return False
+        
+        # 檢查主要版本號是否匹配
+        # 取原始名稱的第一個版本號（通常是主要版本）
+        main_orig_version = orig_versions[0]
+        
+        # 檢查翻譯結果是否包含相同的版本號
+        if main_orig_version in result_versions:
+            return True
+        
+        # 特殊處理：合集遊戲（如 "I & II"、"1.2" 等）
+        if len(orig_versions) > 1:
+            # 如果是合集，檢查結果是否包含任一版本號
+            for v in orig_versions:
+                if v in result_versions:
+                    return True
+        
+        return False
     
     def _is_game_page(self, title: str, query: str) -> bool:
         """
@@ -253,6 +356,11 @@ class WikipediaService:
             r'射击游戏',
             r'角色扮演遊戲',
             r'角色扮演游戏',
+            r'系列$',          # 排除「XXX系列」頁面（如「勇者鬥惡龍系列」）
+            r'遊戲系列',       # 繁體
+            r'游戏系列',       # 簡體
+            r'Series$',        # 英文系列頁面
+            r'series$',
         ]
         
         # 排除遊戲平台/訂閱服務頁面 - 這些頁面會提到很多遊戲但不是具體遊戲
