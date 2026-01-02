@@ -49,6 +49,27 @@ def get_backups_dir() -> Path:
     return ensure_dir(get_app_data_dir() / 'backups')
 
 
+def get_language_packs_dir() -> Path:
+    """
+    取得語系包目錄（專案目錄下的 language_packs）
+    
+    此目錄用於版控分享，與使用者資料目錄中的字典檔並存。
+    翻譯完成後，字典會同時儲存到這裡，方便透過 Git 分享給其他使用者。
+    
+    Returns:
+        語系包目錄路徑（專案目錄/language_packs）
+    """
+    # 取得程式執行的根目錄
+    if getattr(sys, 'frozen', False):
+        # PyInstaller 打包後的執行檔目錄
+        app_root = Path(sys.executable).parent
+    else:
+        # 開發模式：從 src/utils/file_utils.py 往上三層到專案根目錄
+        app_root = Path(__file__).parent.parent.parent
+    
+    return ensure_dir(app_root / 'language_packs')
+
+
 def get_settings_path() -> Path:
     """取得設定檔路徑"""
     return get_app_data_dir() / 'settings.json'

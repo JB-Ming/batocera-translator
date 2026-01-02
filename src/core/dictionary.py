@@ -8,7 +8,7 @@ from typing import Dict, Optional, Any, List
 from dataclasses import dataclass, asdict
 from enum import Enum
 
-from ..utils.file_utils import get_dictionaries_dir
+from ..utils.file_utils import get_dictionaries_dir, get_language_packs_dir
 
 
 class TranslationSource(Enum):
@@ -149,17 +149,29 @@ class DictionaryManager:
         """
         儲存字典檔
         
+        字典會同時儲存到兩個位置：
+        1. 使用者資料目錄（%LOCALAPPDATA%/BatoceraTranslator/dictionaries）：本機使用
+        2. 專案目錄下的 language_packs：用於版控分享
+        
         Args:
             language: 語系代碼
             platform: 平台代碼
             dictionary: 遊戲字典
         """
-        dict_path = self._get_dict_path(language, platform)
-        dict_path.parent.mkdir(parents=True, exist_ok=True)
-        
+        # 轉換為可序列化的字典格式
         data = {key: entry.to_dict() for key, entry in dictionary.items()}
         
+        # === 儲存到使用者資料目錄（本機字典） ===
+        dict_path = self._get_dict_path(language, platform)
+        dict_path.parent.mkdir(parents=True, exist_ok=True)
         with open(dict_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        
+        # === 同時儲存到 language_packs 資料夾（版控分享） ===
+        language_packs_dir = get_language_packs_dir()
+        pack_path = language_packs_dir / language / f"{platform}.json"
+        pack_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(pack_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
     
     def merge_dictionaries(self, base: Dict[str, GameEntry], 

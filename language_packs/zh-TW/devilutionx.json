@@ -1,0 +1,30 @@
+{
+  "diabdat": {
+    "key": "diabdat",
+    "original_name": "Diablo 1",
+    "name": "最终幻想16",
+    "name_source": "wiki",
+    "original_desc": "Classic Hack & Slash Action RPG",
+    "desc": "經典砍殺動作角色扮演遊戲",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T10:40:33",
+    "desc_translated_at": "2026-01-02T10:40:33",
+    "original_name_hash": "2c93df8e",
+    "original_desc_hash": "6dbed7cf"
+  },
+  "hellfire": {
+    "key": "hellfire",
+    "original_name": "Diablo 1: Hellfire",
+    "name": "暗黑破壞神1：地獄火",
+    "name_source": "api",
+    "original_desc": "Classic Hack & Slash Action RPG Expansion Pack",
+    "desc": "經典砍殺動作角色扮演遊戲擴展包",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T10:40:35",
+    "desc_translated_at": "2026-01-02T10:40:35",
+    "original_name_hash": "dca654c6",
+    "original_desc_hash": "dd23d4fd"
+  }
+}

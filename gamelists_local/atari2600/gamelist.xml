@@ -1,0 +1,1087 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="14077">
+		<path>./Millipede (USA).zip</path>
+		<name>Millipede</name>
+		<desc>Millipedes, cousins of the Centipede, are all over the garden. This will ruin anything trying to grow there unless they are stopped. But there are other insects as well; spiders, bees, dragonflies and earwigs. Nature is dangerous. Luckily, there's a bug zapper that can shoot arrows at these insects and destroy them.
+
+Millipede is the sequel to Centipede, and features similar gameplay, but with a new swarm of insects! The goal is to destroy the multi-segmented millipede as it traverses its way through the mushroom forest towards the bottom of the screen. When all millipede segments have been destroyed, the player will progress to the next, more difficult level. Millipedes and other creatures are all worth a different amount of points. Occasionally dynamite will appear on the screen, which will explode if shot by the bug zapper. With a well timed shot, numerous millipede segments (and other insects as well) can be taken out as they pass by.</desc>
+		<image>./images/Millipede (USA)-image.png</image>
+		<marquee>./images/Millipede (USA)-marquee.png</marquee>
+		<thumbnail>./images/Millipede (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter</genre>
+		<family>Centipede</family>
+		<players>1</players>
+		<crc32>CCC82DD0</crc32>
+		<md5>3c57748c8286cf9e821ecd064f21aaa9</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032215" />
+	</game>
+	<game id="37747">
+		<path>./Frogger (USA).zip</path>
+		<name>Frogger</name>
+		<desc>Your task in this arcade conversion is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.
+
+The road is full of cars and trucks, at variable speeds. The river water itself is fatal, as are the snakes which hover within on later levels. Frogger must use the arrangement of logs, turtles (which are only there for a short time) and alligators (but stay away form their faces), and then jump into one of the open home-cells, ideally one containing a fly for extra points. Once all holes have been filled, you move onto the next, harder, level.</desc>
+		<image>./images/Frogger (USA)-image.png</image>
+		<marquee>./images/Frogger (USA)-marquee.png</marquee>
+		<thumbnail>./images/Frogger (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Parker Brothers</developer>
+		<publisher>Parker Brothers</publisher>
+		<genre>Platform</genre>
+		<family>Frogger</family>
+		<players>1-2</players>
+		<crc32>F5E1AF92</crc32>
+		<md5>081e2c114c9c20b61acf25fc95c71bf4</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032232" />
+	</game>
+	<game id="59476">
+		<path>./Ms. Pac-Man (USA).zip</path>
+		<name>Ms. Pac-Man</name>
+		<desc>In 1982, a sequel to the  incredibly popular Pac-Man was introduced in the form of his girlfriend, Ms. Pac-Man.  This sequel continued on the "eat the dots/avoid the ghosts" gameplay of the original game, but added new features to keep the title fresh.
+
+Like her boyfriend, Ms. Pac-Man attempts to clear four various and challenging mazes filled with dots and ever-moving bouncing fruit  while avoiding Inky, Blinky, Pinky and Sue, each with their own personalities and tactics.  One touch from any of these ghosts means a loss of life for Ms. Pac-Man.</desc>
+		<image>./images/Ms. Pac-Man (USA)-image.png</image>
+		<marquee>./images/Ms. Pac-Man (USA)-marquee.png</marquee>
+		<thumbnail>./images/Ms. Pac-Man (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>General Computer Corporation</developer>
+		<publisher>Atari</publisher>
+		<genre>Action / Labyrinth</genre>
+		<family>Pac-Man</family>
+		<players>1</players>
+		<crc32>B2D08FC9</crc32>
+		<md5>87e79cd41ce136fd4f72cc6e2c161bee</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032249" />
+	</game>
+	<game id="37758">
+		<path>./Gravitar (USA).zip</path>
+		<name>Gravitar</name>
+		<desc>The evil being called Gravitar is out attempting to destroy the universe! With each galaxy he conquers he leaves behind extreme gravitational forces, a powerful, explosive reactor and deadly bunkers. Your job is to stop Gravitar by taking back the twelve solar systems located in four galaxies that are under his control! In each solar system there is a sun, an alien reactor base, and three to four planets. To free the solar system, you have two choices; either visit all of the planets and destroy all enemy bunkers, or activate the reactor at the core of the alien base and escape before it explodes. On each of the planets and the alien base, there will be strong gravitational forces to deal with; make sure you keep your ship in space, since a crash into the ragged landscape will be fatal! After a galaxy has been freed, you then automatically move on to the next galaxy which will be even more difficult to save. The game includes five different skill levels which vary in difficulty by supplying different amounts of ships to begin the game as well as different strengths of gravity.</desc>
+		<image>./images/Gravitar (USA)-image.png</image>
+		<marquee>./images/Gravitar (USA)-marquee.png</marquee>
+		<thumbnail>./images/Gravitar (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1</players>
+		<crc32>C87FCCBE</crc32>
+		<md5>8ac18076d01a6b63acf6e2cab4968940</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032303" />
+	</game>
+	<game id="14055">
+		<path>./Super Breakout (USA).zip</path>
+		<name>Super Breakout</name>
+		<desc>Super Breakout features similar gameplay to the original, but with several new game variations. Your goal is to earn as many points as possible by destroying the bricks at the top of the playfield. To do this, you need to use the paddle at the bottom of the screen to keep a bouncing ball within the playfield. There are four different game variations included. The first is 'Breakout', and plays the same as the original game. 
+
+This leaves three new gameplay concepts. In 'Progressive' the brick walls will slowly drop towards the bottom of the screen and the ball moves progressively faster and faster. When there's room, a new layer of bricks will appear at the top. 
+
+The other two games add a second paddle. In 'Double Breakout' you have two balls to keep in play and score with. In 'Cavity' there is a single ball in play when you start, but two additional balls trapped within the bricks. These are freed when their surrounding bricks are destroyed.</desc>
+		<image>./images/Super Breakout (USA)-image.png</image>
+		<marquee>./images/Super Breakout (USA)-marquee.png</marquee>
+		<thumbnail>./images/Super Breakout (USA)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19780101T000000</releasedate>
+		<developer>Turner, Nick / Shaw, Carol</developer>
+		<publisher>Atari</publisher>
+		<genre>Action / Breakout games</genre>
+		<family>Breakout</family>
+		<players>1-2</players>
+		<crc32>B0F20D31</crc32>
+		<md5>8885d0ce11c5b40c3a8a8d9ed28cefef</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032317" />
+	</game>
+	<game id="37687">
+		<path>./Berzerk (Japan, USA).zip</path>
+		<name>Berzerk</name>
+		<desc>You are a prisoner on an alien planet that is made up of mazes. Robot gangs hunt you and you must shoot them before they hit you. Evil Otto, a grinning sinister face who is invincible, pursues you. If you can keep cool and not go bonkers, you'll eliminate robots, escape Evil Otto, and score big points.
+
+The home video game version of a favorite Arcade game.</desc>
+		<image>./images/Berzerk (Japan, USA)-image.png</image>
+		<marquee>./images/Berzerk (Japan, USA)-marquee.png</marquee>
+		<thumbnail>./images/Berzerk (Japan, USA)-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Stern</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter</genre>
+		<family>Berzerk</family>
+		<players>1-2</players>
+		<crc32>2E8B4B5F</crc32>
+		<md5>136f75c4dd02c29283752b7e5799f978</md5>
+		<lang>en,jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T032332" />
+	</game>
+	<game id="14020">
+		<path>./Joust (USA).zip</path>
+		<name>Joust</name>
+		<desc>In Joust, players take control of a knight with a lance who rides their flying ostrich (or stork, for Player 2) to do battle against computer-controlled evil knights who ride atop vultures.
+
+Players must flap their steed's wings to hit the enemy from a higher jousting point to destroy the vulture and its rider. Once the enemy has been hit, an egg falls to one of the platforms below. The heroic knights must destroy the eggs before they hatch and release new and increasingly more difficult knights. The three strengths of enemy knights are Bounder (red knight), Hunter (white knight), and Shadow Lord (blue knight). These enemy knights are not the only challenge to be found in the game. Players must also contend with crumbling platforms, lava trolls who attempt to pull knights into the fire, and the dreaded "unbeatable"(?) pterodactyl.
+
+The game was novel for its time for being one of the few two-player simultaneous games in the arcade.</desc>
+		<image>./images/Joust (USA)-image.png</image>
+		<marquee>./images/Joust (USA)-marquee.png</marquee>
+		<thumbnail>./images/Joust (USA)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Williams</developer>
+		<publisher>Atari</publisher>
+		<genre>Platform / Run &amp; Jump</genre>
+		<players>1-2</players>
+		<crc32>A07B3304</crc32>
+		<md5>3276c777cbe97cdd2b4a63ffc16b7151</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032347" />
+	</game>
+	<game id="37890">
+		<path>./Vanguard (USA).zip</path>
+		<name>Vanguard</name>
+		<desc>Vanguard is an arcade style shooter for one or two players. Your goal is to pilot your spaceship to the City of Mystery which is located at the end of a heavily guarded tunnel, and once there destroy the creature Gond. The tunnel is broken up into several different zones, called the mountain zone, rainbow zone, stick zone, stripe zone, bleak zone, and City of Mystery. Each zone features different types of enemy spaceships to deal with, and can scroll either horizontally or vertically. In the mountain zone or stripe zone, you may also come across an energy pod marked with an 'E'. If you fly through this, your ship temporarily becomes invincible to the deadly cave walls and numerous enemies which are trying to stop you. When not invincible, your space ship is equipped with lasers to help destroy enemies. You can fire in four different directions, however your speed is decreased when firing. You also need to keep an eye on your fuel gauge; your fuel will deplete at a rapid rate, and your ship will crash if it runs out. Fuel is gained each time you destroy an enemy, so make sure you destroy as many as you can! When you finally make it through all the various zones of the tunnel and defeat Gond, the game will repeat at a more difficult skill level.</desc>
+		<image>./images/Vanguard (USA)-image.png</image>
+		<marquee>./images/Vanguard (USA)-marquee.png</marquee>
+		<thumbnail>./images/Vanguard (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>Atari</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<players>1-2</players>
+		<crc32>C4BEC521</crc32>
+		<md5>c6556e082aac04260596b4045bc122de</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032403" />
+	</game>
+	<game id="13993">
+		<path>./Yars' Revenge (USA).zip</path>
+		<name>Yars' Revenge</name>
+		<desc>In Yars' Revenge, your goal is to destroy the Qotile laser-base which is located on the right side of the screen behind a shield. You control the fly-like Yar, which can destroy the shield piece by piece by either shooting it or running into it. Once the shield is down, you will need to use the Zorlon cannon to destroy the Qotile. The Zorlon cannon is located on the left side of the screen, and when fired can destroy the Qotile with a direct hit. The Qotile isn't completely unarmed against your attacks, however. Wandering around the screen is a destroyer missile, which will constantly be homing in on your Yar. This missile can not be destroyed, however you can temporarily hide from it in a shield which runs vertically in the center of the screen. The Yar will be unable to fire when hiding in the shield so you can't stay there indefinitely! The Qotiles second weapon is a swirl which it will randomly fire at you and should be dodged. When you finally destroy the Qotile you can move on to the next, faster round of gameplay. Several game variations are included which control the difficulty and speed of the game.</desc>
+		<image>./images/Yars' Revenge (USA)-image.png</image>
+		<marquee>./images/Yars' Revenge (USA)-marquee.png</marquee>
+		<thumbnail>./images/Yars' Revenge (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19820501T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1-2</players>
+		<crc32>DFA1C825</crc32>
+		<md5>c5930d0e8cdae3e037349bfa08e871be</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032418" />
+	</game>
+	<game id="59427">
+		<path>./Cosmic Ark (USA).zip</path>
+		<name>Cosmic Ark</name>
+		<desc>The Alpha Ro solar system is in crisis! Their sun is about to go supernova, meaning the death of all the many planets and the exotic lifeforms who call them home. Luckily, though, the noble Atlanteans have heard of Alpha Ro's plight and have sent a vast Cosmic Ark thousands of light-years across the galaxy to try and save as many species as possible. As the captain of the Ark, the player will have to contend with deadly meteor storms and planetary defense systems to succeed the mission.
+
+Cosmic Ark features two play screens: On the first, the player will have to blast meteors with four-way cannons. Blast enough and the player can go on to the second screen. The Ark descends low over one of Alpha Ro's planets. The player will then have to guide a shuttle craft down and beam aboard two creatures, while avoiding any laser defense system that may be in operation. The player will have to get the creatures back on board quickly, because another meteor shower could happen at any moment. Then it's off to the next planet!</desc>
+		<image>./images/Cosmic Ark (USA)-image.png</image>
+		<marquee>./images/Cosmic Ark (USA)-marquee.png</marquee>
+		<thumbnail>./images/Cosmic Ark (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Imagic</developer>
+		<publisher>Imagic</publisher>
+		<genre>Shooter</genre>
+		<players>1-2</players>
+		<crc32>CB374F0E</crc32>
+		<md5>ab5bf1ef5e463ad1cbb11b6a33797228</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032432" />
+	</game>
+	<game id="14006">
+		<path>./Combat ~ Tank-Plus (USA).zip</path>
+		<name>Combat</name>
+		<desc>Combat is an early video game by Atari for the Atari 2600. It was released as one of the nine launch titles for the system in October 1977, and was included in the box with the system from its introduction until 1982. 
+
+Combat boasted having 27 games in one, which were all variations on the tank, biplane, and jet gameplay.</desc>
+		<image>./images/Combat ~ Tank-Plus (USA)-image.png</image>
+		<marquee>./images/Combat ~ Tank-Plus (USA)-marquee.png</marquee>
+		<thumbnail>./images/Combat ~ Tank-Plus (USA)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19770101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter</genre>
+		<players>2</players>
+		<crc32>9C326A97</crc32>
+		<md5>4c8832ed387bbafc055320c05205bc08</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032449" />
+	</game>
+	<game id="14061">
+		<path>./Jungle Hunt (USA).zip</path>
+		<name>Jungle Hunt</name>
+		<desc>Jungle Hunt offers four unique adventure experiences, which repeat with greater difficulty once all four have been survived.  If you don't survive these adventures, you will not only lose your own life but that of the lovely Penelope, who has been captured by cannibals!
+
+The first part challenges your Tarzan skills - can you swing on the vines without plummeting to your doom?  The second part pits you against a whole bunch of nasty crocodiles in a mighty river.  Fortunately, you have a knife to fight back with.  Don't forget to go up for air!  In the third part, you face a battle against oncoming boulders of varying sizes and physics.  Once you've cleared all these treacherous hazards, you still must confront the dreaded cannibal, who is armed with a wicked spear.  Can you get past him and save the lovely Penelope?
+
+Gameplay involves much strategic jumping and knife play (in the river/crocodile phase).  The view is always a side view, much like Pitfall! and later platform games.</desc>
+		<image>./images/Jungle Hunt (USA)-image.png</image>
+		<marquee>./images/Jungle Hunt (USA)-marquee.png</marquee>
+		<thumbnail>./images/Jungle Hunt (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Platform / Run &amp; Jump Scrolling</genre>
+		<players>1-2</players>
+		<crc32>9C3E8734</crc32>
+		<md5>2bb9f4686f7e08c5fcc69ec1a1c66fe7</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032506" />
+	</game>
+	<game id="14134">
+		<path>./Circus Atari (Japan, USA).zip</path>
+		<name>Circus Atari</name>
+		<desc>Pop the balloons and score points. A wall of red, blue and white balloons will appear at the top of the screen. You must pop balloons by catching a clown on the teeter-totter and bouncing him up to the balloons. Use the controller to move the teeter-totter across the screen to catch the clowns. Each time a clown pops a balloon, the balloon will disappear and you score points. Each player receives five clowns or turns. If you fail to catch a clown on the teeter-totter he will crash and disappear from the playfield. Press the controller button and another clown will bounce off the trampoline from the right or left corner of the playfield. After five clowns have crashed the game is over. The clowns may land on any point on the teeter-totter except where the other clown is sitting, which causes them to crash.</desc>
+		<image>./images/Circus Atari (Japan, USA)-image.png</image>
+		<marquee>./images/Circus Atari (Japan, USA)-marquee.png</marquee>
+		<thumbnail>./images/Circus Atari (Japan, USA)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19780101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Adventure</genre>
+		<players>1-2</players>
+		<crc32>D2A330A3</crc32>
+		<md5>a7b96a8150600b3e800a4689c3ec60a2</md5>
+		<lang>en,jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T032521" />
+	</game>
+	<game id="14054">
+		<path>./Crystal Castles (USA).zip</path>
+		<name>Crystal Castles</name>
+		<desc>Bentley Bear is trapped in the Crystal Castles! To get out, he will need to collect all of the gems located throughout the castle. The game is played with an isometric view of the multi platformed castle. When Bentley collects all of the gems on the current castle, he will move on to the next, more difficult castle. Wandering throughout the castles are a wide variety of dangerous creatures, which Bentley should avoid. From time to time, a magic hat will appear. If Bentley collects the hat, he will temporarily be invincible to the castles inhabitants.</desc>
+		<image>./images/Crystal Castles (USA)-image.png</image>
+		<marquee>./images/Crystal Castles (USA)-marquee.png</marquee>
+		<thumbnail>./images/Crystal Castles (USA)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Action / Labyrinth</genre>
+		<players>1</players>
+		<crc32>9007B5AC</crc32>
+		<md5>1c6eb740d3c485766cade566abab8208</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032536" />
+	</game>
+	<game id="14128">
+		<path>./Video Pinball ~ Arcade Pinball (USA).zip</path>
+		<name>Video Pinball : Arcade Pinball</name>
+		<desc>Video Pinball is a pinball simulation for one or two players. You begin the game with three balls and need to score as many points as possible by hitting the various bumpers, spinners, and rollovers on the pinball table. An extra ball can be earned by hitting the Atari logo rollover four times in a row!  There are two difficulty levels and four game variations included.</desc>
+		<image>./images/Video Pinball ~ Arcade Pinball (USA)-image.png</image>
+		<marquee>./images/Video Pinball ~ Arcade Pinball (USA)-marquee.png</marquee>
+		<thumbnail>./images/Video Pinball ~ Arcade Pinball (USA)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19800101T000000</releasedate>
+		<developer>Sears</developer>
+		<publisher>Atari</publisher>
+		<genre>Pinball</genre>
+		<players>1-2</players>
+		<crc32>10D95426</crc32>
+		<md5>107cc025334211e6d29da0b6be46aec7</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032550" />
+	</game>
+	<game id="37718">
+		<path>./Dragonfire (USA).zip</path>
+		<name>Dragonfire</name>
+		<desc>The king's treasures have been stolen! As the daring young prince, your goal is to recover them all. The treasures are being kept in various castles, each one guarded by a fire breathing dragon. Each level in the game has two parts; first you will need to cross the castle's drawbridge. You will have to jump and duck the dragons fireballs as well as avoid flying arrows to reach the other side! In the second part you need to collect all of the treasures on the screen and make it to the exit while avoiding the dragon who runs across the bottom of the screen. The dragons on each level have different patterns of movement and firing, and as the levels progress will become faster and trickier.</desc>
+		<image>./images/Dragonfire (USA)-image.png</image>
+		<marquee>./images/Dragonfire (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dragonfire (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Imagic</developer>
+		<publisher>Imagic</publisher>
+		<players>1-2</players>
+		<crc32>BA5DC02C</crc32>
+		<md5>41810dd94bd0de1110bedc5092bef5b0</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032605" />
+	</game>
+	<game id="87848">
+		<path>./River Raid (USA).zip</path>
+		<name>River Raid</name>
+		<desc>River Raid is a vertically scrolling action game. You fly a jet up a river in an attempt to destroy bridges which are vital to the enemy. The river is heavily guarded, however, with balloons, ships, choppers, and enemy aircraft trying to stop you. Along the way you will need to fly over fuel stations to refuel your jet and keep flying.
+
+The plane is armed with a cannon with unlimited ammo. It can be used to destroy the enemy vehicles and bridges, but a careless player can accidentally destroy a fuel station. Colliding with the riverbanks or with the enemy aircraft destroys your plane and makes you lose a life.</desc>
+		<image>./images/River Raid (USA)-image.png</image>
+		<marquee>./images/River Raid (USA)-marquee.png</marquee>
+		<thumbnail>./images/River Raid (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1-2</players>
+		<crc32>C3EB7E1E</crc32>
+		<md5>393948436d1f4cc3192410bb918f9724</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032619" />
+	</game>
+	<game id="37761">
+		<path>./Halloween (USA).zip</path>
+		<name>Halloween</name>
+		<desc>Protect the children and fight for your life "the night HE came home!"
+
+Babysitting a group of children in a large two-story house, players assume the role of Laurie Strode as psychopath Michael Myers has escaped from the mental institution and has come back for revenge.  Players must guide the children to safe rooms while avoiding Michael Myers and his knife.
+
+The house is large and full of dangerous blackouts and dead-ends within its sixteen rooms.  However, Laurie is not completely defenseless.  There is a knife that can be found to protect herself once the familiar theme music begins to play and killer remains in pursuit.  
+
+Players will advance to the next level by either stabbing Michael Myers twice, or rescuing five of the children.</desc>
+		<image>./images/Halloween (USA)-image.png</image>
+		<marquee>./images/Halloween (USA)-marquee.png</marquee>
+		<thumbnail>./images/Halloween (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>VSS</developer>
+		<publisher>Wizard Video Games</publisher>
+		<players>1</players>
+		<crc32>B1B11806</crc32>
+		<md5>30516cfbaa1bc3b5335ee53ad811f17a</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032632" />
+	</game>
+	<game id="37772">
+		<path>./Keystone Kapers (USA).zip</path>
+		<name>Keystone Kapers</name>
+		<desc>The notorious thief Harry Hooligan is on the loose! You play the part of Officer Keystone Kelly, sent in to capture Harry. Harry is trapped in a four story mall, and is running as fast as he can to reach the exit at the top. Your job is to catch up to him and send him to prison. You will need to use either the escalators at the end of each floor, or the elevator in the middle to go from floor to floor. The escalators may be further away, but the elevator moves pretty slowly so you will need to decide which route will be faster in getting you closer to your goal. If Harry can make it to the top before you catch him, you will have to retry that level. Harry has no intention of letting you catch him easily, and is hurling everything he can find in an attempt to slow you down. Shopping carts, bouncing balls, biplanes, and more will all be flying past on the screen and will either slow you down or send you back to the beginning if you get hit. As the levels progress, Harry will run faster and faster, and more objects will be tossed your way to duck and jump over.</desc>
+		<image>./images/Keystone Kapers (USA)-image.png</image>
+		<marquee>./images/Keystone Kapers (USA)-marquee.png</marquee>
+		<thumbnail>./images/Keystone Kapers (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19830401T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<players>1</players>
+		<crc32>3E55F3A1</crc32>
+		<md5>be929419902e21bd7830a7a7d746195d</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032648" />
+	</game>
+	<game id="58700">
+		<path>./Demon Attack (USA) (Rev 1).zip</path>
+		<name>Demon Attack</name>
+		<desc>Demon Attack is an arcade action game with gameplay similar to Space Invaders. You control a laser canon at the bottom of the screen, and need to destroy wave after wave of brightly colored demons. The demons bounce around the screen in bizarre patterns, and try to destroy your canon with bombs or lasers. When you shoot a demon, it will be replaced with another or will split into two smaller demons depending on which wave you are playing. When the required number of demons for the current round is finally destroyed, you can move on to the next, more difficult round.</desc>
+		<image>./images/Demon Attack (USA) (Rev 1)-image.png</image>
+		<marquee>./images/Demon Attack (USA) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Demon Attack (USA) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Imagic</developer>
+		<publisher>Imagic</publisher>
+		<genre>Shooter / Space Invaders Like</genre>
+		<players>1-2</players>
+		<crc32>31C9DF5E</crc32>
+		<md5>b12a7f63787a6bb08e683837a8ed3f18</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032705" />
+	</game>
+	<game id="14012">
+		<path>./Pitfall! - Pitfall Harry's Jungle Adventure (USA).zip</path>
+		<name>Pitfall! : Pitfall Harry's Jungle Adventure</name>
+		<desc>Pitfall! is a platform action game. You play Pitfall Harry who is on a quest to locate treasure deep in the jungle. With a little luck you'll be able to find money bags, silver bars, gold bars, and diamond rings. But many obstacles will get in the way, some of which merely deduct points from your score, while others are fatal. Rolling logs and falling down a hole will deduct points, and scorpions, alligators, snakes, bottomless pits, swamps, and fires will cause Pitfall Harry to lose a life. You have 20 minutes to try to collect all of the treasures on the numerous screens, if you can live that long!</desc>
+		<image>./images/Pitfall! - Pitfall Harry's Jungle Adventure (USA)-image.png</image>
+		<marquee>./images/Pitfall! - Pitfall Harry's Jungle Adventure (USA)-marquee.png</marquee>
+		<thumbnail>./images/Pitfall! - Pitfall Harry's Jungle Adventure (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19820420T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Platform</genre>
+		<family>Pitfall</family>
+		<players>1</players>
+		<crc32>42AD47BF</crc32>
+		<md5>3e90cf23106f2e08b2781e41299de556</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032723" />
+	</game>
+	<game id="37835">
+		<path>./Seaquest (USA).zip</path>
+		<name>Seaquest</name>
+		<desc>Your divers are out in the ocean collecting treasure; now that they have found what they're looking for, you need to pilot a submarine and return them safely to the surface! You can carry up to six divers at a time, and when you safely return the six divers to the surface, you move on to the next, faster level. Your sub has a limited supply of oxygen; if your oxygen meter gets too low, you will need to surface to replenish the oxygen supply. If you surface with less than six divers, you lose one of the divers. If you surface with no divers at all, then your sub will explode. To make your task more challenging, numerous giant sharks and enemy submarines travel throughout the waters and can destroy your sub on contact. To help out with these enemies, you have an unlimited supply of torpedoes which can be fired to destroy both the sharks and subs. As the levels progress, the game gets faster and more enemies appear at a time.</desc>
+		<image>./images/Seaquest (USA)-image.png</image>
+		<marquee>./images/Seaquest (USA)-marquee.png</marquee>
+		<thumbnail>./images/Seaquest (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1-2</players>
+		<crc32>8658E8D9</crc32>
+		<md5>240bfbac5163af4df5ae713985386f92</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032737" />
+	</game>
+	<game id="58693">
+		<path>./California Games (USA).zip</path>
+		<name>California Games</name>
+		<desc>California Games was the original "Extreme Games" – what today's generation might call "X-Games in the sun".  Players can select sponsors (absent in some versions) and compete in events such as skateboarding, footbag, surfing, roller skating, flying disc (frisbee) and BMX.  The surfing event is ranked by judges, which give a score to help the players improve their routine.
+
+The Atari versions (2600 and Lynx) of the game omit the flying disc and roller skating events, while the Genesis version omits only the flying disc event.</desc>
+		<image>./images/California Games (USA)-image.png</image>
+		<marquee>./images/California Games (USA)-marquee.png</marquee>
+		<thumbnail>./images/California Games (USA)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19880601T000000</releasedate>
+		<developer>Epyx</developer>
+		<publisher>Epyx</publisher>
+		<genre>Sports / Multisports</genre>
+		<family>California Games</family>
+		<players>1-8</players>
+		<crc32>E9A3FDC3</crc32>
+		<md5>9ab72d3fd2cc1a0c9adb504502579037</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032752" />
+	</game>
+	<game id="13988">
+		<path>./Space Invaders (USA).zip</path>
+		<name>Space Invaders</name>
+		<desc>Earth is under attack from rows of bomb dropping aliens, and you need to defend it! The rows of aliens begin at the top of the screen, and you control a laser cannon at the bottom of the screen. Your goal is to earn points by shooting the aliens before they can land. The aliens march back and forth, and each time the end of the screen is reached they will drop one row closer to the bottom. Shoot them all, and you move on to the next (tougher) level, but if even one of them lands the game is over. From time to time a flying saucer will pass by along the top of the screen; shoot this to earn extra points. Just above your laser canon are three shields; these can be used to hide from the alien's bombs, but will also block your own shots. You begin the game with a limited number of laser canons, and if all of them are bombed the game ends.</desc>
+		<image>./images/Space Invaders (USA)-image.png</image>
+		<marquee>./images/Space Invaders (USA)-marquee.png</marquee>
+		<thumbnail>./images/Space Invaders (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19800101T000000</releasedate>
+		<developer>Taito</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter / Space Invaders Like</genre>
+		<family>Space Invaders</family>
+		<players>1-2</players>
+		<crc32>A6E867B3</crc32>
+		<md5>72ffbef6504b75e69ee1045af9075f66</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032808" />
+	</game>
+	<game id="37677">
+		<path>./Atlantis (USA).zip</path>
+		<name>Atlantis</name>
+		<desc>The lost city of Atlantis is under attack! Wave after wave of Gorgon vessels are approaching, each armed with weapons capable of destroying a part of the city. You are in charge of the command posts at the edges of the city and need to defend it from the invaders. The various gorgon craft will keep flying by on the screen in varying numbers and in different flight patterns. At first they fly high in the sky but then progressively lower. If an enemy makes it low enough before you destroy it, it will use it's weapons and destroy one of the buildings in Atlantis. As you progress in the game, the enemy craft will keep increasing in speed. The game ends when all remaining buildings in the city have been destroyed.</desc>
+		<image>./images/Atlantis (USA)-image.png</image>
+		<marquee>./images/Atlantis (USA)-marquee.png</marquee>
+		<thumbnail>./images/Atlantis (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Imagic</developer>
+		<publisher>Imagic</publisher>
+		<genre>Shooter</genre>
+		<players>1-2</players>
+		<crc32>92560498</crc32>
+		<md5>9ad36e699ef6f45d9eb6c4cf90475c9f</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032826" />
+	</game>
+	<game id="14038">
+		<path>./Missile Command (USA).zip</path>
+		<name>Missile Command</name>
+		<desc>Aliens from the planet of Krytol are attacking your cities!! As the commander of a missile base, it is your responsibility to defend them. A variety of enemy weapons and planes will be incoming trying to destroy the six cities at the bottom of the screen. You need to fire missiles to destroy the incoming weapons. If anything gets through, one of your cities could be destroyed. When all of the cities are gone, the game is over. On each level you have a limited amount of ammo, so make sure most (if not all) of your shots are accurate or you could run out of ammo and leave your cities at risk! As the levels progress, there are more and more enemy weapons to destroy which come in at an increasingly faster rate.</desc>
+		<image>./images/Missile Command (USA)-image.png</image>
+		<marquee>./images/Missile Command (USA)-marquee.png</marquee>
+		<thumbnail>./images/Missile Command (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19810101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter / Missile Command Like</genre>
+		<family>Missile Command</family>
+		<players>1-2</players>
+		<crc32>CFF14904</crc32>
+		<md5>3a2e2d0c6892aa14544083dfb7762782</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032842" />
+	</game>
+	<game id="37803">
+		<path>./Phoenix (USA).zip</path>
+		<name>Phoenix</name>
+		<desc>Phoenix is an arcade action game with gameplay similar to Space Invaders. You are the commander of the Phoenix, and your mission is to reach an alien spaceship which has been draining your planets resources. The ship is guarded by four levels of bird like creatures. After clearing all four stages, the fifth level will be against a large, heavily shielded mothership. If the mothership is destroyed, the game will then repeat, but with increased speed and difficulty. To defeat the numerous enemies, the Phoenix is equipped with a laser cannon and a force field.</desc>
+		<image>./images/Phoenix (USA)-image.png</image>
+		<marquee>./images/Phoenix (USA)-marquee.png</marquee>
+		<thumbnail>./images/Phoenix (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Amstar Electronics</developer>
+		<publisher>Atari</publisher>
+		<players>1</players>
+		<crc32>6AE1B66C</crc32>
+		<md5>7e52a95074a66640fcfde124fffd491a</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032856" />
+	</game>
+	<game id="37728">
+		<path>./Enduro (USA).zip</path>
+		<name>Enduro</name>
+		<desc>Enduro is an action racing game similar to Pole Position. Your goal is to last as long as you can in an enduro race; each day of the race you are required to pass a certain number of cars. If you succeed, you get to continue on, fail and you are out of the race. The driving conditions will vary as the days pass by; not only will you have to drive at different times of day with different amounts of light, but the seasons can change as well. Snow, ice, and fog will occasionally appear to make driving more treacherous. With each day that passes, the other cars will become faster and more aggressive. At the bottom of the screen is an odometer, so when the race is finally over you can see how far you made it.</desc>
+		<image>./images/Enduro (USA)-image.png</image>
+		<marquee>./images/Enduro (USA)-marquee.png</marquee>
+		<thumbnail>./images/Enduro (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Racing, Driving</genre>
+		<players>1</players>
+		<crc32>2EF17B2E</crc32>
+		<md5>94b92a882f6dbaa6993a46e2dcc58402</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032910" />
+	</game>
+	<game id="13986">
+		<path>./Stargate (USA).zip</path>
+		<name>Stargate</name>
+		<desc>Save the humanoids from the impending aliens in the sequel to Defender. The task is still rescuing humanoids before Landers can turn them into Mutants, while avoiding and shooting other foes, however you must now carry humanoids to safety through the Stargate of the title. 
+
+Entering this Stargate not only warps you to the nearest humanoid in jeopardy, but can also warp you ahead (while on the first 15 levels) if you enter it with 4 or more humanoids, and give you extra lives if you warp with 10 humanoids, so there is a trade-off between guaranteeing the safety of existing humanoids, and trying to advance your position
+
+There are more enemies on screen than ever before. The Inviso button makes you invisible to enemies, but also to yourself, so you will have to follow your bullets to work out where on the screen you are.</desc>
+		<image>./images/Stargate (USA)-image.png</image>
+		<marquee>./images/Stargate (USA)-marquee.png</marquee>
+		<thumbnail>./images/Stargate (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>Vid Kidz</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter / Horizontal</genre>
+		<players>1</players>
+		<crc32>CDE3530E</crc32>
+		<md5>0c48e820301251fbb6bcdc89bd3555d9</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032925" />
+	</game>
+	<game id="14067">
+		<path>./Stampede (USA).zip</path>
+		<name>Stampede</name>
+		<desc>It's a stampede!! Your job is to round up as many of the calves as you can. The screen scrolls to the right as you chase the calves; if more than three calves get past you, the game is over. The calves all run at different speeds, and when you rope one you earn points based on how fast it was running. As the game progresses, more and more calves will be on the screen at one time, and other obstacles will begin appearing to trip your horse and slow you down.</desc>
+		<image>./images/Stampede (USA)-image.png</image>
+		<marquee>./images/Stampede (USA)-marquee.png</marquee>
+		<thumbnail>./images/Stampede (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19810101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<players>1</players>
+		<crc32>740800F3</crc32>
+		<md5>21d7334e406c2407e69dbddd7cec3583</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032938" />
+	</game>
+	<game id="13992">
+		<path>./Adventure (USA).zip</path>
+		<name>Adventure</name>
+		<desc>An evil magician has stolen the Enchanted Chalice and has hidden it somewhere in the Kingdom. The object of the game is to rescue the Enchanted Chalice and place it inside the Golden Castle where it belongs. 
+
+This is no easy task, as the Evil Magician has created three Dragons to hinder you in your quest for the Golden Chalice. There is Yorgie, the Yellow Dragon, who is just plain mean; there is Grundle, the Green Dragon, who is mean and ferocious; and there is Rhindle, the Red Dragon, who is the most ferocious of all. Rhindle is also the fastest Dragon and is the most difficult to outmaneuver.
+
+There are three castles in the Kingdom; the White Castle, the Black Castle, and the Golden Castle. Each castle has a Gate over the entrance. The Gate can be opened with the corresponding colored Key. Inside each Castle are rooms(or dungeons, depending at which Skill Level you are playing).
+
+The Castles are separated by rooms, pathways, and labyrinths. Common to all the Skill Levels is the Blue Labyrinth through which you must find your way to the Black Castle. Skill Levels 2 and 3 have a more complicated Kingdom
+
+Adventure was the first action-adventure game on a video console, the first to contain a widely-known Easter egg, and the first to allow a player to have a stash of items, which required the player to select which one to use at any given moment, usually through keyboard or joystick input. Adventure allowed the player to drop one item and pick up another without having to type in any commands. The graphics, on the other hand, were not that great, and Adventure creator Warren Robinett even described the dragons as looking like ducks.</desc>
+		<image>./images/Adventure (USA)-image.png</image>
+		<marquee>./images/Adventure (USA)-marquee.png</marquee>
+		<thumbnail>./images/Adventure (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19800101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>A6DB4B3A</crc32>
+		<md5>157bddb7192754a45372be196797f284</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T032954" />
+	</game>
+	<game id="87915">
+		<path>./Star Wars - The Empire Strikes Back (USA).zip</path>
+		<name>Star Wars : The Empire Strikes Back</name>
+		<desc>Star Wars: The Empire Strikes Back recreates a scene from the movie of the same name. You are on the icy planet of Hoth, and Imperial Walkers are closing in on the rebel power generator. As the pilot of a snowspeeder, you need to take out as many of the walkers as you can. The walkers are heavily armoured, and it will take a lot of fire power to destroy one! The game is played on a large, scrolling screen with a radar screen at the bottom to help keep track of where the enemy is located. If a walker reaches the power generator, or you run out of snowspeeders the game is over. Good luck, and may the force be with you!</desc>
+		<image>./images/Star Wars - The Empire Strikes Back (USA)-image.png</image>
+		<marquee>./images/Star Wars - The Empire Strikes Back (USA)-marquee.png</marquee>
+		<thumbnail>./images/Star Wars - The Empire Strikes Back (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Parker Brothers</developer>
+		<publisher>Parker Brothers</publisher>
+		<family>Star Wars</family>
+		<players>1-2</players>
+		<crc32>EE8C9A89</crc32>
+		<md5>3c8e57a246742fa5d59e517134c0b4e6</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033010" />
+	</game>
+	<game id="51228">
+		<path>./Frogs and Flies (USA).zip</path>
+		<name>Frogs and Flies</name>
+		<desc>The object of the game is to make frogs catch flies. Points are won by manipulating a frog so that he jumps off a lily pad and scoops up flying insects with a flashing tongue. Jump him too late and you'll miss. Jump him too far and he'll land in the pond. you'll have to wait for him to swim back before trying again. Day &amp; night action. Catch more flies than an opponent. Or beat your own top score!</desc>
+		<image>./images/Frogs and Flies (USA)-image.png</image>
+		<marquee>./images/Frogs and Flies (USA)-marquee.png</marquee>
+		<thumbnail>./images/Frogs and Flies (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Mattel Electronics</developer>
+		<publisher>M Network</publisher>
+		<players>2</players>
+		<crc32>6476C136</crc32>
+		<md5>dcc2956c7a39fdbf1e861fc5c595da0d</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033025" />
+	</game>
+	<game id="14070">
+		<path>./Sky Diver ~ Dare Diver (USA).zip</path>
+		<name>Sky Diver : Dare Diver</name>
+		<desc>Sky Diver is an action game for two players. The goal is to score the most points by jumping from a plane, opening your parachute,  and guiding your sky diver safely to a landing pad. The longer you wait to open your parachute, the more points you earn for a successful landing, but don't wait too long or your chute won't open at all! For each jump, there will be varying wind conditions which blow your sky diver off course. A wind sock at the bottom of the screen will help you determine the wind speed and direction so you can compensate. There are nine jumps total, and the player with the most points at the end wins.</desc>
+		<image>./images/Sky Diver ~ Dare Diver (USA)-image.png</image>
+		<marquee>./images/Sky Diver ~ Dare Diver (USA)-marquee.png</marquee>
+		<thumbnail>./images/Sky Diver ~ Dare Diver (USA)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19780101T000000</releasedate>
+		<developer>Sears</developer>
+		<publisher>Atari</publisher>
+		<players>1-2</players>
+		<crc32>00312EA9</crc32>
+		<md5>46c021a3e9e2fd00919ca3dd1a6b76d8</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033041" />
+	</game>
+	<game id="37682">
+		<path>./Battlezone (Japan, USA).zip</path>
+		<name>Battlezone</name>
+		<desc>Atari Games' 3D tank game was ground-breaking when released to the arcades, and as such was converted officially to many systems. Earth has been invaded, and you and your tank lead the defensive effort. You drive around the battlefield from a first-person view, targeting and firing at tanks, planes and UFOs. You have a radar to help you see where the enemies are in direction and distance. Objects can be used as strategic cover. Controls simulate the tracks of a tank realistically, so the direction and speed settings are varied - combining forward right and backward left movements (as you can on keyboard versions) sees you change direction more quickly.</desc>
+		<image>./images/Battlezone (Japan, USA)-image.png</image>
+		<marquee>./images/Battlezone (Japan, USA)-marquee.png</marquee>
+		<thumbnail>./images/Battlezone (Japan, USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19880101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter / Vehicle, FPV</genre>
+		<players>1</players>
+		<crc32>9155DD1D</crc32>
+		<md5>41f252a66c6301f1e8ab3612c19bc5d4</md5>
+		<lang>en,jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T033058" />
+	</game>
+	<game id="14027">
+		<path>./Warlords (USA).zip</path>
+		<name>Warlords</name>
+		<desc>In Warlords, you need to defend yourself from three human and/or computer players. Each of the four players are in one of the corners of the screen guarded by a castle. You control a small shield which can be moved around the edge of the castle. To survive you need to use the shield to block a ball which bounces around the screen. If the ball hits your castle, it will take out some of the bricks. If a hole forms in the castle wall and the ball makes it though and hits your warlord, then you are out of the game. The last player left alive wins the battle, and the first player to win five battles wins the game! Several game options are included which allow you to either catch or ricochet the ball when the shield touches it, and control the speed of the game.</desc>
+		<image>./images/Warlords (USA)-image.png</image>
+		<marquee>./images/Warlords (USA)-marquee.png</marquee>
+		<thumbnail>./images/Warlords (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19810101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Sears</publisher>
+		<players>1-4</players>
+		<crc32>CF174B57</crc32>
+		<md5>cbe5a166550a8129a5e6d374901dffad</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033112" />
+	</game>
+	<game id="14047">
+		<path>./Frostbite (USA).zip</path>
+		<name>Frostbite</name>
+		<desc>You're an Eskimo who wants to build an igloo to live in during the cold season. To do this, you must jump from ice-block to ice-block, while avoiding wildlife such as birds and crabs. Coming with contact with any of these will cause them to push you off the block and into the deadly water. Once you have built your igloo, you must enter it to proceed to the next level. Remember, you must build it before the temperature drops to 0°. You have four lives.</desc>
+		<image>./images/Frostbite (USA)-image.png</image>
+		<marquee>./images/Frostbite (USA)-marquee.png</marquee>
+		<thumbnail>./images/Frostbite (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Platform</genre>
+		<players>1-2</players>
+		<crc32>B61BE7A3</crc32>
+		<md5>4ca73eb959299471788f0b685c3ba0b5</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033130" />
+	</game>
+	<game id="14015">
+		<path>./Beamrider (USA).zip</path>
+		<name>Beamrider</name>
+		<desc>Beamrider is a 3-D arcade action game. You control a beam riding spaceship on a mission to clear 99 sectors of space from hostile aliens. The spaceship is located at the bottom of the screen and it can only stop on one of five beams. You are armed with both lasers and torpedoes; torpedoes are more powerful and can destroy more enemies compared to lasers, however you only get three per level. To complete a sector, you need to destroy fifteen white flying saucers. After all saucers are destroyed, the sector sentinel passes by which can be destroyed for extra points. Each even number sector up until sector 16 will add a new type of enemy to deal with. These additional enemies will just try to slow your mission, though, only the saucers need to be destroyed to advance. Occassionally a rejeuvinator will appear; if this is collected, you can earn an extra life. But be careful, because if you accidentally shoot the rejeuvinator it will turn into an enemy!</desc>
+		<image>./images/Beamrider (USA)-image.png</image>
+		<marquee>./images/Beamrider (USA)-marquee.png</marquee>
+		<thumbnail>./images/Beamrider (USA)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Shooter</genre>
+		<players>1</players>
+		<crc32>1618565B</crc32>
+		<md5>79ab4123a83dc11d468fb2108ea09e2e</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033145" />
+	</game>
+	<game id="14029">
+		<path>./H.E.R.O. (USA).zip</path>
+		<name>H.E.R.O.</name>
+		<desc>There is trouble in the mines! Volcanic activity has trapped numerous miners, and it is your job to save them. As Roderick Hero, you need to make your way through the dangerous mineshaft avoiding the dangerous creatures and lava, and find out where the miners are located before you run out of energy. To help on your mission, Roderick Hero has several useful types of equipment. A prop pack will allow you to hover and fly around the mineshaft and (hopefully) avoid the many dangers within. Your helmet features a short range microlaser beam which can be used to destroy the bats, spiders, snakes, and other creatures you'll encounter in the mines. From time to time, your path through the mine may be blocked by stone or lava walls. You begin each mission with six sticks of dynamite which can be used to destroy these obstacles (be careful you don't blow yourself up, though!) If you run out of dynamite, your laser beam can also be used to destroy the walls, though this will take longer and use up more energy. As the levels progress, the mine shaft will become longer and more maze-like, creatures will more frequently block the path, and lava walls and pools will appear which are dangerous to the touch.</desc>
+		<image>./images/H.E.R.O. (USA)-image.png</image>
+		<marquee>./images/H.E.R.O. (USA)-marquee.png</marquee>
+		<thumbnail>./images/H.E.R.O. (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>721E95B7</crc32>
+		<md5>fca4a5be1251927027f2c24774a02160</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033203" />
+	</game>
+	<game id="14025">
+		<path>./Montezuma's Revenge - Featuring Panama Joe (USA).zip</path>
+		<name>Montezuma's Revenge</name>
+		<desc>You play as a treasure hunter named Panama Joe, whose goal is to find an ancient treasure hidden by Aztec warrior  deep inside catacombs. But beware, the catacombs are a large maze inhabited by monsters. Bouncing and rolling skulls, dancing spiders, disappearing and re-appearing chains and tons of fire await you. You'll have to find many keys and unlock doors in order to reach your goal. Panama Joe can jump and climb ladders, but doesn't have much to offer in terms of combat. That's why the monsters in the game should be avoided: a collision with an enemy leads to a premature death.</desc>
+		<image>./images/Montezuma's Revenge - Featuring Panama Joe (USA)-image.png</image>
+		<marquee>./images/Montezuma's Revenge - Featuring Panama Joe (USA)-marquee.png</marquee>
+		<thumbnail>./images/Montezuma's Revenge - Featuring Panama Joe (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>James Wickstead Design Associates</developer>
+		<publisher>Parker Brothers</publisher>
+		<genre>Platform</genre>
+		<family>Montezuma</family>
+		<players>1</players>
+		<crc32>E680A1C9</crc32>
+		<md5>3347a6dd59049b15a38394aa2dafa585</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033218" />
+	</game>
+	<game id="14005">
+		<path>./Pitfall II - Lost Caverns (USA).zip</path>
+		<name>Pitfall II : Lost Caverns</name>
+		<desc>You play Pitfall Harry searching for the Raj diamond, his niece Rhonda, and a variety of treasures somewhere in the Andes. Poisonous frogs, eels, scorpions, bats and other hazards get in the way. Pitfall II is the sequel to Pitfall, the original platform game. Gameplay has remained pretty much the same, with each screen presenting a side view of obstacles to get past, and potentially treasures to collect. The landscape is more maze like, with a variety of paths and dead ends to search. Along the way there are checkpoints the player will encounter. When the player dies, Pitfall Harry will be sent back to the most recently crossed checkpoint.</desc>
+		<image>./images/Pitfall II - Lost Caverns (USA)-image.png</image>
+		<marquee>./images/Pitfall II - Lost Caverns (USA)-marquee.png</marquee>
+		<thumbnail>./images/Pitfall II - Lost Caverns (USA)-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Platform</genre>
+		<family>Pitfall</family>
+		<players>1</players>
+		<crc32>097CE7AD</crc32>
+		<md5>6d842c96d5a01967be9680080dd5be54</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033232" />
+	</game>
+	<game id="37771">
+		<path>./Kangaroo (USA).zip</path>
+		<name>Kangaroo</name>
+		<desc>Baby Roo has been kidnapped by monkeys, and it's up to Mama Roo to come to the rescue! Your kangaroo starts out at the bottom of the screen. You need to guide the kangaroo up the various ladders and platforms to the top where Baby Roo is being held captive. The monkeys will be trying to stop you by throwing or dropping apples and knocking you off the platforms. Your kangaroo has boxing gloves, however, and can knock out the monkeys with a single punch! Along the way various types of fruit can be collected to earn bonus points.</desc>
+		<image>./images/Kangaroo (USA)-image.png</image>
+		<marquee>./images/Kangaroo (USA)-marquee.png</marquee>
+		<thumbnail>./images/Kangaroo (USA)-thumb.png</thumbnail>
+		<rating>0.55</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Sunsoft</developer>
+		<publisher>Atari</publisher>
+		<genre>Platform</genre>
+		<players>1-2</players>
+		<crc32>B9AB57E6</crc32>
+		<md5>4326edb70ff20d0ee5ba58fa5cb09d60</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033249" />
+	</game>
+	<game id="13987">
+		<path>./Asteroids (Japan, USA).zip</path>
+		<name>Asteroids</name>
+		<desc>Asteroids is a conversion of the arcade game of the same name.
+
+Play the role of a spaceship pilot trapped in a gigantic asteroid cloud and pulverize incoming asteroids with the ship's photon cannon.  When all asteroids are destroyed, the play can them move to the next round. In addition to asteroid, the player will also face an Alien Robot Saucer which shoots randomly across the screen.
+
+The player using the controller may rotate the ship (left or right) to any direction or move the ship forward. Shots will be fired according to the ship direction. The player has three reserved ships available to replace a destroyed spaceship. The spaceship is destroyed if an asteroid collides with the spaceship or is shot by an Alien Robot Saucer. Additionally, the player may opt to use the hyperspace warp to avoid collision. The warp however, may also destroy the spaceship in the process.
+
+Asteroids when shot will break-up into smaller pieces or be destroyed.. There are three types of asteroids: large asteroids, medium asteroids, and small asteroids. Large asteroids and medium asteroids when shot, will break-up into two smaller sized asteroids. Small asteroids when shot will be destroyed. 
+
+Alien Robot Saucers come in two sizes: small and large. Both use photon lasers to shoot and will explode when destroyed. Alien Robot Saucers will not appear at the Novice Level.
+
+Game Difficulty and Variations
+There are 4 available difficulty settings: Novice, Intermediate, Advanced, and Expert. 
+
+The game also offers three different game variations:
+
+1. Standard Play - For one or two players, taking turns when a player's ship is destroyed.
+
+2. Competition Asteroids - Two players appear on the screen at the same time. Friendly fire is in affect, which means shots fired from one player's spaceship will destroy the other player's spaceship. Each player has separate ship reserves.
+
+3. Team Asteroids - Two players on the screen at the same time. Friendly fire is disabled, which means shots fired from one player's spaceship will not destroy the other player's spaceship and just pass through. Ship reserves for both players are combined.
+
+Scoring
+The score of the Player 1 is viewable on the upper left side of the screen, while Player 2 on the opposite upper right side. A player will be awarded a new reserve ship for every 10,000 points.
+
+1. Small saucer - 1,000 points
+2. Other player's ship - 500 points
+3. Large saucer - 200 points
+4. Small asteroid - 100 points
+5. Medium asteroid  - 50 points
+6. Large asteroid - 20 points</desc>
+		<image>./images/Asteroids (Japan, USA)-image.png</image>
+		<marquee>./images/Asteroids (Japan, USA)-marquee.png</marquee>
+		<thumbnail>./images/Asteroids (Japan, USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shoot'em Up</genre>
+		<family>Asteroids</family>
+		<players>1-2</players>
+		<crc32>C7D64C94</crc32>
+		<md5>dd7884b4f93cab423ac471aa1935e3df</md5>
+		<lang>en,jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T033306" />
+	</game>
+	<game id="37695">
+		<path>./Centipede (Japan, USA).zip</path>
+		<name>Centipede</name>
+		<desc>In Centipede, the player is trapped in the Enchanted Forest. Armed with only a magic wand to ward off the forest's insect denizens, all of which apparently are attacking in the player in continuous waves. 
+
+The player must use the magic wand to shoot sparks at approaching insects to score points by pressing the controller button. Holding down the controller button will set the wand to rapid fire shots. If the player is bitten by an insect, the player will be temporarily paralyzed and lose one of the three starting magic wands. 
+
+Insect Opponents and Mushrooms
+All enemy insects have a distinctive sound before attacking, which may help the player identify which insect is attacking. Enemies and objects in the game are as the following:
+
+1. The Centipede
+The Centipede will attack in 12 waves. In the first wave, the Centipede will have a head attached to 11 body segments. In the second wave, the Centipede will have a head attached to 10 body segments, in addition to a detached head. The third wave will have the Centipede with an attached head, 9 body segments, plus two detached heads. These body segments will transform into heads and continue to do so until Wave 12. In the last wave, the Centipede will have 12 detached heads, independently attacking the player. Centipede heads are worth more points than body segments.
+
+Attacks from the Centipede will come from the top of the screen, moving downward. If a spark hits any part of the Centipede, that particular body segment will transform into a mushroom, while the body segment behind it will become the new Centipede head. When the Centipede is destroyed, it will briefly disappear and re-appear from the top of the screen again.
+
+The Spider
+The Spider will attempt to distract the player from attacking the Centipede. It will destroy any mushroom it touches. Spiders will score more points if it is hit in closer distances.
+
+The Flea
+The Flea will appear if the player has destroyed most of the existing mushrooms. It will drop down creating a new batch of mushrooms where it falls. The Flea will disappear after two hits. After the first hit, the Flea will drop down much faster.
+
+The Scorpion
+The Scorpion will appear in the third wave. It moves slowly but will pick up speed, moving faster. While doing so, it will poison any mushroom it touches.
+
+Mushrooms
+Mushrooms fill the Enchanted Forest and may act as obstacles or cover for the player, with added effects to enemy insects. It takes for shots to complete destroy a mushroom. There are two type of mushrooms: Magic Mushrooms and Poisonous mushrooms. Magic mushrooms are the default mushrooms in the game and are also the the result of the player destroying an insect or Centipede body segment. Poisonous Mushrooms are the result of the Scorpion touching a mushroom. Poisonous Mushrooms will prompt the Centipede near it to move straight towards the player through any mushroom. Losing a wand will restore any partially damaged mushroom.
+
+Game Difficulty and Variations
+The game offers four difficulty levels: Novice, Standard, Advanced, and Expert. Game Variations are as the following:
+
+1. One Player
+Two Player Alternating
+Two players will take turns when the active player is bitten.
+Dual Player Competition
+Two players will appear on the screen at the same time. Scoring is separate. Shots fired from one player will paralyze the other player.
+Team Play
+Two players will appear on the screen at the same time. Scoring is combined. Shots fired from one player will not paralyze the other player.
+
+Scoring
+The player will win a bonus magic wand for every 12,000 points to a maximum of six wands. The game will end when all wands are lost. Scoring are as the following:
+
+Centipede Head - 100 points
+Centipede Body Segment - 10 points
+Spider at close range - 900 points
+Spider at medium range - 600 points
+Flea - 200 points
+Scorpion - 1,000 points
+Flea - 200 points
+Restored mushroom - 5 points
+Destroyed mushroom - 1 points</desc>
+		<image>./images/Centipede (Japan, USA)-image.png</image>
+		<marquee>./images/Centipede (Japan, USA)-marquee.png</marquee>
+		<thumbnail>./images/Centipede (Japan, USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Shooter / Space Invaders Like</genre>
+		<family>Centipede</family>
+		<players>1</players>
+		<crc32>77396102</crc32>
+		<md5>91c2098e88a6b13f977af8c003e0bca5</md5>
+		<lang>en,jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T033323" />
+	</game>
+	<game id="14035">
+		<path>./Kaboom! (USA).zip</path>
+		<name>Kaboom!</name>
+		<desc>The mad bomber is on the loose! As he races back and forth at the top  of the screen, you need to catch the bombs he drops in buckets of water. One point is earned for each bomb caught, but miss one of the bombs, and Kaboom! As the levels progress, the mad bomber will move faster and faster and drop more and more bombs. You start the game with three buckets, and lose one each time a bomb is missed. The game ends when all of your water buckets are gone.</desc>
+		<image>./images/Kaboom! (USA)-image.png</image>
+		<marquee>./images/Kaboom! (USA)-marquee.png</marquee>
+		<thumbnail>./images/Kaboom! (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19810101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<players>1-2</players>
+		<crc32>813F00F6</crc32>
+		<md5>5428cdfada281c569c74c7308c7f2c26</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033338" />
+	</game>
+	<game id="13998">
+		<path>./Haunted House (USA).zip</path>
+		<name>Haunted House</name>
+		<desc>Hidden throughout a haunted mansion are three pieces of a magical urn, and your goal is to enter the mansion and retrieve all three before you lose your nine lives! The game is played from an overhead point of view where you see only your eyeballs as you explore the  four floors of the maze-like mansion. To make your mission even more difficult, there are various creatures wandering throughout. Tarantulas, giant vampire bats, and one fast moving ghost will all cause you to lose a life if encountered too closely. As a defense against the creatures, a magical scepter can be found in the mansion which will make you immune to its inhabitants.
+
+The mansion contains many doors, some of which may be locked; to explore all the rooms, you will first need to find the master key which is hidden somewhere. The mansion is very dark, and you will not be able to see any of the objects in it (and in more difficult game variations, you can't see the walls either). To reveal objects and the mansion walls, you need to light one of your unlimited supply of matches which will light up a small area around you. Don't be surprised if a swift wind or passing creature blow out your match, though!
+
+You are only allowed to carry one object at a time so you will need to create a strategy for exploring the mansion; to unlock a door or move a piece of the urn, you will need to put down the scepter so be careful! You win the game when all three pieces of the urn are assembled and you make it out of the mansion. The game keeps track of how many matches you have used on your mission, and the fewer matches the better the score!</desc>
+		<image>./images/Haunted House (USA)-image.png</image>
+		<marquee>./images/Haunted House (USA)-marquee.png</marquee>
+		<thumbnail>./images/Haunted House (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19810101T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>AA62D961</crc32>
+		<md5>f0a6e99f5875891246c3dbecbf2d2cea</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033354" />
+	</game>
+	<game id="14052">
+		<path>./Solaris (USA).zip</path>
+		<name>Solaris</name>
+		<desc>The Zylons are back, and are attempting another takeover of the galaxy! Your goal is to destroy all of the Zylon fighters you encounter, rescue cadets that are trapped on Zylon planets, and to find the planet Solaris to protect it from the Zylons. Your spaceship is equipped with a galactic map which can be used to warp to different sectors of the galaxy. The map shows the location of Zylon squadrons, Zylon planets, federation starbases, wormholes, clusters of stars, and Solaris when you find it. By warping to the correct sector, you can battle the numerous types of Zylon fighters to keep them from attacking federation bases and planets. Your spaceship has a limited amount of fuel; when you see the fuel gage get too low, you will need to warp to a federation starbase to refuel (make sure you leave enough fuel to warp). When flying over a Zylon controlled planet, you will see your cadets on the surface. If you rescue all of the cadets as you fly past, you will receive bonus points and an extra spaceship. The Zylon's have many different types of fighters which you will encounter, as well as some narrow corridors with blockades which you will need to clear in order to reach new locations in the galaxy.</desc>
+		<image>./images/Solaris (USA)-image.png</image>
+		<marquee>./images/Solaris (USA)-marquee.png</marquee>
+		<thumbnail>./images/Solaris (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19861201T000000</releasedate>
+		<developer>Atari</developer>
+		<publisher>Atari</publisher>
+		<players>1</players>
+		<crc32>2B87850E</crc32>
+		<md5>e72eb8d4410152bdcb69e7fba327b420</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033408" />
+	</game>
+	<game id="14076">
+		<path>./Tapper (USA).zip</path>
+		<name>Tapper</name>
+		<desc>Tapper is an action game where you're a beer tapper (barman) and have to serve beer to demanding customers. There are four customers, each has its own lane lengthier than the previous one, whom you have to keep at bay. If they reach the end of the lane without receiving their beer, you're a goner; if you miss one and accidentally spill beer needlessly you lose a life and should one of them throw you back the mug and you fail to catch it, you lose a life as well.
+
+Occasionally a bizarre icon will appear on one of the lines and, should you grab it, will invoke a "cabarette"-style show which will keep some of the customers occupied.
+
+The Xbox 360 version includes bonus rounds, as well as co-op and versus multiplayer modes, also online, along with achievements.</desc>
+		<image>./images/Tapper (USA)-image.png</image>
+		<marquee>./images/Tapper (USA)-marquee.png</marquee>
+		<thumbnail>./images/Tapper (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19840101T000000</releasedate>
+		<developer>Beck-Tech</developer>
+		<publisher>SEGA</publisher>
+		<genre>Strategy</genre>
+		<family>Tapper</family>
+		<players>1-2</players>
+		<crc32>D28AFB2C</crc32>
+		<md5>c0d2434348de72fa6edcc6d8e40f28d7</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033423" />
+	</game>
+	<game id="58694">
+		<path>./Chopper Command (USA).zip</path>
+		<name>Chopper Command</name>
+		<desc>Chopper Command is a side scrolling shooter. As the pilot of a helicopter gunship, your mission is to protect the convoy of trucks which is travelling at the bottom of the screen. Each wave consists of numerous enemy choppers and jets which are trying to destroy you and the convoy. When all enemies in the current wave are destroyed, you can move on to the next, more difficult wave. To help out, a long range scanner is located at the bottom of the screen which can locate trucks in the convoy as well as enemy aircraft. Good luck, the ground troops are counting on you!</desc>
+		<image>./images/Chopper Command (USA)-image.png</image>
+		<marquee>./images/Chopper Command (USA)-marquee.png</marquee>
+		<thumbnail>./images/Chopper Command (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19820101T000000</releasedate>
+		<developer>Activision</developer>
+		<publisher>Activision</publisher>
+		<genre>Shooter / Horizontal</genre>
+		<players>1-2</players>
+		<crc32>1DFA64DF</crc32>
+		<md5>c1cb228470a87beb5f36e90ac745da26</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033437" />
+	</game>
+	<game id="37717">
+		<path>./Dig Dug (USA).zip</path>
+		<name>Dig Dug</name>
+		<desc>Dig Dug is a 1-2 player arcade game in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. (if you start to inflate them but stop doing so, the monsters will get turned back to their normal selves.) Furthermore, rocks are scattered throughout the earth, and you can use these rocks to squash them. If the monsters do not find you for several seconds, they will eventually get turned into ghosts, which are able to walk through the earth. They are invincible and cannot be killed. From time to time, vegetables will appear in the center, and you can get these for points.</desc>
+		<image>./images/Dig Dug (USA)-image.png</image>
+		<marquee>./images/Dig Dug (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dig Dug (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19830101T000000</releasedate>
+		<developer>Namco</developer>
+		<publisher>Atari</publisher>
+		<genre>Action / Labyrinth</genre>
+		<family>Dig Dug</family>
+		<players>1</players>
+		<crc32>EE7B80D1</crc32>
+		<md5>6dda84fb8e442ecf34241ac0d1d91d69</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T033452" />
+	</game>
+</gameList>

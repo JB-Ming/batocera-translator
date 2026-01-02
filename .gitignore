@@ -54,12 +54,12 @@ ENV/
 # 專案特定
 logs/
 backups/
-gamelists_local/
 dictionaries/
 settings.json
 
-# 除了內建語系包
+# 共享資源（保留用於版控分享）
 !language_packs/
+!gamelists_local/
 
 # 系統檔案
 .DS_Store

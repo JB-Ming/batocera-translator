@@ -1,0 +1,30 @@
+{
+  "doom1_shareware": {
+    "key": "doom1_shareware",
+    "original_name": "Doom",
+    "name": "毀滅戰士：永恆",
+    "name_source": "wiki",
+    "original_desc": "In Doom, a nameless space marine is posted to a Martian base where secret teleportation experiments are being conducted. One of these experiments goes horribly wrong and \"something fragging evil\" starts pouring out of the gateways, killing or possessing all the base personnel!\n\nResponding to a frantic distress call from the overrun scientists, the Martian marine unit is quickly sent to Phobos to investigate, where you, the space marine, are left to guard the hangar with only a pistol while the rest of the group proceed inside to discover their worst nightmare. As you advance further, terrifying screams echo through the vast halls, followed by a disturbing silence ... it seems, all your buddies are dead and you're all on your own now - fight back, exterminate every evil creature and get your ticket back home to earth!",
+    "desc": "在《毀滅戰士》中，一名無名的太空海軍陸戰隊員被派往火星基地，在那裡正在進行秘密傳送實驗。其中一項實驗出了嚴重的錯誤，“某種邪惡的東西”開始從大門中湧出，殺死或附身了所有基地人員！\n\n為了響應來自被淹沒的科學家的瘋狂求救信號，火星海軍陸戰隊很快被派往火衛一進行調查，在那裡，你，這位太空海軍陸戰隊員，只能用一把手槍守衛機庫，而其他人則進入裡面，發現他們最可怕的噩夢。當你進一步前進時，可怕的尖叫聲在廣闊的大廳中迴響，隨後是令人不安的寂靜……看來你所有的伙伴都死了，你現在只能靠自己了 - 反擊，消滅每一個邪惡的生物，並獲得返回地球的機票！",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T14:49:15",
+    "desc_translated_at": "2026-01-02T14:49:15",
+    "original_name_hash": "63af23ac",
+    "original_desc_hash": "5b762e7b"
+  },
+  "prboom": {
+    "key": "prboom",
+    "original_name": "ZZZ(notgame):#Fichier Annexes : Non Jeux",
+    "name": "ZZZ:#附錄文件：無遊戲",
+    "name_source": "api",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T14:49:16",
+    "desc_translated_at": "",
+    "original_name_hash": "fbe47a43",
+    "original_desc_hash": ""
+  }
+}

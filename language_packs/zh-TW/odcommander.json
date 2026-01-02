@@ -1,0 +1,16 @@
+{
+  "od-commander": {
+    "key": "od-commander",
+    "original_name": "OD-Commander",
+    "name": "OD-指揮官",
+    "name_source": "api",
+    "original_desc": "A two-pane file manager, similar to Norton/Midnight commander, useful to manage all the /userdata files on your Batocera system.",
+    "desc": "兩窗格文件管理器，類似於 Norton/Midnight Commander，可用於管理 Batocera 系統上的所有 /userdata 文件。",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T14:31:33",
+    "desc_translated_at": "2026-01-02T14:31:33",
+    "original_name_hash": "0fede56f",
+    "original_desc_hash": "f9378379"
+  }
+}

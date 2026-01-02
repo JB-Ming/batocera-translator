@@ -1,0 +1,16 @@
+{
+  "Cannonball": {
+    "key": "Cannonball",
+    "original_name": "Cannonball",
+    "name": "砲彈",
+    "name_source": "api",
+    "original_desc": "Cannonball is an enhanced OutRun engine",
+    "desc": "Cannonball 是一款增強型 OutRun 引擎",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T10:40:31",
+    "desc_translated_at": "2026-01-02T10:40:31",
+    "original_name_hash": "e7496932",
+    "original_desc_hash": "2fb3ca71"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "valve": {
+    "key": "valve",
+    "original_name": "Half-Life",
+    "name": "半衰期",
+    "name_source": "api",
+    "original_desc": "Classic Sci-Fi FPS",
+    "desc": "經典科幻第一人稱射擊遊戲",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T16:21:24",
+    "desc_translated_at": "2026-01-02T16:21:24",
+    "original_name_hash": "ea8b7f39",
+    "original_desc_hash": "50125406"
+  },
+  "gearbox": {
+    "key": "gearbox",
+    "original_name": "Half-Life: Opposing Force",
+    "name": "半條命：反對力量",
+    "name_source": "api",
+    "original_desc": "Return to the Black Mesa Research Facility as one of the military specialists assigned to eliminate Gordon Freeman. Experience an entirely new episode of single player action. Meet fierce alien opponents, and experiment with new weaponry.",
+    "desc": "作為被指派消滅戈登·弗里曼的軍事專家之一，返回布萊克梅薩研究設施。體驗全新的單人動作遊戲。遇見兇猛的外星對手，並嘗試新武器。",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T16:21:36",
+    "desc_translated_at": "2026-01-02T16:21:36",
+    "original_name_hash": "87ba1fe6",
+    "original_desc_hash": "580044bc"
+  },
+  "bshift": {
+    "key": "bshift",
+    "original_name": "Half-Life: Blue Shift",
+    "name": "半衰期：藍移",
+    "name_source": "api",
+    "original_desc": "Return to the Black Mesa Research Facility as Barney Calhoun, the secuity guard sidekick who helped Gordon out of so many sticky situations.",
+    "desc": "返回黑山研究中心，扮演巴尼·卡爾霍恩 (Barney Calhoun)，他是保安助手，幫助戈登擺脫了許多棘手的情況。",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T16:21:47",
+    "desc_translated_at": "2026-01-02T16:21:47",
+    "original_name_hash": "282bf192",
+    "original_desc_hash": "75d6dfaf"
+  },
+  "cstrike": {
+    "key": "cstrike",
+    "original_name": "Counter-Strike",
+    "name": "反恐精英",
+    "name_source": "api",
+    "original_desc": "Classic online PvP FPS",
+    "desc": "經典在線 PvP FPS",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T16:21:59",
+    "desc_translated_at": "2026-01-02T16:21:59",
+    "original_name_hash": "03aede3c",
+    "original_desc_hash": "ad35ff73"
+  },
+  "dmc": {
+    "key": "dmc",
+    "original_name": "Deathmatch Classic",
+    "name": "死鬥經典",
+    "name_source": "api",
+    "original_desc": "Valve's tribute to the work of id software, DMC invites players to grab their rocket launchers and put their reflexes to the test in a collection of futuristic settings.",
+    "desc": "為了向 id software 的作品致敬，DMC 邀請玩家拿起火箭發射器，在一系列未來場景中測試他們的反應能力。",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T16:22:11",
+    "desc_translated_at": "2026-01-02T16:22:11",
+    "original_name_hash": "e2f17ad6",
+    "original_desc_hash": "3412fbad"
+  }
+}

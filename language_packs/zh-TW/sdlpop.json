@@ -1,0 +1,16 @@
+{
+  "sdlpop": {
+    "key": "sdlpop",
+    "original_name": "SdlPop",
+    "name": "流行音樂",
+    "name_source": "api",
+    "original_desc": "Port of Prince of Persia",
+    "desc": "波斯王子港",
+    "desc_source": "api",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T15:17:48",
+    "desc_translated_at": "2026-01-02T15:17:48",
+    "original_name_hash": "57661a23",
+    "original_desc_hash": "2dc65e01"
+  }
+}
