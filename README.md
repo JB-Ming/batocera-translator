@@ -28,6 +28,9 @@
 | 🎯 **多種顯示模式** | 可選擇只顯示翻譯、翻譯+原文、或保持原樣 |
 | 💾 **安全備份** | 翻譯前會自動備份原始檔案，不用擔心出問題 |
 | 🖥️ **圖形化介面** | 不需要懂程式，打開就能用 |
+| 🤖 **AI 智能翻譯** | 支援 Gemini AI，提供更準確的遊戲描述 |
+| ⚡ **效能優化** | 智能排序、平行處理，翻譯速度大幅提升 |
+| 🔍 **自動補充描述** | 空白描述自動搜尋維基百科或 AI 生成 |
 
 ---
 
@@ -167,9 +170,22 @@
 1. 本地字典 → 2. 語系包 → 3. 維基百科 → 4. 其他網站 → 5. 保留原文/API直譯
 ```
 
-**翻譯流程：** 優先從維基百科同時取得遊戲名稱與描述。找不到時，name 繼續搜尋其他網站或判定保留原文，desc 直接使用翻譯 API。
+**翻譯流程：** 
+
+```
+維基百科 → Gemini AI → 網路搜尋 → API 直譯
+```
+
+1. **維基百科**：優先查詢官方譯名（免費，最準確）
+2. **Gemini AI**：使用 AI 智能翻譯（需 API Key，品質高）
+3. **網路搜尋**：搜尋社群譯名（免費，結果不穩定）
+4. **API 直譯**：Google Translate 直譯（免費，品質一般）
+
+找到有效結果後立即返回，避免浪費 API 額度。
 
 **保留原文判定：** 維基百科標題仍為英文、純數字或品牌+數字組合（如 FIFA 2024）、翻譯結果與原文相同。
+
+**空白描述自動搜尋：** 當遊戲描述為空時，自動使用遊戲名稱（優先使用已翻譯的名稱）搜尋維基百科或 Gemini AI 生成描述。
 
 ### 階段四：寫回
 
@@ -202,6 +218,10 @@
 | 搜尋時包含平台名稱 | 搜尋關鍵字前加上平台名 |
 | 搜尋失敗時使用 API 直譯 | 最後手段 |
 | 自動偵測保留原文 | 啟用保留原文判定邏輯 |
+| Gemini API Key | 設定 Google Gemini AI 的 API 金鑰（選填） |
+| 請求間隔 (ms) | API 請求間隔時間，預設 500ms |
+| 翻譯執行緒數 | 平行處理執行緒數量，預設 3 |
+| 批次處理大小 | 每批處理的遊戲數量，預設 20 |
 
 ### 已翻譯項目處理
 
@@ -376,6 +396,51 @@ BatoceraTranslator/
 | 版本 | 日期 | 說明 |
 |------|------|------|
 | 1.0 | 2025-11-27 | 初始版本 |
+| 1.1 | 2026-01-25 | ✨ 新增 Gemini AI 智能翻譯<br>⚡ 智能平台排序（遊戲少的優先）<br>🔍 空白描述自動搜尋<br>⚡ 效能優化：平行處理與降低延遲<br>📦 優化打包流程 |
+
+---
+
+## 進階功能說明
+
+### 🤖 Gemini AI 智能翻譯
+
+支援使用 Google Gemini AI 生成更準確的遊戲描述：
+
+1. 前往 [Google AI Studio](https://aistudio.google.com/apikey) 取得免費 API Key
+2. 在程式設定中填入 API Key
+3. 翻譯時會自動使用 AI 生成描述
+
+### ⚡ 效能優化功能
+
+- **智能平台排序**：自動按遊戲數量從少到多處理，快速看到成果
+- **平行處理**：支援多執行緒翻譯，預設 3 個執行緒
+- **降低延遲**：API 請求間隔從 2000ms 降至 500ms
+- **批次處理**：每批處理 20 個遊戲，平衡速度與記憶體
+
+詳細說明請參考 [docs/PERFORMANCE_OPTIMIZATION.md](docs/PERFORMANCE_OPTIMIZATION.md)
+
+### 🔍 空白描述自動搜尋
+
+當遊戲描述為空時，程式會自動：
+
+1. 使用已翻譯的遊戲名稱搜尋維基百科
+2. 如果有設定 Gemini API，使用 AI 生成描述
+3. 找不到就保持空白
+
+詳細說明請參考 [docs/EMPTY_DESC_AUTO_SEARCH.md](docs/EMPTY_DESC_AUTO_SEARCH.md)
+
+---
+
+## 技術文件
+
+更多技術細節請參考 `docs/` 資料夾：
+
+- [API_REFERENCE.md](docs/API_REFERENCE.md) - 翻譯 API 參考文件
+- [CONTRIBUTING.md](docs/CONTRIBUTING.md) - 語系包貢獻指南
+- [PERFORMANCE_OPTIMIZATION.md](docs/PERFORMANCE_OPTIMIZATION.md) - 效能優化說明
+- [SMART_PLATFORM_SORTING.md](docs/SMART_PLATFORM_SORTING.md) - 智能平台排序功能
+- [EMPTY_DESC_AUTO_SEARCH.md](docs/EMPTY_DESC_AUTO_SEARCH.md) - 空白描述自動搜尋
+- [HOW_TO_ENABLE_OPTIMIZATION.md](docs/HOW_TO_ENABLE_OPTIMIZATION.md) - 優化設定指南
 
 ---
 
