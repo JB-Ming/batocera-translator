@@ -170,13 +170,13 @@
   "Fire Emblem (USA, Australia)": {
     "key": "Fire Emblem (USA, Australia)",
     "original_name": "Fire Emblem",
-    "name": "",
-    "name_source": "",
+    "name": "火焰之紋章 風花雪月",
+    "name_source": "wiki",
     "original_desc": "After centuries of peace, smoldering rivalries threaten to set the world aflame in a blaze of battle! The drums of war beat, noble houses plot treason, allies become enemies, and as Lycia stands poised for war, a shadowy figure manipulates empires for his own ends. Now, Lyn, Eliwood, and Hector must amass an army strong enough to fight back the forces that would destroy their homeland. Master battle tactics to douse the embers before they burn the world to ash.",
     "desc": "經過幾個世紀的和平之後，陰燃的敵對威脅要讓世界陷入戰火之中！戰爭的鼓聲已敲響，貴族家族密謀叛國，盟友變成敵人，當利西亞準備戰爭時，一個神秘人物為了自己的目的而操縱帝國。現在，林恩、艾利烏德和赫克托必須集結一支足夠強大的軍隊來反擊那些摧毀他們家園的軍隊。掌握戰鬥策略，在餘燼將世界燒成灰燼之前撲滅它們。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:04:27",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:14",
     "desc_translated_at": "2026-01-02T11:04:27",
     "original_name_hash": "9820b236",
     "original_desc_hash": "bb1839c9"
@@ -184,13 +184,13 @@
   "Super Mario Advance 2 - Super Mario World (USA, Australia)": {
     "key": "Super Mario Advance 2 - Super Mario World (USA, Australia)",
     "original_name": "Super Mario World: Super Mario Advance 2",
-    "name": "",
-    "name_source": "",
+    "name": "超級馬裡奧世界：超級馬裡奧高階2",
+    "name_source": "api",
     "original_desc": "Bowser and his crew of cruel Koopalings have taken over Dinosaur Island, but luckily, Mario and Luigi are up for some Koopa-kicking. \nAs they ride Yoshi, search for P-Switches, find secret paths, blast fireballs, and soar skyward with the Cape, they'll need to use every trick in the plumber handbook. \nDino Rhinos, Chargin' Chucks, and a host of unforgettable enemies await in one of the Mario Bros. biggest and most challenging adventures ever!",
     "desc": "庫巴和他的殘忍的庫帕林船員已經佔領了恐龍島，但幸運的是，馬里奧和路易吉準備好踢庫帕了。\n當他們騎著耀西、尋找 P 開關、尋找秘密路徑、爆炸火球以及駕駛海角翱翔天空時，他們需要使用管道工手冊中的每一個技巧。\n恐龍犀牛、Chargin' Chucks 和眾多令人難忘的敵人正等待著馬里奧兄弟有史以來最大、最具挑戰性的冒險之一！",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:04:30",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:16",
     "desc_translated_at": "2026-01-02T11:04:30",
     "original_name_hash": "c784a5c5",
     "original_desc_hash": "4a23eeee"
@@ -380,13 +380,13 @@
   "Sonic Advance (USA) (En,Ja)": {
     "key": "Sonic Advance (USA) (En,Ja)",
     "original_name": "Sonic Advance",
-    "name": "",
-    "name_source": "",
+    "name": "刺蝟索尼克2",
+    "name_source": "wiki",
     "original_desc": "Sonic the Hedgehog has arrived for his first ever adventure on a Nintendo console. Sonic Advance combines elements from the original Sonic series on Sega's Genesis, as well as from the Dreamcast Sonic Adventure series.\n\nChoose from Sonic, Knuckles, Tails, or Amy and take them through level after level of blindingly fast gameplay and ring collecting, dodging enemies in your path towards the final showdown with Dr Robotnik (aka Dr Eggman). \n\nCollect Chaos Emeralds along the way to transform into Super Sonic for added speed, and train your Chao to exchange them into Sonic Adventure 2 Battle on the Nintendo Gamecube.\n\nAnd if that wasn't enough, you can also play 4 player battle modes with your mates, using one game cart between 4 GBA's.",
     "desc": "刺猬索尼克已經來到任天堂遊戲機上進行他的第一次冒險。Sonic Advance 結合了 Sega Genesis 上原版 Sonic 系列以及 Dreamcast Sonic Adventure 系列的元素。\n\n從索尼克、納克魯斯、塔爾斯或艾米中進行選擇，帶領他們通過一個又一個令人眼花繚亂的快速遊戲關卡並收集戒指，躲避路上的敵人，與機器人博士（又名艾格曼博士）進行最終對決。\n\n沿途收集混沌翡翠，變身為超級索尼克以提高速度，並訓練你的混沌，將它們兌換成任天堂 Gamecube 上的《索尼克冒險 2 戰鬥》。\n\n如果這還不夠，您還可以在 4 個 GBA 之間使用一個遊戲車，與好友一起玩 4 人對戰模式。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:06:44",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:16",
     "desc_translated_at": "2026-01-02T11:06:44",
     "original_name_hash": "9c5f5399",
     "original_desc_hash": "51bf8a79"
@@ -643,16 +643,16 @@
     "original_name_hash": "19d2fcd6",
     "original_desc_hash": "e23f3dc9"
   },
-  "Mario vs. Donkey Kong (USA, Australia)": {
-    "key": "Mario vs. Donkey Kong (USA, Australia)",
+  "Mario vs": {
+    "key": "Mario vs",
     "original_name": "Mario vs. Donkey Kong",
-    "name": "",
-    "name_source": "",
+    "name": "馬裡奧大戰大金剛",
+    "name_source": "api",
     "original_desc": "After years of apparent goodwill, Mario and Donkey Kong are at it again--this time, on Game Boy Advance. Donkey Kong has stolen all the Mini-Mario toys from the Mario Toy Co., and now it's up to Mario to hunt down his longtime nemesis and retrieve the pilfered goods. As Mario, you must race through challenging levels while finding keys and releasing Mini Marios before time runs out. Along the way, you'll master new moves that can help you overcome new puzzles.",
     "desc": "經過多年表面上的善意之後，馬里奧和大金剛再次出現——這一次是在 Game Boy Advance 上。大金剛從馬里奧玩具公司偷走了所有迷你馬里奧玩具，現在馬里奧必須追捕他的宿敵並找回被盜的物品。作為馬里奧，您必須在充滿挑戰的關卡中競速，同時找到鑰匙並在時間耗盡之前釋放迷你馬里奧。一路上，你將掌握新的動作，幫助你克服新的謎題。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:09:47",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:18",
     "desc_translated_at": "2026-01-02T11:09:47",
     "original_name_hash": "9cdf0d89",
     "original_desc_hash": "4c950e9b"
@@ -744,13 +744,13 @@
   "Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It)": {
     "key": "Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It)",
     "original_name": "Sonic Advance 2",
-    "name": "",
-    "name_source": "",
+    "name": "刺蝟索尼克2",
+    "name_source": "wiki",
     "original_desc": "Sonic returns for a second outing on the Game Boy Advance.\n\nOnce again, Sonic is called upon to save the world from the evil Dr. Eggman. On this occasion, Sonic is joined by friends Tails, Knuckles and Cream and rabbit, the latest addition to the Sonic team. Each comes with a set of unique moves, allowing you to reach certain areas through-out the levels. However, unlike Sonic Advance, you must compelte the game as Sonic to unlock the other characters.\n\nChaos Emeralds and Special Rings litter the stages. To collect the emeralds (transforming Sonic into Super Sonic for the final battle with Dr. Eggman), you must find the special rings hidden in each stage to unlock the bonus stage. Complete the bonus stage and the emerald is yours.\n\nYou'll also get the chance to collect and raise chaos, and trade them over to Sonic Adventure 2: Battle on Gamecube, through the use of the GBA/GC link cable.",
     "desc": "索尼克在 Game Boy Advance 上第二次回歸。\n\n索尼克再次被要求從邪惡的艾格曼博士手中拯救世界。這次，索尼克的朋友包括塔爾斯 (Tails)、納克魯斯 (Knuckles) 以及索尼克團隊的最新成員奶油和兔子 (Cream andrabbit)。每個都有一套獨特的動作，讓你可以在關卡中到達某些區域。然而，與索尼克前進不同的是，你必須以索尼克的身份完成遊戲才能解鎖其他角色。\n\n舞台上散落著混沌翡翠和特殊戒指。要收集祖母綠（將索尼克轉變為超級索尼克，與艾格曼博士進行最後的戰鬥），您必須找到隱藏在每個階段中的特殊戒指才能解鎖獎勵階段。完成獎勵階段，祖母綠就是你的了。\n\n您還有機會收集和引發混亂，並通過使用 GBA/GC 連接線將它們交易到 Gamecube 上的《索尼克冒險 2：戰鬥》。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:10:59",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:18",
     "desc_translated_at": "2026-01-02T11:10:59",
     "original_name_hash": "a8cbe761",
     "original_desc_hash": "7c4b5a2d"
@@ -923,8 +923,8 @@
     "original_name_hash": "75335656",
     "original_desc_hash": "ebff7755"
   },
-  "Mr. Driller 2 (USA)": {
-    "key": "Mr. Driller 2 (USA)",
+  "Mr": {
+    "key": "Mr",
     "original_name": "Mr. Driller 2",
     "name": "鑽先生2",
     "name_source": "api",
@@ -1066,13 +1066,13 @@
   "Final Fantasy I & II - Dawn of Souls (USA)": {
     "key": "Final Fantasy I & II - Dawn of Souls (USA)",
     "original_name": "Final Fantasy I & II : Dawn of Souls",
-    "name": "",
-    "name_source": "",
+    "name": "最終幻想II",
+    "name_source": "wiki",
     "original_desc": "Final Fantasy I: Experience Final Fantasy in a way you've never imagined, with improved graphics and the all-new Soul of Chaos dungeon. Take on the role of the four Warriors of Light, and restore order to their chaotic world!\nFinal Fantasy II: Final Fantasy II gave players deeper characters and a more compelling storyline. In this enhanced edition, experience the addition of the Soul of Rebirth, the never-before-told saga of the heroes who gave their lives to save their world!",
     "desc": "《Final Fantasy VII 重製版》（日語：ファイナルファンタジーVII リメイク，英語：Final Fantasy VII Remake）是史克威爾艾尼克斯開發並於2020年4月10日在PlayStation 4平台全球發行的動作角色扮演遊戲，由PS4獨占首年發售時間。該遊戲為1997年在PS平台推出的Final Fantasy系列本傳《Final Fantasy VII》的完全重製作品。 多位參與《Final Fantasy VII》原作的開發成員亦回歸本作研發，包括擔任總監與負責概念設計的野村哲也、製作人北瀨佳范、編劇野島一成、聯合總監與編劇鳥山求、音樂總監植松伸夫等人。 \n由於原作具有龐大的內容，故整個《Final Fantasy VII》的重製計畫將會分拆為多部作品推出。第一部作品加入大量擴充橋段，對原作序盤的魔晄都市米德加有了深入描寫，故事推進至一行人離開米德加為止。主線講述身為僱傭兵的主角克勞德·史特萊夫協同名為「雪崩」的生態恐怖主義組織成員，對抗汲取星球生命精華作為能源並擁有極大權力的巨型企業「神羅」。遊戲結合了即時戰鬥、策略與傳統RPG等要素。\n企劃於2015年正式公布，原定2020年3月3日發售，後小幅延期到2020年4月10日上市。其畫面、遊戲玩法、故事情節和音樂方面獲得業界普遍好評，對原版劇情的忠實與擴展也被稱道。《Final Fantasy VII 重製版》是PlayStation 4平台上銷售最快的遊戲之一，遊戲發售前三天實體版出貨量與數位版銷量合計超過了350萬份。遊戲的加強版《Final Fantasy VII 重製版 Intergrade》（日語：ファイナルファンタジーVII リメイク インターグレード，英語：Final Fantasy VII Remake Intergrade）於2021年6月10日在PlayStation 5上推出，在畫質等方面有所加強，並加入了獨占角色尤菲·如月，在2021年12月16日也在Epic Games上推出Microsoft Windows版本。本遊戲的續作《Final Fantasy VII 重生》已於2024年2月29日推出，並將會再有一部續作，構成重製版三部曲。",
     "desc_source": "wiki",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:15:01",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:20",
     "desc_translated_at": "2026-01-02T11:15:01",
     "original_name_hash": "fe00f39e",
     "original_desc_hash": "8c1d5aa9"
@@ -1164,13 +1164,13 @@
   "Dragon Quest Monsters - Caravan Heart (Japan) (Translated)": {
     "key": "Dragon Quest Monsters - Caravan Heart (Japan) (Translated)",
     "original_name": "Dragon Quest Monsters : Caravan Heart",
-    "name": "",
-    "name_source": "",
+    "name": "勇者鬥惡龍怪獸：商隊之心",
+    "name_source": "api",
     "original_desc": "Up to his usual mischief, Kiefer upsets his father, the King of Gran Estard, more than ever before and flees to his room in hopes of escaping his punishment. Hiding inside his dresser, Kiefer hears a voice call out to him and wanders out to an odd silence and the presence of a Travelers' Gate in his room. Once stepping in, Kiefer finds himself in the world of Dragon Quest II and must no sooner assume the role of a caravan leader in order to help a boy named Luin find a cure for his sick parents.",
     "desc": "基弗一如既往的惡作劇讓他的父親，大埃斯塔德國王比以往任何時候都更加不安，並逃到他的房間，希望逃脫他的懲罰。基弗躲在梳妝台裡，聽到有人呼喚他，於是他走出去，房間裡一片奇怪的寂靜，房間裡有一扇旅行者之門。一旦踏入，基弗就發現自己身處《勇者鬥惡龍 II》的世界中，他必須立即扮演商隊領袖的角色，以幫助一個名叫魯因的男孩為他生病的父母找到治療方法。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:15:53",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:21",
     "desc_translated_at": "2026-01-02T11:15:53",
     "original_name_hash": "0d83aeb6",
     "original_desc_hash": "f37bbfca"
@@ -1273,8 +1273,8 @@
     "original_name_hash": "fbad8937",
     "original_desc_hash": "c5055ce1"
   },
-  "Super Mario Advance 4 - Super Mario Bros. 3 (USA, Australia) (Rev 1)": {
-    "key": "Super Mario Advance 4 - Super Mario Bros. 3 (USA, Australia) (Rev 1)",
+  "Super Mario Advance 4 - Super Mario Bros": {
+    "key": "Super Mario Advance 4 - Super Mario Bros",
     "original_name": "Super Mario Advance 4 : Super Mario Bros. 3",
     "name": "超級馬里奧高級 4 : 超級馬里奧兄弟 3",
     "name_source": "api",
@@ -1514,13 +1514,13 @@
   "V-Rally 3 (USA) (En,Fr,Es)": {
     "key": "V-Rally 3 (USA) (En,Fr,Es)",
     "original_name": "V-Rally 3",
-    "name": "",
-    "name_source": "",
+    "name": "V拉力賽3",
+    "name_source": "api",
     "original_desc": "The rally racing series comes to the GBA with texture mapped 3d graphics that take the GBA in a direction never thought possible.\nPlayers can choose from a variety of game modes including rally racing, circuit racing and time trials or link up and go head to head with another player. The better and further you get the more cars and tracks are unlocked.\nView the race from inside the car or behind it as you scream through snow, rain, fog, dirt, gravel and over jumps at different times of day and night as you try to become the best rally racer on the planet.\nFeatures battery backup.",
     "desc": "拉力賽車系列登陸 GBA，採用紋理映射 3D 圖形，將 GBA 推向一個從未想像過的方向。\n玩家可以選擇多種遊戲模式，包括拉力賽、巡迴賽和計時賽，也可以與其他玩家並肩作戰。您獲得的越好、越遠，解鎖的車輛和賽道就越多。\n從車內或車後觀看比賽，在白天和晚上的不同時間尖叫著穿過雪、雨、霧、泥土、礫石和越過障礙，努力成為地球上最好的拉力賽車手。\n具有備用電池。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:19:57",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:23",
     "desc_translated_at": "2026-01-02T11:19:57",
     "original_name_hash": "2e7ce970",
     "original_desc_hash": "b589b90d"
@@ -1584,13 +1584,13 @@
   "Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It)": {
     "key": "Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It)",
     "original_name": "Sonic Advance 3",
-    "name": "",
-    "name_source": "",
+    "name": "索尼克前進3",
+    "name_source": "api",
     "original_desc": "Eggman has broken the world into seven parts, now the player must find the seven Chaos Emeralds to restore the world. \n\nSonic Advance 3 is a Sonic game with a twist: the player can play with a friend in co-op mode or one of many multi-player modes like ring race. The game contains features from Sonic Advance and Sonic Advance 2, but with more options like choosing from 2 characters in story mode (a leading and a following character).",
     "desc": "蛋頭博士已將世界分成七部分，現在玩家必須找到七顆混沌翡翠來恢復世界。\n\nSonic Advance 3 是一款有特色的索尼克遊戲：玩家可以在合作模式中與朋友一起玩，也可以選擇多種多人遊戲模式（例如環形競賽）。該遊戲包含《Sonic Advance》和《Sonic Advance 2》的功能，但還有更多選項，例如在故事模式中從 2 個角色中進行選擇（主角和跟隨角色）。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:20:26",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:25",
     "desc_translated_at": "2026-01-02T11:20:26",
     "original_name_hash": "3df1e560",
     "original_desc_hash": "da2cbeff"
@@ -1609,8 +1609,8 @@
     "original_name_hash": "23479177",
     "original_desc_hash": "2cc5e1d0"
   },
-  "WarioWare, Inc. - Mega Microgame$! (USA)": {
-    "key": "WarioWare, Inc. - Mega Microgame$! (USA)",
+  "WarioWare, Inc": {
+    "key": "WarioWare, Inc",
     "original_name": "WarioWare, Inc. : Mega Microgame$!",
     "name": "WarioWare, Inc.：Mega Microgame$！",
     "name_source": "api",
@@ -1805,8 +1805,8 @@
     "original_name_hash": "1dd942d9",
     "original_desc_hash": "331e7a50"
   },
-  "Super Monkey Ball Jr. (USA)": {
-    "key": "Super Monkey Ball Jr. (USA)",
+  "Super Monkey Ball Jr": {
+    "key": "Super Monkey Ball Jr",
     "original_name": "Super Monkey Ball Jr.",
     "name": "超級猴子球 Jr.",
     "name_source": "api",
@@ -1878,13 +1878,13 @@
   "Sonic Pinball Party (USA) (En,Ja,Fr,De,Es,It)": {
     "key": "Sonic Pinball Party (USA) (En,Ja,Fr,De,Es,It)",
     "original_name": "Sonic Pinball Party",
-    "name": "",
-    "name_source": "",
+    "name": "索尼克彈球派對",
+    "name_source": "api",
     "original_desc": "Sonic Pinball Party is the second Sonic Pinball game since Sonic Spinball in the early 90's. The game has an arcade mode, a tutorial mode, and a vs mode (party mode). In the game the game has pinball tables of famous Sonic Team characters such as Nights, Samba de Amigo, and of course SONIC! \n\nThe story mode of the game is the usual type of story, Robotnik steals animals visiting Casinopolis, and is going turn into his Robotic slaves. Of course, Sonic is going to try and stop him. Before he does, he has to win a pinball competition and during the game you unlock prizes. The competition is set out as a knockout format. The game also has a Casinopolis mode, which has Casino games like Roulette. There is also a chao garden, just like in the Sonic Advance games.",
     "desc": "《索尼克彈球派對》是繼 90 年代初的《索尼克旋轉球》之後的第二款《索尼克彈球》遊戲。遊戲有街機模式、教程模式和vs模式（派對模式）。遊戲中設有著名索尼克團隊角色的彈球桌，例如 Nights、Samba de Amigo，當然還有 SONIC！\n\n遊戲的故事模式是通常的故事類型，機器人尼克在卡西諾波利斯偷走動物，並將變成他的機器人奴隸。當然，索尼克會試圖阻止他。在此之前，他必須贏得一場彈球比賽，在比賽過程中你可以解鎖獎品。比賽採用淘汰賽制。該遊戲還有Casinopolis模式，其中有輪盤賭等賭場遊戲。還有一個chao花園，就像Sonic Advance遊戲中一樣。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:24:22",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:28",
     "desc_translated_at": "2026-01-02T11:24:22",
     "original_name_hash": "e34ab3a5",
     "original_desc_hash": "64a9b894"
@@ -1990,13 +1990,13 @@
   "Fire Emblem - The Sacred Stones (USA, Australia)": {
     "key": "Fire Emblem - The Sacred Stones (USA, Australia)",
     "original_name": "Fire Emblem : The Sacred Stones",
-    "name": "",
-    "name_source": "",
+    "name": "火焰之紋章:神聖之石",
+    "name_source": "api",
     "original_desc": "The kingdom of Renais lies in ruins, shattered by a sudden invasion from a former ally. Guide the loyal heirs, Eirika and Ephraim, on their twin quest to rebuild Renais and discover the dark secret behind the war that has torn their homeland apart.",
     "desc": "雷奈王國因前盟友的突然入侵而陷入廢墟。引導忠誠的繼承人 Eirika 和 Ephraim 踏上重建雷奈的雙重任務，並發現導致家園四分五裂的戰爭背後的黑暗秘密。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T11:25:26",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:29",
     "desc_translated_at": "2026-01-02T11:25:26",
     "original_name_hash": "0623c089",
     "original_desc_hash": "fb0703e3"

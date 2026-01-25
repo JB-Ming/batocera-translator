@@ -1,6 +1,6 @@
 {
-  "pygun/pygun": {
-    "key": "pygun/pygun",
+  "pygun": {
+    "key": "pygun",
     "original_name": "pygun",
     "name": "皮貢",
     "name_source": "api",
@@ -13,18 +13,18 @@
     "original_name_hash": "3827b3f5",
     "original_desc_hash": ""
   },
-  "retrotrivia/retrotrivia": {
-    "key": "retrotrivia/retrotrivia",
+  "retrotrivia": {
+    "key": "retrotrivia",
     "original_name": "Retrotrivia",
-    "name": "復古瑣事",
-    "name_source": "api",
-    "original_desc": "Retrotrivia is a fun way to explore your Batocera games library. Guess which game thumbnail video is played, with effects like pixelization, rotation, or zoom, and answer 210+ handcrafted quiz and trivia questions on the retrogaming culture.\n\nCompete with your friends! Up to 4 players can play together.",
-    "desc": "Retrotrivia 是探索 Batocera 遊戲庫的有趣方式。猜猜正在玩哪個遊戲縮略圖視頻，並使用像素化、旋轉或縮放等效果，並回答 210 多個有關復古遊戲文化的手工測驗和瑣事問題。\n\n與你的朋友競爭！最多 4 名玩家可以一起玩。",
-    "desc_source": "api",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Retrotrivia is a fun way to explore your Batocera games library. Guess which game thumbnail video is played, with effects like pixelization, rotation, or zoom, and answer 210+ handcrafted quiz and trivia questions on the retrogaming culture.\n\nCompete with your friends! Up to 4 players can play together.\n  ",
+    "desc": "",
+    "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T15:17:37",
-    "desc_translated_at": "2026-01-02T15:17:37",
-    "original_name_hash": "d9c40b50",
-    "original_desc_hash": "88c1e813"
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   }
 }

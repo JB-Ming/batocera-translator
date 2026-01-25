@@ -97,19 +97,19 @@
     "original_name_hash": "868e26ba",
     "original_desc_hash": "022c8c11"
   },
-  "R.C. Pro-Am (USA) (Rev 1)": {
-    "key": "R.C. Pro-Am (USA) (Rev 1)",
-    "original_name": "R.C. Pro-Am",
-    "name": "R.C.職業業餘選手",
+  "R": {
+    "key": "R",
+    "original_name": "R.C. Pro-Am II",
+    "name": "R.C.職業業餘選手 II",
     "name_source": "api",
-    "original_desc": "Guide your radio controlled car to victory in this racing game. You have to beat your 3 opponents on 32 tracks while avoiding obstacles like water and oil puddles and collecting bonus items like better engines and tires.\nYou can also collect a variety of weapons to blast your opponents out of the way.",
-    "desc": "引導你的無線電控制汽車在這場賽車遊戲中取得勝利。您必須在 32 條賽道上擊敗 3 位對手，同時避開水坑和油坑等障礙，並收集更好的發動機和輪胎等獎勵物品。\n你還可以收集各種武器來消滅你的對手。",
+    "original_desc": "This second Pro-Am racing game for NES introduces some innovations compared to its predecessor. Once again, you have to bring your red radio-controlled car to victory, score points, hit turbo speed lines, and leave no chance to your blue, green, and yellow adversaries. But you can also upgrade your engine and tires - if you can afford it, which means you'll have to think seriously about gathering those dollar signs scattered on the track. The tracks themselves have more variety, some have unusual enemies (little planes bombing you from above), and more kinds of obstacles. You also have several lives and don't die immediately if you arrived last.",
+    "desc": "與前作相比，NES 的第二款 Pro-Am 賽車遊戲引入了一些創新。再一次，你必須駕駛你的紅色無線電控制汽車取得勝利，得分，達到渦輪速度線，不給你的藍色、綠色和黃色對手留下任何機會。但你也可以升級你的引擎和輪胎——如果你能負擔得起的話，這意味著你必須認真考慮收集散落在賽道上的那些美元符號。軌道本身有更多種類，有些有不尋常的敵人（小飛機從上面轟炸你），以及更多種類的障礙。你也有好幾條命，如果你最後到達也不會立即死亡。",
     "desc_source": "api",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T13:42:52",
-    "desc_translated_at": "2026-01-02T13:42:52",
-    "original_name_hash": "38221c47",
-    "original_desc_hash": "e4a36926"
+    "name_translated_at": "2026-01-02T14:26:14",
+    "desc_translated_at": "2026-01-02T14:26:14",
+    "original_name_hash": "33f6baa1",
+    "original_desc_hash": "3eb1de4d"
   },
   "Adventures of Lolo (USA)": {
     "key": "Adventures of Lolo (USA)",
@@ -268,13 +268,13 @@
   "Dragon Warrior IV (USA)": {
     "key": "Dragon Warrior IV (USA)",
     "original_name": "Dragon Warrior IV",
-    "name": "",
-    "name_source": "",
+    "name": "最終幻想IV",
+    "name_source": "wiki",
     "original_desc": "Dragon Warrior 4, the fourth volume in the Dragon Warrior series (and the last on the NES), once again took the elements of the previous games and expanded them into a five chapter saga of epic proportions.\n  The first four chapters are played from the viewpoint of one character per chapter, who will all meet up in the fifth chapter.  From a soldier to a merchant, the game weaves an intriguing story that ties all four characters together in the end.\n  Also new in Dragon Warrior 4 is the introduction of battle tactics where the lineup of the characters is important to how much damage they deal.  The player is even given the opportunity to swap a character from reserve into the battle to add a whole new depth of strategy.",
     "desc": "《龍戰士 4》是龍戰士系列的第四部作品（也是紅白機上的最後一部），再次吸收了前作的元素，並將其擴展為史詩般的五章傳奇。\n前四章是從每章一個角色的角度來進行的，這些角色都將在第五章中相遇。從士兵到商人，遊戲編織了一個有趣的故事，最終將所有四個角色聯繫在一起。\n《龍戰士 4》中的另一個新功能是引入了戰鬥策略，其中角色的陣容對於他們造成的傷害非常重要。玩家甚至有機會將角色從預備隊切換到戰鬥中，以增加全新的策略深度。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T13:44:48",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:58",
     "desc_translated_at": "2026-01-02T13:44:48",
     "original_name_hash": "073e8f00",
     "original_desc_hash": "b7e222d0"
@@ -321,19 +321,19 @@
     "original_name_hash": "22e9cbdd",
     "original_desc_hash": "1b6a80b0"
   },
-  "Super Mario Bros. 2 (USA) (Rev 1)": {
-    "key": "Super Mario Bros. 2 (USA) (Rev 1)",
-    "original_name": "Super Mario Bros. 2",
+  "Super Mario Bros": {
+    "key": "Super Mario Bros",
+    "original_name": "Super Mario Bros.",
     "name": "超級瑪利歐兄弟 驚奇",
     "name_source": "wiki",
-    "original_desc": "One night Mario has a strange dream, where he opens a door to another world filled with even stranger creatures and lands then those in his last adventure against Bowser. Amazingly, the next day, Mario, Luigi, Toad, and the Princess stumble upon a cave, which leads to the world that was in Mario's dream.\n\nSubcon, the land of dreams, is under an evil spell thanks to Wart, so Mario and the gang must save the day. New creatures to defeat and plenty of nasty surprises await.\n\nChoose from the four characters, each differing in speed and jumping ability, and head on through 7 levels each filled with puzzles, bosses, bonus money, the always helpful mushroom, and invincible star, plus bombs and magic potions. \nAfter each level, depending on the coins you collect, you can use them in the bonus game to collect extra lives.",
-    "desc": "一天晚上，馬里奧做了一個奇怪的夢，他打開了一扇通往另一個世界的門，裡面充滿了更奇怪的生物，並降落在他最後一次對抗庫巴的冒險中。令人驚奇的是，第二天，馬里奧、路易吉、蟾蜍和公主偶然發現了一個洞穴，從那裡進入了馬里奧夢中的世界。\n\n由於沃特的緣故，夢想之地 Subcon 受到了邪惡的咒語，因此馬里奧和夥伴們必須拯救世界。需要擊敗的新生物和大量令人討厭的驚喜正在等待著。\n\n從速度和跳躍能力各不相同的四個角色中進行選擇，然後進入 7 個關卡，每個關卡都充滿謎題、頭目、獎金、總是樂於助人的蘑菇和無敵的星星，還有炸彈和魔法藥水。\n每個級別之後，根據您收集的硬幣，您可以在獎勵遊戲中使用它們來收集額外的生命。",
+    "original_desc": "Super Mario Bros. follows Mario and Luigi as they race to rescue Princess Peach from the evil Bowser. In their debut platforming quest, the brothers leap through enemy-filled levels, dodge traps, and uncover hidden bonuses. The Super Mushroom makes Mario grow, the Fire Flower gives him firepower, and the Star grants brief invincibility. Each level ends with a flagpole and the higher you grab it, the more points you score. Secret bonus areas and warp zones allow shortcuts through the game. A timeless classic that defined a genre.",
+    "desc": "《超級馬里奧兄弟》講述了馬里奧和路易吉競相從邪惡的庫巴手中拯救碧琪公主的故事。在他們的首次平台跳躍任務中，兄弟倆跨越充滿敵人的關卡，躲避陷阱，並發現隱藏的獎勵。超級蘑菇讓馬里奧成長，火焰花賦予他火力，星星賦予他短暫的無敵能力。每個關卡都以一根旗桿結束，你抓住旗桿越高，得分就越多。秘密獎勵區域和扭曲區域允許在遊戲中走捷徑。定義了一種流派的永恆經典。",
     "desc_source": "api",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T13:45:26",
-    "desc_translated_at": "2026-01-02T13:45:26",
-    "original_name_hash": "6e3a4f4b",
-    "original_desc_hash": "5b1962e0"
+    "name_translated_at": "2026-01-02T14:30:34",
+    "desc_translated_at": "2026-01-02T14:30:34",
+    "original_name_hash": "80b62c09",
+    "original_desc_hash": "ca88ad9b"
   },
   "New Ghostbusters II (Europe)": {
     "key": "New Ghostbusters II (Europe)",
@@ -349,8 +349,8 @@
     "original_name_hash": "20ec1c6c",
     "original_desc_hash": "4d7c559b"
   },
-  "S.C.A.T. - Special Cybernetic Attack Team (USA)": {
-    "key": "S.C.A.T. - Special Cybernetic Attack Team (USA)",
+  "S": {
+    "key": "S",
     "original_name": "S.C.A.T. : Special Cybernetic Attack Team",
     "name": "S.C.A.T. : 特別控制論攻擊小組",
     "name_source": "api",
@@ -632,13 +632,13 @@
   "Final Fantasy III (Japan) (Translated)": {
     "key": "Final Fantasy III (Japan) (Translated)",
     "original_name": "Final Fantasy III",
-    "name": "",
-    "name_source": "",
+    "name": "最終幻想III",
+    "name_source": "wiki",
     "original_desc": "In a remote village of Ur, four orphan boys were raised by the priest Topapa. Once, the Crystal of Wind, guarded by the people of Ur, sank deep into the earth. The four boys decided to retrieve it from there and went down into an underground cave. But when they found the crystal, it spoke to them and from its words they understood they were chosen for a much more important and world-embracing mission...",
     "desc": "在烏爾的一個偏遠村莊，四個孤兒由牧師托帕帕撫養長大。曾經，烏爾人民守護的風之水晶沉入了地底深處。四個男孩決定從那裡取回它，並進入了一個地下洞穴。但當他們找到水晶時，它對他們說話，從它的話語中，他們明白自己被選中執行一項更重要、更包容世界的使命……",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T13:49:24",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:59",
     "desc_translated_at": "2026-01-02T13:49:24",
     "original_name_hash": "7696b511",
     "original_desc_hash": "1a58a5b2"
@@ -839,8 +839,8 @@
     "original_name_hash": "ccb5b1c5",
     "original_desc_hash": "a4d366af"
   },
-  "Mr. Gimmick (Europe)": {
-    "key": "Mr. Gimmick (Europe)",
+  "Mr": {
+    "key": "Mr",
     "original_name": "Mr. Gimmick",
     "name": "吉米克先生",
     "name_source": "api",
@@ -1038,13 +1038,13 @@
   "Mega Man 5 (USA)": {
     "key": "Mega Man 5 (USA)",
     "original_name": "Mega Man 5",
-    "name": "",
-    "name_source": "",
+    "name": "洛克人 5",
+    "name_source": "api",
     "original_desc": "Dr. Cossack, humbled by his defeat and his allowing of Dr. Wily to influence his ways, decides to help Dr. Light by providing him and Rockman with tools and weapons to help foil Dr. Wily for good. All seems calm and peaceful, until...\n\nA sudden rampage breaks out, and the cause is found to be a group of robots, led by a mysterious figure. As Dr. Light begins to investigate this rampage and attempts to find a way to stop it, he is kidnapped by the leader of the robots. Rockman hurries to save Dr. Light, but is too late...the only thing he can find at the scene is a yellow scarf...one that almost seems to belong to...Blues!?\n\nCould Rockman's supposed brother, the strange but good-hearted Blues, be the one who kidnapped Dr. Light? Is Blues the one responsible for the rampages? With these questions racing through his mind, Rockman sets off to find Blues and get the answers he wants.\n\nLike the other early Rockman / Mega Man games, the Playstation version was only released in Japan, as part of the Complete Works series.",
     "desc": "哥薩克博士因自己的失敗和允許威利博士影響他的行為而感到謙卑，決定幫助萊特博士，為他和洛克曼提供工具和武器，以幫助永遠挫敗威利博士。一切看起來平靜祥和，直到……\n\n一場突然的暴亂爆發了，原因是一群機器人，由一個神秘人物領導。當萊特博士開始調查這一暴行並試圖找到阻止它的方法時，他被機器人首領綁架了。洛克曼急忙去救萊特博士，但為時已晚……他在現場唯一能找到的就是一條黃色圍巾……一條幾乎屬於……布魯斯的圍巾！ ？\n\n洛克曼所謂的兄弟，奇怪但心地善良的布魯斯，會是綁架萊特博士的人嗎？布魯斯是造成這些暴亂的罪魁禍首嗎？帶著這些問題在洛克曼的腦海中盤旋，洛克曼出發尋找布魯斯並得到他想要的答案。\n\n與其他早期《洛克人》/《洛克人》遊戲一樣，PlayStation 版本僅在日本發行，作為全集系列的一部分。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T13:55:07",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:00",
     "desc_translated_at": "2026-01-02T13:55:07",
     "original_name_hash": "59be2a65",
     "original_desc_hash": "1345529a"
@@ -1192,13 +1192,13 @@
   "Final Fantasy II (Japan) (Translated)": {
     "key": "Final Fantasy II (Japan) (Translated)",
     "original_name": "Final Fantasy II",
-    "name": "",
-    "name_source": "",
+    "name": "最終幻想II",
+    "name_source": "wiki",
     "original_desc": "The ruthless emperor of Paramekia leads his demonic armies across the land, laying waste to all in his path. One by one the nations fall, and those without the will to resist are forced into servitude. When the conflict reaches the borders of Phin, its people choose to fight, and are all but annihilated. After the loss of Castle Phin, the survivors flee to nearby Althea, where the rebellion makes a temporary headquarters.\n\nAmong the survivors are Frioniel, Maria, and Guy; rescued by the rebel leader Princess Hilda and the white mage Ming-wu. Though young and implusive, they gain Hilda's trust and are allowed to join her battle against the empire. While the road ahead may be paved with loss and sacrifice, each victory brings them closer to reclaiming their homeland.",
     "desc": "殘酷的帕拉美基亞皇帝率領他的惡魔軍隊橫掃這片土地，摧毀了他所經過的一切。國家一一淪陷，那些沒有抵抗意願的國家被迫淪為奴役。當衝突蔓延到費恩邊境時，當地人民選擇了戰鬥，但幾乎全軍覆沒。失去芬城堡後，倖存者逃到附近的阿爾西婭，叛軍在那裡設立了臨時總部。\n\n倖存者包括弗里尼爾、瑪麗亞和蓋伊；被叛軍首領希爾達公主和白魔法師明悟所救。儘管年輕且衝動，他們還是贏得了希爾達的信任，並被允許加入她對抗帝國的戰鬥。雖然前方的道路可能充滿了損失和犧牲，但每一次勝利都讓他們離奪回家園更近了一步。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T13:57:08",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:01",
     "desc_translated_at": "2026-01-02T13:57:08",
     "original_name_hash": "88dc116b",
     "original_desc_hash": "3765471c"
@@ -1301,8 +1301,8 @@
     "original_name_hash": "e22fe149",
     "original_desc_hash": "33b3a398"
   },
-  "Gun.Smoke (USA)": {
-    "key": "Gun.Smoke (USA)",
+  "Gun": {
+    "key": "Gun",
     "original_name": "Gun.Smoke",
     "name": "槍",
     "name_source": "api",
@@ -1385,8 +1385,8 @@
     "original_name_hash": "4cb6629d",
     "original_desc_hash": "1c39c425"
   },
-  "Dr. Mario (Japan, USA) (Rev 1)": {
-    "key": "Dr. Mario (Japan, USA) (Rev 1)",
+  "Dr": {
+    "key": "Dr",
     "original_name": "Dr. Mario",
     "name": "馬里奧博士",
     "name_source": "api",
@@ -1794,13 +1794,13 @@
   "Mega Man 6 (USA)": {
     "key": "Mega Man 6 (USA)",
     "original_name": "Mega Man 6",
-    "name": "",
-    "name_source": "",
+    "name": "洛克人 6",
+    "name_source": "api",
     "original_desc": "In Mega Man 6, the world celebrates the first global Robot Design Contest, where hundreds of inventors present their most powerful creations. But when the mysterious sponsor, Mr. X, kidnaps the eight winning robots and declares his plan to take over the world, chaos erupts. When confronted, Mr. X shocks Mega Man by revealing that Dr. Wily was merely his puppet all along. Determined to end this threat once and for all, Mega Man sets out to battle the eight new Robot Masters — and finally face Mr. X himself.",
     "desc": "在《洛克人 6》中，全世界慶祝了首屆全球機器人設計大賽，數百名發明家展示了他們最強大的創作。但當神秘贊助商 X 先生綁架了八個獲勝機器人並宣布他統治世界的計劃時，混亂爆發了。當面對時，X 先生透露威利博士一直只是他的傀儡，這讓《洛克人》感到震驚。決心一勞永逸地結束這一威脅，洛克人開始與八位新機器人大師作戰，並最終面對 X 先生本人。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T14:04:45",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:03",
     "desc_translated_at": "2026-01-02T14:04:45",
     "original_name_hash": "a71673cf",
     "original_desc_hash": "ea28c551"
@@ -1892,13 +1892,13 @@
   "Dragon Warrior III (USA)": {
     "key": "Dragon Warrior III (USA)",
     "original_name": "Dragon Warrior III",
-    "name": "",
-    "name_source": "",
+    "name": "龍戰士III",
+    "name_source": "api",
     "original_desc": "Dragon Warrior III is the concluding game of the first Dragon Quest/Dragon Warrior trilogy, and its story takes us back to the time period of the legendary Erdrick (also known as Loto), the ancestor of the first game's hero. You are the son of a powerful warrior Ortega, skillful in physical combat and spellcasting. Your father went out to fight the evil Baramos, who is responsible for the appearance of monsters in your region, and never returned. You are sent by the king on a quest to continue your father's brave deeds and to defeat Baramos.\n\nDragon Warrior III is a top-down role-playing game where you travel around the overworld, caves, castles, cities and other locations while battling random encounters, buying equipment, and talking to people. You and your party members receive experience when they beat up monsters and level up with enough experience, increasing their stats. The game features a day/night cycle - as you travel, day slowly changes to night and vice versa; shops are typically closed at night. \n\nYou begin with control of just the main character but can quickly recruit three more members to your party. During the game you can choose to drop your current characters and recruit others at any time. The recruitable characters are divided into six classes: soldier, fighter, merchant, goof-off, pilgrim and wizard.\n\nThe game has a unique job system, giving you the ability to switch your hired characters' classes after they have achieved at least level 20 in their base class. Characters can switch to the other beginning classes, as well as the sage class, which is not available at the beginning. When a character switches classes, they lose all earned experience points, and half of their stats, but retain all of the abilities of the previous class. In this way, you can create powerful combination characters that are able to cast spells and fight effectively.",
     "desc": "《勇者鬥惡龍 III》是《勇者鬥惡龍》/《勇者鬥惡龍》三部曲的收官遊戲，它的故事將我們帶回到第一款遊戲英雄的祖先傳奇人物厄德里克（又名洛托）的時代。你是強大的戰士奧爾特加的兒子，擅長肉搏和施法。你的父親出去與邪惡的巴拉莫斯作戰，他是你地區怪物出現的罪魁禍首，但再也沒有回來。國王派你去延續你父親的英勇事蹟並擊敗巴拉莫斯。\n\nDragon Warrior III 是一款自上而下的角色扮演遊戲，您可以在世界各地、洞穴、城堡、城市和其他地點旅行，同時與隨機遭遇戰、購買裝備和與人交談。當你和你的隊伍成員打敗怪物並獲得足夠的經驗升級時，他們會獲得經驗，從而增加他們的統計數據。遊戲具有晝夜循環的特點——當你旅行時，白天慢慢地變成夜晚，反之亦然；商店通常在晚上關門。\n\n你一開始只控制主角，但可以快速招募另外三名成員加入你的隊伍。在遊戲過程中，你可以隨時選擇放棄當前角色並招募其他角色。可招募的角色分為六類：士兵、戰士、商人、傻瓜、朝聖者和巫師。\n\n遊戲有一個獨特的工作系統，讓你能夠在僱傭角色的基礎等級至少達到 20 級後切換他們的等級。角色可以切換到其他起始職業，以及一開始不可用的賢者職業。當角色切換職業時，他們會失去所有獲得的經驗值和一半的統計數據，但保留前一職業的所有能力。通過這種方式，你可以創造出強大的組合角色，能夠施展法術並有效地戰鬥。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T14:05:48",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:04",
     "desc_translated_at": "2026-01-02T14:05:48",
     "original_name_hash": "aa54c0d9",
     "original_desc_hash": "d3f463d8"
@@ -2197,20 +2197,6 @@
     "original_name_hash": "bfcb8417",
     "original_desc_hash": "5d9eabf5"
   },
-  "Super Mario Bros. 3 (USA) (Rev 1)": {
-    "key": "Super Mario Bros. 3 (USA) (Rev 1)",
-    "original_name": "Super Mario Bros. 3",
-    "name": "超級瑪利歐兄弟 驚奇",
-    "name_source": "wiki",
-    "original_desc": "Bowser is back, and along with the Bowser kids, he's out to spoil Mario's day once again. \n\nThis time, along with nabbing the Princess, the Bowser crew have also taken the magic wands from the Kings of each land and turned them into creatures.\nIt's up to Mario and Luigi to get back the magic wands, defeat Bowser, and save the Princess all before the day is done.\n\nOld and new power-ups abound in each level for the Mario Brothers, including the return of the Super Mushroom and Fire Flower, plus the new power-ups including the frog suit, the warp flute, and the most important of all, the leaf, which allows the player to fly and attack enemies with your tail.",
-    "desc": "庫巴回來了，他和庫巴的孩子們一起再次破壞馬里奧的一天。\n\n這一次，除了抓到公主之外，庫巴團隊還從各國國王那里奪走了魔杖，並將它們變成了生物。\n馬里奧和路易吉必須在這一天結束之前取回魔杖、擊敗庫巴並拯救公主。\n\n馬里奧兄弟的每個關卡中都有新舊的強化道具，包括超級蘑菇和火焰花的回歸，以及新的強化道具，包括青蛙套裝、經笛，以及最重要的葉子，它允許玩家飛行並用尾巴攻擊敵人。",
-    "desc_source": "api",
-    "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T14:09:47",
-    "desc_translated_at": "2026-01-02T14:09:47",
-    "original_name_hash": "3bdde4a1",
-    "original_desc_hash": "e0870aa2"
-  },
   "Donkey Kong Classics (USA, Europe)": {
     "key": "Donkey Kong Classics (USA, Europe)",
     "original_name": "Donkey Kong Classics",
@@ -2351,8 +2337,8 @@
     "original_name_hash": "1de0b778",
     "original_desc_hash": "54d09e5c"
   },
-  "G.I. Joe - A Real American Hero (USA)": {
-    "key": "G.I. Joe - A Real American Hero (USA)",
+  "G": {
+    "key": "G",
     "original_name": "G.I. Joe : A Real American Hero",
     "name": "特種兵喬：真正的美國英雄",
     "name_source": "api",
@@ -2732,13 +2718,13 @@
   "Dragon Warrior II (USA)": {
     "key": "Dragon Warrior II (USA)",
     "original_name": "Dragon Warrior II",
-    "name": "",
-    "name_source": "",
+    "name": "勇者鬥惡龍II 惡靈的眾神",
+    "name_source": "wiki",
     "original_desc": "Dragon Warrior II is an early top-down RPG that expands and improves on its predecessor, Dragon Warrior. Taking the role of a descendant of Erdrick, the player once again ventures forth in an effort to save the world.\n\nUnlike the first game, Dragon Warrior II allows the player to join forces with two other characters, a magic-using princess and a wizard-warrior prince. Also including expanded monster battles involving up to 6 creatures and a much larger world, Dragon Warrior II is an important step in the evolution of the Dragon Warrior series.",
     "desc": "《龍戰士 II》是一款早期的自上而下的角色扮演遊戲，在其前身《龍戰士》的基礎上進行了擴展和改進。玩家扮演厄德里克的後裔，再次冒險，努力拯救世界。\n\n與第一款遊戲不同，《龍戰士 II》允許玩家與另外兩個角色聯手，即使用魔法的公主和巫師戰士王子。《龍戰士 II》還包括涉及多達 6 種生物和更大世界的擴展怪物戰鬥，是龍戰士系列發展的重要一步。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T14:17:28",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:05",
     "desc_translated_at": "2026-01-02T14:17:28",
     "original_name_hash": "27f060e3",
     "original_desc_hash": "8288624d"
@@ -2771,8 +2757,8 @@
     "original_name_hash": "347f4ae2",
     "original_desc_hash": "e47882a1"
   },
-  "Smash T.V. (USA)": {
-    "key": "Smash T.V. (USA)",
+  "Smash T": {
+    "key": "Smash T",
     "original_name": "Smash T.V.",
     "name": "粉碎電視",
     "name_source": "api",
@@ -2911,8 +2897,8 @@
     "original_name_hash": "69caf38a",
     "original_desc_hash": "bac812e7"
   },
-  "M.C. Kids (USA)": {
-    "key": "M.C. Kids (USA)",
+  "M": {
+    "key": "M",
     "original_name": "M.C. Kids",
     "name": "MC孩子們",
     "name_source": "api",
@@ -2956,13 +2942,13 @@
   "Dragon Warrior (USA) (Rev 1)": {
     "key": "Dragon Warrior (USA) (Rev 1)",
     "original_name": "Dragon Warrior",
-    "name": "",
-    "name_source": "",
+    "name": "神龍大俠",
+    "name_source": "api",
     "original_desc": "Dragon Warrior is the first famous console RPG. You assume the role of a descendant of Erdrick, a brave warrior of the past. Once upon a time, Erdrick defeated the evil Dragonlord with the help of the Ball of Light. Now, Dragonlord stole the Ball of Light, and your mission is to recover it and to restore peace in the world.\n\nIn Dragon Warrior, you move your character around in a top-down world. In cities and palaces you can talk to people, rest in inns and buy stuff in shops. There's a variety of weapons, equipment and armor to buy. \n\nWhen wandering around in the wilderness, you occasionally encounter enemies, and fight them from 1st person perspective. Combat is turn based: you select menu options while fighting - you can attack with your weapon, cast a spell (using up some of your magic energy), use and item or try to run. Killing monsters gives you experience, and, as is typical for RPGs, you level up and improve your stats when you gain enough experience. \n\nLike in later RPGs, you have limited hit points, lose them when you are attacked by enemies, and die when you run out of them. When your character dies in a battle, he is automatically restored in a nearby town.",
     "desc": "《龍戰士》是第一款著名的主機角色扮演遊戲。你扮演埃爾德里克的後裔，他是過去勇敢的戰士。曾幾何時，艾德里克在光球的幫助下擊敗了邪惡的龍王。現在，龍王偷走了光之球，你的任務是找回它並恢復世界和平。\n\n在《龍大俠》中，你可以在自上而下的世界中移動你的角色。在城市和宮殿裡，你可以與人交談，在旅館休息，在商店購買東西。有各種武器、裝備和盔甲可供購買。\n\n在荒野中徘徊時，偶爾會遇到敵人，並以第一人稱視角與他們戰鬥。戰鬥是回合製的：你在戰鬥時選擇菜單選項 - 你可以用你的武器攻擊，施展咒語（用掉你的一些魔法能量），使用物品或嘗試逃跑。殺死怪物會給你經驗，並且，正如角色扮演遊戲的典型特徵，當你獲得足夠的經驗時，你可以升級並提高你的統計數據。\n\n就像後來的角色扮演遊戲一樣，你的生命值有限，當你被敵人攻擊時就會失去生命值，當你耗盡生命值時就會死亡。當你的角色在戰鬥中死亡時，他會自動在附近的城鎮中恢復。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T14:20:25",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:06",
     "desc_translated_at": "2026-01-02T14:20:25",
     "original_name_hash": "c79de74a",
     "original_desc_hash": "c1689d7d"
@@ -3152,13 +3138,13 @@
   "Mega Man 3 (USA)": {
     "key": "Mega Man 3 (USA)",
     "original_name": "Mega Man 3",
-    "name": "",
-    "name_source": "",
+    "name": "洛克人 3",
+    "name_source": "api",
     "original_desc": "It's the robot revolt, and no one is safe! Mega Man is even less safe than anyone else. This time, our super-powered cybernetic friend is up against a horde of metal crazies who are sick and tired of obeying!\n\nMega Man 3 is a traditional action-platformer: you jump from brick to brick while avoiding pits and shooting robots.\nIt's the first time in a Mega Man that you can slide instead of merely walking and that you get a sidekick. Rush is your dog who helps out by offering other modes of transportation when you need it.\nEnemies will often supply you with both energy and ammo refills. You can also collect Energy Tanks which can only be used once but will entirely restore your health. And, of course, you do get infinite continues and a password feature to resume play at the beginning of any level.",
     "desc": "這是一場機器人叛亂，沒有人是安全的！洛克人比其他人更不安全。這一次，我們的超能力控制論朋友面對的是一群厭倦了服從的金屬狂人！\n\n《洛克人 3》是一款傳統的動作平台遊戲：您需要從一塊磚跳到另一塊磚，同時避開坑並射擊機器人。\n這是《洛克人》中第一次你可以滑行而不僅僅是行走，而且你還得到了一個夥伴。Rush 是您的狗，它會在您需要時提供其他交通方式來提供幫助。\n敵人通常會為你提供能量和彈藥補充。您還可以收集只能使用一次的能量罐，但會完全恢復您的生命值。當然，您確實可以獲得無限繼續和密碼功能，可以在任何級別開始時恢復遊戲。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T14:22:40",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:08",
     "desc_translated_at": "2026-01-02T14:22:40",
     "original_name_hash": "d4a4a388",
     "original_desc_hash": "54679dcc"
@@ -3260,20 +3246,6 @@
     "desc_translated_at": "2026-01-02T14:24:02",
     "original_name_hash": "76ef5ff0",
     "original_desc_hash": "9efaf5c7"
-  },
-  "Super Mario Bros. 2 (Japan) (En)": {
-    "key": "Super Mario Bros. 2 (Japan) (En)",
-    "original_name": "Super Mario Bros. 2",
-    "name": "超級瑪利歐兄弟 驚奇",
-    "name_source": "wiki",
-    "original_desc": "Originally released in Japan as Super Mario Bros.® 2, this game has previously made only brief cameo appearances in the Western hemisphere. Mario fans will appreciate the familiar look and feel of the game, while finding that its updated game play creates an entirely new challenge. No longer content just to wear different-colored overalls, Mario and Luigi also possess different skill sets (Mario can stop quicker, while Luigi can jump higher). In addition to the classic enemies already known to fans worldwide, there are also Poison Mushrooms, backward Warp Zones, and the occasional wind gust (which can help or hinder your progress) to take into account. And if that?s somehow not enough, expert players can go looking for the game?s secret worlds. So get ready to put your Mario skills to the ultimate test, and save the Princess again. Just don?t be surprised if she?s in another castle!",
-    "desc": "該遊戲最初在日本發佈為《超級馬里奧兄弟 2》，此前僅在西半球短暫客串過。馬里奧粉絲會欣賞遊戲熟悉的外觀和感覺，同時發現其更新的遊戲玩法帶來了全新的挑戰。馬里奧和路易吉不再滿足於穿著不同顏色的工裝褲，他們還擁有不同的技能（馬里奧可以停得更快，而路易吉可以跳得更高）。除了全世界粉絲都知道的經典敵人之外，還有毒蘑菇、落後的扭曲區和偶爾的陣風（可以幫助或阻礙你的進步）需要考慮。如果這還不夠，專家玩家可以去尋找遊戲的秘密世界。所以，準備好讓你的馬里奧技能接受終極考驗，再次拯救公主吧。如果她在另一座城堡裡，請不要感到驚訝！",
-    "desc_source": "api",
-    "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T14:24:04",
-    "desc_translated_at": "2026-01-02T14:24:04",
-    "original_name_hash": "6e3a4f4b",
-    "original_desc_hash": "2911beec"
   },
   "Legend of Fuma, The (Japan) (Translated)": {
     "key": "Legend of Fuma, The (Japan) (Translated)",
@@ -3428,20 +3400,6 @@
     "desc_translated_at": "2026-01-02T14:26:02",
     "original_name_hash": "875fd867",
     "original_desc_hash": "d1600d36"
-  },
-  "R.C. Pro-Am II (USA)": {
-    "key": "R.C. Pro-Am II (USA)",
-    "original_name": "R.C. Pro-Am II",
-    "name": "R.C.職業業餘選手 II",
-    "name_source": "api",
-    "original_desc": "This second Pro-Am racing game for NES introduces some innovations compared to its predecessor. Once again, you have to bring your red radio-controlled car to victory, score points, hit turbo speed lines, and leave no chance to your blue, green, and yellow adversaries. But you can also upgrade your engine and tires - if you can afford it, which means you'll have to think seriously about gathering those dollar signs scattered on the track. The tracks themselves have more variety, some have unusual enemies (little planes bombing you from above), and more kinds of obstacles. You also have several lives and don't die immediately if you arrived last.",
-    "desc": "與前作相比，NES 的第二款 Pro-Am 賽車遊戲引入了一些創新。再一次，你必須駕駛你的紅色無線電控制汽車取得勝利，得分，達到渦輪速度線，不給你的藍色、綠色和黃色對手留下任何機會。但你也可以升級你的引擎和輪胎——如果你能負擔得起的話，這意味著你必須認真考慮收集散落在賽道上的那些美元符號。軌道本身有更多種類，有些有不尋常的敵人（小飛機從上面轟炸你），以及更多種類的障礙。你也有好幾條命，如果你最後到達也不會立即死亡。",
-    "desc_source": "api",
-    "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T14:26:14",
-    "desc_translated_at": "2026-01-02T14:26:14",
-    "original_name_hash": "33f6baa1",
-    "original_desc_hash": "3eb1de4d"
   },
   "Adventure Island (USA)": {
     "key": "Adventure Island (USA)",
@@ -3639,8 +3597,8 @@
     "original_name_hash": "84b5459c",
     "original_desc_hash": "50113117"
   },
-  "Captain Tsubasa Vol. II - Super Striker (Japan) (Translated)": {
-    "key": "Captain Tsubasa Vol. II - Super Striker (Japan) (Translated)",
+  "Captain Tsubasa Vol": {
+    "key": "Captain Tsubasa Vol",
     "original_name": "Captain Tsubasa Vol. II : Super Striker",
     "name": "小翼隊長 Vol. II : 超級前鋒",
     "name_source": "api",
@@ -3684,13 +3642,13 @@
   "Mega Man 4 (USA) (Rev 1)": {
     "key": "Mega Man 4 (USA) (Rev 1)",
     "original_name": "Mega Man 4",
-    "name": "",
-    "name_source": "",
+    "name": "洛克人 4",
+    "name_source": "api",
     "original_desc": "In Mega Man 4, Dr. Wily is declared as having been killed by the explosion of Gamma. A year passes and Rock, Roll, and Dr. Light are living in peace. But soon, the peace is broken by a new threat.\n\nA supposed colleague of Dr. Light's, the mysterious Dr. Cossack, has sent out eight of his own Robot Masters to find Mega Man, whom Cossack blames for the kidnapping of his daughter. Mega Man, hoping to clear his name, sets out to find Dr. Cossack, this time armed with a powerful new weapon: the Rock Buster!!\n\nRockman must now battle with Cossack's fiendish Robot Masters and find Cossack's daughter before it's too late!\n\nOriginally for the NES, Mega Man 4 was also released for the PSX in Japan as the fourth installment in the Rockman Complete Works series.",
     "desc": "在《洛克人 4》中，威利博士被宣布被伽瑪爆炸殺死。一年過去了，搖滾樂和光博士過著平靜的生活。但很快，和平就被新的威脅打破了。\n\n神秘的哥薩克博士被認為是萊特博士的同事，他派出了八名自己的機器人大師去尋找洛克人，哥薩克指責洛克人綁架了他的女兒。洛克人希望洗清自己的罪名，開始尋找哥薩克博士，這次他裝備了強大的新武器：岩石剋星！\n\n洛克人現在必須與哥薩克邪惡的機器人大師戰鬥，並在為時已晚之前找到哥薩克的女兒！\n\n《洛克人 4》最初是在 NES 上推出的，後來也在日本的 PSX 上發布，作為《洛克人》全集系列的第四部作品。",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T14:29:08",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:57:10",
     "desc_translated_at": "2026-01-02T14:29:08",
     "original_name_hash": "5f881cd2",
     "original_desc_hash": "55201f59"
@@ -3792,20 +3750,6 @@
     "desc_translated_at": "2026-01-02T14:30:32",
     "original_name_hash": "5d9c6415",
     "original_desc_hash": "fd66fd3d"
-  },
-  "Super Mario Bros. (World)": {
-    "key": "Super Mario Bros. (World)",
-    "original_name": "Super Mario Bros.",
-    "name": "超級瑪利歐兄弟 驚奇",
-    "name_source": "wiki",
-    "original_desc": "Super Mario Bros. follows Mario and Luigi as they race to rescue Princess Peach from the evil Bowser. In their debut platforming quest, the brothers leap through enemy-filled levels, dodge traps, and uncover hidden bonuses. The Super Mushroom makes Mario grow, the Fire Flower gives him firepower, and the Star grants brief invincibility. Each level ends with a flagpole and the higher you grab it, the more points you score. Secret bonus areas and warp zones allow shortcuts through the game. A timeless classic that defined a genre.",
-    "desc": "《超級馬里奧兄弟》講述了馬里奧和路易吉競相從邪惡的庫巴手中拯救碧琪公主的故事。在他們的首次平台跳躍任務中，兄弟倆跨越充滿敵人的關卡，躲避陷阱，並發現隱藏的獎勵。超級蘑菇讓馬里奧成長，火焰花賦予他火力，星星賦予他短暫的無敵能力。每個關卡都以一根旗桿結束，你抓住旗桿越高，得分就越多。秘密獎勵區域和扭曲區域允許在遊戲中走捷徑。定義了一種流派的永恆經典。",
-    "desc_source": "api",
-    "needs_retranslate": false,
-    "name_translated_at": "2026-01-02T14:30:34",
-    "desc_translated_at": "2026-01-02T14:30:34",
-    "original_name_hash": "80b62c09",
-    "original_desc_hash": "ca88ad9b"
   },
   "Metal Storm (USA)": {
     "key": "Metal Storm (USA)",

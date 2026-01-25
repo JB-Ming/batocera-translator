@@ -2,13 +2,13 @@
   "diabdat": {
     "key": "diabdat",
     "original_name": "Diablo 1",
-    "name": "",
-    "name_source": "",
+    "name": "暗黑破壞神1",
+    "name_source": "api",
     "original_desc": "Classic Hack & Slash Action RPG",
     "desc": "經典砍殺動作角色扮演遊戲",
     "desc_source": "api",
-    "needs_retranslate": true,
-    "name_translated_at": "2026-01-02T10:40:33",
+    "needs_retranslate": false,
+    "name_translated_at": "2026-01-02T21:56:07",
     "desc_translated_at": "2026-01-02T10:40:33",
     "original_name_hash": "2c93df8e",
     "original_desc_hash": "6dbed7cf"
