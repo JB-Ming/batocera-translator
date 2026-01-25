@@ -379,25 +379,22 @@ class TranslationEngine:
 
     def _translate_description(self, desc: str) -> Tuple[str, str]:
         """
-        翻譯遊戲描述
+        翻譯遊戲描述（直接翻譯，不搜尋）
 
         描述通常較長，直接使用翻譯 API
 
         Returns:
             (翻譯結果, 來源標記)
         """
-        # 1. 維基百科（可能有遊戲介紹）
-        if self._wiki_service:
-            result = self._wiki_service.get_description(
-                desc[:50], self.target_language)
-            if result:
-                return result, TranslationSource.WIKI.value
-
-        # 2. API 直譯
+        # 直接使用 API 翻譯描述
         if self._translate_api:
-            result = self._translate_api.translate(desc, self.target_language)
-            if result:
-                return result, TranslationSource.API.value
+            try:
+                result = self._translate_api.translate(
+                    desc, self.target_language)
+                if result:
+                    return result, TranslationSource.API.value
+            except Exception:
+                pass
 
         return "", ""
 

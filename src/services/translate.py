@@ -120,7 +120,7 @@ class GoogleTransService(BaseTranslateService):
     def translate(self, text: str, target_language: str,
                   source_language: str = 'auto') -> Optional[str]:
         """
-        翻譯文字
+        翻譯文字（帶重試機制）
 
         Args:
             text: 要翻譯的文字
@@ -144,17 +144,26 @@ class GoogleTransService(BaseTranslateService):
         source = 'auto' if source_language == 'auto' else self.LANG_CODES.get(
             source_language, source_language)
 
-        try:
-            translator = self._get_translator()
-            result = translator.translate(text, dest=target, src=source)
-            translated = clean_translation_text(result.text)
+        # 重試機制（最多重試 3 次）
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                translator = self._get_translator()
+                result = translator.translate(text, dest=target, src=source)
+                translated = clean_translation_text(result.text)
 
-            # 儲存到全局快取
-            self.cache.set('translate', text, target_language, translated)
-            return translated
-        except Exception as e:
-            # 發生錯誤時不快取，返回 None
-            return None
+                # 儲存到全局快取
+                self.cache.set('translate', text, target_language, translated)
+                return translated
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    # 還有重試機會，等待後重試
+                    import time
+                    time.sleep(0.5 * (attempt + 1))  # 漸進式延遲：0.5s, 1s, 1.5s
+                    continue
+                else:
+                    # 所有重試都失敗，返回 None
+                    return None
 
 
 class DeepLService(BaseTranslateService):

@@ -5,11 +5,11 @@
     "name": "XRick",
     "name_source": "keep",
     "original_desc": "XRick is an opensource reimplementation of the game \"Rick Dangerous\". It is a popular platform game originally published in 1989 and developed for most computers available in the early 1990s. Loosely based on the Indiana Jones film franchise and set in 1945, secret agent Rick Dangerous crashes in the jungleand must fight ennemies and gather treasures.",
-    "desc": "",
-    "desc_source": "",
+    "desc": "XRick 是遊戲“Rick Dangerous”的開源重新實現。它是一款流行的平台遊戲，最初於 1989 年發布，並為 20 世紀 90 年代初的大多數計算機開發。改編自《奪寶奇兵》系列電影，背景設定在 1945 年，特工瑞克·危險墜入叢林，必須與敵人戰鬥並收集寶藏。",
+    "desc_source": "api",
     "needs_retranslate": false,
     "name_translated_at": "2026-01-25T15:41:14",
-    "desc_translated_at": "",
+    "desc_translated_at": "2026-01-25T16:20:39",
     "original_name_hash": "ffcc2305",
     "original_desc_hash": "eb2dba88"
   }

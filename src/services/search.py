@@ -102,10 +102,28 @@ class SearchService:
             'no_html': 1,
         }
 
+        # 重試機制（最多2次）
+        max_retries = 2
+        for attempt in range(max_retries):
+            try:
+                response = self.session.get(url, params=params, timeout=3)
+                response.raise_for_status()
+                data = response.json()
+                break  # 成功則跳出重試循環
+            except requests.RequestException:
+                if attempt < max_retries - 1:
+                    time.sleep(0.3 * (attempt + 1))
+                    continue
+                else:
+                    # 所有重試失敗
+                    self.cache.set('search', cache_key, language, None)
+                    return None
+        else:
+            # 不應該到達這裡
+            return None
+
+        # 繼續處理成功的響應
         try:
-            response = self.session.get(url, params=params, timeout=3)
-            response.raise_for_status()
-            data = response.json()
 
             # 嘗試從摘要中提取譯名
             abstract = data.get('Abstract', '')

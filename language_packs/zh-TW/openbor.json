@@ -2,14 +2,14 @@
   "SOR2X_V2": {
     "key": "SOR2X_V2",
     "original_name": "Streets of Rage 2X",
-    "name": "Streets of Rage 2X",
-    "name_source": "original",
+    "name": "憤怒之街2X",
+    "name_source": "api",
     "original_desc": "A fan made remake of Streets of Rage 2 by Kradus.",
-    "desc": "",
-    "desc_source": "",
+    "desc": "一位粉絲重拍了 Kradus 的《憤怒之鐵拳 2》。",
+    "desc_source": "api",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:10:21",
-    "desc_translated_at": "",
+    "name_translated_at": "2026-01-25T16:20:37",
+    "desc_translated_at": "2026-01-25T16:20:37",
     "original_name_hash": "0b9e491a",
     "original_desc_hash": "3891dd4e"
   }

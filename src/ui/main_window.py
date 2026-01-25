@@ -671,8 +671,12 @@ class TranslateWorker(StageWorker):
                                 if translated:
                                     platform_translated += 1
                             except Exception as e:
+                                import traceback
+                                error_details = traceback.format_exc()
                                 self.log.emit("ERROR", "Stage3",
                                               f"翻譯失敗: {str(e)}")
+                                self.log.emit("ERROR", "Stage3",
+                                              f"詳細錯誤:\n{error_details}")
 
                     # 顯示多執行緒總結
                     if len(active_threads) > 0:

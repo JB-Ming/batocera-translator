@@ -130,33 +130,42 @@ class WikipediaService:
         if variant:
             params['variant'] = variant
 
-        try:
-            response = self.session.get(api_url, params=params, timeout=5)
-            response.raise_for_status()
-            data = response.json()
+        # 重試機制（最多2次）
+        max_retries = 2
+        for attempt in range(max_retries):
+            try:
+                response = self.session.get(api_url, params=params, timeout=5)
+                response.raise_for_status()
+                data = response.json()
 
-            # 取得搜尋結果
-            search_results = data.get('query', {}).get('search', [])
-            if not search_results:
+                # 取得搜尋結果
+                search_results = data.get('query', {}).get('search', [])
+                if not search_results:
+                    self._search_cache[cache_key] = None
+                    return None
+
+                # 嘗試多個搜尋結果，找到第一個有效的
+                for result in search_results:
+                    title = result.get('title', '')
+
+                    # 過濾非遊戲結果並驗證翻譯有效性
+                    if self._is_game_page(title, query) and self._is_valid_translation(title, query, language):
+                        # 儲存到快取
+                        self._search_cache[cache_key] = title
+                        return title
+
+                # 沒找到，也要快取結果避免重複查詢
+                self._search_cache[cache_key] = None
                 return None
 
-            # 嘗試多個搜尋結果，找到第一個有效的
-            for result in search_results:
-                title = result.get('title', '')
-
-                # 過濾非遊戲結果並驗證翻譯有效性
-                if self._is_game_page(title, query) and self._is_valid_translation(title, query, language):
-                    # 儲存到快取
-                    self._search_cache[cache_key] = title
-                    return title
-
-            # 沒找到，也要快取結果避免重複查詢
-            self._search_cache[cache_key] = None
-            return None
-
-        except requests.RequestException:
-            # 錯誤時不快取
-            return None
+            except requests.RequestException:
+                if attempt < max_retries - 1:
+                    # 還有重試機會，等待後重試
+                    time.sleep(0.3 * (attempt + 1))
+                    continue
+                else:
+                    # 錯誤時不快取
+                    return None
 
     def get_page_info(self, title: str, language: str = 'zh-TW') -> Optional[Dict[str, str]]:
         """

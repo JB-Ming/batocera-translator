@@ -5,11 +5,11 @@
     "name": "Volgarr",
     "name_source": "keep",
     "original_desc": "Do you have what it takes to be the greatest Viking Barbarian Lord in the world? Return to the Golden Age of arcade gaming with all-new hardcore action experience that pulls no punches. Playing as Volgarr the Viking, use your sword and spear to slaughter your foes in bloody combat. Battle Gigantic bosses in every world and find secrets that lead to unknown paths. Holding onto Volgarr's gear is key; his very life depends on it.",
-    "desc": "",
-    "desc_source": "",
+    "desc": "您有能力成為世界上最偉大的維京野蠻人領主嗎？重回街機遊戲的黃金時代，享受毫不留情的全新硬核動作體驗。扮演維京人伏爾加，用你的劍和矛在血腥的戰鬥中屠殺你的敵人。與每個世界的巨型頭目戰鬥，尋找通向未知道路的秘密。抓住伏爾加的裝備是關鍵；他的生命就取決於此。",
+    "desc_source": "api",
     "needs_retranslate": false,
     "name_translated_at": "2026-01-25T15:02:49",
-    "desc_translated_at": "",
+    "desc_translated_at": "2026-01-25T16:20:35",
     "original_name_hash": "8da4d6b3",
     "original_desc_hash": "ecf22b6c"
   }

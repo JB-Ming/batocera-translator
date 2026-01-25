@@ -32,9 +32,9 @@ for game_name, description in test_cases:
         print(f"測試: [空字串] - {description}")
     else:
         print(f"測試: {game_name} - {description}")
-    
+
     entry = GameEntry(key=game_name or "empty", original_name=game_name)
-    
+
     try:
         result = translator.translate_game(
             entry,
@@ -42,20 +42,20 @@ for game_name, description in test_cases:
             translate_desc=False,
             skip_translated=False
         )
-        
+
         if result.name:
             print(f"  翻譯結果: {result.name}")
             print(f"  來源標記: {result.name_source}")
-            
+
             if result.name_source == "original":
                 print(f"  ⚠️  標記為 original - 所有翻譯方法都失敗")
         else:
             print(f"  翻譯結果: [空]")
             print(f"  來源標記: {result.name_source}")
-            
+
     except Exception as e:
         print(f"  錯誤: {e}")
-    
+
     print()
 
 print("=" * 70)
