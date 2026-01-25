@@ -67,12 +67,11 @@ class TranslationEngine:
     5. 保留原文
     """
 
-    # 應保留原文的模式（品牌+數字、純英文數字組合等）
+    # 應保留原文的模式（只保留真正不該翻譯的格式）
     KEEP_ORIGINAL_PATTERNS = [
-        r'^(FIFA|NBA|NFL|NHL|MLB|F1|WWE|UFC|PGA|WRC)\s*\d+',  # 運動遊戲系列
-        r'^(F-Zero|R-Type|G-Darius)',  # 經典保留原名的遊戲
         r'^\d+$',  # 純數字
-        r'^[A-Z]-\d+$',  # 字母-數字組合
+        r'^[A-Z]$',  # 單一字母
+        r'^[\d\.\-_]+$',  # 純數字和符號（版本號、檔案編號等）
     ]
 
     def __init__(self, target_language: str = 'zh-TW'):
@@ -132,7 +131,7 @@ class TranslationEngine:
 
     def should_keep_original(self, text: str, translated: str = "") -> bool:
         """
-        判定是否應保留原文
+        判定是否應保留原文（只在翻譯結果無效或與原文相同時才保留）
 
         Args:
             text: 原始文字
@@ -141,14 +140,57 @@ class TranslationEngine:
         Returns:
             是否應保留原文
         """
-        # 檢查是否符合保留原文的模式
+        # 空白或太短
+        if not text or len(text) < 2:
+            return True
+
+        # 檔案編號格式（例如：251026-003036）
+        if re.search(r'\d{6}[_\-]\d{6}', text):
+            return True
+
+        # 符合不該翻譯的格式模式
         for pattern in self.KEEP_ORIGINAL_PATTERNS:
-            if re.match(pattern, text, re.IGNORECASE):
+            if re.match(pattern, text):
                 return True
 
-        # 翻譯結果與原文相同
-        if translated and translated.lower() == text.lower():
-            return True
+        # 有翻譯結果時的判斷
+        if translated and translated.strip():
+            # 翻譯結果有中文 = 有效翻譯，不保留原文
+            if re.search(r'[\u4e00-\u9fff]', translated):
+                return False
+            # 翻譯結果與原文相同 = 翻譯失敗，保留原文
+            if translated.lower().strip() == text.lower().strip():
+                return True
+
+        return False
+
+    def _is_unrelated_translation(self, original: str, translated: str) -> bool:
+        """
+        檢查翻譯結果是否與原文不相關
+
+        Args:
+            original: 原始文字
+            translated: 翻譯結果
+
+        Returns:
+            是否不相關
+        """
+        if not original or not translated:
+            return False
+
+        # 如果翻譯結果包含公司名稱或平台名稱，可能是錯誤
+        unrelated_keywords = [
+            '任天堂', '索尼', '微軟', '世嘉', 'SEGA',
+            'GameCube', 'PlayStation', 'Xbox', 'Wii',
+            '主機', '平台', '遊戲機'
+        ]
+
+        # 如果原文是英文遊戲名稱，但翻譯出公司或平台名
+        original_lower = original.lower()
+        if not any(keyword.lower() in original_lower for keyword in ['nintendo', 'sony', 'microsoft', 'sega']):
+            for keyword in unrelated_keywords:
+                if keyword in translated:
+                    return True
 
         return False
 
@@ -206,20 +248,17 @@ class TranslationEngine:
         if translate_name and (not entry.has_name_translation() or force_retranslate):
             clean_name = self.clean_filename(entry.original_name)
 
-            # 檢查是否應保留原文
-            if self.should_keep_original(clean_name):
-                output.name = clean_name
-                output.name_source = TranslationSource.KEEP.value
-            else:
-                # 依優先順序嘗試翻譯
-                translated_name, source = self._translate_name(clean_name)
-                output.name = translated_name or clean_name
-                output.name_source = source
+            # 直接嘗試翻譯，不做過多判斷
+            translated_name, source = self._translate_name(clean_name)
 
-                # 再次檢查翻譯結果
-                if self.should_keep_original(clean_name, translated_name):
-                    output.name = clean_name
-                    output.name_source = TranslationSource.KEEP.value
+            # 使用翻譯結果（如果有的話）
+            if translated_name and translated_name != clean_name:
+                output.name = translated_name
+                output.name_source = source
+            else:
+                # 沒有有效翻譯，使用清理後的原文
+                output.name = clean_name
+                output.name_source = source or "original"
 
         # 翻譯描述
         if translate_desc and (not entry.has_desc_translation() or force_retranslate):
@@ -298,44 +337,45 @@ class TranslationEngine:
         """
         # 1. 維基百科搜尋（最準確，免費）
         if self._wiki_service:
-            result = self._wiki_service.search(name, self.target_language)
-            if result and result != name:  # 確保有效翻譯
-                return result, TranslationSource.WIKI.value
+            try:
+                result = self._wiki_service.search(name, self.target_language)
+                if result and result != name:
+                    return result, TranslationSource.WIKI.value
+            except Exception:
+                pass  # 失敗時繼續下一個方法
 
         # 2. Gemini AI 翻譯（高品質，需要 key）
-        # 注意：如果沒設定 API key，這個服務不會被初始化，會自動跳過
         if self._gemini_service:
-            result = self._gemini_service.translate_game_name(
-                name, self.target_language)
-            if result and result != name:
-                return result, "gemini"
+            try:
+                result = self._gemini_service.translate_game_name(
+                    name, self.target_language)
+                if result and result != name:
+                    return result, "gemini"
+            except Exception:
+                pass
 
         # 3. 網路搜尋（免費，備選方案）
         if self._search_service:
-            result = self._search_service.search(name, self.target_language)
-            if result and result != name:
-                return result, TranslationSource.SEARCH.value
+            try:
+                result = self._search_service.search(
+                    name, self.target_language)
+                if result and result != name:
+                    return result, TranslationSource.SEARCH.value
+            except Exception:
+                pass
 
         # 4. API 直譯（保底方案，免費）
         if self._translate_api:
-            result = self._translate_api.translate(name, self.target_language)
-            if result and result != name:
-                return result, TranslationSource.API.value
+            try:
+                result = self._translate_api.translate(
+                    name, self.target_language)
+                if result and result != name:
+                    return result, TranslationSource.API.value
+            except Exception:
+                pass
 
-        # 所有方法都失敗，保留原文
-        return name, TranslationSource.KEEP.value
-        result = self._search_service.search(name, self.target_language)
-        if result:
-            return result, TranslationSource.SEARCH.value
-
-        # 4. API 直譯
-        if self._translate_api:
-            result = self._translate_api.translate(name, self.target_language)
-            if result:
-                return result, TranslationSource.API.value
-
-        # 找不到翻譯，保留原文
-        return name, TranslationSource.KEEP.value
+        # 所有方法都失敗，返回原文
+        return name, "original"
 
     def _translate_description(self, desc: str) -> Tuple[str, str]:
         """

@@ -75,9 +75,14 @@ def clean_game_name(filename: str) -> str:
     for suffix in suffixes:
         name = re.sub(suffix, '', name, flags=re.IGNORECASE)
 
+    # 移除檔案編號格式 (例如: 251026-003036_)
+    name = re.sub(r'^\d{6}-\d{6}_', '', name)
+    name = re.sub(r'_\d{6}-\d{6}$', '', name)
+
     # 清理多餘空白與連字號
     name = re.sub(r'\s+', ' ', name).strip()
     name = re.sub(r'^-\s*|\s*-$', '', name)
+    name = re.sub(r'^_\s*|\s*_$', '', name)
 
     return name
 

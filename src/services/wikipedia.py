@@ -131,7 +131,7 @@ class WikipediaService:
             params['variant'] = variant
 
         try:
-            response = self.session.get(api_url, params=params, timeout=10)
+            response = self.session.get(api_url, params=params, timeout=5)
             response.raise_for_status()
             data = response.json()
 
@@ -188,7 +188,7 @@ class WikipediaService:
             params['variant'] = variant
 
         try:
-            response = self.session.get(api_url, params=params, timeout=10)
+            response = self.session.get(api_url, params=params, timeout=5)
             response.raise_for_status()
             data = response.json()
 

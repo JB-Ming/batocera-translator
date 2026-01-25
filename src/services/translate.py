@@ -148,10 +148,12 @@ class GoogleTransService(BaseTranslateService):
             translator = self._get_translator()
             result = translator.translate(text, dest=target, src=source)
             translated = clean_translation_text(result.text)
-            # 儲存到快取
-            self._cache[cache_key] = translated
+
+            # 儲存到全局快取
+            self.cache.set('translate', text, target_language, translated)
             return translated
-        except Exception:
+        except Exception as e:
+            # 發生錯誤時不快取，返回 None
             return None
 
 

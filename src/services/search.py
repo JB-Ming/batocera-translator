@@ -103,7 +103,7 @@ class SearchService:
         }
 
         try:
-            response = self.session.get(url, params=params, timeout=10)
+            response = self.session.get(url, params=params, timeout=3)
             response.raise_for_status()
             data = response.json()
 
@@ -127,9 +127,12 @@ class SearchService:
                     return translated
 
             # 寫入空結果快取（避免重複查詢）
+            self.cache.set('search', cache_key, language, None)
             return None
 
         except requests.RequestException:
+            # 錯誤時也快取空結果
+            self.cache.set('search', cache_key, language, None)
             return None
 
     def _extract_translated_name(self, text: str, original: str,
