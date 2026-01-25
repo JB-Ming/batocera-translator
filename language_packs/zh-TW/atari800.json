@@ -50189,8 +50189,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "Voyage Through Time - 1 Million B.C": {
-    "key": "Voyage Through Time - 1 Million B.C",
+  "Voyage Through Time - 1 Million B": {
+    "key": "Voyage Through Time - 1 Million B",
     "original_name": "Voyage Through Time - 1 Million B.C. (19xx) (Peterborough T.A.P.S.) [k-file]",
     "name": "",
     "name_source": "",
@@ -76526,6 +76526,20 @@
   "Math_Drill": {
     "key": "Math_Drill",
     "original_name": "Math Drill",
+    "name": "",
+    "name_source": "",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Voyage Through Time - 1 Million B.C": {
+    "key": "Voyage Through Time - 1 Million B.C",
+    "original_name": "Voyage Through Time - 1 Million B.C. (19xx) (Peterborough T.A.P.S.) [k-file]",
     "name": "",
     "name_source": "",
     "original_desc": "",

@@ -2,15 +2,15 @@
   "Volgarr": {
     "key": "Volgarr",
     "original_name": "Volgarr",
-    "name": "",
-    "name_source": "",
+    "name": "Volgarr",
+    "name_source": "keep",
     "original_desc": "Do you have what it takes to be the greatest Viking Barbarian Lord in the world? Return to the Golden Age of arcade gaming with all-new hardcore action experience that pulls no punches. Playing as Volgarr the Viking, use your sword and spear to slaughter your foes in bloody combat. Battle Gigantic bosses in every world and find secrets that lead to unknown paths. Holding onto Volgarr's gear is key; his very life depends on it.",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-25T15:02:49",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "8da4d6b3",
+    "original_desc_hash": "ecf22b6c"
   }
 }

@@ -2,15 +2,15 @@
   "SOR4": {
     "key": "SOR4",
     "original_name": "SOR4",
-    "name": "",
-    "name_source": "",
+    "name": "SOR4",
+    "name_source": "keep",
     "original_desc": "",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-25T15:04:53",
     "desc_translated_at": "",
-    "original_name_hash": "",
+    "original_name_hash": "1f3d8b51",
     "original_desc_hash": ""
   }
 }

@@ -281,6 +281,14 @@ class TranslationWorker(QThread):
 
                 result['platforms'] += 1
 
+            # 翻譯完成，將快取批次寫入資料庫
+            from ..utils.cache import get_global_cache
+            cache = get_global_cache()
+            cached_count = cache.flush_to_db()
+            if cached_count > 0:
+                self.log.emit("SUCCESS", "Cache",
+                              f"✓ 快取持久化完成：{cached_count} 項")
+
             self.finished.emit(result)
 
         except Exception as e:
@@ -738,6 +746,14 @@ class TranslateWorker(StageWorker):
                 self.log.emit("INFO", "Stage3",
                               f"  {platform}: 翻譯 {platform_translated} 個")
                 total_translated += platform_translated
+
+            # 翻譯完成，將快取批次寫入資料庫
+            from ..utils.cache import get_global_cache
+            cache = get_global_cache()
+            cached_count = cache.flush_to_db()
+            if cached_count > 0:
+                self.log.emit("SUCCESS", "Cache",
+                              f"✓ 快取持久化完成：{cached_count} 項")
 
             self.progress.emit(100, 100, "階段三完成！")
             self.log.emit("SUCCESS", "Stage3",

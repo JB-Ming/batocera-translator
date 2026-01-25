@@ -4059,8 +4059,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "Love is.": {
-    "key": "Love is.",
+  "Love is": {
+    "key": "Love is",
     "original_name": "Love Is... In Bloom - The Flower Shop Garden (Europe)",
     "name": "",
     "name_source": "",
@@ -7705,6 +7705,20 @@
     "name": "",
     "name_source": "",
     "original_desc": "You will never get bored with this collection; Whether you want to play a quick, challenging game or knuckle-whitening adventure for an entire evening,there is something for everyone. Simply start, select,and begin playing: 100 brain-exercising games, Sudoku,popular Board Games such as Chess, Checkers, Backgammon, Puzzle Games and well known Card Games like Texas Hold'em Poker.The intuitive control with the stylus and the step-by-step demonstrations make getting used to this fantastic game a breeze.",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Love is.": {
+    "key": "Love is.",
+    "original_name": "Love Is... In Bloom - The Flower Shop Garden (Europe)",
+    "name": "",
+    "name_source": "",
+    "original_desc": "",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,

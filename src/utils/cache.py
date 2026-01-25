@@ -56,7 +56,12 @@ class GlobalCache:
 
     def _init_db(self):
         """初始化資料庫結構"""
-        with sqlite3.connect(self.cache_file) as conn:
+        with sqlite3.connect(self.cache_file, timeout=30) as conn:
+            # 啟用 WAL 模式提升併發性能
+            conn.execute('PRAGMA journal_mode=WAL')
+            conn.execute('PRAGMA synchronous=NORMAL')
+            conn.execute('PRAGMA cache_size=10000')
+
             conn.execute('''
                 CREATE TABLE IF NOT EXISTS cache (
                     key TEXT PRIMARY KEY,
@@ -113,7 +118,7 @@ class GlobalCache:
 
         # 查詢資料庫
         try:
-            with sqlite3.connect(self.cache_file) as conn:
+            with sqlite3.connect(self.cache_file, timeout=10.0) as conn:
                 cursor = conn.execute('''
                     SELECT result, created_at FROM cache 
                     WHERE key = ?
@@ -150,7 +155,7 @@ class GlobalCache:
 
     def set(self, service: str, query: str, language: str, result: str):
         """
-        設定快取結果
+        設定快取結果（只寫入記憶體，避免鎖競爭）
 
         Args:
             service: 服務名稱
@@ -164,24 +169,48 @@ class GlobalCache:
         key = self._make_key(service, query, language)
         timestamp = int(time.time())
 
-        # 寫入資料庫
-        try:
-            with sqlite3.connect(self.cache_file) as conn:
-                conn.execute('''
-                    INSERT OR REPLACE INTO cache 
-                    (key, service, query, language, result, created_at, hit_count)
-                    VALUES (?, ?, ?, ?, ?, ?, COALESCE(
-                        (SELECT hit_count FROM cache WHERE key = ?), 0
-                    ))
-                ''', (key, service, query, language, result, timestamp, key))
-                conn.commit()
-
-        except sqlite3.Error as e:
-            print(f"快取寫入錯誤: {e}")
-
-        # 加入記憶體快取
+        # 只加入記憶體快取，避免資料庫寫入鎖競爭
         with self._lock:
             self._add_to_memory_cache(key, result, timestamp)
+
+    def flush_to_db(self) -> int:
+        """
+        將記憶體快取批次寫入資料庫
+        在平台翻譯完成後呼叫，避免翻譯時頻繁寫入
+
+        Returns:
+            寫入的項目數量
+        """
+        if not self._memory_cache:
+            return 0
+
+        try:
+            with sqlite3.connect(self.cache_file, timeout=30) as conn:
+                items = []
+                with self._lock:
+                    for key, (value, timestamp) in list(self._memory_cache.items()):
+                        # 解析 key
+                        parts = key.split('|', 2)
+                        if len(parts) == 3:
+                            service, query, language = parts
+                            items.append(
+                                (key, service, query, language, value, int(timestamp)))
+
+                # 批次插入
+                if items:
+                    conn.executemany('''
+                        INSERT OR REPLACE INTO cache 
+                        (key, service, query, language, result, created_at)
+                        VALUES (?, ?, ?, ?, ?, ?)
+                    ''', items)
+                    conn.commit()
+                    return len(items)
+
+        except sqlite3.Error as e:
+            print(f"批次寫入快取錯誤: {e}")
+            return 0
+
+        return 0
 
     def _add_to_memory_cache(self, key: str, value: str, timestamp: float):
         """加入記憶體快取（LRU）"""

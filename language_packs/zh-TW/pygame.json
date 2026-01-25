@@ -16,15 +16,15 @@
   "retrotrivia": {
     "key": "retrotrivia",
     "original_name": "Retrotrivia",
-    "name": "",
-    "name_source": "",
+    "name": "Retrotrivia",
+    "name_source": "keep",
     "original_desc": "Retrotrivia is a fun way to explore your Batocera games library. Guess which game thumbnail video is played, with effects like pixelization, rotation, or zoom, and answer 210+ handcrafted quiz and trivia questions on the retrogaming culture.\n\nCompete with your friends! Up to 4 players can play together.\n  ",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-25T15:41:17",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "d9c40b50",
+    "original_desc_hash": "44928f9e"
   }
 }

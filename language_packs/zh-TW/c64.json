@@ -16,15 +16,15 @@
   "$100,000 Pyramid, The (USA)": {
     "key": "$100,000 Pyramid, The (USA)",
     "original_name": "$100,000 Pyramid, The (USA)",
-    "name": "",
-    "name_source": "",
+    "name": "$100,000 Pyramid, The",
+    "name_source": "keep",
     "original_desc": "",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-25T15:41:14",
     "desc_translated_at": "",
-    "original_name_hash": "",
+    "original_name_hash": "023a7309",
     "original_desc_hash": ""
   }
 }

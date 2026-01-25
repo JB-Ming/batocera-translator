@@ -2,15 +2,15 @@
   "Steam": {
     "key": "Steam",
     "original_name": "Steam",
-    "name": "",
-    "name_source": "",
+    "name": "Steam",
+    "name_source": "keep",
     "original_desc": "",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-25T15:04:12",
     "desc_translated_at": "",
-    "original_name_hash": "",
+    "original_name_hash": "4db45638",
     "original_desc_hash": ""
   }
 }
