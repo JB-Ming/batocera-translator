@@ -29091,8 +29091,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "Project D.H.N. Vol": {
-    "key": "Project D.H.N. Vol",
+  "Project D.H.N": {
+    "key": "Project D.H.N",
     "original_name": "Project D.H.N. Vol. 3 (1994) (D.H.N.) (Disk 2 of 2) (Disk B)",
     "name": "",
     "name_source": "",
@@ -43640,6 +43640,20 @@
   "ZZZ-UNK-Rouge Alliance (19xx)(Starcraft)(Disk 3 of 3)(Program) [unk image format]": {
     "key": "ZZZ-UNK-Rouge Alliance (19xx)(Starcraft)(Disk 3 of 3)(Program) [unk image format]",
     "original_name": "ZZZ-UNK-Rouge Alliance (19xx) (Starcraft) (Disk 3 of 3) (Program) [unk image format]",
+    "name": "",
+    "name_source": "",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Project D.H.N. Vol": {
+    "key": "Project D.H.N. Vol",
+    "original_name": "Project D.H.N. Vol. 3 (1994) (D.H.N.) (Disk 2 of 2) (Disk B)",
     "name": "",
     "name_source": "",
     "original_desc": "",

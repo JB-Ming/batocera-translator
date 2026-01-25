@@ -4591,8 +4591,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "Bio F.R.E": {
-    "key": "Bio F.R.E",
+  "Bio F.R": {
+    "key": "Bio F.R",
     "original_name": "BIO F.R.E.A.K.S.",
     "name": "",
     "name_source": "",
@@ -13291,6 +13291,20 @@
     "name": "",
     "name_source": "",
     "original_desc": "In Zero Divide, you play as a computer caretaker who must fight off members from the group XTAL and crash the system before the time runs out and critical information is leaked to the world. You go up against ten fighters and two hidden bosses with a variety of moves such as the Hyper Headbutt, Blind Man Slash, the Tomo Vortex Throw, and the Bloody Pack. Watch the action with four camera angles with a rotating 360-degree view. The onscreen diagram keeps you informed of your character's damage, and allows you to plan your strategy for the next attack. \n   You play one of eight robotic fighters and must battle your way through multiple levels in single player, or go head to head with an opponent in two player mode. There are many unlockable mini-games and Easter eggs included, even an unlockable side scrolling shoot 'em up game. By Galisteo Games©",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Bio F.R.E": {
+    "key": "Bio F.R.E",
+    "original_name": "BIO F.R.E.A.K.S.",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Control one of eight cybernetically enhanced Bio-Freaks warriors in this unique 3D fighter from the creators of the popular Mortal Kombat. Set in an apocalyptic future, the freaks have the ability to fight with combos and fire machine guns and missile launchers. The block action can also elicit a full body shield that protects you from bullets and other projectiles. A nice twist in Bio F.R.E.A.K.S is that you can fight on land and in the air with the typical Mortal Kombat/SteetFighter button combinations (two punch, two kick) while implementing two side step buttons and a fire button (for your weapon). \n    The huge, lethal (a flame pit, lava, and giant rollers) environments allow for full 3D movement either in the air or on the ground. Bio F.R.E.A.K.S also offers an option to 'turn-off' the gore and blood, and options to turn off the shield, flight, and fire capabilities for a more traditional fighting game. Beyond the arcade mode, Bio F.R.E.A.K.S also offers a survival, team, versus, and practice mode for more replay value! By Galisteo Games©",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,

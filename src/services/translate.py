@@ -91,11 +91,13 @@ class GoogleTransService(BaseTranslateService):
         Args:
             request_delay: 請求間隔時間
         """
+        from ..utils.cache import get_global_cache
+
         self.request_delay = request_delay
         self._last_request_time = 0
         self._translator = None
-        # 添加記憶體快取 (text + target_lang -> result)
-        self._cache = {}
+        # 全局快取
+        self.cache = get_global_cache()
 
     def _get_translator(self):
         """延遲初始化 googletrans"""
@@ -131,10 +133,10 @@ class GoogleTransService(BaseTranslateService):
         if not text:
             return None
 
-        # 檢查快取
-        cache_key = f"{text}|{target_language}"
-        if cache_key in self._cache:
-            return self._cache[cache_key]
+        # 檢查全局快取
+        cached = self.cache.get('translate', text, target_language)
+        if cached:
+            return cached
 
         self._rate_limit()
 

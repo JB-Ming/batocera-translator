@@ -660,16 +660,16 @@
   "Code Name - S": {
     "key": "Code Name - S",
     "original_name": "Code Name S.t.e.a.m",
-    "name": "代號 Steam",
-    "name_source": "api",
+    "name": "",
+    "name_source": "",
     "original_desc": "Launch S.T.E.A.M., an elite team of steam-powered special-forces soldiers, to save the world from an alien menace. In this new blend of action and strategy, our commandos use steam power stored in special backpacks to move into position and fire an arsenal of distinct weapons. Pick your team members and load out, then use strategy to decide the best way to approach this steampunk-inspired battlefield.",
-    "desc": "成立 S.T.E.A.M.，這是一支由蒸汽動力特種部隊士兵組成的精英團隊，旨在拯救世界免受外星威脅。在這種行動與策略的新融合中，我們的突擊隊員使用特殊背包中存儲的蒸汽動力移動到位並發射一系列不同的武器。選擇你的團隊成員並裝載，然後使用策略來決定接近這個蒸汽朋克風格的戰場的最佳方式。",
-    "desc_source": "api",
+    "desc": "",
+    "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T09:26:46",
-    "desc_translated_at": "2026-01-25T09:26:46",
-    "original_name_hash": "1304efc5",
-    "original_desc_hash": "b876822c"
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   },
   "Dragon Quest VII - Fragments of the Forgotten Past (USA)": {
     "key": "Dragon Quest VII - Fragments of the Forgotten Past (USA)",

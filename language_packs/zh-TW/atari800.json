@@ -24961,8 +24961,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "B.L": {
-    "key": "B.L",
+  "B": {
+    "key": "B",
     "original_name": "B.L.O.U.D. (1987) (SUMA) (cz)",
     "name": "",
     "name_source": "",
@@ -30351,8 +30351,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "Questprobe #3 - Fantastic Four Chpt. 1 (1985)(Adventure International)[S": {
-    "key": "Questprobe #3 - Fantastic Four Chpt. 1 (1985)(Adventure International)[S",
+  "Questprobe #3 - Fantastic Four Chpt": {
+    "key": "Questprobe #3 - Fantastic Four Chpt",
     "original_name": "Questprobe #3 - Fantastic Four vF172 (1985) (Adventure International) [S.A.G.A.]",
     "name": "",
     "name_source": "",
@@ -50189,8 +50189,8 @@
     "original_name_hash": "",
     "original_desc_hash": ""
   },
-  "Voyage Through Time - 1 Million B.C. (19xx)(Peterborough T": {
-    "key": "Voyage Through Time - 1 Million B.C. (19xx)(Peterborough T",
+  "Voyage Through Time - 1 Million B.C": {
+    "key": "Voyage Through Time - 1 Million B.C",
     "original_name": "Voyage Through Time - 1 Million B.C. (19xx) (Peterborough T.A.P.S.) [k-file]",
     "name": "",
     "name_source": "",
@@ -76526,6 +76526,48 @@
   "Math_Drill": {
     "key": "Math_Drill",
     "original_name": "Math Drill",
+    "name": "",
+    "name_source": "",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "B.L": {
+    "key": "B.L",
+    "original_name": "B.L.O.U.D. (1987) (SUMA) (cz)",
+    "name": "",
+    "name_source": "",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Questprobe #3 - Fantastic Four Chpt. 1 (1985)(Adventure International)[S": {
+    "key": "Questprobe #3 - Fantastic Four Chpt. 1 (1985)(Adventure International)[S",
+    "original_name": "Questprobe #3 - Fantastic Four vF172 (1985) (Adventure International) [S.A.G.A.]",
+    "name": "",
+    "name_source": "",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Voyage Through Time - 1 Million B.C. (19xx)(Peterborough T": {
+    "key": "Voyage Through Time - 1 Million B.C. (19xx)(Peterborough T",
+    "original_name": "Voyage Through Time - 1 Million B.C. (19xx) (Peterborough T.A.P.S.) [k-file]",
     "name": "",
     "name_source": "",
     "original_desc": "",

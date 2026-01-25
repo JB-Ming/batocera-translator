@@ -47,6 +47,15 @@ class WikipediaService:
         self.session.headers.update({
             'User-Agent': 'BatoceraTranslator/1.0 (https://github.com/example/batocera-translator)'
         })
+        # 優化連接池
+        adapter = requests.adapters.HTTPAdapter(
+            pool_connections=10,
+            pool_maxsize=20,
+            max_retries=3
+        )
+        self.session.mount('http://', adapter)
+        self.session.mount('https://', adapter)
+
         # 添加記憶體快取 (query + language -> result)
         self._search_cache = {}
         self._desc_cache = {}
