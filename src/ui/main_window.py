@@ -1262,8 +1262,25 @@ class MainWindow(QMainWindow):
         self.start_btn.clicked.connect(self._start_translation)
         btn_layout.addWidget(self.start_btn)
 
-        self.cancel_btn = QPushButton("取消")
+        self.cancel_btn = QPushButton("⏹ 停止")
         self.cancel_btn.setEnabled(False)
+        self.cancel_btn.setMinimumWidth(80)
+        self.cancel_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #c0392b;
+                color: white;
+                font-weight: bold;
+                border-radius: 4px;
+                padding: 5px 10px;
+            }
+            QPushButton:hover {
+                background-color: #e74c3c;
+            }
+            QPushButton:disabled {
+                background-color: #555;
+                color: #888;
+            }
+        """)
         self.cancel_btn.clicked.connect(self._cancel_translation)
         btn_layout.addWidget(self.cancel_btn)
 
@@ -1415,6 +1432,11 @@ class MainWindow(QMainWindow):
     def _on_path_changed(self, path: str):
         """ROM 路徑變更時自動掃描平台"""
         path = path.strip()
+
+        # 儲存路徑設定
+        self.app_settings.last_roms_path = path
+        self.settings_manager.save(self.app_settings)
+
         if not path:
             self.platform_selector.clear()
             return

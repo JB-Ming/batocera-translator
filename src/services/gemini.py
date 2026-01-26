@@ -4,7 +4,11 @@
 提供比維基百科更精準的翻譯結果。
 """
 import time
+import warnings
 from typing import Optional
+
+# 抑制 google-generativeai 的棄用警告
+warnings.filterwarnings('ignore', message='.*google.generativeai.*')
 
 try:
     import google.generativeai as genai

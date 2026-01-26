@@ -129,12 +129,19 @@
 
 ### Q：字典檔和設定檔存在哪裡？
 
-程式會將使用者資料（字典檔、設定檔）存放在：
-- **Windows**: `%LOCALAPPDATA%\BatoceraTranslator`
-  - 字典檔：`%LOCALAPPDATA%\BatoceraTranslator\dictionaries`
-  - 設定檔：`%LOCALAPPDATA%\BatoceraTranslator\settings.json`
+程式會將使用者資料（字典檔、設定檔）存放在程式目錄下的 `config/` 資料夾：
 
-這樣即使程式更新或重新安裝，你的翻譯字典也不會丟失。
+```
+程式目錄/
+├── Batocera翻譯工具.exe
+├── config/                    # 使用者資料目錄
+│   ├── dictionaries/          # 字典檔
+│   ├── cache/                 # 快取
+│   └── settings.json          # 設定檔
+└── ...
+```
+
+這樣方便備份和管理，也避免 Microsoft Store Python 的沙盒問題。
 
 ---
 
@@ -293,7 +300,7 @@
 
 如需修正翻譯錯誤：
 
-1. 開啟 `%LOCALAPPDATA%\BatoceraTranslator\dictionaries\{language}\{platform}.json`
+1. 開啟程式目錄下的 `config\dictionaries\{language}\{platform}.json`
 2. 找到對應的遊戲 Key
 3. 修改 `name` 或 `desc` 欄位
 4. 將 `source` 標記改為 `manual`
@@ -356,24 +363,20 @@
 ```
 BatoceraTranslator/
 ├── Batocera翻譯工具.exe   # 主程式
+├── config/               # 使用者資料目錄
+│   ├── dictionaries/     # 字典檔（依語系分類）
+│   │   ├── zh-TW/
+│   │   ├── ja/
+│   │   └── ko/
+│   ├── cache/            # 快取資料庫
+│   ├── backups/          # 原始檔案備份
+│   └── settings.json     # 程式設定
 ├── gamelists_local/      # gamelist.xml 暫存區
 ├── language_packs/       # 內建語系包
 └── logs/                 # 日誌檔案
 ```
 
-### 使用者資料目錄（%LOCALAPPDATA%\BatoceraTranslator）
-
-```
-%LOCALAPPDATA%\BatoceraTranslator/
-├── dictionaries/         # 字典檔（依語系分類）
-│   ├── zh-TW/
-│   ├── ja/
-│   └── ko/
-├── backups/              # 原始檔案備份
-└── settings.json         # 程式設定
-```
-
-❓ 字典檔存放在使用者資料目錄，確保程式更新時不會缺失翻譯資料。
+💡 所有使用者資料都在 `config/` 資料夾內，方便備份和管理。
 
 ---
 
@@ -441,7 +444,7 @@ BatoceraTranslator/
 - **智能過期**：30 天未使用自動清理
 - **命中統計**：追蹤快取效能
 
-**快取位置**：`%LOCALAPPDATA%\BatoceraTranslator\cache\`
+**快取位置**：程式目錄下的 `config\cache\`
 
 **效能提升**：
 - 首次翻譯：正常速度，建立快取

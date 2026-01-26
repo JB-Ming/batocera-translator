@@ -100,16 +100,16 @@
   "New Super Mario Bros": {
     "key": "New Super Mario Bros",
     "original_name": "New Super Mario Bros. U Deluxe",
-    "name": "新超級馬里奧兄弟 U 豪華版",
-    "name_source": "api",
+    "name": "",
+    "name_source": "",
     "original_desc": "Join Mario, Luigi, and pals for single-player or multiplayer fun anytime, anywhere! Take on two family-friendly, side-scrolling adventures with up to three friends as you try to save the Mushroom Kingdom. Includes the New Super Mario Bros. U and harder, faster New Super Luigi U games—both of which include Nabbit and Toadette as playable characters!",
-    "desc": "隨時隨地與馬里奧、路易吉和朋友們一起享受單人或多人遊戲的樂趣！與最多三名朋友一起進行兩次適合家庭的橫向捲軸冒險，嘗試拯救蘑菇王國。包括《New Super Mario Bros. U》和更難、更快的《New Super Luigi U》遊戲——這兩款遊戲都包含 Nabbit 和 Toadette 作為可玩角色！",
-    "desc_source": "api",
+    "desc": "",
+    "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:27:35",
-    "desc_translated_at": "2026-01-25T16:27:35",
-    "original_name_hash": "531cbe84",
-    "original_desc_hash": "39c31c58"
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   },
   "Marvel Ultimate Alliance 3 The Black Order DLC": {
     "key": "Marvel Ultimate Alliance 3 The Black Order DLC",
@@ -156,16 +156,16 @@
   "Mario vs": {
     "key": "Mario vs",
     "original_name": "Mario vs Donkey Kong",
-    "name": "馬里奧 vs 大金剛",
-    "name_source": "api",
+    "name": "",
+    "name_source": "",
     "original_desc": "Solve all kinds of puzzles and test your platforming smarts as you try to recover the stolen Mini-Marios in Mario vs. Donkey Kong on Nintendo Switch.",
-    "desc": "在 Nintendo Switch 上的《馬里奧大戰大金剛》中，嘗試找回被盜的迷你馬里奧，解決各種謎題並測試您的平台智慧。",
-    "desc_source": "api",
+    "desc": "",
+    "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:27:36",
-    "desc_translated_at": "2026-01-25T16:27:36",
-    "original_name_hash": "9996aa23",
-    "original_desc_hash": "3b89f995"
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   },
   "No Man's Sky": {
     "key": "No Man's Sky",
@@ -310,16 +310,16 @@
   "Super Mario Bros": {
     "key": "Super Mario Bros",
     "original_name": "Super Mario Bros. Wonder",
-    "name": "超級瑪利歐兄弟 驚奇",
-    "name_source": "wiki",
+    "name": "",
+    "name_source": "",
     "original_desc": "Find wonder in the next evolution of Mario fun. Classic Mario side-scrolling gameplay is turned on its head with the addition of Wonder Flowers. These game-changing items trigger spectacular moments you have to see to believe... Witness pipes coming alive, wreak havoc as a giant spiky ball, and see even more unexpected events called Wonder Effects. Pick from heroic Super Mario™ characters and Power-Ups. Choose from familiar characters including Mario, Luigi, Peach, Daisy, Yoshi and Toad. Transform into Elephant Mario to use your trunk to trounce enemies with a surprising new Power-Up! Share the wonder with friends and Mario fans. Team up with up to three friends locally* and gather around one Nintendo Switch™ system to experience the game-bending Wonder Effects together as you tackle courses as a team and help each other on your way to the goal.",
-    "desc": "在馬里奧樂趣的下一個演變中尋找奇蹟。經典馬里奧橫向捲軸遊戲玩法因神奇花朵的加入而煥然一新。這些改變遊戲規則的物品會引發您必須親眼所見才能相信的壯觀時刻……見證管道活躍起來，作為一個巨大的尖球造成嚴重破壞，並看到更多稱為“奇蹟效應”的意想不到的事件。從英雄超級馬里奧™角色和能力提升中進行選擇。從熟悉的角色中進行選擇，包括馬里奧、路易吉、桃子、黛西、耀西和蟾蜍。變身為大像馬里奧，用你的鼻子通過令人驚訝的新能力來擊敗敵人！與朋友和馬里奧粉絲分享這個奇蹟。與最多三名本地好友*組隊，聚集在一台 Nintendo Switch™ 系統周圍，一起體驗遊戲中神奇的神奇效果，作為一個團隊完成課程並在實現目標的過程中互相幫助。",
-    "desc_source": "api",
+    "desc": "",
+    "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:27:40",
-    "desc_translated_at": "2026-01-25T16:27:40",
-    "original_name_hash": "bc2a00f1",
-    "original_desc_hash": "c54bb178"
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   },
   "Undertale": {
     "key": "Undertale",

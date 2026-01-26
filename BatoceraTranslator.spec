@@ -11,11 +11,17 @@ from pathlib import Path
 # 專案根目錄
 ROOT = Path(SPECPATH)
 
+# 確保 config 目錄結構存在（打包時會包含）
+config_dirs = ['config/dictionaries', 'config/cache', 'config/backups']
+for d in config_dirs:
+    (ROOT / d).mkdir(parents=True, exist_ok=True)
+
 # 資源檔案（語系包等）
 datas = [
     (str(ROOT / 'assets'), 'assets'),           # 圖示等資源
     (str(ROOT / 'language_packs'), 'language_packs'),  # 內建語系包
     (str(ROOT / 'src'), 'src'),                 # 源碼目錄
+    (str(ROOT / 'config'), 'config'),           # 使用者資料目錄
 ]
 
 # 隱藏導入（動態載入的模組）

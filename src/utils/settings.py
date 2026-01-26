@@ -4,22 +4,26 @@
 """
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Dict, Any, Optional
 from dataclasses import dataclass, asdict, field
 
 from .file_utils import get_settings_path
 
-# 嘗試載入 .env 檔案
-try:
-    from dotenv import load_dotenv
-    # 從專案根目錄載入 .env
-    _project_root = Path(__file__).parent.parent.parent
-    _env_path = _project_root / '.env'
-    if _env_path.exists():
-        load_dotenv(_env_path)
-except ImportError:
-    pass  # python-dotenv 未安裝，僅使用系統環境變數
+# 嘗試載入 .env 檔案（僅在開發環境，打包後的執行檔不會載入）
+# 這是為了讓開發者可以在本機設定 API Key，而不需要每次都在 UI 輸入
+# 打包後的執行檔不會包含 .env，使用者需要在 UI 設定中輸入 API Key
+if not getattr(sys, 'frozen', False):
+    # 開發模式：嘗試載入 .env
+    try:
+        from dotenv import load_dotenv
+        _project_root = Path(__file__).parent.parent.parent
+        _env_path = _project_root / '.env'
+        if _env_path.exists():
+            load_dotenv(_env_path)
+    except ImportError:
+        pass  # python-dotenv 未安裝，僅使用系統環境變數
 
 
 @dataclass
@@ -42,7 +46,7 @@ class AppSettings:
 
     # ==================== 翻譯設定 ====================
     translate_name: bool = True         # 是否翻譯遊戲名稱
-    translate_desc: bool = True         # 是否翻譯遊戲描述
+    translate_desc: bool = False        # 是否翻譯遊戲描述（預設關閉，描述翻譯較慢）
     skip_translated: bool = True        # 是否跳過已翻譯的項目
     include_platform_in_search: bool = False  # 搜尋時是否包含平台名稱
     use_api_fallback: bool = True       # 搜尋失敗時是否使用 API 直譯
@@ -165,11 +169,13 @@ class SettingsManager:
                     data = json.load(f)
                 self._settings = AppSettings.from_dict(data)
             except (json.JSONDecodeError, KeyError):
-                # 設定檔損毀，使用預設值
+                # 設定檔損毀，使用預設值並重新建立
                 self._settings = AppSettings()
+                self.save()  # 自動建立新的設定檔
         else:
-            # 建立預設設定
+            # 設定檔不存在，建立預設設定並儲存
             self._settings = AppSettings()
+            self.save()  # 自動建立設定檔
 
         return self._settings
 

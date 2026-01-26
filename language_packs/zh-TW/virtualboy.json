@@ -100,16 +100,16 @@
   "Jack Bros": {
     "key": "Jack Bros",
     "original_name": "Jack Bros. no Meiro de Hiihoo! (Japan)",
-    "name": "傑克兄弟在 Hii Hoo 中間！",
-    "name_source": "api",
+    "name": "",
+    "name_source": "",
     "original_desc": "Jack Bros., is an adventure video game released in 1995 on Virtual Boy. Once a year, at Halloween, the door between our country and the fairies opens. All fairy should return to Fairieland 23:00, otherwise, they will be banished forever. You must choose one of three Jack Bros. as your character. Each has its own attributes and weapons and special attacks.",
-    "desc": "Jack Bros. 是一款冒險視頻遊戲，於 1995 年在 Virtual Boy 上發布。每年一次的萬聖節，我們國家和仙女之間的大門打開了。所有仙女必須在23:00返回仙境，否則將被永遠放逐。您必須從三個傑克兄弟中選擇一個作為您的角色。每個都有自己的屬性、武器和特殊攻擊。",
-    "desc_source": "api",
+    "desc": "",
+    "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:27:46",
-    "desc_translated_at": "2026-01-25T16:27:46",
-    "original_name_hash": "5ba5bc91",
-    "original_desc_hash": "6092a90e"
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   },
   "Mario Clash (Japan, USA)": {
     "key": "Mario Clash (Japan, USA)",

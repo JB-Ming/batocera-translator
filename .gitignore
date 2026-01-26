@@ -56,6 +56,7 @@ logs/
 backups/
 dictionaries/
 settings.json
+config/
 
 # 發布檔案 (使用 GitHub Releases 發布，不要放在版本控制中)
 releases/

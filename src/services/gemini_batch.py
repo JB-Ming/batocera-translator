@@ -6,8 +6,12 @@
 import json
 import time
 import re
+import warnings
 from typing import Optional, Dict, List, Tuple
 from dataclasses import dataclass
+
+# 抑制 google-generativeai 的棄用警告
+warnings.filterwarnings('ignore', message='.*google.generativeai.*')
 
 try:
     import google.generativeai as genai
