@@ -91,15 +91,15 @@ jobs:
         if: steps.should_release.outputs.release == 'True'
         run: |
           $version = "${{ steps.next_version.outputs.version }}" -replace '^v', ''
-          $content = @"
-"""
-版本資訊
-此檔案由 GitHub Actions 自動更新，請勿手動修改
-"""
-
-__version__ = "$version"
-"@
-          $content | Out-File -FilePath "src/version.py" -Encoding utf8 -NoNewline
+          $lines = @(
+            '"""',
+            '版本資訊',
+            '此檔案由 GitHub Actions 自動更新，請勿手動修改',
+            '"""',
+            '',
+            "__version__ = `"$version`""
+          )
+          $lines | Out-File -FilePath "src/version.py" -Encoding utf8
           Write-Output "Updated version.py to $version"
         shell: pwsh
 
