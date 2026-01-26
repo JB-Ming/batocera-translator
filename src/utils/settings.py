@@ -24,53 +24,65 @@ except ImportError:
 
 @dataclass
 class AppSettings:
-    """應用程式設定"""
-    # 路徑設定
-    last_roms_path: str = ""
-    last_language: str = "zh-TW"
+    """
+    應用程式設定
 
-    # 翻譯設定
-    translate_name: bool = True
-    translate_desc: bool = True
-    skip_translated: bool = True
-    include_platform_in_search: bool = False
-    use_api_fallback: bool = True
-    auto_keep_original: bool = True
+    設定檔會在以下情況自動建立：
+    1. 程式首次啟動時，若設定檔不存在，會自動以預設值建立
+    2. 位置: %LOCALAPPDATA%\\BatoceraTranslator\\settings.json
 
-    # 寫回設定
-    write_back: bool = True
-    auto_backup: bool = True
-    display_format: str = "translated"  # translated, trans_orig, orig_trans, original
-    name_strategy: str = "dict"         # skip, dict, xml, overwrite
-    desc_strategy: str = "dict"
+    設定檔會在以下情況自動儲存：
+    1. 使用者在設定對話框按「確定」時
+    2. 程式關閉時（closeEvent）
+    """
 
-    # 字典設定
-    merge_strategy: str = "merge"  # merge, fill_empty, overwrite, skip
+    # ==================== 路徑設定 ====================
+    last_roms_path: str = ""            # 上次開啟的 ROM 資料夾路徑
+    last_language: str = "zh-TW"        # 上次選擇的目標語系
 
-    # API 設定
-    translate_api: str = "googletrans"  # googletrans, google_cloud, deepl, azure
-    api_key: str = ""
-    gemini_api_key: str = ""  # Gemini AI API Key
-    request_delay: int = 500  # ms（降低延遲提升速度，避免被限制可調高至1000-2000）
+    # ==================== 翻譯設定 ====================
+    translate_name: bool = True         # 是否翻譯遊戲名稱
+    translate_desc: bool = True         # 是否翻譯遊戲描述
+    skip_translated: bool = True        # 是否跳過已翻譯的項目
+    include_platform_in_search: bool = False  # 搜尋時是否包含平台名稱
+    use_api_fallback: bool = True       # 搜尋失敗時是否使用 API 直譯
+    auto_keep_original: bool = True     # 是否自動偵測並保留原文（如品牌名）
 
-    # Gemini 批次翻譯設定
-    use_gemini_batch: bool = False      # 是否使用 Gemini 批次翻譯模式
-    gemini_batch_size: int = 80         # Gemini 批次大小（建議 50-80）
+    # ==================== 寫回設定 ====================
+    write_back: bool = True             # 是否將翻譯結果寫回 gamelist.xml
+    auto_backup: bool = True            # 寫回前是否自動備份原檔
+    # 顯示格式：translated/trans_orig/orig_trans/original
+    display_format: str = "translated"
+    name_strategy: str = "dict"         # name 處理策略：skip/dict/xml/overwrite
+    desc_strategy: str = "dict"         # desc 處理策略：skip/dict/xml/overwrite
 
-    # 視窗設定
-    window_width: int = 900
-    window_height: int = 700
-    window_x: int = -1
-    window_y: int = -1
+    # ==================== 字典設定 ====================
+    merge_strategy: str = "merge"       # 字典合併策略：merge/fill_empty/overwrite/skip
 
-    # 效能設定
-    auto_save_interval: int = 10      # 每翻譯 N 個遊戲自動儲存一次
-    max_workers: int = 3               # 翻譯執行緒數（建議 2-4，過高可能被 API 限制）
-    batch_size: int = 20               # 批次處理大小（較小的批次可更快看到進度）
+    # ==================== API 設定 ====================
+    translate_api: str = "googletrans"  # 翻譯 API：googletrans/google_cloud/deepl/azure
+    api_key: str = ""                   # 付費翻譯 API 金鑰
+    gemini_api_key: str = ""            # Gemini AI API Key（遊戲名稱翻譯用）
+    request_delay: int = 500            # API 請求間隔（毫秒），避免被限制可調高至 1000-2000
 
-    # 進階設定
-    log_level: str = "INFO"
-    max_log_files: int = 10
+    # ==================== Gemini 批次翻譯設定 ====================
+    use_gemini_batch: bool = False      # 是否啟用 Gemini 批次翻譯模式
+    gemini_batch_size: int = 80         # Gemini 每批次翻譯的遊戲數量（建議 50-80）
+
+    # ==================== 視窗設定 ====================
+    window_width: int = 900             # 視窗寬度
+    window_height: int = 700            # 視窗高度
+    window_x: int = -1                  # 視窗 X 座標（-1 表示置中）
+    window_y: int = -1                  # 視窗 Y 座標（-1 表示置中）
+
+    # ==================== 效能設定 ====================
+    auto_save_interval: int = 10        # 每翻譯 N 個遊戲自動儲存一次進度
+    max_workers: int = 3                # 翻譯執行緒數（建議 2-4，過高可能被 API 限制）
+    batch_size: int = 20                # 一般批次處理大小（非 Gemini）
+
+    # ==================== 進階設定 ====================
+    log_level: str = "INFO"             # 日誌等級：DEBUG/INFO/WARNING/ERROR
+    max_log_files: int = 10             # 最多保留的日誌檔案數量
 
     def to_dict(self) -> Dict[str, Any]:
         """轉換為字典"""
