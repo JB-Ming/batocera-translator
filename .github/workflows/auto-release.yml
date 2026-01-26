@@ -104,7 +104,10 @@ jobs:
         id: release_notes
         run: |
           $prevTag = "${{ steps.get_tag.outputs.latest_tag }}"
-          $notes = "## 更新內容`n`n"
+
+          $lines = @()
+          $lines += "## 更新內容"
+          $lines += ""
 
           if ($prevTag -eq "v0.0.0") {
             $commits = git log --pretty=format:"- %s" -10
@@ -112,11 +115,20 @@ jobs:
             $commits = git log "$prevTag..HEAD" --pretty=format:"- %s"
           }
 
-          $notes += $commits -join "`n"
-          $notes += "`n`n---`n`n**下載說明：**`n- 下載 \`BatoceraTranslator-*-Windows.zip\``n- 解壓縮後執行 \`BatoceraTranslator.exe\`"
+          if ($commits) {
+            $lines += $commits
+          } else {
+            $lines += "- 版本更新"
+          }
 
-          # 寫入檔案避免特殊字元問題
-          $notes | Out-File -FilePath "release_notes.md" -Encoding utf8
+          $lines += ""
+          $lines += "---"
+          $lines += ""
+          $lines += "**下載說明：**"
+          $lines += "- 下載 ``BatoceraTranslator-*-Windows.zip``"
+          $lines += "- 解壓縮後執行 ``BatoceraTranslator.exe``"
+
+          $lines | Out-File -FilePath "release_notes.md" -Encoding utf8
         shell: pwsh
 
       - name: Create Release
