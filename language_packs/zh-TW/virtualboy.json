@@ -100,13 +100,13 @@
   "Jack Bros": {
     "key": "Jack Bros",
     "original_name": "Jack Bros. no Meiro de Hiihoo! (Japan)",
-    "name": "傑克兄弟在 Hii Hoo 中間！",
-    "name_source": "api",
+    "name": "傑克兄弟的迷宮大作戰！",
+    "name_source": "gemini",
     "original_desc": "Jack Bros., is an adventure video game released in 1995 on Virtual Boy. Once a year, at Halloween, the door between our country and the fairies opens. All fairy should return to Fairieland 23:00, otherwise, they will be banished forever. You must choose one of three Jack Bros. as your character. Each has its own attributes and weapons and special attacks.",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-26T14:55:31",
+    "name_translated_at": "2026-01-26T17:26:39",
     "desc_translated_at": "",
     "original_name_hash": "5ba5bc91",
     "original_desc_hash": "6092a90e"
