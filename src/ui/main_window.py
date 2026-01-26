@@ -1560,7 +1560,7 @@ class MainWindow(QMainWindow):
             self.app_settings.use_gemini_batch = self.settings.get(
                 'use_gemini_batch', False)
             self.app_settings.gemini_batch_size = self.settings.get(
-                'gemini_batch_size', 20)
+                'gemini_batch_size', 80)
             # 同步效能設定
             self.app_settings.request_delay = self.settings.get(
                 'request_delay', 500)
@@ -1701,7 +1701,7 @@ class MainWindow(QMainWindow):
             return
 
         # 取得批次大小設定
-        batch_size = self.settings.get('gemini_batch_size', 20)
+        batch_size = self.settings.get('gemini_batch_size', 80)
 
         self._disable_stage_buttons()
         self.progress_panel.reset()

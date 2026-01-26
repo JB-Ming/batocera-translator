@@ -387,7 +387,7 @@ class SettingsDialog(QDialog):
         self.gemini_batch_check.setChecked(
             self.settings.get('use_gemini_batch', False))
         self.gemini_batch_size_spin.setValue(
-            self.settings.get('gemini_batch_size', 20))
+            self.settings.get('gemini_batch_size', 80))
 
         # 翻譯 API
         api_map = {
