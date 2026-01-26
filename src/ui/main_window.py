@@ -1113,7 +1113,8 @@ class MainWindow(QMainWindow):
 
     def _init_ui(self):
         """初始化 UI"""
-        self.setWindowTitle("Batocera Gamelist 翻譯工具 v1.1")
+        from src.version import __version__
+        self.setWindowTitle(f"Batocera Gamelist 翻譯工具 v{__version__}")
         self.setMinimumSize(900, 700)
 
         # 設定視窗圖示
@@ -1589,10 +1590,11 @@ class MainWindow(QMainWindow):
 
     def _show_about(self):
         """顯示關於對話框"""
+        from src.version import __version__
         QMessageBox.about(
             self,
             "關於 Batocera Gamelist 翻譯工具",
-            "<b>Batocera Gamelist 翻譯工具 v1.1</b><br><br>"
+            f"<b>Batocera Gamelist 翻譯工具 v{__version__}</b><br><br>"
             "專為 Batocera 復古遊戲模擬器設計的多語系翻譯工具。<br><br>"
             "讓你的復古遊戲收藏說中文！<br><br>"
             "© 2025 MIT License"

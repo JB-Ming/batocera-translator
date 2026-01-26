@@ -18,5 +18,5 @@ Batocera Gamelist 自動翻譯工具
 - utils/: 工具函式
 """
 
-__version__ = "1.0.0"
+from .version import __version__
 __author__ = "Your Name"
