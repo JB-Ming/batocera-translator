@@ -24,8 +24,10 @@ jobs:
       - name: Get latest tag
         id: get_tag
         run: |
-          $latestTag = git describe --tags --abbrev=0 2>$null
-          if (-not $latestTag) {
+          $ErrorActionPreference = "SilentlyContinue"
+          $latestTag = git describe --tags --abbrev=0 2>&1
+          $ErrorActionPreference = "Continue"
+          if ($LASTEXITCODE -ne 0 -or -not $latestTag -or $latestTag -match "fatal:") {
             $latestTag = "v0.0.0"
           }
           Write-Output "Latest tag: $latestTag"
