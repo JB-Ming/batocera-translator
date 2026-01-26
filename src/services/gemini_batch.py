@@ -88,7 +88,13 @@ class GeminiBatchService:
 
         try:
             genai.configure(api_key=self.api_key)
-            self._model = genai.GenerativeModel('gemini-2.0-flash')
+            # 設定請求超時為 30 秒
+            self._model = genai.GenerativeModel(
+                'gemini-2.0-flash',
+                generation_config=genai.GenerationConfig(
+                    max_output_tokens=8192,
+                ),
+            )
             self._initialized = True
             return True
         except Exception as e:
@@ -361,7 +367,8 @@ JSON 回覆："""
     def translate_all(self, game_names: List[str],
                       language: str = 'zh-TW',
                       platform: str = "",
-                      progress_callback=None) -> BatchTranslationResult:
+                      progress_callback=None,
+                      cancel_check=None) -> BatchTranslationResult:
         """
         翻譯所有遊戲名稱（自動分批）
 
@@ -370,6 +377,7 @@ JSON 回覆："""
             language: 目標語系
             platform: 遊戲平台名稱（提升翻譯準確度）
             progress_callback: 進度回呼函數 (current, total, message)
+            cancel_check: 取消檢查函數，回傳 True 表示要取消
 
         Returns:
             BatchTranslationResult 包含翻譯結果和失敗清單
@@ -424,6 +432,13 @@ JSON 回覆："""
         failed = []
 
         for batch_idx, i in enumerate(range(0, len(uncached_names), self.batch_size)):
+            # 檢查是否取消
+            if cancel_check and cancel_check():
+                # 將未處理的加入失敗清單
+                remaining = uncached_names[i:]
+                failed.extend(remaining)
+                break
+
             batch = uncached_names[i:i + self.batch_size]
 
             if progress_callback:
@@ -439,6 +454,10 @@ JSON 回覆："""
             # 重試機制
             batch_result = None
             for retry in range(self.MAX_RETRIES):
+                # 在重試時也檢查取消
+                if cancel_check and cancel_check():
+                    break
+
                 try:
                     prompt = self._build_prompt(batch, language, platform)
                     response = self._model.generate_content(prompt)
@@ -451,7 +470,19 @@ JSON 回覆："""
                 except Exception as e:
                     print(f"批次翻譯失敗 (嘗試 {retry + 1}/{self.MAX_RETRIES}): {e}")
                     if retry < self.MAX_RETRIES - 1:
-                        time.sleep(2 ** retry)  # 指數退避
+                        # 在等待重試時分段檢查取消（每秒檢查一次）
+                        wait_time = 2 ** retry
+                        for _ in range(wait_time):
+                            if cancel_check and cancel_check():
+                                break
+                            time.sleep(1)
+
+            # 如果已取消，跳出批次迴圈
+            if cancel_check and cancel_check():
+                remaining = uncached_names[i + self.batch_size:]
+                if remaining:
+                    failed.extend(remaining)
+                break
 
             # 處理結果
             if batch_result:

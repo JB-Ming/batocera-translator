@@ -568,6 +568,10 @@ class TranslateWorker(StageWorker):
 
                     def translate_entry(entry, idx):
                         """翻譯單個條目（執行緒安全）"""
+                        # 在開始前先檢查取消
+                        if self._is_cancelled:
+                            return (False, "0")
+
                         import threading
                         thread_id = threading.current_thread().name
                         thread_num = thread_id.split(
@@ -602,6 +606,10 @@ class TranslateWorker(StageWorker):
                             entry.original_name) > 25 else entry.original_name
                         self.progress.emit(progress, 100,
                                            f"[T{thread_num}] [{platform}] {display_name}... ({processed_entries}/{total_entries}, 剩餘 {eta_str})")
+
+                        # 再次檢查取消（在實際翻譯前）
+                        if self._is_cancelled:
+                            return (False, thread_num)
 
                         # 檢查是否需要強制重新翻譯
                         force_retranslate = entry.needs_retranslate
@@ -657,29 +665,45 @@ class TranslateWorker(StageWorker):
 
                         return (translated, thread_num)
 
-                    # 使用執行緒池處理
+                    # 使用執行緒池處理（分批提交以支援更快的取消）
+                    batch_size = max_workers * 3  # 每批次提交的任務數
                     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                        futures = {executor.submit(translate_entry, entry, idx): entry
-                                   for idx, entry in enumerate(entries_list)}
+                        for batch_start in range(0, len(entries_list), batch_size):
+                            if self._is_cancelled:
+                                self.log.emit("WARNING", "Stage3", "使用者已取消翻譯")
+                                break
 
-                        for future in as_completed(futures):
+                            batch_end = min(
+                                batch_start + batch_size, len(entries_list))
+                            batch_entries = entries_list[batch_start:batch_end]
+
+                            futures = {executor.submit(translate_entry, entry, idx): entry
+                                       for idx, entry in enumerate(batch_entries, start=batch_start)}
+
+                            for future in as_completed(futures):
+                                if self._is_cancelled:
+                                    # 取消所有等待中的任務
+                                    for f in futures:
+                                        f.cancel()
+                                    break
+                                try:
+                                    translated, thread_num = future.result()
+                                    active_threads.add(thread_num)
+                                    if translated:
+                                        platform_translated += 1
+                                except Exception as e:
+                                    import traceback
+                                    error_details = traceback.format_exc()
+                                    self.log.emit("ERROR", "Stage3",
+                                                  f"翻譯失敗: {str(e)}")
+                                    self.log.emit("ERROR", "Stage3",
+                                                  f"詳細錯誤:\n{error_details}")
+
                             if self._is_cancelled:
                                 break
-                            try:
-                                translated, thread_num = future.result()
-                                active_threads.add(thread_num)
-                                if translated:
-                                    platform_translated += 1
-                            except Exception as e:
-                                import traceback
-                                error_details = traceback.format_exc()
-                                self.log.emit("ERROR", "Stage3",
-                                              f"翻譯失敗: {str(e)}")
-                                self.log.emit("ERROR", "Stage3",
-                                              f"詳細錯誤:\n{error_details}")
 
                     # 顯示多執行緒總結
-                    if len(active_threads) > 0:
+                    if len(active_threads) > 0 and not self._is_cancelled:
                         self.log.emit("SUCCESS", "Stage3",
                                       f"[{platform}] 多執行緒完成：使用了 {len(active_threads)} 個執行緒，翻譯 {platform_translated} 個遊戲")
                 else:
@@ -966,13 +990,23 @@ class GeminiBatchWorker(StageWorker):
                     self.progress.emit(overall_progress, 100,
                                        f"[{platform}] {message}")
 
-                # 執行批次翻譯（傳入平台名稱）
+                # 定義取消檢查函數
+                def cancel_check():
+                    return self._is_cancelled
+
+                # 執行批次翻譯（傳入平台名稱和取消檢查）
                 result = gemini_batch.translate_all(
                     unique_names,
                     self.language,
                     platform=platform,  # 傳入平台名稱
-                    progress_callback=progress_callback
+                    progress_callback=progress_callback,
+                    cancel_check=cancel_check  # 傳入取消檢查
                 )
+
+                # 檢查是否已取消
+                if self._is_cancelled:
+                    self.log.emit("WARNING", "GeminiBatch", "使用者已取消翻譯")
+                    break
 
                 # 載入字典準備更新
                 dictionary = dict_manager.load_dictionary(
@@ -1526,9 +1560,24 @@ class MainWindow(QMainWindow):
 
     def _cancel_translation(self):
         """取消翻譯"""
+        cancelled = False
+
+        # 取消一鍵全部的 worker
         if self.worker and self.worker.isRunning():
             self.worker.cancel()
-            self.statusBar().showMessage("正在取消...")
+            cancelled = True
+
+        # 取消階段 worker
+        if hasattr(self, 'stage_worker') and self.stage_worker and self.stage_worker.isRunning():
+            self.stage_worker.cancel()
+            cancelled = True
+
+        if cancelled:
+            self.statusBar().showMessage("正在取消...（等待當前批次完成）")
+            self.log_panel.add_log("WARNING", "Main", "使用者要求取消，等待當前批次完成後停止...")
+            # 先禁用取消按鈕避免重複點擊
+            self.cancel_btn.setEnabled(False)
+            self.cancel_btn.setText("取消中...")
 
     def _on_progress(self, current: int, total: int, message: str):
         """進度更新"""
@@ -1794,6 +1843,7 @@ class MainWindow(QMainWindow):
         self.writeback_btn.setEnabled(True)
         self.start_btn.setEnabled(True)
         self.cancel_btn.setEnabled(False)
+        self.cancel_btn.setText("⏹ 停止")  # 恢復按鈕文字
         self.statusBar().showMessage("就緒")
 
     def _on_stage_progress(self, current: int, total: int, message: str):

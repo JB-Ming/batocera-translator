@@ -170,16 +170,16 @@
   "Donkey Kong Jr": {
     "key": "Donkey Kong Jr",
     "original_name": "Donkey Kong Jr. (table Top) (Nintendo, Table Top)",
-    "name": "",
-    "name_source": "",
+    "name": "小金剛",
+    "name_source": "api",
     "original_desc": "Donkey Kong has been captured and chained by Mario. Donkey Kong Jr. goes to papa's rescue with key he needs to open the locks on the chains. Junior is attacked by fierce birds. He uses umbrellas to leap from heights, and balloons to get up there, opening the locks on the way. When he opens all 4 locks, papa is free. Each time he opens one lock, he must go back to START to retrieve the key, then sets out again is lost. With three misses game ends. 1 point when Junior jumps to umbrella or balloon. 2 to 10 points when Junior hits fierce bird with coconut. 10 points when Junior opens one lock. 10 points (extra bonus) when Junior opens all four locks. When score reaches 300 points and there are one or two misses, all the misses are cleared with fanfare. If there are no misses when a 300 score is reached, game goes into \"CHANCE TIME\". Score flashes and all the points are awarded at double value until a miss is scored. Maximum displayed score is 999 points. At 999 points score resets and game starts again (at higher speed).",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-26T14:55:38",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "794dc9eb",
+    "original_desc_hash": "e9deddc6"
   },
   "Dungeons & Dragons Computer Fantasy Game (Mattel Electronics, Arcade Action Series)": {
     "key": "Dungeons & Dragons Computer Fantasy Game (Mattel Electronics, Arcade Action Series)",
@@ -352,16 +352,16 @@
   "Mario Bros": {
     "key": "Mario Bros",
     "original_name": "Mario Bros. (Nintendo, Multi Screen)",
-    "name": "",
-    "name_source": "",
+    "name": "超級瑪利歐兄弟35",
+    "name_source": "wiki",
     "original_desc": "Mario is back in action with his brother Luigi, working in a bottling plant, loading cases on a belt conveyor. The conveyor carries the cases up for loading onto trucks. Operate Mario and Luigi up and down ladders in order to get cases. When a case is dropped, the foreman get angry and a miss is scored. Three misses and game is over 1 point per case loaded on a conveyor. 10 points per truck loaded with 8 cases. At 300 points fanfare sounds and all misses are canceled; if there are no misses when 300 points are reached, game goes into \"CHANCE TIME\". Score flashes and all points are awarded at double value until a miss is made. Maximum displayed score is 999 points.",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-26T14:55:37",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "a1f00564",
+    "original_desc_hash": "20963d16"
   },
   "Crazy Chewy (VTech, Electronic Tini-Arcade)": {
     "key": "Crazy Chewy (VTech, Electronic Tini-Arcade)",
@@ -712,61 +712,5 @@
     "desc_translated_at": "",
     "original_name_hash": "01f033f3",
     "original_desc_hash": "0ba951dc"
-  },
-  "Donkey Kong Jr. (Coleco)": {
-    "key": "Donkey Kong Jr. (Coleco)",
-    "original_name": "Donkey Kong Jr. (Coleco)",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Donkey Kong has been captured and chained by Mario. Donkey Kong Jr. goes to papa's rescue with key he needs to open the locks on the chains. Junior is attacked by fierce birds. He uses umbrellas to leap from heights, and balloons to get up there, opening the locks on the way. When he opens all 4 locks, papa is free. Each time he opens one lock, he must go back to START to retrieve the key, then sets out again is lost. With three misses game ends. 1 point when Junior jumps to umbrella or balloon. 2 to 10 points when Junior hits fierce bird with coconut. 10 points when Junior opens one lock. 10 points (extra bonus) when Junior opens all four locks. When score reaches 300 points and there are one or two misses, all the misses are cleared with fanfare. If there are no misses when a 300 score is reached, game goes into \"CHANCE TIME\". Score flashes and all the points are awarded at double value until a miss is scored. Maximum displayed score is 999 points. At 999 points score resets and game starts again (at higher speed).",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
-  },
-  "Donkey Kong Jr. (Nintendo, Panorama Screen)": {
-    "key": "Donkey Kong Jr. (Nintendo, Panorama Screen)",
-    "original_name": "Donkey Kong Jr. (panorama Screen) (Nintendo, Panorama Screen)",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Donkey Kong has been captured and chained by Mario. Donkey Kong Jr. goes to papa's rescue with key he needs to open the locks on the chains. Junior is attacked by fierce birds. He uses umbrellas to leap from heights, and balloons to get up there, opening the locks on the way. When he opens all 4 locks, papa is free. Each time he opens one lock, he must go back to START to retrieve the key, then sets out again is lost. With three misses game ends. 1 point when Junior jumps to umbrella or balloon. 2 to 10 points when Junior hits fierce bird with coconut. 10 points when Junior opens one lock. 10 points (extra bonus) when Junior opens all four locks. When score reaches 300 points and there are one or two misses, all the misses are cleared with fanfare. If there are no misses when a 300 score is reached, game goes into \"CHANCE TIME\". Score flashes and all the points are awarded at double value until a miss is scored. Maximum displayed score is 999 points. At 999 points score resets and game starts again (at higher speed).",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
-  },
-  "Donkey Kong Jr. (Nintendo, Table Top)": {
-    "key": "Donkey Kong Jr. (Nintendo, Table Top)",
-    "original_name": "Donkey Kong Jr. (table Top) (Nintendo, Table Top)",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Donkey Kong has been captured and chained by Mario. Donkey Kong Jr. goes to papa's rescue with key he needs to open the locks on the chains. Junior is attacked by fierce birds. He uses umbrellas to leap from heights, and balloons to get up there, opening the locks on the way. When he opens all 4 locks, papa is free. Each time he opens one lock, he must go back to START to retrieve the key, then sets out again is lost. With three misses game ends. 1 point when Junior jumps to umbrella or balloon. 2 to 10 points when Junior hits fierce bird with coconut. 10 points when Junior opens one lock. 10 points (extra bonus) when Junior opens all four locks. When score reaches 300 points and there are one or two misses, all the misses are cleared with fanfare. If there are no misses when a 300 score is reached, game goes into \"CHANCE TIME\". Score flashes and all the points are awarded at double value until a miss is scored. Maximum displayed score is 999 points. At 999 points score resets and game starts again (at higher speed).",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
-  },
-  "Mario Bros. (Nintendo, Multi Screen)": {
-    "key": "Mario Bros. (Nintendo, Multi Screen)",
-    "original_name": "Mario Bros. (Nintendo, Multi Screen)",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Mario is back in action with his brother Luigi, working in a bottling plant, loading cases on a belt conveyor. The conveyor carries the cases up for loading onto trucks. Operate Mario and Luigi up and down ladders in order to get cases. When a case is dropped, the foreman get angry and a miss is scored. Three misses and game is over 1 point per case loaded on a conveyor. 10 points per truck loaded with 8 cases. At 300 points fanfare sounds and all misses are canceled; if there are no misses when 300 points are reached, game goes into \"CHANCE TIME\". Score flashes and all points are awarded at double value until a miss is made. Maximum displayed score is 999 points.",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
   }
 }

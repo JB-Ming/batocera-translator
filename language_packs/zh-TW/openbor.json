@@ -2,29 +2,15 @@
   "SOR2X_V2": {
     "key": "SOR2X_V2",
     "original_name": "Streets of Rage 2X",
-    "name": "",
-    "name_source": "",
+    "name": "憤怒之街2X",
+    "name_source": "api",
     "original_desc": "A fan made remake of Streets of Rage 2 by Kradus.",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-26T14:55:23",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
-  },
-  "SOR2X_V2.1": {
-    "key": "SOR2X_V2.1",
-    "original_name": "Streets of Rage 2X",
-    "name": "",
-    "name_source": "",
-    "original_desc": "A fan made remake of Streets of Rage 2 by Kradus.",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "0b9e491a",
+    "original_desc_hash": "3891dd4e"
   }
 }

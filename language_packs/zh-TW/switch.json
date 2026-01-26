@@ -100,16 +100,16 @@
   "New Super Mario Bros": {
     "key": "New Super Mario Bros",
     "original_name": "New Super Mario Bros. U Deluxe",
-    "name": "",
-    "name_source": "",
+    "name": "新超級馬里奧兄弟 U 豪華版",
+    "name_source": "api",
     "original_desc": "Join Mario, Luigi, and pals for single-player or multiplayer fun anytime, anywhere! Take on two family-friendly, side-scrolling adventures with up to three friends as you try to save the Mushroom Kingdom. Includes the New Super Mario Bros. U and harder, faster New Super Luigi U games—both of which include Nabbit and Toadette as playable characters!",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-26T14:55:29",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "531cbe84",
+    "original_desc_hash": "39c31c58"
   },
   "Marvel Ultimate Alliance 3 The Black Order DLC": {
     "key": "Marvel Ultimate Alliance 3 The Black Order DLC",
@@ -156,16 +156,16 @@
   "Mario vs": {
     "key": "Mario vs",
     "original_name": "Mario vs Donkey Kong",
-    "name": "",
-    "name_source": "",
+    "name": "馬里奧 vs 大金剛",
+    "name_source": "api",
     "original_desc": "Solve all kinds of puzzles and test your platforming smarts as you try to recover the stolen Mini-Marios in Mario vs. Donkey Kong on Nintendo Switch.",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-26T14:55:30",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "9996aa23",
+    "original_desc_hash": "3b89f995"
   },
   "No Man's Sky": {
     "key": "No Man's Sky",
@@ -310,16 +310,16 @@
   "Super Mario Bros": {
     "key": "Super Mario Bros",
     "original_name": "Super Mario Bros. Wonder",
-    "name": "",
-    "name_source": "",
+    "name": "超級瑪利歐兄弟 驚奇",
+    "name_source": "wiki",
     "original_desc": "Find wonder in the next evolution of Mario fun. Classic Mario side-scrolling gameplay is turned on its head with the addition of Wonder Flowers. These game-changing items trigger spectacular moments you have to see to believe... Witness pipes coming alive, wreak havoc as a giant spiky ball, and see even more unexpected events called Wonder Effects. Pick from heroic Super Mario™ characters and Power-Ups. Choose from familiar characters including Mario, Luigi, Peach, Daisy, Yoshi and Toad. Transform into Elephant Mario to use your trunk to trounce enemies with a surprising new Power-Up! Share the wonder with friends and Mario fans. Team up with up to three friends locally* and gather around one Nintendo Switch™ system to experience the game-bending Wonder Effects together as you tackle courses as a team and help each other on your way to the goal.",
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "",
+    "name_translated_at": "2026-01-26T14:55:30",
     "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
+    "original_name_hash": "bc2a00f1",
+    "original_desc_hash": "c54bb178"
   },
   "Undertale": {
     "key": "Undertale",
@@ -361,48 +361,6 @@
     "name_translated_at": "2026-01-25T15:47:51",
     "desc_translated_at": "",
     "original_name_hash": "4cde59f6",
-    "original_desc_hash": ""
-  },
-  "New Super Mario Bros. U Deluxe": {
-    "key": "New Super Mario Bros. U Deluxe",
-    "original_name": "New Super Mario Bros. U Deluxe",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Join Mario, Luigi, and pals for single-player or multiplayer fun anytime, anywhere! Take on two family-friendly, side-scrolling adventures with up to three friends as you try to save the Mushroom Kingdom. Includes the New Super Mario Bros. U and harder, faster New Super Luigi U games—both of which include Nabbit and Toadette as playable characters!",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
-  },
-  "Mario vs. Donkey Kong": {
-    "key": "Mario vs. Donkey Kong",
-    "original_name": "Mario vs Donkey Kong",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Solve all kinds of puzzles and test your platforming smarts as you try to recover the stolen Mini-Marios in Mario vs. Donkey Kong on Nintendo Switch.",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
-    "original_desc_hash": ""
-  },
-  "Super Mario Bros. Wonder": {
-    "key": "Super Mario Bros. Wonder",
-    "original_name": "Super Mario Bros. Wonder",
-    "name": "",
-    "name_source": "",
-    "original_desc": "Find wonder in the next evolution of Mario fun. Classic Mario side-scrolling gameplay is turned on its head with the addition of Wonder Flowers. These game-changing items trigger spectacular moments you have to see to believe... Witness pipes coming alive, wreak havoc as a giant spiky ball, and see even more unexpected events called Wonder Effects. Pick from heroic Super Mario™ characters and Power-Ups. Choose from familiar characters including Mario, Luigi, Peach, Daisy, Yoshi and Toad. Transform into Elephant Mario to use your trunk to trounce enemies with a surprising new Power-Up! Share the wonder with friends and Mario fans. Team up with up to three friends locally* and gather around one Nintendo Switch™ system to experience the game-bending Wonder Effects together as you tackle courses as a team and help each other on your way to the goal.",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
-    "name_translated_at": "",
-    "desc_translated_at": "",
-    "original_name_hash": "",
     "original_desc_hash": ""
   }
 }
