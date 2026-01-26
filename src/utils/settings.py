@@ -41,6 +41,10 @@ class AppSettings:
     gemini_api_key: str = ""  # Gemini AI API Key
     request_delay: int = 500  # ms（降低延遲提升速度，避免被限制可調高至1000-2000）
 
+    # Gemini 批次翻譯設定
+    use_gemini_batch: bool = False      # 是否使用 Gemini 批次翻譯模式
+    gemini_batch_size: int = 80         # Gemini 批次大小（建議 50-80）
+
     # 視窗設定
     window_width: int = 900
     window_height: int = 700

@@ -204,7 +204,7 @@
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:40:53",
+    "name_translated_at": "2026-01-25T16:45:04",
     "desc_translated_at": "",
     "original_name_hash": "06fac289",
     "original_desc_hash": "564e38e2"
@@ -666,23 +666,23 @@
     "desc": "",
     "desc_source": "",
     "needs_retranslate": false,
-    "name_translated_at": "2026-01-25T16:45:04",
-    "desc_translated_at": "",
-    "original_name_hash": "06fac289",
-    "original_desc_hash": "564e38e2"
-  },
-  "Tennis Pro '92 (1992) (B.I.T": {
-    "key": "Tennis Pro '92 (1992) (B.I.T",
-    "original_name": "Tennis Pro '92 (1992) (B.I.T.S)",
-    "name": "職業網球 '92",
-    "name_source": "api",
-    "original_desc": "Tennis Pro '92 is a no-frills tennis game for one player. The game offers singles play only against a computer opponent at three different levels of difficulty. The player can serve, swing at the ball, and run freely around the court during play. An animated scoreboard keeps track of game progress.",
-    "desc": "",
-    "desc_source": "",
-    "needs_retranslate": false,
     "name_translated_at": "2026-01-25T16:45:25",
     "desc_translated_at": "",
     "original_name_hash": "06fac289",
     "original_desc_hash": "564e38e2"
+  },
+  "Tennis Pro '92 (1992) (B.I.T.S)": {
+    "key": "Tennis Pro '92 (1992) (B.I.T.S)",
+    "original_name": "Tennis Pro '92 (1992) (B.I.T.S)",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Tennis Pro '92 is a no-frills tennis game for one player. The game offers singles play only against a computer opponent at three different levels of difficulty. The player can serve, swing at the ball, and run freely around the court during play. An animated scoreboard keeps track of game progress.",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   }
 }

@@ -362,5 +362,47 @@
     "desc_translated_at": "",
     "original_name_hash": "4cde59f6",
     "original_desc_hash": ""
+  },
+  "New Super Mario Bros. U Deluxe": {
+    "key": "New Super Mario Bros. U Deluxe",
+    "original_name": "New Super Mario Bros. U Deluxe",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Join Mario, Luigi, and pals for single-player or multiplayer fun anytime, anywhere! Take on two family-friendly, side-scrolling adventures with up to three friends as you try to save the Mushroom Kingdom. Includes the New Super Mario Bros. U and harder, faster New Super Luigi U games—both of which include Nabbit and Toadette as playable characters!",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Mario vs. Donkey Kong": {
+    "key": "Mario vs. Donkey Kong",
+    "original_name": "Mario vs Donkey Kong",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Solve all kinds of puzzles and test your platforming smarts as you try to recover the stolen Mini-Marios in Mario vs. Donkey Kong on Nintendo Switch.",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Super Mario Bros. Wonder": {
+    "key": "Super Mario Bros. Wonder",
+    "original_name": "Super Mario Bros. Wonder",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Find wonder in the next evolution of Mario fun. Classic Mario side-scrolling gameplay is turned on its head with the addition of Wonder Flowers. These game-changing items trigger spectacular moments you have to see to believe... Witness pipes coming alive, wreak havoc as a giant spiky ball, and see even more unexpected events called Wonder Effects. Pick from heroic Super Mario™ characters and Power-Ups. Choose from familiar characters including Mario, Luigi, Peach, Daisy, Yoshi and Toad. Transform into Elephant Mario to use your trunk to trounce enemies with a surprising new Power-Up! Share the wonder with friends and Mario fans. Team up with up to three friends locally* and gather around one Nintendo Switch™ system to experience the game-bending Wonder Effects together as you tackle courses as a team and help each other on your way to the goal.",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   }
 }

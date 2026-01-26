@@ -418,5 +418,33 @@
     "desc_translated_at": "2026-01-25T16:28:04",
     "original_name_hash": "df6c25a9",
     "original_desc_hash": "6fb0900c"
+  },
+  "Jack Bros. (USA)": {
+    "key": "Jack Bros. (USA)",
+    "original_name": "Jack Bros. (USA)",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Jack Bros., is an adventure video game released in 1995 on Virtual Boy. Once a year, at Halloween, the door between our country and the fairies opens. All fairy should return to Fairieland 23:00, otherwise, they will be banished forever. You must choose one of three Jack Bros. as your character. Each has its own attributes and weapons and special attacks.",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
+  },
+  "Jack Bros. no Meiro de Hiihoo! (Japan)": {
+    "key": "Jack Bros. no Meiro de Hiihoo! (Japan)",
+    "original_name": "Jack Bros. no Meiro de Hiihoo! (Japan)",
+    "name": "",
+    "name_source": "",
+    "original_desc": "Jack Bros., is an adventure video game released in 1995 on Virtual Boy. Once a year, at Halloween, the door between our country and the fairies opens. All fairy should return to Fairieland 23:00, otherwise, they will be banished forever. You must choose one of three Jack Bros. as your character. Each has its own attributes and weapons and special attacks.",
+    "desc": "",
+    "desc_source": "",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   }
 }

@@ -209,12 +209,34 @@ class SettingsDialog(QDialog):
         gemini_btn_layout.addStretch()
         gemini_form.addRow("", gemini_btn_layout)
 
+        # Gemini 批次翻譯模式
+        self.gemini_batch_check = QCheckBox("啟用批次翻譯模式（推薦）")
+        self.gemini_batch_check.setToolTip(
+            "一次傳送多個遊戲給 Gemini 翻譯，大幅減少 API 呼叫次數\n"
+            "• 效率提升 10-20 倍\n"
+            "• 更省 API 額度\n"
+            "• 翻譯失敗的項目會標記「需要重翻」"
+        )
+        gemini_form.addRow("", self.gemini_batch_check)
+
+        # 批次大小設定
+        batch_layout = QHBoxLayout()
+        self.gemini_batch_size_spin = QSpinBox()
+        self.gemini_batch_size_spin.setRange(10, 100)
+        self.gemini_batch_size_spin.setValue(80)
+        self.gemini_batch_size_spin.setSuffix(" 個遊戲/批次")
+        self.gemini_batch_size_spin.setToolTip("每批次翻譯的遊戲數量，建議 50-80")
+        batch_layout.addWidget(self.gemini_batch_size_spin)
+        batch_layout.addStretch()
+        gemini_form.addRow("批次大小:", batch_layout)
+
         # 說明
         gemini_info = QLabel(
             "🔄 翻譯順序：維基百科 → Gemini AI → 網路搜尋 → API 直譯\n"
             "• Gemini 用於翻譯遊戲名稱，品質高於一般 API\n"
             "• 如未設定 API Key，將自動跳過 Gemini，使用其他免費服務\n"
-            "• 免費額度：每分鐘 60 次、每天約 1500 次請求\n"
+            "• 免費額度：每分鐘 15 次請求、每天約 1500 次\n"
+            "• 批次模式可大幅減少請求次數（20 個遊戲 = 1 次請求）\n"
             "• 取得 API Key：https://aistudio.google.com/apikey"
         )
         gemini_info.setWordWrap(True)
@@ -361,6 +383,12 @@ class SettingsDialog(QDialog):
         # Gemini API Key
         self.gemini_key_input.setText(self.settings.get('gemini_api_key', ''))
 
+        # Gemini 批次翻譯設定
+        self.gemini_batch_check.setChecked(
+            self.settings.get('use_gemini_batch', False))
+        self.gemini_batch_size_spin.setValue(
+            self.settings.get('gemini_batch_size', 20))
+
         # 翻譯 API
         api_map = {
             'googletrans': 0,
@@ -386,6 +414,10 @@ class SettingsDialog(QDialog):
         """儲存設定並關閉"""
         # Gemini API Key
         self.settings['gemini_api_key'] = self.gemini_key_input.text().strip()
+
+        # Gemini 批次翻譯設定
+        self.settings['use_gemini_batch'] = self.gemini_batch_check.isChecked()
+        self.settings['gemini_batch_size'] = self.gemini_batch_size_spin.value()
 
         # 效能設定
         self.settings['auto_save_interval'] = self.auto_save_spin.value()

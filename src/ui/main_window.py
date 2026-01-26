@@ -842,6 +842,218 @@ class WritebackWorker(StageWorker):
             self.error.emit(str(e))
 
 
+class GeminiBatchWorker(StageWorker):
+    """Gemini 批次翻譯 Worker"""
+
+    def __init__(self, language: str, selected_platforms: List[str] = None,
+                 gemini_api_key: str = "", batch_size: int = 80,
+                 translate_name: bool = True):
+        super().__init__()
+        self.language = language
+        self.selected_platforms = selected_platforms or []
+        self.gemini_api_key = gemini_api_key
+        self.batch_size = batch_size
+        self.translate_name = translate_name
+
+    def run(self):
+        try:
+            import time
+            from ..core import DictionaryManager
+            from ..services.gemini_batch import GeminiBatchService
+            from ..core.dictionary import TranslationSource
+
+            self.log.emit("INFO", "GeminiBatch", "開始 Gemini 批次翻譯...")
+            self.progress.emit(0, 100, "正在初始化...")
+
+            # 檢查 API Key
+            if not self.gemini_api_key:
+                self.error.emit("請先設定 Gemini API Key")
+                return
+
+            # 初始化服務
+            dict_manager = DictionaryManager()
+            lang_dir = get_dictionaries_dir() / self.language
+
+            if not lang_dir.exists():
+                self.error.emit("請先執行階段二（產生字典）")
+                return
+
+            # 初始化 Gemini 批次服務
+            try:
+                gemini_batch = GeminiBatchService(
+                    api_key=self.gemini_api_key,
+                    batch_size=self.batch_size,
+                    request_delay=1.0  # 批次模式可以稍微放寬間隔
+                )
+            except Exception as e:
+                self.error.emit(f"Gemini 服務初始化失敗: {e}")
+                return
+
+            # 取得平台列表
+            platforms = [f.stem for f in lang_dir.glob('*.json')]
+            if self.selected_platforms:
+                platforms = [
+                    p for p in platforms if p in self.selected_platforms]
+
+            self.log.emit("INFO", "GeminiBatch", f"將處理 {len(platforms)} 個平台")
+
+            # 計算總遊戲數
+            total_games = 0
+            platform_games = {}  # {platform: [(key, entry), ...]}
+
+            for platform in platforms:
+                dictionary = dict_manager.load_dictionary(
+                    self.language, platform)
+                games_to_translate = []
+                for key, entry in dictionary.items():
+                    # 只處理需要翻譯名稱的項目
+                    if self.translate_name and not entry.name:
+                        games_to_translate.append((key, entry))
+                    # 或者標記為需要重翻的
+                    elif entry.needs_retranslate:
+                        games_to_translate.append((key, entry))
+
+                if games_to_translate:
+                    platform_games[platform] = games_to_translate
+                    total_games += len(games_to_translate)
+
+            if total_games == 0:
+                self.log.emit("INFO", "GeminiBatch", "沒有需要翻譯的遊戲")
+                self.progress.emit(100, 100, "完成！沒有需要翻譯的項目")
+                self.finished.emit({
+                    'total': 0,
+                    'translated': 0,
+                    'failed': 0
+                })
+                return
+
+            self.log.emit("INFO", "GeminiBatch",
+                          f"共 {total_games} 個遊戲待翻譯，批次大小 {self.batch_size}")
+            self.progress.emit(5, 100, f"準備處理 {len(platform_games)} 個平台...")
+
+            # 按平台分別翻譯（這樣可以傳入平台名稱提升準確度）
+            start_time = time.time()
+            total_translated = 0
+            total_failed = 0
+            processed_games = 0
+            failed_entries = []
+
+            for platform_idx, (platform, games) in enumerate(platform_games.items()):
+                if self._is_cancelled:
+                    break
+
+                self.log.emit("INFO", "GeminiBatch",
+                              f"[{platform_idx + 1}/{len(platform_games)}] 處理平台: {platform} ({len(games)} 個遊戲)")
+
+                # 取得遊戲名稱列表
+                game_names = [entry.original_name for _, entry in games]
+
+                # 建立名稱到 (key, entry) 的對照表
+                name_to_info = {}
+                for key, entry in games:
+                    if entry.original_name not in name_to_info:
+                        name_to_info[entry.original_name] = []
+                    name_to_info[entry.original_name].append((key, entry))
+
+                # 去重複
+                unique_names = list(name_to_info.keys())
+
+                # 定義進度回呼
+                def progress_callback(current, total, message):
+                    overall_progress = 5 + int(
+                        ((processed_games + current) / total_games) * 90
+                    ) if total_games > 0 else 100
+                    self.progress.emit(overall_progress, 100,
+                                       f"[{platform}] {message}")
+
+                # 執行批次翻譯（傳入平台名稱）
+                result = gemini_batch.translate_all(
+                    unique_names,
+                    self.language,
+                    platform=platform,  # 傳入平台名稱
+                    progress_callback=progress_callback
+                )
+
+                # 載入字典準備更新
+                dictionary = dict_manager.load_dictionary(
+                    self.language, platform)
+
+                # 更新成功的翻譯
+                for name, translation in result.translations.items():
+                    if name in name_to_info:
+                        for key, entry in name_to_info[name]:
+                            if key in dictionary:
+                                dict_entry = dictionary[key]
+                                dict_entry.name = translation
+                                dict_entry.name_source = "gemini_batch"
+                                dict_entry.name_translated_at = time.strftime(
+                                    '%Y-%m-%dT%H:%M:%S')
+                                dict_entry.needs_retranslate = False
+                                dict_entry.update_hashes()
+                                total_translated += 1
+                                self.log.emit("SUCCESS", "GeminiBatch",
+                                              f"✓ [{platform}] {entry.original_name} → {translation}")
+
+                # 標記失敗的項目
+                for name in result.failed:
+                    if name in name_to_info:
+                        for key, entry in name_to_info[name]:
+                            if key in dictionary:
+                                dictionary[key].needs_retranslate = True
+                                failed_entries.append(
+                                    f"{platform}/{entry.original_name}")
+                                total_failed += 1
+
+                # 儲存字典
+                dict_manager.save_dictionary(
+                    self.language, platform, dictionary)
+
+                processed_games += len(games)
+                self.log.emit("INFO", "GeminiBatch",
+                              f"[{platform}] 完成：成功 {result.success_count}，失敗 {len(result.failed)}")
+
+            elapsed = time.time() - start_time
+            self.log.emit("INFO", "GeminiBatch",
+                          f"批次翻譯完成，耗時 {elapsed:.1f} 秒")
+
+            # 將快取寫入資料庫
+            from ..utils.cache import get_global_cache
+            cache = get_global_cache()
+            cached_count = cache.flush_to_db()
+            if cached_count > 0:
+                self.log.emit("SUCCESS", "Cache",
+                              f"✓ 快取持久化完成：{cached_count} 項")
+
+            # 完成
+            self.progress.emit(100, 100, "Gemini 批次翻譯完成！")
+
+            summary = (
+                f"翻譯成功：{total_translated} 個\n"
+                f"翻譯失敗：{total_failed} 個（已標記重翻）"
+            )
+            self.log.emit("SUCCESS", "GeminiBatch", summary)
+
+            if failed_entries and len(failed_entries) <= 10:
+                self.log.emit("WARNING", "GeminiBatch",
+                              f"失敗項目：\n  " + "\n  ".join(failed_entries))
+            elif failed_entries:
+                self.log.emit("WARNING", "GeminiBatch",
+                              f"失敗項目共 {len(failed_entries)} 個，前 10 個：\n  " +
+                              "\n  ".join(failed_entries[:10]))
+
+            self.finished.emit({
+                'total': total_games,
+                'translated': total_translated,
+                'failed': total_failed
+            })
+
+        except Exception as e:
+            import traceback
+            self.log.emit("ERROR", "GeminiBatch", f"錯誤: {e}")
+            self.log.emit("ERROR", "GeminiBatch", traceback.format_exc())
+            self.error.emit(str(e))
+
+
 class MainWindow(QMainWindow):
     """
     主視窗
@@ -878,13 +1090,19 @@ class MainWindow(QMainWindow):
             'translate_api': self.app_settings.translate_api,
             'api_key': self.app_settings.api_key,
             'gemini_api_key': self.app_settings.gemini_api_key,
+            'use_gemini_batch': self.app_settings.use_gemini_batch,
+            'gemini_batch_size': self.app_settings.gemini_batch_size,
+            'request_delay': self.app_settings.request_delay,
+            'max_workers': self.app_settings.max_workers,
+            'batch_size': self.app_settings.batch_size,
+            'auto_save_interval': self.app_settings.auto_save_interval,
         }
 
     def _default_settings(self) -> dict:
         """預設設定"""
         return {
             'translate_name': True,
-            'translate_desc': True,
+            'translate_desc': False,
             'skip_translated': True,
             'write_back': True,
             'auto_backup': True,
@@ -964,7 +1182,7 @@ class MainWindow(QMainWindow):
         translate_layout.addWidget(self.name_checkbox)
 
         self.desc_checkbox = QCheckBox("翻譯遊戲描述")
-        self.desc_checkbox.setChecked(True)
+        self.desc_checkbox.setChecked(False)
         translate_layout.addWidget(self.desc_checkbox)
 
         self.skip_checkbox = QCheckBox("跳過已翻譯項目（取消勾選=強制重翻）")
@@ -1004,9 +1222,19 @@ class MainWindow(QMainWindow):
         stage_layout.addWidget(self.dict_btn)
 
         self.translate_btn = QPushButton("③翻譯")
-        self.translate_btn.setToolTip("階段三：翻譯遊戲名稱與描述")
+        self.translate_btn.setToolTip("階段三：翻譯遊戲名稱與描述（一筆一筆翻譯）")
         self.translate_btn.clicked.connect(self._run_stage_translate)
         stage_layout.addWidget(self.translate_btn)
+
+        self.gemini_batch_btn = QPushButton("③ Gemini批次")
+        self.gemini_batch_btn.setToolTip(
+            "使用 Gemini AI 批次翻譯遊戲名稱\n"
+            "• 一次翻譯多個遊戲，效率高\n"
+            "• 需要在設定中填入 Gemini API Key\n"
+            "• 翻譯失敗的項目會標記「需要重翻」"
+        )
+        self.gemini_batch_btn.clicked.connect(self._run_gemini_batch)
+        stage_layout.addWidget(self.gemini_batch_btn)
 
         self.writeback_btn = QPushButton("④寫回")
         self.writeback_btn.setToolTip("階段四：將翻譯結果寫回 gamelist.xml")
@@ -1327,6 +1555,11 @@ class MainWindow(QMainWindow):
             self.app_settings.translate_api = self.settings.get(
                 'translate_api', 'googletrans')
             self.app_settings.api_key = self.settings.get('api_key', '')
+            # Gemini 批次翻譯設定
+            self.app_settings.use_gemini_batch = self.settings.get(
+                'use_gemini_batch', False)
+            self.app_settings.gemini_batch_size = self.settings.get(
+                'gemini_batch_size', 20)
             # 同步效能設定
             self.app_settings.request_delay = self.settings.get(
                 'request_delay', 500)
@@ -1443,6 +1676,57 @@ class MainWindow(QMainWindow):
         self.stage_worker.error.connect(self._on_stage_error)
         self.stage_worker.start()
 
+    def _run_gemini_batch(self):
+        """Gemini 批次翻譯"""
+        lang_dir = get_dictionaries_dir() / self._get_selected_language()
+        if not lang_dir.exists():
+            QMessageBox.warning(self, "錯誤", "請先執行階段二（產生字典）")
+            return
+
+        # 檢查 Gemini API Key
+        gemini_key = self.settings.get('gemini_api_key', '')
+        if not gemini_key:
+            reply = QMessageBox.question(
+                self,
+                "缺少 API Key",
+                "尚未設定 Gemini API Key。\n\n"
+                "Gemini 批次翻譯需要 API Key 才能運作。\n"
+                "要開啟設定視窗嗎？",
+                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
+            )
+            if reply == QMessageBox.StandardButton.Yes:
+                self._show_settings()
+            return
+
+        # 取得批次大小設定
+        batch_size = self.settings.get('gemini_batch_size', 20)
+
+        self._disable_stage_buttons()
+        self.progress_panel.reset()
+
+        language = self._get_selected_language()
+        selected = self.selected_platforms if self.selected_platforms else []
+
+        self.stage_worker = GeminiBatchWorker(
+            language=language,
+            selected_platforms=selected,
+            gemini_api_key=gemini_key,
+            batch_size=batch_size,
+            translate_name=self.name_checkbox.isChecked()
+        )
+        self.stage_worker.progress.connect(self._on_stage_progress)
+        self.stage_worker.log.connect(self._on_stage_log)
+        self.stage_worker.finished.connect(
+            lambda r: self._on_stage_finished(
+                "Gemini 批次翻譯",
+                f"翻譯 {r['translated']} 個遊戲\n"
+                f"失敗 {r['failed']} 個（已標記重翻）\n\n"
+                "失敗的項目可使用「③翻譯」按鈕重新處理"
+            )
+        )
+        self.stage_worker.error.connect(self._on_stage_error)
+        self.stage_worker.start()
+
     def _run_stage_writeback(self):
         """階段四：寫回（非同步）"""
         gamelists_dir = Path('./gamelists_local')
@@ -1471,6 +1755,7 @@ class MainWindow(QMainWindow):
         self.scan_btn.setEnabled(False)
         self.dict_btn.setEnabled(False)
         self.translate_btn.setEnabled(False)
+        self.gemini_batch_btn.setEnabled(False)
         self.writeback_btn.setEnabled(False)
         self.start_btn.setEnabled(False)
         self.cancel_btn.setEnabled(True)
@@ -1481,6 +1766,7 @@ class MainWindow(QMainWindow):
         self.scan_btn.setEnabled(True)
         self.dict_btn.setEnabled(True)
         self.translate_btn.setEnabled(True)
+        self.gemini_batch_btn.setEnabled(True)
         self.writeback_btn.setEnabled(True)
         self.start_btn.setEnabled(True)
         self.cancel_btn.setEnabled(False)

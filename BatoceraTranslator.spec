@@ -1,4 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
+# cspell:disable
 """
 PyInstaller 打包配置
 用於將 Batocera Gamelist 翻譯工具打包為 Windows 執行檔
