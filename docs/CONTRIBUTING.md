@@ -28,16 +28,19 @@ language_packs/
 
 ```json
 {
-  "平台代碼": {
-    "./遊戲檔名.副檔名": {
-      "key": "./遊戲檔名.副檔名",
-      "original_name": "英文原名",
-      "name": "翻譯名稱",
-      "name_source": "pack",
-      "original_desc": "原始描述（可選）",
-      "desc": "翻譯描述（可選）",
-      "desc_source": "pack"
-    }
+  "遊戲名稱 (年份)(發行商)": {
+    "key": "遊戲名稱 (年份)(發行商)",
+    "original_name": "遊戲名稱 (年份)(發行商)",
+    "name": "翻譯名稱",
+    "name_source": "pack",
+    "original_desc": "原始英文描述",
+    "desc": "翻譯後的描述",
+    "desc_source": "pack",
+    "needs_retranslate": false,
+    "name_translated_at": "",
+    "desc_translated_at": "",
+    "original_name_hash": "",
+    "original_desc_hash": ""
   }
 }
 ```
@@ -46,13 +49,18 @@ language_packs/
 
 | 欄位 | 必填 | 說明 |
 |------|------|------|
-| `key` | ✅ | 遊戲識別 Key，通常是檔案路徑 |
-| `original_name` | ✅ | 英文原名 |
-| `name` | ✅ | 翻譯後的名稱 |
-| `name_source` | ✅ | 固定填 `pack` |
-| `original_desc` | ❌ | 原始描述 |
+| `key` | ✅ | 遊戲識別 Key，與 JSON 物件的 key 相同 |
+| `original_name` | ✅ | 原始遊戲名稱 |
+| `name` | ✅ | 翻譯後的名稱（空字串表示未翻譯） |
+| `name_source` | ✅ | 來源：`pack`（語系包）、`api`（API翻譯）、`keep`（保留原文）、空字串（未翻譯） |
+| `original_desc` | ❌ | 原始英文描述 |
 | `desc` | ❌ | 翻譯後的描述 |
-| `desc_source` | ❌ | 固定填 `pack`（如有描述） |
+| `desc_source` | ❌ | 來源：`pack`（語系包）、`api`（API翻譯）、空字串（未翻譯） |
+| `needs_retranslate` | ❌ | 是否需要重新翻譯 |
+| `name_translated_at` | ❌ | 名稱翻譯時間 |
+| `desc_translated_at` | ❌ | 描述翻譯時間 |
+| `original_name_hash` | ❌ | 原始名稱 Hash（用於偵測變更） |
+| `original_desc_hash` | ❌ | 原始描述 Hash（用於偵測變更） |
 
 ---
 
