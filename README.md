@@ -4,6 +4,13 @@
   <strong>🎮 讓你的復古遊戲收藏說中文！</strong>
 </p>
 
+<p align="center">
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/JB-Ming/batocera-translator?style=for-the-badge&logo=github" alt="Latest Release"></a>
+  <a href="../../releases"><img src="https://img.shields.io/github/downloads/JB-Ming/batocera-translator/total?style=for-the-badge&logo=github" alt="Downloads"></a>
+  <img src="https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows" alt="Platform">
+  <img src="https://img.shields.io/badge/python-3.11+-green?style=for-the-badge&logo=python" alt="Python">
+</p>
+
 ---
 
 ## 這是什麼？
@@ -58,7 +65,7 @@
 
 ### 步驟一：下載並解壓縮
 
-下載最新版本，解壓縮到任意位置。
+前往 [Releases 頁面](../../releases/latest) 下載最新版本，解壓縮到任意位置。
 
 ### 步驟二：啟動程式
 
@@ -400,6 +407,7 @@ BatoceraTranslator/
 | 1.0 | 2025-11-27 | 初始版本 |
 | 1.1 | 2026-01-25 | ✨ 新增 Gemini AI 智能翻譯<br>⚡ 智能平台排序（遊戲少的優先）<br>🔍 空白描述自動搜尋<br>⚡ 效能優化：平行處理與降低延遲<br>📦 優化打包流程 |
 | 1.2 | 2026-01-25 | 🚀 **架構優化**<br>💾 全局快取系統（SQLite 持久化）<br>🌐 HTTP 連接池優化<br>⚡ 重複翻譯速度提升 90%+<br>📊 快取統計功能 |
+| 1.3 | 2026-01-26 | 🔧 **專案重構**<br>📁 檔案結構整理<br>🤖 GitHub Actions 自動發布<br>📦 自動版號遞增<br>📚 文件更新 |
 
 ---
 
@@ -454,6 +462,61 @@ BatoceraTranslator/
 
 ---
 
+## 開發者資訊
+
+### 專案結構
+
+```
+batocera-translator/
+├── main.py                 # 程式入口
+├── requirements.txt        # Python 依賴
+├── BatoceraTranslator.spec # PyInstaller 配置
+│
+├── src/                    # 原始碼
+│   ├── core/              # 核心邏輯 (掃描、字典、翻譯、寫回)
+│   ├── services/          # 服務層 (API 整合)
+│   ├── ui/                # 使用者介面 (PyQt6)
+│   └── utils/             # 工具函式
+│
+├── tests/                  # 測試檔案
+├── docs/                   # 技術文件
+├── scripts/                # 工具腳本
+├── assets/                 # 資源檔案
+├── language_packs/         # 內建語系包
+└── gamelists_local/        # 本地遊戲列表暫存
+```
+
+### 自動發布流程
+
+本專案使用 GitHub Actions 自動發布：
+
+1. **觸發條件**：push 到 main/master 分支
+2. **版號遞增**：自動從上一個 tag 遞增 patch 版本
+3. **Commit 格式**：需要符合以下格式才會觸發發布
+   - `feat: 新功能描述` - 新功能
+   - `fix: 修復描述` - 錯誤修復
+   - `[release] 任何訊息` - 強制發布
+   - `release: 發布描述` - 發布版本
+
+### 本地開發
+
+```bash
+# 安裝依賴
+pip install -r requirements.txt
+
+# 執行程式
+python main.py
+
+# 執行測試
+pytest tests/
+
+# 打包執行檔
+pip install pyinstaller
+pyinstaller BatoceraTranslator.spec
+```
+
+---
+
 ## 技術文件
 
 更多技術細節請參考 `docs/` 資料夾：
@@ -478,6 +541,7 @@ BatoceraTranslator/
 - 🐛 回報問題：請到 [GitHub Issues](../../issues) 開 Issue
 - 💬 討論交流：歡迎在 Issues 中討論
 - 🤝 貢獻翻譯：歡迎提交 Pull Request
+- 📦 下載最新版：[Releases](../../releases/latest)
 
 ---
 

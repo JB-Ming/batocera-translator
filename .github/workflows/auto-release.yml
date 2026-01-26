@@ -1,0 +1,142 @@
+name: Auto Release
+
+on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - "**.md"
+      - "docs/**"
+      - ".gitignore"
+      - "language_packs/**"
+
+jobs:
+  check-and-release:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          $latestTag = git describe --tags --abbrev=0 2>$null
+          if (-not $latestTag) {
+            $latestTag = "v0.0.0"
+          }
+          Write-Output "Latest tag: $latestTag"
+          echo "latest_tag=$latestTag" >> $env:GITHUB_OUTPUT
+        shell: pwsh
+
+      - name: Calculate next version
+        id: next_version
+        run: |
+          $currentTag = "${{ steps.get_tag.outputs.latest_tag }}"
+          $version = $currentTag -replace '^v', ''
+          $parts = $version -split '\.'
+
+          $major = [int]$parts[0]
+          $minor = [int]$parts[1]
+          $patch = [int]$parts[2]
+
+          # 遞增 patch 版本
+          $patch++
+
+          $newVersion = "v$major.$minor.$patch"
+          Write-Output "Current: $currentTag -> New: $newVersion"
+          echo "version=$newVersion" >> $env:GITHUB_OUTPUT
+        shell: pwsh
+
+      - name: Check if should release
+        id: should_release
+        run: |
+          $commitMsg = git log -1 --pretty=%B
+          Write-Output "Commit message: $commitMsg"
+
+          # 檢查 commit message 是否包含特定關鍵字
+          $shouldRelease = $false
+
+          if ($commitMsg -match "^(feat|fix|perf|refactor):" -or 
+              $commitMsg -match "\[release\]" -or
+              $commitMsg -match "release:" -or
+              $commitMsg -match "版本") {
+            $shouldRelease = $true
+          }
+
+          Write-Output "Should release: $shouldRelease"
+          echo "release=$shouldRelease" >> $env:GITHUB_OUTPUT
+        shell: pwsh
+
+      - name: Set up Python
+        if: steps.should_release.outputs.release == 'True'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        if: steps.should_release.outputs.release == 'True'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build executable
+        if: steps.should_release.outputs.release == 'True'
+        run: |
+          pyinstaller BatoceraTranslator.spec
+
+      - name: Create release archive
+        if: steps.should_release.outputs.release == 'True'
+        run: |
+          $version = "${{ steps.next_version.outputs.version }}"
+          Compress-Archive -Path "dist\BatoceraTranslator\*" -DestinationPath "BatoceraTranslator-$version-Windows.zip"
+        shell: pwsh
+
+      - name: Generate release notes
+        if: steps.should_release.outputs.release == 'True'
+        id: release_notes
+        run: |
+          $prevTag = "${{ steps.get_tag.outputs.latest_tag }}"
+          $notes = "## 更新內容`n`n"
+
+          if ($prevTag -eq "v0.0.0") {
+            $commits = git log --pretty=format:"- %s" -10
+          } else {
+            $commits = git log "$prevTag..HEAD" --pretty=format:"- %s"
+          }
+
+          $notes += $commits -join "`n"
+          $notes += "`n`n---`n`n**下載說明：**`n- 下載 \`BatoceraTranslator-*-Windows.zip\``n- 解壓縮後執行 \`BatoceraTranslator.exe\`"
+
+          # 寫入檔案避免特殊字元問題
+          $notes | Out-File -FilePath "release_notes.md" -Encoding utf8
+        shell: pwsh
+
+      - name: Create Release
+        if: steps.should_release.outputs.release == 'True'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.next_version.outputs.version }}
+          name: BatoceraTranslator ${{ steps.next_version.outputs.version }}
+          body_path: release_notes.md
+          files: BatoceraTranslator-*.zip
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Skip release notice
+        if: steps.should_release.outputs.release != 'True'
+        run: |
+          Write-Output "⏭️ 跳過發布 - commit message 不符合發布條件"
+          Write-Output "💡 提示：在 commit message 中使用以下格式可觸發自動發布："
+          Write-Output "   - feat: 新功能描述"
+          Write-Output "   - fix: 修復描述"
+          Write-Output "   - [release] 任何訊息"
+          Write-Output "   - release: 發布描述"
+        shell: pwsh
