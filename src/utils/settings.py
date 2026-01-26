@@ -3,11 +3,23 @@
 提供設定檔儲存與載入功能。
 """
 import json
+import os
 from pathlib import Path
 from typing import Dict, Any, Optional
 from dataclasses import dataclass, asdict, field
 
 from .file_utils import get_settings_path
+
+# 嘗試載入 .env 檔案
+try:
+    from dotenv import load_dotenv
+    # 從專案根目錄載入 .env
+    _project_root = Path(__file__).parent.parent.parent
+    _env_path = _project_root / '.env'
+    if _env_path.exists():
+        load_dotenv(_env_path)
+except ImportError:
+    pass  # python-dotenv 未安裝，僅使用系統環境變數
 
 
 @dataclass
@@ -63,6 +75,38 @@ class AppSettings:
     def to_dict(self) -> Dict[str, Any]:
         """轉換為字典"""
         return asdict(self)
+
+    def get_gemini_api_key(self) -> str:
+        """
+        取得 Gemini API Key（含優先順序處理）
+
+        優先順序：
+        1. UI 設定的值（如果不為空）
+        2. 環境變數 GEMINI_API_KEY
+
+        Returns:
+            API Key 字串，若無則為空字串
+        """
+        # 優先使用 UI 設定的值
+        if self.gemini_api_key:
+            return self.gemini_api_key
+        # 備用：環境變數
+        return os.environ.get('GEMINI_API_KEY', '')
+
+    def get_api_key(self) -> str:
+        """
+        取得翻譯 API Key（含優先順序處理）
+
+        優先順序：
+        1. UI 設定的值（如果不為空）
+        2. 環境變數 GOOGLE_TRANSLATE_API_KEY
+
+        Returns:
+            API Key 字串，若無則為空字串
+        """
+        if self.api_key:
+            return self.api_key
+        return os.environ.get('GOOGLE_TRANSLATE_API_KEY', '')
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'AppSettings':

@@ -1088,8 +1088,8 @@ class MainWindow(QMainWindow):
             'write_back': self.app_settings.write_back,
             'auto_backup': self.app_settings.auto_backup,
             'translate_api': self.app_settings.translate_api,
-            'api_key': self.app_settings.api_key,
-            'gemini_api_key': self.app_settings.gemini_api_key,
+            'api_key': self.app_settings.get_api_key(),  # 使用含優先順序的方法
+            'gemini_api_key': self.app_settings.get_gemini_api_key(),  # 使用含優先順序的方法
             'use_gemini_batch': self.app_settings.use_gemini_batch,
             'gemini_batch_size': self.app_settings.gemini_batch_size,
             'request_delay': self.app_settings.request_delay,

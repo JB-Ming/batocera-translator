@@ -9,6 +9,10 @@ requests>=2.31.0             # HTTP 請求
 
 # 翻譯 API
 googletrans==4.0.0-rc1       # 免費 Google 翻譯
+google-generativeai>=0.8.0   # Gemini AI API
+
+# 環境變數
+python-dotenv>=1.0.0         # 讀取 .env 檔案
 
 # 打包工具
 pyinstaller>=6.3.0           # 打包為執行檔
