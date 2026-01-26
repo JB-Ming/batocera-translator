@@ -101,15 +101,15 @@ class GeminiService:
 
         prompt = f"""你是遊戲翻譯專家。請提供遊戲《{game_name}》的官方{lang_name}名稱。
 
-規則：
-1. 只回答遊戲的官方{lang_name}譯名
-2. 如果有多個官方譯名，回答最常用的那個
-3. 如果沒有官方譯名，提供最廣為接受的{lang_name}翻譯
-4. 只回答名稱，不要加任何解釋或標點符號
-5. 如果完全不知道這款遊戲，回答「UNKNOWN」
+    規則：
+    1. 只回答遊戲的官方{lang_name}譯名
+    2. 如果有多個官方譯名，回答最常用的那個
+    3. 如果沒有官方譯名，提供最廣為接受的{lang_name}翻譯
+    4. 只回答名稱，不要加任何解釋或標點符號
+    5. 如果完全不知道這款遊戲，請保留空白，不要填任何字元，不要填 UNKNOWN 或亂填。
 
-遊戲名稱：{game_name}
-{lang_name}名稱："""
+    遊戲名稱：{game_name}
+    {lang_name}名稱："""
 
         try:
             response = self._model.generate_content(prompt)
@@ -121,6 +121,37 @@ class GeminiService:
 
             # 移除可能的引號
             result = result.strip('"\'「」『』')
+
+            # 檢測 AI 的「說明性」無效回應
+            # 這些是 AI 找不到翻譯時給出的解釋性文字，不是有效的翻譯結果
+            invalid_patterns = [
+                '沒有資料',
+                '沒有官方',
+                '無法找到',
+                '找不到',
+                '無官方譯名',
+                '沒有繁體中文譯名',
+                '沒有中文譯名',
+                '無繁體中文',
+                '無中文譯名',
+                '不確定',
+                '無法確定',
+                '未知',
+                '無譯名',
+                '暫無',
+                '目前沒有',
+                '尚無',
+                '此遊戲',
+                '此合輯',
+                '該遊戲',
+                '該合輯',
+                '抱歉',
+                '對不起',
+            ]
+
+            for pattern in invalid_patterns:
+                if pattern in result:
+                    return None
 
             # 寫入快取
             if result:

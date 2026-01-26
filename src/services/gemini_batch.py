@@ -206,7 +206,7 @@ JSON 回覆："""
             text: 原始翻譯文字
 
         Returns:
-            清理後的文字
+            清理後的文字，若為無效回應則返回 None
         """
         if not text:
             return None
@@ -220,6 +220,38 @@ JSON 回覆："""
         # 檢查長度
         if len(text) < 1 or len(text) > 100:
             return None
+
+        # 檢測 AI 的「說明性」無效回應
+        # 這些是 AI 找不到翻譯時給出的解釋性文字，不是有效的翻譯結果
+        invalid_patterns = [
+            '沒有資料',
+            '沒有官方',
+            '無法找到',
+            '找不到',
+            '無官方譯名',
+            '沒有繁體中文譯名',
+            '沒有中文譯名',
+            '無繁體中文',
+            '無中文譯名',
+            '不確定',
+            '無法確定',
+            '未知',
+            '無譯名',
+            '暫無',
+            '目前沒有',
+            '尚無',
+            '此遊戲',
+            '此合輯',
+            '該遊戲',
+            '該合輯',
+            '抱歉',
+            '對不起',
+        ]
+
+        text_lower = text.lower()
+        for pattern in invalid_patterns:
+            if pattern in text_lower or pattern.lower() in text_lower:
+                return None
 
         return text
 
