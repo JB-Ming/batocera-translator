@@ -51,7 +51,7 @@ class GeminiBatchService:
     }
 
     # 預設批次大小
-    DEFAULT_BATCH_SIZE = 80
+    DEFAULT_BATCH_SIZE = 30
 
     # 最大重試次數
     MAX_RETRIES = 3
@@ -88,9 +88,9 @@ class GeminiBatchService:
 
         try:
             genai.configure(api_key=self.api_key)
-            # 設定請求超時為 30 秒
+            # 使用 gemini-2.0-flash-lite，比 flash 更便宜
             self._model = genai.GenerativeModel(
-                'gemini-2.0-flash',
+                'gemini-2.0-flash-lite',
                 generation_config=genai.GenerationConfig(
                     max_output_tokens=8192,
                 ),
@@ -136,18 +136,22 @@ class GeminiBatchService:
 
 規則：
 1. 回答格式必須是 JSON 陣列，每個項目包含 "id"（編號）和 "name"（翻譯結果）
-2. 只提供官方{lang_name}譯名，沒有官方譯名就提供最通用的翻譯
-3. 如果完全不知道該遊戲，"name" 設為 null
-4. 不要加任何解釋、引號或其他標點
-5. 保持遊戲編號與輸入一致
+2. 優先使用官方{lang_name}譯名，沒有官方譯名則提供最通用的翻譯
+3. 遊戲名稱中的 (年份)(發行商) 等資訊是輔助判斷用，翻譯時不需要保留
+4. 如果遊戲名稱是英文縮寫、專有名詞或品牌名，可以保留英文原名
+5. 如果完全不知道該遊戲，仍請嘗試根據英文名稱的字面意思翻譯
+6. 只有真的無法翻譯時，"name" 才設為 null
+7. 不要加任何解釋文字，只要翻譯結果
+8. 保持遊戲編號與輸入一致
+9. 確保 JSON 格式正確，null 不要加引號
 
 輸入遊戲列表：
 {numbered_list}
 
-請以 JSON 陣列格式回覆（範例格式）：
+請以 JSON 陣列格式回覆：
 [
   {{"id": 1, "name": "翻譯結果1"}},
-  {{"id": 2, "name": "翻譯結果2"}}
+  {{"id": 2, "name": null}}
 ]
 
 JSON 回覆："""
@@ -182,6 +186,10 @@ JSON 回覆："""
 
             if start_idx != -1 and end_idx != -1:
                 json_str = text[start_idx:end_idx + 1]
+
+                # 修復常見的 JSON 格式錯誤
+                json_str = self._fix_json_errors(json_str)
+
                 data = json.loads(json_str)
 
                 # 解析每個項目
@@ -203,8 +211,74 @@ JSON 回覆："""
         except json.JSONDecodeError as e:
             print(f"JSON 解析錯誤: {e}")
             print(f"原始回應: {response_text[:500]}...")
+            # 嘗試逐行解析，盡量搶救部分結果
+            results = self._parse_response_fallback(response_text, game_names)
         except Exception as e:
             print(f"解析回應時發生錯誤: {e}")
+
+        return results
+
+    def _fix_json_errors(self, json_str: str) -> str:
+        """
+        修復常見的 JSON 格式錯誤
+
+        Args:
+            json_str: 原始 JSON 字串
+
+        Returns:
+            修復後的 JSON 字串
+        """
+        # 修復 null" -> null (AI 常見錯誤)
+        json_str = re.sub(r': null"', ': null', json_str)
+        json_str = re.sub(r':null"', ':null', json_str)
+
+        # 修復 true" -> true
+        json_str = re.sub(r': true"', ': true', json_str)
+
+        # 修復 false" -> false
+        json_str = re.sub(r': false"', ': false', json_str)
+
+        # 修復遺漏的逗號 (}{ -> },{)
+        json_str = re.sub(r'\}\s*\{', '},{', json_str)
+
+        # 修復多餘的逗號 (,] -> ])
+        json_str = re.sub(r',\s*\]', ']', json_str)
+
+        # 修復多餘的逗號 (,} -> })
+        json_str = re.sub(r',\s*\}', '}', json_str)
+
+        return json_str
+
+    def _parse_response_fallback(self, response_text: str, game_names: List[str]) -> Dict[str, str]:
+        """
+        備用解析方法：逐行嘗試解析，盡量搶救部分結果
+
+        Args:
+            response_text: API 回應文字
+            game_names: 原始遊戲名稱列表
+
+        Returns:
+            {原名: 翻譯結果} 的字典
+        """
+        results = {}
+
+        # 使用正則表達式找出所有 {"id": X, "name": "Y"} 格式的項目
+        pattern = r'\{"id"\s*:\s*(\d+)\s*,\s*"name"\s*:\s*"([^"]+)"\s*\}'
+        matches = re.findall(pattern, response_text)
+
+        for idx_str, name in matches:
+            try:
+                idx = int(idx_str)
+                if 1 <= idx <= len(game_names):
+                    original_name = game_names[idx - 1]
+                    cleaned = self._clean_translation(name)
+                    if cleaned and cleaned != original_name:
+                        results[original_name] = cleaned
+            except (ValueError, IndexError):
+                continue
+
+        if results:
+            print(f"  備用解析搶救了 {len(results)} 筆結果")
 
         return results
 

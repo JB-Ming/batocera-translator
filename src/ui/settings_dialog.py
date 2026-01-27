@@ -223,9 +223,9 @@ class SettingsDialog(QDialog):
         batch_layout = QHBoxLayout()
         self.gemini_batch_size_spin = QSpinBox()
         self.gemini_batch_size_spin.setRange(10, 100)
-        self.gemini_batch_size_spin.setValue(80)
+        self.gemini_batch_size_spin.setValue(30)
         self.gemini_batch_size_spin.setSuffix(" 個遊戲/批次")
-        self.gemini_batch_size_spin.setToolTip("每批次翻譯的遊戲數量，建議 50-80")
+        self.gemini_batch_size_spin.setToolTip("每批次翻譯的遊戲數量，建議 20-30")
         batch_layout.addWidget(self.gemini_batch_size_spin)
         batch_layout.addStretch()
         gemini_form.addRow("批次大小:", batch_layout)
@@ -387,7 +387,7 @@ class SettingsDialog(QDialog):
         self.gemini_batch_check.setChecked(
             self.settings.get('use_gemini_batch', False))
         self.gemini_batch_size_spin.setValue(
-            self.settings.get('gemini_batch_size', 80))
+            self.settings.get('gemini_batch_size', 30))
 
         # 翻譯 API
         api_map = {

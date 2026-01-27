@@ -71,7 +71,7 @@ class AppSettings:
 
     # ==================== Gemini 批次翻譯設定 ====================
     use_gemini_batch: bool = False      # 是否啟用 Gemini 批次翻譯模式
-    gemini_batch_size: int = 80         # Gemini 每批次翻譯的遊戲數量（建議 50-80）
+    gemini_batch_size: int = 30         # Gemini 每批次翻譯的遊戲數量（建議 20-30）
 
     # ==================== 視窗設定 ====================
     window_width: int = 900             # 視窗寬度
