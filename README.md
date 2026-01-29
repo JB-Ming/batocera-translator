@@ -255,6 +255,49 @@
 | 寫入前自動備份 | 預設開啟 |
 | 僅預覽不寫入 | 顯示變更但不修改檔案 |
 
+### 寫回規則 (write_rules)
+
+進階的欄位映射功能，可自訂翻譯內容要寫入哪個欄位：
+
+```json
+"write_rules": {
+  "name": {
+    "target": "name",     // 目標欄位：name / desc / skip
+    "format": "translated" // 格式：translated / trans_orig / orig_trans / original
+  },
+  "desc": {
+    "target": "desc",
+    "format": "translated"
+  }
+}
+```
+
+**target 目標欄位說明：**
+
+| 值 | 說明 |
+|-----|------|
+| `name` | 寫入 gamelist.xml 的 `<name>` 欄位 |
+| `desc` | 寫入 gamelist.xml 的 `<desc>` 欄位 |
+| `skip` | 跳過不寫入 |
+
+**format 格式說明：**
+
+| 值 | 範例輸出 |
+|-----|----------|
+| `translated` | `超級瑪利歐兄弟` |
+| `trans_orig` | `超級瑪利歐兄弟 (Super Mario Bros)` |
+| `orig_trans` | `Super Mario Bros (超級瑪利歐兄弟)` |
+| `original` | `Super Mario Bros` |
+
+**常見應用場景：**
+
+| 場景 | 設定方式 |
+|------|----------|
+| 標準翻譯 | name→name, desc→desc |
+| 只翻譯名稱，跳過描述 | name→name, desc→skip |
+| 把翻譯的名稱寫到描述 | name→desc, desc→skip |
+| 交叉寫入（測試用） | name→desc, desc→name |
+
 ### 翻譯 API 設定
 
 | 選項 | 說明 |
