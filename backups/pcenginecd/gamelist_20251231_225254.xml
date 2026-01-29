@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="14480">
+		<path>./Chou Aniki (Japan) (FAAT, FACT).chd</path>
+		<name>Cho Aniki : Super Big Brothers</name>
+		<desc>The odd world in this shooter made for quite the conversation piece in its day. Players control either Idaten or Benten, celestial warriors out to bring an end to the tyrannical rule of the emperor of Planet Builder, who holds muscular prowess to be the supreme virtue of the universe. Aided by able-bodied muscle-head options Adon and Samson, they must battle to defeat the emperors army across five stages. Use the buttons to fire away and lay into the Builder forces! Power up your character and options with protein from defeated enemies to have them "bulk up" with a yell, and take their macho battle to the next level!</desc>
+		<image>./images/Chou Aniki (Japan) (FAAT, FACT)-image.png</image>
+		<marquee>./images/Chou Aniki (Japan) (FAAT, FACT)-marquee.png</marquee>
+		<thumbnail>./images/Chou Aniki (Japan) (FAAT, FACT)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19921225T000000</releasedate>
+		<developer>Masaya Games</developer>
+		<publisher>Nippon Computer Systems (NCS)</publisher>
+		<genre>Shoot'em Up</genre>
+		<players>1</players>
+		<crc32>C868CF2D</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035615" />
+	</game>
+	<game id="119205">
+		<path>./Kaze Kiri - Ninja Action (Japan).chd</path>
+		<name>Kaze Kiri - Ninja Action</name>
+		<desc>Princess Shizuhime has been kidnapped by a group of ninja under the command of Genbu, and brought to the castle of the malevolent Lord Hiei. The brave young ninja Kaze is summoned by Lord Yoshikage and sent on a dangerous mission: infiltrate Hiei's castle, defeat his minions, and rescue Shizuhime.
+
+Kaze Kiri is essentially a beat-em-up with a few distinguishing characteristics. The game consists of traversing fully linear side-scrolling areas, defeating regular enemies and bosses on the way. Before being able to fight the stage boss, Kaze has to vanquish a pre-determined number of enemies, which is displayed as a shared enemy HP on top of the screen.
+
+Kaze attacks with his sword when he is near the enemy, or throws shurikens at them from afar. Enemy projectiles can also be blocked by countering them with shurikens. Kaze can also disappear for a moment and re-appear at another location. He can jump, duck, perform somersaults, and grab and throw enemies. Kaze's health regenerates over time if he is not hit repeatedly. Completing the game unlocks another playable character, the female ninja Suzu.</desc>
+		<image>./images/Kaze Kiri - Ninja Action (Japan)-image.png</image>
+		<marquee>./images/Kaze Kiri - Ninja Action (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Kaze Kiri - Ninja Action (Japan)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19940428T000000</releasedate>
+		<developer>Naxat Soft</developer>
+		<publisher>Naxat Soft</publisher>
+		<genre>Beat'em Up</genre>
+		<players>1</players>
+		<crc32>F7B570B8</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035631" />
+	</game>
+	<game id="106938">
+		<path>./Puyo Puyo CD Tsuu (Japan).chd</path>
+		<name>Puyo Puyo Cd Tsuu</name>
+		<desc>The follow-up to Puyo Puyo is, like its predecessor, a falling block game in which the goal is to combine four or more blocks (Puyos) of the same color, which then disappear. The remaining Puyos will then fall down and can produce combos which can cause special blocks (Nuisance Puyos, that can only be destroyed by eliminating adjacent Puyos) to appear on the enemy's field.
+
+This game includes a story mode, in which Arle (the main character) fights against computer enemies, a vs player mode, a four player mode (SNES only), and an endless mode (SNES only).</desc>
+		<image>./images/Puyo Puyo CD Tsuu (Japan)-image.png</image>
+		<marquee>./images/Puyo Puyo CD Tsuu (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Puyo Puyo CD Tsuu (Japan)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19960329T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>NEC</publisher>
+		<genre>Puzzle / Fall</genre>
+		<family>Puyo Puyo</family>
+		<players>1-2</players>
+		<crc32>15CF6154</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035645" />
+	</game>
+	<game id="14483">
+		<path>./Ai Chou Aniki (Japan) (SADS).chd</path>
+		<name>Ai Cho Aniki</name>
+		<desc>The sequel to the first Cho Aniki (Super Big Brother) game, this is very Japanese in its bizarreness. It's a shoot ?em up, with the player taking the role of an almost nude muscle-man (Adon) or his brother (Samson) in a 2 player game. Their main weapon is a ball of energy that grows over a hole in their heads and shoots out towards any advancing enemies. Other, more powerful shots are achieved by a combination of back-forward-fire, down-up-fire etc on the pad. Through the levels you will encounter all manner of nasties out to get you, but you are aided by a woman in blue that flies around and drops power-ups conveniently for you. Also, levels vary from the standard left-to-right to vertically scrolling.</desc>
+		<image>./images/Ai Chou Aniki (Japan) (SADS)-image.png</image>
+		<marquee>./images/Ai Chou Aniki (Japan) (SADS)-marquee.png</marquee>
+		<thumbnail>./images/Ai Chou Aniki (Japan) (SADS)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19950224T000000</releasedate>
+		<developer>Masaya Games</developer>
+		<publisher>Nippon Computer Systems (NCS)</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<players>1-2</players>
+		<crc32>C9A8B349</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035701" />
+	</game>
+	<game id="106966">
+		<path>./Garou Densetsu Special (Japan) (FABT).chd</path>
+		<name>Garou Densetsu Special</name>
+		<desc>Fatal Fury Special is an improved version of SNK's 2D one-on-one fighter Fatal Fury 2. The objective is to win the tournament by defeating all other fighters including end boss Wolfgang Krauser. Fatal Fury Special features a fairly large selection of fighters that includes:
+The eight regular fighters from Fatal Fury 2: Terry Bogard, Andy Bogard, Joe Higashi, Kim Kaphwan, Jubei Yamada, Cheng Sinzan, Mai Shiranui and Big Bear.
+The four bosses from Fatal Fury 2: Billy Kane, Axel Hawk, Lawrence Blood and Wolfgang Krauser (this time they're all immediately playable).
+Three characters returning from the first Fatal Fury: Duck King, Tung Fu Rue and Geese Howard (the end boss from Fatal Fury).</desc>
+		<image>./images/Garou Densetsu Special (Japan) (FABT)-image.png</image>
+		<marquee>./images/Garou Densetsu Special (Japan) (FABT)-marquee.png</marquee>
+		<thumbnail>./images/Garou Densetsu Special (Japan) (FABT)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19941202T000000</releasedate>
+		<developer>SNK</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Fighting / 2D</genre>
+		<family>Fatal Fury</family>
+		<players>1-2</players>
+		<crc32>D706F222</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035715" />
+	</game>
+	<game id="103579">
+		<path>./Dungeon Master - Theron's Quest (USA).chd</path>
+		<name>Dungeon Master : Theron's Quest</name>
+		<desc>Terrifyingly brutal beasts! Monstrous mazes! Treacherous pits of evil! The adventure of a lifetime is here....Theron's Quest!!
+
+The Monastery at Ya-Brodin has fallen to the Cult of Deaths and the Brotherhood of Enlightenment, the true keepers of Magic, have been slaughtered. The Seven Great Treasures now lie in the hands of foul beings who will stop at nothing to hold onto their massive powers. But Theron, with a courage beyond belief, has decided to seek out the Cult of Deaths and win back the Treasures. If he succeeds, he will become a High Lord. If not, the land will see eternal darkness.</desc>
+		<image>./images/Dungeon Master - Theron's Quest (USA)-image.png</image>
+		<marquee>./images/Dungeon Master - Theron's Quest (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dungeon Master - Theron's Quest (USA)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19920918T000000</releasedate>
+		<developer>FTL - Faster Than Light</developer>
+		<publisher>Victor Entertainment</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Dungeon Master</family>
+		<players>1</players>
+		<crc32>9EFF4235</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T035728" />
+	</game>
+	<game id="107007">
+		<path>./NEXZR (Japan).chd</path>
+		<name>Nexzr</name>
+		<desc>In the year 2012 an alien armada attacked the Earth. Two young pilots were in the midst of a battle, and one of them, a lovely young woman, was killed. Three years later, the surviving pilot finally got a chance to avenge her death. Navigating a powerful new fighter ship named "Slasher", the pilot ventured into space, ready to bring destruction to those who took so much away from him.
+
+Nexzr is a vertically scrolling shoot-em-up similar to Super Star Soldier. The player-controlled spaceship starts with a simple vulcan gun that can only shoot straight. Various power-ups can either enhance the strength of this gun, replace it with a laser weapon, or add a secondary weapon (homing fire, thin spreading laser attacks, etc.), which is activated automatically. Mid- and end-level bosses are encountered on nearly every stage. Additional lives can be collected, but the player always restarts from the beginning of the stage when his fighter craft is destroyed.</desc>
+		<image>./images/NEXZR (Japan)-image.png</image>
+		<marquee>./images/NEXZR (Japan)-marquee.png</marquee>
+		<thumbnail>./images/NEXZR (Japan)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19921211T000000</releasedate>
+		<developer>Inter State</developer>
+		<publisher>Naxat Soft</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1</players>
+		<crc32>E43E6070</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035742" />
+	</game>
+	<game id="14471">
+		<path>./Ys III - Wanderers from Ys (USA).chd</path>
+		<name>Ys III : Wanderers from Ys</name>
+		<desc>Adol Christin's long-time friend, Dogi, wishes to return to his home town of Redmont after hearing about strange disturbances that are happening there.  Always looking for an adventure, Adol joins him and soon finds out the cause of this new evil.
+
+Ys III: Wanderers from Ys breaks away from the "bumping into enemies" battle system of the first two games, allowing Adol to control his sword in a variety of directions. Beside changing the battle system, the game's perspective switches to a side-scrolling view, as opposed to the top-down one of the previous games. Adol also has the ability to jump now.  New to the series is the use of magical rings, which give Adol different powering-up abilities such as healing and shielding. The game also uses various key items found along the way to solve minor puzzles and progress the story.</desc>
+		<image>./images/Ys III - Wanderers from Ys (USA)-image.png</image>
+		<marquee>./images/Ys III - Wanderers from Ys (USA)-marquee.png</marquee>
+		<thumbnail>./images/Ys III - Wanderers from Ys (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19910322T000000</releasedate>
+		<developer>Nihon Falcom</developer>
+		<publisher>NEC</publisher>
+		<genre>Role Playing Game / Action RPG</genre>
+		<family>Ys</family>
+		<players>1</players>
+		<crc32>329E2F0E</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T035757" />
+	</game>
+	<game id="14499">
+		<path>./Ys IV - The Dawn of Ys (Japan) (Translated).chd</path>
+		<name>Ys IV : The Dawn of Ys</name>
+		<desc>The Dawn of Ys is one of two games released under the title of Ys IV, the other being Tonkin House's Ys IV: Mask of the Sun. The two games share the same basic story, but have many differences regarding concrete events, locations, gameplay details, etc. The events of the game take place a short while after those described in Ys II, and before the events of Ys III: Wanderers from Ys.
+
+As the game begins, Adol and his friend return to the town of Minea, where the first game began. The evil Lord Darm has been defeated, and it's time to relax and spend some time with friends - but not for long. A new evil is rising, and Adol decides to set sail for the overseas land of Celceta to investigate these occurrences.
+
+Ys IV returns to the style of play used in the first and second games. The gameplay area is viewed from a top-down perspective, and the player attacks enemies by running into them to cause damage. Combat is slightly more sophisticated than in the first two games, since Adol can now move in eight directions, and attacking enemies diagonally or from the sides is more efficient than bumping into them headstrong. Adol gains experience from defeating enemies, which serves to raise his attack and defense power, like in the previous games. He can equip various swords, armor, shields, and rings to enhance his attributes. The magic system introduced in Ys II is also brought back for this game.</desc>
+		<image>./images/Ys IV - The Dawn of Ys (Japan) (Translated)-image.png</image>
+		<marquee>./images/Ys IV - The Dawn of Ys (Japan) (Translated)-marquee.png</marquee>
+		<thumbnail>./images/Ys IV - The Dawn of Ys (Japan) (Translated)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19931222T000000</releasedate>
+		<developer>Hudson Soft</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Ys</family>
+		<players>1</players>
+		<crc32>AF5EE436</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035813" />
+	</game>
+	<game id="106968">
+		<path>./Ginga Fukei Densetsu Sapphire (Japan).chd</path>
+		<name>Ginga Fukei Densetsu Sapphire</name>
+		<desc>In the future, time travel became a regular commodity. Criminal organizations began using advanced science in order to escape into different time periods to avoid capture. To counter that, a special police unit called "Burning Rabbits" was formed to fight through time and space.
+Ginga Fukei Densetsu: Sapphire is a vertically-scrolling shoot-em-up. The player can choose between four different female characters, each piloting a different ship: Sapphire has balanced strength is speed; Charlotte is the fastest, but also the weakest; Helen is the slowest and the strongest; Jasmine is the second-strongest and the second-slowest. The ships are also distinguished by their weapon properties. Each ship can collect red, green, or blue power-ups; collecting a power-up of the same color enhances the currently equipped weapon, while a differently-colored power-up changes weapon properties while retaining whatever enhancements the ship might have had with the previous weapon.</desc>
+		<image>./images/Ginga Fukei Densetsu Sapphire (Japan)-image.png</image>
+		<marquee>./images/Ginga Fukei Densetsu Sapphire (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Ginga Fukei Densetsu Sapphire (Japan)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19951124T000000</releasedate>
+		<developer>CAProduction</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1-2</players>
+		<crc32>6B74FA4B</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035827" />
+	</game>
+	<game id="106853">
+		<path>./Seirei Senshi Spriggan (Japan).chd</path>
+		<name>Seirei Senshi Spriggan</name>
+		<desc>Another top-down shooter from Compile staged in a fantasy world that mingles traditional sci-fi elements with a feudal Japan setting.
+
+As the game starts a struggle for total control over elemental powers is about to begin between two warring nations. As the best mecha pilot in the good guy's army it's your task to repel the invasion and win the war by dealing with the enemy armada in standard shooter fashion. But surprise surprise! You won't be alone this time, as other AI-controlled mecha pilots will join you in the fray at key moments. Only you can command the magical powers that can be added to your mecha by collecting several color-coded orbs though, so most of the fight is still going to be up to you.</desc>
+		<image>./images/Seirei Senshi Spriggan (Japan)-image.png</image>
+		<marquee>./images/Seirei Senshi Spriggan (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Seirei Senshi Spriggan (Japan)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19910712T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>Naxat Soft</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1</players>
+		<crc32>CC51F0A7</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035841" />
+	</game>
+	<game id="103580">
+		<path>./Dungeon Explorer II (USA).chd</path>
+		<name>Dungeon Explorer II</name>
+		<desc>This CD sequel to Dungeon Explorer plays exactly the same as the first game. You chose your character from a variety of fantasy stereotypes and set forth in a Gauntlet-esque adventure. The CD format allows a greater quantity and variety of levels to compliment the storyline, with new areas and characters becoming open to you as you progress.</desc>
+		<image>./images/Dungeon Explorer II (USA)-image.png</image>
+		<marquee>./images/Dungeon Explorer II (USA)-marquee.png</marquee>
+		<thumbnail>./images/Dungeon Explorer II (USA)-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19930326T000000</releasedate>
+		<developer>Atlus</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Role Playing Game</genre>
+		<players>1-5</players>
+		<crc32>4070B534</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T035857" />
+	</game>
+	<game id="14496">
+		<path>./Gate of Thunder (Japan) (FACT, FADT).chd</path>
+		<name>Gate Of Thunder</name>
+		<desc>A side-scrolling shoot-'em-up, Gate of Thunder asks players to take control of the space-craft "Hunting Dog". Playing as the pilot Hawk, along with Esty in her ship the "Wild Cat", you must defeat the forces of General Don Jingi, who has plans of taking energy from the star of Aries.
+Gate of Thunder allows players to choose in real-time from three weapon-fire types. A blue-coloured electrical fire, a green-coloured wave-fire, and a red-coloured quake-type fire. Along with this, players obtain homing-missiles and the assistance of the "Wild Cat" which orbits the ship separately.</desc>
+		<image>./images/Gate of Thunder (Japan) (FACT, FADT)-image.png</image>
+		<marquee>./images/Gate of Thunder (Japan) (FACT, FADT)-marquee.png</marquee>
+		<thumbnail>./images/Gate of Thunder (Japan) (FACT, FADT)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19920221T000000</releasedate>
+		<developer>Red Company Corporation</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<players>1</players>
+		<crc32>562E39AB</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035913" />
+	</game>
+	<game id="14547">
+		<path>./Lords of Thunder (USA).chd</path>
+		<name>Lords of Thunder</name>
+		<desc>Lords of Thunder is a side-scrolling shooter that has you take on the role of a legendary warrior, blasting enemies to heavy-metal tunes. Your enemies are plotting to revive Zaggart, "The Dark One," who was sealed beneath the six continents of Mistral. It's up to Landis, descendant of the heroic Dyu, to stop them. Choose the order in which to attack the six stages. Before each stage, select one of four magic armors and use crystals you've collected during your battles to buy items. Then get ready to face awesome enemies like a fire-spewing sea serpent or a giant insect.</desc>
+		<image>./images/Lords of Thunder (USA)-image.png</image>
+		<marquee>./images/Lords of Thunder (USA)-marquee.png</marquee>
+		<thumbnail>./images/Lords of Thunder (USA)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>Red Company Corporation</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<players>1</players>
+		<crc32>A0408A08</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T035929" />
+	</game>
+	<game id="106978">
+		<path>./Bakushou Yoshimoto Shinkigeki (Japan) (FABT).chd</path>
+		<name>Bakushou Yoshimoto Shinkigeki</name>
+		<desc>The game is based on the comedy TV show Yoshimoto no Shinkigeki, which in its turn is based on a theatrical comedy show popular in Osaka and its surroundings. The game stars characters that either look like the actors from the TV show and/or resemble characters played by them. 
+
+The show consists of short episodes which are depictions of comical situations, and are not related to each other story-wise. Same can be applied to the game: there is no real story, just a stretch of hilarious and intentionally impossible situations the protagonists find themselves in.</desc>
+		<image>./images/Bakushou Yoshimoto Shinkigeki (Japan) (FABT)-image.png</image>
+		<marquee>./images/Bakushou Yoshimoto Shinkigeki (Japan) (FABT)-marquee.png</marquee>
+		<thumbnail>./images/Bakushou Yoshimoto Shinkigeki (Japan) (FABT)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19940103T000000</releasedate>
+		<developer>Hudson Soft</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<crc32>D8A8B23F</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T035945" />
+	</game>
+	<game id="103574">
+		<path>./Star Parodier (Japan).chd</path>
+		<name>Star Parodier</name>
+		<desc>Move fast and blast! It's a nonstop explosion of fire power and you're streaking through space, right in the middle of it! The Brains Cult you once defeated is back, badder than ever. But your finger's on the trigger of an incredible new techno-attack! Scorch the Scorpion with a nuclear a sting. Fire your heat-seeking sidewinders. Then power-up to launch your doomsday Super Bomb! Blow those Brains out and save the galaxy. Then challenge your friends with a special competition time mode to prove who the Super Star really is!</desc>
+		<image>./images/Star Parodier (Japan)-image.png</image>
+		<marquee>./images/Star Parodier (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Star Parodier (Japan)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19920424T000000</releasedate>
+		<developer>Inter State</developer>
+		<publisher>Hudson Soft</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1</players>
+		<crc32>7C6CE06F</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040001" />
+	</game>
+	<game id="14538">
+		<path>./Beyond Shadowgate (USA).chd</path>
+		<name>Beyond Shadowgate</name>
+		<desc>This is a sequel to the adventure game Shadowgate. You control Prince Eric, the descendant of the hero of the first game. You return to your home country, only to discover that your father was murdered. You should become the new king, but the minister of the late king has other plans, frames you for killing your own father, and throws you into jail, where your adventure begins.
+
+Unlike the first Shadowgate, this is a platform game - not an action game, but a classical point-and-click adventure viewed from a platform perspective. You can move your hero around, examine, manipulate, and take objects. You can also duck and have a "punch" command. Find the correct solutions to the game's puzzles, otherwise a gruesome death awaits you!</desc>
+		<image>./images/Beyond Shadowgate (USA)-image.png</image>
+		<marquee>./images/Beyond Shadowgate (USA)-marquee.png</marquee>
+		<thumbnail>./images/Beyond Shadowgate (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>Turbo Technologies</developer>
+		<publisher>ICOM Simulations</publisher>
+		<genre>Adventure</genre>
+		<family>Shadowgate</family>
+		<players>1</players>
+		<crc32>73699A8B</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T040014" />
+	</game>
+	<game id="14466">
+		<path>./Castlevania - Rondo of Blood (Japan) (Translated).chd</path>
+		<name>Akumajou Dracula X - Chi no Rondo</name>
+		<desc>In the days of old, the people thrived on peace and prosperity. Indeed, fears of unrest were not among their thoughts...
+
+But, ever-present, beneath the veneer of tranquility, evil lurks. Evil, which spurns prosperity and disdains peace.
+
+Gather they did, those who wished to summon the powers of darkness and cleanse the decadence of the world. And, with smiling countenance, they anxiously awaited the coming of their era.
+
+A hundred years had past, and he was resurrected. Able to become bat, wolf, or mist at will, he lived in the night. He drank the blood of young maidens and lived an eternal life. The lord of Castlevania, the god of evil, Count Dracula was reborn.</desc>
+		<image>./images/Castlevania - Rondo of Blood (Japan) (Translated)-image.png</image>
+		<marquee>./images/Castlevania - Rondo of Blood (Japan) (Translated)-marquee.png</marquee>
+		<thumbnail>./images/Castlevania - Rondo of Blood (Japan) (Translated)-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19931029T000000</releasedate>
+		<developer>Konami</developer>
+		<publisher>Konami</publisher>
+		<genre>Platform</genre>
+		<family>Castlevania</family>
+		<players>1</players>
+		<crc32>37BC9683</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040034" />
+	</game>
+	<game id="106886">
+		<path>./ImageFight II - Operation Deepstriker (Japan).chd</path>
+		<name>Imagefight 2 - Operation Deepstriker</name>
+		<desc>An enemy armada approaches Earth bent on the destruction of the human race. In this sequel to Image Fight, players take control of the most advanced spaceship in the fleet. Destroy "POW" cases for items and special weapons. Obtain Red and Blue Pods to equip your ship. Red Pods fire the opposite way your fighter is moving, and Blue Pods only fire forward. You can also change the speed of your ship, to adjust to different battle conditions. Defeat the alien invaders once and for all and bring peace back to the Galaxy.</desc>
+		<image>./images/ImageFight II - Operation Deepstriker (Japan)-image.png</image>
+		<marquee>./images/ImageFight II - Operation Deepstriker (Japan)-marquee.png</marquee>
+		<thumbnail>./images/ImageFight II - Operation Deepstriker (Japan)-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>19921218T000000</releasedate>
+		<developer>Irem</developer>
+		<publisher>Irem</publisher>
+		<genre>Shooter / Vertical</genre>
+		<players>1</players>
+		<crc32>688FE937</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040048" />
+	</game>
+	<game id="106981">
+		<path>./R-Type Complete CD (Japan).chd</path>
+		<name>R-type Complete Cd</name>
+		<desc>R-Type Complete CD combines part I and part II of the japanese PC Engine HuCard releases. It also adds remixed music, fully voiced cut scenes, an extra boss fight, and some other minor changes.
+An alien race called the Bydo attacks humanity without mercy. The prototype space fighter R-9 must stop the Bydo and save the human race.</desc>
+		<image>./images/R-Type Complete CD (Japan)-image.png</image>
+		<marquee>./images/R-Type Complete CD (Japan)-marquee.png</marquee>
+		<thumbnail>./images/R-Type Complete CD (Japan)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19911220T000000</releasedate>
+		<developer>Irem</developer>
+		<publisher>Irem</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>R-Type</family>
+		<players>1</players>
+		<crc32>85F5A165</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040102" />
+	</game>
+	<game id="103561">
+		<path>./Godzilla (USA).chd</path>
+		<name>Godzilla</name>
+		<desc>This interpretation of Godzilla takes form of a fighting game, only instead of the usual brave martial artists the players control horrifying monsters from the traditional Toho lineage.
+The combat system is similar to other fighting games, with various combinations of buttons executing different moves. Naturally, the normal "punch-kick" scheme is modified to suit the monsters' shapes and biological peculiarities. For example, monsters with tails can use tail spin attacks; fire-breathing monsters have a range fire attack, etc. Most of the monsters have a move when they hold the opponent and suck its blood.</desc>
+		<image>./images/Godzilla (USA)-image.png</image>
+		<marquee>./images/Godzilla (USA)-marquee.png</marquee>
+		<thumbnail>./images/Godzilla (USA)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>Hudson Soft</developer>
+		<publisher>Toho Company</publisher>
+		<genre>Fighting / 2D</genre>
+		<family>Godzilla</family>
+		<players>1-2</players>
+		<crc32>73E3EE58</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T040118" />
+	</game>
+	<game id="109095">
+		<path>./Spriggan Mark 2 - Re Terraform Project (Japan).chd</path>
+		<name>Spriggan Mark 2 - Re Terraform Project</name>
+		<desc>Once again get to pilot a mecha in a war between two opposing armies, in Spriggan mark 2: Re-Terraform Project, this time to decide the fate of a distant colony in outer space. As in the first game, other AI-controlled mechas join in the fight and even talk to the protagonist with full voice-overs to advance the plot. The color-coding weapon system of the original is gone, replaced with a standard collectible power-up system. No options are available to watch the player character's back, but it is possible to change the direction the player-controlled mecha faces, allowing the player to deal with threats from behind.</desc>
+		<image>./images/Spriggan Mark 2 - Re Terraform Project (Japan)-image.png</image>
+		<marquee>./images/Spriggan Mark 2 - Re Terraform Project (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Spriggan Mark 2 - Re Terraform Project (Japan)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19920501T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>Naxat Soft</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<players>1</players>
+		<crc32>79F27EA8</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040131" />
+	</game>
+	<game id="141163">
+		<path>./Mad Stalker - Full Metal Force (Japan).chd</path>
+		<name>Mad Stalker - Full Metal Force</name>
+		<desc>Mad Stalker: Full Metal Force is a Japanese beat 'em up video game originally produced by Fill-in-Cafe and published and distributed by FamilySoft for the Sharp X68000. The music was composed by Keishi Yonao.</desc>
+		<image>./images/Mad Stalker - Full Metal Force (Japan)-image.png</image>
+		<marquee>./images/Mad Stalker - Full Metal Force (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Mad Stalker - Full Metal Force (Japan)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19940915T000000</releasedate>
+		<developer>Fill in Café</developer>
+		<publisher>NEC</publisher>
+		<genre>Beat'em Up</genre>
+		<players>1-2</players>
+		<crc32>F8DEE748</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040146" />
+	</game>
+	<game id="141173">
+		<path>./Summer Carnival '93 - NEXZR Special (Japan).chd</path>
+		<name>Summer Carnival '93 - Nexzr Special</name>
+		<desc>Released specifically for Naxat Soft's Summer Carnival of 1993, Nexzr Special is a collection of short stages and modes that share their basic gameplay system and visuals with Nexzr. The regular mode introduces familiar regular enemies and a few new bosses. The "Carnival Mode" contains Score Attack and Time Attack modes, both requiring the player to focus on attaining the high score rather than just surviving. For that reason the difficulty in these modes is more forgiving; they allow more continues and have more generously placed power-ups. These modes also offer more destructible objects on the screen, as these specifically serve to increase the score.</desc>
+		<image>./images/Summer Carnival '93 - NEXZR Special (Japan)-image.png</image>
+		<marquee>./images/Summer Carnival '93 - NEXZR Special (Japan)-marquee.png</marquee>
+		<thumbnail>./images/Summer Carnival '93 - NEXZR Special (Japan)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19930723T000000</releasedate>
+		<developer>Inter State</developer>
+		<publisher>Naxat Soft</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1</players>
+		<crc32>1EA99F27</crc32>
+		<lang>jp</lang>
+		<region>jp</region>
+		<scrap name="ScreenScraper" date="20251230T040200" />
+	</game>
+	<game id="14489">
+		<path>./Ys Book I &amp; II (USA).chd</path>
+		<name>Ys Book I &amp; II</name>
+		<desc>Ys: Book I &amp; II contains enhanced remakes of two games: Ys: The Vanished Omens and its sequel, Ys II: Ancient Ys Vanished - The Final Chapter. The enhanced versions were not released separately.
+
+The players controls a young red-haired hero named Adol Christin, whose task is to find the six books of Ys, an ancient paradise-like land that mysteriously disappeared long time ago. It is said that whoever possesses the six books can gain access into Ys. In the first game, Adol is on the quest to find the books and to enter Ys. The second game takes place in Ys itself, and Adol must defeat an even greater evil and liberate the land.
+
+This release features enhanced CD-quality sound, higher-quality graphics, and new anime-style cutscenes.</desc>
+		<image>./images/Ys Book I &amp; II (USA)-image.png</image>
+		<marquee>./images/Ys Book I &amp; II (USA)-marquee.png</marquee>
+		<thumbnail>./images/Ys Book I &amp; II (USA)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19890101T000000</releasedate>
+		<developer>Nihon Falcom</developer>
+		<publisher>NEC</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Ys</family>
+		<players>1</players>
+		<crc32>5ED6C2A8</crc32>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T040215" />
+	</game>
+</gameList>

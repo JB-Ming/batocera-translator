@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./MrBoom.libretro</path>
+		<name>MrBoom</name>
+		<desc>Mr.Boom is an 8 player Bomberman clone
+
+The goal of the game is to bomb away your enemies and other players.
+Bomberman is controlled with the keyboard or with (up to 8) joypads.</desc>
+		<image>./images/mrboom.png</image>
+		<rating>0.9</rating>
+		<developer>Remdy Software</developer>
+		<publisher>Libretro</publisher>
+		<genre>Action</genre>
+		<players>8</players>
+		<crc32>C4E3BD1E</crc32>
+		<md5>f983a0ae9a7e7378393a79082dd3b1de</md5>
+		<scrap name="ScreenScraper" date="20251230T221521" />
+	</game>
+</gameList>

@@ -1,0 +1,452 @@
+{
+  "Millipede (USA)": {
+    "key": "Millipede (USA)",
+    "original_name": "Millipede",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Millipedes, cousins of the Centipede, are all over the garden. This will ruin anything trying to grow there unless they are stopped. But there are other insects as well; spiders, bees, dragonflies and earwigs. Nature is dangerous. Luckily, there's a bug zapper that can shoot arrows at these insects and destroy them.\n\nMillipede is the sequel to Centipede, and features similar gameplay, but with a new swarm of insects! The goal is to destroy the multi-segmented millipede as it traverses its way through the mushroom forest towards the bottom of the screen. When all millipede segments have been destroyed, the player will progress to the next, more difficult level. Millipedes and other creatures are all worth a different amount of points. Occasionally dynamite will appear on the screen, which will explode if shot by the bug zapper. With a well timed shot, numerous millipede segments (and other insects as well) can be taken out as they pass by.",
+    "desc": "千足蟲是蜈蚣的近親，花園裡到處都是。除非阻止它們，否則這將毀掉任何試圖在那裡生長的東西。但還有其他昆蟲。蜘蛛、蜜蜂、蜻蜓和蠼螋。自然是危險的。幸運的是，有一種滅蟲器可以向這些昆蟲射箭並消滅它們。\n\n《千足蟲》是《蜈蚣》的續作，具有類似的遊戲玩法，但有一群新的昆蟲！目標是在多節千足蟲穿過蘑菇林到達屏幕底部時消滅它。當所有千足蟲節段都被摧毀後，玩家將進入下一個更困難的級別。千足蟲和其他生物的得分都不同。屏幕上偶爾會出現炸藥，如果被滅蟲器射中，炸藥就會爆炸。如果時機把握得當，大量的千足蟲節段（以及其他昆蟲）可以在它們經過時被消滅。",
+    "desc_source": "api"
+  },
+  "Frogger (USA)": {
+    "key": "Frogger (USA)",
+    "original_name": "Frogger",
+    "name": "Greatest Hits",
+    "name_source": "wiki",
+    "original_desc": "Your task in this arcade conversion is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.\n\nThe road is full of cars and trucks, at variable speeds. The river water itself is fatal, as are the snakes which hover within on later levels. Frogger must use the arrangement of logs, turtles (which are only there for a short time) and alligators (but stay away form their faces), and then jump into one of the open home-cells, ideally one containing a fly for extra points. Once all holes have been filled, you move onto the next, harder, level.",
+    "desc": "在這個街機轉換中，你的任務是引導青蛙穿過危險的道路和河流，並到達屏幕頂部的安全地點。這兩個部分都充滿了各種危險，如果發生接觸，每種危險都會殺死青蛙並導致您喪命。\n\n路上擠滿了汽車和卡車，速度不一。河水本身是致命的，在後面的樓層盤旋的蛇也是如此。青蛙必須使用原木、海龜（它們只在那里呆很短的時間）和鱷魚（但遠離它們的臉）的排列，然後跳進一個開放的家庭牢房，最好是裡面有一隻蒼蠅的牢房，以獲得額外的分數。一旦所有的洞都被填滿，你就會進入下一個更難的關卡。",
+    "desc_source": "api"
+  },
+  "Ms. Pac-Man (USA)": {
+    "key": "Ms. Pac-Man (USA)",
+    "original_name": "Ms. Pac-Man",
+    "name": "辐射 (游戏)",
+    "name_source": "wiki",
+    "original_desc": "In 1982, a sequel to the  incredibly popular Pac-Man was introduced in the form of his girlfriend, Ms. Pac-Man.  This sequel continued on the \"eat the dots/avoid the ghosts\" gameplay of the original game, but added new features to keep the title fresh.\n\nLike her boyfriend, Ms. Pac-Man attempts to clear four various and challenging mazes filled with dots and ever-moving bouncing fruit  while avoiding Inky, Blinky, Pinky and Sue, each with their own personalities and tactics.  One touch from any of these ghosts means a loss of life for Ms. Pac-Man.",
+    "desc": "1982 年，廣受歡迎的吃豆人的續集以他的女朋友吃豆人女士的形式推出。該續作延續了原版遊戲的“吃點/避開鬼魂”遊戲玩法，但添加了新功能以保持遊戲的新鮮感。\n\n像她的男朋友一樣，吃豆人女士試圖清除四個充滿圓點和不斷移動的彈跳水果的不同且具有挑戰性的迷宮，同時避開 Inky、Blinky、Pinky 和 ​​​​Sue，每個人都有自己的個性和策略。這些幽靈中的任何一個接觸都意味著吃豆人女士的生命損失。",
+    "desc_source": "api"
+  },
+  "Gravitar (USA)": {
+    "key": "Gravitar (USA)",
+    "original_name": "Gravitar",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "The evil being called Gravitar is out attempting to destroy the universe! With each galaxy he conquers he leaves behind extreme gravitational forces, a powerful, explosive reactor and deadly bunkers. Your job is to stop Gravitar by taking back the twelve solar systems located in four galaxies that are under his control! In each solar system there is a sun, an alien reactor base, and three to four planets. To free the solar system, you have two choices; either visit all of the planets and destroy all enemy bunkers, or activate the reactor at the core of the alien base and escape before it explodes. On each of the planets and the alien base, there will be strong gravitational forces to deal with; make sure you keep your ship in space, since a crash into the ragged landscape will be fatal! After a galaxy has been freed, you then automatically move on to the next galaxy which will be even more difficult to save. The game includes five different skill levels which vary in difficulty by supplying different amounts of ships to begin the game as well as different strengths of gravity.",
+    "desc": "名為 Gravitar 的邪惡生物正試圖毀滅宇宙！他征服的每一個星係都會留下極端的引力、強大的爆炸性反應堆和致命的掩體。你的任務是阻止 Gravitar，奪回位於他控制下的四個星系中的十二個太陽系！每個太陽係都有一個太陽、一個外星反應堆基地和三到四個行星。要解放太陽系，你有兩個選擇：要么訪問所有行星並摧毀所有敵人的碉堡，要么激活外星人基地核心的反應堆並在爆炸前逃脫。每個行星和外星人基地都會有強大的引力需要應對；確保你的飛船保持在太空中，因為墜入崎嶇不平的地形將是致命的！一個星係被釋放後，你會自動移動到下一個星系，這將更加難以保存。該遊戲包括五個不同的技能級別，通過提供不同數量的船隻來開始遊戲以及不同的重力強度，這些級別的難度有所不同。",
+    "desc_source": "api"
+  },
+  "Super Breakout (USA)": {
+    "key": "Super Breakout (USA)",
+    "original_name": "Super Breakout",
+    "name": "超級突破",
+    "name_source": "api",
+    "original_desc": "Super Breakout features similar gameplay to the original, but with several new game variations. Your goal is to earn as many points as possible by destroying the bricks at the top of the playfield. To do this, you need to use the paddle at the bottom of the screen to keep a bouncing ball within the playfield. There are four different game variations included. The first is 'Breakout', and plays the same as the original game. \n\nThis leaves three new gameplay concepts. In 'Progressive' the brick walls will slowly drop towards the bottom of the screen and the ball moves progressively faster and faster. When there's room, a new layer of bricks will appear at the top. \n\nThe other two games add a second paddle. In 'Double Breakout' you have two balls to keep in play and score with. In 'Cavity' there is a single ball in play when you start, but two additional balls trapped within the bricks. These are freed when their surrounding bricks are destroyed.",
+    "desc": "Super Breakout 的遊戲玩法與原版類似，但有幾個新的遊戲變體。您的目標是通過摧毀遊戲場頂部的磚塊來獲得盡可能多的分數。為此，您需要使用屏幕底部的槳將彈跳的球保持在運動場內。包括四種不同的遊戲變體。第一個是“Breakout”，玩法與原版遊戲相同。\n\n這留下了三個新的遊戲概念。在“漸進式”中，磚牆會慢慢落向屏幕底部，球的移動速度會越來越快。當有空間時，頂部會出現一層新的磚塊。\n\n另外兩個遊戲添加了第二個球拍。在“雙突破”中，您有兩個球可以繼續比賽並得分。在“Cavity”中，當您開始時，遊戲中只有一個球，但另外兩個球被困在磚塊內。當周圍的磚塊被摧毀時，它們就會被釋放。",
+    "desc_source": "api"
+  },
+  "Berzerk (Japan, USA)": {
+    "key": "Berzerk (Japan, USA)",
+    "original_name": "Berzerk",
+    "name": "1980年電子遊戲界",
+    "name_source": "wiki",
+    "original_desc": "You are a prisoner on an alien planet that is made up of mazes. Robot gangs hunt you and you must shoot them before they hit you. Evil Otto, a grinning sinister face who is invincible, pursues you. If you can keep cool and not go bonkers, you'll eliminate robots, escape Evil Otto, and score big points.\n\nThe home video game version of a favorite Arcade game.",
+    "desc": "你是一個被囚禁在一個由迷宮組成的外星球上的囚犯。機器人團伙追捕你，你必須在他們襲擊你之前射殺他們。邪惡的奧托，一臉坏笑，所向無敵，對你窮追不捨。如果你能保持冷靜而不發瘋，你就能消滅機器人，逃離邪惡的奧托，並獲得高分。\n\n最喜歡的街機遊戲的家庭視頻遊戲版本。",
+    "desc_source": "api"
+  },
+  "Joust (USA)": {
+    "key": "Joust (USA)",
+    "original_name": "Joust",
+    "name": "鸵鸟骑士2：适者生存",
+    "name_source": "wiki",
+    "original_desc": "In Joust, players take control of a knight with a lance who rides their flying ostrich (or stork, for Player 2) to do battle against computer-controlled evil knights who ride atop vultures.\n\nPlayers must flap their steed's wings to hit the enemy from a higher jousting point to destroy the vulture and its rider. Once the enemy has been hit, an egg falls to one of the platforms below. The heroic knights must destroy the eggs before they hatch and release new and increasingly more difficult knights. The three strengths of enemy knights are Bounder (red knight), Hunter (white knight), and Shadow Lord (blue knight). These enemy knights are not the only challenge to be found in the game. Players must also contend with crumbling platforms, lava trolls who attempt to pull knights into the fire, and the dreaded \"unbeatable\"(?) pterodactyl.\n\nThe game was novel for its time for being one of the few two-player simultaneous games in the arcade.",
+    "desc": "在《Joust》中，玩家控制一名騎著長矛的騎士，騎著飛翔的鴕鳥（或玩家 2 的鸛），與騎在禿鷹上的電腦控制的邪惡騎士進行戰鬥。\n\n玩家必須拍動戰馬的翅膀，從更高的比武點攻擊敵人，消滅禿鷲和它的騎手。一旦敵人被擊中，一顆雞蛋就會掉落到下面的平台之一上。英雄的騎士必須在蛋孵化之前將其摧毀，並釋放新的、難度越來越大的騎士。敵方騎士的三種力量是Bounder（紅騎士）、Hunter（白騎士）和Shadow Lord（藍騎士）。這些敵方騎士並不是遊戲中發現的唯一挑戰。玩家還必須應對搖搖欲墜的平台、試圖將騎士拉入火中的熔岩巨魔，以及可怕的“不可戰勝”（？）翼手龍。\n\n該遊戲在當時是新穎的，因為它是街機中為數不多的兩人同時遊戲之一。",
+    "desc_source": "api"
+  },
+  "Vanguard (USA)": {
+    "key": "Vanguard (USA)",
+    "original_name": "Vanguard",
+    "name": "MTV音樂錄影帶大獎",
+    "name_source": "wiki",
+    "original_desc": "Vanguard is an arcade style shooter for one or two players. Your goal is to pilot your spaceship to the City of Mystery which is located at the end of a heavily guarded tunnel, and once there destroy the creature Gond. The tunnel is broken up into several different zones, called the mountain zone, rainbow zone, stick zone, stripe zone, bleak zone, and City of Mystery. Each zone features different types of enemy spaceships to deal with, and can scroll either horizontally or vertically. In the mountain zone or stripe zone, you may also come across an energy pod marked with an 'E'. If you fly through this, your ship temporarily becomes invincible to the deadly cave walls and numerous enemies which are trying to stop you. When not invincible, your space ship is equipped with lasers to help destroy enemies. You can fire in four different directions, however your speed is decreased when firing. You also need to keep an eye on your fuel gauge; your fuel will deplete at a rapid rate, and your ship will crash if it runs out. Fuel is gained each time you destroy an enemy, so make sure you destroy as many as you can! When you finally make it through all the various zones of the tunnel and defeat Gond, the game will repeat at a more difficult skill level.",
+    "desc": "Vanguard 是一款適合一到兩名玩家的街機風格射擊遊戲。你的目標是駕駛你的宇宙飛船前往位於戒備森嚴的隧道盡頭的神秘之城，並在到達那裡摧毀貢德生物。隧道分為幾個不同的區域，稱為山地區、彩虹區、棒區、條紋區、荒涼區和神秘之城。每個區域都有不同類型的敵方太空飛船需要對付，並且可以水平或垂直滾動​​。在山區或條紋區，您還可能會遇到標有“E”的能量莢。如果你飛過這裡，你的飛船會暫時變得無敵於致命的洞穴牆壁和眾多試圖阻止你的敵人。當你的太空飛船不是無敵時，它會配備激光來幫助摧毀敵人。你可以向四個不同的方向射擊，但是射擊時你的速度會降低。您還需要留意您的燃油表；你的燃料會迅速耗盡，如果耗盡你的船就會墜毀。每次消滅敵人都會獲得燃料，所以請確保消滅盡可能多的敵人！當你最終穿過隧道的所有不同區域並擊敗貢德時，遊戲將以更困難的技能水平重複。",
+    "desc_source": "api"
+  },
+  "Yars' Revenge (USA)": {
+    "key": "Yars' Revenge (USA)",
+    "original_name": "Yars' Revenge",
+    "name": "E.T.外星人 (游戏)",
+    "name_source": "wiki",
+    "original_desc": "In Yars' Revenge, your goal is to destroy the Qotile laser-base which is located on the right side of the screen behind a shield. You control the fly-like Yar, which can destroy the shield piece by piece by either shooting it or running into it. Once the shield is down, you will need to use the Zorlon cannon to destroy the Qotile. The Zorlon cannon is located on the left side of the screen, and when fired can destroy the Qotile with a direct hit. The Qotile isn't completely unarmed against your attacks, however. Wandering around the screen is a destroyer missile, which will constantly be homing in on your Yar. This missile can not be destroyed, however you can temporarily hide from it in a shield which runs vertically in the center of the screen. The Yar will be unable to fire when hiding in the shield so you can't stay there indefinitely! The Qotiles second weapon is a swirl which it will randomly fire at you and should be dodged. When you finally destroy the Qotile you can move on to the next, faster round of gameplay. Several game variations are included which control the difficulty and speed of the game.",
+    "desc": "在亞爾斯的複仇中，您的目標是摧毀位於屏幕右側盾牌後面的 Qotile 激光基地。你控制像蒼蠅一樣的亞爾，它可以通過射擊或衝撞盾牌來一片片地摧毀盾牌。一旦護盾被放下，你將需要使用佐隆大砲來摧毀 Qotile。佐隆大砲位於屏幕左側，發射時可以直接擊中摧毀 Qotile。然而，Qotile 並不是完全沒有武裝來抵禦你的攻擊。屏幕上徘徊的是一枚驅逐艦導彈，它會不斷地瞄准你的亞爾。該導彈無法被摧毀，但是您可以暫時將其隱藏在屏幕中央垂直運行的護盾中。當亞爾躲在盾牌中時將無法開火，所以你不能無限期地呆在那裡！Qtiles 的第二個武器是一個漩渦，它會隨機向你開火，應該躲避。當您最終摧毀 Qotile 時，您可以進入下一個更快的遊戲回合。包括幾種遊戲變體，可以控制遊戲的難度和速度。",
+    "desc_source": "api"
+  },
+  "Cosmic Ark (USA)": {
+    "key": "Cosmic Ark (USA)",
+    "original_name": "Cosmic Ark",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "The Alpha Ro solar system is in crisis! Their sun is about to go supernova, meaning the death of all the many planets and the exotic lifeforms who call them home. Luckily, though, the noble Atlanteans have heard of Alpha Ro's plight and have sent a vast Cosmic Ark thousands of light-years across the galaxy to try and save as many species as possible. As the captain of the Ark, the player will have to contend with deadly meteor storms and planetary defense systems to succeed the mission.\n\nCosmic Ark features two play screens: On the first, the player will have to blast meteors with four-way cannons. Blast enough and the player can go on to the second screen. The Ark descends low over one of Alpha Ro's planets. The player will then have to guide a shuttle craft down and beam aboard two creatures, while avoiding any laser defense system that may be in operation. The player will have to get the creatures back on board quickly, because another meteor shower could happen at any moment. Then it's off to the next planet!",
+    "desc": "Alpha Ro太陽系陷入危機！他們的太陽即將變成超新星，這意味著所有行星和以它們為家的奇異生命形式都會死亡。不過幸運的是，高貴的亞特蘭蒂斯人聽說了阿爾法羅的困境，並派遣了一艘巨大的宇宙方舟穿越銀河係數千光年，試圖拯救盡可能多的物種。作為方舟船長，玩家必須與致命的流星風暴和行星防禦系統作鬥爭才能成功完成任務。\n\n宇宙方舟有兩個遊戲屏幕：在第一個屏幕上，玩家必須用四向大砲發射流星。爆炸足夠了，玩家就可以進入第二個屏幕。方舟低空降落在阿爾法羅的一顆行星上空。然後，玩家必須引導一艘航天飛機向下發射並發射兩個生物，同時避開任何可能正在運行的激光防禦系統。玩家必須盡快讓生物回到船上，因為另一場流星雨隨時可能發生。然後就出發去下一個星球了！",
+    "desc_source": "api"
+  },
+  "Combat ~ Tank-Plus (USA)": {
+    "key": "Combat ~ Tank-Plus (USA)",
+    "original_name": "Combat",
+    "name": "最後生還者",
+    "name_source": "wiki",
+    "original_desc": "Combat is an early video game by Atari for the Atari 2600. It was released as one of the nine launch titles for the system in October 1977, and was included in the box with the system from its introduction until 1982. \n\nCombat boasted having 27 games in one, which were all variations on the tank, biplane, and jet gameplay.",
+    "desc": "Combat 是 Atari 為 Atari 2600 開發的一款早期視頻遊戲。它於 1977 年 10 月作為該系統的九個首發遊戲之一發布，並且從推出到 1982 年一直包含在系統的包裝盒中。\n\n《Combat》號稱將 27 款遊戲合而為一，全部是坦克、雙翼飛機和噴氣式飛機遊戲玩法的變體。",
+    "desc_source": "api"
+  },
+  "Jungle Hunt (USA)": {
+    "key": "Jungle Hunt (USA)",
+    "original_name": "Jungle Hunt",
+    "name": "Greatest Hits",
+    "name_source": "wiki",
+    "original_desc": "Jungle Hunt offers four unique adventure experiences, which repeat with greater difficulty once all four have been survived.  If you don't survive these adventures, you will not only lose your own life but that of the lovely Penelope, who has been captured by cannibals!\n\nThe first part challenges your Tarzan skills - can you swing on the vines without plummeting to your doom?  The second part pits you against a whole bunch of nasty crocodiles in a mighty river.  Fortunately, you have a knife to fight back with.  Don't forget to go up for air!  In the third part, you face a battle against oncoming boulders of varying sizes and physics.  Once you've cleared all these treacherous hazards, you still must confront the dreaded cannibal, who is armed with a wicked spear.  Can you get past him and save the lovely Penelope?\n\nGameplay involves much strategic jumping and knife play (in the river/crocodile phase).  The view is always a side view, much like Pitfall! and later platform games.",
+    "desc": "叢林狩獵提供四種獨特的冒險體驗，一旦全部四種都倖存下來，重複的難度就會更大。如果你沒能在這些冒險中倖存下來，你不僅會失去自己的生命，還會失去被食人者俘虜的可愛的佩內洛普的生命！\n\n第一部分挑戰你的人猿泰山技能 - 你能在藤蔓上盪鞦韆而不墜入厄運嗎？第二部分讓你在一條浩瀚的河流中對抗一大群令人討厭的鱷魚。幸運的是，你有一把刀可以反擊。別忘了上去呼吸空氣！在第三部分中，你將面臨一場與迎面而來的不同大小和物理性質的巨石的戰鬥。一旦你清除了所有這些危險的危險，你仍然必鬚麵對可怕的食人者，他手持邪惡的長矛。你能越過他並拯救可愛的佩內洛普嗎？\n\n遊戲玩法涉及很多戰略跳躍和刀法（在河/鱷魚階段）。視圖始終是側視圖，很像陷阱！以及後來的平台遊戲。",
+    "desc_source": "api"
+  },
+  "Circus Atari (Japan, USA)": {
+    "key": "Circus Atari (Japan, USA)",
+    "original_name": "Circus Atari",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Pop the balloons and score points. A wall of red, blue and white balloons will appear at the top of the screen. You must pop balloons by catching a clown on the teeter-totter and bouncing him up to the balloons. Use the controller to move the teeter-totter across the screen to catch the clowns. Each time a clown pops a balloon, the balloon will disappear and you score points. Each player receives five clowns or turns. If you fail to catch a clown on the teeter-totter he will crash and disappear from the playfield. Press the controller button and another clown will bounce off the trampoline from the right or left corner of the playfield. After five clowns have crashed the game is over. The clowns may land on any point on the teeter-totter except where the other clown is sitting, which causes them to crash.",
+    "desc": "戳破氣球並得分。屏幕頂部會出現一堵由紅色、藍色和白色氣球組成的牆。您必須抓住蹺蹺板上的小丑並將其彈到氣球上，從而彈出氣球。使用控制器在屏幕上移動蹺蹺板以抓住小丑。每當小丑彈出氣球時，氣球就會消失，您就會得分。每個玩家都會收到五個小丑或輪流。如果你沒能抓住蹺蹺板的小丑，他就會摔倒並從操場上消失。按下控制器按鈕，另一個小丑將從操場的右角或左角從蹦床上彈起。五個小丑摔倒後，遊戲結束。小丑可能會落在蹺蹺板上的任何一點，除了另一個小丑坐的地方，這會導致他們墜毀。",
+    "desc_source": "api"
+  },
+  "Crystal Castles (USA)": {
+    "key": "Crystal Castles (USA)",
+    "original_name": "Crystal Castles",
+    "name": "有生之年非玩不可的1001款游戏",
+    "name_source": "wiki",
+    "original_desc": "Bentley Bear is trapped in the Crystal Castles! To get out, he will need to collect all of the gems located throughout the castle. The game is played with an isometric view of the multi platformed castle. When Bentley collects all of the gems on the current castle, he will move on to the next, more difficult castle. Wandering throughout the castles are a wide variety of dangerous creatures, which Bentley should avoid. From time to time, a magic hat will appear. If Bentley collects the hat, he will temporarily be invincible to the castles inhabitants.",
+    "desc": "賓利熊被困在水晶城堡裡了！為了出去，他需要收集整個城堡的所有寶石。遊戲以多平台城堡的等距視圖進行。當本特利收集完當前城堡的所有寶石後，他將前往下一個更困難的城堡。城堡裡游盪著各種各樣的危險生物，本特利應該避開它們。時不時就會出現一頂魔法帽。如果本特利收集到帽子，他將暫時對城堡居民無敵。",
+    "desc_source": "api"
+  },
+  "Video Pinball ~ Arcade Pinball (USA)": {
+    "key": "Video Pinball ~ Arcade Pinball (USA)",
+    "original_name": "Video Pinball : Arcade Pinball",
+    "name": "Game Source Entertainment",
+    "name_source": "wiki",
+    "original_desc": "Video Pinball is a pinball simulation for one or two players. You begin the game with three balls and need to score as many points as possible by hitting the various bumpers, spinners, and rollovers on the pinball table. An extra ball can be earned by hitting the Atari logo rollover four times in a row!  There are two difficulty levels and four game variations included.",
+    "desc": "《Striking Vipers》（英語：Striking Vipers）是英國獨立單元劇《黑鏡》第5季第1集，由查理·布魯克編劇，歐文·哈里斯執導。影片隨第5季其他兩集於2019年6月5日上線Netflix。\n該集講述好朋友丹尼·帕克（安東尼·麥基 飾）和卡爾·霍頓在在虛擬實境格鬥遊戲中相迎，在線上發生性關係，影響丹尼在現實生活中與妻子緹歐（妮可·貝哈里 飾）的婚姻關係。本集角色均由黑人演員扮演，在巴西取景。劇情原型是兩位不知道彼此身份的同事在虛擬實境艷遇。\n劇評人認為該集的主題是性與性別的流動性、婚外情、愛情與友情，部分人懷疑丹尼和卡爾是不是同性戀，他們的關係算不算艷遇。至於影片是否利用有趣的手法探討這些主題，劇評人的看法不一，部分人認為該集類似於第3季的《聖朱尼佩洛》，那一集也講一對酷兒在虛擬世界的戀愛。演員及導演大體上受到稱讚，但部分影評人認為影片缺乏角色塑造。",
+    "desc_source": "wiki"
+  },
+  "Dragonfire (USA)": {
+    "key": "Dragonfire (USA)",
+    "original_name": "Dragonfire",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "The king's treasures have been stolen! As the daring young prince, your goal is to recover them all. The treasures are being kept in various castles, each one guarded by a fire breathing dragon. Each level in the game has two parts; first you will need to cross the castle's drawbridge. You will have to jump and duck the dragons fireballs as well as avoid flying arrows to reach the other side! In the second part you need to collect all of the treasures on the screen and make it to the exit while avoiding the dragon who runs across the bottom of the screen. The dragons on each level have different patterns of movement and firing, and as the levels progress will become faster and trickier.",
+    "desc": "國王的寶藏被盜了！作為勇敢的年輕王子，你的目標是找回他們所有人。這些寶藏被保存在各個城堡中，每個城堡都由一條噴火龍看守。遊戲中的每個關卡都有兩個部分；首先你需要穿過城堡的吊橋。你必須跳躍並躲避龍的火球並避免飛箭才能到達另一邊！在第二部分中，你需要收集屏幕上的所有寶藏並到達出口，同時避開跑過屏幕底部的龍。每個級別的龍都有不同的移動和射擊模式，並且隨著級別的進展會變得更快和更棘手。",
+    "desc_source": "api"
+  },
+  "River Raid (USA)": {
+    "key": "River Raid (USA)",
+    "original_name": "River Raid",
+    "name": "縱向捲軸遊戲",
+    "name_source": "wiki",
+    "original_desc": "River Raid is a vertically scrolling action game. You fly a jet up a river in an attempt to destroy bridges which are vital to the enemy. The river is heavily guarded, however, with balloons, ships, choppers, and enemy aircraft trying to stop you. Along the way you will need to fly over fuel stations to refuel your jet and keep flying.\n\nThe plane is armed with a cannon with unlimited ammo. It can be used to destroy the enemy vehicles and bridges, but a careless player can accidentally destroy a fuel station. Colliding with the riverbanks or with the enemy aircraft destroys your plane and makes you lose a life.",
+    "desc": "River Raid 是一款垂直捲軸動作遊戲。你駕駛噴氣式飛機沿河而上，試圖摧毀對敵人至關重要的橋樑。然而，這條河戒備森嚴，氣球、船隻、直升機和敵機試圖阻止你。一路上，您需要飛越加油站為您的飛機加油並繼續飛行。\n\n這架飛機配備了一門彈藥無限的大砲。它可以用來摧毀敵方車輛和橋樑，但粗心的玩家可能會意外摧毀加油站。與河岸或敵機相撞會摧毀你的飛機並讓你喪生。",
+    "desc_source": "api"
+  },
+  "Halloween (USA)": {
+    "key": "Halloween (USA)",
+    "original_name": "Halloween",
+    "name": "萬聖節",
+    "name_source": "api",
+    "original_desc": "Protect the children and fight for your life \"the night HE came home!\"\n\nBabysitting a group of children in a large two-story house, players assume the role of Laurie Strode as psychopath Michael Myers has escaped from the mental institution and has come back for revenge.  Players must guide the children to safe rooms while avoiding Michael Myers and his knife.\n\nThe house is large and full of dangerous blackouts and dead-ends within its sixteen rooms.  However, Laurie is not completely defenseless.  There is a knife that can be found to protect herself once the familiar theme music begins to play and killer remains in pursuit.  \n\nPlayers will advance to the next level by either stabbing Michael Myers twice, or rescuing five of the children.",
+    "desc": "保護孩子們，為自己的生命而戰，“他回家的那天晚上！”\n\n玩家扮演勞裡·斯特羅德（Laurie Strode），在一座兩層樓的大房子裡照顧一群孩子，扮演精神病患者邁克爾·邁爾斯（Michael Myers）從精神病院逃出來並回來復仇。玩家必須引導孩子們到安全的房間，同時避開邁克爾·邁爾斯和他的刀。\n\n這所房子很大，十六個房間裡充滿了危險的停電和死胡同。然而，勞裡並非完全毫無防備。當熟悉的主題音樂開始播放並且兇手仍在追捕時，可以找到一把刀來保護自己。\n\n玩家可以通過刺傷邁克爾·邁爾斯兩次或營救五個孩子來進入下一關。",
+    "desc_source": "api"
+  },
+  "Keystone Kapers (USA)": {
+    "key": "Keystone Kapers (USA)",
+    "original_name": "Keystone Kapers",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "The notorious thief Harry Hooligan is on the loose! You play the part of Officer Keystone Kelly, sent in to capture Harry. Harry is trapped in a four story mall, and is running as fast as he can to reach the exit at the top. Your job is to catch up to him and send him to prison. You will need to use either the escalators at the end of each floor, or the elevator in the middle to go from floor to floor. The escalators may be further away, but the elevator moves pretty slowly so you will need to decide which route will be faster in getting you closer to your goal. If Harry can make it to the top before you catch him, you will have to retry that level. Harry has no intention of letting you catch him easily, and is hurling everything he can find in an attempt to slow you down. Shopping carts, bouncing balls, biplanes, and more will all be flying past on the screen and will either slow you down or send you back to the beginning if you get hit. As the levels progress, Harry will run faster and faster, and more objects will be tossed your way to duck and jump over.",
+    "desc": "臭名昭著的小偷哈利·霍利根逍遙法外！你扮演警官基斯通·凱利，被派去抓捕哈利。哈利被困在一個四層樓的商場裡，他正在盡可能快地跑到頂部的出口。你的任務就是追上他並把他送進監獄。您需要使用每層樓末端的自動扶梯或中間的電梯才能從一層樓到達另一層樓。自動扶梯可能距離較遠，但電梯移動速度相當緩慢，因此您需要決定哪條路線可以更快地讓您更接近目標。如果哈利能在你追上他之前到達頂部，你將不得不重試該級別。哈利無意讓你輕易抓住他，他正在扔出他能找到的一切東西來試圖減慢你的速度。購物車、彈跳球、雙翼飛機等都會在屏幕上飛過，如果你被擊中，它們要么會減慢你的速度，要么會讓你回到起點。隨著關卡的進展，哈利會跑得越來越快，更多的物體會被拋向你，讓你躲避和跳躍。",
+    "desc_source": "api"
+  },
+  "Demon Attack (USA) (Rev 1)": {
+    "key": "Demon Attack (USA) (Rev 1)",
+    "original_name": "Demon Attack",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Demon Attack is an arcade action game with gameplay similar to Space Invaders. You control a laser canon at the bottom of the screen, and need to destroy wave after wave of brightly colored demons. The demons bounce around the screen in bizarre patterns, and try to destroy your canon with bombs or lasers. When you shoot a demon, it will be replaced with another or will split into two smaller demons depending on which wave you are playing. When the required number of demons for the current round is finally destroyed, you can move on to the next, more difficult round.",
+    "desc": "《惡魔攻擊》是一款街機動作遊戲，玩法類似於《太空侵略者》。你控制屏幕底部的激光炮，需要消滅一波又一波色彩鮮豔的惡魔。惡魔以奇怪的模式在屏幕上跳躍，並試圖用炸彈或激光摧毀你的大砲。當你射擊一個惡魔時，它會被另一個惡魔取代，或者會分裂成兩個較小的惡魔，具體取決於你正在玩的波浪。噹噹前回合所需數量的惡魔最終被消滅後，你就可以進入下一個更困難的回合。",
+    "desc_source": "api"
+  },
+  "Pitfall! - Pitfall Harry's Jungle Adventure (USA)": {
+    "key": "Pitfall! - Pitfall Harry's Jungle Adventure (USA)",
+    "original_name": "Pitfall! : Pitfall Harry's Jungle Adventure",
+    "name": "Nintendo Entertainment System游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Pitfall! is a platform action game. You play Pitfall Harry who is on a quest to locate treasure deep in the jungle. With a little luck you'll be able to find money bags, silver bars, gold bars, and diamond rings. But many obstacles will get in the way, some of which merely deduct points from your score, while others are fatal. Rolling logs and falling down a hole will deduct points, and scorpions, alligators, snakes, bottomless pits, swamps, and fires will cause Pitfall Harry to lose a life. You have 20 minutes to try to collect all of the treasures on the numerous screens, if you can live that long!",
+    "desc": "陷阱！是一款平台動作遊戲。你扮演“陷阱哈利”，他正在尋找叢林深處的寶藏。如果運氣好的話，您將能夠找到錢袋、銀條、金條和鑽戒。但許多障礙會阻礙你，其中一些只會從你的分數中扣除分數，而另一些則是致命的。滾木頭、掉進洞裡會扣分，而蝎子、鱷魚、蛇、無底洞、沼澤和火災會讓哈利喪命。如果你能活那麼久的話，你有 20 分鐘的時間嘗試收集眾多屏幕上的所有寶藏！",
+    "desc_source": "api"
+  },
+  "Seaquest (USA)": {
+    "key": "Seaquest (USA)",
+    "original_name": "Seaquest",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Your divers are out in the ocean collecting treasure; now that they have found what they're looking for, you need to pilot a submarine and return them safely to the surface! You can carry up to six divers at a time, and when you safely return the six divers to the surface, you move on to the next, faster level. Your sub has a limited supply of oxygen; if your oxygen meter gets too low, you will need to surface to replenish the oxygen supply. If you surface with less than six divers, you lose one of the divers. If you surface with no divers at all, then your sub will explode. To make your task more challenging, numerous giant sharks and enemy submarines travel throughout the waters and can destroy your sub on contact. To help out with these enemies, you have an unlimited supply of torpedoes which can be fired to destroy both the sharks and subs. As the levels progress, the game gets faster and more enemies appear at a time.",
+    "desc": "你的潛水員在海洋中收集寶藏；現在他們已經找到了他們要找的東西，你需要駕駛一艘潛艇並將他們安全地送回水面！您一次最多可以攜帶六名潛水員，當您將六名潛水員安全返回水面時，您將進入下一個更快的級別。您的潛水艇的氧氣供應有限；如果您的氧氣計太低，您將需要浮出水面補充氧氣供應。如果您浮出水面的潛水員少於六名，您將失去一名潛水員。如果你在沒有潛水員的情況下浮出水面，那麼你的潛水艇就會爆炸。為了讓你的任務更具挑戰性，大量的巨型鯊魚和敵方潛艇在水域中穿行，一旦接觸就會摧毀你的潛艇。為了幫助對付這些敵人，你可以發射無限量的魚雷來摧毀鯊魚和潛艇。隨著關卡的進展，遊戲會變得越來越快，同時會出現更多的敵人。",
+    "desc_source": "api"
+  },
+  "California Games (USA)": {
+    "key": "California Games (USA)",
+    "original_name": "California Games",
+    "name": "第四世代遊戲機",
+    "name_source": "wiki",
+    "original_desc": "California Games was the original \"Extreme Games\" – what today's generation might call \"X-Games in the sun\".  Players can select sponsors (absent in some versions) and compete in events such as skateboarding, footbag, surfing, roller skating, flying disc (frisbee) and BMX.  The surfing event is ranked by judges, which give a score to help the players improve their routine.\n\nThe Atari versions (2600 and Lynx) of the game omit the flying disc and roller skating events, while the Genesis version omits only the flying disc event.",
+    "desc": "加州運動會是最初的“極限運動會”——今天的一代人可能會稱之為“陽光下的極限運動會”。玩家可以選擇贊助商（某些版本中沒有）並參加滑板、足球、衝浪、輪滑、飛盤（飛盤）和小輪車等賽事。衝浪項目由評委進行排名，評委給出分數以幫助選手提高日常水平。\n\n遊戲的 Atari 版本（2600 和 Lynx）省略了飛盤和輪滑項目，而 Genesis 版本僅省略了飛盤項目。",
+    "desc_source": "api"
+  },
+  "Space Invaders (USA)": {
+    "key": "Space Invaders (USA)",
+    "original_name": "Space Invaders",
+    "name": "太空侵略者",
+    "name_source": "wiki",
+    "original_desc": "Earth is under attack from rows of bomb dropping aliens, and you need to defend it! The rows of aliens begin at the top of the screen, and you control a laser cannon at the bottom of the screen. Your goal is to earn points by shooting the aliens before they can land. The aliens march back and forth, and each time the end of the screen is reached they will drop one row closer to the bottom. Shoot them all, and you move on to the next (tougher) level, but if even one of them lands the game is over. From time to time a flying saucer will pass by along the top of the screen; shoot this to earn extra points. Just above your laser canon are three shields; these can be used to hide from the alien's bombs, but will also block your own shots. You begin the game with a limited number of laser canons, and if all of them are bombed the game ends.",
+    "desc": "地球正受到一排排投炸彈的外星人的攻擊，你需要保衛它！一排排外星人從屏幕頂部開始，你控制屏幕底部的激光炮。你的目標是在外星人著陸之前射擊他們來賺取積分。外星人來回行進，每次到達屏幕末端時，他們都會下降一排靠近底部。將它們全部射擊，然後您將進入下一個（更難的）關卡，但如果其中一個落地，遊戲就結束了。時不時會有飛碟沿著屏幕頂部掠過；拍攝這個以獲得額外積分。激光炮上方有三個防護罩；這些可以用來躲避外星人的炸彈，但也會阻擋你自己的射擊。您以有限數量的激光炮開始遊戲，如果所有激光炮都被轟炸，則遊戲結束。",
+    "desc_source": "api"
+  },
+  "Atlantis (USA)": {
+    "key": "Atlantis (USA)",
+    "original_name": "Atlantis",
+    "name": "亚特兰蒂斯：失落的帝国",
+    "name_source": "wiki",
+    "original_desc": "The lost city of Atlantis is under attack! Wave after wave of Gorgon vessels are approaching, each armed with weapons capable of destroying a part of the city. You are in charge of the command posts at the edges of the city and need to defend it from the invaders. The various gorgon craft will keep flying by on the screen in varying numbers and in different flight patterns. At first they fly high in the sky but then progressively lower. If an enemy makes it low enough before you destroy it, it will use it's weapons and destroy one of the buildings in Atlantis. As you progress in the game, the enemy craft will keep increasing in speed. The game ends when all remaining buildings in the city have been destroyed.",
+    "desc": "失落之城亞特蘭蒂斯遭到攻擊！一波又一波的戈爾貢船隻正在逼近，每艘船隻都配備了能夠摧毀城市一部分的武器。你負責城市邊緣的指揮所，需要保衛城市免受入侵者的侵害。各種戈爾貢飛船將以不同的數量和不同的飛行模式在屏幕上不斷飛行。起初它們飛得很高，但隨後逐漸降低。如果敵人在你摧毀它之前使其足夠低，它就會使用它的武器並摧毀亞特蘭蒂斯的一棟建築物。隨著遊戲的進展，敵方飛船的速度會不斷增加。當城市中所有剩餘的建築物都被摧毀時，遊戲結束。",
+    "desc_source": "api"
+  },
+  "Missile Command (USA)": {
+    "key": "Missile Command (USA)",
+    "original_name": "Missile Command",
+    "name": "1980年電子遊戲界",
+    "name_source": "wiki",
+    "original_desc": "Aliens from the planet of Krytol are attacking your cities!! As the commander of a missile base, it is your responsibility to defend them. A variety of enemy weapons and planes will be incoming trying to destroy the six cities at the bottom of the screen. You need to fire missiles to destroy the incoming weapons. If anything gets through, one of your cities could be destroyed. When all of the cities are gone, the game is over. On each level you have a limited amount of ammo, so make sure most (if not all) of your shots are accurate or you could run out of ammo and leave your cities at risk! As the levels progress, there are more and more enemy weapons to destroy which come in at an increasingly faster rate.",
+    "desc": "來自 Krytol 星球的外星人正在攻擊您的城市！作為導彈基地的指揮官，你有責任保衛它們。各種敵方武器和飛機將會襲來，試圖摧毀屏幕底部的六個城市。你需要發射導彈來摧毀來襲的武器。如果有什麼東西通過，你的一座城市可能會被摧毀。當所有的城市都消失後，遊戲就結束了。在每個級別上，你的彈藥數量都是有限的，因此請確保你的大部分（如果不是全部）射擊都是準確的，否則你可能會耗盡彈藥並使你的城市面臨風險！隨著關卡的進展，需要摧毀的敵方武器越來越多，而且速度也越來越快。",
+    "desc_source": "api"
+  },
+  "Phoenix (USA)": {
+    "key": "Phoenix (USA)",
+    "original_name": "Phoenix",
+    "name": "2016年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "Phoenix is an arcade action game with gameplay similar to Space Invaders. You are the commander of the Phoenix, and your mission is to reach an alien spaceship which has been draining your planets resources. The ship is guarded by four levels of bird like creatures. After clearing all four stages, the fifth level will be against a large, heavily shielded mothership. If the mothership is destroyed, the game will then repeat, but with increased speed and difficulty. To defeat the numerous enemies, the Phoenix is equipped with a laser cannon and a force field.",
+    "desc": "Xbox One遊戲列表包括了正在開發中或已經發售的部分Xbox One遊戲。",
+    "desc_source": "wiki"
+  },
+  "Enduro (USA)": {
+    "key": "Enduro (USA)",
+    "original_name": "Enduro",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Enduro is an action racing game similar to Pole Position. Your goal is to last as long as you can in an enduro race; each day of the race you are required to pass a certain number of cars. If you succeed, you get to continue on, fail and you are out of the race. The driving conditions will vary as the days pass by; not only will you have to drive at different times of day with different amounts of light, but the seasons can change as well. Snow, ice, and fog will occasionally appear to make driving more treacherous. With each day that passes, the other cars will become faster and more aggressive. At the bottom of the screen is an odometer, so when the race is finally over you can see how far you made it.",
+    "desc": "Enduro 是一款類似於 Pole Position 的動作賽車遊戲。您的目標是在耐力賽中盡可能堅持多久；比賽的每一天，您都需要通過一定數量的汽車。如果你成功了，你就可以繼續前進，失敗了，你就被淘汰了。駕駛條件會隨著時間的推移而變化；您不僅需要在一天中的不同時間、不同光線量下駕駛，而且季節也會發生變化。雪、冰和霧偶爾會出現，使駕駛變得更加危險。隨著時間一天天過去，其他車輛將會變得更快、更具攻擊性。屏幕底部是一個里程表，因此當比賽最終結束時，您可以看到您走了多遠。",
+    "desc_source": "api"
+  },
+  "Stargate (USA)": {
+    "key": "Stargate (USA)",
+    "original_name": "Stargate",
+    "name": "虚幻引擎游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Save the humanoids from the impending aliens in the sequel to Defender. The task is still rescuing humanoids before Landers can turn them into Mutants, while avoiding and shooting other foes, however you must now carry humanoids to safety through the Stargate of the title. \n\nEntering this Stargate not only warps you to the nearest humanoid in jeopardy, but can also warp you ahead (while on the first 15 levels) if you enter it with 4 or more humanoids, and give you extra lives if you warp with 10 humanoids, so there is a trade-off between guaranteeing the safety of existing humanoids, and trying to advance your position\n\nThere are more enemies on screen than ever before. The Inviso button makes you invisible to enemies, but also to yourself, so you will have to follow your bullets to work out where on the screen you are.",
+    "desc": "在《守護者》續集中，從即將到來的外星人手中拯救類人生物。任務仍然是在蘭德斯將類人生物變成變種人之前營救他們，同時避開並射擊其他敵人，但是你現在必須通過遊戲中的星際之門將類人生物帶到安全的地方。\n\n進入這個星際之門不僅會將你傳送到最近的處於危險之中的類人生物，而且如果你帶著 4 個或更多的類人生物進入它，也可能會讓你領先（在前 15 層），如果你帶著 10 個類人生物進入它，還會給你額外的生命，所以在保證現有類人生物的安全和試圖提升你的地位之間需要權衡。\n\n屏幕上的敵人比以往任何時候都多。Inviso 按鈕讓你對敵人和你自己來說都是隱形的，所以你必須跟隨你的子彈來找出你在屏幕上的位置。",
+    "desc_source": "api"
+  },
+  "Stampede (USA)": {
+    "key": "Stampede (USA)",
+    "original_name": "Stampede",
+    "name": "從地心竄出系列",
+    "name_source": "wiki",
+    "original_desc": "It's a stampede!! Your job is to round up as many of the calves as you can. The screen scrolls to the right as you chase the calves; if more than three calves get past you, the game is over. The calves all run at different speeds, and when you rope one you earn points based on how fast it was running. As the game progresses, more and more calves will be on the screen at one time, and other obstacles will begin appearing to trip your horse and slow you down.",
+    "desc": "這是踩踏事件！ ！你的工作就是盡可能多地圍捕小牛。當你追逐小牛時，屏幕會向右滾動；如果超過三隻小牛超過了你，遊戲就結束了。小牛都以不同的速度奔跑，當你用繩子拴住一隻小牛時，你會根據它的奔跑速度獲得積分。隨著遊戲的進行，越來越多的小牛會同時出現在屏幕上，並且其他障礙物會開始出現，絆倒你的馬並減慢你的速度。",
+    "desc_source": "api"
+  },
+  "Adventure (USA)": {
+    "key": "Adventure (USA)",
+    "original_name": "Adventure",
+    "name": "2025年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "An evil magician has stolen the Enchanted Chalice and has hidden it somewhere in the Kingdom. The object of the game is to rescue the Enchanted Chalice and place it inside the Golden Castle where it belongs. \n\nThis is no easy task, as the Evil Magician has created three Dragons to hinder you in your quest for the Golden Chalice. There is Yorgie, the Yellow Dragon, who is just plain mean; there is Grundle, the Green Dragon, who is mean and ferocious; and there is Rhindle, the Red Dragon, who is the most ferocious of all. Rhindle is also the fastest Dragon and is the most difficult to outmaneuver.\n\nThere are three castles in the Kingdom; the White Castle, the Black Castle, and the Golden Castle. Each castle has a Gate over the entrance. The Gate can be opened with the corresponding colored Key. Inside each Castle are rooms(or dungeons, depending at which Skill Level you are playing).\n\nThe Castles are separated by rooms, pathways, and labyrinths. Common to all the Skill Levels is the Blue Labyrinth through which you must find your way to the Black Castle. Skill Levels 2 and 3 have a more complicated Kingdom\n\nAdventure was the first action-adventure game on a video console, the first to contain a widely-known Easter egg, and the first to allow a player to have a stash of items, which required the player to select which one to use at any given moment, usually through keyboard or joystick input. Adventure allowed the player to drop one item and pick up another without having to type in any commands. The graphics, on the other hand, were not that great, and Adventure creator Warren Robinett even described the dragons as looking like ducks.",
+    "desc": "一名邪惡的魔法師偷走了魔法聖杯，並將其藏在王國的某個地方。遊戲的目標是拯救魔法聖杯並將其放置在它所屬的金色城堡內。\n\n這不是一件容易的事，因為邪惡魔法師創造了三條龍來阻礙你尋找金聖杯。還有黃龍約吉（Yorgie），他非常卑鄙；還有綠龍格倫德爾，他卑鄙而兇猛。還有紅龍萊因德爾（Rhindle），它是所有龍中最兇猛的。萊因德爾也是速度最快的龍，也是最難戰勝的龍。\n\n王國共有三座城堡；白色城堡、黑色城堡、金色城堡。每個城堡的入口處都有一個大門。門可以用相應顏色的鑰匙打開。每個城堡內都有房間（或地下城，取決於您所玩的技能級別）。\n\n城堡由房間、通道和迷宮隔開。所有技能等級的共同點是藍色迷宮，你必須通過它找到通往黑色城堡的路。技能等級 2 和 3 有一個更複雜的王國\n\nAdventure 是視頻遊戲機上的第一個動作冒險遊戲，第一個包含廣為人知的複活節彩蛋的遊戲，也是第一個允許玩家儲存物品的遊戲，這要求玩家在任何給定時刻選擇要使用的物品，通常是通過鍵盤或操縱桿輸入。冒險允許玩家放下一件物品並撿起另一件物品，而無需輸入任何命令。另一方面，圖像並不是那麼好，冒險創作者沃倫·羅賓內特甚至將龍描述為看起來像鴨子。",
+    "desc_source": "api"
+  },
+  "Star Wars - The Empire Strikes Back (USA)": {
+    "key": "Star Wars - The Empire Strikes Back (USA)",
+    "original_name": "Star Wars : The Empire Strikes Back",
+    "name": "星際大戰五部曲：帝國大反擊",
+    "name_source": "wiki",
+    "original_desc": "Star Wars: The Empire Strikes Back recreates a scene from the movie of the same name. You are on the icy planet of Hoth, and Imperial Walkers are closing in on the rebel power generator. As the pilot of a snowspeeder, you need to take out as many of the walkers as you can. The walkers are heavily armoured, and it will take a lot of fire power to destroy one! The game is played on a large, scrolling screen with a radar screen at the bottom to help keep track of where the enemy is located. If a walker reaches the power generator, or you run out of snowspeeders the game is over. Good luck, and may the force be with you!",
+    "desc": "《星球大戰：帝國反擊戰》重現了同名電影中的場景。你身處冰冷的霍斯星球，帝國步行者正在逼近叛軍的發電機。作為雪地飛行艇的飛行員，你需要消滅盡可能多的步行者。步行者身披重甲，需要大量的火力才能摧毀一隻！遊戲在一個大的滾動屏幕上進行，底部有一個雷達屏幕，可以幫助跟踪敵人的位置。如果步行者到達發電機，或者你用完了雪地飛行器，遊戲就結束了。祝你好運，願原力與你同在！",
+    "desc_source": "api"
+  },
+  "Frogs and Flies (USA)": {
+    "key": "Frogs and Flies (USA)",
+    "original_name": "Frogs and Flies",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "The object of the game is to make frogs catch flies. Points are won by manipulating a frog so that he jumps off a lily pad and scoops up flying insects with a flashing tongue. Jump him too late and you'll miss. Jump him too far and he'll land in the pond. you'll have to wait for him to swim back before trying again. Day & night action. Catch more flies than an opponent. Or beat your own top score!",
+    "desc": "遊戲的目的是讓青蛙捕捉蒼蠅。通過操縱青蛙從睡蓮葉上跳下來並用閃爍的舌頭舀起飛蟲來贏得分數。跳得太晚你就會錯過。把他跳得太遠，他就會掉進池塘里。你必須等他遊回來才能再次嘗試。晝夜行動。比對手捕獲更多的蒼蠅。或者打破你自己的最高分！",
+    "desc_source": "api"
+  },
+  "Sky Diver ~ Dare Diver (USA)": {
+    "key": "Sky Diver ~ Dare Diver (USA)",
+    "original_name": "Sky Diver : Dare Diver",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Sky Diver is an action game for two players. The goal is to score the most points by jumping from a plane, opening your parachute,  and guiding your sky diver safely to a landing pad. The longer you wait to open your parachute, the more points you earn for a successful landing, but don't wait too long or your chute won't open at all! For each jump, there will be varying wind conditions which blow your sky diver off course. A wind sock at the bottom of the screen will help you determine the wind speed and direction so you can compensate. There are nine jumps total, and the player with the most points at the end wins.",
+    "desc": "Sky Diver 是一款適合兩名玩家的動作遊戲。目標是通過從飛機上跳下、打開降落傘並引導跳傘員安全到達著陸場來獲得最高分。打開降落傘的時間越長，成功著陸獲得的積分就越多，但不要等待太久，否則降落傘根本不會打開！每次跳躍時，都會有不同的風力條件，使您的跳傘者偏離航線。屏幕底部的風向袋將幫助您確定風速和風向，以便您進行補償。總共有九次跳躍，最後得分最高的玩家獲勝。",
+    "desc_source": "api"
+  },
+  "Battlezone (Japan, USA)": {
+    "key": "Battlezone (Japan, USA)",
+    "original_name": "Battlezone",
+    "name": "终极战区",
+    "name_source": "wiki",
+    "original_desc": "Atari Games' 3D tank game was ground-breaking when released to the arcades, and as such was converted officially to many systems. Earth has been invaded, and you and your tank lead the defensive effort. You drive around the battlefield from a first-person view, targeting and firing at tanks, planes and UFOs. You have a radar to help you see where the enemies are in direction and distance. Objects can be used as strategic cover. Controls simulate the tracks of a tank realistically, so the direction and speed settings are varied - combining forward right and backward left movements (as you can on keyboard versions) sees you change direction more quickly.",
+    "desc": "Atari Games 的 3D 坦克遊戲在發佈到街機時具有開創性，因此被正式轉換到許多系統。地球已被入侵，你和你的坦克領導防禦工作。您以第一人稱視角在戰場上行駛，瞄準坦克、飛機和不明飛行物並射擊。您有雷達可以幫助您了解敵人的方向和距離。物體可以用作戰略掩護。控件真實地模擬坦克的履帶，因此方向和速度設置各不相同 - 結合向右前進和向左向後移動（就像在鍵盤版本上一樣）可以讓您更快地改變方向。",
+    "desc_source": "api"
+  },
+  "Warlords (USA)": {
+    "key": "Warlords (USA)",
+    "original_name": "Warlords",
+    "name": "戰神",
+    "name_source": "wiki",
+    "original_desc": "In Warlords, you need to defend yourself from three human and/or computer players. Each of the four players are in one of the corners of the screen guarded by a castle. You control a small shield which can be moved around the edge of the castle. To survive you need to use the shield to block a ball which bounces around the screen. If the ball hits your castle, it will take out some of the bricks. If a hole forms in the castle wall and the ball makes it though and hits your warlord, then you are out of the game. The last player left alive wins the battle, and the first player to win five battles wins the game! Several game options are included which allow you to either catch or ricochet the ball when the shield touches it, and control the speed of the game.",
+    "desc": "在《軍閥》中，您需要保護自己免受三名人類和/或計算機玩家的攻擊。四名玩家中的每一位都位於屏幕的一個角落，由一座城堡守衛。你控制一個小盾牌，它可以在城堡邊緣移動。為了生存，你需要使用盾牌來阻擋在屏幕上彈跳的球。如果球擊中你的城堡，它會取出一些磚塊。如果城堡牆上形成了一個洞，而球穿過了洞並擊中了你的軍閥，那麼你就出局了。最後活著的玩家贏得了戰鬥，第一個贏得五場戰鬥的玩家贏得了遊戲！包括幾個遊戲選項，允許您在盾牌接觸球時接球或彈跳，並控制遊戲速度。",
+    "desc_source": "api"
+  },
+  "Frostbite (USA)": {
+    "key": "Frostbite (USA)",
+    "original_name": "Frostbite",
+    "name": "FIFA 17",
+    "name_source": "wiki",
+    "original_desc": "You're an Eskimo who wants to build an igloo to live in during the cold season. To do this, you must jump from ice-block to ice-block, while avoiding wildlife such as birds and crabs. Coming with contact with any of these will cause them to push you off the block and into the deadly water. Once you have built your igloo, you must enter it to proceed to the next level. Remember, you must build it before the temperature drops to 0°. You have four lives.",
+    "desc": "您是一名愛斯基摩人，想要建造一座冰屋在寒冷的季節居住。要做到這一點，你必須從一個冰塊跳到另一個冰塊，同時避開鳥類和螃蟹等野生動物。接觸其中任何一個都會導致它們將你推離街區並進入致命的水中。一旦你建造了冰屋，你必須進入它才能進入下一關。請記住，您必須在溫度降至 0° 之前構建它。你有四種生命。",
+    "desc_source": "api"
+  },
+  "Beamrider (USA)": {
+    "key": "Beamrider (USA)",
+    "original_name": "Beamrider",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Beamrider is a 3-D arcade action game. You control a beam riding spaceship on a mission to clear 99 sectors of space from hostile aliens. The spaceship is located at the bottom of the screen and it can only stop on one of five beams. You are armed with both lasers and torpedoes; torpedoes are more powerful and can destroy more enemies compared to lasers, however you only get three per level. To complete a sector, you need to destroy fifteen white flying saucers. After all saucers are destroyed, the sector sentinel passes by which can be destroyed for extra points. Each even number sector up until sector 16 will add a new type of enemy to deal with. These additional enemies will just try to slow your mission, though, only the saucers need to be destroyed to advance. Occassionally a rejeuvinator will appear; if this is collected, you can earn an extra life. But be careful, because if you accidentally shoot the rejeuvinator it will turn into an enemy!",
+    "desc": "Beamrider 是一款 3D 街機動作遊戲。您控制一艘光束飛船執行任務，清除 99 個太空區域中的敵對外星人。飛船位於屏幕底部，只能停在五根光束中的一根上。你裝備有激光和魚雷；與激光相比，魚雷威力更強大，可以摧毀更多敵人，但每級只能獲得三個。要完成一個區域，您需要摧毀十五個白色飛碟。所有碟子被摧毀後，扇區哨兵經過，可以摧毀它以獲得額外積分。每個偶數區域直到第 16 區域都會增加一種新類型的敵人來對付。這些額外的敵人只會試圖減慢你的任務速度，不過，只有摧毀碟子才能前進。偶爾會出現返老還童者；如果收集到，您可以獲得額外的生命。但要小心，因為如果你不小心射中了復興器，它就會變成敵人！",
+    "desc_source": "api"
+  },
+  "H.E.R.O. (USA)": {
+    "key": "H.E.R.O. (USA)",
+    "original_name": "H.E.R.O.",
+    "name": "吉他英雄",
+    "name_source": "wiki",
+    "original_desc": "There is trouble in the mines! Volcanic activity has trapped numerous miners, and it is your job to save them. As Roderick Hero, you need to make your way through the dangerous mineshaft avoiding the dangerous creatures and lava, and find out where the miners are located before you run out of energy. To help on your mission, Roderick Hero has several useful types of equipment. A prop pack will allow you to hover and fly around the mineshaft and (hopefully) avoid the many dangers within. Your helmet features a short range microlaser beam which can be used to destroy the bats, spiders, snakes, and other creatures you'll encounter in the mines. From time to time, your path through the mine may be blocked by stone or lava walls. You begin each mission with six sticks of dynamite which can be used to destroy these obstacles (be careful you don't blow yourself up, though!) If you run out of dynamite, your laser beam can also be used to destroy the walls, though this will take longer and use up more energy. As the levels progress, the mine shaft will become longer and more maze-like, creatures will more frequently block the path, and lava walls and pools will appear which are dangerous to the touch.",
+    "desc": "礦井裡有麻煩了！火山活動困住了無數礦工，你的任務就是拯救他們。作為羅德里克英雄，你需要穿過危險的礦井，避開危險的生物和熔岩，並在能量耗盡之前找出礦工的位置。為了幫助你完成任務，羅德里克英雄有幾種有用的裝備。道具包可以讓你在礦井周圍盤旋和飛行，並（希望）避免其中的許多危險。您的頭盔具有短程微型激光束，可用於消滅蝙蝠、蜘蛛、蛇和您在礦井中遇到的其他生物。有時，您穿過礦井的道路可能會被石頭或熔岩牆擋住。每個任務開始時你都會有六根炸藥棒，可以用來摧毀這些障礙物（不過要小心，不要炸死自己！）如果你用完了炸藥，你的激光束也可以用來摧毀牆壁，儘管這會花費更長的時間並消耗更多的能量。隨著關卡的進展，礦井會變得更長，更像迷宮，生物會更頻繁地阻擋道路，並且會出現觸摸起來很危險的熔岩牆和水池。",
+    "desc_source": "api"
+  },
+  "Montezuma's Revenge - Featuring Panama Joe (USA)": {
+    "key": "Montezuma's Revenge - Featuring Panama Joe (USA)",
+    "original_name": "Montezuma's Revenge",
+    "name": "喷神James节目列表",
+    "name_source": "wiki",
+    "original_desc": "You play as a treasure hunter named Panama Joe, whose goal is to find an ancient treasure hidden by Aztec warrior  deep inside catacombs. But beware, the catacombs are a large maze inhabited by monsters. Bouncing and rolling skulls, dancing spiders, disappearing and re-appearing chains and tons of fire await you. You'll have to find many keys and unlock doors in order to reach your goal. Panama Joe can jump and climb ladders, but doesn't have much to offer in terms of combat. That's why the monsters in the game should be avoided: a collision with an enemy leads to a premature death.",
+    "desc": "你扮演一位名叫巴拿馬喬的寶藏獵人，他的目標是找到阿茲特克戰士隱藏在地下墓穴深處的古代寶藏。但要小心，地下墓穴是一個怪物居住的大迷宮。彈跳和滾動的頭骨、跳舞的蜘蛛、消失和重新出現的鏈條以及大量的火焰等待著您。你必須找到許多鑰匙並打開門才能實現你的目標。巴拿馬喬可以跳躍和爬梯子，但在戰斗方面沒有太多作用。這就是為什麼應該避免遊戲中的怪物：與敵人碰撞會導致過早死亡。",
+    "desc_source": "api"
+  },
+  "Pitfall II - Lost Caverns (USA)": {
+    "key": "Pitfall II - Lost Caverns (USA)",
+    "original_name": "Pitfall II : Lost Caverns",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "You play Pitfall Harry searching for the Raj diamond, his niece Rhonda, and a variety of treasures somewhere in the Andes. Poisonous frogs, eels, scorpions, bats and other hazards get in the way. Pitfall II is the sequel to Pitfall, the original platform game. Gameplay has remained pretty much the same, with each screen presenting a side view of obstacles to get past, and potentially treasures to collect. The landscape is more maze like, with a variety of paths and dead ends to search. Along the way there are checkpoints the player will encounter. When the player dies, Pitfall Harry will be sent back to the most recently crossed checkpoint.",
+    "desc": "你扮演“陷阱哈利”，尋找拉吉鑽石、他的侄女朗達以及安第斯山脈某處的各種寶藏。有毒的青蛙、鰻魚、蝎子、蝙蝠和其他危險物會阻礙我們。Pitfall II 是原始平台遊戲 Pitfall 的續作。遊戲玩法幾乎保持不變，每個屏幕都會呈現需要克服的障礙的側視圖，以及需要收集的潛在寶藏。景觀更像是迷宮，有各種各樣的路徑和死胡同可供搜索。沿途玩家會遇到一些檢查站。當玩家死亡時，陷阱哈利將被送回最近穿過的檢查站。",
+    "desc_source": "api"
+  },
+  "Kangaroo (USA)": {
+    "key": "Kangaroo (USA)",
+    "original_name": "Kangaroo",
+    "name": "袋鼠小天王 (2000年遊戲)",
+    "name_source": "wiki",
+    "original_desc": "Baby Roo has been kidnapped by monkeys, and it's up to Mama Roo to come to the rescue! Your kangaroo starts out at the bottom of the screen. You need to guide the kangaroo up the various ladders and platforms to the top where Baby Roo is being held captive. The monkeys will be trying to stop you by throwing or dropping apples and knocking you off the platforms. Your kangaroo has boxing gloves, however, and can knock out the monkeys with a single punch! Along the way various types of fruit can be collected to earn bonus points.",
+    "desc": "魯寶寶被猴子綁架了，魯媽媽必須前來營救！你的袋鼠從屏幕底部開始。你需要引導袋鼠爬上各種梯子和平台，到達囚禁小袋鼠的頂部。猴子會試圖通過投擲或掉落蘋果並將你從平台上撞下來來阻止你。然而，你的袋鼠戴著拳擊手套，一拳就能擊倒猴子！一路上可以收集各種類型的水果來賺取獎勵積分。",
+    "desc_source": "api"
+  },
+  "Asteroids (Japan, USA)": {
+    "key": "Asteroids (Japan, USA)",
+    "original_name": "Asteroids",
+    "name": "艾德·羅格",
+    "name_source": "wiki",
+    "original_desc": "Asteroids is a conversion of the arcade game of the same name.\n\nPlay the role of a spaceship pilot trapped in a gigantic asteroid cloud and pulverize incoming asteroids with the ship's photon cannon.  When all asteroids are destroyed, the play can them move to the next round. In addition to asteroid, the player will also face an Alien Robot Saucer which shoots randomly across the screen.\n\nThe player using the controller may rotate the ship (left or right) to any direction or move the ship forward. Shots will be fired according to the ship direction. The player has three reserved ships available to replace a destroyed spaceship. The spaceship is destroyed if an asteroid collides with the spaceship or is shot by an Alien Robot Saucer. Additionally, the player may opt to use the hyperspace warp to avoid collision. The warp however, may also destroy the spaceship in the process.\n\nAsteroids when shot will break-up into smaller pieces or be destroyed.. There are three types of asteroids: large asteroids, medium asteroids, and small asteroids. Large asteroids and medium asteroids when shot, will break-up into two smaller sized asteroids. Small asteroids when shot will be destroyed. \n\nAlien Robot Saucers come in two sizes: small and large. Both use photon lasers to shoot and will explode when destroyed. Alien Robot Saucers will not appear at the Novice Level.\n\nGame Difficulty and Variations\nThere are 4 available difficulty settings: Novice, Intermediate, Advanced, and Expert. \n\nThe game also offers three different game variations:\n\n1. Standard Play - For one or two players, taking turns when a player's ship is destroyed.\n\n2. Competition Asteroids - Two players appear on the screen at the same time. Friendly fire is in affect, which means shots fired from one player's spaceship will destroy the other player's spaceship. Each player has separate ship reserves.\n\n3. Team Asteroids - Two players on the screen at the same time. Friendly fire is disabled, which means shots fired from one player's spaceship will not destroy the other player's spaceship and just pass through. Ship reserves for both players are combined.\n\nScoring\nThe score of the Player 1 is viewable on the upper left side of the screen, while Player 2 on the opposite upper right side. A player will be awarded a new reserve ship for every 10,000 points.\n\n1. Small saucer - 1,000 points\n2. Other player's ship - 500 points\n3. Large saucer - 200 points\n4. Small asteroid - 100 points\n5. Medium asteroid  - 50 points\n6. Large asteroid - 20 points",
+    "desc": "《小行星》是同名街機遊戲的改編版。\n\n扮演被困在巨大小行星雲中的宇宙飛船飛行員的角色，並用飛船的光子炮粉碎即將到來的小行星。當所有小行星都被摧毀後，遊戲就可以讓它們進入下一輪。除了小行星之外，玩家還將面對一個外星機器人飛碟，它會在屏幕上隨機射擊。\n\n使用控制器的玩家可以將船旋轉（左或右）到任何方向或向前移動船。射擊將根據船舶方向進行。玩家有三艘預留的飛船可以用來替換被摧毀的宇宙飛船。如果小行星與宇宙飛船相撞或被外星機器人飛碟射擊，宇宙飛船就會被摧毀。此外，玩家可以選擇使用超空間扭曲來避免碰撞。然而，扭曲也可能在此過程中摧毀宇宙飛船。\n\n小行星被擊中時會分解成更小的碎片或被摧毀。 小行星分為三種類型：大型小行星、中型小行星和小型小行星。大型小行星和中型小行星在被擊中時會分裂成兩顆較小尺寸的小行星。小型小行星在被射擊時會被摧毀。\n\n外星機器人碟子有兩種尺寸：小型和大型。兩者都使用光子激光進行射擊，被摧毀後會爆炸。外星機器人碟子不會出現在新手級別。\n\n遊戲難度和變化\n有 4 種可用的難度設置：新手、中級、高級和專家。\n\n該遊戲還提供三種不同的遊戲變體：\n\n1. 標準遊戲 - 一名或兩名玩家，當一名玩家的船隻被摧毀時輪流進行。\n\n2. 競賽小行星 - 兩名玩家同時出現在屏幕上。友軍火力生效，這意味著一個玩家的宇宙飛船發射的子彈將摧毀另一個玩家的宇宙飛船。每個玩家都有單獨的船舶儲備。\n\n3. 小行星隊 - 屏幕上同時出現兩名玩家。友軍火力被禁用，這意味著從一個玩家的宇宙飛船發射的子彈不會摧毀另一個玩家的宇宙飛船，而只會穿過。雙方的船舶儲備相加。\n\n評分\n玩家 1 的分數可以在屏幕的左上方查看，而玩家 2 的分數則可以在相反的右上方查看。玩家每獲得 10,000 積分即可獲得一艘新的預備艦。\n\n1. 小碟子 - 1,000 分\n2. 其他玩家的船 - 500 點\n3. 大碟子 - 200分\n4. 小小行星 - 100分\n5. 中型小行星 - 50分\n6. 大小行星 - 20分",
+    "desc_source": "api"
+  },
+  "Centipede (Japan, USA)": {
+    "key": "Centipede (Japan, USA)",
+    "original_name": "Centipede",
+    "name": "雅达利游戏掩埋事件",
+    "name_source": "wiki",
+    "original_desc": "In Centipede, the player is trapped in the Enchanted Forest. Armed with only a magic wand to ward off the forest's insect denizens, all of which apparently are attacking in the player in continuous waves. \n\nThe player must use the magic wand to shoot sparks at approaching insects to score points by pressing the controller button. Holding down the controller button will set the wand to rapid fire shots. If the player is bitten by an insect, the player will be temporarily paralyzed and lose one of the three starting magic wands. \n\nInsect Opponents and Mushrooms\nAll enemy insects have a distinctive sound before attacking, which may help the player identify which insect is attacking. Enemies and objects in the game are as the following:\n\n1. The Centipede\nThe Centipede will attack in 12 waves. In the first wave, the Centipede will have a head attached to 11 body segments. In the second wave, the Centipede will have a head attached to 10 body segments, in addition to a detached head. The third wave will have the Centipede with an attached head, 9 body segments, plus two detached heads. These body segments will transform into heads and continue to do so until Wave 12. In the last wave, the Centipede will have 12 detached heads, independently attacking the player. Centipede heads are worth more points than body segments.\n\nAttacks from the Centipede will come from the top of the screen, moving downward. If a spark hits any part of the Centipede, that particular body segment will transform into a mushroom, while the body segment behind it will become the new Centipede head. When the Centipede is destroyed, it will briefly disappear and re-appear from the top of the screen again.\n\nThe Spider\nThe Spider will attempt to distract the player from attacking the Centipede. It will destroy any mushroom it touches. Spiders will score more points if it is hit in closer distances.\n\nThe Flea\nThe Flea will appear if the player has destroyed most of the existing mushrooms. It will drop down creating a new batch of mushrooms where it falls. The Flea will disappear after two hits. After the first hit, the Flea will drop down much faster.\n\nThe Scorpion\nThe Scorpion will appear in the third wave. It moves slowly but will pick up speed, moving faster. While doing so, it will poison any mushroom it touches.\n\nMushrooms\nMushrooms fill the Enchanted Forest and may act as obstacles or cover for the player, with added effects to enemy insects. It takes for shots to complete destroy a mushroom. There are two type of mushrooms: Magic Mushrooms and Poisonous mushrooms. Magic mushrooms are the default mushrooms in the game and are also the the result of the player destroying an insect or Centipede body segment. Poisonous Mushrooms are the result of the Scorpion touching a mushroom. Poisonous Mushrooms will prompt the Centipede near it to move straight towards the player through any mushroom. Losing a wand will restore any partially damaged mushroom.\n\nGame Difficulty and Variations\nThe game offers four difficulty levels: Novice, Standard, Advanced, and Expert. Game Variations are as the following:\n\n1. One Player\nTwo Player Alternating\nTwo players will take turns when the active player is bitten.\nDual Player Competition\nTwo players will appear on the screen at the same time. Scoring is separate. Shots fired from one player will paralyze the other player.\nTeam Play\nTwo players will appear on the screen at the same time. Scoring is combined. Shots fired from one player will not paralyze the other player.\n\nScoring\nThe player will win a bonus magic wand for every 12,000 points to a maximum of six wands. The game will end when all wands are lost. Scoring are as the following:\n\nCentipede Head - 100 points\nCentipede Body Segment - 10 points\nSpider at close range - 900 points\nSpider at medium range - 600 points\nFlea - 200 points\nScorpion - 1,000 points\nFlea - 200 points\nRestored mushroom - 5 points\nDestroyed mushroom - 1 points",
+    "desc": "在《蜈蚣》中，玩家被困在魔法森林中。只用一根魔杖來抵禦森林裡的昆蟲居民，所有這些昆蟲顯然都在連續不斷地攻擊玩家。\n\n玩家必須使用魔杖向接近的昆蟲發射火花，按下控制器按鈕即可得分。按住控制器按鈕將使魔杖快速射擊。如果玩家被昆蟲咬傷，玩家會暫時麻痺，並失去三根起始魔杖中的一根。\n\n昆蟲對手和蘑菇\n所有敵方昆蟲在攻擊前都會發出獨特的聲音，這可以幫助玩家識別哪種昆蟲正在攻擊。遊戲中的敵人和物體如下：\n\n1.蜈蚣\n蜈蚣會分12波攻擊。在第一波中，蜈蚣的頭部連接著 11 個身體部位。在第二波中，蜈蚣除了一個獨立的頭部外，還將有一個頭部連接到 10 個身體部位。第三波將有附有頭部的蜈蚣、9 個身體部分以及兩個獨立的頭部。這些身體部位會轉變為頭部，並持續到第 12 波。在最後一波中，蜈蚣將有 12 個分離的頭，獨立攻擊玩家。蜈蚣的頭部比身體部位更有價值。\n\n蜈蚣的攻擊將從屏幕頂部向下移動。如果火花擊中蜈蚣的任何部分，該特定的身體部分將變成蘑菇，而其後面的身體部分將成為新的蜈蚣頭。當蜈蚣被摧毀時，它會短暫消失並再次從屏幕頂部重新出現。\n\n蜘蛛\n蜘蛛會試圖分散玩家的注意力，使其不再攻擊蜈蚣。它會摧毀任何接觸到的蘑菇。如果蜘蛛在較近的距離內被擊中，它會獲得更多分數。\n\n跳蚤\n如果玩家摧毀了大部分現有蘑菇，跳蚤就會出現。它會掉下來，在它掉下來的地方產生一批新的蘑菇。跳蚤被擊中兩次後就會消失。第一次擊中後，跳蚤會掉落得更快。\n\n蝎子號\n蝎子將出現在第三波中。它移動緩慢，但會加快速度，移動得更快。這樣做時，它會毒害它接觸到的任何蘑菇。\n\n蘑菇\n蘑菇充滿了魔法森林，可以作為玩家的障礙或掩護，並對敵方昆蟲產生額外的效果。需要射擊才能完全摧毀蘑菇。蘑菇有兩種：神奇蘑菇和毒蘑菇。魔法蘑菇是遊戲中的默認蘑菇，也是玩家消滅昆蟲或蜈蚣身體部分的結果。毒蘑菇是蝎子接觸蘑菇的結果。有毒蘑菇會促使附近的蜈蚣穿過任何蘑菇直接向玩家移動。失去一根魔杖可以恢復任何部分損壞的蘑菇。\n\n遊戲難度和變化\n遊戲提供四個難度級別：新手、標準、高級和專家。遊戲變化如下：\n\n1. 一名玩家\n兩人交替\n當主動玩家被咬時，兩名玩家將輪流行動。\n雙人比賽\n屏幕上會同時出現兩名玩家。評分是分開的。一名球員的射擊將使另一名球員癱瘓。\n團隊比賽\n屏幕上會同時出現兩名玩家。評分是合併的。一名玩家的射擊不會使另一名玩家癱瘓。\n\n評分\n玩家每獲得12,000分即可獲得一根額外的魔杖，最多可達六根魔杖。當所有魔杖都丟失時，遊戲就會結束。評分如下：\n\n蜈蚣頭 - 100 分\n蜈蚣身體部位 - 10 分\n近距離蜘蛛 - 900 分\n中距離蜘蛛 - 600 分\n跳蚤 - 200 分\n天蠍座 - 1,000 點\n跳蚤 - 200 分\n恢復蘑菇 - 5 分\n毀壞的蘑菇 - 1 分",
+    "desc_source": "api"
+  },
+  "Kaboom! (USA)": {
+    "key": "Kaboom! (USA)",
+    "original_name": "Kaboom!",
+    "name": "失蹤行李",
+    "name_source": "wiki",
+    "original_desc": "The mad bomber is on the loose! As he races back and forth at the top  of the screen, you need to catch the bombs he drops in buckets of water. One point is earned for each bomb caught, but miss one of the bombs, and Kaboom! As the levels progress, the mad bomber will move faster and faster and drop more and more bombs. You start the game with three buckets, and lose one each time a bomb is missed. The game ends when all of your water buckets are gone.",
+    "desc": "瘋狂轟炸機逍遙法外！當他在屏幕頂部來回奔跑時，你需要接住他扔在水桶裡的炸彈。每捕獲一個炸彈即可獲得一分，但如果錯過其中一個炸彈，就會爆炸！隨著關卡的進展，瘋狂轟炸機的移動速度會越來越快，投下的炸彈也會越來越多。遊戲開始時你會得到三個桶，每錯過一個炸彈就會失去一個桶。當你所有的水桶都用完時，遊戲結束。",
+    "desc_source": "api"
+  },
+  "Haunted House (USA)": {
+    "key": "Haunted House (USA)",
+    "original_name": "Haunted House",
+    "name": "恐怖遊戲",
+    "name_source": "wiki",
+    "original_desc": "Hidden throughout a haunted mansion are three pieces of a magical urn, and your goal is to enter the mansion and retrieve all three before you lose your nine lives! The game is played from an overhead point of view where you see only your eyeballs as you explore the  four floors of the maze-like mansion. To make your mission even more difficult, there are various creatures wandering throughout. Tarantulas, giant vampire bats, and one fast moving ghost will all cause you to lose a life if encountered too closely. As a defense against the creatures, a magical scepter can be found in the mansion which will make you immune to its inhabitants.\n\nThe mansion contains many doors, some of which may be locked; to explore all the rooms, you will first need to find the master key which is hidden somewhere. The mansion is very dark, and you will not be able to see any of the objects in it (and in more difficult game variations, you can't see the walls either). To reveal objects and the mansion walls, you need to light one of your unlimited supply of matches which will light up a small area around you. Don't be surprised if a swift wind or passing creature blow out your match, though!\n\nYou are only allowed to carry one object at a time so you will need to create a strategy for exploring the mansion; to unlock a door or move a piece of the urn, you will need to put down the scepter so be careful! You win the game when all three pieces of the urn are assembled and you make it out of the mansion. The game keeps track of how many matches you have used on your mission, and the fewer matches the better the score!",
+    "desc": "一座鬧鬼的宅邸中隱藏著三塊魔法甕，你的目標是進入宅邸並在失去九條生命之前取回所有三塊！遊戲是從頭頂視角進行的，當你探索迷宮般的豪宅的四層樓時，你只能看到你的眼球。為了讓你的任務變得更加困難，有各種各樣的生物在各處徘徊。如果距離太近，狼蛛、巨型吸血蝙蝠和一隻快速移動的幽靈都會導致你喪命。作為對這些生物的防禦，可以在宅邸中找到一根神奇的權杖，這將使你免受其居民的影響。\n\n宅邸有許多門，其中一些門可能是鎖著的；要探索所有房間，您首先需要找到隱藏在某處的萬能鑰匙。豪宅非常黑暗，你將無法看到其中的任何物體（在更困難的遊戲版本中，你也看不到牆壁）。為了揭示物體和豪宅的牆壁，你需要點燃一根無限供應的火柴，這將照亮你周圍的一小塊區域。不過，如果疾風或路過的生物吹滅了你的火柴，請不要感到驚訝！\n\n您一次只能攜帶一件物品，因此您需要製定探索宅邸的策略；要打開門或移動甕的一塊，您需要放下權杖，所以要小心！當甕的所有三塊都組裝完畢並逃出宅邸時，您就贏得了遊戲。遊戲會記錄您在任務中使用了多少場比賽，比賽越少，得分就越高！",
+    "desc_source": "api"
+  },
+  "Solaris (USA)": {
+    "key": "Solaris (USA)",
+    "original_name": "Solaris",
+    "name": "Nvidia G-Sync",
+    "name_source": "wiki",
+    "original_desc": "The Zylons are back, and are attempting another takeover of the galaxy! Your goal is to destroy all of the Zylon fighters you encounter, rescue cadets that are trapped on Zylon planets, and to find the planet Solaris to protect it from the Zylons. Your spaceship is equipped with a galactic map which can be used to warp to different sectors of the galaxy. The map shows the location of Zylon squadrons, Zylon planets, federation starbases, wormholes, clusters of stars, and Solaris when you find it. By warping to the correct sector, you can battle the numerous types of Zylon fighters to keep them from attacking federation bases and planets. Your spaceship has a limited amount of fuel; when you see the fuel gage get too low, you will need to warp to a federation starbase to refuel (make sure you leave enough fuel to warp). When flying over a Zylon controlled planet, you will see your cadets on the surface. If you rescue all of the cadets as you fly past, you will receive bonus points and an extra spaceship. The Zylon's have many different types of fighters which you will encounter, as well as some narrow corridors with blockades which you will need to clear in order to reach new locations in the galaxy.",
+    "desc": "Zylons 回來了，並試圖再次接管銀河系！你的目標是摧毀你遇到的所有 Zylon 戰鬥機，營救被困在 Zylon 行星上的學員，並找到索拉里斯星球以保護它免受 Zylon 的侵害。你的宇宙飛船配備了一張銀河地圖，可以用來扭曲到銀河系的不同區域。當您找到 Zylon 中隊、Zylon 行星、聯邦星際基地、蟲洞、星團和 Solaris 時，地圖會顯示其位置。通過傳送到正確的區域，您可以與多種類型的 Zylon 戰鬥機作戰，阻止它們攻擊聯邦基地和行星。你的宇宙飛船的燃料有限；當你看到燃料表變得太低時，你將需要傳送到聯邦星際基地來加油（確保你留下足夠的燃料來傳送）。當飛越 Zylon 控制的行星時，您會在表面看到學員。如果您在飛過時救出所有學員，您將獲得獎勵積分和一艘額外的宇宙飛船。Zylon 擁有許多不同類型的戰鬥機，您將遇到這些戰鬥機，以及一些帶有封鎖的狹窄走廊，您需要清除這些走廊才能到達銀河系中的新位置。",
+    "desc_source": "api"
+  },
+  "Tapper (USA)": {
+    "key": "Tapper (USA)",
+    "original_name": "Tapper",
+    "name": "遊戲內置廣告",
+    "name_source": "wiki",
+    "original_desc": "Tapper is an action game where you're a beer tapper (barman) and have to serve beer to demanding customers. There are four customers, each has its own lane lengthier than the previous one, whom you have to keep at bay. If they reach the end of the lane without receiving their beer, you're a goner; if you miss one and accidentally spill beer needlessly you lose a life and should one of them throw you back the mug and you fail to catch it, you lose a life as well.\n\nOccasionally a bizarre icon will appear on one of the lines and, should you grab it, will invoke a \"cabarette\"-style show which will keep some of the customers occupied.\n\nThe Xbox 360 version includes bonus rounds, as well as co-op and versus multiplayer modes, also online, along with achievements.",
+    "desc": "Tapper 是一款動作遊戲，您是一名啤酒調酒師（調酒師），必須為要求嚴格的顧客提供啤酒。有四個顧客，每個顧客都有自己的通道，比前一個顧客更長，你必須阻止他們。如果他們到達巷子盡頭而沒有收到啤酒，那麼你就完蛋了；如果你錯過了一個人，不小心把啤酒灑了，你就會失去一條生命；如果其中一個人把杯子扔給你，而你沒能接住它，你也會失去一條生命。\n\n有時，其中一條線路上會出現一個奇怪的圖標，如果你抓住它，就會引發一場“歌舞表演”式的表演，這會讓一些顧客忙碌起來。\n\nXbox 360 版本包括獎勵回合、合作模式和對抗多人遊戲模式，還有在線模式和成就。",
+    "desc_source": "api"
+  },
+  "Chopper Command (USA)": {
+    "key": "Chopper Command (USA)",
+    "original_name": "Chopper Command",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Chopper Command is a side scrolling shooter. As the pilot of a helicopter gunship, your mission is to protect the convoy of trucks which is travelling at the bottom of the screen. Each wave consists of numerous enemy choppers and jets which are trying to destroy you and the convoy. When all enemies in the current wave are destroyed, you can move on to the next, more difficult wave. To help out, a long range scanner is located at the bottom of the screen which can locate trucks in the convoy as well as enemy aircraft. Good luck, the ground troops are counting on you!",
+    "desc": "Chopper Command 是一款橫向捲軸射擊遊戲。作為武裝直升機的飛行員，您的任務是保護在屏幕底部行駛的卡車車隊。每波攻擊都由大量敵方直升機和噴氣式飛機組成，它們試圖摧毀你和車隊。噹噹前波次中的所有敵人都被消滅後，您可以繼續前進到下一個更困難的波次。為了提供幫助，屏幕底部有一個遠程掃描儀，可以定位車隊中的卡車以及敵機。祝你好運，地面部隊指望你了！",
+    "desc_source": "api"
+  },
+  "Dig Dug (USA)": {
+    "key": "Dig Dug (USA)",
+    "original_name": "Dig Dug",
+    "name": "杜先生",
+    "name_source": "wiki",
+    "original_desc": "Dig Dug is a 1-2 player arcade game in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. (if you start to inflate them but stop doing so, the monsters will get turned back to their normal selves.) Furthermore, rocks are scattered throughout the earth, and you can use these rocks to squash them. If the monsters do not find you for several seconds, they will eventually get turned into ghosts, which are able to walk through the earth. They are invincible and cannot be killed. From time to time, vegetables will appear in the center, and you can get these for points.",
+    "desc": "Dig Dug 是一款 1-2 人街機遊戲，您必須使用鏟子在地球上挖出一條路。阻止你這樣做的是兩個怪物，叫做 Pooka 和 Fygar，它們會不斷地追趕你。你攜帶的唯一武器是氣泵，你可以用它來給怪物充氣直到它們爆炸。（如果你開始給它們充氣但停止這樣做，怪物就會變回正常狀態。）此外，岩石散佈在地球各處，你可以用這些岩石來壓扁它們。如果怪物幾秒鐘沒有找到你，他們最終會變成幽靈，能夠在地球上行走。他們是無敵的，無法被殺死。中心時不時會出現蔬菜，你可以用積分獲得這些蔬菜。",
+    "desc_source": "api"
+  }
+}

@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gameList>
+  <provider>
+    <System>Mega-CD</System>
+    <software>Skraper</software>
+    <database>ScreenScraper.fr</database>
+    <web>http://www.screenscraper.fr</web>
+  </provider>
+  <game id="58729" source="ScreenScraper.fr">
+    <path>./Android Assault - The Revenge of Bari-Arm (USA).chd</path>
+    <name>Android Assault - The Revenge of Bari-Arm</name>
+    <desc>Launched by the alien planet Zias, an armada of androids has crushed the Earth's conventional space fleet. Desperate and defeated, The United Nations of Earth has no choice but to counterattack with its own living, fighting machine, Bari-Arm. Upgrade weapons to get the awesome firepower of the Thundercracker, Burning Wave and Chase Cannon.</desc>
+    <rating>0.75</rating>
+    <releasedate>19930730T000000</releasedate>
+    <developer>Human Entertainment</developer>
+    <publisher>Human Entertainment</publisher>
+    <genre>Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1</players>
+    <hash>EFB47AF2</hash>
+    <image>./media/images/Android Assault - The Revenge of Bari-Arm (USA).png</image>
+    <thumbnail>./media/box3d/Android Assault - The Revenge of Bari-Arm (USA).png</thumbnail>
+    <genreid>260</genreid>
+  </game>
+  <game id="12716" source="ScreenScraper.fr">
+    <path>./Batman Returns (USA).chd</path>
+    <name>Batman Returns</name>
+    <desc>Batman Returns on Mega-CD is an action game that allows the player to embody the famous batman. The objective of the game is to bring down the insecurity in Gotham City aboard your Batmobile, the Batskiboat (Jet-Ski in the sewers) or directly in single combat.</desc>
+    <rating>0.75</rating>
+    <releasedate>19920101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <hash>3503E743</hash>
+    <image>./media/images/Batman Returns (USA).png</image>
+    <thumbnail>./media/box3d/Batman Returns (USA).png</thumbnail>
+    <genreid>257</genreid>
+  </game>
+  <game id="12829" source="ScreenScraper.fr">
+    <path>./Dark Wizard (USA).chd</path>
+    <name>Dark Wizard</name>
+    <desc>Dark Wizard on Mega CD is a role-playing game that takes the player to the heart of the kingdom of Cheshire, which has fallen into the hands of the Machiavellian Velonese. Play as one of four characters of your choice and restore order and law in a world in perdition. The combat phases are turn-based and each battle won is rewarded with experience points to upgrade the character's characteristics.</desc>
+    <rating>0.9</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>Role Playing Game-Strategy</genre>
+    <players>1</players>
+    <hash>D32F980A</hash>
+    <image>./media/images/Dark Wizard (USA).png</image>
+    <thumbnail>./media/box3d/Dark Wizard (USA).png</thumbnail>
+    <genreid>768</genreid>
+  </game>
+  <game id="12711" source="ScreenScraper.fr">
+    <path>./Earthworm Jim - Special Edition (USA) (RE).chd</path>
+    <name>Earthworm Jim - Special Edition</name>
+    <desc>This special edition includes: a password system, a new world &amp; new hidden Areas, a new weapon, over 1000 additional frames of animation. All new CD quality soundtrack, totally new endings in two of the worlds, all the extra cool ideas and special features that Shiny couldn't fit onto the cartridge are on this special edition.</desc>
+    <rating>0.9</rating>
+    <releasedate>19950101T000000</releasedate>
+    <developer>Shiny Entertainment</developer>
+    <publisher>Interplay</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <hash>4CA1FACA</hash>
+    <image>./media/images/Earthworm Jim - Special Edition (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Earthworm Jim - Special Edition (USA) (RE).png</thumbnail>
+    <genreid>257</genreid>
+  </game>
+  <game id="12735" source="ScreenScraper.fr">
+    <path>./Eternal Champions - Challenge from the Dark Side (USA) (RE).chd</path>
+    <name>Eternal Champions - Challenge From The Dark Side</name>
+    <desc>Like the first game, Eternal Champions: Challenge from the Dark Side follows the story of the Eternal Champion, who felt the balance of the universe and time had been disturbed by the deaths of key individuals who had been destined to change the world for the greater good. To restore the balance, he held a great contest in which the winner would be granted the gift of new life, allowing them to fulfill their rightful destiny. 
+ 
+In this second chapter, it is revealed that the Eternal Champion has an evil counterpart: the Dark Champion. The Dark Champion appears and declares that he also will enter the contest and that he has hidden four more warriors, preventing the contest from truly being fulfilled. The contestants must not only achieve the aims of the Eternal Champion but also face the Dark Champion if they want their lives back.</desc>
+    <rating>0.7</rating>
+    <releasedate>19950205T000000</releasedate>
+    <developer>Deep Water</developer>
+    <publisher>SEGA</publisher>
+    <genre>Fighting</genre>
+    <players>1-2</players>
+    <hash>5166E061</hash>
+    <image>./media/images/Eternal Champions - Challenge from the Dark Side (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Eternal Champions - Challenge from the Dark Side (USA) (RE).png</thumbnail>
+    <genreid>262</genreid>
+  </game>
+  <game id="12708" source="ScreenScraper.fr">
+    <path>./Final Fight CD (USA).chd</path>
+    <name>Final Fight Cd</name>
+    <desc>The game is set in the metropolis of Metro City, a town constantly plagued by crime and violence. When the mayor, Mike Haggar, promises to clean up the city, the Mad Gear gang kidnaps his daughter Jessica and warns him not to interfere. Haggar responds going on a battle across the city to free her, bringing along her boyfriend Cody, and the ninjitsu master Guy to assist him. 
+ 
+</desc>
+    <rating>0.85</rating>
+    <releasedate>19920101T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>SEGA</publisher>
+    <genre>Beat'em Up</genre>
+    <players>1-2</players>
+    <hash>16B1D661</hash>
+    <image>./media/images/Final Fight CD (USA).png</image>
+    <thumbnail>./media/box3d/Final Fight CD (USA).png</thumbnail>
+    <genreid>263</genreid>
+  </game>
+  <game id="12715" source="ScreenScraper.fr">
+    <path>./Heart of the Alien - Out of This World Parts I and II (USA) (RE).chd</path>
+    <name>Heart Of The Alien - Out Of This World Parts 1 And 2</name>
+    <desc>Heart of the Alien is a cinematic platformer video game developed by Interplay Entertainment and Virgin Interactive and was released by Virgin Interactive in 1994 for the Sega CD exclusively in North America. It is a sequel to Another World and continues the story directly from where the original ended. The game switches the player's role from Another World; this time the player takes control of Buddy, the main character's alien ally from the previous game. 
+ 
+The story picks up immediately after the end of Another World. Buddy lands the pterodactyl in the ruins of his village, lays Lester down on a cot to rest and walks through the village, thinking of his past. This sequence contains many flashbacks of events that lead up to Buddy's capture and his and Lester's escape from prison. In the game, Buddy is searching for the red-eyed alien responsible for the destruction of his village and the imprisonment of his people. Buddy enters again the prison in search of the red-eyed alien. 
+ 
+Near the end of the game, Lester who wakes back up, helps Buddy out, but then dies in the process. Buddy then goes to find again the red-eyed alien in a fortress. Eventually, he is able to find him and traps him in a cage with a beast that kills him. At the end of the game, Buddy gives Lester's body a ceremonial cremation. It is shown later how Buddy's village is rebuilt with its citizens living again in harmony.</desc>
+    <rating>0.6</rating>
+    <releasedate>19950101T000000</releasedate>
+    <developer>Virgin Interactive</developer>
+    <publisher>Delphine Software International</publisher>
+    <genre>Adventure-Platform</genre>
+    <players>1</players>
+    <hash>CB1B4987</hash>
+    <image>./media/images/Heart of the Alien - Out of This World Parts I and II (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Heart of the Alien - Out of This World Parts I and II (USA) (RE).png</thumbnail>
+    <genreid>257</genreid>
+  </game>
+  <game id="12740" source="ScreenScraper.fr">
+    <path>./Keio Flying Squadron (USA).chd</path>
+    <name>Keio Flying Squadron</name>
+    <desc>Keio Flying Squadron chronicles the adventures of Rami, the little bunny-suited member of the flying squadron tasked with the protection of the "Special Holy Object". Unfortunately as the game starts the object in question gets stolen by the evil Dr. Pon, and so Rami jumps atop her trusty dragon in pursuit of Dr. Pon.
+
+The game plays as a classic 2D shooter with upgradable weapons and option characters, with a distinct cartoonish and family-friendly design.
+
+Features 7 levels and 3 difficulty settings.</desc>
+    <rating>0.7</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>JVC</developer>
+    <publisher>JVC</publisher>
+    <genre>Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1</players>
+    <hash>1F59A713</hash>
+    <image>./media/images/Keio Flying Squadron (USA).png</image>
+    <thumbnail>./media/box3d/Keio Flying Squadron (USA).png</thumbnail>
+    <genreid>260</genreid>
+  </game>
+  <game id="12767" source="ScreenScraper.fr">
+    <path>./Lords of Thunder (USA).chd</path>
+    <name>Lords Of Thunder</name>
+    <desc>In the land of Mistral, the Garuda Empire and its six Dark Generals plan to resurrect the evil god Deoric. Duran, descendant of the knight Drak who once sealed Deoric away, sets out to stop them using Drak's mystical armors. Players can tackle the six continents in any order, each guarded by a Dark General and filled with demons. Before each stage, one of four elemental armors can be chosen, each with unique attacks that can be powered up with jewels. Crystals dropped by enemies can be spent between levels on health, bombs, and continues. After clearing all six continents, the final battle against Sornbul awaits.</desc>
+    <rating>0.85</rating>
+    <releasedate>19950101T000000</releasedate>
+    <developer>Red Company Corporation</developer>
+    <publisher>Hudson Soft</publisher>
+    <genre>Shoot'em Up / Horizontal-Shoot'em Up</genre>
+    <players>1-2</players>
+    <hash>E90DB0DD</hash>
+    <image>./media/images/Lords of Thunder (USA).png</image>
+    <thumbnail>./media/box3d/Lords of Thunder (USA).png</thumbnail>
+    <genreid>260</genreid>
+  </game>
+  <game id="12781" source="ScreenScraper.fr">
+    <path>./Lunar - Eternal Blue (USA) (RE).chd</path>
+    <name>Lunar - Eternal Blue</name>
+    <desc>Come back to the enchanting world of Lunar! Join Hiro and Ruby 1,000 years after the first adventure, as they work to unlock the secrets of the Blue Spire and the strange young girl they found within it! But be careful! Forces are at work trying to revive the evil Zophar and immerse Lunar in darkness forever! Journey to distant lands in search of the Goddess Althena, who may be the only one powerful enough to stop Zophar. Along the way, you'll meet exciting new characters, fight fully animated monsters, traverse snow-covered peaks, and crawl through slimy dungeons as you work towards the terrifying climax!</desc>
+    <rating>0.9</rating>
+    <releasedate>19941222T000000</releasedate>
+    <developer>Game Arts</developer>
+    <publisher>Working Designs</publisher>
+    <genre>Role Playing Game</genre>
+    <players>1</players>
+    <hash>228FC66F</hash>
+    <image>./media/images/Lunar - Eternal Blue (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Lunar - Eternal Blue (USA) (RE).png</thumbnail>
+    <genreid>768</genreid>
+  </game>
+  <game id="12741" source="ScreenScraper.fr">
+    <path>./Lunar - The Silver Star (USA) (RE).chd</path>
+    <name>Lunar - The Silver Star</name>
+    <desc>Welcome to the world of Lunar, where dragons yet live and magic is valued above all else. Join Alex, the young adventurer as he begins a quest with his friends to save their land from the crushing advances of the Magic Emperor. Explore dungeons, fight terrifying monsters, and gather information from the locals as you advance toward the explosive confrontation with the Magic Emperor himself! Exciting, menu-driven combat will keep you challenged until the last. And thanks to the storage power of the CD, Lunar contains awesome animation sequences that'll get you involved in the story -- fast! Get ready for the ride of your life...</desc>
+    <rating>0.75</rating>
+    <releasedate>19931201T000000</releasedate>
+    <developer>Working Designs</developer>
+    <publisher>Working Designs</publisher>
+    <genre>Role Playing Game</genre>
+    <players>1</players>
+    <hash>2FA1E948</hash>
+    <image>./media/images/Lunar - The Silver Star (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Lunar - The Silver Star (USA) (RE).png</thumbnail>
+    <genreid>768</genreid>
+  </game>
+  <game id="12725" source="ScreenScraper.fr">
+    <path>./Flink (USA).chd</path>
+    <name>Misadventures Of Flink, The</name>
+    <desc>The Misadventures of Flink is a Jump'n Run set in the fantasy world of Imagica. The evil wizard Wicked Wainwright has captured the four elders and it is up to Flink, a wizard's apprentice, to set them free and defeat Wicked Wainwright.
+
+Apart from the usual platformer elements, the game has a unique feature: Flink's ability to create spells. Whenever the game is paused, Flink can combine three ingredients to create a spell. Ingredients can be collected throughout the game. They are usually carried around by a certain type of enemy or hidden in treasure chests. There are ten different spells, the "recipes" which are contained in scrolls that are given to Flink by rescued elders or found within certain levels. The spells include different attack spells (for example a demon that accompanies Flink and attacks his enemies), a shield spell, a shrink spell, a quick grow spell that lets certain plants grow so that Flink can reach new areas of a level, magic keys that open locked treasure chests and more. 
+Casting spells uses up magic energy that can be replenished by collecting magic bottles or defeating enemies. Similar to the Sonic games, when Flink is hit, he looses all of his magic energy and has only limited time to pick it up again. If he is hit while having no magic energy, he loses a life.</desc>
+    <rating>0.7</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>Sony</developer>
+    <publisher>Psygnosis</publisher>
+    <genre>Platform-Adventure</genre>
+    <players>1</players>
+    <hash>86E393A9</hash>
+    <image>./media/images/Flink (USA).png</image>
+    <thumbnail>./media/box3d/Flink (USA).png</thumbnail>
+    <genreid>257</genreid>
+  </game>
+  <game id="12807" source="ScreenScraper.fr">
+    <path>./Popful Mail (USA) (RE).chd</path>
+    <name>Popful Mail</name>
+    <desc>In this platform action game, you play as a cute bounty hunter known as Popful Mail. While you might think that a cute Anime chick would have no trouble making a living slashing bad guys with her sword, Popful is having a hard time making ends meet.  One day, however, Popful learns about a magician who has gone rogue and has a hefty bounty on his head. So, her adventure begins as Popful fights her way through a new adventure, and makes new friends along the way.
+
+Primarily this is an action game with very slight RPG elements. As you make your way through the plethora of levels, you will have to collect money from slain foes. You use this money in the shops to buy weapons, armor, health, and so on. Also, this game features interaction with many, many characters through both on-screen dialog and fully animated sequences. Some of these characters become playable as you progress through the game.
+
+This release has the same story and general gameplay style as the  earlier version, but otherwise was made from scratch, having entirely different graphics, locations, enemies, challenges, etc.</desc>
+    <rating>0.75</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>Working Designs</developer>
+    <publisher>SEGA</publisher>
+    <genre>Role Playing Game</genre>
+    <players>1</players>
+    <hash>19412568</hash>
+    <image>./media/images/Popful Mail (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Popful Mail (USA) (RE).png</thumbnail>
+    <genreid>768</genreid>
+  </game>
+  <game id="12831" source="ScreenScraper.fr">
+    <path>./Rise of the Dragon (USA) (Rerelease) (RE).chd</path>
+    <name>Rise of the Dragon</name>
+    <desc>A futuristic adventure game that borrows graphical elements from Blade Runner (in fact, the title character's name is "Blade Hunter").  You must find out what is killing--by horrible, spontaneous mutation--inhabitants of the city, before it's too late.  An oriental cult, drugs, and street informants are among the places you find clues.</desc>
+    <rating>0.8</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>Dynamix</publisher>
+    <genre>Adventure</genre>
+    <players>1</players>
+    <hash>2AEE23E6</hash>
+    <image>./media/images/Rise of the Dragon (USA) (Rerelease) (RE).png</image>
+    <thumbnail>./media/box3d/Rise of the Dragon (USA) (Rerelease) (RE).png</thumbnail>
+    <genreid>512</genreid>
+  </game>
+  <game id="12746" source="ScreenScraper.fr">
+    <path>./Road Avenger (USA).chd</path>
+    <name>Road Avenger</name>
+    <desc>Road Avenger dates from the era when interactive movies (e.g. Dragon's Lair, Escape from Cybercity, Time Gal...) with film-quality graphics, but limited player movement, were highly popular.
+
+Players assume the role of an angry cop on a wild ride as he pursues a gang of bikers who killed his wife. Players need to race through oncoming traffic, squeeze between trucks, trash motorcycles and steer through lots of explosions. The only thing needed are quick reflexes to follow the instructions on the screen (with an increasing difficulty) in order to keep the animation going.
+
+The action is shown from a first-person view and fast-paced, while still maintaining smooth and detailed anime drawn graphics.</desc>
+    <rating>0.75</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>Wolf Team</developer>
+    <publisher>SEGA</publisher>
+    <genre>Racing, Driving-Adventure</genre>
+    <players>1</players>
+    <hash>F5A2EA34</hash>
+    <image>./media/images/Road Avenger (USA).png</image>
+    <thumbnail>./media/box3d/Road Avenger (USA).png</thumbnail>
+    <genreid>1537</genreid>
+  </game>
+  <game id="12722" source="ScreenScraper.fr">
+    <path>./Road Rash (USA).chd</path>
+    <name>Road Rash</name>
+    <desc>This is a remake of the original Road Rash from the early nineties. For those who have not played the original, you are competing against thirteen other "Road Rashers" who will stop at nothing to win 1st, 2nd, or 3rd place. During the race, you have two options available to you: you can either do your best to cross the finish line, or use your weapon to bring the Rashers to the ground if they are giving you trouble. If you do the latter, your opponents will do the same to you during the next race that takes place. 
+
+There are five circuits to race: The City, The Peninsula, Pacific Highway, Sierra Nevada, and Napa Valley. Some of these circuits are dangerous. As well as the obstacles and traffic that you encounter along the way, there are also cops driving on bikes who will arrest you if you happen to crash or stop your bike near them, and you have to pay a fine in order to get in any more races. Your bike will be wrecked if you crash too many times, and you have to pay for damages, but the amount you have to pay depends on the bike that you are riding. Once you have completed the first five circuits, you have to race them again another four times - but at a much more difficult level. Manage to win all five circuits on all levels, and you win the Road Rash cup.
+
+There are about five bikes to choose from, which are divided into three groups. Rat, Sport, and Super. You start the first level with a Rat bike, but as you proceed through the levels, it is important to pick bikes from a different bike class.
+
+If you have no plans to win the Road Rash cup, you can choose the game's Thrash mode. The difference between this and the other mode is that there is no money involved (ie: you are not allowed to buy bikes), and you are competing against fourteen opponents. And if you wreck your bike or you get busted, you have to start all over again. Regardless of the mode you pick, you will always start in the last place.
+
+The remake also contains FMV movies that usually depict the outcome of the races, as well as limited songs performed by various recording artists, including Soundgarden, Therapy?, Monster Magnet, and Swervedriver. These songs can be changed on-the-fly via the game's options menu.</desc>
+    <rating>0.8</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>Electronic Arts</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Motorcycle race TPV-Racing, Driving</genre>
+    <players>1-2</players>
+    <hash>68A935C0</hash>
+    <image>./media/images/Road Rash (USA).png</image>
+    <thumbnail>./media/box3d/Road Rash (USA).png</thumbnail>
+    <genreid>1537</genreid>
+  </game>
+  <game id="12705" source="ScreenScraper.fr">
+    <path>./Secret of Monkey Island, The (USA) (RE).chd</path>
+    <name>Secret Of Monkey Island ,the</name>
+    <desc>Deep in the Caribbean lies Melee Island, ruled by the beautiful governor Elaine Marley. The cruel pirate LeChuck is deeply in love with her - so deeply that he refuses to accept his own death! As a ghost, he dwells with his undead crew somewhere near the mysterious Monkey Island. You are Guybrush Threepwood, a young man whose only wish is to become a real pirate. At the Scumm Bar you meet three pirates who tell you'll have to complete three difficult tasks in order to be worthy of this title. Could Guybrush ever suspect that while trying to complete those tasks, he will encounter the governor Elaine Marley, fall in love with her, and face the anger of the dreadful ghost pirate LeChuck?! This is when Guybrush' adventure truly begins!
+
+The Secret of Monkey Island is an adventure game that utilizes the command verb-based SCUMM interface first introduced in  Maniac Mansion: you construct commands for Guybrush by clicking on the appropriate verb, and then clicking on the inventory item or an object in the room you want to interact with. It is the first LucasArts' adventure game in which it is impossible to get irrevocably stuck or to die. The branching dialogue system, where you choose one of the available responses while talking to people, allows you to talk to characters in different ways without fearing a wrong choice. There are plenty of inventory-based puzzles to solve, and even "insult swordfighting" to participate in, where Guybrush has to prove his wit is as sharp as his sword!</desc>
+    <rating>0.65</rating>
+    <releasedate>19931101T000000</releasedate>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Adventure / Point and Click-Adventure</genre>
+    <players>1</players>
+    <hash>A2807B26</hash>
+    <image>./media/images/Secret of Monkey Island, The (USA) (RE).png</image>
+    <thumbnail>./media/box3d/Secret of Monkey Island, The (USA) (RE).png</thumbnail>
+    <genreid>514</genreid>
+  </game>
+  <game id="12738" source="ScreenScraper.fr">
+    <path>./Shining Force CD (USA) (5R, 6R).chd</path>
+    <name>Shining Force Cd</name>
+    <desc>This is a compilation of two strategy RPG titles from Shining Force titles:  Shining Force Gaiden (the original version released in Japan only), and its sequel, known outside of Japan as  Shining Force II: The Sword of Hajya, both for GameGear. In those games you control Nick, the Prince of Cypress. In the first game his task is to rescue Arni, the princess of Gardiana; in the second game, he has to conquer his kingdom back, that was captured by the evil empire of Iom. The re-release includes re-mastered graphics and higher quality music.</desc>
+    <rating>0.8</rating>
+    <releasedate>19950601T000000</releasedate>
+    <developer>Sonic! Software Planning</developer>
+    <publisher>SEGA</publisher>
+    <genre>Tactical RPG-Role Playing Game</genre>
+    <players>1</players>
+    <hash>14B9D5A7</hash>
+    <image>./media/images/Shining Force CD (USA) (5R, 6R).png</image>
+    <thumbnail>./media/box3d/Shining Force CD (USA) (5R, 6R).png</thumbnail>
+    <genreid>768</genreid>
+  </game>
+  <game id="12742" source="ScreenScraper.fr">
+    <path>./Silpheed (USA).chd</path>
+    <name>Silpheed</name>
+    <desc>Silpheed for the Sega CD is a shoot-'em-up sequel to the PC title of the same name. Gameplay is similar: this is basically a 2D shooter with 3D graphics.  You move your ship in a 2D plane that reaches into the screen, kind of like a pinball table. The Sega CD version of Silpheed uses pre-rendered video for the backdrops, and filled polygon graphics for the player ship and enemies. 
+
+The story here is typical for a game of this type. The central computer system controlling the galaxy network has been hacked by terrorists.  The terrorists are using the computer to attack colony planets throughout the system.  You are the Galaxy Union's last resort: you must fight your way across 11 stages to reach Earth, and re-take control of the computer.</desc>
+    <rating>0.7</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>Game Arts</developer>
+    <publisher>SEGA</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1</players>
+    <hash>D99AA61F</hash>
+    <image>./media/images/Silpheed (USA).png</image>
+    <thumbnail>./media/box3d/Silpheed (USA).png</thumbnail>
+    <genreid>260</genreid>
+  </game>
+  <game id="12726" source="ScreenScraper.fr">
+    <path>./Snatcher (USA).chd</path>
+    <name>Snatcher</name>
+    <desc>A.D. 2047. Neo Kobe City, Japan, a place of madness and decadence... A mysterious Bio-roid life form has appeared. Its true nature and purpose are unknown. Is it some country's secret weapon, or an alien from another world? They slay their victims and take their place, earning them the nickname "SNATCHERS." A new police division - J.U.N.K.E.R.s - has been formed. They are trained specifically to combat the SNATCHERS. The fate of mankind hangs in the balance. The war between the SNATCHERS and J.U.N.K.E.R.s has begun!</desc>
+    <rating>0.8</rating>
+    <releasedate>19941130T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Adventure</genre>
+    <players>1</players>
+    <hash>77C4CD52</hash>
+    <image>./media/images/Snatcher (USA).png</image>
+    <thumbnail>./media/box3d/Snatcher (USA).png</thumbnail>
+    <genreid>512</genreid>
+  </game>
+  <game id="12702" source="ScreenScraper.fr">
+    <path>./Sonic CD (USA) (RE125).chd</path>
+    <name>Sonic The Hedgehog Cd</name>
+    <desc>This is a standard Sonic the Hedgehog side-scrolling action game. Dr. Robotnik has taken over the Little Planet, captured Amy, and created Metal Sonic with the goal of collecting all the Time Stones to be able to manipulate time and conquer the world.  It is up to Sonic to stop him, by rushing through levels set in different time periods, collecting Time Stones.
+
+Sonic CD has features that take advantage of the CD format such as CD audio, video clips, and more levels (over 50 in total).</desc>
+    <rating>0.8</rating>
+    <releasedate>19931119T000000</releasedate>
+    <developer>Sonic Team</developer>
+    <publisher>SEGA</publisher>
+    <genre>Platform</genre>
+    <players>1</players>
+    <hash>9B9EDE73</hash>
+    <image>./media/images/Sonic CD (USA) (RE125).png</image>
+    <thumbnail>./media/box3d/Sonic CD (USA) (RE125).png</thumbnail>
+    <genreid>257</genreid>
+  </game>
+  <game id="12777" source="ScreenScraper.fr">
+    <path>./SoulStar (USA).chd</path>
+    <name>Soul Star</name>
+    <desc>Soulstar for the Sega CD/Mega CD is a 3D shoot-'em up that combines several different types of gameplay into one game. Some levels in this game are on a fixed path, similar to Space Harrier or Star Fox. Other levels allow your space craft to hover freely around a 3D environment, and in other levels your craft transforms into a walker robot for close-up attacks.</desc>
+    <rating>0.85</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>Core Design</developer>
+    <publisher>Core Design</publisher>
+    <genre>Shoot'em Up</genre>
+    <players>1-2</players>
+    <hash>AB59EC2D</hash>
+    <image>./media/images/SoulStar (USA).png</image>
+    <thumbnail>./media/box3d/SoulStar (USA).png</thumbnail>
+    <genreid>260</genreid>
+  </game>
+  <game id="12709" source="ScreenScraper.fr">
+    <path>./Terminator, The (USA).chd</path>
+    <name>Terminator, The</name>
+    <desc>Similar to adaptations of The Terminator on other systems, the Sega CD game is a platformer where the player controls Kyle Reese, who travels back in time from the year 2029 to protect Sarah Connor from the unstoppable killing machine known as the Terminator.
+
+The game consists of 10 levels. Future locations include the post-apocalyptic wasteland of 2029 Los Angeles and the time displacement complex. In the present of 1984, Reese must traverse the streets and rooftops of L.A., as well as the Tech Noir club, the police station, and, for the finale, an automated factory. 
+
+Reese is armed with a gun with unlimited ammo as well as a limited number of grenades to dispatch the many enemies, including Terminators and HKs in the future and punks in the present. In addition to these, several bosses must also be fought. The boss battles include several encounters with the Terminator, who naturally cannot be completely destroyed until the finale, but must be driven back to keep him from harming Sarah.
+
+Between levels, the game shows small digitized clips from the film that advance the storyline. The game also features a fully CD-based soundtrack with tracks ranging from heavy rock to electronic tunes.</desc>
+    <rating>0.85</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>Probe Software</developer>
+    <publisher>Virgin</publisher>
+    <genre>Platform / Shooter Scrolling-Platform</genre>
+    <players>1</players>
+    <hash>2E754E80</hash>
+    <image>./media/images/Terminator, The (USA).png</image>
+    <thumbnail>./media/box3d/Terminator, The (USA).png</thumbnail>
+    <genreid>258</genreid>
+  </game>
+  <game id="12802" source="ScreenScraper.fr">
+    <path>./AH3 - Thunderstrike (USA).chd</path>
+    <name>Thunderhawk</name>
+    <desc>Thunderhawk is an action game on Mega-CD that gives you control of a combat helicopter in a series of six futuristic campaigns. The original version includes a total of 60 operations with various objectives. Before flying in the sky, the player can adapt the embarked arsenal to suit it. Piloting is technical but accessible, without being as complex as other simulations available in 1993.</desc>
+    <releasedate>19930101T000000</releasedate>
+    <developer>Core Design</developer>
+    <publisher>Core Design</publisher>
+    <genre>Shoot'em Up / Vertical-Simulation-Shoot'em Up</genre>
+    <players>1</players>
+    <hash>6F2E587E</hash>
+    <image>./media/images/AH3 - Thunderstrike (USA).png</image>
+    <thumbnail>./media/box3d/AH3 - Thunderstrike (USA).png</thumbnail>
+    <genreid>260</genreid>
+  </game>
+  <game id="58743" source="ScreenScraper.fr">
+    <path>./Vay (USA).chd</path>
+    <name>Vay</name>
+    <desc>Vay is the story of Prince Sandor of Lorath, and his quest to avenge the assassination of his parents and rescue his beloved Lady Elin. On what is to be the day of their wedding, Castle Lorath is assaulted by the Danek, who have been able to partially reconstruct alien mecha technology from a millennium ago. The castle defenses are powerless against the giant robots, and the king and queen are killed in the attack. The invaders steal Elin in the midst of her wedding vows. Prince Sandor, now the king of the realm, sets out to rescue his betrothed, and find a way to defeat the fearsome alien technology.
+
+The game is a thoroughly "old-school" Japanese-style RPG, meaning that the focus of the game is on fighting random enemies in turn-based combat, gaining experience and gold in process, without any additional gimmicks. The characters come with pre-set "classes" (wizard, bard, etc.), and learn their own abilities/magic spells automatically as they level up.</desc>
+    <rating>0.7</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>Hertz</developer>
+    <publisher>Working Designs</publisher>
+    <genre>Role Playing Game</genre>
+    <players>1</players>
+    <hash>703B6521</hash>
+    <image>./media/images/Vay (USA).png</image>
+    <thumbnail>./media/box3d/Vay (USA).png</thumbnail>
+    <genreid>768</genreid>
+  </game>
+</gameList>

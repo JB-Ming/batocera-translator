@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="492884">
+		<path>./fix_it_felix_64.d64</path>
+		<name>Fix-It Felix Jr.</name>
+		<desc>Fix-It Felix Jr. brings the charm of classic arcade games to the C64. As Felix, you use your magic hammer to repair the windows wrecked by Wreck-It Ralph on a high-rise building. While hopping from windowsill to windowsill, you must dodge falling bricks and later survive ducks and barriers. Picking up pies grants short-term invincibility. Levels don't loop but grow harder endlessly – pure arcade spirit with retro flair.</desc>
+		<image>./images/fix_it_felix_64-image.png</image>
+		<video>./videos/fix_it_felix_64-video.mp4</video>
+		<marquee>./images/fix_it_felix_64-marquee.png</marquee>
+		<thumbnail>./images/fix_it_felix_64-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>20200101T000000</releasedate>
+		<developer>Antonio Savona</developer>
+		<publisher>Public Domain</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<md5>67cbd1c50d9de68dec6b20c33b63b135</md5>
+		<lang>it</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T033500" />
+	</game>
+</gameList>

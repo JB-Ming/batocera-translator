@@ -1,0 +1,1352 @@
+{
+  "Kirby's Pinball Land (USA, Europe)": {
+    "key": "Kirby's Pinball Land (USA, Europe)",
+    "original_name": "Kirby's Pinball Land",
+    "name": "星之卡比 (遊戲)",
+    "name_source": "wiki",
+    "original_desc": "Kirby's Pinball Land is a game of pinball based on the Kirby series of games, with Kirby as the ball.  In the game you have to help Kirby defeat King Dedede and the three bosses who each guard one of the Pinball Lands.  \n\nThe game is divided into three tables or Pinball Lands, each consisting of four screens, three ordinary screens, and a boss screen  If you fall off the bottom of the lowest one, you lose a life, unless you press A at the right moment to activate the springboard, which becomes harder each time.  Each screen has a variety of things to do.  The middle screen will give access to some sort of bonus game, where you must try to get as many points as you can, and can add to your bonus and bonus multiplier.  The bonus is added to your score when you lose a life, as in ordinary pinball.\n\nThe aim is to defeat each boss.  To get to the boss you must perform a task on the top ordinary screen.  The bosses themselves must be defeated by firing Kirby at them, but they will try to stop you, sometimes by temporarily de-activating one or both of the flippers.  If you defeat the boss on each table, you face Kind Dedede himself.",
+    "desc": "卡比彈球樂園是一款以卡比系列遊戲為基礎，以卡比為球的彈球遊戲。在遊戲中，你必須幫助卡比擊敗帝帝帝王和三個各自守護彈球之地的三個首領。\n\n遊戲分為三個桌子或彈珠台，每個桌子由四個屏幕、三個普通屏幕和一個老闆屏幕組成。如果你從最低的一個屏幕的底部掉下來，你就會失去一條生命，除非你在正確的時刻按A鍵激活跳板，每次都會變得更難。每個屏幕都有各種各樣的事情要做。中間的屏幕將提供某種獎金遊戲的訪問權限，您必須嘗試獲得盡可能多的積分，並且可以添加到您的獎金和獎金乘數中。當你失去生命時，獎金就會添加到你的分數中，就像普通的彈球遊戲一樣。\n\n目標是擊敗每個老闆。要找到老闆，您必須在頂部普通屏幕上執行任務。必須通過向頭目射擊卡比來擊敗頭目本身，但他們會試圖阻止你，有時會暫時停用一個或兩個腳蹼。如果你擊敗了每張桌子上的 Boss，你將面對 Kind Dedede 本人。",
+    "desc_source": "api"
+  },
+  "Monster Max (Europe) (En,Fr,De,Es,It,Nl)": {
+    "key": "Monster Max (Europe) (En,Fr,De,Es,It,Nl)",
+    "original_name": "Monster Max",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "A powerful human called Krond conquers the Monster Planet, bans all music and declares himself king. Max, a monster rock musician decides to fight back. In order to defeat the evil monarch, he enlists in the training course at the Mega Hero Academy.\n\nMonster Max is a surreal isometric adventure by the same duo that created the 8-bit classic Head Over Heels. Not surprisingly it is very similar to that game in terms of control and general design, and almost identical graphically. The character moves on a bizarre landscape, where he has to collect and use objects (with either the A or B button) to accomplish mission objectives. The game starts on a training academy that serves as the mission hub. Each mission has as an entrance with a terminal and a door. By touching the terminal with the character, the mission objective and reward is displayed on the screen. The missions available can be played in any order, but Max has to pay a fee to access other levels with more advanced missions. On the top left of the screen there is a counter for the lucky stars collected. Lucky stars allow the character to touch dangerous objects once without suffering damage. Besides that are several hearts representing the number of lives. On the top right is the inventory display, showing the two objects assigned to the buttons. Hitting START while on a mission brings up a map, while pressing SELECT displays a menu with options and the password at the bottom of the screen.\n\n\nThe game is far larger than previous isometric adventures like Knight Lore, with over 600 more detailed locations (the double of Head Over Heels). There is a password system to save progress.",
+    "desc": "一個名叫克朗德的強大人類征服了怪物星球，禁止所有音樂並宣布自己為王。怪物搖滾音樂家麥克斯決定反擊。為了打倒邪惡的君主，他參加了超級英雄學院的訓練課程。\n\n《Monster Max》是一款超現實的等距冒險遊戲，由創作 8 位經典《Head Over Heels》的同一對組合創作。毫不奇怪，它在控制和總體設計方面與該遊戲非常相似，並且在圖形上幾乎相同。角色在奇異的景觀中移動，他必須收集和使用物體（使用 A 或 B 按鈕）來完成任務目標。遊戲從作為任務中心的培訓學院開始。每個任務都有一個帶有終端和門的入口。通過用角色觸摸終端，任務目標和獎勵就會顯示在屏幕上。可用的任務可以按任何順序進行，但麥克斯必須支付費用才能進入具有更高級任務的其他級別。屏幕左上方有一個收集幸運星的計數器。幸運星允許角色接觸危險物體一次而不會受到傷害。除此之外還有幾顆心，代表著生命的數量。右上角是庫存顯示，顯示分配給按鈕的兩個對象。在執行任務時按“開始”會顯示地圖，而按“選擇”則會在屏幕底部顯示一個包含選項和密碼的菜單。\n\n\n該遊戲比《Knight Lore》等之前的等距冒險遊戲要大得多，有 600 多個更詳細的地點（《Head Over Heels》的兩倍）。有一個密碼系統來保存進度。",
+    "desc_source": "api"
+  },
+  "Pinball - Revenge of the 'Gator (USA, Europe)": {
+    "key": "Pinball - Revenge of the 'Gator (USA, Europe)",
+    "original_name": "Pinball: Revenge of the Gator",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "It's pinball....with gators!  This arcade-style title brings pinball on the go with the Game Boy!  Score as many points as possible, but don't let your ball be eaten by the 'Gator!",
+    "desc": "這是彈球......有鱷魚！這款街機風格的遊戲讓您可以通過 Game Boy 隨時隨地玩彈球遊戲！盡可能多地得分，但不要讓你的球被“鱷魚”吃掉！",
+    "desc_source": "api"
+  },
+  "Spud's Adventure (USA)": {
+    "key": "Spud's Adventure (USA)",
+    "original_name": "Spud's Adventure",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In Spud's Adventure the player takes the role of a potato who is tasked with rescuing the king's kidnapped daughter. To do so, he has to climb a tower consisting of many floors. There are two types of gameplay  encountered during the game: Finding the exit in a maze-like stage while shooting enemies (touching them takes away life energy and eventually leads to death) or a Soko-Ban variant. Here the player has to push blocks into certain marked positions, but they cant be pulled. In those stages the level can be reset without penalty. \nShooting enemies awards experience points which eventually leads to a health upgrade.\nThe protagonist also encounters various friendly sprites who can be talked to and give hints.",
+    "desc": "在《Spud's Adventure》中，玩家扮演土豆的角色，負責營救國王被綁架的女兒。為此，他必須爬上一座由多層組成的塔。遊戲過程中有兩種類型的遊戲玩法：在迷宮般的階段中尋找出口，同時射擊敵人（觸摸他們會奪走生命能量並最終導致死亡）或 Soko-Ban 變體。在這裡，玩家必須將方塊推入某些標記位置，但無法拉動它們。在這些階段中，可以重置級別而不會受到懲罰。\n射擊敵人會獎勵經驗值，最終導致生命值升級。\n主角還會遇到各種友好的精靈，可以與它們交談並給予提示。",
+    "desc_source": "api"
+  },
+  "Faceball 2000 (USA)": {
+    "key": "Faceball 2000 (USA)",
+    "original_name": "Faceball 2000",
+    "name": "蓝色星球软件",
+    "name_source": "wiki",
+    "original_desc": "Faceball 2000 is a first-person shooter.  You control a H.A.P.P.Y.F.A.C.E., or Holographically Assisted Physical Pattern Yielded For Active Computerized Embarkation. The graphics consist of flat shaded corridors. Enemies are all simple geometric shapes with smiley faces on them. Although the graphics are simple, they allow for full freedom of movement, not unlike Wolfenstein 3-D.\n\nThere are two modes of play. First there is a single player mode in which your goal is to find the exit to each level.  There are 70 mazes in this mode. The second mode is the multiplayer arena. For the Game Boy: up to 4 Game Boys can be linked together in this mode.",
+    "desc": "Faceball 2000 是一款第一人稱射擊遊戲。您可以控制 H.A.P.P.Y.F.A.C.E.，或用於主動計算機化登船的全息輔助物理圖案。圖形由平坦的陰影走廊組成。敵人都是簡單的幾何形狀，上面有笑臉。雖然圖形很簡單，但它們允許完全自由的移動，就像德軍總部 3-D 一樣。\n\n有兩種遊戲模式。首先有一個單人遊戲模式，您的目標是找到每個級別的出口。該模式中有70個迷宮。第二種模式是多人競技場。對於 Game Boy：在此模式下最多可以將 4 個 Game Boy 連接在一起。",
+    "desc_source": "api"
+  },
+  "Teenage Mutant Ninja Turtles - Fall of the Foot Clan (USA)": {
+    "key": "Teenage Mutant Ninja Turtles - Fall of the Foot Clan (USA)",
+    "original_name": "Teenage Mutant Ninja Turtles : Fall of the Foot Clan",
+    "name": "山根实知琉",
+    "name_source": "wiki",
+    "original_desc": "The Turtles' first Game Boy game is a fairly simple platforming-style game, where Leonardo, Michaelangelo, Raphael, and Donatello must battle against Krang and Shredder and save their friend April O'Neil in the process.",
+    "desc": "海龜隊的第一款 Game Boy 遊戲是一款相當簡單的平台遊戲，萊昂納多、米開朗基羅、拉斐爾和多納泰羅必須與克朗和施萊德戰鬥，並在此過程中拯救他們的朋友阿普麗爾·奧尼爾。",
+    "desc_source": "api"
+  },
+  "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (CGB+SGB Enhanced)": {
+    "key": "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (CGB+SGB Enhanced)",
+    "original_name": "Pokémon Yellow Special Pikachu Edition",
+    "name": "寶可夢系列 (遊戲)",
+    "name_source": "wiki",
+    "original_desc": "You've finally been granted your Pokemon trainer's license, and now you're on your way to becoming the world's greatest Pokemon trainer! The shockingly cute Pikachu tags along behind you as you search the enormous world for monsters to train and evolve. Face off against Blastoise's torrential water gun. Stand strong when facing Pidgeot's stormy gust. Develop the ultimate Pokemon strategy to defeat the eight GYM leaders and become the greatest Pokemon master of all time!",
+    "desc": "你終於獲得了口袋妖怪訓練師執照，現在你正朝著成為世界上最偉大的口袋妖怪訓練師的方向前進！當你在廣闊的世界中尋找可以訓練和進化的怪物時，可愛得令人震驚的皮卡丘會跟隨在你身後。對抗 Blastoise 的洶湧水槍。面對比比鳥的狂風時，要堅強地站立。制定終極口袋妖怪策略，擊敗八位 GYM 領袖，成為有史以來最偉大的口袋妖怪大師！",
+    "desc_source": "api"
+  },
+  "F-1 Race (World) (Rev 1)": {
+    "key": "F-1 Race (World) (Rev 1)",
+    "original_name": "F-1 Race",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "F-1 Race is an arcade style racing game featuring tracks in locations all around the world.  You will find tracks from Australia, Canada, Portugal, India, Russia, and even Egypt.  Gameplay is viewed from a behind-the-car perspective using scaled bitmaps.\n\nThere are three modes of play.  First is a championship mode, where you compete in a series of races, and must place first in each to advance to the next. Second is a time trial mode, in which you try to achieve your shortest lap time around the track of your choice.  Finally, there is the multi-player mode for up to four drivers.",
+    "desc": "官方Game Boy Advance平台的2,819款遊戲中，一塊遊戲卡匣的容量為0.5Mb至256Mb不等，其中以32Mb、64Mb及128Mb的遊戲作品最多。本列表共有1,074款Game Boy Advance遊戲。",
+    "desc_source": "wiki"
+  },
+  "Metroid II - Return of Samus (World)": {
+    "key": "Metroid II - Return of Samus (World)",
+    "original_name": "Metroid II : Return of Samus",
+    "name": "银河战士II 萨姆斯的回归",
+    "name_source": "wiki",
+    "original_desc": "This is the sequel to the very popular Metroid for the NES.  In Metroid 2, you control Samus Aran in her quest to rid the planet SR388 of the Metroid parasites.  After killing the space pirate Mother Brain in the original Metroid, Samus must take on this adventure to prevent the Metroids from multiplying throughout the galaxy.  Samus soon finds out that the Metroids have mutated, making them much more difficult to defeat.",
+    "desc": "這是 NES 上非常流行的《銀河戰士》的續作。在《銀河戰士 2》中，你控制 Samus Aran 去消滅 SR388 星球上的銀河戰士寄生蟲。在殺死原版銀河戰士中的太空海盜母腦後，薩姆斯必須踏上這次冒險，以防止銀河戰士在整個銀河系繁殖。薩姆斯很快發現銀河戰士已經變異，使他們更難以擊敗。",
+    "desc_source": "api"
+  },
+  "Bugs Bunny Crazy Castle, The (USA, Europe)": {
+    "key": "Bugs Bunny Crazy Castle, The (USA, Europe)",
+    "original_name": "The Bugs Bunny Crazy Castle",
+    "name": "喷神James节目列表",
+    "name_source": "wiki",
+    "original_desc": "This game is the first in the Crazy Castle series of Bugs Bunny games for the Game Boy. The object of this game is to move Bugs around the 80 levels of a castle and collect all of the carrots. Preventing Bugs' progress are the usual Warner Bros. characters, such as Daffy Duck, Yosemite Sam, and Sylvester. Bugs himself does not have any attack moves, but you can find various objects like anvils and boxing gloves to thwart your enemies.",
+    "desc": "《冰與火之歌：權力遊戲》（英語：Game of Thrones，中國大陸譯《權力的遊戲》，香港譯《權力遊戲》）是一部美國中世紀奇幻史詩劇情類型的電視連續劇。該系列連續劇由大衛·貝尼奧夫和D·B·魏斯替HBO創作。劇情改編自喬治·R·R·馬丁的奇幻小說系列《冰與火之歌》。該影集於貝爾法斯特及英國他處拍攝和製作，拍攝地點還包括加拿大、克羅埃西亞、冰島、馬耳他、摩洛哥和西班牙。該系列的影集於2011年4月17日在HBO開播，至2019年5月19日完結，播出了八季，共73集。在2011年4月19日，第一季第一集首播後，電視台隨即簽約拍攝該劇的第二季。\n《冰與火之歌：權力遊戲》遵循著幾個故事線發展，因此有多個情節和一個大型演員劇組。該劇設定於虛構的維斯特洛與厄斯索斯大陸上，其中一段有關維斯特洛與七個王國的鐵王座的故事線，是隨著貴族朝代中合縱連橫之脈絡，一方面爭奪王位、另一方爭取獨立。劇情另一面聚焦於該被廢除的統治王朝之末裔，他被流放並計劃重奪王位；另一故事線則沿著守夜人，捍衛領土免受北方兇猛民族和傳奇生物侵害的兄弟手足之情。\n《冰與火之歌：權力遊戲》在HBO上獲得創紀錄的收視率，並擁有著廣泛、活躍且國際化的粉絲群。該系列因其演技、複雜的角色、故事和範圍，以及生產價值而得到評論家的好評，然而，該系列影集經常使用裸露和暴力（包括性暴力）內容而獲致批評，最後一季影集亦因其濃縮故事及創造性的決定，而進而大受撻伐，許多人認為這是令人失望的結論。\n獎項方面，該影集獲得58項《黃金時段艾美獎》，這是連續劇系列中最多的一個，包括2015年、2016年、2018年和2019年的傑出影集系列。該劇的其他獎項和提名包括三項《雨果獎最佳戲劇表演獎》（2012年至2014年）、2011年的《皮博迪獎》，以及《金球獎最佳電視連續劇—劇情片》的五項提名（2012年及2015年至2018年）。在2019年，該影集的最後一季創下了當年任何常規系列影集所獲得最多的艾美獎提名的新紀錄，達到32項，打破了1994年由《霹靂警探》長達25年的26項提名紀錄，同時，使《冰與火之歌：權力遊戲》成為獲得最多艾美獎提名的電視連續劇，總數達到161項。\n在劇組演員中，彼得·汀克萊傑於《黃金時段艾美獎》中贏得四次傑出影集男配角（2011、2015、2018及2019年），並憑藉提利昂·蘭尼斯特的角色表現獲得2012年金球獎影集系列、迷你影集或電視電影最佳男配角獎。而阿爾菲·阿倫、關朵琳·克莉絲蒂、艾蜜莉亞·克拉克、尼古拉·高斯達-華竇、琳娜·海蒂、基特·哈靈頓、蘇菲·特納、黛安娜·瑞格、卡莉絲·范·荷登、麥斯·馮·西度及梅西·威廉斯也因其表現獲得《黃金時段艾美獎》的提名。",
+    "desc_source": "wiki"
+  },
+  "Kingdom Crusade (USA)": {
+    "key": "Kingdom Crusade (USA)",
+    "original_name": "Kingdom Crusade",
+    "name": "夺宝奇兵",
+    "name_source": "wiki",
+    "original_desc": "Different from the NES game of the same name. In the game the player takes on the role of the legendary Prince Valiant licensed from the cartoon series of the same name which is in turn based on the comic series Prince Valiant. Prince Valiant must lead Arthur's armies against the Tyrant Cynan. The goal is to capture all his castles or defeat all his armies.\n\nA giant over-map shows the world and is divided in tiles. Each tiles has different terrain and shows whether units or castles are present in a tile. Tiles are either white or gray depending on whether Arthur or Cynan controls it.\n\nCharacters on the map can be directly controlled after being selected. This happens in a top-down view similar to The Legend of Zelda. Characters can attack and jump. Each character has different attacks. Items can be collected and the player can move freely between tiles. Moving through tiles that are occupied by the enemy conquers those territories, but the enemy can take them back at any time by moving through them again. If two enemy units meet on the same tile, combat ensues. In real time the player must try to defeat the AI opponent. This is done through dodging his attack and trying to land a blow. To conquer a castle all enemies including those in adjacent tiles must be defeated. \n\nIt is also possible to find and collect items in the direct control mode. Items serve as power-ups that for example make the player faster or restore health points.The player can return to a castle at any time to heal completely.\n\nThe player can select the size of the world to increase or decrease the game's length. Additionally he or she and change the difficulty of the AI player (Cynan) and select a handicap for himself. It is also possible to play against another player.",
+    "desc": "與同名的NES遊戲不同。在遊戲中，玩家扮演傳奇的英勇王子，該角色來自同名卡通系列，而該系列又基於漫畫系列英勇王子。英勇王子必須率領亞瑟的軍隊對抗暴君西南。目標是佔領他所有的城堡或擊敗他所有的軍隊。\n\n一張巨大的大地圖顯示了世界並被劃分為瓷磚。每個圖塊都有不同的地形，並顯示圖塊中是否存在單位或城堡。瓷磚是白色或灰色，取決於亞瑟或西南控制它。\n\n地圖上的角色被選中後可以直接控制。這發生在類似於《塞爾達傳說》的自上而下的視圖中。角色可以攻擊和跳躍。每個角色都有不同的攻擊方式。可以收集物品，玩家可以在圖塊之間自由移動。穿過被敵人佔領的地塊即可征服這些領土，但敵人可以隨時通過再次穿過它們來奪回這些領土。如果兩個敵方單位在同一個方塊上相遇，就會發生戰鬥。玩家必須實時嘗試擊敗人工智能對手。這是通過躲避他的攻擊並試圖進行打擊來完成的。要征服城堡，必須擊敗所有敵人，包括相鄰方塊中的敵人。\n\n也可以在直接控制模式下查找和收集物品。物品可以作為能量提升，例如使玩家更快或恢復生命值。玩家可以隨時返回城堡以完全治愈。\n\n玩家可以選擇世界的大小來增加或減少游戲的長度。此外，他或她還可以更改人工智能玩家（Cynan）的難度並為自己選擇一個障礙。也可以與其他玩家對戰。",
+    "desc_source": "api"
+  },
+  "Dexterity (USA, Europe)": {
+    "key": "Dexterity (USA, Europe)",
+    "original_name": "Dexterity",
+    "name": "龙与地下城",
+    "name_source": "wiki",
+    "original_desc": "Dexterity is a puzzle game with a 7x8 grid, each one filled with a tile or another item. The goal is to flip over all tiles within a time limit. This has to be triggered manually by pressing a button, but if there is another flipped tile on the field, all other tiles between the player's position and the other tile will flip, too. Some grids are filled with stationary blocks, moveable blocks (either pushing them normally or send them flying with a strong kick) and holes.\n\nThere are also monsters which need to be avoided. All five of them have different behaviour patterns and have the ability to reverse already flipped tiles; some of them can even push blocks or destroy tiles. The monsters can be killed by using blocks against them: pushing them over the borders of the playfield or a hole will kill them. Alternatively they also can be trapped. Killed monsters slowly respawn at pre-defined spawn points; this takes place over several phases. In the \"egg\" phase, it can be picked up to kill another enemy with it. Another possible weapon are stunned enemies which stood on a multi-flipped row.\n\nWhen pushing blocks into a corner, they will disappear and transform into power ups, e.g. bonus points, extra time or a temporary stun of all enemies. A life is lost when an enemy is touched or the time runs out. When that happens, all flipped tiles stay flipped.",
+    "desc": "Dexterity 是一款具有 7x8 網格的益智遊戲，每個網格都填充了一塊瓷磚或其他物品。目標是在限定時間內翻轉所有瓷磚。這必須通過按下按鈕手動觸發，但如果場上有另一個翻轉的圖塊，則玩家位置和另一個圖塊之間的所有其他圖塊也會翻轉。一些網格充滿了固定方塊、可移動方塊（正常推動它們或用強力踢將它們踢飛）和洞。\n\n還有需要避免的怪物。他們五個人都有不同的行為模式，並且都有能力反轉已經翻轉的牌；其中一些甚至可以推動方塊或破壞瓷磚。怪物可以通過使用方塊來殺死它們：將它們推過遊戲場的邊界或一個洞就會殺死它們。或者，它們也可能被困住。被殺死的怪物會在預先定義的重生點緩慢重生；這分幾個階段進行。在“蛋”階段，可以撿起它來殺死另一個敵人。另一種可能的武器是擊暈站在多翻轉行上的敵人。\n\n當將方塊推入角落時，它們會消失並轉變為能量提升，例如獎勵積分、額外時間或暫時擊暈所有敵人。當觸及敵人或時間耗盡時，就會失去生命。當這種情況發生時，所有翻轉的圖塊都會保持翻轉狀態。",
+    "desc_source": "api"
+  },
+  "X (Japan) (Translated)": {
+    "key": "X (Japan) (Translated)",
+    "original_name": "X",
+    "name": "2025年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "In X the player pilots a space tank sent to another planet to defend the earth from an alien invasion. There are ten missions with different objective ranging from restoring power to a power plant, to 'seek and destroy' missions. The player can guide the tank freely across the over world, but there are enemy patrols that will open fire. The alternative is going though underground tunnels, where there are spots to replenish the tank and its weapons. The player only has a limited amount of time for each mission, and shielding for the tank. If either runs out, the game is over.",
+    "desc": "在《X》中，玩家駕駛一輛太空坦克前往另一個星球，保衛地球免受外星人入侵。有十個具有不同目標的任務，從恢復發電廠的電力到“尋找並摧毀”任務。玩家可以自由駕駛坦克穿越世界，但敵人的巡邏隊會開火。另一種選擇是穿過地下隧道，那裡有補充坦克及其武器的地方。玩家每次任務的時間和坦克的防護時間都是有限的。如果其中一個耗盡，遊戲就結束。",
+    "desc_source": "api"
+  },
+  "Mystical Ninja Starring Goemon (USA) (SGB Enhanced)": {
+    "key": "Mystical Ninja Starring Goemon (USA) (SGB Enhanced)",
+    "original_name": "Mystical Ninja Starring Goemon",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Oh no!  The evil Skull King and his army of evil pirates are plotting to take over Ancient Japan!  Only Goemon, Ebisumaru, Sasuke and Yae stand in their way.  Fight your way through Gadget Castle, The Black Ship Skull, The Demon Cave and Skeleton Island as you make your way to face off against the Skull King himself.\n\nMystical Ninja Starring Goemon is an overhead action game with light RPG elements, similar to Link's Awakening.  Players explore towns, dungeons, castles and more, searching for treasure chests and attacking enemies.  There are also shops and inns where you can purchase items or rest to recover your strength.\n\nAt the end of each level, there is a boss waiting for you.  However, to defeat them, you must compete in a mini-game called 'The Surprise Match'.  These mini-games usually feature button-mashing of some kind or a variation on a memory match game.",
+    "desc": "哦不！邪惡的骷髏王和他的邪惡海盜大軍正密謀佔領古代日本！只有五右衛門、戎丸、佐助和八重擋住了他們的路。在小工具城堡、黑船骷髏、惡魔洞穴和骷髏島中殺出一條血路，與骷髏王本人對峙。\n\n五右衛門主演的神秘忍者是一款帶有輕RPG元素的架空動作遊戲，類似於林克的覺醒。玩家探索城鎮、地下城、城堡等，尋找寶箱並攻擊敵人。還有商店和旅館，您可以在那裡購買物品或休息以恢復體力。\n\n每個關卡的最後，都有一個boss在等著你。然而，要擊敗他們，您必須參加名為“驚喜比賽”的迷你游戲。這些迷你游戲通常以某種按鍵搗亂或記憶匹配遊戲的變體為特色。",
+    "desc_source": "api"
+  },
+  "Amazing Penguin (USA, Europe)": {
+    "key": "Amazing Penguin (USA, Europe)",
+    "original_name": "Amazing Penguin",
+    "name": "網路爆紅列表",
+    "name_source": "wiki",
+    "original_desc": "Amazin Penguin is a basic action game with a penguin protagonist. Each of the 40 levels consists of a number of lines which divide the playfield into squares. On those lines are switches (represented by a minus) and dots which need to be activated respectively kicked. If all lines around a square are cleared, it gets filled out and all enemies which happen to stand on one of the lines are killed (but respawn shortly after). The goal of the level is to fill all squares out. A life is lost by touching an enemy or running out of time.",
+    "desc": "Amazin Penguin 是一款以企鵝為主角的基本動作遊戲。40 個級別中的每個級別均由多條線組成，這些線將游戲場地劃分為多個方塊。這些線上有開關（用減號表示）和需要分別激活的點。如果一個方塊周圍的所有線都被清除，它就會被填滿，並且所有恰好站在其中一條線上的敵人都會被殺死（但很快就會重生）。該關卡的目標是填滿所有方塊。接觸敵人或時間耗盡就會失去生命。",
+    "desc_source": "api"
+  },
+  "Mega Man - Dr. Wily's Revenge (USA)": {
+    "key": "Mega Man - Dr. Wily's Revenge (USA)",
+    "original_name": "Mega Man : Dr. Wily's Revenge",
+    "name": "威利博士",
+    "name_source": "wiki",
+    "original_desc": "Mega Man is the robot creation of Dr. Light, whose sworn archenemy Dr. Wily spends innumerable games trying to cause trouble with his own odd robots. As Mega Man, you run and jump through futuristic levels, shooting baddies with your blaster, and defeat each of Dr. Wily's Robot Masters. When you defeat them, you can take their ability as your own, which can provide an advantage against other types of evil robots.\n\nIn this Game Boy version, Mega Man must fight against Ice Man, Electric Man, Cut Man, and Fire Man. After he defeats those four he battles Quick Man, Heat Man, Bubble Man, and Flash Man. And after that, there's Dr. Wily's Space Node. That sounds like a lot, but passwords will save your progress, if you make it past certain milestones.",
+    "desc": "《洛克人》是萊特博士創造的機器人，他的死敵威利博士花了無數的遊戲時間試圖用他自己的奇怪機器人製造麻煩。作為《洛克人》，你可以奔跑跳躍，穿越未來的關卡，用爆能槍射擊壞人，並擊敗威利博士的每一位機器人大師。當你擊敗他們時，你可以將他們的能力據為己有，這可以為你對抗其他類型的邪惡機器人提供優勢。\n\n在這個 Game Boy 版本中，洛克人必須與冰人、電人、切割人和火人戰鬥。擊敗這四個人後，他將與快人、熱火人、泡泡人和閃電人戰鬥。之後是威利博士的太空節點。這聽起來很多，但如果您超過了某些里程碑，密碼將保存您的進度。",
+    "desc_source": "api"
+  },
+  "Pokemon - Blue Version (USA, Europe) (SGB Enhanced)": {
+    "key": "Pokemon - Blue Version (USA, Europe) (SGB Enhanced)",
+    "original_name": "Pokémon Blue Version",
+    "name": "寶可夢系列 (遊戲)",
+    "name_source": "wiki",
+    "original_desc": "After venturing alone into tall grass, a voice warns the player to stop, which is revealed to be Professor Oak, a famous Pokémon researcher. Professor Oak explains to the player that wild Pokémon may be living there, and encountering them alone can be very dangerous. He takes the player to his laboratory where the player meets Oak's grandson, a rival aspiring Pokémon Trainer. The player and the rival are both instructed to select a starter Pokémon for their travels out of Bulbasaur, Squirtle, and Charmander. Oak's Grandson will always choose the Pokémon which is stronger against the player's starting Pokémon. He will then challenge the player to a Pokémon battle with their newly obtained Pokémon, and will continue to battle the player at certain points throughout the games.",
+    "desc": "獨自冒險進入高高的草叢後，一個​​聲音警告玩家停止，原來是著名的神奇寶貝研究員大木教授。大木教授向玩家解釋說，野生神奇寶貝可能生活在那裡，單獨遇到它們可能會非常危險。他將玩家帶到他的實驗室，在那裡玩家遇到了大木的孫子，一位有抱負的神奇寶貝訓練師的競爭對手。玩家和對手都被指示從妙蛙種子、傑尼龜和小火龍中選擇一隻起始神奇寶貝作為他們的旅行。大橡之孫總是會選擇對玩家的起始神奇寶貝更強的神奇寶貝。然後，他將挑戰玩家與新獲得的神奇寶貝進行神奇寶貝戰鬥，並將在整個遊戲的某些時刻繼續與玩家戰鬥。",
+    "desc_source": "api"
+  },
+  "Kirby's Star Stacker (USA, Europe) (SGB Enhanced)": {
+    "key": "Kirby's Star Stacker (USA, Europe) (SGB Enhanced)",
+    "original_name": "Kirby's Star Stacker",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "Kirby's Star Stacker is a Tetris-like puzzle game.  There are varying modes of play, such as Time Trial, Challenge and Story Mode, but the basic idea of play is the same: you must sandwich Star Blocks between two like Friend Blocks, either horizontally or vertically.  The Friend Blocks and any Star Blocks in-between are then removed from play.  Similar to Tetris, sets of blocks fall into the bin that contain any two of the following types:\n\nStar Blocks: The most important block, as all of the game types rely on it. Sandwich these blocks between two Friend Blocks either horizontally or vertically, and they will be cleared.  The more stars you clear, the higher the score.\n\nFriend Blocks: These blocks have pictures of Kirby's friends - Rick the Hamster, Kine the Fish, and Coo the Owl (all from Kirby's Dream Land 2) - on them. Match two of each to clear them from the screen.  Any Star Blocks between the two character blocks will also be cleared.",
+    "desc": "《星之卡比》是一款類似俄羅斯方塊的益智遊戲。有不同的遊戲模式，例如計時賽、挑戰和故事模式，但遊戲的基本思想是相同的：你必須將星星塊夾在兩個類似的朋友塊之間，無論是水平還是垂直。然後，朋友塊和中間的任何星星塊都會從遊戲中移除。與俄羅斯方塊類似，塊集落入包含以下任意兩種類型的容器中：\n\n星塊：最重要的塊，因為所有遊戲類型都依賴它。將這些塊水平或垂直地夾在兩個朋友塊之間，它們就會被清除。清除的星星越多，分數就越高。\n\n朋友塊：這些塊上有卡比朋友的照片 - 倉鼠瑞克、魚凱恩和貓頭鷹咕咕（全部來自《卡比的夢幻之地 2》）。每個匹配兩個即可將它們從屏幕上清除。兩個角色塊之間的任何星塊也將被清除。",
+    "desc_source": "api"
+  },
+  "Kirby's Dream Land (USA, Europe)": {
+    "key": "Kirby's Dream Land (USA, Europe)",
+    "original_name": "Kirby's Dream Land",
+    "name": "星之卡比 (遊戲)",
+    "name_source": "wiki",
+    "original_desc": "Dedede, King of Dream Land, is a penguin-like creature who is too gluttonous for his own good. Gathering food for his midnight feast, he got carried away and ended up taking all the food from the inhabitants of his country. One of them, a pink little guy named Kirby, decides to travel all the way to King Dedede's palace and retrieve the lost food by any means.\n\nKirby's Dream Land is a side-scrolling platform action game, and the first in the Kirby series. Although the protagonist appears to be a weak little marshmallow, he is actually quite powerful: he has the ability to suck up his enemies like a vacuum, and then shoot them out at other enemies.  Kirby can also swallow air and inflate himself, which allows him to fly. There are four levels in the game; no save feature is available.",
+    "desc": "夢境之王迪迪迪是一種像企鵝一樣的生物，他貪吃得不償失。在為他的午夜盛宴收集食物時，他得意忘形，最終從他的國家的居民那裡拿走了所有的食物。其中一個名叫卡比的粉色小傢伙決定千里迢迢前往帝帝帝王的宮殿，想盡一切辦法取回丟失的食物。\n\n《卡比之夢境》是一款橫向捲軸平台動作遊戲，也是卡比系列中的第一款遊戲。雖然主角看上去是一個柔弱的小棉花糖，但實際上他的實力相當強大：他有能力像真空一樣吸住敵人，然後將它們射向其他敵人。卡比還可以吞下空氣並使自己膨脹，這使他能夠飛翔。遊戲有四個關卡；沒有保存功能可用。",
+    "desc_source": "api"
+  },
+  "Final Fantasy Adventure (USA)": {
+    "key": "Final Fantasy Adventure (USA)",
+    "original_name": "Final Fantasy Adventure",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "In the Empire of Glaive, a gladiator-slave is forced to fight evil monsters controlled by the Dark Lord. But when his best friend is mortally wounded, he learns of a secret pendant which will give him great power. As the hero, you must battle your way out of the Dark Knight's castle and search through a dangerous world for the girl who has the pendant. But you discover she has been captured by the Dark Knight's men. To free her, you must find the legendary sword and fight off the Dark Knight's beasts and overlords through deserts, snowfields, lakes, forests, and caves. Are you ready for the adventure of your life?",
+    "desc": "在利夫帝國，一名角斗士奴隸被迫與黑魔王控制的邪惡怪物作戰。但當他最好的朋友受了致命傷時，他得知了一個秘密吊墜，它將賦予他強大的力量。作為英雄，你必須殺出一條血路，逃離黑闇騎士的城堡，並在危險的世界中尋找擁有吊墜的女孩。但你發現她被黑闇騎士的手下俘虜了。為了釋放她，你必須找到傳說中的劍，穿越沙漠、雪地、湖泊、森林和洞穴，與黑闇騎士的野獸和霸主戰鬥。您準備好迎接人生的冒險了嗎？",
+    "desc_source": "api"
+  },
+  "Trax (USA, Europe)": {
+    "key": "Trax (USA, Europe)",
+    "original_name": "Trax",
+    "name": "Sexy, Free & Single (單曲)",
+    "name_source": "wiki",
+    "original_desc": "Trax is a side scrolling shoot'em up game that put you in command of a tiny tank in some classic action levels. Pitting your tankmanship against a villainous tank master who is creating machine of destruction that has taken over the land.\n\nYou can fire from multiple angles but due to the control limitations of the Game Boy, your vehicle can only turn his turret clockwise.\n\nThere are a few power ups which increase your weapons like explosive cannonballs, multi-direction shots or anti-armor shells. \n\nThe game also features some boss fights as you progress through the game's several different environments, forest, desert, cave, city, and tank factory.",
+    "desc": "Trax 是一款橫向捲軸射擊遊戲，讓您在一些經典的動作關卡中指揮一輛小型坦克。用你的坦克技術對抗邪惡的坦克大師，他正在製造佔領這片土地的毀滅機器。\n\n你可以從多個角度開火，但由於 Game Boy 的控制限制，你的車輛只能順時針轉動砲塔。\n\n有一些能量提升可以增強你的武器，例如爆炸砲彈、多向射擊或反裝甲砲彈。\n\n當您在遊戲的幾個不同環境（森林、沙漠、洞穴、城市和坦克工廠）中前進時，遊戲還包含一些頭目戰鬥。",
+    "desc_source": "api"
+  },
+  "Noobow (Japan) (Translated)": {
+    "key": "Noobow (Japan) (Translated)",
+    "original_name": "Noobow",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Noobow is a puzzle platformer featuring a Japanese chocolate mascot. The aim of the game is to pick up objects and use them wherever they're needed in order to stop the sun and rain from fighting each other. After using the objects in the right places they disappear to confirm that players have made the right choice.\n\nThere are 7 levels in the game and Noobow will always refuse to put his life in danger. Completing each level is done by reaching the goal and assisting the characters that are waiting there.",
+    "desc": "Noobow 是一款以日本巧克力吉祥物為特色的平台解謎遊戲。遊戲的目的是撿起物體並在需要的地方使用它們，以阻止陽光和雨水互相爭鬥。在正確的位置使用物品後，它們就會消失，以確認玩家做出了正確的選擇。\n\n遊戲有 7 個關卡，Noobow 永遠不會讓自己的生命處於危險之中。通過達到目標並協助等待在那裡的角色來完成每個級別。",
+    "desc_source": "api"
+  },
+  "Out of Gas (USA)": {
+    "key": "Out of Gas (USA)",
+    "original_name": "Out of Gas",
+    "name": "神秘的古庙",
+    "name_source": "wiki",
+    "original_desc": "You are cruising around in outer space when suddenly you are out of gas. The game is played from an top-down view. The gameplay is not very far from Asteroids, where you are the pilot of a ship and must complete level after level. For each level your objective is to get gas by shoot a the G-signs scattered around the levels. In some levels you have to shooting the signs in a special order. The levels must be completed in time, and you also have to watch out for enemy fire.",
+    "desc": "當你在外太空巡航時，突然沒了汽油。遊戲是從自上而下的視角進行的。遊戲玩法與《小行星》相差不遠，你是一艘飛船的飛行員，必須完成一個又一個的關卡。對於每個關卡，您的目標是通過射擊散佈在關卡周圍的 G 標誌來獲取汽油。在某些關卡中，您必須按照特殊順序射擊標誌。關卡必須及時完成，你還必須提防敵人的火力。",
+    "desc_source": "api"
+  },
+  "Mole Mania (USA, Europe) (SGB Enhanced)": {
+    "key": "Mole Mania (USA, Europe) (SGB Enhanced)",
+    "original_name": "Mole Mania",
+    "name": "宫本茂",
+    "name_source": "wiki",
+    "original_desc": "Muddy Mole's wife and seven kids have been kidnapped by the evil farmer, Jinbei!  It's up to you to help Muddy solve the many puzzles of Jinbei Land.  Snatch all of Jinbei's cabbages in every level, and if you get stuck, dig underground and create your own secret underground paths.  A word of warning, however - Jinbei has got his best goons guarding your family, so you'd better watch out!\n\nMole Mania plays from an overhead perspective.  Although in each room you have to destroy all the foes to progress, the game is much more puzzle-oriented than it is towards action.  It is quite common in later levels to get yourself 'stuck', which can be fixed by leaving and returning to the screen to reset the puzzle.  One of the game's clever 'hooks' is that players can dig underground in each stage to find a completely different map than they do above ground, which can be used to get through otherwise impassable terrain.\n\nThe game also features a two player mode, where one player is Muddy, and the other is Jinbei.  Muddy must swipe as many cabbages as possible, and Jinbei must stop him.  At the end of the round, players swap roles, and then the player who got the most cabbages wins.",
+    "desc": "泥鼴鼠的妻子和七個孩子被邪惡的農民金杯綁架了！你需要幫助 Muddy 解決金杯之地的眾多謎題。在每個關卡中搶奪甚平的所有捲心菜，如果你陷入困境，請挖掘地下並創建自己的秘密地下路徑。不過，請注意——甚平有他最好的打手保護你的家人，所以你最好小心！\n\n《鼴鼠狂熱》以俯視視角進行遊戲。儘管在每個房間中你都必須消滅所有敵人才能前進，但遊戲更偏向解謎而非動作。在後面的關卡中，讓自己“卡住”是很常見的，這可以通過離開並返回屏幕來重置謎題來解決。遊戲的一個巧妙的“亮點”是，玩家可以在每個階段挖掘地下，找到與地面完全不同的地圖，這可以用來穿過原本無法通行的地形。\n\n遊戲還設有兩人模式，其中一名玩家是穆迪，另一名玩家是金杯。泥巴必須盡可能多地砍掉白菜，甚平必須阻止他。回合結束時，玩家交換角色，然後獲得最多捲心菜的玩家獲勝。",
+    "desc_source": "api"
+  },
+  "Mario's Picross (USA, Europe) (SGB Enhanced)": {
+    "key": "Mario's Picross (USA, Europe) (SGB Enhanced)",
+    "original_name": "Mario's Picross",
+    "name": "Creatures",
+    "name_source": "wiki",
+    "original_desc": "Nonograms are number puzzles where logic is used to find the solution. Clues are provided along the sides of the playfield grid, telling the player how many squares to fill in each row and column. With logic the player can figure out exactly which squares of the grid to fill. The thinking process is similar to solving Sudoku puzzles.\n\nMario's Picross (from PICture CROSSword) is Nintendo's take on Nonograms. In this game, Mario takes on the role of an archaeologist who chisels away the squares in each playfield. The result is a small picture. There are 256 different puzzles to solve, divided into four courses with increasing difficulty level.",
+    "desc": "Nonograms 是使用邏輯來尋找解決方案的數字謎題。遊戲場地網格的兩側提供了線索，告訴玩家每行和每列需要填充多少個方格。通過邏輯，玩家可以準確地找出要填充網格的哪些方格。思考過程類似於解決數獨謎題。\n\nMario's Picross（來自 PICture CROSSword）是任天堂對 Nonograms 的演繹。在這款遊戲中，馬里奧扮演考古學家的角色，在每個遊戲場地上鑿掉方塊。結果是一張小圖片。有 256 個不同的謎題需要解決，分為四個難度級別逐漸增加的課程。",
+    "desc_source": "api"
+  },
+  "Motocross Maniacs (USA)": {
+    "key": "Motocross Maniacs (USA)",
+    "original_name": "Motocross Maniacs",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Motocross Maniacs is a side-scrolling racing game with extremely perilous courses. You maneuver your rider through many jumps, loops, and mud hazards to achieve a record time. To assist you there are several power ups that give you more time to race, more nitro boosts, and more top speed.\n\nThe main game is a solo affair. You attempt to complete the course before time runs out. You can also race one-on-one against the computer or against a friend via the link cable.",
+    "desc": "Motocross Maniacs 是一款橫向捲軸賽車遊戲，賽道極其危險。你操縱你的騎手通過許多跳躍、循環和泥漿障礙，以達到創紀錄的時間。為了幫助您，有幾種能力提升可以讓您有更多的比賽時間、更多的硝基提升和更高的最高速度。\n\n主要遊戲是單人遊戲。您嘗試在時間用完之前完成課程。您還可以通過連接線與計算機或朋友進行一對一的比賽。",
+    "desc_source": "api"
+  },
+  "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA)": {
+    "key": "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA)",
+    "original_name": "Teenage Mutant Ninja Turtles II : Back from the Sewers",
+    "name": "全球最高跨媒體製作收入列表",
+    "name_source": "wiki",
+    "original_desc": "Teenage Mutant Ninja Turtles II: Back from the Sewers is the second Teenage Mutant Ninja Turtles for the Game Boy. It is a sequel to Fall of the Foot Clan.\n\nThis time, Splinter was captured by Krang. Leonardo, Michelangelo, Raphael and Donatello go in search of their master until arriving at Krang and Shredder.",
+    "desc": "《忍者神龜 II：從下水道回來》是 Game Boy 的第二部《忍者神龜》。這是《足部部落的隕落》的續集。\n\n這一次，斯普林特被克朗抓獲。列奧納多、米開朗基羅、拉斐爾和多納泰羅尋找他們的主人，直到到達克朗和施萊德。",
+    "desc_source": "api"
+  },
+  "Mega Man IV (USA)": {
+    "key": "Mega Man IV (USA)",
+    "original_name": "Mega Man IV",
+    "name": "2025年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "In the year 20XX...\n\nDr. Wily has broken into the local Robot Museum and has stolen the bodies of his previously destroyed Robot Masters, and now has brought them back for revenge against Mega Man! What's worse, Wily plans on using a massive laser cannon from outer space to blast Earth to dust!\n\nMega Man must team up with his friends to stop Dr. Wily before Earth is destroyed!\n\nMega Man IV contains elements of Mega Man 4 and 5 (NES) and is a Game Boy exclusive.",
+    "desc": "20XX年...\n\n威利博士闖入了當地的機器人博物館，偷走了他之前被摧毀的機器人大師的屍體，現在又將他們帶回來，向洛克人復仇！更糟糕的是，威利計劃使用來自外太空的巨型激光炮將地球炸成塵埃！\n\n洛克人必須與他的朋友們聯手，在地球被毀滅之前阻止威利博士！\n\n《洛克人 IV》包含《洛克人 4》和《洛克人 5》（NES）的元素，並且是 Game Boy 獨占的。",
+    "desc_source": "api"
+  },
+  "Tail 'Gator (USA, Europe)": {
+    "key": "Tail 'Gator (USA, Europe)",
+    "original_name": "Tail 'Gator",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Tail Gator on Gameboy is a platform game in which you play as a crocodile moving through environments full of monsters. You'll only be able to jump and tail swipe your enemies, however if you collect enough \"P\" symbols you will be able to hit from a distance. Many chests are scattered around, it's up to you to open them to increase your score!",
+    "desc": "Gameboy 上的 Tail Gator 是一款平台遊戲，您在其中扮演鱷魚，在充滿怪物的環境中移動。你只能跳躍和尾部攻擊你的敵人，但是如果你收集了足夠的“P”符號，你將能夠從遠處擊中敵人。周圍散佈著許多寶箱，由你來打開它們來增加你的分數！",
+    "desc_source": "api"
+  },
+  "DuckTales 2 (USA)": {
+    "key": "DuckTales 2 (USA)",
+    "original_name": "Disney's DuckTales 2",
+    "name": "大衛·田納特",
+    "name_source": "wiki",
+    "original_desc": "While in the basement of Uncle Scrooge's mansion, Huey, Dewey and Louie discover an old piece of paper.  When they show it to Uncle Scrooge, he recognizes it as part of his great, great Uncle Fergus McDuck's legendary treasure map!  With the remaining parts of the map hidden around the world, it's up to Uncle Scrooge to find them and discover Fergus McDuck's secret treasure!\n\nDuck Tales 2 is the sequel to the NES and Game Boy game, Duck Tales.  Based on the Disney cartoon of the same name, players control Uncle Scrooge as he searches the globe for massive amounts of wealth while trying to discover hidden pieces of the map.\n\nScrooge's main method of attack is his cane - by jumping in the air and holding the B Button, the cane turns into a pogo stick, allowing players to jump onto most enemies' heads and cross dangerous terrain like spikes with ease.  By pushing up against a wall or an object, Scrooge will whack his cane like a golf club, either sending the object flying or occasionally revealing secret items.  New to Duck Tales 2 is the ability to push and pull certain objects with the cane after hitting them.\n\nFamiliar faces such as Huey, Dewey and Louie, Webby, Mrs. Beakley, and Launchpad McQuack all turn up to lend a hand.  Scrooge will even bump into the crazy inventor, Gyro Gearloose, who will improve Scrooge's cane so that he can access even more secret areas.",
+    "desc": "在史克魯奇叔叔豪宅的地下室裡，休伊、杜威和路易發現了一張舊紙。當他們把它拿給史克魯奇叔叔看時，他認出這是他偉大的弗格斯·麥克老鴨叔叔傳奇藏寶圖的一部分！地圖的其餘部分隱藏在世界各地，史克魯奇叔叔必須找到它們並發現弗格斯·麥克老鴨的秘密寶藏！\n\n《Duck Tales 2》是 NES 和 Game Boy 遊戲《Duck Tales》的續作。改編自同名迪士尼卡通片，玩家控制史克魯奇叔叔在全球範圍內尋找大量財富，同時試圖發現地圖上隱藏的碎片。\n\n斯克魯奇的主要攻擊方式是他的手杖——在空中跳躍並按住B按鈕，手杖就會變成彈簧單高蹺，讓玩家可以跳到大多數敵人的頭上，輕鬆穿越尖刺等危險地形。通過推向牆壁或物體，斯克魯奇會像高爾夫球桿一樣敲擊手杖，要么使物體飛走，要么偶爾洩露秘密物品。Duck Tales 2 的新增功能是能夠在擊中某些物體後用拐杖推拉它們。\n\n休伊、杜威和路易、韋比、比克利夫人和 Launchpad McQuack 等熟悉的面孔都會前來提供幫助。斯克魯奇甚至會遇到瘋狂的發明家陀螺·吉爾魯斯，他將改進斯克魯奇的手杖，以便他能夠進入更多的秘密區域。",
+    "desc_source": "api"
+  },
+  "Pop'n TwinBee (Europe)": {
+    "key": "Pop'n TwinBee (Europe)",
+    "original_name": "Pop'n TwinBee",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "Another top-down shooter in the Twinbee \"cute'em up\" franchise.\n\nHeroes Light and Pastel decide to go out and help a young maiden bring sense back to her scientist father, who apparently has bumped his head and transformed into a evil mastermind that seeks world domination.\n\nAs the other games in the series Pop'n Twinbee is a vertically-scrolling arcade shooter in which you and a friend get behind the controls of Twinbee and Winbee, the cutest starfighters ever created, and try to clear stage after stage of enemies with your  weapons. Being a console original instead of a port, Pop'n features a number of additions to the gameplay mechanics, including an energy bar, eight difficulty levels and a handicap feature when playing with a friend (which makes most enemies target one fighter instead of the other).\n\nThe upgrade system remains consistent with the series's: you shoot colored bells which give different power-ups when collected, including multiple shots, \"options\" and shield energy. Also when correctly powered-up both fighters can join and perform powerful team-up moves.",
+    "desc": "Twinbee“cute'em up”系列中的另一款俯視角射擊遊戲。\n\n英雄光和帕斯特決定出去幫助一名年輕少女讓她的科學家父親恢復理智，她的科學家父親顯然已經撞到了頭，變成了一個尋求統治世界的邪惡策劃者。\n\n與該系列中的其他遊戲一樣，Pop'n Twinbee 是一款垂直捲軸街機射擊遊戲，您和朋友可以控制有史以來最可愛的星際戰鬥機 Twinbee 和 Winbee，並嘗試用武器清除一個又一個的敵人。作為主機原創而非移植，Pop'n 在遊戲機制上添加了許多附加功能，包括能量條、八個難度級別以及與朋友一起玩時的障礙功能（這使得大多數敵人瞄準一名戰士而不是另一名戰士）。\n\n升級系統與系列保持一致：你發射彩色鈴鐺，收集後會提供不同的能量提升，包括多次射擊、“選項”和護盾能量。此外，當正確啟動時，兩名戰士都可以加入並執行強大的團隊動作。",
+    "desc_source": "api"
+  },
+  "Mercenary Force (USA, Europe)": {
+    "key": "Mercenary Force (USA, Europe)",
+    "original_name": "Mercenary Force",
+    "name": "尚-克勞德·范達美",
+    "name_source": "wiki",
+    "original_desc": "Mercenary Force is an unconventional shoot'em up set in Japan's Edo period and inspired by Japanese history and mythology. When Japan is invaded by the minions of a dark lord, the shogun sets out to hire the best warriors in the land to combat the enemy. \n\nPlayers start with 5000 yen and must begin by hiring their mercenaries. The team has four slots and can be recruited from five different character types (servant, ninja, monk, samurai and mystic) in any combination (including more than one of any character). The characters differ in hiring price, starting health, weapons (amount of projectiles, speed and direction), and their special attack.\n\nThe game consists of six levels, seen from an angled top-down/side-view perspective, with the screen scrolling automatically to the right. The mercenaries must shoot hordes of enemies to get to the next level, including several bosses. The mercenaries can change their formation between four different options: a vertical line, a diamond shape, a square shape and a horizontal arrowhead formation. It is also possible to switch the character in the lead position, leading to a large variety of tactical options. The hit points of each team member are counted individually, so if one is killed the remaining ones can fight on. Besides their standard weapon, each character also has a special suicide attack, triggered by pressing both buttons at the same time. These are usually highly devastating attacks, but the monk's power actually allows the group to skip ahead through a large part of the level.\n\nKilled enemies drop coins of 10 yen in value that disappear after a short while if not picked up. The money reserve is used in a matter of ways: between stages, new recruits can be hired to replace fallen fighters. There are also various buildings in the levels that allow the spending of money. Cafes offer various items that restore or increase health and, in some levels, can change the character class of the team leader. There is a fortune-reading at a temple which makes it possible to recruit a hidden character, and the possibility to resurrect fallen comrades at a daibutsu. Only temples don't cost money and offer healing for free.",
+    "desc": "《僱傭兵》是一款以日本江戶時代為背景的非傳統射擊遊戲，其靈感源自日本歷史和神話。當日本遭到黑暗領主的爪牙入侵時，幕府將軍著手僱傭該國最優秀的戰士來對抗敵人。\n\n玩家從 5000 日元開始，必須從僱傭僱傭兵開始。該團隊有四個槽位，可以從五種不同的角色類型（僕人、忍者、僧侶、武士和神秘主義者）中以任意組合（包括多於一個的任何角色）進行招募。這些角色在僱傭價格、起始生命值、武器（射彈數量、速度和方向）以及特殊攻擊方面有所不同。\n\n遊戲由六個關卡組成，從有角度的自上而下/側視圖視角觀看，屏幕自動向右滾動。僱傭兵必須射擊成群的敵人才能進入下一關，其中包括幾個頭目。僱傭兵可以在四種不同的選項之間改變陣型：垂直線、菱形、方形和水平箭頭隊形。還可以切換主角位置的角色，從而帶來多種戰術選擇。每個團隊成員的生命值都是單獨計算的，所以如果一個人被殺，剩下的人可以繼續戰鬥。除了標準武器外，每個角色還有特殊的自殺式攻擊，通過同時按下兩個按鈕來觸發。這些通常是極具破壞性的攻擊，但僧侶的力量實際上可以讓團隊跳過大部分關卡。\n\n被殺死的敵人會掉落價值 10 日元的硬幣，如果不撿起，這些硬幣會在短時間內消失。資金儲備有多種使用方式：在各個階段之間，可以僱用新兵來代替陣亡的戰士。關卡中還有各種允許花錢的建築物。咖啡館提供各種可以恢復或增加生命值的物品，並且在某些級別上可以改變團隊領導者的角色類別。在寺廟裡進行算命，可以招募隱藏角色，並可以在大佛中復活倒下的戰友。只有寺廟不花錢並且免費提供治療。",
+    "desc_source": "api"
+  },
+  "Kirby's Dream Land 2 (USA, Europe) (SGB Enhanced)": {
+    "key": "Kirby's Dream Land 2 (USA, Europe) (SGB Enhanced)",
+    "original_name": "Kirby's Dream Land 2",
+    "name": "星之卡比 (遊戲)",
+    "name_source": "wiki",
+    "original_desc": "The lovable Kirby returns to the Game Boy! This time the bridges connecting the rainbow bridges have disappeared and King Dedede is to blame as always...or is he? The evil Dark Matter has him under his control and plans to turn Dream Land into a dark world. Kirby's goal is get the fabled rainbow sword and defeat him!\n\nGameplay consists of a platform game. Kirby is like no other platform character of its time because he can fly with no power-ups, and he can swallow enemies and get their powers. In addition to that, Kirby can now team up with his friends: Rick the hamster, Kine the fish, and Coo the owl. Each team-up has it's advantages and disadvantages, but Kirby can still swallow enemies, making more different powers available depending on the power/friend combination.",
+    "desc": "可愛的卡比重返 Game Boy！這次連接彩虹橋的橋樑消失了，迪迪迪國王一如既往地應該受到責備……或者是他？邪惡的暗物質控制了他，併計劃將夢境變成一個黑暗的世界。卡比的目標是獲得傳說中的彩虹劍並擊敗他！\n\n遊戲玩法包括平台遊戲。卡比與當時的其他平台角色不同，因為他可以在沒有能量提升的情況下飛行，並且他可以吞噬敵人並獲得他們的力量。除此之外，卡比現在可以與他的朋友們組隊：倉鼠瑞克、魚凱恩和貓頭鷹咕咕。每個團隊都有其優點和缺點，但卡比仍然可以吞噬敵人，根據力量/朋友組合提供更多不同的力量。",
+    "desc_source": "api"
+  },
+  "Lock 'n' Chase (World)": {
+    "key": "Lock 'n' Chase (World)",
+    "original_name": "Lock n' Chase",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "There's money to be had, and it's waiting to be nabbed. Be an ace in Lock'N Chase.\n\nThis classic arcade game invites you to play as a thief who's trying to score big by collecting his weight in gold. Duck in and out of alleys while scooping up coins along the way. Maybe you'll get lucky and find some extra treasure. But being on the wrong side of the law is never easy, as the police are hot on your tail. If you think they're coming too close, try using a sliding door or power-up items to block their chase.\n\nThink you can make a clean getaway? Test your skills in Lock'N Chase.",
+    "desc": "《雷光歸來 Final Fantasy XIII》（日語：ライトニング リターンズ ファイナルファンタジーXIII，英語：Lightning Returns: Final Fantasy XIII）是由日本遊戲製作商史克威爾艾尼克斯第一開發部負責開發，史克威爾艾尼克斯發售的動作角色扮演遊戲，對應 PlayStation 3、Xbox 360和Windows平台。遊戲最初於2013年11月在日本、台灣和香港的PlayStation 3和Xbox 360平台發售，2014年2月在歐洲和北美發售。本作亦是「新的水晶故事 Final Fantasy」系列的一部分，作為《Final Fantasy XIII-2》的續篇，為自《Final Fantasy XIII》開始的三部曲作完結。《雷光歸來》在遊戲系統上進行了大幅改進，採用動作導向的戰鬥系統。玩家可自訂角色的裝備。遊戲採用晝夜周期系統，玩家只有13天去阻止世界末日降臨，遊戲中某些行動會延遲時間流逝，而有些行動則會加劇末日進程。\n遊戲故事發生在前作的500年後，雷光被神祇布涅貝哲選為「解放者」，在末日前的13天從水晶狀態被喚醒，來拯救這個世界和她的朋友。在旅途中，她得知了兩個世界命運的真相和布涅貝哲的真正目的。\n遊戲開發始於2012年5月，在《XIII-2》最後一個DLC發布後不久，於當年的Final Fantasy系列25周年紀念活動上公布訊息。本作由史克威爾第一開發部開發，有大部分前作的主創人員參與，tri-Ace在圖形設計上提供幫助。開發團隊吸收了對上兩部遊戲的批評意見，希望以本作為雷光的故事和《Final Fantasy XIII》系列世界觀作結。遊戲在日本發售的第一周銷量即達27.7萬套，在2013年最暢銷遊戲榜中排名第17。",
+    "desc_source": "wiki"
+  },
+  "Dr. Franken II (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)": {
+    "key": "Dr. Franken II (USA, Europe) (En,Fr,De,Es,It,Nl,Sv)",
+    "original_name": "Dr. Franken II",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "It is several years after the death of Dr. Von Frankenbone, and things around the castle are starting to fall apart. The electricity bill hasn't been paid in some time, and now Franky need to find the cash to pay it off. The locals have trapped Franky inside the late doctor's private manor, and you (as Franky) must escape and piece together the golden tablet depicting your beautiful girlfriend Bitsy to pay the bills.\n\nDr. Franken II is a side-scrolling platformer what places you in control of a Frankenstein-like character named Franky. The goal is collect different objects within different levels to put something back together. In order for Franky to recharge his health, you need to find the parts to fix the electricity machine that does it. You will also be taken to exotic locales such as Egypt and the bottom of the ocean to find pieces of Bitsy's golden tablet.\n\nLike its predecessor, there are many trap doors, monsters, and other obstacles that need to be overcome. Keys are needed to unlock new areas of the game, which can be found in the far reaches of the level.",
+    "desc": "馮·弗蘭肯伯恩博士去世幾年後，城堡周圍的一切開始分崩離析。電費已經有一段時間沒有支付了，現在弗蘭奇需要找到現金來還清。當地人將弗蘭基困在已故醫生的私人莊園內，你（作為弗蘭基）必須逃脫並拼湊出描繪你美麗女友比西的金色石碑來支付賬單。\n\n《弗蘭肯博士 II》是一款橫向捲軸平台遊戲，讓你控制一個名叫弗蘭基的類似弗蘭肯斯坦的角色。目標是收集不同關卡中的不同物體，將某些東西重新組合在一起。為了讓弗蘭奇恢復健康，你需要找到零件來修理電機。您還將被帶到異國他鄉，例如埃及和海底，尋找比西的金碑碎片。\n\n和它的前身一樣，有許多活板門、怪物和其他需要克服的障礙。需要鑰匙來解鎖遊戲的新區域，這些區域可以在關卡的最深處找到。",
+    "desc_source": "api"
+  },
+  "Blaster Master Boy (USA)": {
+    "key": "Blaster Master Boy (USA)",
+    "original_name": "Blaster Master Boy",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Radioactive energy is destroying every living thing on Earth. Only Jason can stop it. And this time, he can't use his super-equipped car. He's gotta do it alone. Armed with blistering lanterns, mega-power hyper-bombs and skull-rattling super-bombs, Jason must blaze a dizzying path deep down beneath the surface of the planet to seek out the Mutant Bosses - then destroy them! Can you help Jason fight his way to the center of the Earth? He's running out of light. He's running out of time. And only you can make sure Jason blasts his enemies - before they blast him.",
+    "desc": "放射性能量正在摧毀地球上的一切生物。只有傑森可以阻止它。而這一次，他也不能使用他的超級裝備汽車了。他必須獨自完成這件事。傑森配備了起泡的燈籠、超大威力的超級炸彈和令人頭骨震顫的超級炸彈，他必須在地球表面深處開闢一條令人眼花繚亂的道路，尋找變種人大佬 - 然後消滅他們！你能幫助傑森殺出一條血路，到達地心嗎？他快沒光了。他的時間不多了。只有你才能確保傑森在敵人炸毀他之前炸毀他的敵人。",
+    "desc_source": "api"
+  },
+  "Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)": {
+    "key": "Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)",
+    "original_name": "Donkey Kong Land 2",
+    "name": "马力欧系列游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In Donkey Kong Land 2, Donkey Kong has been captured by the evil Kaptain K. Rool, leaving it up to Diddy and Dixie Kong to save the day in this side-scrolling adventure. Fortunately, they will have plenty of help along the way from their friends.\n\nLike the original Donkey Kong Land, all the graphics in this game are pre-rendered three dimensional models. The gameplay is also similar, with platform jumping and banana collecting remaining a core part of the game experience.",
+    "desc": "在《大金剛樂園 2》中，大金剛被邪惡的 K. K. Rool 船長抓獲，迪迪和迪克西·孔必須在這場橫版捲軸冒險中拯救世界。幸運的是，他們一路上會得到朋友的大量幫助。\n\n與原版《Donkey Kong Land》一樣，該遊戲中的所有圖形都是預先渲染的三維模型。遊戲玩法也很相似，平台跳躍和香蕉收集仍然是遊戲體驗的核心部分。",
+    "desc_source": "api"
+  },
+  "Golf (World)": {
+    "key": "Golf (World)",
+    "original_name": "Golf",
+    "name": "全民高尔夫",
+    "name_source": "wiki",
+    "original_desc": "Golf features two challenging 18 hole courses where players are able to play a round of golf, and allows players to choose a club, adjust stance and control the swing. The game features three alternating views; an overhead long-range view of the entire hole, an overhead medium-range view from the ball's current location, and an overhead close-range view of the green. Gameplay modes include 1 player, or 2 player play with a link cable.",
+    "desc": "高爾夫設有兩個具有挑戰性的 18 洞球場，球員可以在這裡打一輪高爾夫球，並允許球員選擇球桿、調整站姿和控制揮桿。遊戲具有三種交替的視圖；整個洞的俯視遠景、球當前位置的俯視中景以及果嶺的俯視近景。遊戲模式包括 1 名玩家或 2 名玩家使用連接線進行遊戲。",
+    "desc_source": "api"
+  },
+  "Tiny Toon Adventures 2 - Montana's Movie Madness (USA, Europe)": {
+    "key": "Tiny Toon Adventures 2 - Montana's Movie Madness (USA, Europe)",
+    "original_name": "Tiny Toon Adventures 2 : Montana's Movie Madness",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "A brand new movie theater has just opened up in Acme Acres! But, it's unfortunately owned by none other than resident spoiled rich brat of Acme Acres, Montana Max, and he's decided to run movies in which he's the hero, and Buster Bunny is his arch-nemesis! Of course, Buster can't sit too still on that, so he's going to try and enter the movies and change the plots so Montana can't win at his dirty scheme of ruining Buster's reputation!\n\nIt's all up to Buster! If he manages to change all four flicks Monty has cooked up, he can try to face Montana rabbit-to...well, spoiled kid, in a final showdown! Time to get rolling!",
+    "desc": "一家全新的電影院剛剛在 Acme Acres 開業！但是，不幸的是，它的主人不是別人，正是 Acme Acres 居民被寵壞的富家子蒙大拿·麥克斯 (Montana Max)，他決定經營以他為英雄的電影，而巴斯特兔子是他的宿敵！當然，巴斯特不能坐視不理，所以他要嘗試進入電影並改變情節，這樣蒙大拿就不能贏得他破壞巴斯特聲譽的骯髒計劃！\n\n一切都取決於巴斯特！如果他能成功改變蒙蒂炮製的所有四部電影，他就可以嘗試在最後的對決中面對蒙大拿兔子……好吧，被寵壞的孩子！是時候開始滾動了！",
+    "desc_source": "api"
+  },
+  "Spanky's Quest (USA)": {
+    "key": "Spanky's Quest (USA)",
+    "original_name": "Spanky's Quest",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "Spanky's Quest is a game about a monkey who decides to go on a picnic.  While on his way through the forest he see's a witch in the sky and out of nowhere bricks begin to make a tower around the area Spanky is in.  The witch challenges Spanky to come to the final tower and she will free him but before she flies away she turns the fruits in his knapsack into living fruit monsters.  Unknowingly, she drops a magic ball which agrees to help Spanky out on his quest.\n\nThe object of the game is to get through all six of the towers which consist of 10 levels as well as a boss battle.  In order to proceed to the next level, you must acquire the amount of keys the locked door requires.  Keys are found lying around until a monster picks them up in which case you must use your ball on them to get it.  The ball has for different attacks: baseball, soccer ball, volleyball and basketball.  In order to attain a stronger ball, the ball must be bounced on Spankey's head.  Spanky also gets different hats which give him a specific power until he loses it or the level ends.",
+    "desc": "Spanky's Quest 是一款關於一隻猴子決定去野餐的遊戲。在穿過森林的路上，他看到空中有一個女巫，不知從什麼地方冒出來的磚塊開始在 Spanky 所在的區域周圍建造一座塔。女巫向 Spanky 發起挑戰，要求他來到最後一座塔，她會釋放他，但在她飛走之前，她將他背包裡的水果變成了活生生的水果怪物。不知不覺中，她掉落了一個魔法球，魔法球同意幫助斯潘基完成他的任務。\n\n遊戲的目標是通過所有六座塔樓，共 10 個關卡以及一場 Boss 戰。為了進入下一關，您必須獲得鎖著的門所需的鑰匙數量。鑰匙被發現躺在周圍，直到怪物撿起它們，在這種情況下，你必須使用你的球來獲取它。球有不同的攻擊方式：棒球、足球、排球和籃球。為了獲得更強的球，球必須彈到斯潘基的頭上。Spanky 還獲得了不同的帽子，這些帽子賦予他特定的力量，直到他失去它或關卡結束。",
+    "desc_source": "api"
+  },
+  "Tetris Blast (USA, Europe) (SGB Enhanced)": {
+    "key": "Tetris Blast (USA, Europe) (SGB Enhanced)",
+    "original_name": "Tetris Blast",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "In this version of Tetris, the basic 'clear the line of puzzle blocks' element is still here, but with an added twist: inside the many block shapes are bombs. By linking the bombs while clearing the play field as usual (creating a line of blocks), more of the field is cleared as the bombs explode. \n\nThe usual gameplay modes are included, i.e. challenge, clear as many lines as possible, time trial, clear as many lines as possible before time runs out and 2 player battle.",
+    "desc": "在這個版本的俄羅斯方塊中，基本的“清除拼圖塊的線條”元素仍然存在，但有一個額外的變化：在許多塊形狀內都有炸彈。通過像往常一樣在清理遊戲場地時連接炸彈（創建一排方塊），當炸彈爆炸時，更多的場地會被清理。\n\n包括常見的遊戲模式，即挑戰、盡可能多地清除線、計時賽、在時間用完之前盡可能多地清除線和2人對戰。",
+    "desc_source": "api"
+  },
+  "Bionic Commando (USA)": {
+    "key": "Bionic Commando (USA)",
+    "original_name": "Bionic Commando",
+    "name": "1988年电子游戏界",
+    "name_source": "wiki",
+    "original_desc": "You play a soldier with a bionic arm that extends and contracts.  Your arm allows you to grab on to fixed objects to swing around and climb up levels -- no jumping allowed! The arm also grabs opponents and pull them towards you.\n\nYour mission is to infiltrate the enemy fortress, find your missing comrade, \"Super Joe\", and take out the evil leader, \"Generalissimo Kilt\", of the invading force that has been attacking your people for the last 2 years.\n\nAfter most levels the Bionic Commando will recieve items. Often these items are required to successfully complete other levels. Additionally, each level will require a different colored communicator in order to make sense of message traffic",
+    "desc": "你扮演一名士兵，擁有可伸縮的仿生手臂。你的手臂可以讓你抓住固定的物體來擺動和攀爬——不允許跳躍！手臂還會抓住對手並將他們拉向您。\n\n你的任務是潛入敵人的堡壘，找到你失踪的戰友“超級喬”，並消滅過去兩年來一直攻擊你的人民的入侵部隊的邪惡領袖“基爾特大元帥”。\n\n在大多數級別後，仿生突擊隊將收到物品。通常需要這些項目才能成功完成其他級別。此外，每個級別都需要不同顏色的通信器，以便理解消息流量",
+    "desc_source": "api"
+  },
+  "Rolan's Curse II (USA)": {
+    "key": "Rolan's Curse II (USA)",
+    "original_name": "Rolan's Curse 2",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "King Barius is back for revenge! From the flaming depths of evil, he returns, bringing forth legions of monsters more vicious than anything the world has ever known!\n\nGather your wits and grab your sword! Team up with a band of worthy companions to search for treasure and magic. Then prepare yourself for a savage battle against the dreaded monarch of evil!\n- Control up to 4 characters.\n- Battery back-up feature lets you save your game anytime.\n- Amazing Auto-Map feature will keep you from getting lost.\n- Collect the fabled Fairy Wings and teleport anywhere in the game!!",
+    "desc": "巴里烏斯國王回來報仇了！他從邪惡的火焰深處歸來，帶來了比世界上任何事物都更加邪惡的怪物軍團！\n\n聚集你的智慧，拿起你的劍！與一群值得尊敬的伙伴合作尋找寶藏和魔法。然後準備好與可怕的邪惡君主進行一場野蠻的戰鬥吧！\n- 最多控制 4 個角色。\n- 電池備份功能可讓您隨時保存遊戲。\n- 驚人的自動地圖功能將讓您不會迷路。\n- 收集傳說中的仙女之翼並傳送到遊戲中的任何地方！",
+    "desc_source": "api"
+  },
+  "Ghostbusters II (USA, Europe)": {
+    "key": "Ghostbusters II (USA, Europe)",
+    "original_name": "Ghostbusters II",
+    "name": "魔鬼剋星2",
+    "name_source": "wiki",
+    "original_desc": "Loosely based on the movie of the same name, Ghostbusters II sees Virgo the Carpathian appear in New York city. He captures Diana's baby and it is up to the Ghostbusters to get him back. In order to accomplish this, the Ghostbusters: Igon, Ray, Peter and Winston, must chase Virgo through the courtrooms, the sewers, the apartments, the underground and the art museum.\n\nGhostbusters II is a top-view action game based off of New Ghostbusters II (the second Ghostbusters II license on NES) but with enough differences to be unique. Players begin by choosing two of the four ghostbusters, who all play the exact same. The first one selected is controlled by the player directly and carries a proton pack, the second ghostbuster is follows the first and carries the ghost trap. The objective of each level is to capture a predefined number of ghosts before the timer expires. The player moves up, down, left and right. One button will fire the proton gun directly in front of the first ghostbuster, stunning any ghosts. The second button will toss the trap directly in front of the second ghostbuster, trapping any stunned ghosts. While exploring the levels, any of the 2 remaining ghostbusters (as well as the ghostbusters' accountant Louis) not currently being used will occasionally show up. Touching them will provide power-ups (and often swap with a selected Ghostbuster) including vacuum guns, instant traps and invulnerability.",
+    "desc": "大致改編自同名電影，《捉鬼敢死隊 II》中，喀爾巴阡山處女座出現在紐約市。他抓住了戴安娜的孩子，捉鬼敢死隊必須把他救回來。為了實現這一目標，捉鬼敢死隊：伊貢、雷、彼得和溫斯頓必須在法庭、下水道、公寓、地下和藝術博物館中追逐處女座。\n\n《捉鬼敢死隊 II》是一款基於《新捉鬼敢死隊 II》（NES 上的第二個《捉鬼敢死隊 II》許可）的俯視角動作遊戲，但有足夠的差異使其獨一無二。玩家首先從四個捉鬼敢死隊中選擇兩個，他們的玩法都完全相同。選擇的第一個由玩家直接控制並攜帶質子包，第二個捉鬼敢死隊跟隨第一個並攜帶幽靈陷阱。每個級別的目標是在計時器到期之前捕獲預定數量的幽靈。玩家向上、向下、向左、向右移動。按一下按鈕即可在第一個捉鬼敢死隊的正前方發射質子槍，擊暈任何鬼魂。第二個按鈕會將陷阱直接扔到第二個捉鬼敢死隊前面，困住任何被擊暈的鬼魂。在探索關卡時，當前未使用的剩餘 2 個捉鬼敢死隊（以及捉鬼敢死隊的會計師路易斯）中的任何一個都會偶爾出現。觸摸它們將提供能量提升（並且通常與選定的捉鬼敢死隊交換），包括真空槍、即時陷阱和刀槍不入。",
+    "desc_source": "api"
+  },
+  "Booby Boys (Japan) (Translated)": {
+    "key": "Booby Boys (Japan) (Translated)",
+    "original_name": "Booby Boys",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Gameplay in Booby Boys is very simple. The goal of the level is to collect all of the sparkling chests. In doing so, a key will appear, which you can bring to a door in the level to go to the next one. There are ten levels in each world, and you freely choose to do each world in any order you want.\n\nThe main impediment to this process -- other than the clock, which kills you if time runs out -- are the enemies. You can press the B Button to dig a hole and trap enemies within when they walk in. (Holes can also kill you on higher difficulties.) If you want to close a hole, press B while facing it; if an enemy is within, they'll die and you'll gain points. (They will be replaced with a tombstone, which cannot have a hole dug on it anymore.) You'll also possibly gain some items.",
+    "desc": "Booby Boys 的遊戲玩法非常簡單。該關卡的目標是收集所有閃閃發光的箱子。這樣做時，會出現一把鑰匙，您可以將其帶到關卡中的一扇門以進入下一個關卡。每個世界有十個級別，你可以自由選擇以任何你想要的順序完成每個世界。\n\n這個過程的主要障礙——除了時鐘之外，如果時間用完，時鐘就會殺死你——是敵人。你可以按 B 按鈕挖一個洞，當敵人走進來時將他們困在裡面。 （在更高的難度下，洞也會殺死你。）如果你想關閉一個洞，面對它時按 B ；如果敵人在裡面，他們就會死，你就會獲得積分。（它們將被墓碑取代，墓碑上不能再挖洞了。）你還可能獲得一些物品。",
+    "desc_source": "api"
+  },
+  "Magic Knight Rayearth (Japan) (SGB Enhanced) (Translated)": {
+    "key": "Magic Knight Rayearth (Japan) (SGB Enhanced) (Translated)",
+    "original_name": "Magic Knight Rayearth",
+    "name": "小玉理惠子",
+    "name_source": "wiki",
+    "original_desc": "It is an action role-playing video game based on the anime series of the same title.",
+    "desc": "Dreamcast（日語：ドリームキャスト，簡稱為DC）是日本電子遊戲商SEGA於1998年11月27日在日本、1999年9月9日在北美、1999年10月14日在歐洲發行的家用遊戲機，為第六世代電子遊戲機中第一部推出的主機，也是SEGA開發的最後一部家用遊戲機。主要競爭對手包括索尼的PlayStation 2、任天堂的任天堂GameCube及微軟的Xbox。\n與前代主機SEGA土星不同，Dreamcast採用了日立的SH-4中央處理器（CPU）及VideoLogic/日本電氣的PowerVR2圖形處理器（GPU）等現成組件取代客製化組件，藉以降低成本。儘管Dreamcast在北美地區發售初期頗有斬獲，但在索尼力推其PlayStation 2之後，Dreamcast主機銷量便逐漸滑落；在銷量長期低迷的情況下，SEGA的財務損失持續擴大。在改組領導層之後，SEGA最終在2001年1月31日宣布於3月底終止Dreamcast硬體製造及開發、全面退出家用遊戲機硬體市場，並改組為純第三方遊戲開發商。Dreamcast在其生命週期中銷量僅有約1000萬部，是SEGA最重大的商業失敗之一。\n雖然Dreamcast的生命週期不長、第三方遊戲有限，但輿論普遍認為Dreamcast是一部超前時代的主機。Dreamcast擁有《瘋狂計程車》、《Jet Set Radio》和《莎木》系列等創意十足的獨占遊戲，以及一些來自SEGA自有大型電玩系統NAOMI的高品質移植作品。Dreamcast也是第一部內建撥接網路並提供原生網路遊戲的家用遊戲機。",
+    "desc_source": "wiki"
+  },
+  "Mega Man II (USA)": {
+    "key": "Mega Man II (USA)",
+    "original_name": "Mega Man II",
+    "name": "2025年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "Dr. Wily has broken into the Chronos Institute and stolen a machine called Time Skimmer. According to Dr. Light's calculations, he has used the machine to travel roughly 37,426 years into the future. This can mean nothing good and so Mega Man, along with his dog Rush, sets out to find out more about Dr. Wily's plans.\n\nMega Man II follows the same formula as its predecessors, meaning the player has to complete a number of side-scrolling, platforming levels that are guarded by different bosses. Mega Man can only shoot left or right, but defeating a boss rewards him with a new weapon. Sometimes he will also find upgrades for Rush, which enable him to use Rush as a trampoline, a submarine or a jet.\n\nWhile Mega Man II is not a conversion, the first four stages look and play very similar to some levels of Mega Man 2 for the NES. Likewise, levels five to eight resemble some levels of Mega Man 3. The bosses of the first eight stages are also old familiars from Mega Man 2 and 3.",
+    "desc": "威利博士闖入了時空研究所並偷走了一台名為“時間撇取器”的機器。根據萊特博士的計算，他已經利用這台機器旅行到了大約 37,426 年的未來。這可能沒有什麼好處，因此洛克人和他的狗拉什開始尋找有關威利博士計劃的更多信息。\n\n《洛克人 II》遵循與其前作相同的公式，這意味著玩家必須完成許多由不同 Boss 守護的橫向捲軸、平台跳躍關卡。洛克人只能向左或向右射擊，但擊敗老闆會獎勵他一件新武器。有時他還會發現 Rush 的升級版本，使他能夠將 Rush 用作蹦床、潛艇或噴氣式飛機。\n\n雖然《洛克人 II》不是一個轉換版，但前四個階段的外觀和玩法與 NES 版《洛克人 2》的某些關卡非常相似。同樣，第 5 至第 8 關類似於《洛克人 3》中的某些關卡。前 8 個關卡的 Boss 也是《洛克人 2》和《洛克人 3》中的老熟人。",
+    "desc_source": "api"
+  },
+  "Mickey's Dangerous Chase (USA)": {
+    "key": "Mickey's Dangerous Chase (USA)",
+    "original_name": "Mickey's Dangerous Chase",
+    "name": "Now Production",
+    "name_source": "wiki",
+    "original_desc": "In Mickey's Dangerous Chase the player takes control of either Mickey or Minnie Mouse.  While on his way to deliver a very special gift to his girlfriend Minnie, Mickey is jumped by Pete who steals the present and takes off and it is up to the mouse duo to stop Pete and get back the present.\n\nThe gameplay is a side-scroller, where players pick up boxes to throw at enemies as well as discover power-ups that include short bursts of invincibility, extra lives and energy boosts that will help the player in their quest.  There are five different levels to play in including a lake, a mountain top, a forest and a shopping center and numerous enemies to avoid such as spiders, flying squirrels and even snowballs.",
+    "desc": "在米奇的危險追逐中，玩家控制米奇或米妮。米奇在給女友米妮送一份非常特別的禮物的路上，被皮特襲擊了，皮特偷走了禮物並起飛，老鼠二人組必須阻止皮特並拿回禮物。\n\n遊戲玩法是橫向捲軸遊戲，玩家拿起盒子扔向敵人，並發現能量提升，包括短暫的無敵爆發、額外的生命和能量提升，這將有助於玩家完成任務。有五個不同的關卡可供遊玩，包括湖泊、山頂、森林和購物中心，還有許多需要躲避的敵人，如蜘蛛、飛鼠，甚至雪球。",
+    "desc_source": "api"
+  },
+  "Chalvo 55 - Super Puzzle Action (Japan) (Translated)": {
+    "key": "Chalvo 55 - Super Puzzle Action (Japan) (Translated)",
+    "original_name": "Chalvo 55 : Super Puzzle Action",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Jump and bounce through devilishly designed levels to collect the crystals needed to defeat the bosses in this sequel to the unreleased Virtual Boy game Bound High",
+    "desc": "在未發布的 Virtual Boy 遊戲 Bound High 的續集中，跳躍和彈跳穿過設計邪惡的關卡，收集擊敗 Boss 所需的水晶",
+    "desc_source": "api"
+  },
+  "Q Billion (USA)": {
+    "key": "Q Billion (USA)",
+    "original_name": "Q Billion",
+    "name": "俠盜獵車手V",
+    "name_source": "wiki",
+    "original_desc": "In Q Billion, you play a mouse which must level out a playfield filled with stacks of tiles. To do this, the mouse must climb onto one stack and push a taller, neighbouring stack so that tiles fall off, until there are no tiles stacked on top of each other. Oftentimes, there stacks are not adjacent to each other, which forces the mouse to push a tile next to the stack in order to have something to stand on. Since the mouse is so weak, it can only move a single tile. This calls for a lot of juggling, since in order to move a stack of three tiles (represented by a 3 in a square), it must move a single tile next to a stack of two tiles, then move another tile to the other side of the small stack and push the uppermost tile of the stack onto the single tile in order to create a stack of two next to the stack of three. If there is a distance greater than one or two squares between the stacks, it makes the task daunting and requires a lot of planning, which puts this game straight into the old style of Japanese puzzles pioneered by Sokoban.\n\nLater stages introduce tiles of different kinds, symbolised by hearts, squares or stars. These tiles will, when moved together in groups of four, be eliminated; or at least the uppermost layer will. This calls for three-dimensional ? or even four-dimensional ? thinking on behalf of the player. None of the special tiles must be left on the screen for the stage to be cleared.\n\nA second gaming mode contains ready-made puzzles which must be solved in a limited amount of time. An editing mode will also allow the player to create levels of his own.",
+    "desc": "在《Q Billion》中，你扮演一隻老鼠，它必須平整一個充滿瓷磚的遊戲場地。要做到這一點，老鼠必須爬上一堆並推動更高的相鄰一堆，以使瓷磚掉落，直到沒有瓷磚相互堆疊。通常，這些堆棧彼此不相鄰，這迫使鼠標推動堆棧旁邊的圖塊以便有東西可以站立。由於鼠標的力量很弱，它只能移動一個方塊。這需要大量的雜技，因為為了移動一疊三塊瓷磚（由正方形中的 3 表示），它必須移動一疊兩塊瓷磚旁邊的單個瓷磚，然後將另一個瓷磚移動到小堆的另一側，並將該堆最上面的瓷磚推到單個瓷磚上，以便在三塊瓷磚旁邊創建兩塊瓷磚。如果堆疊之間的距離大於一兩個方格，則任務會變得艱鉅並且需要大量計劃，這使該遊戲直接陷入了推箱子開創的日本謎題的舊風格。\n\n後來的階段引入了不同種類的瓷磚，以心形、正方形或星星為像徵。當這些瓷磚以四塊為一組移動到一起時，它們就會被消除；或者至少最上層會。這需要三維？甚至四維？代表玩家思考。屏幕上不得留下任何特殊圖塊才能清除舞台。\n\n第二種遊戲模式包含現成的謎題，必須在有限的時間內解決。編輯模式還允許玩家創建自己的關卡。",
+    "desc_source": "api"
+  },
+  "Tetris Attack (USA, Europe) (Rev 1) (SGB Enhanced)": {
+    "key": "Tetris Attack (USA, Europe) (Rev 1) (SGB Enhanced)",
+    "original_name": "Tetris Attack",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "All is not well on Yoshi's Island! The devious king Bowser has cast a spell on the island's inhabitants, turning them into his mindless slaves. Only Yoshi has escaped its effects, and so he must set off to free his friends, and to defeat Bowser and break the spell.\n\nTetris Attack is a fact-paced action puzzler featuring the colorful cast of characters from Yoshi's Island. A stack of blocks continually rises from the bottom of the screen, and the player controls a cursor which can swap any two blocks horizontally. Make a row or column of three or more and they'll clear, potentially creating combos from new blocks falling to take their place. Combos will send large garbage blocks to your opponent, which must be eliminated by clearing a piece that is touching it, turning it into normal blocks.\n\nThe game offers a story mode against the computer, as well as a 2-player versus mode, an endless mode, a timed mode where a certain number of blocks must be cleared, and a puzzle mode where a set arrangement of blocks must be cleared in a specific number of moves. The game is based on the Japan-only title Panel de Pon.",
+    "desc": "耀西島上的一切都不太好！狡猾的國王鮑澤對島上的居民施了咒語，將他們變成了他的無意識的奴隸。只有耀西逃脫了它的影響，因此他必須出發去釋放他的朋友，並擊敗鮑澤並打破咒語。\n\n《Tetris Attack》是一款事實節奏的動作益智遊戲，以來自耀西島的豐富多彩的角色為特色。一堆方塊不斷從屏幕底部升起，玩家控制一個光標，可以水平交換任意兩個方塊。製作一行或一列三個或更多的方塊，它們就會被清除，並有可能從掉落的新方塊中創造出組合來取代它們。連擊會向你的對手發送大量垃圾塊，必須通過清除接觸它的棋子，將其變成正常塊來消除它們。\n\n該遊戲提供了與電腦對抗的故事模式、2 人對戰模式、無盡模式、必須清除一定數量的方塊的計時模式以及必須在特定的移動次數中清除一組方塊的謎題模式。該遊戲基於僅限日本的遊戲《Panel de Pon》。",
+    "desc_source": "api"
+  },
+  "Boxxle II (USA, Europe)": {
+    "key": "Boxxle II (USA, Europe)",
+    "original_name": "Boxxle II",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "A Challenging Follow-Up to the Original BOXXLE Game\n\nBOXXLE II is a challenging, brain-teasing puzzle game based on moving creates around a warehouse. Time has passed since Willy met Wanda in the original BOXXLE storyline. Willy is hard at work in the warehouse when an alien abducts Wanda! How can he save her? He must build his own spaceship! Each time you help Willy move boxes into their proper spaces and clean up one level, he is able to buy parts for his rocket. But manual labor won't save the day. You'll need brain power, too, to beat BOXXLE II! There are over 120 different maze-like screens to keep you concentrating. BOXXLE II will \"boxxle\" your mind all over again.\n\n- Enlarge or reduce any screen for a better look\n- Three choices of theme music\n- Build your own puzzles with three edit screens\n- Special instant reply mode lets you retrace your mistakes\n- Save wth password memory features\n- Over 120 different maze-like screens",
+    "desc": "原版 BOXXLE 遊戲的挑戰性後續作品\n\nBOXXLE II 是一款具有挑戰性、燒腦力的益智遊戲，其基礎是在倉庫中移動物品。自從威利在最初的 BOXXLE 故事情節中遇見旺達以來，時間已經過去了。威利正在倉庫里辛勤工作，旺達卻被外星人綁架了！他要怎樣才能救她？他必須建造自己的宇宙飛船！每次你幫助威利將箱子移到適當的空間並清理一層時，他就可以為他的火箭購買零件。但體力勞動並不能挽救局面。您還需要腦力來擊敗 BOXXLE II！有超過 120 個不同的迷宮式屏幕讓您集中註意力。BOXXLE II 將再次“震撼”您的思維。\n\n- 放大或縮小任何屏幕以獲得更好的外觀\n- 三種主題音樂選擇\n- 使用三個編輯屏幕構建您自己的謎題\n- 特殊即時回复模式，讓你追查錯誤\n- 具有密碼記憶功能保存\n- 超過 120 個不同的迷宮般的屏幕",
+    "desc_source": "api"
+  },
+  "Balloon Kid (USA, Europe)": {
+    "key": "Balloon Kid (USA, Europe)",
+    "original_name": "Balloon Kid",
+    "name": "田中宏和",
+    "name_source": "wiki",
+    "original_desc": "Balloon Kid is a unique side-scrolling platform game. You control a little girl who's brother has floated away on a big bunch of balloons. It's up to you to chase after him through 8 treacherous levels.  Instead of the usual jumping from platform to platform, you have a pair of balloons that allow you to float through the level. You must control your height carefully by tapping the 'A' button. Meanwhile, the screen is always scrolling to the left, and you have to keep up.\n\nIn addition to the single player adventure, there is a 2-player mode that allows you to compete against a friend via the Game Boy link cable.  In this mode you try to get your opponent to maneuver their balloon kid into the various level hazards.",
+    "desc": "氣球小子是一款獨特的橫向捲軸平台遊戲。你控制一個小女孩，她的哥哥乘著一大堆氣球飄走了。你需要通過 8 個危險的關卡來追趕他。與通常從一個平台跳到另一個平台不同，你有一對氣球，可以讓你漂浮在水平面上。您必須通過點擊“A”按鈕仔細控制您的高度。與此同時，屏幕總是向左滾動，你必須跟上。\n\n除了單人冒險之外，還有 2 人遊戲模式，可讓您通過 Game Boy 連接線與朋友競爭。在這種模式下，你試圖讓你的對手操縱他們的氣球孩子進入不同級別的危險。",
+    "desc_source": "api"
+  },
+  "Mickey Mouse - Magic Wands! (USA, Europe) (SGB Enhanced)": {
+    "key": "Mickey Mouse - Magic Wands! (USA, Europe) (SGB Enhanced)",
+    "original_name": "Mickey Mouse : Magic Wands!",
+    "name": "畅销Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "One day, Mickey and his friends went for a walk in a forest. They became so distracted by all the natural beauty surrounding them, they got lost. Pretty soon, they discovered a haunted castle. \"That's the witch Yashja's castle,\" they told each other. \"Once you enter, you can never escape! The castle is full of tricks and traps and even magic wands to create ice and fire. Let's not get any closer!\"\n\nAll this chatter aroused Yashja from her slumber. \"So! Who dares disturb my sleep?\" she yelled. \"You all shall pay!\" Suddenly, a gaping hole opened up under Mickey's friends and they all fell in. Now Mickey has to save his friends, who are now being held captive by the witch!\n\nTo save his friends, Mickey has to collect puzzle pieces that completes images of his Disney friends, including Minnie Mouse, Donald Duck, Goofy and even obscure characters like Grandma Duck from the comic book series. To do this, Mickey has to wave his wand over crystals which conceal not only pieces of the image, but also items and even an occasional enemy. Each big level has ten small stages, each with at least one image to complete. Each tenth stage has an end boss to defeat. Also, the image to complete in the tenth stage of each level reveals the Disney character being held captive by the end boss of that level.",
+    "desc": "有一天，米奇和他的朋友們去森林裡散步。他們被周圍的自然美景弄得心煩意亂，以至於迷路了。很快，他們就發現了一座鬧鬼的城堡。“那是女巫亞甚賈的城堡，”他們互相告訴對方。“一旦進入，就永遠無法逃脫！城堡裡充滿了詭計和陷阱，甚至還有能夠製造冰火的魔杖，我們不要再靠近了！”\n\n所有這些喋喋不休的談話把亞甚佳從睡夢中驚醒。“所以！誰敢打擾我睡覺？”她喊道。“你們都要付出代價！”突然，米奇的朋友們腳下出現了一個大洞，他們都掉進去了。現在米奇必須拯救他的朋友們，他們現在被女巫囚禁了！\n\n為了拯救他的朋友，米奇必須收集拼圖來完成他的迪士尼朋友的形象，包括米妮老鼠、唐老鴨、高飛，甚至漫畫系列中的鴨奶奶等不起眼的角色。要做到這一點，米奇必須在水晶上揮舞魔杖，水晶不僅隱藏圖像的碎片，還隱藏物品，甚至偶爾隱藏敵人。每個大關卡都有十個小階段，每個階段至少有一張圖像需要完成。每個第十階段都有一個最終老闆需要擊敗。此外，每個關卡第十階段完成的圖像顯示迪士尼角色被該關卡的最終首領俘虜。",
+    "desc_source": "api"
+  },
+  "Castlevania Legends (USA, Europe) (SGB Enhanced)": {
+    "key": "Castlevania Legends (USA, Europe) (SGB Enhanced)",
+    "original_name": "Castlevania Legends",
+    "name": "恶魔城系列",
+    "name_source": "wiki",
+    "original_desc": "Take a journey to the very beginning, when Dracula first rose up to terrorize the good people of Transylvania. None dared challenge him, and the people of the country lived in fear and terror - until a young girl rose up and decided to take matters into her own hands. That young girl was Sonia Belmont, the first in the line of the legendary Belmont clan.\n\nWhile Castlevania Legends plays similar to the earlier Castlevania titles (the protagonist is only armed with a whip and needs to fight her way through five stages plus a hidden stage), there are also some unique features. While it is impossible to roam the stages freely, quite often the player can choose to go one way or another and in doing so skip some areas or find valuable items, collecting all of which will unlock the best ending. Sonia also possesses special power called Burning mode: once in a level (and once per life) she can boost her speed and attack power and become invincible for a short period of time.",
+    "desc": "踏上旅程回到最初，德古拉第一次崛起並恐嚇特蘭西瓦尼亞的善良人民。沒有人敢挑戰他，這個國家的人民生活在恐懼和恐怖之中 - 直到一個年輕女孩站起來，決定將事情掌握在自己手中。那個少女就是索尼婭·貝爾蒙特，傳說中的貝爾蒙特家族的第一代傳人。\n\n雖然《惡魔城傳奇》的玩法與早期的《惡魔城》遊戲類似（主角僅手持鞭子，需要通過五個階段和一個隱藏階段來戰鬥），但也有一些獨特的功能。雖然不可能在舞台上自由漫遊，但玩家通常可以選擇走一條路或另一條路，這樣做可以跳過一些區域或找到有價值的物品，收集所有這些物品將解鎖最好的結局。索尼婭還擁有稱為燃燒模式的特殊能力：一旦進入一個關卡（並且每生命一次），她就可以提高她的速度和攻擊力，並在短時間內變得無敵。",
+    "desc_source": "api"
+  },
+  "Wario Land - Super Mario Land 3 (World)": {
+    "key": "Wario Land - Super Mario Land 3 (World)",
+    "original_name": "Wario Land : Super Mario Land 3",
+    "name": "马力欧系列游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Wario, Mario's greedy rival from Super Mario Land 2: 6 Golden Coins, is more determined than ever to get a castle after being booted out of Mario's. He has heard that the pirates of Kitchen Island have a golden Statue of Princess Toadstool that's worth a king's ransom! Wario figures that if he swipes the Princess' statue for himself, as well as all the other loot the pirates have hoarded, he'll have more than enough cash for a castle that's even bigger and better than Mario's!",
+    "desc": "瓦里奧是《超級馬里奧樂園 2：6 金幣》中馬里奧貪婪的對手，在被趕出馬里奧的城堡後，他比以往任何時候都更加堅定地想要獲得一座城堡。他聽說廚房島的海盜有一尊金黃色的傘菌公主雕像，價值不菲！瓦里奧認為，如果他為自己盜取公主的雕像，以及海盜們囤積的所有其他戰利品，他將有足夠的現金建造一座比馬里奧的城堡更大、更好的城堡！",
+    "desc_source": "api"
+  },
+  "Trip World (Europe)": {
+    "key": "Trip World (Europe)",
+    "original_name": "Trip World",
+    "name": "瑪利歐賽車世界",
+    "name_source": "wiki",
+    "original_desc": "Thanks to the Maita Flower, Trip World is at peace. It is being protected by an old Shabubu, a member of a race of bunny-like beings. The flower grows on the holy mountain known as Mount Dubious. However, one day the old Shabubu is attacked and the Maita Flower is stolen. Trip World becomes disarranged and its inhabitants don't stop quarreling with each other. But there is one hope in the form of the old Shabubu's grandson, Yacopu (also spelled Yakopoo).\n\nThe player controls Yacopu through five stages in this side-scrolling platformer. The young Shabubu's trademark ability is to shapeshift into different forms. In his normal form, he is able to walk and jump as well as to kick enemies, Yacopu's primary way of attacking. Unlike in many other platformers, many of the enemies don't harm you on contact and push your character around instead. However, certain foes might attack you after you damaged them, while others do so from the beginning.\n\nAt almost any time, the player can change to the flying or fish form. Flying Yacopu is able to reach places he wouldn't otherwise be able to, while the fishy hero is best suited for underwater areas. You also come across power-ups that temporarily give your character new powers, such as stunning enemies with seeds, bouncing around as a ball, or attacking with an extended tail. Beneath the mountain, settings in the game include a jungle, the ocean, and a castle. In each stages, you have to defeat a boss at the end. Eventually, you will encounter the one who stole the Maita Flower. The flower must be retrieved in order to save peace in Trip World.",
+    "desc": "多虧了麥塔花，旅行世界才得以平靜。它受到一位年長的沙布布（Shabubu）的保護，沙布布是一個類似兔子的生物種族的成員。這種花生長在被稱為可疑山的聖山上。然而有一天，老沙布布遭到襲擊，麥塔花被盜。旅行世界變得混亂，居民之間的爭吵不斷。但老Shabubu 的孫子Yacopu（也拼寫為Yakopoo）還有一個希望。\n\n在這款橫向捲軸平台遊戲中，玩家通過五個階段控制 Yacopu。年輕的 Shabubu 的標誌性能力是變形為不同的形態。在正常形態下，他能夠行走、跳躍以及踢敵人，這是雅科普的主要攻擊方式。與許多其他平台遊戲不同的是，許多敵人不會在接觸時傷害你，而是會推動你的角色。然而，某些敵人可能會在你傷害他們後攻擊你，而另一些敵人從一開始就會攻擊你。\n\n幾乎在任何時候，玩家都可以改變為飛行或魚的形態。飛行雅科普能夠到達他原本無法到達的地方，而魚腥英雄最適合水下區域。你還會遇到暫時賦予你的角色新力量的能力提升，例如用種子擊暈敵人、像球一樣彈跳或用延長的尾巴攻擊。遊戲中的山下場景包括叢林、海洋和城堡。在每個階段，你最終都必須擊敗老闆。最終，你會遇到偷走麥塔花的人。為了拯救旅行世界的和平，必須取回這朵花。",
+    "desc_source": "api"
+  },
+  "Donkey Kong (Japan, USA) (SGB Enhanced)": {
+    "key": "Donkey Kong (Japan, USA) (SGB Enhanced)",
+    "original_name": "Donkey Kong",
+    "name": "咚奇剛 蕉力全開",
+    "name_source": "wiki",
+    "original_desc": "Donkey Kong's adventures continue with new tricks and traps for Mario!\n\nDonkey Kong returns to Game Boy! This famous ape has kidnapped Pauline and climbed to the top of a perilous skyscraper. Challenged by many perils and unending puzzles, Mario must reach his arch rival. As he makes his way Mario will need to gather disappearing keys to unlock doors of hidden rooms. Donkey Kong devises evil tricks to confuse and trap him. Our heroic plumber has his hands full this time!\n\n- Classic arcade fun with 10 stages and 100 advanced puzzles\n- Thrilling new adventure elements for added excitement\n- 4 megabyte game contains a battery back-up",
+    "desc": "大金剛的冒險繼續為馬里奧帶來新的技巧和陷阱！\n\n大金剛回歸 Game Boy！這只著名的猩猩綁架了寶琳，並爬上了一座危險的摩天大樓的頂部。面對許多危險和無盡的謎題，馬里奧必須找到他的宿敵。馬里奧在前進的過程中需要收集消失的鑰匙來打開隱藏房間的門。大金剛設計出邪惡的詭計來迷惑和困住他。我們英雄的水管工這次忙得不可開交！\n\n- 經典街機樂趣，包含 10 個階段和 100 個高級謎題\n- 驚心動魄的新冒險元素，增添刺激感\n- 4兆字節遊戲包含備用電池",
+    "desc_source": "api"
+  },
+  "Battle Unit Zeoth (USA, Europe)": {
+    "key": "Battle Unit Zeoth (USA, Europe)",
+    "original_name": "Battle Unit Zeoth",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Battle Unit Zeoth is a 2D futuristic side-scrolling shooter. Humanity is in danger -  a race of alien robots known as the \"Grein\" invaded the Solar System. They lost and fled, but left behind an underground base with self-replicating Grein machines. Two years after the invasion aliens attack again. However, the humans have made a special mech, Zeoth, designed for combat.\n\nPlayer controls Zeoth who can move to the right and shoot enemies. The odd-numbered stages are horizontal scrolling stages and the even-numbered stages are a simple \"platform\" stages. Each stage ends in a boss fight. Zeoth can fly with a jetpack (but the player must tap a button to resist gravity) and can fire in four directions (right, left, down and up). The basic weapons can be improved. The mech can take some damage before being destroyed and has just one life, however, there are unlimited continues.",
+    "desc": "Battle Unit Zeoth 是一款 2D 未來橫向捲軸射擊遊戲。人類正處於危險之中——一個被稱為“Grein”的外星機器人種族入侵了太陽系。他們迷失了方向並逃跑了，但留下了一個擁有自我複制格林機器的地下基地。入侵兩年後，外星人再次發動攻擊。然而，人類製造了一種特殊的機甲，Zeoth，專為戰鬥而設計。\n\n玩家控制 Zeoth，它可以向右移動並射擊敵人。奇數編號的階段是水平滾動階段，偶數編號的階段是簡單的“平台”階段。每個階段都以 Boss 戰結束。Zeoth 可以攜帶噴氣背包飛行（但玩家必須點擊按鈕來抵抗重力），並且可以向​​四個方向（右、左、下、上）射擊。基礎武器可以改進。機甲在被摧毀之前可能會受到一些傷害，並且只有一次生命，但是，有無限的延續時間。",
+    "desc_source": "api"
+  },
+  "Super R.C. Pro-Am (USA, Europe)": {
+    "key": "Super R.C. Pro-Am (USA, Europe)",
+    "original_name": "Super R.C. Pro-Am",
+    "name": "喷神James节目列表",
+    "name_source": "wiki",
+    "original_desc": "Super R.C. Pro-Am is the Game Boy update to Rare's classic radio controlled car game.  4 computer or human racers attempt to get around the track as fast as possible while avoiding hazards like oil slicks and traffic cones.  There are also weapons that you can use to disable the other cars temporarily.\n\nThe goal of the game is to collect the letter icons found on the tracks that spell \"NINTENDO.\"  Collecting the letters allows you to move up to faster cars and eventually win the championship.",
+    "desc": "任天堂Switch Online（英語：Nintendo Switch Online）是任天堂於任天堂Switch和任天堂Switch 2推出的網路服務。從2018年9月19日開始正式營運，2021年10月26日推出「任天堂Switch Online＋擴充包」。\n玩家購買會員後可以使用任天堂提供的網路服務、並享有專屬會員服務與優惠，與Xbox Live和PlayStation Plus類似。",
+    "desc_source": "wiki"
+  },
+  "Final Fantasy Legend II (USA)": {
+    "key": "Final Fantasy Legend II (USA)",
+    "original_name": "Final Fantasy Legend II",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "The second in the Final Fantasy Legend series increases the amount of detail over the original in gameplay and graphics.\n\nThe major changes are in the character classes and party members. Similar to FFL, starting a game of Legends II allows you to choose your main character from Humans, Monsters, Mutants and a new class: Robots. From here, you build your party of 4 from the same character classes. During gameplay special side-characters will join you in battle to help defeat certain enemies. \n\nThe other improvement is in strategy. In FFL you gain experience points after each battle, increasing strength, etc. In FFLII, you gain different points and abilities depending on how you defeated the enemy. If you win by using a sword, your strength increases. If you use magic, your mana increases. This adds a more strategic approach to defeating enemies.",
+    "desc": "《最終幻想傳奇》系列的第二部在遊戲玩法和圖像方面比原作增加了更多細節。\n\n主要變化是角色類別和黨員。與 FFL 類似，開始 Legends II 遊戲時，您可以從人類、怪物、變種人和新類別：機器人中選擇主角。從這裡開始，您可以用相同的角色類別組建 4 人隊伍。在遊戲過程中，特殊的配角角色將加入你的戰鬥，幫助擊敗某些敵人。\n\n另一個改進是在策略上。在FFL中，你在每次戰鬥後獲得經驗值，增加力量等。在FFLII中，你根據擊敗敵人的方式獲得不同的點數和能力。如果你用劍獲勝，你的力量就會增強。如果你使用魔法，你的魔力就會增加。這增加了擊敗敵人的更具戰略性的方法。",
+    "desc_source": "api"
+  },
+  "Kung-Fu Master (USA, Europe)": {
+    "key": "Kung-Fu Master (USA, Europe)",
+    "original_name": "Kung-Fu Master",
+    "name": "世嘉Master System游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Loosely based on a movie, Kung-Fu Master is a side scrolling action game for one or two players, who alternate turns.\n\nMr. X has captured the pickpocket Sylvia and it is up to Thomas, a kung-fu master who owns a restaurant, to get her back. She is located on the top floor of Mr. X's castle and Thomas will need to fight his way to the top. Of course, this won't be easy as each floor has many opponents to get past and a floor boss at the end of each level. \n\nThomas is able to move left and right, jump, duck, and punch and kick. Enemy projectiles such as knives can be kicked in the air to rebound them towards the enemy. On the top floor resides Mr. X himself.",
+    "desc": "《功夫大師》大致改編自電影，是一款橫向捲軸動作遊戲，可供一到兩名玩家輪流玩。\n\nX 先生抓獲了扒手西爾維婭，擁有一家餐廳的功夫大師托馬斯必須將她救回來。她位於 X 先生城堡的頂層，托馬斯需要奮力到達頂層。當然，這並不容易，因為每個樓層都有很多對手需要克服，並且每個樓層的末尾都有一個樓層老闆。\n\n托馬斯能夠左右移動、跳躍、閃避、拳打腳踢。可以將敵人的射彈（例如刀子）踢到空中，將其反彈到敵人身上。X先生本人就住在頂樓。",
+    "desc_source": "api"
+  },
+  "Final Fantasy Legend III (USA)": {
+    "key": "Final Fantasy Legend III (USA)",
+    "original_name": "Final Fantasy Legend III",
+    "name": "最终幻想V",
+    "name_source": "wiki",
+    "original_desc": "The final (no joke) Final Fantasy Legend title to grace the Game Boy, FFLIII tells the story of a great flood which destroys cities in the past, present and future. \nAs you control a party of 4, with a choice of human and mutant classes, and travel back and forth through time collecting pieces of the great ship Talon so as to defeat the enemy that has flooded the lands.\n\nThe inclusion of a time travel storyline means that whatever you do in one time frame can have an affect on what happens in another time. Other major changes compared to the original 2 in the series are the ability to mutate your characters further and a change to the upgrade system.\nItems picked up after battle can be attached to your mutants or humans to turn them into monsters or robots, increasing your parties power and abilities.\nAnd although the original system of obtaning experience points after every battle has been removed, its replacement allows you to choose which magic stone each character can use, so they learn that specific magic type and never lose it.",
+    "desc": "《FFLIII》是 Game Boy 上的最後一款（不是開玩笑的）《最終幻想傳奇》遊戲，講述了一場摧毀過去、現在和未來城市的大洪水的故事。\n當你控制一個 4 人小隊，選擇人類和變種人類別時，在時間中來回旅行，收集大船 Talon 的碎片，以擊敗淹沒這片土地的敵人。\n\n包含時間旅行故事情節意味著您在一個時間範圍內所做的任何事情都會對另一時間發生的事情產生影響。與該系列中的原版 2 相比，其他主要變化是進一步變異角色的能力以及升級系統的更改。\n戰鬥後拾取的物品可以附加到你的變種人或人類身上，將他們變成怪物或機器人，增加你的隊伍的力量和能力。\n雖然每場戰鬥後獲得經驗值的原始系統已被刪除，但它的替代品允許您選擇每個角色可以使用哪種魔法石，因此他們可以學習特定的魔法類型並且永遠不會丟失它。",
+    "desc_source": "api"
+  },
+  "Skate or Die - Bad 'N Rad (USA)": {
+    "key": "Skate or Die - Bad 'N Rad (USA)",
+    "original_name": "Skate or Die : Bad 'N Rad",
+    "name": "喷神James节目列表",
+    "name_source": "wiki",
+    "original_desc": "Skate Or Die: Bad'N Rad is a Jump'N Run that consists of 7 levels, three of which are viewed from a top-down perspective. The side-scrolling levels play similar to other Jump'N Runs, as you have to avoid obstacles and kill enemies by jumping on them. However, since you are on a skateboard, speed plays an important role, meaning that you cannot immediately stop and sometimes need to drive at full speed to manage wider jumps. The top-down levels play more similar to other Skate Or Die games as gradients influence your driving while you are trying to avoid obstacles, enemies and deadly spikes.",
+    "desc": "Skate Or Die: Bad'N Rad 是一款 Jump'N Run 遊戲，共有 7 個關卡，其中三個關卡是從自上而下的角度觀看的。橫向捲軸關卡的玩法與其他 Jump'N Runs 類似，因為你必須避開障礙物並通過跳躍來殺死敵人。然而，由於您在滑板上，速度起著重要作用，這意味著您無法立即停止，有時需要全速行駛才能實現更寬的跳躍。自上而下的關卡與其他《Skate Or Die》遊戲更相似，因為當你試圖避開障礙物、敵人和致命的尖刺時，梯度會影響你的駕駛。",
+    "desc_source": "api"
+  },
+  "Kid Dracula (USA, Europe)": {
+    "key": "Kid Dracula (USA, Europe)",
+    "original_name": "Kid Dracula",
+    "name": "恶魔城系列",
+    "name_source": "wiki",
+    "original_desc": "Kid Dracula is a side-scroller and a parody of the Castlevania series. The difference is you play as a young vampire rather than a vampire killer.\n\nGameplay consists of very standard jump and shoot platform action.  As you progress through the 8 levels, you gain the ability to perform spells, like turning into a bat. You will also receive guidance from your pal, the Grim Reaper.",
+    "desc": "《德古拉小子》是一款橫向捲軸遊戲，是惡魔城系列的模仿作品。不同之處在於你扮演一個年輕的吸血鬼而不是吸血鬼殺手。\n\n遊戲玩法包括非常標準的跳躍和射擊平台動作。當您通過 8 個級別時，您將獲得執行咒語的能力，例如變成蝙蝠。您還將收到您的朋友死神的指導。",
+    "desc_source": "api"
+  },
+  "Montezuma's Return! (Europe) (En,Fr,De,Es,It)": {
+    "key": "Montezuma's Return! (Europe) (En,Fr,De,Es,It)",
+    "original_name": "Montezuma's Return!",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Max Montezuma is a soldier who also happens to be a descendant of a legendary Aztec emperor. One day Max's plane crashes on an uncharted, deserted island. Max discovers ancient ruins there and ventures to explore them, attempting to connect the mystery of the past with the events of the present.\n\nMontezuma's Return is a sequel to Montezuma's Revenge, and also focuses on platforming gameplay which includes puzzle-solving, avoiding obstacles, and fighting enemies. Unlike its predecessor, it is a first-person 3D game. The player is able to see the protagonist's feet when moving the camera, to facilitate precise platform jumping.\n\nEvery level ends with a boss battle, and each boss must be defeated in a specific way. Max can punch and kick enemies, and also use environmental hazards to damage them; pushing enemies into water or luring them into traps will kill them. Some areas require Max to jump on moving platforms, climb ropes, swim, avoid falling into lava or deadly spikes, etc. Max can collect treasure on each level, bananas or watermelon slices to heal himself, and special items to unlock barriers.\n\nThe full version of Montezuma's Revenge is included on the CD.",
+    "desc": "馬克斯·蒙特祖瑪是一名士兵，同時也是一位傳奇阿茲特克皇帝的後裔。有一天，麥克斯的飛機墜毀在一座未知的荒島上。麥克斯在那裡發現了古代遺跡，並冒險探索它們，試圖將過去的謎團與現在的事件聯繫起來。\n\n《蒙特祖瑪的歸來》是《蒙特祖瑪的複仇》的續作，同樣專注於平台遊戲，包括解謎、躲避障礙和與敵人戰鬥。與前作不同的是，它是一款第一人稱 3D 遊戲。玩家在移動鏡頭時能夠看到主角的腳，以方便精確的跳台。\n\n每個關卡都以Boss戰結束，每個Boss都必須以特定的方式擊敗。麥克斯可以拳打腳踢敵人，也可以利用環境危害來傷害他們；將敵人推入水中或引誘他們進入陷阱會殺死他們。有些區域需要麥克斯在移動平台上跳躍、攀爬繩索、游泳、避免落入熔岩或致命的尖刺等。麥克斯可以在每個關卡中收集寶藏、香蕉或西瓜片來治愈自己，以及解鎖障礙的特殊物品。\n\nCD 中包含完整版的《蒙特祖瑪的複仇》。",
+    "desc_source": "api"
+  },
+  "Harvest Moon GB (USA) (SGB Enhanced)": {
+    "key": "Harvest Moon GB (USA) (SGB Enhanced)",
+    "original_name": "Harvest Moon GB",
+    "name": "牧場物語系列",
+    "name_source": "wiki",
+    "original_desc": "Harvest Moon is a farming simulation where you must build and maintain a farm during the course of a year, while taking care of your budget and yourself. \n\nYou have the ability to buy, sell and take care of farm animals, crops and any other supplies that you may have. You can trade with many of the town's people, and fellow farmers. If you link up a friend's Game Boy, you can trade items between players as well.\n\nThe local stores supply plenty of items to help you in your quest, at a cost, of course. And if you have the time, you can go about the town in search of a little fun away from work.\n\nFrom an overhead perspective, you can explore your farming area, the local town and the Harvest Sprite tunnels, full of strange and wonderful creatures that can help or destroy your quest. There are four seasons (Summer, Autumn, Winter, Spring) and each brings with it new challenges such as keeping arm animals warm during the colder seasons, and supplying water to the crops during the warmer periods.\n\nThe GBC version includes all new characters and background sprites in full color, but is also backwards compatible with the original Game Boy version.",
+    "desc": "《Harvest Moon》是一款農業模擬遊戲，您必須在一年內建造和維護農場，同時照顧好您的預算和您自己。\n\n您有能力購買、出售和照顧農場動物、農作物以及您可能擁有的任何其他物資。您可以與鎮上的許多居民和農民同胞進行貿易。如果您連接朋友的 Game Boy，您也可以在玩家之間交易物品。\n\n當地商店提供大量物品來幫助您完成任務，當然需要付費。如果您有時間，您還可以到城裡去尋找工作之餘的一些樂趣。\n\n從俯視角度，你可以探索你的農業區、當地城鎮和收穫精靈隧道，裡面充滿了奇怪而奇妙的生物，它們可以幫助或破壞你的任務。有四個季節（夏季、秋季、冬季、春季），每個季節都會帶來新的挑戰，例如在寒冷的季節為手臂動物保暖，以及在溫暖的季節為農作物供水。\n\nGBC 版本包括所有新角色和全彩背景精靈，但也向後兼容原始 Game Boy 版本。",
+    "desc_source": "api"
+  },
+  "Wario Blast Featuring Bomberman! (USA, Europe) (SGB Enhanced)": {
+    "key": "Wario Blast Featuring Bomberman! (USA, Europe) (SGB Enhanced)",
+    "original_name": "Wario Blast : Featuring Bomberman!",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "OH, NO! Wario has stumbled upon the secret gateway into Bomberland! Now the greedy warmonger wants to claim the land, its inhabitants, and treasures as his own. Entering the underground labyrinth, he meets the resistance of the Madbombers - explosives experts who have some TNT tricks and surprises to toss at Wario. The battle heats up as Wario and Bomberman each try to outwit the other, level by level in a dynamite duel!",
+    "desc": "哦，不！瓦里奧偶然發現了通往轟炸機之地的秘密大門！現在，貪婪的戰爭販子想要將這片土地、其中的居民和財寶據為己有。進入地下迷宮後，他遇到了瘋狂炸彈人的抵抗，他們是炸藥專家，他們有一些 TNT 技巧和驚喜可以向瓦里奧投擲。瓦里奧和炸彈人都試圖在一場炸藥決鬥中逐級智胜對方，戰鬥愈演愈烈！",
+    "desc_source": "api"
+  },
+  "Yoshi's Cookie (USA, Europe)": {
+    "key": "Yoshi's Cookie (USA, Europe)",
+    "original_name": "Yoshi's Cookie",
+    "name": "马力欧系列游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Yoshi's Cookie is a fast-paced puzzle game. The player moves randomly placed cookies into rows and columns of cookies with similar patterns. When a row or column of the same cookies is successfully assembled, the line will disappear, and the player can begin to work on a new row or column. The \"Yoshi\" cookie is very special in both the 1-player and the 2-player game. Since this cookie is the key to both games, it should be used wisely.",
+    "desc": "耀西的餅乾是一款快節奏的益智遊戲。玩家將隨機放置的餅乾移動到具有相似圖案的行和列中。當成功組裝一行或一列相同的餅乾時，該線將消失，玩家可以開始處理新的行或列。“耀西”餅乾在 1 人遊戲和 2 人遊戲中都非常特別。由於此 cookie 是這兩款遊戲的關鍵，因此應明智地使用它。",
+    "desc_source": "api"
+  },
+  "Astro Rabby (Japan)": {
+    "key": "Astro Rabby (Japan)",
+    "original_name": "Astro Rabby",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Astro Rabby is a top-down platformer in which the player takes control over a rabbit which has to travel through a number of levels with forced scrolling. Unfortunately there are only so much usable platforms available, in the space levels even less, which have to hit by performing controlled jumps. The platforms come in three heights which are indicated by their size - the bigger, the higher. Landing on a platform creates a lot of force and either causes the block to crack and, if it has a question mark on it, gives a power up (extra time or points). \n\nThe levels loop until the player finds a heart hidden in the question mark blocks - but landing on a cracked platform causes it to give way. Of course there are also enemies which have to be avoided or shot with the gun. Those leave behind power ups which give additional ammo or improve the jumping height respectively speed.",
+    "desc": "Astro Rabby 是一款自上而下的平台遊戲，玩家控制一隻兔子，它必須通過強制滾動來穿越多個關卡。不幸的是，可用的平台非常有限，在太空層中則更少，必須通過執行受控跳躍來擊中。平台有三種高度，由其尺寸決定——越大，越高。降落在平台上會產生很大的力，要么導致方塊破裂，要么如果方塊上有問號，就會獲得力量（額外的時間或分數）。\n\n關卡循環進行，直到玩家找到一顆隱藏在問號方塊中的心 - 但降落在破裂的平台上會導致它讓路。當然，也有必須躲避或用槍射擊的敵人。那些留下的能量提升可以提供額外的彈藥或提高跳躍高度和速度。",
+    "desc_source": "api"
+  },
+  "Yoshi (USA)": {
+    "key": "Yoshi (USA)",
+    "original_name": "Yoshi",
+    "name": "TREASURE (組合)",
+    "name_source": "wiki",
+    "original_desc": "You have to help Mario cope with falling Goombas, Bloopers, Boo Buddies, and Piranha Plants.\n\n As they fall, catch them on trays. Switch and shuffle them to save the day. Stack two of a kind and they both disappear. Or capture a whole bunch between two eggshell halves. A different kind of Yoshi will appear depending on how many enemies are between the eggshell halves.\n\n There is a password feature to save your progress.",
+    "desc": "你必須幫助馬里奧應對掉落的 Goombas、Bloopers、Boo Buddies 和食人魚植物。\n\n當它們掉落時，將它們接在托盤上。切換並洗牌以挽救局面。堆疊兩個同類，然後它們都會消失。或者將整個蛋殼夾在兩個半蛋殼之間。根據蛋殼兩半之間有多少敵人，會出現不同類型的耀西。\n\n有密碼功能可以保存您的進度。",
+    "desc_source": "api"
+  },
+  "Legend of the River King GB (USA) (SGB Enhanced)": {
+    "key": "Legend of the River King GB (USA) (SGB Enhanced)",
+    "original_name": "Legend of the River King GB",
+    "name": "2022年电子游戏界",
+    "name_source": "wiki",
+    "original_desc": "This unique RPG provides a world of fishing as the prime objective.\n\nThere are two modes of play, The Fish and Raise.\n\nThe Fish: As a young boy, you must search out the fish called Guardian, the only fish in the river that can cure a disease caught by your sister, Teruyo. This mode combines RPG elements such as buying items, talking to the town's folk and searching the local river for the Guardian fish. The fishing element comes into play when you bait or lure fish at the river, in hopes to find a fish.\n\nRaise mode allows you to purchase a fish tank and the extras, and raise a small fish. Much like the many Pokémon type games, you can feed it, keep the tank clean and raise the fish.",
+    "desc": "這款獨特的角色扮演遊戲以釣魚世界為主要目標。\n\n有兩種遊戲模式：“魚”和“養”。\n\n魚：作為一個小男孩，你必須找到一條叫做守護者的魚，這是河裡唯一可以治愈你姐姐輝代染上的疾病的魚。該模式結合了 RPG 元素，例如購買物品、與小鎮居民交談以及在當地河流中尋找守護魚。當您在河邊用魚餌或引誘魚以希望找到魚時，釣魚元素就會發揮作用。\n\n飼養模式允許您購買魚缸和額外的東西，並飼養一條小魚。就像許多神奇寶貝類型的遊戲一樣，你可以餵牠，保持魚缸清潔並養魚。",
+    "desc_source": "api"
+  },
+  "Fortified Zone (USA, Europe)": {
+    "key": "Fortified Zone (USA, Europe)",
+    "original_name": "Fortified Zone",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "A male and a female commando named Masato & Mizuki are sent to the jungle on a mission to destroy an enemy base and everyone in it. Stealth is required, since brute force will only lead into their capture.\n\nYou are able to switch between the two characters at any time, something rarely seen in video games even today, twelve years after its release.",
+    "desc": "名為 Masato 和 Mizuki 的男女突擊隊員被派往叢林，執行摧毀敵方基地及其中所有人的任務。秘密行動是必要的，因為暴力只會導致他們被捕獲。\n\n你可以隨時在兩個角色之間切換，這在電子遊戲中很少見，即使在發布十二年後的今天也是如此。",
+    "desc_source": "api"
+  },
+  "Catrap (USA)": {
+    "key": "Catrap (USA)",
+    "original_name": "Catrap",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Banished to a mysterious underground labyrinth of complex mazes, two explorers are faced with one chance to reverse the curse: solve all 100 puzzles set out in mazes before them. \n\nBut watch it! Every maze has monsters patrolling the depths of the labyrinth. Help Catgirl and Catboy push around huge blocks to bridge a path to yet another maze, or topple a block a few stories over the pursuing monsters. If you make a mistake, simply use the rewind function and travel back in time to correct it. With 100 mazes in this labyrinth, it will be quite a challenge to get out of the curse's reach!\n\nCatrap is more than just a game of mindbending intrigue and action. Be the architect of the underground labyrinth and make your own games of intricate puzzles.\n\nWhether you choose to be a maze builder or a maze solver, we know you can help Catboy and Catgirl land on their feet.\n\nCatrap (known as Pitman in Japan) is a puzzle game in which the player maneuvers the player, an anthropomorphic cat, to navigate a room while clearing obstacles and kicking monsters and ghosts off the screen. Once the player has knocked all of the enemies off the screen, he advances to the next level. Advancement can prove difficult for the player as increasingly intricate obstacles are presented to overcome all of the monsters and ghosts. Arguably, the easiest route to solve the problem is through trial and error. A player may try one combination of maneuvers by moving the obstacle in one direction, then he may find himself trapped. The player can hit the 'A'-button to reverse his movements and try again in a different way until he finds the solution that enables him to access all of the baddies to knock them off the screen. Trial and error seems to make up a large portion of the game. Players can also create their own mazes. The game is credited with having originated the time-rewind mechanic.",
+    "desc": "兩名探險家被放逐到一個充滿複雜迷宮的神秘地下迷宮，他們面臨著一個扭轉詛咒的機會：解決他們面前迷宮中的所有 100 個謎題。\n\n但請注意！每個迷宮都有怪物在迷宮深處巡邏。幫助貓女和貓小子推過巨大的石塊，架起通往另一個迷宮的道路，或者推倒幾層樓高的石塊，壓倒追趕的怪物。如果您犯了錯誤，只需使用倒帶功能即可及時返回以糾正錯誤。這個迷宮有100個迷宮，要擺脫詛咒的魔掌將是一個不小的挑戰！\n\nCatrap 不僅僅是一款令人費解的陰謀和動作遊戲。成為地下迷宮的建築師，製作你自己的複雜謎題遊戲。\n\n無論您選擇成為迷宮建造者還是迷宮解謎者，我們都知道您可以幫助貓男孩和貓女孩站起來。\n\nCatrap（在日本稱為 Pitman）是一款益智遊戲，玩家操縱擬人化的貓在房間中導航，同時清除障礙並將怪物和鬼魂踢出屏幕。一旦玩家將屏幕上的所有敵人擊倒，他就會進入下一關。隨著克服所有怪物和幽靈的障礙越來越複雜，玩家的進步可能會變得困難。可以說，解決問題最簡單的途徑是通過反複試驗。玩家可以通過向一個方向移動障礙物來嘗試一種策略組合，然後他可能會發現自己被困住了。玩家可以點擊“A”按鈕來反轉他的動作，並以不同的方式重試，直到找到解決方案，使他能夠訪問所有壞人，將他們從屏幕上擊落。嘗試和錯誤似乎構成了遊戲的很大一部分。玩家還可以創建自己的迷宮。該遊戲被譽為首創了時間倒帶機制。",
+    "desc_source": "api"
+  },
+  "Boxxle (USA, Europe) (Rev 1)": {
+    "key": "Boxxle (USA, Europe) (Rev 1)",
+    "original_name": "Boxxle",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Just like in Soko-Ban, it is your goal to push a number of crates onto certain spots in order to finish a level. \n\nFinding the right way to move all the crates on the right spots becomes increasingly difficult and you have to plan numerous steps in advance in order not to block your own way. \n\nThe game features over 25 levels with 10 sub-levels each one. You can always choose the order in which you want to complete the sub-levels, but you have to complete all sub-levels in order to advance to the next main-level. \n\nIf you have finished the game or become hopelessly stuck, there is also an option to create your own levels.",
+    "desc": "就像在 Soko-Ban 中一樣，您的目標是將多個板條箱推到特定位置以完成關卡。\n\n找到正確的方法將所有板條箱移動到正確的位置變得越來越困難，你必須提前計劃許多步驟，以免擋住自己的路。\n\n該遊戲有超過 25 個關卡，每個關卡有 10 個子關卡。您始終可以選擇完成子級別的順序，但您必須完成所有子級別才能進入下一個主級別。\n\n如果您已完成遊戲或陷入困境，還可以選擇創建自己的關卡。",
+    "desc_source": "api"
+  },
+  "Cave Noire (Japan) (Translated)": {
+    "key": "Cave Noire (Japan) (Translated)",
+    "original_name": "Cave Noire",
+    "name": "傳送門2",
+    "name_source": "wiki",
+    "original_desc": "Cave Noire is a roguelike. The game evolves around four quests (killing monsters, freeing fairies or collecting gold/orbs) with ten difficulties each. The difficulty determines how big the target number is, the stats the player starts with and what monsters are encountered. Starting a quest creates a randomly generated dungeon where the player has one chance to reach the goal - death means a new dungeon has to be created. Beating a difficultly level unlocks the next; this is also the one thing the game saves.\n\nThe dungeons itself are shown from a top-down perspective and feature the hero, walls, floor tiles, monsters and items to collect. Movement is turn-based and each turn is divided into four phases (player movement, player attack, monster attack and finally monster movement). Attacks are only possible when the two participants stand besides each other and the computer simply calculates the result from the statistics (attack, defense, luck and a a random component) which then lowers the health points of the attacked hero/monster. Of course reaching a health of zero means defeat. The mentioned statistics can be improved by finding and using certain items like weapons or armor. Potions, spells and rings which have additional effects when used/equipped, e.g. health refreshments, healing poison, dealing much damage or invisibility.\n\nImportant to note is that the environment also plays an important part in the quest. The walls and tiles may have special effects when touched, examples are pits (the player/monster falls to the next level of the dungeon and takes damage), breakable walls, lava or teleporters. Some rooms may be covered in fog which obscure the floor tiles until the hero walks onto it (monsters still can be made out). There is a specific kind of monster which clears the whole room when killed - but at the same time another one has the exact opposite effect.",
+    "desc": "Cave Noire 是一款 Roguelike 遊戲。遊戲圍繞四個任務（殺死怪物、釋放仙女或收集黃金/寶珠）展開，每個任務有十個難度。難度決定了目標數量有多大、玩家開始時的屬性以及遇到的怪物。開始任務會創建一個隨機生成的地牢，玩家有一次機會達到目標 - 死亡意味著必須創建一個新的地牢。突破一個難度級別即可解鎖下一個難度級別；這也是遊戲保存的一件事。\n\n地下城本身是從自上而下的角度展示的，以英雄、牆壁、地磚、怪物和要收集的物品為特色。移動是回合製的，每個回合分為四個階段（玩家移動、玩家攻擊、怪物攻擊和最後怪物移動）。只有當兩個參與者並排站立並且計算機簡單地計算統計結果（攻擊、防禦、運氣和隨機成分）時，攻擊才有可能，然後降低被攻擊英雄/怪物的生命值。當然，生命值達到零就意味著失敗。可以通過查找和使用某些物品（例如武器或盔甲）來改進上述統計數據。使用/裝備時具有附加效果的藥水、咒語和戒指，例如健康茶點、治療毒物、造成大量傷害或隱身。\n\n值得注意的是，環境在任務中也起著重要作用。牆壁和瓷磚在觸摸時可能會產生特殊效果，例如坑（玩家/怪物掉落到地牢的下一層並受到傷害）、易碎牆壁、熔岩或傳送器。有些房間可能被霧覆蓋，遮住地磚，直到英雄走上它（仍然可以辨認出怪物）。有一種特定類型的怪物被殺死後會清理整個房間 - 但同時另一種怪物具有完全相反的效果。",
+    "desc_source": "api"
+  },
+  "Ninja Gaiden Shadow (USA)": {
+    "key": "Ninja Gaiden Shadow (USA)",
+    "original_name": "Ninja Gaiden Shadow",
+    "name": "Greatest Hits",
+    "name_source": "wiki",
+    "original_desc": "Ninja Gaiden Shadow is a prequel to Ninja Gaiden. It is 1985, 3 years before the events of the NES game, and Jaquio has not yet been awakened. However, Emperor Garuda, an evil dictator, threatens New York city and it is up to the Ryu Hayabusa to fight him.\n\nThis game is an action side-scroller. Ryu can run, jump and beat his enemies using a sword. He also has a grappling-hook device, which can be used to reach higher platforms, which can then be hand-climbed across. By collecting power ups Ryu can use a magical technique called \"the art of the fire wheel\", an ascending and spinning wheel of fire which will take more damage than his usual sword. He has up to 5 charges of this technique. Ryu has a life meter with six units, which can be replenished by finding proper power ups inside containers.\n\nThe game is divided in 5 stages. Each stages has sub-screens, and the main objective is to go from left to right till the end of the screen, destroying the enemies in the way. Among the enemies Ryu will find humans, cyborgs and machines. At the end of each stage a boss fight awaits Ryu.",
+    "desc": "《忍者龍劍傳之暗影》是《忍者龍劍傳》的前傳。現在是 1985 年，距 NES 遊戲事件發生還有 3 年，Jaquio 還沒有被喚醒。然而，邪惡的獨裁者迦樓羅皇帝威脅著紐約市，隼龍必須與他作戰。\n\n該遊戲是一款動作橫版捲軸遊戲。龍可以奔跑、跳躍並使用劍擊敗敵人。他還有一個抓鉤裝置，可以用來到達更高的平台，然後可以用手爬上去。通過收集能量提升，Ryu 可以使用一種名為“火輪藝術”的魔法技術，這是一種上升和旋轉的火輪，它會比他常用的劍承受更多的傷害。他對該技術的指控最多為 5 次。Ryu 有一個包含六個單元的生命表，可以通過在容器內找到適當的能量來補充。\n\n比賽分為5個階段。每個階段都有子屏幕，主要目標是從左到右直到屏幕末尾，消滅路上的敵人。在敵人中，Ryu 會發現人類、機器人和機器。每個階段結束時，Ryu 都會面臨一場 Boss 戰。",
+    "desc_source": "api"
+  },
+  "Batman - The Video Game (World)": {
+    "key": "Batman - The Video Game (World)",
+    "original_name": "Batman : The Video Game",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "He's totally new. Totally tough. And he'll stop at nothing to make sure justice prevails!\nFrom the dark streets of GOTHAM CITY to the deepest corners of the criminal underground comes the CAPED CRUSADER as you've never seen him before.\n\nIncredibly strong. Armed to the teeth. And ready to put his life on the line for the sake of all, on a search-and-destroy mission to end THE JOKER'S reign of terror. He leaps, he flies, he dodges enemy fire and delivers it right back ... with a vengeance.\n\nThis is no kid stuff. This is as real as video gaming gets. If you liked what you saw in the movie, you're gonna love what you see here. Because this time around, BATMAN is all business, and he won't let anything ... anything ... stand in his way.",
+    "desc": "美國總統唐納·川普的言行一直被批評存在種族主義或同情白人至上主義。記者、好友、家人和前雇員都指責他在美國煽動種族主義。但川普屢次對種族主義指控表示否認。\n1973年，川普及其公司川普管理公司因涉對非裔租房者進行住宅歧視而被司法部起訴；川普達成和解並服從判決，在不承認有過錯的情況下終止這些做法。2011年至2016年，川普是已被揭穿的出生地陰謀論的主要支持者，錯誤地聲稱巴拉克·歐巴馬總統並非出生在美國。在一樁種族歧視的刑事案件中，川普直到2024年仍然聲稱一個被稱為「中央公園五人組」的團體應對1989年中央公園慢跑者強姦一名白人女性的案件負責，該團體主要由非裔美國青少年組成，儘管這五名男性已於2002年被正式宣告無罪。川普在2016年總統競選開始時發表演講，稱墨西哥將罪犯送到邊境：「他們帶來毒品。他們帶來犯罪。他們是強姦犯。但我認為，其中一些是好人。」在競選期間，川普利用白人工人階級選民的恐懼心理，並給人留下了對國家構成挑戰的團體具有全球危險性的印象。\n2017年，在維吉尼亞州夏綠蒂鎮舉行的白人至上主義者集會後，川普發表言論，批評人士認為這些言論暗示白人至上主義遊行者與抗議他們的人之間存在道德對等，都稱其為「非常優秀的人」，儘管川普聲明「我不是在談論新納粹分子和白人民族主義者，因為他們應該受到徹底的譴責」。2018年，在一次關於移民改革的橢圓形辦公室會議上，川普據稱將薩爾瓦多、海地和非洲國家稱為「糞坑」，這一言論被廣泛譴責為種族主義言論。2019年7月，川普在推特上批評四名有色人種民主黨女議員，其中三人出生於美國：「她們為什麼不回去，幫助修復她們來自的那個支離破碎、犯罪猖獗的地方。然後回來告訴我們怎麼做。」《大西洋月刊》等新聞媒體批評該評論是常見的種族主義言論。他後來否認自己的言論帶有種族主義色彩，並表示「如果有人對我們的國家有意見，如果有人不想留在我們國家，他們就應該離開。」\n川普的爭議言論遭到世界各地許多觀察家的譴責，但他的一些支持者認為這是對政治正確性的拒絕，而另一些人則認為是因為他們懷有相似的種族信仰。多項研究和調查顯示，種族怨恨促成了川普的政治崛起，並且在決定美國選民的政黨忠誠度方面比經濟因素更為重要。種族主義和仇視伊斯蘭教的態度已被證明是對川普支持率的有力指標。",
+    "desc_source": "wiki"
+  },
+  "Bubble Ghost (USA, Europe)": {
+    "key": "Bubble Ghost (USA, Europe)",
+    "original_name": "Bubble Ghost",
+    "name": "Game Source Entertainment",
+    "name_source": "wiki",
+    "original_desc": "Bubble Ghost needs to blow a bubble out of his creator's castle. Your task is to guide him so as to direct the bubble through the gaps in each room. The bubble's direction is affected by which part of the ghost hits it.\n\nCandles, fans, and other obstacles serve to make little Bubble Ghost's task harder. Bubble Ghost is invincible, but the bubble is prone to bursting if it hits anything at pace. You have five bubbles before the game is over.",
+    "desc": "泡泡幽靈需要從他的創造者的城堡中吹出一個泡泡。你的任務是引導他引導氣泡穿過每個房間的縫隙。氣泡的方向受到幽靈擊中它的部分的影響。\n\n蠟燭、風扇和其他障礙物讓小泡泡幽靈的任務變得更加困難。泡泡幽靈是無敵的，但如果它高速撞到任何東西，泡泡很容易破裂。遊戲結束前你有五個泡泡。",
+    "desc_source": "api"
+  },
+  "Dr. Mario (World) (Rev 1)": {
+    "key": "Dr. Mario (World) (Rev 1)",
+    "original_name": "Dr. Mario",
+    "name": "马力欧医生",
+    "name_source": "wiki",
+    "original_desc": "In this Tetris-style game, you play as Dr. Mario, who must drop differently coloured pills onto viruses to remove them from the bottle. Each pill is split into two, with each side being of one of three different colours, red, blue or yellow. Align three pills of the same colour to a virus of the corresponding colour (or any combination of pills and viruses totaling four or more) and it will be removed from the bottle, along with the aligned pills. The level is cleared when there are no viruses left, and the game is over when the pills reach the top and Dr. Mario can't drop any more pills.\n\nIncluded in the game is the normal mode, a time trial, and a two player battle mode to see who can remove the most viruses.",
+    "desc": "Dreamcast（日語：ドリームキャスト，簡稱為DC）是日本電子遊戲商SEGA於1998年11月27日在日本、1999年9月9日在北美、1999年10月14日在歐洲發行的家用遊戲機，為第六世代電子遊戲機中第一部推出的主機，也是SEGA開發的最後一部家用遊戲機。主要競爭對手包括索尼的PlayStation 2、任天堂的任天堂GameCube及微軟的Xbox。\n與前代主機SEGA土星不同，Dreamcast採用了日立的SH-4中央處理器（CPU）及VideoLogic/日本電氣的PowerVR2圖形處理器（GPU）等現成組件取代客製化組件，藉以降低成本。儘管Dreamcast在北美地區發售初期頗有斬獲，但在索尼力推其PlayStation 2之後，Dreamcast主機銷量便逐漸滑落；在銷量長期低迷的情況下，SEGA的財務損失持續擴大。在改組領導層之後，SEGA最終在2001年1月31日宣布於3月底終止Dreamcast硬體製造及開發、全面退出家用遊戲機硬體市場，並改組為純第三方遊戲開發商。Dreamcast在其生命週期中銷量僅有約1000萬部，是SEGA最重大的商業失敗之一。\n雖然Dreamcast的生命週期不長、第三方遊戲有限，但輿論普遍認為Dreamcast是一部超前時代的主機。Dreamcast擁有《瘋狂計程車》、《Jet Set Radio》和《莎木》系列等創意十足的獨占遊戲，以及一些來自SEGA自有大型電玩系統NAOMI的高品質移植作品。Dreamcast也是第一部內建撥接網路並提供原生網路遊戲的家用遊戲機。",
+    "desc_source": "wiki"
+  },
+  "Ninja Taro (USA)": {
+    "key": "Ninja Taro (USA)",
+    "original_name": "Ninja Taro",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "High Adventure in the Far East!\nIt's the era of feudal war in Japan. One Shogun struggles to unite the provinces, but he needs help.\nHis villainous arch-rival is rumored to be dead, but a merciless legion of anarchy continues to plague the countryside. If he is dead, then who could be leading the evil forces which prevent Japan from attaining peace and order?\n\nThis chaos must be stopped!\nFrom the ranks of the Phantom sect to the Shogun's aid comes Ninja Taro. With the cunning of a thief, the skill of a master, and a legendary sword, he must venture forth to tame the minions of evil, and unravel the riddle that will unite the empire!",
+    "desc": "遠東的高級冒險！\n那是日本的封建戰爭時代。一位幕府將軍努力統一各省，但他需要幫助。\n據傳他邪惡的宿敵已經死了，但無情的無政府主義軍團繼續困擾著鄉村。如果他死了，那麼誰會領導阻礙日本實現和平與秩序的邪惡勢力呢？\n\n這種混亂必須停止！\n忍者太郎從幻影教的行列中得到了幕府將軍的幫助。憑藉盜賊的狡猾、大師的技藝和傳奇之劍，他必須勇敢前行，馴服邪惡的爪牙，解開統一帝國的謎團！",
+    "desc_source": "api"
+  },
+  "DuckTales (USA)": {
+    "key": "DuckTales (USA)",
+    "original_name": "Disney's DuckTales",
+    "name": "Wii U遊戲列表",
+    "name_source": "wiki",
+    "original_desc": "While in the basement of Uncle Scrooge's mansion, Huey, Dewey and Louie discover an old piece of paper. When they show it to Uncle Scrooge, he recognizes it as part of his great, great Uncle Fergus McDuck's legendary treasure map! With the remaining parts of the map hidden around the world, it's up to Uncle Scrooge to find them and discover Fergus McDuck's secret treasure!",
+    "desc": "在史克魯奇叔叔豪宅的地下室裡，休伊、杜威和路易發現了一張舊紙。當他們把它拿給史克魯奇叔叔看時，他認出這是他偉大的弗格斯·麥克老鴨叔叔傳奇藏寶圖的一部分！地圖的其餘部分隱藏在世界各地，史克魯奇叔叔必須找到它們並發現弗格斯·麥克老鴨的秘密寶藏！",
+    "desc_source": "api"
+  },
+  "Mega Man III (USA)": {
+    "key": "Mega Man III (USA)",
+    "original_name": "Mega Man III",
+    "name": "Greatest Hits",
+    "name_source": "wiki",
+    "original_desc": "Mega Man 3 is a traditional side-scrolling platformer: you jump from brick to brick while avoiding pits and shooting robots. It's quite similar, in all respects, to other Mega Man games; however, this is the first time that you get a sidekick. It's also the first time you're allowed to slide instead of merely walking. \n\nRush is your dog who helps out by offering other modes of transportation when you need it. He starts out with the 'Rush Coil' ability to launch you to the top of the screen like a springboard; later he acquires the 'Rush Jet' ability to turn into a guided, floating platform to carry you wherever you need to go; and he also gets the 'Rush Marine' ability which is a submarine that works just like the jet except underwater and with the added ability to hop around out of the water (you can actually jump while on the jet but the jet continues to hover beneath you whereas you stay inside the submarine). All of these abilities function just like boss weapons.\n\nWhen you defeat the boss at the end of a level you gain his power - or at least a similar power. You may pause the game at any time and switch to any single power you have. It supplants your regular Arm Cannon with a limited - but superior - ability. The weapon ammo is displayed next to your energy meter. There are eight of these, corresponding to the eight main levels, even though there are twenty-one levels in the entire game. \n\nEnemies will often supply you with both energy and ammo refills. You can also collect Energy Tanks which can only be used once but will entirely restore your health. You start the game with three lives. Other features include Surprise Boxes lying around for you to find. There are infinite continues and a password feature to resume play at the beginning of any level.",
+    "desc": "《洛克人 3》是一款傳統的橫向捲軸平台遊戲：您從一塊磚跳到另一塊磚，同時避開坑和射擊機器人。它在各個方面都與其他《洛克人》遊戲非常相似；然而，這是你第一次得到一個夥伴。這也是您第一次被允許滑行而不僅僅是步行。\n\nRush 是您的狗，它會在您需要時提供其他交通方式來提供幫助。他首先使用“Rush Coil”能力，將你像跳板一樣發射到屏幕頂部；後來，他獲得了“Rush Jet”能力，可以變成一個引導的浮動平台，帶你去任何你需要去的地方；他還獲得了“衝鋒海軍陸戰隊”能力，這是一艘潛艇，其工作方式與噴氣式飛機一樣，除了在水下，並且具有跳出水面的附加能力（你實際上可以在噴氣式飛機上跳躍，但當你留在潛艇內時，噴氣式飛機繼續在你下面盤旋）。所有這些能力的作用就像老闆武器一樣。\n\n當你在關卡結束時擊敗老闆時，你將獲得他的力量 - 或者至少是類似的力量。您可以隨時暫停遊戲並切換到您擁有的任何單一能力。它以有限但卓越的能力取代了常規的手臂加農炮。武器彈藥顯示在能量計旁邊。儘管整個遊戲有二十一個關卡，但其中有八個，對應八個主要關卡。\n\n敵人通常會為你提供能量和彈藥補充。您還可以收集只能使用一次的能量罐，但會完全恢復您的生命值。你以三個生命開始遊戲。其他功能包括隨處可見的驚喜盒。有無限繼續和密碼功能，可在任何級別開始時恢復遊戲。",
+    "desc_source": "api"
+  },
+  "Kid Icarus - Of Myths and Monsters (USA, Europe)": {
+    "key": "Kid Icarus - Of Myths and Monsters (USA, Europe)",
+    "original_name": "Kid Icarus : Of Myths and Monsters",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "An evil force is threatening to invade the Angel Land.  Palutena, the ruler-goddess, sends a warrior named Pit on a quest to prepare for the upcoming attack. Pit must find three ancient treasures and face down the evil force.\n\nKid Icarus: Of Mythis and Monsters is the Game Boy version of one of Nintendo's classic side scrolling platform/adventure games. Throughout the levels Pit will collect hearts, upgrade his strength, collect treasures, and learn to fly.",
+    "desc": "一股邪惡勢力威脅要入侵天使之地。統治者女神帕魯特娜派遣一位名叫皮特的戰士前去尋找，為即將到來的攻擊做準備。皮特必須找到三件遠古寶藏並對抗邪惡力量。\n\nKid Icarus: Of Mythis and Monsters 是任天堂經典橫向捲軸平台/冒險遊戲之一的 Game Boy 版本。在整個關卡中，皮特將收集愛心、升級力量、收集寶藏並學習飛行。",
+    "desc_source": "api"
+  },
+  "Great Greed (USA)": {
+    "key": "Great Greed (USA)",
+    "original_name": "Great Greed",
+    "name": "CD Projekt",
+    "name_source": "wiki",
+    "original_desc": "As Great Greed begins, you are accidentally warped to another dimension by a wizard by the name of 'Microwave'?. With no immediate way back, you help the people fight off the scourge named 'Bio-Haz' who is consuming this dimension with evil and destruction.\n\nThis new dimension you find yourself in is not terribly unlike the one you came from, with the exception that everyone is named after foods or food-related items and most of the monsters appear to be mutated vegetables and the like.\n\nThis RPG breaks from the normal formula in a few respects. The battle system does not use any menus, switching all commands to simple button pushes. A being attack, B for dodge, Start will run and the D-Pad is shortcuts to certain spells. The combat is also live, in the sense that if you take too long to complete your turn, your opponent will attack again.\n\nUsing a battery-backed save system, the game will automatically auto-save after every successful battle.",
+    "desc": "隨著《大貪婪》的開始，你不小心被一個名叫“微波”的巫師扭曲到了另一個維度？在沒有立即回頭路的情況下，你幫助人們擊退名為“Bio-Haz”的禍害，它正在以邪惡和破壞吞噬這個維度。\n\n你發現自己所處的這個新維度與你原來的維度並沒有太大不同，除了每個人都以食物或與食物相關的物品命名，而且大多數怪物似乎都是變異的蔬菜等。\n\n這款角色扮演遊戲在幾個方面打破了常規模式。戰鬥系統不使用任何菜單，將所有命令切換為簡單的按鈕按下。A 表示攻擊，B 表示閃避，開始將運行，方向鍵是某些咒語的快捷方式。戰鬥也是實時的，如果你花太長時間完成回合，你的對手將再次攻擊。\n\n使用電池供電的保存系統，遊戲將在每次成功的戰鬥後自動保存。",
+    "desc_source": "api"
+  },
+  "Atomic Punk (USA)": {
+    "key": "Atomic Punk (USA)",
+    "original_name": "Atomic Punk",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Dynablaster lets you battle through classic Bomberman action in single-player or take on new twists in Game A, where you explore zones from a world map in any order. The faster you clear a level and the more blocks you destroy, the more gold you earn to spend on power-ups like extra lives or extended blast ranges. Before entering each new area, you choose which of these panels to bring along. In multiplayer mode, you face off in classic Bomberman fashion – either in Panel Mode, where players start weak and gather upgrades, or in Powerful Mode, where you launch into the chaos with full firepower. Strategy, timing, and nerves of steel will decide whether you dominate or go out in a glorious blast.",
+    "desc": "在《Dynablaster》中，您可以在單人遊戲中體驗經典的炸彈人動作，也可以在遊戲 A 中體驗新的變化，以任意順序探索世界地圖中的區域。你通關的速度越快，摧毀的方塊越多，你賺到的金幣就越多，可以花在額外生命或擴大爆炸範圍等能量提升上。在進入每個新區域之前，您選擇要攜帶哪些面板。在多人遊戲模式中，你以經典的炸彈人風格對峙——無論是在面板模式下，玩家開始較弱並收集升級，還是在強大模式下，你以全火力進入混亂。策略、時機和鋼鐵般的意志將決定你是佔據主導地位還是在光榮的爆炸中出局。",
+    "desc_source": "api"
+  },
+  "Tiny Toon Adventures - Babs' Big Break (USA, Europe)": {
+    "key": "Tiny Toon Adventures - Babs' Big Break (USA, Europe)",
+    "original_name": "Tiny Toon Adventures : Babs' Big Break",
+    "name": "迷你樂一通",
+    "name_source": "wiki",
+    "original_desc": "Tiny Toon Adventures is based on an animated series of the same name. The Tiny Toons are kid versions of Warner Bros. famous cartoon characters.\n\nBabs is an aspiring actress. She sets off one day to perfect her craft and make her way to the theater. Buster Bunny, and his friends Plucky and Hampton, notice that Babs is leaving and decide to follow her to the theater. Thus, the game starts, as you control Buster, Plucky, or Hampton as they follow Babs through 4 side-scrolling levels.",
+    "desc": "《小小卡通歷險記》改編自同名動畫系列。小卡通是華納兄弟著名卡通人物的兒童版本。\n\n巴布斯是一位有抱負的女演員。有一天，她出發去完善自己的技藝，並前往劇院。巴斯特兔和他的朋友勇敢和漢普頓注意到巴布斯要離開，並決定跟隨她去劇院。因此，遊戲開始，您控制 Buster、Plucky 或 Hampton，讓他們跟隨 Babs 通過 4 個橫向捲軸關卡。",
+    "desc_source": "api"
+  },
+  "Gargoyle's Quest (USA, Europe)": {
+    "key": "Gargoyle's Quest (USA, Europe)",
+    "original_name": "Gargoyle's Quest",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "The friendly Ghoul Realm was invaded by aliens know as the Destroyers ages ago.  The Destroyers almost captured the Ghoul Realm except a powerful fire came from the sky and destroyed them.  The Realm is threatened again and the secret of the fire must be recovered.\n\nYou play Firebrand, a gargoyle who has powerful claws that allow him to cling to walls and other surfaces on a verticle plane.  Firebrand can also hover and fly for awhile with his wings.  Destroy the enemy characters with your firery breath.  The game also contains an adventure type story that is unfolded by interacting with characters from an over-head perspective.",
+    "desc": "友好的食屍鬼王國很久以前就被稱為毀滅者的外星人入侵了。毀滅者幾乎佔領了食屍鬼領域，但從天而降的強大火焰摧毀了他們。王國再次受到威脅，必須恢復火的秘密。\n\n你扮演Firebrand，一個石像鬼，擁有強大的爪子，可以讓他緊貼牆壁和垂直平面上的其他表面。Firebrand還可以用他的翅膀懸停和飛行一段時間。用你的火焰呼吸摧毀敵人角色。遊戲還包含一個冒險類型的故事，通過從俯視角度與角色互動來展開。",
+    "desc_source": "api"
+  },
+  "Picross 2 (Japan) (SGB Enhanced) (Translated)": {
+    "key": "Picross 2 (Japan) (SGB Enhanced) (Translated)",
+    "original_name": "Picross 2",
+    "name": "Creatures",
+    "name_source": "wiki",
+    "original_desc": "Picross 2 is the Japanese only sequel to the Game Boy puzzle game, Mario's Picross.  Your goal is to reveal the hidden picture inside each grid by chipping away the correct squares.  Clues along the grid's edges help you figure out which squares should be chipped away, and which should be left alone.  The puzzles are much more advanced than those in Mario's Picross - easy puzzles are in a 15x15 grid, while standard Picross puzzles are four 15x15 grids connected together, solved one section at a time.\n\nPicross 2 has two modes of play: the first, Mario's Picross, has you solving Picross puzzles with Mario.  In this mode, the timer ticks down from 30 minutes, and you must solve the puzzle before the timer reaches zero.  If you chip away an incorrect square, you are penalized time (first two minutes, then four, then eight).\n\nAfter solving a certain amount of puzzles in Mario's Picross mode, you can play Wario's Picross.  In this mode, the timer starts from zero and counts upwards.  You are not penalized time for any mistakes, however, this means that you do not know which squares are correct and which ones are incorrect until the puzzle is complete.",
+    "desc": "電子遊戲業2023年面世許多新電子遊戲。\n根據SteamDB統計，2023年全年Steam發佈新遊戲超過一萬四千款。",
+    "desc_source": "wiki"
+  },
+  "Rolan's Curse (USA)": {
+    "key": "Rolan's Curse (USA)",
+    "original_name": "Rolan's Curse",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Once the people of Rolan was terrorized by the evil ruler King Barius before he was imprisoned in a castle deep within the forest. When the king many years later was released he immediately unleashed legions of regenerating monsters on the citizens of the land. Now a hero (or two if you play it in multiplayer) is needed to defeat him and his minions.\n\nThe game is an action based RPG played with an isometric perspective. As you battle your way through enemy territory you have two weapons, the sword that you start the game with and a Fire Wand that throws fireballs. You will also find some items to use, i.e. a magic axe that can be used to clear blocked passages, chamelon's ring that makes you part of the terrain and shield to help in defense.",
+    "desc": "曾經，羅蘭的人民受到邪惡統治者巴里烏斯國王的恐嚇，然後將他囚禁在森林深處的一座城堡裡。許多年後，當國王被釋放時，他立即向這片土地上的公民釋放了大批再生怪物。現在需要一個英雄（或者兩個，如果你在多人遊戲中玩的話）來擊敗他和他的爪牙。\n\n該遊戲是一款基於等距視角的動作角色扮演遊戲。當你在敵人的領土上戰鬥時，你有兩種武器，你開始遊戲時使用的劍和可以投擲火球的火杖。你還會發現一些可以使用的物品，例如可以用來清理堵塞通道的魔法斧頭、讓你成為地形一部分的變色龍戒指和幫助防禦的盾牌。",
+    "desc_source": "api"
+  },
+  "Battle Arena Toshinden (USA) (SGB Enhanced)": {
+    "key": "Battle Arena Toshinden (USA) (SGB Enhanced)",
+    "original_name": "Battle Arena Toshinden",
+    "name": "世嘉土星",
+    "name_source": "wiki",
+    "original_desc": "In Battle Arena Toshinden eight world renown weapon fighters have been invited to a mysterious tournament. It is one of the first one-on-one beat-em-ups to feature the ability to sidestep a full 360 degrees around the opponent allowing one to strike from any angle. Aside from the 3D movement, Toshinden's game play can be considered similar to Street Fighter, but in 3d and with a little less depth to the moves.\n\nTwo versions of Toshinden were released; for the Sony PlayStation and later a lesser known version for DOS PC's. However the PC version is not a straight port of the PlayStation version and plays and looks notably different despite sharing the same characters, attacks and controls.\n\nThe U.S and E.U PlayStation versions of Toshinden feature redone voices in English and redone music using different instruments. \n\nThe lyrics on Sofia's stage music in the Japanese version, which were actually in English, were removed in the process, likely due to their suggestive nature. \n\nSofia's and Ellis' voices in the English translation are also notably adjusted, for presumably the same reason; while the other characters English voices generally match the tones of the original Japanese voice actors, Sofia is far less suggestive sounding, while Ellis sounds notably older.\n\nThe later DOS version of Toshinden however, uses the same audio as the Japanese PlayStation version in all regions, albeit recorded at a considerably lower quality than they were on PlayStation.",
+    "desc": "在戰鬥競技場 Toshinden，八位世界知名的武器戰士被邀請參加一場神秘的錦標賽。它是首款能夠繞開對手 360 度的一對一格鬥遊戲之一，允許玩家從任何角度進行攻擊。除了 3D 動作之外，《Toshinden》的遊戲玩法可以被認為與《街頭霸王》類似，但採用 3D 形式，並且動作深度稍差一些。\n\n發行了兩個版本的 Toshinden；適用於索尼 PlayStation，後來又推出了鮮為人知的適用於 DOS PC 的版本。然而，PC 版本並不是 PlayStation 版本的直接移植版，儘管共享相同的角色、攻擊和控制，但遊戲玩法和外觀卻明顯不同。\n\n美國和歐盟 PlayStation 版本的《Toshinden》採用了重製的英語語音和使用不同樂器重製的音樂。\n\n日版索菲亞舞台音樂中的歌詞實際上是英文的，但在此過程中被刪除，可能是因為它們具有暗示性。\n\n出於同樣的原因，英文翻譯中索菲亞和埃利斯的聲音也進行了顯著調整；雖然其他角色的英語聲音通常與原始日本配音演員的語氣相匹配，但索菲亞的聲音聽起來遠沒有那麼具有暗示性，而埃利斯聽起來明顯更老。\n\n然而，後來的 DOS 版本的《Toshinden》在所有地區都使用與日本 PlayStation 版本相同的音頻，儘管錄製質量比 PlayStation 上的要低得多。",
+    "desc_source": "api"
+  },
+  "Penguin Wars (USA)": {
+    "key": "Penguin Wars (USA)",
+    "original_name": "Penguin Wars",
+    "name": "全球最高跨媒體製作收入列表",
+    "name_source": "wiki",
+    "original_desc": "Are you ready to indulge in some animal antics? To compete with some fun-loving characters? Then PENGUIN WARS is the game for you! The action never stops as you try to roll ten balls across the playing court while your wacky opponent attempts to do the same. Pitch 'em! Dodge 'em! You won't have a second to rest once this game gets rolling!",
+    "desc": "你準備好體驗一些動物的滑稽動作了嗎？與一些有趣的角色競爭？那麼《企鵝戰爭》就是適合您的遊戲！當您嘗試在球場上滾動十個球時，動作永遠不會停止，而您古怪的對手也試圖做同樣的事情。推銷他們！躲避他們！一旦遊戲開始，你就沒有時間休息了！",
+    "desc_source": "api"
+  },
+  "Wario Land II (USA, Europe) (SGB Enhanced)": {
+    "key": "Wario Land II (USA, Europe) (SGB Enhanced)",
+    "original_name": "Wario Land II",
+    "name": "马力欧系列游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Seeking revenge on Wario after he stole their treasure in Wario Land: Super Mario Land 3, special agents from the Black Sugar Gang of Kitchen Island sneak into Wario's newly built castle, steal back the treasure, and leave the castle and the surrounding area a mess. As Wario, you must clean the place up and take back what you now call your own.\n\nIn a change from the original Wario Land, Wario is now immortal, to a certain point. Instead of dying when hit by an enemy, Wario loses the coins he collected along his travels in each level. And he can also turn into other Warios. For example, if he is hit by a bee, Wario puffs up into a giant ball of air, and floats up to the top of the level. Only when hit by a sharp object will he return to normal. There are other types, like Fire Wario and Zombie Wario, and each can have its advantages, like getting to other areas otherwise unreachable, or they can halt your progress.",
+    "desc": "廚房島黑糖幫的特工在《瓦里奧樂園：超級馬里奧樂園3》中偷走了瓦里奧的寶藏後，為了向瓦里奧報仇，潛入瓦里奧新建的城堡，偷回寶藏，讓城堡和周邊地區一片狼藉。作為瓦里奧，你必須清理這個地方並奪回你現在所謂的自己的東西。\n\n與最初的瓦里奧大陸相比，瓦里奧現在在某種程度上是不朽的。瓦里奧並沒有在被敵人擊中時死亡，而是失去了他在每個關卡中收集的硬幣。而且他還可以變成其他瓦里奧。例如，如果他被蜜蜂擊中，瓦里奧就會膨脹成一個巨大的氣球，並漂浮到水平的頂部。只有被尖銳物體擊中，他才會恢復正常。還有其他類型，例如火焰瓦里奧和殭屍瓦里奧，每種類型都有其優勢，例如到達其他無法到達的區域，或者它們可能會阻止您的進度。",
+    "desc_source": "api"
+  },
+  "Tetris 2 (USA, Europe) (Rev 1) (SGB Enhanced)": {
+    "key": "Tetris 2 (USA, Europe) (Rev 1) (SGB Enhanced)",
+    "original_name": "Tetris 2",
+    "name": "俄罗斯方块 (Game Boy)",
+    "name_source": "wiki",
+    "original_desc": "Unlike the original Tetris, Tetris 2 has you clearing the field of blocks in a different way. Each play field starts with different colored dots (in this case black, gray and white), with one of each color flashing. \n\nThe blocks are made up of the same three colors, and by matching blocks of the same color over the top or to the side of the dot will clear the dot and those blocks from the screen. If you clear a flashing dot, all the corresponding dots of the same color will be cleared.\n\nTo complete the round just clear the dots, not the blocks themselves.",
+    "desc": "與原版俄羅斯方塊不同，俄羅斯方塊 2 讓您以不同的方式清除方塊。每個遊戲區域都以不同顏色的點（在本例中為黑色、灰色和白色）開始，每種顏色中的一個會閃爍。\n\n這些塊由相同的三種顏色組成，通過將相同顏色的塊匹配到點的頂部或側面，可以清除屏幕上的點和這些塊。如果清除一個閃爍的點，則所有相應的相同顏色的點都將被清除。\n\n要完成這一輪，只需清除點，而不是塊本身。",
+    "desc_source": "api"
+  },
+  "Final Fantasy Legend, The (USA)": {
+    "key": "Final Fantasy Legend, The (USA)",
+    "original_name": "The Final Fantasy Legend",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "The first 'Final Fantasy' title on the Game Boy, Legend allows you to choose from 8 different characters, from the usual human male or female to zombie, wererat, redbull (not the drink), clipper or mutant male or female. No matter which you choose, the goal stays the same: Increase your experience points and abilities by defeating many varied enemies through-out the land.\n\nMuch like the FF series of old (and new), you can choose members to join your party and the quest that lies ahead (either warriors, mutants or creatures). Every character has a limit to the amount of moves available during every battle and experience points are gained after each fight, increasing stamina, power, etc.",
+    "desc": "SEGA土星（日語：セガサターン，英語：SEGA Saturn，多簡稱為SS、SAT），中文又通稱土星或沙騰，是日本電子遊戲商SEGA於1994年11月在日本、1995年5月在北美、1995年7月在歐洲發行的32位元次世代家用遊戲機，前代主機為Mega Drive。主機名「SEGA土星」源自於SEGA土星為SEGA發行的第六部主機，故取名為對應的太陽系第六顆行星——土星。繼任主機為Dreamcast。\nSEGA土星的開發始於1992年，當時SEGA甫推出劃時代的3D大型電玩主機板SEGA Model-1。SEGA土星採用雙中央處理器架構，主機內含有兩顆日本電子公司日立製造的SH-2 32位元精簡指令集（RISC）處理器；SEGA土星原先在設計上只有一顆圖形處理器VDP1，但為抗衡競爭對手索尼推出的家用遊戲機PlayStation而加入另一圖形處理器VDP2，使VDP1得以專注處理3D圖形運算。\nSEGA土星雖然在日本獲得成功，但是在北美地區的發售由於操之過急，導致第三方遊戲開發商沒有時間為其開發遊戲，因此在3D運算技術更為先進、遊戲陣容更為豐富的PlayStation及任天堂64的影響下，SEGA土星之市佔率不斷流失；SEGA自家招牌遊戲《音速小子》系列最新遊戲開發中止一事，也對SEGA土星造成不小的打擊。最終SEGA土星於2000年全面停售，SEGA公司也因其後繼主機Dreamcast的失敗，而於隔年退出家用遊戲機硬體市場。SEGA土星在其生命週期中僅售出了926萬部，以商業角度來看並不成功。\n儘管有著《飛天幽夢》、《飛龍騎士》系列及《VR快打》系列等遊戲，SEGA土星仍因其硬體架構過於複雜、第三方遊戲陣容不足及SEGA本身之商業決策錯誤而遭到抨擊。",
+    "desc_source": "wiki"
+  },
+  "Pocket Bomberman (Europe) (SGB Enhanced)": {
+    "key": "Pocket Bomberman (Europe) (SGB Enhanced)",
+    "original_name": "Pocket Bomber Man",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In contrast to the overhead view of other Bomberman titles, Pocket Bomberman features sidescrolling platformer gameplay. Like other Bomberman games, Bomberman must defeat all enemies in each stage to advance. The game features a total of 5 worlds spanning 25 levels. Each world follows a different theme, including forest, underwater, cloudtops and a dark underworld. At the end of each world is a boss fight. There is one mini game called Jump Mode in which players must guide Bomberman through an Easy, Medium, or Hard course. Bomberman will constantly jump and the player can only place bombs in this mode.",
+    "desc": "與其他 Bomberman 遊戲的俯視圖相比，Pocket Bomberman 具有橫向捲軸平台遊戲玩法。與其他炸彈人遊戲一樣，炸彈人必須擊敗每個階段的所有敵人才能晉級。遊戲共有 5 個世界，25 個關卡。每個世界都有不同的主題，包括森林、水下、雲端和黑暗的地下世界。每個世界的盡頭都會有一場 Boss 戰。有一款名為“跳躍模式”的迷你游戲，玩家必須引導炸彈人完成簡單、中等或困難的路線。炸彈人會不斷跳躍，玩家只能在此模式下放置炸彈。",
+    "desc_source": "api"
+  },
+  "James Bond 007 (USA, Europe) (SGB Enhanced)": {
+    "key": "James Bond 007 (USA, Europe) (SGB Enhanced)",
+    "original_name": "James Bond 007",
+    "name": "007：初露锋芒",
+    "name_source": "wiki",
+    "original_desc": "Bond is once again in the thick of things, this time travelling the eastern hemisphere in order to stop an elite weapons smuggling ring. In order to do so, Bond must use all of the weapons and gadgets on hand, including the trusty laser watch, pistols, Ak-47's and more.\n\nBond will also have the chance to visit the casino, where you can spend some cash on blackjack and the like, while some of the most famous Bond villains make appearances in the hopes that they will stop the secret agent from completing his task.",
+    "desc": "邦德再次陷入困境，這一次他前往東半球，以阻止精英武器走私團伙。為了做到這一點，邦德必須使用手頭的所有武器和小玩意，包括值得信賴的激光手錶、手槍、Ak-47 等等。\n\n邦德還將有機會參觀賭場，在那裡你可以花一些現金購買二十一點等，而一些最著名的邦德惡棍也會出現，希望他們能阻止特工完成他的任務。",
+    "desc_source": "api"
+  },
+  "Cosmo Tank (USA)": {
+    "key": "Cosmo Tank (USA)",
+    "original_name": "Cosmo Tank",
+    "name": "波希米亞互動工作室",
+    "name_source": "wiki",
+    "original_desc": "CosmoTank is a space tank battle game. You're the commander of the tank 'Tiger a-1' and your mission is to fight on land and in space against the Master Insect and his minions. The game features both top-down levels and first person levels in which you can freely move around in all directions. Settings feature both open outdoor environments, caves and space.  Slowly upgrade your cannon and armor as you progress for more firepower and the ability to sustain more hits.",
+    "desc": "《Final Fantasy VII》是史克威爾（現史克威爾艾尼克斯）開發的一款角色扮演類電子遊戲，是《Final Fantasy》系列的第七部作品。這款遊戲於1997年發行，並催生了一系列以其為核心的媒體作品，統稱為《Final Fantasy VII補完計劃》。《Final Fantasy VII》系列的音樂不僅包括原版遊戲的原聲音樂及其相關專輯，還涵蓋了該系列其他作品發行的原聲音樂和聲歌手樂專輯。這一系列遊戲中被推出的首張專輯是《Final Fantasy VII 原聲音樂大碟》（Final Fantasy VII Original Soundtrack），收錄了遊戲中的所有音樂，該專輯由DigiCube於1997年以四張CD的原聲專輯形式發行。同年，DigiCube推出了該專輯的精選曲目單碟專輯《重聚精選集》（Reunion Tracks）。《Final Fantasy VII 鋼琴精選集》（Piano Collections Final Fantasy VII）是一張收錄了原聲音樂鋼琴改編版的專輯，由DigiCube於2003年發行，史克威爾艾尼克斯則於2004年開始重印這三張專輯。迄今為止，這三張是僅有的基於原版遊戲原聲音樂發行的專輯，均由該系列常駐作曲家植松伸夫單獨創作；後續大部分專輯的作曲工作則由濱渦正志和石元丈晴接手。\n《Final Fantasy VII補完計劃》始於遊戲《Final Fantasy VII》發售八年後，2005年動畫電影續集《Final Fantasy VII 降臨神子》的推出標誌著這項合集專案的啟動。該合集旗下各作品的原聲音樂均收錄於專輯中，首個推出的是同年發行的《降臨神子》原聲專輯。次年，日本皇冠唱片發行了對應遊戲《地獄犬的輓歌 -Final Fantasy VII-》的原聲專輯，而史克威爾艾尼克斯則推出了該遊戲多人模式的純下載版音樂合集，該合集僅在日本地區發售。2007年遊戲《核心危機 -Final Fantasy VII-》推出後，日本華納音樂製作了該作品的原聲音樂。該合集的最新專輯《危機之前：Final Fantasy VII & 最終指令：Final Fantasy VII 原聲音樂大碟》（Before Crisis: Final Fantasy VII & Last Order: Final Fantasy VII Original Soundtrack）於同年由史克威爾艾尼克斯發行，這是一款收錄了遊戲《危機之前 -Final Fantasy VII-》和動畫電影《最終命令 -Final Fantasy VII-》音樂的合輯。\n原版音樂獲得了評論家的高度好評，他們認為其中多首旋律令人難忘，並指出若干曲目的情感張力十足。其他專輯的反響則褒貶不一，既有熱烈的讚譽，也有失望的評價。原聲音樂中的多首作品，尤其是〈片翼的天使〉（One-Winged Angel）和〈艾莉絲的主題曲〉（Aerith' Theme）至今仍廣受歡迎，並在《摯友：Final Fantasy原聲音樂演奏會》（Dear Friends: Music from Final Fantasy）和《日本巡迴：Final Fantasy原聲音樂演奏會》（Tour de Japon: Music from Final Fantasy）等管弦樂音樂會系列中被多次演繹。原版原聲音樂中的曲目還被收錄進史克威爾以及外部團體推出的改編專輯和精選集中。",
+    "desc_source": "wiki"
+  },
+  "R-Type II (Europe)": {
+    "key": "R-Type II (Europe)",
+    "original_name": "R-Type II",
+    "name": "R-Type II",
+    "name_source": "keep",
+    "original_desc": "The second R-Type brings more of the same shoot-em up action.\nGameplay is identical to the previous R-Type, except you now have two new weapons.\n\nThere are six levels, with themes similar to the previous game.  Notable parts include an underwater battle in level 2, and a giant Bydo fleet in level 3.\n\nThe Game Boy version of R-Type 2 is missing 1 level and both of the new weapons from the original arcade game.",
+    "desc": "這是爆紅音樂影片的部分列表，在網際網路上獲得了迅速的關注。與網路迷因一樣，此類視頻的收視率往往會迅速擴大並變得更加普遍，因為即時通信有助於口耳相傳。\n該列表記錄了已知已走紅的音樂視頻；其他爆紅視頻可以在爆紅影片列表中找到，其他視頻已成為網際網路現象的其他類別可以在網路爆紅列表中找到。",
+    "desc_source": "wiki"
+  },
+  "Quarth (USA, Europe)": {
+    "key": "Quarth (USA, Europe)",
+    "original_name": "Quarth",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Quarth is a typical puzzle/arcade game. Quarth can be moved from right to left while the screen scrolls down. The playing field is filled with different blocks and your aim is to fill them in so they form complete rectangles or squares. Only when you succeed in this mission, the concerned blocks will disappear. New 'unformed' blocks appear while the playing field scrolls down making you play into full action at all times. As soon as a line of blocks reaches the bottom line, it is Game Over. Then you'll be granted 10 seconds to decide if you want continue the level. Each Level consists of 9 Areas and you progress to the next level once you've cleared the last area. The Battle mode is a dual player mode.",
+    "desc": "Quarth 是一款典型的益智/街機遊戲。當屏幕向下滾動時，Quarth 可以從右向左移動。比賽場地充滿了不同的方塊，你的目標是將它們填滿，使它們形成完整的矩形或正方形。只有當你成功完成這個任務時，相關的方塊才會消失。當比賽場地向下滾動時，會出現新的“未成型”方塊，讓您始終充分發揮作用。一旦一行方塊到達底線，遊戲就結束了。然後您將有 10 秒的時間來決定是否要繼續該關卡。每個級別由 9 個區域組成，清除最後一個區域後即可進入下一個級別。對戰模式是雙人遊戲模式。",
+    "desc_source": "api"
+  },
+  "Legend of Zelda, The - Link's Awakening (USA, Europe) (Rev 2)": {
+    "key": "Legend of Zelda, The - Link's Awakening (USA, Europe) (Rev 2)",
+    "original_name": "The Legend of Zelda : Link's Awakening",
+    "name": "薩爾達傳說 智慧的再現",
+    "name_source": "wiki",
+    "original_desc": "After being attacked at sea, Link's ship sinks, and he finds himself stranded on Koholint Island. He awakens to see a beautiful woman looking down at him. He soon learns the island has a giant egg on top of a mountain that the Wind Fish inhabits deep inside. Link is told to \"awaken the wind fish and all will be answered,\" so Link sets out on another quest.",
+    "desc": "在海上遭到襲擊後，林克的船沉沒，他發現自己被困在科霍林特島。他醒來時看到一個美麗的女人正俯視著他。他很快得知島上的山頂上有一個巨大的蛋，風魚棲息在裡面。林克被告知“喚醒風魚，一切都會得到答案”，因此林克開始了另一個任務。",
+    "desc_source": "api"
+  },
+  "Ninja Boy (USA, Europe)": {
+    "key": "Ninja Boy (USA, Europe)",
+    "original_name": "Ninja Boy",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Ninja Boy is based off Super Chinese. \n\nAs such, players control a young Kung-Fu hero from a bird's-eye perspective and are able to move and attack up, down, left, right. Players use the hero's punch and kick abilities to defeat enemies. \n\nPlayers can also find weapons and other items scattered across the game to use against the enemy hordes. After defeating a set number of enemies the players is allowed to run into an exit and proceed to the next level.  \n\nAs the levels progress, difficult enemies become more numerous.",
+    "desc": "網際網路特有的社會和文化現象包括的網路迷因，像是流行主題、流行語、圖像、網路爆紅短片和笑話。當這種時尚和感覺在網路上出現時，它們往往會迅速增長並變得更加普遍，因為即時通信促進了口耳相傳的傳播。\n以下部分列表更側重於不受地區網際網路法律限制的網際網路現象；其他國家，例如中國或巴基斯坦，確實存在不受地區法律禁止的特定網際網路現象。 這些都包含在中國大陸網路熱點事件列表和巴基斯坦網路熱點事件列表中。",
+    "desc_source": "wiki"
+  },
+  "Teenage Mutant Ninja Turtles III - Radical Rescue (USA)": {
+    "key": "Teenage Mutant Ninja Turtles III - Radical Rescue (USA)",
+    "original_name": "Teenage Mutant Ninja Turtles III : Radical Rescue",
+    "name": "喷神James节目列表",
+    "name_source": "wiki",
+    "original_desc": "The player begins the game by taking control of Michaelangelo, who must rescue the other turtles, along with Splinter and April O'Neil, who have been kidnapped by Shredder.[2] Unlike other games based on the franchise, this is a scrolling action-adventure game reminiscent of the Metroid and the later Castlevania: Symphony of the Night. Each turtle has a different ability which is necessary to finish the game. Michaelangelo can hover using his nunchakus as a helicopter, Leonardo can drill the floor by spinning with his katana, Raphael can hide himself inside his shell to enter passages that are otherwise too small to enter, and Donatello can stick to and climb walls.\n\nThe bosses are Scratch, Dirtbag, a Triceraton, Scale Tale, and Shredder (in this game known as Cyber-Shredder).",
+    "desc": "玩家在遊戲開始時控制米開朗基羅，他必須拯救其他海龜，以及被施萊德綁架的斯普林特和阿普麗爾·奧尼爾。[2]與其他基於該系列的遊戲不同，這是一款捲軸動作冒險遊戲，讓人想起《銀河戰士》和後來的《惡魔城：夜想曲》。每隻烏龜都有不同的能力，這是完成遊戲所必需的。米開朗基羅可以使用他的雙截棍作為直升機懸停，達芬奇可以通過用武士刀旋轉來鑽地板，拉斐爾可以將自己隱藏在他的殼內以進入否則太小而無法進入的通道，而多納泰羅可以堅持並攀爬牆壁。\n\nBoss 是 Scratch、Dirtbag、Triceraton、Scale Tale 和 Shredder（在本遊戲中稱為 Cyber​​​​-Shredder）。",
+    "desc_source": "api"
+  },
+  "Nemesis (USA)": {
+    "key": "Nemesis (USA)",
+    "original_name": "Nemesis",
+    "name": "霹靂火",
+    "name_source": "wiki",
+    "original_desc": "Nemesis is the first entry in the long-running Gradius series on the Game Boy. Its side-scrolling shoot'em up gameplay follows the series template closely. Players control the Vic Viper through five levels, most based on levels in earlier entries, for a kind of 'greatest hits' of the series. There is a cave level (as in level 1 of the original Gradius), the mandatory Moai stage, a Gigeresque organic level, a graveyard (similar to bonus stages in the MSX and PC Engine version of the original Gradius) and a high-tech base. Besides the classic core ship in the first level, all boss enemies are entirely new.\n\nThe cycling Gradius power-up system is reused here: collected power ups advance the power meter which can be activated at any time to gain the highlighted item. The line-up includes the classic selection of speedups, missiles, dual shots, lasers, option satellites and forcefields.\n\nThe game allows players to start in any of the five levels and even to set the number of lives to a maximum of 99.",
+    "desc": "Nemesis 是 Game Boy 上長期運行的 Gradius 系列的第一款作品。其橫向捲軸射擊遊戲玩法緊密遵循系列模板。玩家通過五個關卡控制 Vic Viper，大部分是基於早期作品中的關卡，這是該系列的“最熱門”遊戲。有一個洞穴關卡（與原版 Gradius 的第 1 級相同）、強制性的摩艾關卡、Gigeresque 有機關卡、墓地（類似於原版 Gradius 的 MSX 和 PC 引擎版本中的獎勵關卡）和高科技基地。除了第一關的經典核心船外，所有頭目敵人都是全新的。\n\n此處重複使用了循環 Gradius 能量提升系統：收集的能量提升可推進功率計，功率計可隨時激活以獲得突出顯示的項目。該陣容包括加速器、導彈、雙發、激光、可選衛星和力場的經典選擇。\n\n遊戲允許玩家從五個級別中的任意一個開始，甚至可以將生命數設置為最大 99。",
+    "desc_source": "api"
+  },
+  "Wave Race (USA, Europe)": {
+    "key": "Wave Race (USA, Europe)",
+    "original_name": "Wave Race",
+    "name": "任天堂GameCube",
+    "name_source": "wiki",
+    "original_desc": "Wave Race for the Game Boy is an aquatic racing game. You control a personal water craft around courses that are marked out by buoys in the circuit mode. In the slalom mode, you must maneuver through several sets of gates floating on the water.\n\nGameplay is viewed from an overhead perspective. There are four racers in each race. They can be controlled either by human players or by very tough AI controlled players.",
+    "desc": "Super Nintendo Entertainment System（超級任天堂西方版名稱）的遊戲存放在一個塑料卡帶內。不同地區的卡帶其塑料卡槽各不相同。一個地區鎖晶片分別位於遊戲機平台和卡帶內部，這樣的目的是防止不同地區的卡帶在其不同的主機運行。\n本表列出在西方Super Nintendo Entertainment System官方發行的784款遊戲，其中251款北美獨占，63款歐洲獨占。僅在日本發行的遊戲不在此列。默認依英文名列出。",
+    "desc_source": "wiki"
+  },
+  "Parodius (Europe)": {
+    "key": "Parodius (Europe)",
+    "original_name": "Parodius",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "This is mostly the parody of Gradius (Nemesis on some systems), with some flavor from other shoot-em-ups, like Twinbee. The series is available on numerous platforms.\n\nThe game is a right-to-left scrolling shoot-em-up. You can choose from 4 different flying creatures, with different weapons. You must finish 7 stages, each having a boss at the end. You may start at either one, but must complete every level to advance to the final stage.",
+    "desc": "這主要是對 Gradius（某些系統上的 Nemesis）的模仿，帶有一些來自其他射擊遊戲（如 Twinbee）的味道。該系列可在多個平台上使用。\n\n該遊戲是一款從右到左滾動的射擊遊戲。您可以從 4 種不同的飛行生物中進行選擇，並配備不同的武器。你必須完成 7 個階段，每個階段最後都有一個 Boss。您可以從任一級別開始，但必須完成每個級別才能進入最後階段。",
+    "desc_source": "api"
+  },
+  "Metal Masters (USA)": {
+    "key": "Metal Masters (USA)",
+    "original_name": "Metal Masters",
+    "name": "新川洋司",
+    "name_source": "wiki",
+    "original_desc": "Metal Masters is a one versus one fighting game with robots. Each robot has two basic attacks: ranged and melee; which one is used depends on how close the opponent is. In each scenario, the player can control the attacks of the robot: when in ranged mode the used weapon system is chosen (each of the four body parts has its own) and during melee combat, the direction of the punches is controlled. \n\nEach successful hit gives points which decide the winner if no fighter goes down within the time limit. A knockdown is achieved by emptying the opponent's life bar. Additionally each hit (with a big bonus for winning) gives prize money which in turn is invested in upgrading the robot. The player can buy new parts for the four components (main body, legs and the individual arms) - but an upgraded robot also influences the difficulty of the next enemy. While being inside a fight, the AI can be set to take over the own robot.",
+    "desc": "Metal Masters 是一款與機器人一對一的格鬥遊戲。每個機器人都有兩種基本攻擊：遠程和近戰；使用哪一種取決於對手的距離有多近。在每種場景中，玩家都可以控制機器人的攻擊：在遠程模式下，選擇所使用的武器系統（四個身體部位都有自己的武器系統），在近戰戰鬥中，控制出拳的方向。\n\n每次成功擊中都會給予分數，如果沒有戰鬥機在時限內倒下，則分數決定獲勝者。擊倒是通過清空對手的生命條來實現的。此外，每次擊中（獲勝後可獲得巨額獎金）都會獲得獎金，而獎金又將用於投資升級機器人。玩家可以為四個部件（主體、腿和單獨的手臂）購買新零件 - 但升級的機器人也會影響下一個敵人的難度。在戰鬥中，人工智能可以設置為接管自己的機器人。",
+    "desc_source": "api"
+  },
+  "Game & Watch Gallery (USA) (Rev 1) (SGB Enhanced)": {
+    "key": "Game & Watch Gallery (USA) (Rev 1) (SGB Enhanced)",
+    "original_name": "Game & Watch Gallery",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "The Game & Watch Gallery is Nintendo's first portable compilation featuring their popular line of original 1980's handheld games, featuring the popular \"Mr. Game & Watch\" himself, as well as Mario and friends.\n\nThe compilation consists of four popular titles from the Game & Watch Series, each with a \"Classic\" and \"Modern\" version of each game:\n\n1. Octopus: Collects as much treasure as your bag can hold, while avoiding the octopus tentacles that continually swing around you.  In the \"Modern\" version, Mario becomes the diver, and as he collects more treasure, his bag becomes heavier, making it harder to return to the surface.  Mario can also delay the octopus tentacles by throwing treasure at them.\n\nFire: Position your net to catch the falling people jumping from the burning building.  The \"Modern\" version has Mario and Luigi rescuing Toad, Yoshi and Donkey Kong Jr. from Princess Peach's Castle.  Each falling character has different weights and falling patterns.\n\nManhole: The player must cover the holes to keep the continually walking people from falling through the manholes and into the sewers.  In the \"Modern\" version, Yoshi must use his tongue to keep Mario, Toad and Donkey Kong Jr. from falling thought the hole, each character having different speeds and patterns.\n\nOil Panic: The player must collect the dripping blobs of oil before they slip past and ruin everything.  The \"Modern\" version has Bowser dropping oil blobs at Mario, who has to catch the oil and dump it over to Yoshi before the Koopa King gets the best of Mario.\n\nEach mode (Classic and Modern) has two difficulties: Easy and Hard.  The higher score a player gets in each version, new unlockable bonuses will become available via the \"Gallery Corner\".  These bonuses include release dates, pictures and animations which tell in greater detail the history behind Gunpei Yokoi's portable creations.",
+    "desc": "The Game & Watch Gallery is Nintendo's first portable compilation featuring their popular line of original 1980's handheld games, featuring the popular \"Mr. Game & Watch\" himself, as well as Mario and friends.\n\n該彙編由 Game & Watch 系列的四款熱門遊戲組成，每款遊戲都有“經典”和“現代”版本：\n\n1. 章魚：收集盡可能多的寶藏，同時避開不斷在你周圍擺動的章魚觸手。In the \"Modern\" version, Mario becomes the diver, and as he collects more treasure, his bag becomes heavier, making it harder to return to the surface.  馬里奧還可以通過向章魚觸手扔寶物來延遲它們的觸手。\n\n火災：放置網以捕捉從燃燒的建築物中跳下的墜落人員。  “現代”版本中，馬里奧和路易吉從桃子公主的城堡中救出蟾蜍、耀西和小金剛。每個墜落角色都有不同的重量和墜落模式。\n\n沙井：玩家必須蓋住洞，以防止不斷行走的人們從沙井掉入下水道。In the \"Modern\" version, Yoshi must use his tongue to keep Mario, Toad and Donkey Kong Jr. from falling thought the hole, each character having different speeds and patterns.\n\n石油恐慌：玩家必須收集滴下的油滴，以免它們滑過並毀掉一切。The \"Modern\" version has Bowser dropping oil blobs at Mario, who has to catch the oil and dump it over to Yoshi before the Koopa King gets the best of Mario.\n\n每種模式（經典和現代）都有兩個難度：簡單和困難。玩家在每個版本中獲得的分數越高，將通過“畫廊角”獲得新的可解鎖獎金。  這些獎勵包括發布日期、圖片和動畫，更詳細地講述了橫井軍平便攜式創作背後的歷史。",
+    "desc_source": "api"
+  },
+  "Maru's Mission (USA)": {
+    "key": "Maru's Mission (USA)",
+    "original_name": "Maru's Mission",
+    "name": "史克威尔艾尼克斯电子游戏列表",
+    "name_source": "wiki",
+    "original_desc": "One day while Maru and Cori are taking a walk in Central Park, a strange thing happens. Out of nowhere this weird looking guy shows up and waylays the unsuspecting couple. Before Maru can respond, the weird looking guy and Cori vanish without a trace, leaving Maru behind wondering what in the world just happened.\n\nMaru's Mission is a side scrolling action game. Traveling throughout the world from such locations as the USA and Romania, you fight mythological monsters such as Isis and Dracula. \n\nMaru can shoot sparks in rapid succession and can also get access to a variety of powerful different weapons. Maru can collect hearts to replenish his health and jump to avoid obstacles or dodge enemies. Levels are usually finished by defeating a level boss which sometimes earns a new weapon.",
+    "desc": "有一天，當馬魯和科​​里在中央公園散步時，發生了一件奇怪的事情。這個長相怪異的傢伙突然出現並攔住了這對毫無戒心的夫婦。還沒等 Maru 做出反應，那個奇怪的傢伙和 Cori 就消失得無影無踪，留下 Maru 不知道到底發生了什麼。\n\n《Maru's Mission》是一款橫向捲軸動作遊戲。從美國和羅馬尼亞等地周遊世界，與伊希斯和德古拉等神話怪物作戰。\n\nMaru 可以快速連續發射火花，還可以使用各種強大的不同武器。馬魯可以收集紅心來補充生命值，並跳躍來避開障礙物或躲避敵人。關卡通常是通過擊敗關卡老闆來完成的，有時會獲得新武器。",
+    "desc_source": "api"
+  },
+  "Painter Momopie (Japan) (Translated)": {
+    "key": "Painter Momopie (Japan) (Translated)",
+    "original_name": "Painter Momopie",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In Painter Momopie the player has the important task to wipe all the castle floors. The castle is divided into several rooms which have to be finished within a time limit one after another. Those rooms have varying layouts with more open spaces, tight gangways or dead ends - but every field is dirty.\n\n Cleaning is the simple matter of walking over a tile and if everything is clean, the level is done. However, there are also ghosts walking around the rooms which kill the player at touch.\n\n The protagonist has access to a few magic spells which grant advantages when used, e.g. a time stop, killing a near enemy or speed up. Each spell costs a certain amount of magic points.",
+    "desc": "在 Painter Momopie 中，玩家的重要任務是擦拭城堡的所有地板。城堡分為幾個房間，必須在規定的時間內依次完成。這些房間的佈局各不相同，有更多的開放空間、狹窄的過道或死胡同——但每個地方都很髒。\n\n清潔很簡單，只需在瓷磚上行走即可，如果一切都乾淨，則水平度已完成。然而，房間裡也有鬼魂走來走去，一碰就會殺死玩家。\n\n主角可以使用一些魔法咒語，這些咒語在使用時會帶來優勢，例如時間停止，殺死附近的敵人或加速。每個法術都會消耗一定數量的魔法點。",
+    "desc_source": "api"
+  },
+  "Fastest Lap (USA)": {
+    "key": "Fastest Lap (USA)",
+    "original_name": "Fastest Lap",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In this game you play the role of a F1 race car driver who wants to make it to the top. The gameplay involves you doing qualifying laps and  then racing opponents in the main races. The game is played from a top down perspective. You can also tweak your cars engine and tires to suit the circuit you are on. There are four main teams you can race for.",
+    "desc": "山繆·傑克森是美國男演員和製片人。傑克森身為多產演員，出演電影總票房已超過270億美元，成為截至2021年史上電影票房最高的演員（真人演出）。\n傑克森在早期進軍電影圈時都在出演小角色，例如《來去美國》（1988年）、《為所應為》（1989年）、《大法師3》（1990年）和《四海好傢伙》（1990年）。突破角色是在史派克·李電影《叢林熱》（1991年）中飾演的癮君子鱷魚（Gator），並為此贏得坎城影展評審團特別獎最佳男配角。他於1993年出演史蒂芬·史匹柏電影《侏羅紀公園》，一年後主演了昆汀·塔倫提諾電影《黑色追緝令》；其中憑藉後者贏得英國電影學院獎最佳男配角，更提名金球獎和奧斯卡最佳男配角獎。同在1994年憑藉電視電影《暴火危牆》而提名金球獎迷你影集或電視電影類最佳男主角。次年，傑克森在《終極警探3》中與布魯斯·威利演對手戲，兩人此前也在《黑色追緝令》中合作。1996年憑藉《殺戮時刻》提名金球獎最佳電影男配角。隨後與塔倫提諾在《黑色終結令》（1997年）重聚；傑克森藉該片獲金球獎最佳音樂及喜劇類電影男主角提名。兩年後，主演了賣座電影《水深火熱》。\n從1999年的《星際大戰首部曲：威脅潛伏》起，傑克森在《星際大戰》前傳三部曲中飾演要角魅使·雲度，更在之後的系列作品重歸詮釋該角。2000年，他主演了《黑街神探》（1971年）的續集《殺戮戰警》，以及在奈·沙馬蘭電影《驚心動魄》中與布魯斯·威利重聚。2004年為皮克斯動畫電影《超人特攻隊》中的酷冰俠（Frozone）以及知名電子遊戲《俠盜獵車手：聖安地列斯》中的法蘭克·湯彭尼警官（Officer Frank Tenpenny）一角配音。傑克森在2008年的《鋼鐵人》中首次飾演尼克·福瑞，自此後的多部漫威電影宇宙電影中再度飾演該角。2011年，他在電視電影《日落號列車》中與湯米·李·瓊斯演對手戲。在這之後的2012年以及2015年，傑克森再度與塔倫提諾合作，在其電影《決殺令》、《八惡人》中擔任主要角色。2010年代後半期，還出演了《金牌特務》、《泰山傳奇》和《金剛：骷髏島》等賣座大片。\n傑克森出演過數部舞台劇，如80年代初期的《勇氣之母與她的子女們》和《士兵的戲劇》；2011年至2012年在百老匯的《山峰》飾演馬丁·路德·金恩。傑克森在2021年的第94屆奧斯卡金像獎上被授予奧斯卡榮譽獎。",
+    "desc_source": "wiki"
+  },
+  "Tetris (World) (Rev 1)": {
+    "key": "Tetris (World) (Rev 1)",
+    "original_name": "Tetris",
+    "name": "俄罗斯方块 (Game Boy)",
+    "name_source": "wiki",
+    "original_desc": "This version of Tetris is one of many conversions of the famous block-stacking game, and was included with the Game Boy upon its release in several territories. The goal is to place pieces made up of four tiles in a ten-by-twenty well, organizing them into complete rows, which then disappear. As rows are cleared, the pace of the game increases and the background changes, and the game ends if the stack reaches the top of the well.\n\nThe game is very similar to Nintendo's own NES version of the game, featuring the same \"Type A\" endless and \"Type B\" set-clear modes. The game also features a 2-player versus mode that can be played with two Game Boys, two copies of Tetris, and a Game Boy link cable. Clearing lines in this mode will cause the other player's stack to rise, with the goal being to make the other player lose.",
+    "desc": "Dreamcast（日語：ドリームキャスト，簡稱為DC）是日本電子遊戲商SEGA於1998年11月27日在日本、1999年9月9日在北美、1999年10月14日在歐洲發行的家用遊戲機，為第六世代電子遊戲機中第一部推出的主機，也是SEGA開發的最後一部家用遊戲機。主要競爭對手包括索尼的PlayStation 2、任天堂的任天堂GameCube及微軟的Xbox。\n與前代主機SEGA土星不同，Dreamcast採用了日立的SH-4中央處理器（CPU）及VideoLogic/日本電氣的PowerVR2圖形處理器（GPU）等現成組件取代客製化組件，藉以降低成本。儘管Dreamcast在北美地區發售初期頗有斬獲，但在索尼力推其PlayStation 2之後，Dreamcast主機銷量便逐漸滑落；在銷量長期低迷的情況下，SEGA的財務損失持續擴大。在改組領導層之後，SEGA最終在2001年1月31日宣布於3月底終止Dreamcast硬體製造及開發、全面退出家用遊戲機硬體市場，並改組為純第三方遊戲開發商。Dreamcast在其生命週期中銷量僅有約1000萬部，是SEGA最重大的商業失敗之一。\n雖然Dreamcast的生命週期不長、第三方遊戲有限，但輿論普遍認為Dreamcast是一部超前時代的主機。Dreamcast擁有《瘋狂計程車》、《Jet Set Radio》和《莎木》系列等創意十足的獨占遊戲，以及一些來自SEGA自有大型電玩系統NAOMI的高品質移植作品。Dreamcast也是第一部內建撥接網路並提供原生網路遊戲的家用遊戲機。",
+    "desc_source": "wiki"
+  },
+  "R-Type (USA, Europe)": {
+    "key": "R-Type (USA, Europe)",
+    "original_name": "R-Type",
+    "name": "R-Type",
+    "name_source": "keep",
+    "original_desc": "R-Type is a side scrolling shoot 'em up best known for its extremely tough and strategic gameplay.  You control the R-9 spaceship as it launches a last-ditch effort to repel the evil Bydo empire.\n\nThe R-9 comes equipped as standard with a small gun which can only take down the smallest of enemies without firing several shots. By holding down the fire button, it can be loaded up so as to release a large burst of energy, eliminating all but the strongest enemies in its path. From time to time, pods will come flying in your direction. Upon being shot, they release an upgrade. The first one will invariably be the one called \"The Force\", which is a weapons pod that clings either to the front or the back of your ship, absorbing any enemy bullets or acting as a bumper with which you can fly head-on into them. You can also use it as an offensive weapon by firing it and pulling it back in. Mastering the Force is vital to surviving in R-Type, since it must be used both as protection against bullet clusters, as a remote controlled cannon, and in order to clear the screen from obstacles. Other upgrades give you target-seeking missiles or a bigger main gun. Different gun types, differentiated by their colour, serve different purposes. The blue one sends laser beams bouncing across the screen (good for tunnels), the red one fires straight ahead, and the yellow one follows any walls it may encounter (good for artillery emplacements).\n\nThe stages of R-Type are made in an organic style, certainly inspired by H. R. Giger's artwork for the Alien movies. When it came out, it was considered trend-setting since it broke off from the stereotypical sci-fi mould of other shoot'em'ups. In part, the levels themselves are your enemy, which is exemplified by the fourth, where spider-like creatures weave webs that cover the screen and block your path, or levels with intricate tunnel systems. Still, the levels are best handled with a combination of strategy and reflexes, without the memorisation that is required of R-Type's contemporary rival, Gradius.",
+    "desc": "R-Type 是一款橫向捲軸射擊遊戲，以其極其艱難和戰略性的遊戲玩法而聞名。你控制 R-9 宇宙飛船，它會發起最後的努力，擊退邪惡的 Bydo 帝國。\n\nR-9 標配一門小型火砲，只能擊落最小的敵人，而無需發射數槍。通過按住開火按鈕，它可以被裝載，從而釋放出大量的能量，消滅路徑上除了最強大的敵人之外的所有敵人。有時，豆莢會朝你的方向飛來。被射擊後，他們會發布升級。第一個總是被稱為“原力”的武器吊艙，它是一個武器吊艙，可以緊貼在你的船的前部或後部，吸收任何敵人的子彈，或者充當保險槓，讓你可以正面飛向他們。你也可以通過發射它並將其拉回來將其用作進攻性武器。掌握原力對於在 R-Type 中生存至關重要，因為它必須既可以用作防禦子彈群的保護，也可以用作遙控大砲，也可以用來清除屏幕上的障礙物。其他升級為您提供目標搜尋導彈或更大的主砲。不同的槍支類型通過顏色區分，有不同的用途。藍色發射激光束在屏幕上彈跳（適合隧道），紅色發射直接向前射擊，黃色發射則沿著可能遇到的任何牆壁（適合火砲陣地）。\n\nR-Type 的舞台採用有機風格製作，靈感當然是受到 H. R. Giger 的《異形》電影藝術作品的啟發。當它問世時，它被認為是引領潮流的，因為它打破了其他射擊遊戲的刻板科幻模式。在某種程度上，關卡本身就是你的敵人，第四個關卡就是一個例子，蜘蛛狀的生物編織著覆蓋屏幕並阻擋你的道路的網，或者帶有復雜隧道系統的關卡。儘管如此，這些關卡最好通過策略和反應的結合來處理，而不需要像 R-Type 的當代競爭對手 Gradius 那樣需要記憶。",
+    "desc_source": "api"
+  },
+  "Sword of Hope, The (USA)": {
+    "key": "Sword of Hope, The (USA)",
+    "original_name": "The Sword of Hope",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "A dragon has gained control over the king of Riccar, manipulating him into removing the Sword of Hope from a painting, releasing its curse. Summoning the dark power mammon the dragon turned the people of Riccar into trees. When Prince Theo is born, the king tries to murder him, but Theo is saved by the brave knight Pascal who flees with him  into a forest where three magicians live who conceal the king's castle underground to prevent the evil from spreading. After living in the forest for 15 years, Prince Theo is finally strong enough to try and stop the dragon, using the Sword of Hope one of the magicians had retrieved.\n\nSword of Hope combines Adventure and RPG elements. The prince can select commands such as \"look\", \"open\", \"magic\", \"use\" etc. to interact with  the game world, talk to NPCs or solve puzzles. When he encounters an enemy, the game switches to a turn based battle mode in which enemies have to be fought in typical console style RPG battles.",
+    "desc": "一條龍控制了里卡國王，操縱他從畫中取出希望之劍，釋放了它的詛咒。龍召喚黑暗力量瑪蒙，將里卡的人民變成了樹木。當西奧王子出生時，國王試圖謀殺他，但西奧被勇敢的騎士帕斯卡救了，帕斯卡和他一起逃進了森林，那裡住著三個魔法師，他們將國王的城堡隱藏在地下，以防止邪惡蔓延。在森林裡生活了 15 年之後，西奧王子終於有足夠的力量嘗試使用一位魔術師取回的希望之劍來阻止巨龍。\n\n希望之劍結合了冒險和角色扮演元素。王子可以選擇“看”、“打開”、“魔法”、“使用”等命令來與遊戲世界互動、與 NPC 交談或解決謎題。當他遇到敵人時，遊戲會切換到回合製戰鬥模式，必須在典型的主機風格角色扮演遊戲中與敵人戰鬥。",
+    "desc_source": "api"
+  },
+  "Bugs Bunny Crazy Castle 2, The (USA)": {
+    "key": "Bugs Bunny Crazy Castle 2, The (USA)",
+    "original_name": "The Bugs Bunny Crazy Castle 2",
+    "name": "喷神James节目列表",
+    "name_source": "wiki",
+    "original_desc": "Honey Bunny has been kidnapped by an evil witch, who has placed her inside a huge castle. Bugs must find a way through the castle to save Honey in his second Game Boy adventure. This time around Bugs must collect 8 keys in each of the 28 levels to advance. Along the way, Foghorn Leghorn, Wile E. Coyote, Yosemite Sam, and others will attempt to impede your progress.",
+    "desc": "蜂蜜兔被邪惡女巫綁架，並被安置在一座巨大的城堡裡。在他的第二次 Game Boy 冒險中，巴哥斯必須找到穿過城堡的方法來拯救哈妮。這次，Bugs 必須在 28 個關卡中的每個關卡中收集 8 個鑰匙才能晉級。一路上，Foghorn Leghorn、Wile E. Coyote、Yosemite Sam 和其他人會試圖阻礙你的前進。",
+    "desc_source": "api"
+  },
+  "Contra - The Alien Wars (USA) (SGB Enhanced)": {
+    "key": "Contra - The Alien Wars (USA) (SGB Enhanced)",
+    "original_name": "Contra : The Alien Wars",
+    "name": "PlayStation游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Welcome to 2636 the year the notorious Red Falcon gets even-with an unprecedented alien onslaught orchestrated to push the Contra forces to their ultimate reaches.\n\nPlunge through a molten massacre on a high speed voyage to the guts of the archenemy alien. Check out the side and top perspectives that engulf you in a 3-D sensation. Pick off solar slimedogs while you scale over walls swing from girders and ropes whatever it takes to defeat Red Falcon's allies. Sweat through five gut-splitting stages including the Streets of the Neo City and the Mucho Grande Badlands.\n\nThe intensity is so real that the explosions will nearly knock you off your feet. And the Boss Enemies are so gigantic, your screen can hardly hold them. You'll need to wrap both hands around artillery powerful enough to make today's weapons look like squirt guns. Tbe Contra legacy is alive and dangerous.",
+    "desc": "歡迎來到 2636 年，這一年臭名昭著的紅隼展開了報復——一場史無前例的外星人精心策劃的猛攻將魂斗羅勢力推向了極限。\n\n在高速航行中，衝入熔岩般的屠殺，直達大敵外星人的內臟。查看讓您沉浸在 3D 感覺中的側面和頂部視角。當你翻過牆壁時，用大樑和繩索擺動，消滅太陽粘液狗，不惜一切代價擊敗紅隼的盟友。汗流浹背地闖過五個令人心碎的關卡，包括新城街道和穆喬格蘭德荒地。\n\n其強度是如此真實，爆炸幾乎會讓你驚呆。而且頭目敵人是如此巨大，你的屏幕幾乎無法容納它們。你需要用雙手握住足夠強大的火砲，使今天的武器看起來像水槍。魂斗羅的遺產仍然存在，但也很危險。",
+    "desc_source": "api"
+  },
+  "Ninja Boy 2 (USA, Europe)": {
+    "key": "Ninja Boy 2 (USA, Europe)",
+    "original_name": "Ninja Boy 2",
+    "name": "Game Source Entertainment",
+    "name_source": "wiki",
+    "original_desc": "Ninja Boy 2 is an Action game, developed and published by Culture Brain, which was released in Japan in 1991 as Super Chinese Land 2.",
+    "desc": "《忍者小子2》是一款動作遊戲，由Culture Brain開發並發行，於1991年在日本發行，名為《超級中華大地2》。",
+    "desc_source": "api"
+  },
+  "Gargoyle's Quest II - The Demon Darkness (Japan) (Translated)": {
+    "key": "Gargoyle's Quest II - The Demon Darkness (Japan) (Translated)",
+    "original_name": "ZZZ(notgame):Gargoyle's Quest II - The Demon Darkness",
+    "name": "ZZZ:石像鬼的任務 II - 黑暗惡魔",
+    "name_source": "api",
+    "original_desc": "",
+    "desc": "",
+    "desc_source": ""
+  },
+  "Castlevania - The Adventure (USA)": {
+    "key": "Castlevania - The Adventure (USA)",
+    "original_name": "Castlevania : The Adventure",
+    "name": "恶魔城系列",
+    "name_source": "wiki",
+    "original_desc": "A challenge you can't walk away from!\n\nAfter getting his wings clipped in Castlevania and Simon's Quest, the death defying Count has risen again.\n\nDesiring revenge even more than blood, he'll descend upon your Game Boy, with fangs glistening by the light of the silvery full moon.\n\nTo survive his maze of torture chambers and vampire crypts, you must unlock the castle's secrets by locating hearts, crystals and crosses. You must also possess the strength to master the Mystic Whip, which wards off unearthly evils like the She Worm.\n\nSo risk your neck and accept Drac's challenge. Because if you fail to destroy him now, he will rule the night forever.",
+    "desc": "一個你無法逃避的挑戰！\n\n在《惡魔城》和《西蒙的任務》中翅膀被折斷後，這位不畏死亡的伯爵再次崛起。\n\n他對複仇的渴望甚至超過了對鮮血的渴望，他會降臨到你的遊戲機上，他的獠牙在銀色滿月的光芒下閃閃發光。\n\n為了在充滿酷刑室和吸血鬼地穴的迷宮中生存，你必須通過找到心、水晶和十字架來解開城堡的秘密。你還必須擁有掌握神秘鞭子的力量，它可以抵禦諸如母蟲之類的超凡邪惡力量。\n\n所以，冒著生命危險接受德拉克的挑戰吧。因為如果你現在不能消滅他，他將永遠統治黑夜。",
+    "desc_source": "api"
+  },
+  "Tennis (World)": {
+    "key": "Tennis (World)",
+    "original_name": "Tennis",
+    "name": "實況桌球",
+    "name_source": "wiki",
+    "original_desc": "Tennis is, as the name implies, Nintendo's version of the sport. One player vs computer or two players will compete in tennis in a more or less standard suite of rules (scoring, sets etc.).\n\nPlayers are controlled by the movement buttons, but while button A indicates a low hit, button B indicates a high one. You have the choice of four levels of computer AI, or two player via Game Boy link cable. The usual assortment of shots are available, including forehand and backhand, lobs and volleys when up close to the net.",
+    "desc": "顧名思義，網球是任天堂版的這項運動。一名球員與計算機或兩名球員將按照一套或多或少標準的規則（得分、局數等）進行網球比賽。\n\n玩家由移動按鈕控制，按鈕 A 表示低擊，而按鈕 B 表示高擊。您可以選擇四個級別的計算機人工智能，或通過 Game Boy 連接電纜選擇兩個玩家。可以使用常見的各種擊球方式，包括正手和反手、高球和近網截擊。",
+    "desc_source": "api"
+  },
+  "Fighting Simulator 2 in 1 - Flying Warriors (USA, Europe)": {
+    "key": "Fighting Simulator 2 in 1 - Flying Warriors (USA, Europe)",
+    "original_name": "Fighting Simulator - 2 in 1 Flying Warriors",
+    "name": "2015年電子遊戲界",
+    "name_source": "wiki",
+    "original_desc": "AVAILABLE FOR THE 1ST.TIME ON THE GAME BOY! 2 GAMES IN 1, THIS IS ONE OF THE MOST POWERFUL VS TOURNAMENT GAME EVER MADE! I FIGHTING SIMULATOR MODE\n\nThere are 7 different contact sport to choose from in this game pack,including Kung-fu wrestling,and boxing. Choose your favorite sport and play for the World Championship! By using the GameLink feature,you can enjoy a vs tournament with your friends. Fierce fights for the title of the strongest in the world begin now!\n\nII FLYING WARRIORS ACTION GAME MODE\n\nBesides a fighting simulator mode,there is a scroll action game too. Our superhero Rick,fights against a mysterious enemy, the Dark Dragon. Fight through the numerous formidable enemies and traps and get tne legendary treasure back from evil's hand.",
+    "desc": "越南大戰系列（日語：メタルスラッグ，英語：Metal Slug，中國大陸譯作「合金彈頭」，香港譯作「鋼鐵蟲師」）是一系列的橫向捲軸射擊遊戲。主系列合共發佈七作。首作《越南大戰》1996年問世，由Nazca開發並發行於Neo Geo大型電玩（MVS）和Neo Geo家用遊戲機（AES）上，發行後遊戲獲得廣泛好評，日本雜誌《Game Machine》將該作列為當時第七大最受歡迎的大型電玩遊戲。同年SNK收購Nazca，發行了兩部主系列作品。SNK在2000年開始虧損，公司將越南大戰系列的智慧財產權出售予BrezzaSoft。隨後在2001年10月22日宣佈破產。但在破產前，SNK創辦人川崎英吉創辦了Playmore（其後易名SNK Playmore和現今SNK），收購回系列的智慧財產權。餘下四部主系列作品由該公司發佈，評價則較為中庸。\n除此之外，本系列中有兩部為主系列重製版，分別為《越南大戰X》與《越南大戰XX》，對原主系列作品的玩法、音樂、圖像等方面增添修改。主系列和重製版多部作品都被移植到不同遊戲平台上。另外亦有多部衍生遊戲，大部分由SNK發行。",
+    "desc_source": "wiki"
+  },
+  "Adventures of Star Saver, The (USA, Europe)": {
+    "key": "Adventures of Star Saver, The (USA, Europe)",
+    "original_name": "The Adventures of Star Saver",
+    "name": "红白机游戏列表",
+    "name_source": "wiki",
+    "original_desc": "On a routine check through the city, police officer Tony and his sister find themselves sucked up by a UFO and transported to a distant land. Separated from his sister, Tony is left stranded in the middle of nowhere, but luckily for him the aliens left something for him, having stolen a mech from elsewhere in the galaxy. Powerful and deadly, the mech seems to have a mind of its own, and agrees to join Tony on the quest to find his sister.\n\nThe side-scrolling shooter pits you against a host of different alien creatures across the galaxy. You'll start inside the mech itself, collecting weapon upgrades along the way to increase your chances of defeating the alien scum. But be careful, if you're hit by them, you'll lose the safety of the mech and be all by yourself.",
+    "desc": "網際網路特有的社會和文化現象包括的網路迷因，像是流行主題、流行語、圖像、網路爆紅短片和笑話。當這種時尚和感覺在網路上出現時，它們往往會迅速增長並變得更加普遍，因為即時通信促進了口耳相傳的傳播。\n以下部分列表更側重於不受地區網際網路法律限制的網際網路現象；其他國家，例如中國或巴基斯坦，確實存在不受地區法律禁止的特定網際網路現象。 這些都包含在中國大陸網路熱點事件列表和巴基斯坦網路熱點事件列表中。",
+    "desc_source": "wiki"
+  },
+  "Avenging Spirit (USA, Europe)": {
+    "key": "Avenging Spirit (USA, Europe)",
+    "original_name": "Avenging Spirit",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In Avenging Spirit the protagonist is a spirit out for revenge. He has been murdered by a group of gangsters and his girlfriend has taken hostage by them. Her father uses his brand new machine to call the man's spirit back from the dead, telling him that they are holding his daughter ransom unless he turns over his research of ghost energy.\n\nIn side-scrolling fashion, the game features six different stages - the city, the rooftops, a factory, the city sewers and two levels dealing with the mobsters base of operation. The player is able to possess enemies, 20 in all, and use any skills or weapons they have, to complete the level. The player's health is represented by ghost energy and it is drained when he is not inside a host. The story leads to two different endings.",
+    "desc": "在《復仇之魂》中，主角是一個為複仇而奮鬥的靈魂。他被一群歹徒謀殺，他的女朋友被他們扣為人質。她的父親用他的全新機器將這個人的靈魂從死裡復活，並告訴他，除非他交出他對幽靈能量的研究，否則他們正在勒索他女兒的贖金。\n\n以橫向捲軸的方式，遊戲有六個不同的階段——城市、屋頂、工廠、城市下水道和兩個處理黑幫行動基地的關卡。玩家能夠附身敵人（總共 20 個），並使用他們擁有的任何技能或武器來完成關卡。玩家的生命值由幽靈能量表示，當他不在宿主體內時，幽靈能量就會被耗盡。故事導致兩個不同的結局。",
+    "desc_source": "api"
+  },
+  "Frog For Whom the Bell Tolls, The (Japan) (Translated)": {
+    "key": "Frog For Whom the Bell Tolls, The (Japan) (Translated)",
+    "original_name": "Kaeru no Tame ni Kane wa Naru",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Prince Richard and Prince Sablé have been rivals since they were young.  When news arrives of a princess in a far-off kingdom who requires rescuing, Richard dashes off in the hopes of saving her before Sablé manages to.  Left to catch up, Sablé explores the land, and soon becomes cursed, turning into a frog whenever a strange bell is heard.  Sablé must remove the curse and rescue the princess.\n\nKaeru No Tame Ni Kane Wa Naru is an action-adventure game.  The game plays in two modes: a top-down view (where most exploration and battle is done), and a side-scrolling view (where more puzzle solving is done than battles).  Battling is not actually performed by the player, instead it is all automatic.  If you bump into an enemy, you will see a dust cloud appear, and the pair will scuffle, with each character's health draining.  Whoever loses all their health first loses the battle.  Sablé can increase his battle advantage by collecting heart containers (to increase his life bar), and power ups that increase statistics like power and defense.\n\nAnother feature of Kaeru No Tame Ni Kane Wa Naru is Sablé's ability to transform into a frog at certain points in the game.  This allows him to access areas that he previously could not.  The main goal of the game is to conquer a huge castle, however, sections are sealed off until you complete parts of the story, allowing you to explore it in small parts at a time.",
+    "desc": "理查德王子和薩布萊王子從小就是競爭對手。當遙遠王國的一位公主需要營救的消息傳來時，理查德趕緊出發，希望能在薩布萊成功之前救出她。為了追趕，薩布萊探索了這片土地，很快就受到了詛咒，每當聽到奇怪的鈴聲時就會變成青蛙。薩布萊必須解除詛咒並營救公主。\n\n《Kaeru No Tame Ni Kane Wa Naru》是一款動作冒險遊戲。遊戲有兩種模式：自上而下的視圖（大部分探索和戰鬥都在其中完成）和橫向滾動視圖（解決謎題比戰鬥更多）。戰鬥實際上並不是由玩家執行的，而是完全自動的。如果你撞到敵人，你會看到一片塵埃雲出現，兩人會扭打在一起，每個角色的生命值都會耗盡。誰先失去全部生命值，誰就輸掉了戰鬥。薩布萊可以通過收集心臟容器（以增加他的生命條）和增加能量和防禦等統計數據的能量來增加他的戰鬥優勢。\n\nKaeru No Tame Ni Kane Wa Naru 的另一個特點是 Sablé 能夠在遊戲中的某些時刻轉變成青蛙。這使他能夠進入以前無法進入的領域。遊戲的主要目標是征服一座巨大的城堡，但是，在您完成部分故事之前，各個部分都會被封鎖，讓您一次可以探索一小部分。",
+    "desc_source": "api"
+  },
+  "Aerostar (USA, Europe)": {
+    "key": "Aerostar (USA, Europe)",
+    "original_name": "Aerostar",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Aerostar is a top-down, vertically-scrolling shooter. The player controls an aircraft, but instead of going all across the screen, it can only stay on or fly over a preset road. However, it can ascend at the cost of disabling your weapons before descending back onto either another road or the one it was on before. Like most top-down shooters, there are power-up pods which provide an array of missiles, lasers, and guardian pods. In the end of each level there are extremely tough bosses. No storyline is provided.",
+    "desc": "Aerostar 是一款自上而下、垂直滾動的射擊遊戲。玩家控制一架飛機，但它不能飛過屏幕，只能停留在預設的道路上或飛過預設的道路。然而，它可以以禁用你的武器為代價，然後下降到另一條道路或之前所在的道路上。與大多數自上而下的射擊遊戲一樣，遊戲中也有能量提升艙，可提供一系列導彈、激光和守護艙。每個關卡的最後都有非常難對付的老闆。沒有提供故事情節。",
+    "desc_source": "api"
+  },
+  "Nemesis II - The Return of the Hero (Europe)": {
+    "key": "Nemesis II - The Return of the Hero (Europe)",
+    "original_name": "Nemesis II : The Return of the Hero",
+    "name": "PlayStation游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In the year 6664 Dr. Venom, the director of the Space Science Agency, was exiled to the planet Sard for his involvement in a failed rebellion and illegal scientific activities. One year later, he joined forces with the Bacterion invaders, escaped Sard, and took control of the space surrounding the planet Gradius. In 6666, the local government sends Colonel James Burton on the newest hyperspace fighter known as Metalion. The goal is clear: stop Dr. Venom and the Bacterion army before they conquer the planet.\n\nNemesis 2 (Gradius 2 in Japan) is a side-scrolling shoot-em-up. The gameplay is for the most part similar to that of Gradius. The player-controlled ship can alternate between three main weapons: Missile, Double, and Laser. Extra weapons such as various types of lasers, napalm missiles, reflex ring, and back beam can be collected as power-ups and equipped. In addition, special power-ups can be acquired, their effects ranging from slowing down enemies to turning the Metalion into an invincible drill-like machine for a brief amount of time. Boss battles are followed by optional mini-stages, which grant the player new weapons if completed successfully.",
+    "desc": "6664年，太空科學局局長毒液博士因參與失敗的叛亂和非法科學活動而被流放到薩德星球。一年後，他與細菌入侵者聯手，逃離了薩德，並控制了格拉迪烏斯行星周圍的空間。6666 年，當地政府派遣詹姆斯·伯頓上校駕駛最新的超空間戰鬥機“梅塔利翁”。目標很明確：在毒液博士和細菌軍隊征服地球之前阻止他們。\n\n《Nemesis 2》（日本版《Gradius 2》）是一款橫向捲軸射擊遊戲。遊戲玩法在很大程度上與《Gradius》類似。玩家控制的飛船可以在三種主要武器之間切換：導彈、雙發武器和激光。額外的武器，如各種類型的激光、凝固汽油彈、反射環和後光束，可以作為能量收集和裝備。此外，還可以獲得特殊的能量提升，其效果包括減慢敵人的速度，以及在短時間內將金屬金屬變成無敵的類似鑽頭的機器。Boss 戰之後是可選的迷你階段，如果成功完成，這些階段將授予玩家新武器。",
+    "desc_source": "api"
+  },
+  "Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev 2)": {
+    "key": "Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev 2)",
+    "original_name": "Super Mario Land 2 : 6 Golden Coins",
+    "name": "马力欧系列游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Second in the Game Boy's line of Mario games, this one takes the evolutionary steps that Super Mario 3 for the NES took with it's predecessors. New graphics, power-ups, challenges, and a completely original storyline. A bad version of Mario, Wario, takes over Mario's castle and locks him out using 6 golden coins. Mario must search for said coins all over Mario Land to take back his castle and go one-on-one with Wario himself.",
+    "desc": "任天堂DSi（日語：ニンテンドーDSi，英語：Nintendo DSi，多簡稱為NDSi、DSi）是日本電子遊戲商任天堂研發的掌上遊戲機，為任天堂DS系列的第三代機種，前代主機為2006年推出的任天堂DS Lite。\n原版任天堂DSi於2008年10月的東京任天堂秋季發表會上首次公開，並於同年11月在日本、2009年4月在歐洲及北美地區正式推出；2009年底，任天堂發售任天堂DSi大螢幕升級機型，取名為任天堂DSi LL（歐美地區稱為任天堂DSi XL）。繼任主機為2011年推出的任天堂3DS。\n任天堂DSi的外型及規格大致與任天堂DS Lite相同，整體風格延續任天堂DS系列的雙螢幕設計，不過加大了螢幕尺寸，並新增了相機功能；不過，為了減少主機厚度及製造成本，任天堂DSi取消了任天堂DS系列一貫的向下相容設計，並移除了Game Boy Advance卡匣插槽。任天堂DSi與所有的原版任天堂DS遊戲皆相容，並另外擁有獨立的數位遊戲陣容DSiWare。任天堂DSi/DSi LL合計銷量為4137萬部，使任天堂DS系列主機之總銷量達到了1億5402萬部，位居電子遊戲機銷量排行第二名，僅次於索尼的PlayStation 2。",
+    "desc_source": "wiki"
+  },
+  "Kwirk - He's A-maze-ing! (USA, Europe)": {
+    "key": "Kwirk - He's A-maze-ing! (USA, Europe)",
+    "original_name": "Kwirk : He's A-maze-ing!",
+    "name": "Kwirk：他太令人驚奇了！",
+    "name_source": "api",
+    "original_desc": "Kwirk is a puzzle-game, in which you have to help a tomato reach the exit of numerous levels. The path to the exit is blocked by boxes, holes and spinning doors. Boxes can be pushed aside or into holes to make them traversable and there are different types of spinning doors. In some levels, it is also possible (and necessary) to control several different characters to help the main character get to the exit. As the game progresses, levels get larger and more complicated.",
+    "desc": "Kwirk 是一款益智遊戲，您必須幫助番茄到達多個關卡的出口。通往出口的道路被盒子、洞和旋轉門擋住。盒子可以被推到一邊或推入孔中以使其可以通過，並且有不同類型的旋轉門。在某些關卡中，還可以（並且有必要）控制幾個不同的角色來幫助主角到達出口。隨著遊戲的進展，關卡變得更大、更複雜。",
+    "desc_source": "api"
+  },
+  "Gremlins 2 - The New Batch (World)": {
+    "key": "Gremlins 2 - The New Batch (World)",
+    "original_name": "Gremlins 2 : The New Batch",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Gizmo is trapped inside Clamp Centre by the evil Gremlins. Your mission? Help him battle his way to the control center and rid the city forever of the Gremlin menace! It's not going to be easy. You'll have to use cunning and wits to survive with only the weapons you find inside Clamp Centre... matches, a flashlight, tomatoes, and a homemade bow and arrow. But, if you're lucky, the door to Mr. Wing's Magic Shop may mystically appear... and let you buy some very special - and powerful - items to help you. This game has all the traps, mazes, and lightning quick moves to push your skill to the limits. And it has graphics that seem to come alive on the screen. Gremlins. Stopping them is not going to be easy. Don't say we didn't warn you!",
+    "desc": "Gizmo 被邪惡的 Gremlins 困在 Clamp Center 內。你的使命？幫助他殺出一條血路，到達控制中心，讓這座城市永遠擺脫小魔怪的威脅！這並不容易。你必須運用狡猾和智慧才能生存，只使用你在夾鉗中心找到的武器……火柴、手電筒、西紅柿和自製的弓箭。但是，如果你幸運的話，翼先生魔法商店的門可能會神秘地出現……並讓你購買一些非常特殊且強大的物品來幫助你。這款遊戲擁有所有陷阱、迷宮和閃電般的快速動作，可將你的技能推向極限。它的圖形在屏幕上看起來栩栩如生。小魔怪。阻止他們並不容易。別說我們沒有警告你！",
+    "desc_source": "api"
+  },
+  "Dr. Franken (USA)": {
+    "key": "Dr. Franken (USA)",
+    "original_name": "Dr. Franken",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Franky, one of the many creations of Dr Von Frankenbone, has awoken to find his love, Bitsy, has vanished. Discovering the other evil creations of the castle has taken Bitsy and left pieces of her around the castle, Franky must find his way through the many levels and put Bitsy back together.\n\nFranky can shoot his way past many of the evil creatures, but you must also dodge falling objects and jump over trapdoors to stay alive. Power outlets can re-charge Franky to full health, while lamps must be used to see through the dark dungeons.",
+    "desc": "弗蘭基是馮·弗蘭肯伯恩博士的眾多創造物之一，他醒來後發現他的愛人比西消失了。弗蘭奇發現城堡中的其他邪惡造物已經帶走了比西，並在城堡周圍留下了她的碎片，弗蘭基必須找到穿越各個關卡的方法，將比西重新組合起來。\n\n弗蘭奇可以射殺許多邪惡的生物，但你也必須躲避墜落的物體並跳過活板門才能生存。電源插座可以為弗蘭奇補充生命值，而必須使用燈才能看清黑暗的地牢。",
+    "desc_source": "api"
+  },
+  "Vattle Giuce (Japan)": {
+    "key": "Vattle Giuce (Japan)",
+    "original_name": "Vattle Giuce",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "A vertical shoot-'em-up released for the Game Boy in Japan in 1991.",
+    "desc": "1991 年在日本為 Game Boy 發布的一款垂直射擊遊戲。",
+    "desc_source": "api"
+  },
+  "World Heroes 2 Jet (USA, Europe) (SGB Enhanced)": {
+    "key": "World Heroes 2 Jet (USA, Europe) (SGB Enhanced)",
+    "original_name": "World Heroes 2 Jet",
+    "name": "Greatest Hits",
+    "name_source": "wiki",
+    "original_desc": "World Heroes 2 JET is the third game in the World Heroes series. A third tournament featuring warriors from all over the world (and different periods in time) has begun, and it's up to you to fight to the finish to find out who is organizing it.\n\nThe game is an upgrade / fine-tuning of World Heroes 2, and contains many new features:Two new fighters, Jack and Ryofu, have been added to the game\nTwo all-new fighting modes have been added: \"Entry to the Tournament\" (story mode), and \"The Forging of Warriors\"\nYou can now dash towards or away from your opponent\nIf you and your enemy hit each other with an attack that has the same power, you'll freeze for a moment and push each other awayAll new stages and music have also been included.\"Entry to the Tournament\" features you fighting several elimination rounds against three different opponents; you have to win two out of three one-round matches to move on. \"The Forging of Warriors\" is a training mode where you can fight against four different enemies in order to hone your skills.",
+    "desc": "Dreamcast（日語：ドリームキャスト，簡稱為DC）是日本電子遊戲商SEGA於1998年11月27日在日本、1999年9月9日在北美、1999年10月14日在歐洲發行的家用遊戲機，為第六世代電子遊戲機中第一部推出的主機，也是SEGA開發的最後一部家用遊戲機。主要競爭對手包括索尼的PlayStation 2、任天堂的任天堂GameCube及微軟的Xbox。\n與前代主機SEGA土星不同，Dreamcast採用了日立的SH-4中央處理器（CPU）及VideoLogic/日本電氣的PowerVR2圖形處理器（GPU）等現成組件取代客製化組件，藉以降低成本。儘管Dreamcast在北美地區發售初期頗有斬獲，但在索尼力推其PlayStation 2之後，Dreamcast主機銷量便逐漸滑落；在銷量長期低迷的情況下，SEGA的財務損失持續擴大。在改組領導層之後，SEGA最終在2001年1月31日宣布於3月底終止Dreamcast硬體製造及開發、全面退出家用遊戲機硬體市場，並改組為純第三方遊戲開發商。Dreamcast在其生命週期中銷量僅有約1000萬部，是SEGA最重大的商業失敗之一。\n雖然Dreamcast的生命週期不長、第三方遊戲有限，但輿論普遍認為Dreamcast是一部超前時代的主機。Dreamcast擁有《瘋狂計程車》、《Jet Set Radio》和《莎木》系列等創意十足的獨占遊戲，以及一些來自SEGA自有大型電玩系統NAOMI的高品質移植作品。Dreamcast也是第一部內建撥接網路並提供原生網路遊戲的家用遊戲機。",
+    "desc_source": "wiki"
+  },
+  "Donkey Kong Land (USA, Europe) (SGB Enhanced)": {
+    "key": "Donkey Kong Land (USA, Europe) (SGB Enhanced)",
+    "original_name": "Donkey Kong Land",
+    "name": "马力欧系列游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In a modifiication of Donkey Kong Country, Donkey Kong teams up with his buddy Diddy for new adventures and gorilla antics. Facing high-flying pigs, killer bees, and reptilian Kremlings, the simian duo swings back into action on the Game Boy. \n\nThe two Kongs each have similar abilities when compared to the SNES game.\n \nThis game isn't exactly a remake of DKC; for instance, there are new levels and enemies, and Candy Kong does not save your game: instead you must collect all four Kong letters.",
+    "desc": "在《大金剛鄉村》的修改版中，大金剛與他的好友迪迪合作，進行新的冒險和大猩猩的滑稽動作。面對高空飛翔的豬、殺人蜂和爬行動物克雷姆林，這對猿猴二人組在 Game Boy 上重新投入行動。\n\n與 SNES 遊戲相比，這兩款 Kong 的能力相似。\n\n這款遊戲並不完全是 DKC 的重製版；它是 DKC 的重製版。例如，有新的關卡和敵人，而 Candy Kong 不會保存你的遊戲：相反，你必須收集所有四個 Kong 字母。",
+    "desc_source": "api"
+  },
+  "Donkey Kong Land III (USA, Europe) (Rev 1) (SGB Enhanced)": {
+    "key": "Donkey Kong Land III (USA, Europe) (Rev 1) (SGB Enhanced)",
+    "original_name": "Donkey Kong Land III",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "DK and Diddy Kong have left in search of The Lost World after hearing of a contest to find it on the radio. This leaves Dixie stuck with minding her baby cousin Kiddy Kong. Frustrated at this, she decides to take Kiddy with her and find The Lost World before everyone else!\nThe level archetypes are the same as in Donkey Kong Country 3, which takes place in the \"Northern Kremisphere\". While the levels have the same environments and the Donkey Kong Country 3 bosses return, the worlds and stage layouts are all unique.",
+    "desc": "任天堂DS遊戲列表列出對應任天堂DS、任天堂DS Lite和任天堂DSi平台的所有遊戲。",
+    "desc_source": "wiki"
+  },
+  "Pokemon - Red Version (USA, Europe) (SGB Enhanced)": {
+    "key": "Pokemon - Red Version (USA, Europe) (SGB Enhanced)",
+    "original_name": "Pokémon Red Version",
+    "name": "寶可夢系列 (遊戲)",
+    "name_source": "wiki",
+    "original_desc": "You begin your journey in Pallet Town as a young boy. After a dangerous brush with wild Pokémon, Professor Oak teaches you how to capture Pokémon, and then sends you on your way as a fledgling Trainer. During your journey through Kanto, you must capture Pokémon to record their information in your Pokédex, as well as become a better Trainer by competing in Gyms scattered throughout the region. Once you've proven your mettle as a Pokémon Trainer, it's time to take on the Elite Four, a crack group of Trainers that will put all of your learned skills to the test.",
+    "desc": "作為一個小男孩，你在托盤鎮開始了你的旅程。在與野生神奇寶貝發生危險的衝突之後，大木教授會教你如何捕捉神奇寶貝，然後讓你作為一名初出茅廬的訓練家踏上征程。在關東之旅中，你必須捕捉神奇寶貝，將它們的信息記錄在你的圖鑑中，並通過在遍布該地區的道館中競爭來成為一名更好的訓練家。一旦你證明了自己作為神奇寶貝訓練師的勇氣，就該挑戰精英四人組了，這是一個由精英訓練師組成的團隊，他們將考驗你所學到的所有技能。",
+    "desc_source": "api"
+  },
+  "Darkwing Duck (USA)": {
+    "key": "Darkwing Duck (USA)",
+    "original_name": "Disney's Darkwing Duck",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Darkwing Duck is a 2D 3rd person platform game featuring this Disney super-hero, friend of Lauchpad McQuack (the Duck Tales character who worked as a pilot for Scrooge McDuck).\n\nAs a decent super-hero, his role is to save the city from his enemies.\n\nGraphics are cartoonish, like other Disney licenses developed by Capcom, but darker.\n\nGameplay is similar to Mega Man and Duck Tales, in the same jump and run style. Controls are easy to handle.",
+    "desc": "Darkwing Duck 是一款 2D 第三人稱平台遊戲，主角是這位迪士尼超級英雄，La​​​​uchpad McQuack（《鴨子故事》中的角色，曾擔任 Scrooge McDuck 的飛行員）的朋友。\n\n作為一個正派的超級英雄，他的職責是從敵人手中拯救城市。\n\n與卡普空開發的其他迪士尼授權產品一樣，圖形是卡通風格的，但顏色更暗。\n\n遊戲玩法類似於《洛克人》和《鴨子故​​事》，具有相同的跳躍和奔跑風格。控制裝置易於操作。",
+    "desc_source": "api"
+  },
+  "Sword of Hope II, The (USA)": {
+    "key": "Sword of Hope II, The (USA)",
+    "original_name": "The Sword of Hope II",
+    "name": "2024年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "The Sword of Hope II follows the story of Prince Theo, who, together with the young survivor Mute and other allies, sets out to confront evil. Five hundred years ago, King Winder sealed the demon Zakdos in a casket, but when a thief breaks it open, Zakdos escapes, annihilates nearly all of wizard Colin's clan, and steals the Sword of Hope, once used to seal away a dragon. Your mission is to stop Zakdos and reclaim the sword before the dragon awakens. Unlike its predecessor, you now command a party of up to three characters. The world is explored from a first-person perspective by selecting directional arrows and using commands such as “look,” “open,” or “hit” to interact with the environment, talk to NPCs, or solve puzzles. Battles are turn-based – you can attack, use items or magic, or attempt to escape.",
+    "desc": "《希望之劍 II》講述了西奧王子的故事，他與年輕的倖存者穆特和其他盟友一起出發對抗邪惡。五百年前，溫德王將惡魔扎克多斯封印在棺材裡，但當小偷打開棺材時，扎克多斯逃脫，消滅了巫師科林的幾乎所有氏族，並偷走了曾經用來封印巨龍的希望之劍。你的任務是阻止扎克多斯並在巨龍甦醒之前奪回寶劍。與前作不同的是，你現在可以指揮一支最多由三個角色組成的隊伍。通過選擇方向箭頭並使用“看”、“打開”或“點擊”等命令來與環境互動、與 NPC 交談或解決謎題，從第一人稱視角探索世界。戰鬥是回合製的——你可以攻擊、使用物品或魔法，或者嘗試逃跑。",
+    "desc_source": "api"
+  },
+  "Kirby's Block Ball (USA, Europe) (SGB Enhanced)": {
+    "key": "Kirby's Block Ball (USA, Europe) (SGB Enhanced)",
+    "original_name": "Kirby's Block Ball",
+    "name": "2015年電子遊戲界",
+    "name_source": "wiki",
+    "original_desc": "Kirby takes on a new challenge, blockball. The playing field contains a variety of blocks, and using Kirby's rolling technique, you must set him into motion (with paddles situated around the field of play, similar to pinball) to clear the blocks from the field. Each level contains more and more blocks to clear, and after a few rounds you take on boss characters in a one-on-one round to see if you can clear more blocks.",
+    "desc": "卡比接受了新的挑戰：方塊球。比賽場地包含各種方塊，並且使用卡比的滾動技術，您必須讓他運動（在比賽場地周圍放置槳，類似於彈球）以清除場地中的方塊。每個關卡都包含越來越多的方塊需要清除，幾輪之後，您將與頭目角色進行一對一的戰鬥，看看您是否可以清除更多的方塊。",
+    "desc_source": "api"
+  },
+  "Operation C (USA)": {
+    "key": "Operation C (USA)",
+    "original_name": "Operation C",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Operation C is a Game Boy sequel to the popular NES titles Contra and Super C and is, essentially, a side-scrolling shooter. You play a Rambo-esque character that goes around shooting everything in sight, collecting weapon upgrades and bonuses.\n\nThe game introduces the character of Black Viper to the series' oft-jumbled continuity.  Black Viper would later return in the Nintendo DS title, Contra 4, as the primary villain.  \n\nThe game features only five levels, two of which are played from an overhead perspective similar to Super C.  Operation C is also notable in featuring the upgradable Spread Gun (from three to five shots) and introducing the Hunter Gun.  \n\nThere is also the occasional platform element such as jumping puzzles, moving platforms etc., and the mandatory end-level boss.",
+    "desc": "C行動是流行的NES遊戲《魂斗羅》和《Super C》的Game Boy續作，本質上是一款橫向捲軸射擊遊戲。你扮演一個蘭博式的角色，四處射擊視線中的一切，收集武器升級和獎金。\n\n該遊戲將黑毒蛇這一角色引入了該系列經常混亂的連續性中。黑毒蛇後來在任天堂 DS 遊戲《魂斗羅 4》中回歸，作為主要反派。\n\n該遊戲只有五個關卡，其中兩個關卡是從類似於 Super C 的俯視視角進行的。 C 行動的另一個亮點是可升級的散佈槍（從三發到五發）並引入了獵人槍。\n\n還有偶爾的平台元素，如跳躍謎題、移動平台等，以及強制性的最終級別老闆。",
+    "desc_source": "api"
+  },
+  "Mega Man V (USA) (SGB Enhanced)": {
+    "key": "Mega Man V (USA) (SGB Enhanced)",
+    "original_name": "Mega Man V",
+    "name": "2025年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "One peaceful day, Mega Man and his sister Roll are enjoying a quiet stroll through a meadow when they are suddenly attacked by a robot named Terra, who says that he and his soldiers, the StarDroids, are going to conquer the Earth! Mega Man attempts to fight off this new foe, but is quickly beaten by the StarDroid's far superior firepower.\n\nLater, Mega Man awakens to find Dr. Light standing over him, telling him that the StarDroids have almost taken over the world. But thankfully he was quickly able to examine both their firepower and their structures, and was able to modify Mega Man's weapon system into something much more powerful. Mega Man tries this new weapon, and finds that he can now fire his whole fist! Dr. Light dubs this new weapon the \"Mega Arm\"!\n\nNow, armed with the Mega Arm, and a new companion, the robotic cat Tango, Mega Man must destroy the StarDroids and save the planet while he can!",
+    "desc": "一個平靜的一天，洛克人和他的妹妹羅爾正在草地上安靜地散步，突然遭到一個名叫泰拉的機器人的攻擊，泰拉說他和他的士兵星際機器人將征服地球！洛克人試圖擊退這個新敵人，但很快就被 StarDroid 強大的火力擊敗。\n\n後來，洛克人醒來，發現光博士站在他身邊，告訴他星際機器人幾乎已經佔領了世界。但值得慶幸的是，他很快就能夠檢查它們的火力和結構，並能夠將洛克人的武器系統修改為更強大的東西。洛克人嘗試了這種新武器，發現他現在可以用整個拳頭射擊！萊特博士將這種新武器稱為“超級手臂”！\n\n現在，裝備了巨型手臂和新夥伴機器貓探戈，洛克人必須摧毀星際機器人並儘其所能拯救地球！",
+    "desc_source": "api"
+  },
+  "Dead Heat Scramble (USA)": {
+    "key": "Dead Heat Scramble (USA)",
+    "original_name": "Dead Heat Scramble",
+    "name": "Game Boy Advance游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Dead Heat Scramble is a relatively simple racing game. The player chooses between three cars (dune buggy, sand rail or off-road truck) and races against the clock while dodging obstacles like other cars or blockades. The ten courses, which have to be unlocked in a linear order, take place in a tube and are shown in a cross-sectional view from above. The cars can move left and right on the bend. Other than that there are also a few power-ups to collect on the way which bring advantages like a nitro boost.",
+    "desc": "Dead Heat Scramble 是一款相對簡單的賽車遊戲。玩家在三輛汽車（沙丘越野車、沙地鐵路或越野卡車）之間進行選擇，並與時間賽跑，同時躲避其他汽車或封鎖等障礙物。必須按線性順序解鎖的十個過程在管子中進行，並以俯視剖視圖顯示。汽車可以在彎道上左右移動。除此之外，沿途還可以收集一些道具，這些道具可以帶來硝基提升等優勢。",
+    "desc_source": "api"
+  },
+  "Heiankyo Alien (USA)": {
+    "key": "Heiankyo Alien (USA)",
+    "original_name": "Heiankyo Alien",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "1000 years ago the city of Kyo was suddenly invaded by aliens.  A Kebiishi (knight of the past) was entrusted to defend the city.\n\nThe game starts with a maze where the kebiishi and some aliens appear.  The aliens start moving through the maze wherever they please.  While trying to keep from getting eaten, the kebiishi digs holes where the aliens will likely travel.  If an alien comes to a finished hole, it will fall in an be trapped for a while.  While the alien is trapped in the hole, you can fill the hole to bury it.  If all aliens are buried, the round ends and you can proceed to the next round.  \n\nThe Game Boy version includes both the original arcade version as well as an enhanced version with new graphics and original features such as a super alien that has special powers, moves to avoid holes and chases the keibiishi. Two players can play via the video link cable.",
+    "desc": "1000年前，京城突然遭到外星人入侵。一名軾比石（過去的騎士）被委託保衛這座城市。\n\n遊戲從一個迷宮開始，其中出現了kebiishi和一些外星人。外星人開始在迷宮中隨心所欲地移動。在試圖避免被吃掉的同時，kebiishi 還在外星人可能會旅行的地方挖洞。如果外星人來到一個已完成的洞，它會掉進去並被困一段時間。當外星人被困在洞裡時，你可以填滿洞來埋葬它。如果所有外星人都被埋葬，則該輪結束，您可以進入下一輪。\n\nGame Boy 版本包括原始街機版本以及具有新圖形和原始功能的增強版本，例如具有特殊能力的超級外星人、躲避漏洞的動作以及追逐怪異者。兩個玩家可以通過視頻連接線進行遊戲。",
+    "desc_source": "api"
+  },
+  "Solomon's Club (USA)": {
+    "key": "Solomon's Club (USA)",
+    "original_name": "Solomon's Club",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Solomon's Club is a sequel to Solomon's Key, which has similar gameplay combining platform gaming with puzzle elements. There are five levels, each with ten rooms. In each room you must retrieve the key and go to the exit.\n\nYou can create or remove blocks to your left and right, or while crouching lower-left and lower right. You can use these blocks as platform to climb onto, or use them to block enemies or fire balls. You can also break blocks by jumping from below them, like doing a headbutt. There are several enemies, such as fire breathing dragons, shooting gargoyles and ghosts.\n\nCollect bells to release fairies from the exit as bonus points, and collect coins for money to spend in shops. Some rooms have a shop where you can buy items, such as fire balls or hammers.",
+    "desc": "全球最高跨媒體製作票房收入列表包含從書、電影、電子遊戲、漫畫書、電視節目或其他媒體開始製作的跨媒體製作收入超過20億美元。\n該清單包括總收入數字和收入細目。對於尚未報告總收入數字的跨媒體製作作品，根據不同媒體的綜合收入給出估算。對於報告數字不是最新的跨媒體製作作品，會根據現有數據給出更新的估計。",
+    "desc_source": "wiki"
+  },
+  "SolarStriker (World)": {
+    "key": "SolarStriker (World)",
+    "original_name": "SolarStriker",
+    "name": "CD-i游戏列表",
+    "name_source": "wiki",
+    "original_desc": "You are in control of the ultra high-performance fighter ship, the SolarStriker.  It is your mission to attack and destroy the main Reticulon base.  There are six vertical scrolling stages that you must progress through in order to destroy Reticulon.  Each stage is under control of a boss which must be destroyed to clear the area.  One of the first shooters for GameBoy.",
+    "desc": "Dreamcast（日語：ドリームキャスト，簡稱為DC）是日本電子遊戲商SEGA於1998年11月27日在日本、1999年9月9日在北美、1999年10月14日在歐洲發行的家用遊戲機，為第六世代電子遊戲機中第一部推出的主機，也是SEGA開發的最後一部家用遊戲機。主要競爭對手包括索尼的PlayStation 2、任天堂的任天堂GameCube及微軟的Xbox。\n與前代主機SEGA土星不同，Dreamcast採用了日立的SH-4中央處理器（CPU）及VideoLogic/日本電氣的PowerVR2圖形處理器（GPU）等現成組件取代客製化組件，藉以降低成本。儘管Dreamcast在北美地區發售初期頗有斬獲，但在索尼力推其PlayStation 2之後，Dreamcast主機銷量便逐漸滑落；在銷量長期低迷的情況下，SEGA的財務損失持續擴大。在改組領導層之後，SEGA最終在2001年1月31日宣布於3月底終止Dreamcast硬體製造及開發、全面退出家用遊戲機硬體市場，並改組為純第三方遊戲開發商。Dreamcast在其生命週期中銷量僅有約1000萬部，是SEGA最重大的商業失敗之一。\n雖然Dreamcast的生命週期不長、第三方遊戲有限，但輿論普遍認為Dreamcast是一部超前時代的主機。Dreamcast擁有《瘋狂計程車》、《Jet Set Radio》和《莎木》系列等創意十足的獨占遊戲，以及一些來自SEGA自有大型電玩系統NAOMI的高品質移植作品。Dreamcast也是第一部內建撥接網路並提供原生網路遊戲的家用遊戲機。",
+    "desc_source": "wiki"
+  },
+  "Castlevania II - Belmont's Revenge (USA, Europe)": {
+    "key": "Castlevania II - Belmont's Revenge (USA, Europe)",
+    "original_name": "Castlevania II : Belmont's Revenge",
+    "name": "恶魔城系列",
+    "name_source": "wiki",
+    "original_desc": "The curse of the Belmont family has struck again in the second Castlevania adventure for the Game Boy.  This game takes place 15 years after the first monochrome adventure.  Christopher's son has disappeared, and 4 mysterious castles have risen out of the fog.  He must travel to each castle and conquer the demons he finds there in order to rescue his son. Perhaps Dracula is not as dead as we thought.",
+    "desc": "貝爾蒙特家族的詛咒在 Game Boy 的第二部惡魔城冒險中再次襲來。這款遊戲發生在第一次單色冒險 15 年後。克里斯托弗的兒子失踪了，四座神秘的城堡從迷霧中升起。他必須前往每座城堡並征服在那裡發現的惡魔才能營救他的兒子。也許德古拉並沒有我們想像的那麼死。",
+    "desc_source": "api"
+  },
+  "Dropzone (Europe)": {
+    "key": "Dropzone (Europe)",
+    "original_name": "Dropzone",
+    "name": "Game Boy游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Dropzone is basically a Defender variant, closely recreating the gameplay of the original Defender with its speedy scrolling and frantic gameplay.\n\nThe player controls a spaceman with a jet-pack, flying across a barren landscape whose skies are inhabited by a number of different aliens, from the simple Planter to the slowly advancing Blunder Storm or the quick, aggressive Nemesite. \n\nPlanters and Nemesites will try to pickup the small men walking on the surface, who must then be rescued. The player has to shoot down the alien, while avoiding to hit the man. Sometimes, the aliens will carry an android, which is similar to the human but deadly. Care must be taken so as to not pick up the androids. All men must be transported to a surface base, where they are put in safety - this is the Dropzone.",
+    "desc": "Dropzone 基本上是 Defender 的變體，通過其快速滾動和瘋狂的遊戲玩法，緊密地重現了原始 Defender 的遊戲玩法。\n\n玩家控制一名背著噴氣背包的太空人，飛越一片貧瘠的土地，天空中居住著許多不同的外星人，從簡單的種植者到緩慢前進的錯誤風暴或快速、侵略性的涅姆斯特。\n\n種植園主和涅墨斯人將嘗試救起在地表行走的小矮人，然後必須將他們營救。玩家必須擊落外星人，同時避免擊中人類。有時，外星人會攜帶一個機器人，它與人類相似但致命。必須小心，不要撿起機器人。所有人員都必須被運送到安全的地面基地——這就是空降區。",
+    "desc_source": "api"
+  },
+  "Hammerin' Harry (Europe)": {
+    "key": "Hammerin' Harry (Europe)",
+    "original_name": "Hammerin' Harry",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Hammerin' Harry: Ghost Building Company is the sequel to Hammerin' Harry.\n\nThis episode has Harry fighting more than just workers. He has to defeat an army of ghosts in a series of environments, including construction site, sewer, airship, jungle, and finally, the headquarters where he meets the evil ghost building machine. Rather than using his mallet, Harry can obtain a spiked ball which does more damage than the mallet. There are five stages, and each one ends with Harry fighting a boss. Upon completion of a stage, the gameplay switches from a beat-em-up to a horizontal shooter where Harry flies through the air, defeating airborne enemies and avoiding dangerous objects.",
+    "desc": "《錘擊哈利：幽靈建築公司》是《錘擊哈利》的續作。\n\n在這一集中，哈利不僅與工人作戰。他必須在建築工地、下水道、飛艇、叢林等一系列環境中擊敗幽靈大軍，最後在總部遇到邪惡的幽靈建築機器。哈利可以不用木槌，而是獲得一個比木槌造成更多傷害的尖刺球。有五個階段，每個階段都以哈利與老闆戰鬥結束。完成一個階段後，遊戲玩法將從格鬥遊戲切換為水平射擊遊戲，哈利在空中飛行，擊敗空中的敵人並避開危險物體。",
+    "desc_source": "api"
+  },
+  "DragonHeart (USA, Europe)": {
+    "key": "DragonHeart (USA, Europe)",
+    "original_name": "DragonHeart",
+    "name": "勇者鬥惡龍系列",
+    "name_source": "wiki",
+    "original_desc": "Dragonheart is based on the 1996 fantasy film of the same name. The player controls Bowen the dragon slayer, through eight levels fighting many dragons and encountering characters from the film, such as Gilbert, Kara and King Einon. The exploration is presented in a 1st-person-view and the battles are presented in a side-scrolling view. The player can get information about the current quest from peasants that are found in the many villages and houses throughout the game. The battles resort only to two buttons, one to attack and other to defend.",
+    "desc": "《龍心》改編自 1996 年的同名奇幻電影。玩家控制屠龍者鮑文，通過八個關卡，與眾多巨龍戰鬥，並遇到電影中的角色，如吉爾伯特、卡拉和艾農國王。探索以第一人稱視角呈現，戰鬥以橫向捲軸視角呈現。玩家可以從遊戲中許多村莊和房屋中發現的農民那裡獲得有關當前任務的信息。戰鬥只需要兩個按鈕，一個用於攻擊，另一個用於防禦。",
+    "desc_source": "api"
+  },
+  "Super Mario Land (World) (Rev 1)": {
+    "key": "Super Mario Land (World) (Rev 1)",
+    "original_name": "Super Mario Land",
+    "name": "超級瑪利歐3D樂園",
+    "name_source": "wiki",
+    "original_desc": "Once upon a time, there was a peaceful world called Sarasaland. In this world there were 4 kingdoms named Birabuto, Muda, Easton and Chai. One day, the skies of Sarasaland were suddenly covered by a huge black cloud. From a crack in this cloud, the unknown space monster Tatanga emerged to try to conquer Sarasaland. Tatanga hypnotized the people of all the kingdoms so that he could control them in any way he liked. In this way he took over Sarasaland. Now, he wants to marry Princess Daisy of Sarasaland and make her his queen. Mario came to know of these events, and he has started on a journey to the Chai Kingdom where Princess Daisy is held captive, in order to restore peace to Sarasaland. Can Mario defeat Tatanga, release people from his interstellar hypnosis, and rescue Princess Daisy? It's all up to you and Mario's skill. Go for it Mario!",
+    "desc": "從前，有一個和平的世界，名叫薩拉薩蘭。這個世界上有4個王國，分別是比拉布托、穆達、伊斯頓和柴。有一天，薩拉薩蘭的天空突然被一片巨大的烏雲遮蓋。從雲層的裂縫中，未知的太空怪物塔坦加出現，試圖征服薩拉薩蘭。塔坦加催眠了所有王國的人民，以便他可以以任何他喜歡的方式控制他們。就這樣他接管了薩拉薩蘭。現在，他想娶薩拉薩蘭的黛西公主並立她為王后。馬里奧得知這些事件後，開始前往黛西公主被囚禁的柴王國，以恢復薩拉薩蘭的和平。馬里奧能否擊敗塔坦加，將人們從他的星際催眠中解救出來，並拯救黛西公主呢？這一切都取決於你和馬里奧的技能。加油馬里奧！",
+    "desc_source": "api"
+  },
+  "Batman - Return of the Joker (USA, Europe)": {
+    "key": "Batman - Return of the Joker (USA, Europe)",
+    "original_name": "Batman : Return of the Joker",
+    "name": "蝙蝠侠：阿卡姆疯人院",
+    "name_source": "wiki",
+    "original_desc": "The seedy underworld is crawling with criminals. Even worse - the JOKER is back on top of 'em all! Law and order means nothing... until now! Because BATMAN is here - and the action is hotter than ever! Ear-crunching sound effects. Pulse-quickening music. Graphics that are as hot as 16-bit. And this time, BATMAN hits fast and hard. Flying, leaping, and sliding to attack! And striking at the heart of the JOKER. The CAPED CRUSADER has a totally new arsenal at his command: Batarang, Crossbow, Sonic Neutralizer. He's even got a superfueled jetpack. And even more powerful weapons at the touch of a button. BATMAN has got to use all of his power. Because this world is a very dark place, and you never know where the JOKER is hiding!",
+    "desc": "骯髒的地下世界充斥著犯罪分子。更糟糕的是——小丑又回到了他們之上！法律和秩序毫無意義……直到現在！因為蝙蝠俠來了 - 而且動作比以往任何時候都更加激烈！刺耳的音效。令人心跳加速的音樂。與 16 位一樣熱門的圖形。這一次，蝙蝠俠出擊又快又狠。飛行、跳躍、滑行攻擊！並擊中小丑的核心。斗篷十字軍擁有全新的武器庫供他指揮：蝙蝠鏢、十字弓、聲波中和器。他甚至還有一個超級燃料噴氣背包。只需按一下按鈕即可獲得更強大的武器。蝙蝠俠必須使用他所有的力量。因為這個世界是一個非常黑暗的地方，你永遠不知道小丑藏在哪裡！",
+    "desc_source": "api"
+  }
+}

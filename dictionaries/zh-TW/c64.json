@@ -1,0 +1,11 @@
+{
+  "fix_it_felix_64": {
+    "key": "fix_it_felix_64",
+    "original_name": "Fix-It Felix Jr.",
+    "name": "PewDiePie",
+    "name_source": "wiki",
+    "original_desc": "Fix-It Felix Jr. brings the charm of classic arcade games to the C64. As Felix, you use your magic hammer to repair the windows wrecked by Wreck-It Ralph on a high-rise building. While hopping from windowsill to windowsill, you must dodge falling bricks and later survive ducks and barriers. Picking up pies grants short-term invincibility. Levels don't loop but grow harder endlessly – pure arcade spirit with retro flair.",
+    "desc": "Fix-It Felix Jr. 將經典街機遊戲的魅力帶到了 C64 上。作為菲利克斯，你使用魔法錘修復高層建築上被無敵破壞王破壞的窗戶。當你從一個窗台跳到另一個窗台時，你必須躲避掉落的磚塊，然後從鴨子和障礙物中倖存下來。拿起餡餅可以獲得短期的無敵能力。關卡不會循環，而是會不斷變得越來越難——純粹的街機精神與復古風格。",
+    "desc_source": "api"
+  }
+}

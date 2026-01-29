@@ -1132,6 +1132,7 @@ class MainWindow(QMainWindow):
             'max_workers': self.app_settings.max_workers,
             'batch_size': self.app_settings.batch_size,
             'auto_save_interval': self.app_settings.auto_save_interval,
+            'write_rules': self.app_settings.write_rules,
         }
 
     def _default_settings(self) -> dict:
@@ -1641,6 +1642,11 @@ class MainWindow(QMainWindow):
             self.app_settings.batch_size = self.settings.get('batch_size', 20)
             self.app_settings.auto_save_interval = self.settings.get(
                 'auto_save_interval', 10)
+            # 同步寫回規則設定
+            self.app_settings.write_rules = self.settings.get('write_rules', {
+                "name": {"target": "name", "format": "translated"},
+                "desc": {"target": "desc", "format": "translated"}
+            })
             self.settings_manager.save(self.app_settings)
 
     def _import_language_pack(self):

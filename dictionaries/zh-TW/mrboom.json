@@ -1,0 +1,11 @@
+{
+  "MrBoom": {
+    "key": "MrBoom",
+    "original_name": "MrBoom",
+    "name": "布姆先生",
+    "name_source": "api",
+    "original_desc": "Mr.Boom is an 8 player Bomberman clone\n\nThe goal of the game is to bomb away your enemies and other players.\nBomberman is controlled with the keyboard or with (up to 8) joypads.",
+    "desc": "Mr.Boom 是 8 名玩家的炸彈人克隆版\n\n遊戲的目標是轟炸你的敵人和其他玩家。\n炸彈人由鍵盤或（最多 8 個）遊戲手柄控制。",
+    "desc_source": "api"
+  }
+}

@@ -1,0 +1,1163 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="842">
+		<path>./Cyber Shinobi, The (Europe, Brazil).zip</path>
+		<name>The Cyber Shinobi</name>
+		<desc>In the previous game, an evil army of villains, known simply as "Zeed" , but some of them escaped, however. 
+
+Time has passed and it is the year 2XXX where atomic power plants in countries around the world are attacked, and plutonium, which was the equivalent of 100,000 megatons of explosive power, was stolen from these plants. The words "Cyber Zeed" was always written at the scene of the crime. Later, the world realized what Cyber Zeed had planned to do: use their nuclear capabilities to terrorize the world. Every nation sent their best forces to stop this threat, but all of them failed. 
+
+Joe Musashi came forward to this great evil, and he is required to fight those who rose from the ashes and put an end to this threat.
+
+Cyber Shinobi is a one-player game that consists of six rounds. You need to fight ninjas that get in your way using your fists and legs. You can also defeat them using special attacks and ninjitsu. Power-ups can be collected along the way, which will give you more shots, ninjitsu, power, and life. A boss needs to be defeated at the end of the round.</desc>
+		<image>./images/Cyber Shinobi, The (Europe, Brazil)-image.png</image>
+		<marquee>./images/Cyber Shinobi, The (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Cyber Shinobi, The (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.45</rating>
+		<releasedate>19910401T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Shinobi</family>
+		<players>1</players>
+		<crc32>1350E4F8</crc32>
+		<md5>9878c298077be78b765ac2264815100b</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221542" />
+	</game>
+	<game id="820">
+		<path>./Dragon Crystal (Europe, Brazil) (En).zip</path>
+		<name>Dragon Crystal</name>
+		<desc>Dragon Crystal is a dungeon crawler with RPG elements, along the lines of classics such as Rogue or Nethack. Without relying on a story, the game throws you into a randomly generated world which you should explore carefully - and most importantly, where you must survive! The complex, maze-like levels reveal their structure only after you cover the corresponding map areas. Your goal in each level is to reach a teleporter which will take you to the next one. There are also a lot of random items scattered around - weapons, armor, money, and food. Money allows you to continue the game if you die, food prevents you from starving. The enemies are visible on screen, and you fight them in a fast-paced turn-based combat, moving around and pressing direction arrows to strike with the equipped weapon. You are always accompanied by an egg which will eventually grow up to be a dragon if you have leveled up enough.</desc>
+		<image>./images/Dragon Crystal (Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Dragon Crystal (Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Dragon Crystal (Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.35</rating>
+		<releasedate>19911001T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Game</genre>
+		<players>1</players>
+		<crc32>9549FCE4</crc32>
+		<md5>e05484f93011055c5b76ffabfea84367</md5>
+		<lang>en,br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221552" />
+	</game>
+	<game id="809">
+		<path>./Master of Darkness (Europe, Brazil).zip</path>
+		<name>Master of Darkness</name>
+		<desc>Master of Darkness is a Platformer very similar to Castlevania.
+
+You play as a psychologist trying to defeat Dracula. This requires you to fight your way through several spooky locations such as cemeteries, laboratories, castles or a house of wax dolls. To defeat your enemies, you can use several primary and secondary weapons. Primary weapons are close combat weapons ranging from knifes to rapiers and axes, that differ in range and efficiency. Secondary weapons are long-range weapons (pistols, bombs etc.) with limited ammunition. The game features 5 Rounds divided into 3 stages. At the end of each stage, a boss must be defeated.</desc>
+		<image>./images/Master of Darkness (Europe, Brazil)-image.png</image>
+		<marquee>./images/Master of Darkness (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Master of Darkness (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19930501T000000</releasedate>
+		<developer>Sims</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<crc32>96FB4D4B</crc32>
+		<md5>8354932a7f20e84a808471b3724a56f8</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221601" />
+	</game>
+	<game id="761">
+		<path>./Shinobi (USA, Europe, Brazil) (Rev 1).zip</path>
+		<name>Shinobi</name>
+		<desc>You control a ninja, Shinobi, who must battle his way through each level in search of hostages which must be rescued. You have shurikens, kicks and punches to defend yourself with. As well as the powerful ninja magic which can clear the screen of enemies in one go.
+
+Each level is broken down into smaller scenes and hostages are guarded by big blokes who throw swords. Watch out for gun-toting enemy henchmen and ninjas.
+
+Reaching the end of each level will find you battling it out with a boss. These range from 8ft giants to helicopter gunships.</desc>
+		<image>./images/Shinobi (USA, Europe, Brazil) (Rev 1)-image.png</image>
+		<marquee>./images/Shinobi (USA, Europe, Brazil) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Shinobi (USA, Europe, Brazil) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19880901T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform / Fighter Scrolling</genre>
+		<family>Shinobi</family>
+		<players>1</players>
+		<crc32>0C6FAC4E</crc32>
+		<md5>3dd2c025185e19ac9bf1ed16b695c629</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221616" />
+	</game>
+	<game id="769">
+		<path>./Asterix (Europe, Brazil) (En,Fr) (Rev 1).zip</path>
+		<name>Astérix</name>
+		<desc>Getafix, the Druid whose potion has kept his village from falling in Caesar's hands, has been kidnapped! Join Asterix and Obelix as they try to rescue the druid and save the village!</desc>
+		<image>./images/Asterix (Europe, Brazil) (En,Fr) (Rev 1)-image.png</image>
+		<marquee>./images/Asterix (Europe, Brazil) (En,Fr) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Asterix (Europe, Brazil) (En,Fr) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>19920401T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Astérix</family>
+		<players>1-2</players>
+		<crc32>8C9D5BE8</crc32>
+		<md5>6831e9afe139fedb13c81a54926b3c0d</md5>
+		<lang>fr,en,br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221628" />
+	</game>
+	<game id="764">
+		<path>./Wonder Boy in Monster Land (USA, Europe).zip</path>
+		<name>Wonder Boy in Monster Land</name>
+		<desc>Eleven years have gone by since Tom-Tom rescued his girlfriend Tanya from the clutches of the evil King. Word of Tom-Tom's dangerous adventure soon spread throughout Wonder Land. The people were very proud of him and gave Tom-Tom the highest honor of all - the legendary name of Wonder Boy. With the evil King defeated, Wonder Land returned to its peaceful state, and for over one decade, the kingdom was a paradise, and everything and everyone lived happily together.
+Eventually, the peace was broken when a ferocious fire-breathing dragon appeared out of nowhere and took over Wonder Land with an army of evil, monsterous henchmen, causing Wonder Land was immediately thrown into utter chaos. The people were quickly taken over and the tranquil and serene kingdom was transformed into a land of demons and devils. Wonder Land was now a Monster Land. Tom-Tom was summoned to set out on a journey, destroy this dragon, and restore peace once again. Tom-Tom is Wonder Land's last hope.</desc>
+		<image>./images/Wonder Boy in Monster Land (USA, Europe)-image.png</image>
+		<marquee>./images/Wonder Boy in Monster Land (USA, Europe)-marquee.png</marquee>
+		<thumbnail>./images/Wonder Boy in Monster Land (USA, Europe)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19880801T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Wonder Boy</family>
+		<players>1</players>
+		<crc32>8CBEF0C1</crc32>
+		<md5>8f8aaac492de96f2cfddb9d1a57dd979</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221639" />
+	</game>
+	<game id="755">
+		<path>./Sonic The Hedgehog (USA, Europe, Brazil).zip</path>
+		<name>Sonic the Hedgehog</name>
+		<desc>SEGA's mascot Sonic the Hedgehog made his debut in a famous Genesis title, but Sega's 8-bit systems got their own version of the platformer featuring the same story and gameplay style but different levels. To stop the evil Dr. Robotnik, Sonic must traverse six zones consisting of three levels each. Most of the zones are based on the original game, but some are new. Enemies and power-ups are mostly the same as well. Sonic can pick up golden rings for protection (when hit, he simply loses all of his rings instead of a life) and bonuses: 100 rings gain Sonic an extra life, and 50 remaining rings at the end of a level allow access to pinball-themed special stages full of bumpers and springs. The final level of a zone is always a boss fight against Robotnik. Sonic should also collect the six Chaos Emeralds to keep them from falling into Robotnik's hands. In a departure from the original game, these are not hidden in the special stages but somewhere in the regular levels.</desc>
+		<image>./images/Sonic The Hedgehog (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Sonic The Hedgehog (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Sonic The Hedgehog (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19910101T000000</releasedate>
+		<developer>Ancient</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Sonic</family>
+		<players>1</players>
+		<crc32>B519E833</crc32>
+		<md5>dc13a61eafe75c13c15b5ece419ac57b</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221654" />
+	</game>
+	<game id="774">
+		<path>./Wonder Boy in Monster World (Europe).zip</path>
+		<name>Wonder Boy in Monster World</name>
+		<desc>"Monster World was once a peaceful region. Then, the peace was shattered by an invading army of monsters. A young man named Shion vowed to defeat them and make his land peaceful again."
+
+Wonder Boy In Monster World puts you in control of Shion in his quest to save Monster World from the evil hands of BioMeka.  It controls like your standard platform game - run, jump, and kill enemies.  The game is filled with RPG elements such as talking to townsfolk, collecting money to buy items, upgrading your life, and equipping a variety of armor and weapons - staying very close to the "Zelda format".  You can save your game to continue your quest at a later time.
+
+Wonder Boy In Monster World is the third game in the Monster World spin-off series.  In Japan the game is called Wonder Boy 5: Monster World 3.</desc>
+		<image>./images/Wonder Boy in Monster World (Europe)-image.png</image>
+		<marquee>./images/Wonder Boy in Monster World (Europe)-marquee.png</marquee>
+		<thumbnail>./images/Wonder Boy in Monster World (Europe)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>Shimada Kikaku</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Wonder Boy</family>
+		<players>1</players>
+		<crc32>7D7CE80B</crc32>
+		<md5>5837764c172c8c43c8c7b21f2144cf27</md5>
+		<lang>en</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221709" />
+	</game>
+	<game id="848">
+		<path>./Fantasy Zone II (USA, Europe, Brazil).zip</path>
+		<name>Fantasy Zone II</name>
+		<desc>Fantasy Zone II on the Master System is a shooting game in which you control a spaceship. Equipped with various weapons such as bombs or missiles, you must dodge or destroy enemies to stay alive and finish the level.</desc>
+		<image>./images/Fantasy Zone II (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Fantasy Zone II (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Fantasy Zone II (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19871201T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>Fantasy Zone</family>
+		<players>1</players>
+		<crc32>B8B141F9</crc32>
+		<md5>481a01c4e768c535ee18d6d78815fc89</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221722" />
+	</game>
+	<game id="860">
+		<path>./Battle Out Run (Europe, Brazil).zip</path>
+		<name>Battle Out Run</name>
+		<desc>Battle Out Run is Sega's answer to Taito's Chase H.Q. You drive a red sports car and must apprehend eight target vehicles in selected cities across the USA, including Los Angeles, Chicago, Miami, and New York. You have to do this while avoiding yellow cars and other obstacles. Halfway through the eight stages, you enter a shop that allows you to upgrade your car and get some nitros, as long as you have money, and you will be rewarded if you apprehend the vehicles. This can be done by bumping into them to disable them.</desc>
+		<image>./images/Battle Out Run (Europe, Brazil)-image.png</image>
+		<marquee>./images/Battle Out Run (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Battle Out Run (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19890101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing, Driving</genre>
+		<family>OutRun</family>
+		<players>1</players>
+		<crc32>C19430CE</crc32>
+		<md5>83609eb760c3af64915fd6e73ee7d99e</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221734" />
+	</game>
+	<game id="870">
+		<path>./OutRun (World).zip</path>
+		<name>Out Run</name>
+		<desc>Race across varied terrain in this conversion of one of the most famous arcade racing games. Your Ferrari is at the ready, complete with female passenger, over a series of short tracks.
+
+Gameplay is viewed form just above and behind the car, so you can see it. The roads are full of sharp bends and hazards, contact with which can cause the car to roll and lose you time. On each section of track there is a fork in the road, allowing you to choose which direction you go in. You have to complete 5 track sections in total, out of the 15 in the game.</desc>
+		<image>./images/OutRun (World)-image.png</image>
+		<marquee>./images/OutRun (World)-marquee.png</marquee>
+		<thumbnail>./images/OutRun (World)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19871001T000000</releasedate>
+		<developer>SEGA AM2</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing, Driving</genre>
+		<family>OutRun</family>
+		<players>1</players>
+		<crc32>5589D8D2</crc32>
+		<md5>029ee92155247f8a282d63b8a6dd23c4</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T221745" />
+	</game>
+	<game id="775">
+		<path>./Sonic Chaos (Europe, Brazil).zip</path>
+		<name>Sonic Chaos</name>
+		<desc>The inhabitants of South Island are in danger! Dr. Robotnik has stolen all the Chaos Emeralds which kept the power balance. Robotnik has thrown the Emeralds in a parallel universe and is keeping the red one. Sonic and Tail must retreive all the Chaos Emeralds before the destruction of South Island.
+This is the first Game Gear game where you can play either Sonic or Tail.</desc>
+		<image>./images/Sonic Chaos (Europe, Brazil)-image.png</image>
+		<marquee>./images/Sonic Chaos (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Sonic Chaos (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19931025T000000</releasedate>
+		<developer>Aspect</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Sonic</family>
+		<players>1</players>
+		<crc32>AEDF3BDF</crc32>
+		<md5>1d661134b14eedf6b4ae1c907581fd96</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221755" />
+	</game>
+	<game id="881">
+		<path>./Lord of the Sword (USA, Europe, Brazil).zip</path>
+		<name>Lord of the Sword</name>
+		<desc>The player is in the role of Landau, a man who must pass three tests in order to gain the crown of the land Baljinya, which for years has been rife with lawlessness and fear, and restore peace to the land. To pass the three tests, Landau must find the Tree of Marill, subdue the Goblin of Balala Valley, and destroy the Statue Of Evil.
+
+Landau is controlled in a 3rd-person side-scrolling view. He can explore the world map (which can be seen by pressing the pause button) freely in a non linear way, but some portions of the map will be available only after defeating certain enemies or getting certain items. The Kingdom of Baljinya has towns and villages where Landau can stop to rest (restoring his health) and gather information from the people. There are also castles which can only be entered after completing certain tasks. Between those villages, towns and castles lie different kinds of terrains, like flatlands, dark forests, mountains and swamps. Those terrains are plagued by different kinds of monsters, some specific of each terrain.
+
+There are two weapons which can be used by Landau: a sword and a bow. The sword can be used by pressing the button 2 while standing, kneeling or jumping. The bow can be used by pressing the button 1 only when standing or kneeling. Landau cannot walk and attack at the same time. Along his way he'll find new and stronger swords and bows.
+
+Landau has only one life, but the game offers a continue feature which can be used up to 10 times.</desc>
+		<image>./images/Lord of the Sword (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Lord of the Sword (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Lord of the Sword (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19890401T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>E8511B08</crc32>
+		<md5>b80f87887881343e5705ff3cce93c5f1</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221805" />
+	</game>
+	<game id="796">
+		<path>./Ninja, The (USA, Europe, Brazil) (En).zip</path>
+		<name>The Ninja</name>
+		<desc>Early in Japan's edo era, circa 1630, peace had continued in the western province of Ohkami until the feudal lord passed away. Gyokuro, an evil emperor, gained power and his oppressive rule caused great hardship to the people, and the princess who opposed him was confined to a dungeon somewhere in the Ohkami castle. Gyokuro has the Ohkami ninja under control at his command. Utilizing various ninjitsu techniques, in addition to the one that transforms them into a wolf, they protect him from the people who are his enemies.
+
+You play Kazamuru, a great warrior who challenges the clan to a fight in order to rescue the princess. However, he can't rescue the princess unless he finds the five scrolls in the thirteen areas of Ohkami. On his quest, he must defeat various ninjas such as Kuno-ichi and Ninniku, as well as fire-blowing ninjas, slashing ninjas, and footloose ninjas. You'll explore grassy fields, shrines, river banks,  towns, and the castle itself. Some of the steps have varied gameplay. For example, you must avoid boulders in Step 2, must use logs in order to cross a river in Step 5, avoid being trampled on by horses in Step 7, and scale a cliff in Step 9.</desc>
+		<image>./images/Ninja, The (USA, Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Ninja, The (USA, Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Ninja, The (USA, Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19870101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shooter</genre>
+		<players>1-2</players>
+		<crc32>66A15BD9</crc32>
+		<md5>2c620ba64fcaac940b4b1566733037b3</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221815" />
+	</game>
+	<game id="844">
+		<path>./Enduro Racer (USA, Europe, Brazil) (En).zip</path>
+		<name>Enduro Racer</name>
+		<desc>In this game you play the role of an endurance bike racer. The gameplay involves you racing against the clock to get to the finish line and jumping over ramps. At the end of each race you get points for how many cars or bikes you have overtaken with which you can upgrade your bike.
+There are various different terrain for you to race on including desert beach and dirt tracks plus a number of things to slow you down or even knock you off of your bike all together. The main idea is to find the best route through each level to shave off valuable seconds in order to over take more cars and bikes.
+
+The Japanese version of the game has more Tracks than the European and US versions have. Among  them is a snow track which is one of the hardest tracks in the game, because there is a lot of stones on the thin road.</desc>
+		<image>./images/Enduro Racer (USA, Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Enduro Racer (USA, Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Enduro Racer (USA, Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19870101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing, Driving / Motorcycle race TPV</genre>
+		<players>1</players>
+		<crc32>00E73541</crc32>
+		<md5>06779a1a9dbada60efb1f37e37040a5b</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221827" />
+	</game>
+	<game id="18470">
+		<path>./Buggy Run (Europe, Brazil) (En).zip</path>
+		<name>Buggy Run</name>
+		<desc>Buggy Run is a game that lets players race dune buggies in a championship over 15 possible tracks (plus 4 in 2 player mode) each winning money that can be used for dune buggy upgrades.  There are 4 different modes that can be played in single player mode that includes Race, Vs Com, Freerun, and Battle.
+
+In the main mode Race the player is given $20,000 starting cash that can be used to upgrade the buggy. The upgradable features of the buggy are Tyres (grip), Engine (speed), Suspension (limits bounce), Steering (cornering), Transmission (performance). All the upgrades cost $10,000 for level 2, $30,000 for level 3, and $50,000 for level 4 however the player doesn’t need to get them in order. There are also special upgrades to buy that includes $5000 for a mine (drops behind and if another car hits then it is blown up until reset), $5000 for Nitoro (gives the players car a short speed boost), and $10,000 for extra capacity of special items (starts with 2 slots to a max of 6). Special Items must be used in the order they're placed in the slots.
+
+Within the race the player will be racing 4 other cars to a race to the chequered flag on an isometric scrolling track. Some hazards on the track are lumps and jumps, bumps, rough road and mud. Appearing on the track are special power-ups that are red or white boost and extra money also a random that selects between the two. The prize money for winning is $30,000, 2nd gets $20,000, 3rd gets $10,000, and last gets $5000 to spend on the upgrades and power-ups between races. There are 3 stages of racing that is beginner, intermediate, and expert that have 5 races each. The player must qualify for the next stage or else it will be game over.
+
+In Vs Com the player plays the computer one on one on any track of the player's choice. All the upgrades for the buggy for the player and the computer are done though allocating a set number of points to varies upgrades. All the item slots can by used for either the nitoro or mine. 
+
+Freerun is a time trial where the player races alone without upgrades on any track against the clock. 
+
+Battle mode is where the player picks 3 computer players to battle on a round arena with the objective to knock the opponents off with the last player on the arena winning.
+
+There is also a two players mode that include Race, 1P vs 2P, and Battle.
+
+In 2P Race there is $30,000 for both players to upgrade there cars before placing them on a track with a fixed overhead view where they play 2 computer opponents. There are 4 different themes to pick from.
+
+1P vs 2P is just the two players battling it out on one of 4 tracks each with 4 different themes. Buggy upgrades are done though allocating a set number of points.
+
+Battle is the same as single player battle only with 2 players and 2 computers.</desc>
+		<image>./images/Buggy Run (Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Buggy Run (Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Buggy Run (Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19931201T000000</releasedate>
+		<developer>Sims</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing, Driving</genre>
+		<family>Buggy</family>
+		<players>1-2</players>
+		<crc32>B0FC4577</crc32>
+		<md5>db41b17f3268d9076e0928911a2791e0</md5>
+		<lang>en,br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221840" />
+	</game>
+	<game id="785">
+		<path>./Psycho Fox (USA, Europe, Brazil).zip</path>
+		<name>Psycho Fox</name>
+		<desc>Psycho Fox is a platform game where you play a fox and you must get through seven worlds, consisting of three areas each. At the end of each world, there are one of seven bosses waiting to destroy you, but some of the later bosses are exactly the same as the earlier ones. The title is a bit misleading because you can also play as three other characters including Hippo, Leopard, and Monkey Boy. Each character has their own disadvantages. For example, Hippo is much slower than the other three. However, all the characters share one thing in common: they can use their fists and punch enemies as they approach them. They can also jump on them and keep knocking them in the ground until they disappear off the face of the earth. If they don't make them disappear, they will pop back out again and set out for revenge. Obstacles are scattered through each area, including spikes, cannonballs, esculators, fireballs, and steam.
+
+You start the game with three lives. Once you touch an enemy, you lose a life. Lose any of your lives, and the game is over. If the game is over, you can continue where you left off. There are several items to find, and these can help you on your quest, and one of these items are eggs. If you break any of these eggs, either the "switch" item or the invincibility item is revealed. If you're lucky enough, a white bag is also revealed, but more often than not, one of your enemies can pop out from inside the egg. One egg will reveal a bird which you can carry for the rest of the game. This bird may be nothing but a pest, as it hinders your progress, but you can throw it at enemies to knock them out. It can also be used as a backup, meaning that you can have enemies touching you, but it is the bird that is killed, not you.
+
+There is little chance that you'll find a white bag inside an egg, unless you go up into a secret area, which can often be found if you jump on springs that are scattered throughout the level. These white bags are useless, until you get to the bonus areas, which are at the end of each area. In these bonus stages, you can place a number of foxes on a path depending on how much white bags you've collected throughout each area.
+
+When you complete Psycho Fox, you are treated to a funny ending.</desc>
+		<image>./images/Psycho Fox (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Psycho Fox (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Psycho Fox (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19900501T000000</releasedate>
+		<developer>Vic Tokai</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<crc32>97993479</crc32>
+		<md5>a9c2facf9ef536d095414ce2e7ce2f4f</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221851" />
+	</game>
+	<game id="18529">
+		<path>./SpellCaster (USA, Europe, Brazil) (En).zip</path>
+		<name>SpellCaster</name>
+		<desc>Kujakuo is based on the comic by the same name, published in Young Jump in the late eighties and drawn by Makoto Ogino. It is a tale of the occult, centred around the buddhist monk Kujaku.
+
+In this game, Kujaku is sent out by his master, Ajari, to find out what has happened at the nearby temple of Hieizan. Upon arriving, after having fought his way through magical creatures and deadly warriors, he find his comrades slain. One of them, Kubira, is still holding on to his life, and before drawing his last breath, he utters the word "Izumo". Ajuri then sends Kujaku to the town of Izumo, where he encounters a deadly enemy of unknown origin.
+
+Kujakuo is part adventure game à la Déjà vu (or, since this is a Sega game, Hoshi o sagashite), part platform action. To get between the adventure parts, you must pass an action level, as well as a boss fight or two, just as in Cosmic Spacehead.
+
+The adventure part has you looking at a scenery, with a text box for descriptions and lines, and a set of verbs on the right. Use a cursor to point out specific objects for your verbs.
+
+In the platform levels, Kujaku can jump and shoot magic bolts. While the usual bolt is small, he can load up before releasing them, R-Type style. Pressing the pause button opens up the spell menu, for accessing more powerful magical spells. New spells can be learned throughout the game. Most spells are offensive, but some grant additional powers such as levitation. Each time a spell is activated, you use up your limited spirit energy. Enemies will, when killed, sometimes drop spheres that will raise your spirit energy, though.
+
+This game was remade into Spellcaster upon its release in the West.</desc>
+		<image>./images/SpellCaster (USA, Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/SpellCaster (USA, Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/SpellCaster (USA, Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19890101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>4752CAE7</crc32>
+		<md5>0e1449dd7df4fd0995ccf802bb74cba0</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221903" />
+	</game>
+	<game id="972">
+		<path>./California Games II (Europe).zip</path>
+		<name>California Games II</name>
+		<desc>California Games II is the sequel to the smash hit 1988 game.
+
+This time you compete in: hang-gliding, jetski, skateboarding, body boarding and snow boarding.</desc>
+		<image>./images/California Games II (Europe)-image.png</image>
+		<marquee>./images/California Games II (Europe)-marquee.png</marquee>
+		<thumbnail>./images/California Games II (Europe)-thumb.png</thumbnail>
+		<rating>0.15</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>Probe Software</developer>
+		<publisher>SEGA</publisher>
+		<genre>Sports / Multisports</genre>
+		<family>California Games</family>
+		<players>1-8</players>
+		<crc32>C0E25D62</crc32>
+		<md5>5ac58b3a7fda23161ab1185b3ee797ac</md5>
+		<lang>en</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T221913" />
+	</game>
+	<game id="791">
+		<path>./Bomber Raid (World).zip</path>
+		<name>Bomber Raid</name>
+		<desc>Fly your plane through five levels, shooting enemy planes, submarines, helicopters, and other enemies along the way, and use your equipped cluster bombs if necessary. You need to destroy a target that is outlined in your mission briefing. You have three lives and limited cluster bombs. To help you along the way, you can shoot a power pod 
+to score points, increase your firepower, and gain some help from fellow squadrons.</desc>
+		<image>./images/Bomber Raid (World)-image.png</image>
+		<marquee>./images/Bomber Raid (World)-marquee.png</marquee>
+		<thumbnail>./images/Bomber Raid (World)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19890101T000000</releasedate>
+		<developer>Sanritsu Denki</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<players>1</players>
+		<crc32>3084CF11</crc32>
+		<md5>d1151de6ea0a2547f047ce31b22fe18f</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T221925" />
+	</game>
+	<game id="767">
+		<path>./Wonder Boy (USA, Europe, Brazil) (Rev 1).zip</path>
+		<name>Wonder Boy</name>
+		<desc>Just when things were going great with Tom-Tom and his girlfriend Tanya, some thug of a woodland king had to kidnap her and hide her away, and Tom-Tom doesn't have a clue where. That's why he has to explore deep dark forests, cross endless oceans, climb treacherous slopes, survive endless volcanoes, and even walk through clouds. But Tom-Tom will never be totally alone. You see, when he goes through the exotic locations, he has to come face to face with its inhabitants, like bees, spiders, snakes, coal-kids, frogs, bats, snails, coyotes, and octopuses, to name a few. The hatchet is Tom-Tom's only line of defense against these menaces.
+
+There are ten areas, each containing four rounds each, but the tenth area can't be accessed unless Tom-Tom collects all the dolls during his rescue mission. During his journey, he can break open different eggs that will reveal hatchets, skateboards, mushrooms, milk, and even guardian angels. You can ride the skateboard through each round, as long as you don't collide with an inhabitant. When you complete each round while still riding the skateboard, you'll start the next round still riding it. As you progress through each round, your vitality will start to get low, but it can be increased by getting milk, mushrooms, potato chips,or fruit that appear everywhere you go. As well as the normal eggs, there are also speckled eggs that must be avoided, otherwise the God of Death will be released, and once he follows you, you'll lose vitality much quickly. At the end of every fourth round, there is a king waiting to destroy you with his fireballs or lightning bolts.
+
+There are also warp-gates, but you don't find them, they find you. You see, warp-gates appear in rounds 1-4 of each area. If you happen to get one fruit, a special item will appear. These special items include handbags, wrist watches, a pair of shoes, a teddy bear, and a bottle of perfume. Another girl will appear and take you up to the clouds where the object is to collect as many hearts as you can without falling down or getting the item again. Once you have collected all the hearts, you can get the item to return to the surface, and more often than not, you'll get further in the round.</desc>
+		<image>./images/Wonder Boy (USA, Europe, Brazil) (Rev 1)-image.png</image>
+		<marquee>./images/Wonder Boy (USA, Europe, Brazil) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Wonder Boy (USA, Europe, Brazil) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19870601T000000</releasedate>
+		<developer>Escape</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Wonder Boy</family>
+		<players>1-2</players>
+		<crc32>73705C02</crc32>
+		<md5>7e805aa51bfb5f206c950a32ebcdab7c</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221935" />
+	</game>
+	<game id="877">
+		<path>./Penguin Land (USA, Europe).zip</path>
+		<name>Penguin Land</name>
+		<desc>Welcome to Penguin Land, where you're going underground to plan more than your next move. Because now with the help of a super advanced battery, you can actually design each game maze as you play and save your maze for more fun later.
+
+Here's the setting. You're aboard a cosmic expedition that's full of action and adventure. And guess who's in command?
+
+That's right, you're Overbite, commander of a special Penguin Task Force.Your mission: bring fragile eggs back safely to home from a foreign land.Your journey will take you deep into mysterious caverns where dangerous animals await to attack and destroy your eggs.
+
+But remember, your space ship and crew need you too. So be careful not to "crack-up" because you, can't be a hero with "egg on your face."</desc>
+		<image>./images/Penguin Land (USA, Europe)-image.png</image>
+		<marquee>./images/Penguin Land (USA, Europe)-marquee.png</marquee>
+		<thumbnail>./images/Penguin Land (USA, Europe)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19880101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<crc32>F97E9875</crc32>
+		<md5>8ddec589f72cdcf2cd4caafb075ec8e4</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221946" />
+	</game>
+	<game id="824">
+		<path>./Ys - The Vanished Omens (USA, Europe, Brazil) (En).zip</path>
+		<name>Ys : The Vanished Omens</name>
+		<desc>Once long ago, the Kingdom of Y's fell under a reign of evil. But the Goddesses of Y's saved the Kingdom from ruin. Their feats were written in six magical books and hidden until the time the Goddesses would be needed again. A thousand years later, that time has come. You are Aron, a wanderer. An evil sorcerer named Dark Dekt is planning diabolical magic. And the Seer Sara is desperately looking for a swordsman to help her find the vanished six books of Y's. Now arm yourself and prepare for an adventure into the unknown. Where caverns and towers are filled with creatures and hoards of treasure. Where the strangest people have clues to tell you. Where your skill in combat depends on your reflexes. If you succeed, you'll have the power to call down the Goddesses. Fail, and Dark Dekt will rule the Kingdom under a reign of terror forever!</desc>
+		<image>./images/Ys - The Vanished Omens (USA, Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Ys - The Vanished Omens (USA, Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Ys - The Vanished Omens (USA, Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19890301T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Ys</family>
+		<players>1</players>
+		<crc32>B33E2827</crc32>
+		<md5>77d2ff054429f7970134e67800539a78</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T221957" />
+	</game>
+	<game id="784">
+		<path>./Golden Axe (USA, Europe, Brazil).zip</path>
+		<name>Golden Axe</name>
+		<desc>In the past, a terrible war raged between the Gods, the creators of the world, and the Titans. The Titans were defeated thanks to a super-powerful weapon forged by the Gods, called the Golden Axe. Thanks to this weapon, the Titans were banished, and the Gods bequeathed the Earth to humans. However, one Titan had survived: Death Adder. He seized the Golden Axe and used it to lay waste to the world. He kidnapped the king of Yuria and his daughter and threatened to execute them if the inhabitants did not submit unconditionally. Three heroes, determined to take revenge on Death Adder, set out to find him.
+Each character has a special magical ability that can be charged by kicking small creatures that drop a potion.</desc>
+		<image>./images/Golden Axe (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Golden Axe (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Golden Axe (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19890101T000000</releasedate>
+		<developer>Team Shinobi</developer>
+		<publisher>SEGA</publisher>
+		<genre>Beat'em Up</genre>
+		<family>Golden Axe</family>
+		<players>1</players>
+		<crc32>C08132FB</crc32>
+		<md5>b4911ad6a9d2ba56497cd5b01da3938a</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222007" />
+	</game>
+	<game id="765">
+		<path>./Aladdin (Europe, Brazil) (En).zip</path>
+		<name>Aladdin</name>
+		<desc>Sega's 8-bit systems received a unique adaptation of Disney's 1992 animated film Aladdin.
+
+Like other versions, it is a side-scrolling action game. The player controls Aladdin, making his way through a variety of locations, including the streets of Agrabah, the Cave of Wonders, the Sultan's palace and more. Gameplay takes several different forms: some levels are chases, where Aladdin runs automatically, but must be made to jump over chasms or rolling rocks and barrels, evade falling objects and avoid getting caught by a guard. Other levels are platforming affairs: Aladdin must run, jump and climb, find keys or switches to open doors while searching for the exit. Rocks can be collected and be thrown to dispatch enemies or hit buttons otherwise out of reach. Finally, there are also several magic carpet rides in the game, in which the level scrolls automatically and the player must make sure to avoid any obstacles in the way.</desc>
+		<image>./images/Aladdin (Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Aladdin (Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Aladdin (Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19940401T000000</releasedate>
+		<developer>Disney Software</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Disney</family>
+		<players>1</players>
+		<crc32>C8718D40</crc32>
+		<md5>e3f60072028eb6f02c2b0558804aed83</md5>
+		<lang>en,br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222021" />
+	</game>
+	<game id="788">
+		<path>./Ninja Gaiden (Europe, Brazil).zip</path>
+		<name>Ninja Gaiden</name>
+		<desc>The Master System version of Ninja Gaiden is not a port of the well-known NES game, but an entirely new game (this includes both a different story and different levels) developed by SIMS under license from Tecmo.
+
+The story is also about the original protagonist, the Dragon ninja Ryu Hayabusa, who returns to his clan's village only to find it utterly destroyed and the inhabitants murdered. A single survivor tells Ryu in his last seconds that the Sacred Scroll of Bushido was stolen. With the power of the scroll its owner is mighty enough the gain control of the whole world. Thus Ryu swears to recapture the scroll and the avenge the annihilation of his clan.
+
+The game is sidescrolling platformer/ beat'em up title and incorporates most of the mechanics from the NES games: Ryu can jump and attack with his Dragon Sword. Furthermore, he can collect different kinds of Ninja Magic (which again vary form the powers in the NES games), from shuriken to fire wheels, which can only be used finitely many times, as the use up energy which again must be collected. However, instead of clinging to walls and climbing them, Ryu can push himself off the wall in this game, which must be applied for instance by jumping and forth between two close walls to get higher and higher.
+
+The goal of each level is simply to reach the end of the level before the time runs out. Each level is divided into several sections, and at the end of each level is a boss fight. After beating a boss, a cut scene is shown which continues the story about Ryu's quest for the Bushido scroll and his revenge.</desc>
+		<image>./images/Ninja Gaiden (Europe, Brazil)-image.png</image>
+		<marquee>./images/Ninja Gaiden (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Ninja Gaiden (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19920101T000000</releasedate>
+		<developer>Sims</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Ninja Gaiden</family>
+		<players>1</players>
+		<crc32>1B1D8CC2</crc32>
+		<md5>2cd25b3d9a1ced329a551d7fc3c0f01e</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222037" />
+	</game>
+	<game id="862">
+		<path>./Golvellius - Valley of Doom (USA, Europe, Brazil).zip</path>
+		<name>Golvellius : Valley of Doom</name>
+		<desc>In this game, you play Kelesis, a warrior who is sent to seek out Golvellius and rescue the beautiful Princess Rena. But in order to find him, you must defeat seven of his fiercest demons that were sent to stop you. These demons are found in caves throughout the valley floor, but in order to access these caves, you need to defeat some of the wild beasts that are scattered throughout the valley. When you kill these beasts, you will receive some gold, but when you are hit by these beasts, your energy will be lost. Some caves will appear when certain objects are struck with your sword. In some caves,you will find fairies, sorceresses, and wise women who will help you in many ways be increasing gold, giving you life potions, and restoring your energy.
+
+There is a password save feature in this game. At the beginning of each area, you can enter a cave where a woman tells you what the password is, but if you die in the course of your quest, the password will already be revealed. By entering this password, you will be able to begin the game from the opening of the valley (if you get that far) with all your possessions intact.</desc>
+		<image>./images/Golvellius - Valley of Doom (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Golvellius - Valley of Doom (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Golvellius - Valley of Doom (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.9</rating>
+		<releasedate>19881201T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>SEGA</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>A51376FE</crc32>
+		<md5>2101295c258cb6b845bdb72be617691d</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222048" />
+	</game>
+	<game id="814">
+		<path>./R-Type (World).zip</path>
+		<name>R-Type</name>
+		<desc>R-TYPE, uno de los shooters arcade más famosos, ofrece una adaptación fiel donde mejoras tu nave R-9 destruyendo cápsulas POW. El módulo Force, que puedes acoplar y desacoplar, es clave para usar armas como láseres y misiles. También puedes cargar el cañón Beam para lanzar un poderoso disparo. El juego destaca por sus enormes jefes y por el célebre tercer nivel, donde enfrentas tú solo a un gigantesco acorazado.</desc>
+		<image>./images/R-Type (World)-image.png</image>
+		<marquee>./images/R-Type (World)-marquee.png</marquee>
+		<thumbnail>./images/R-Type (World)-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>19881201T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>R-Type</family>
+		<players>1</players>
+		<crc32>BB54B6B0</crc32>
+		<md5>9e5507d51ac6f24c702a52a7abce0d3c</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222059" />
+	</game>
+	<game id="768">
+		<path>./Phantasy Star (World) (Sega Ages).zip</path>
+		<name>Phantasy Star</name>
+		<desc>Alis is a young girl whose brother Nero was brutally killed by a mysterious man known as Lassic. Nero's last words were: "Sister, find a warrior named Odin, he can help you to defeat Lassic!" Now Alis' dangerous adventure begins. Her first task is to find Odin. Then, with help and support from her friends, Alis will have to stop the evil Lassic and save the world...
+
+This game is the very first installment in the long-lived Phantasy Star series. It is a futuristic RPG that uses a turn-based combat system (viewed from first-person perspective). An unusual feature of this game is that some locations are also viewed from first-person perspective. You can explore those locations by moving forward or backward, and the environments are in pseudo-3D.</desc>
+		<image>./images/Phantasy Star (World) (Sega Ages)-image.png</image>
+		<marquee>./images/Phantasy Star (World) (Sega Ages)-marquee.png</marquee>
+		<thumbnail>./images/Phantasy Star (World) (Sega Ages)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19880101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Phantasy Star</family>
+		<players>1</players>
+		<crc32>A1E090B9</crc32>
+		<md5>25bb6453a87521df1ea8d1bce4189da0</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222115" />
+	</game>
+	<game id="778">
+		<path>./Alex Kidd in Shinobi World (USA, Europe, Brazil).zip</path>
+		<name>Alex Kidd in Shinobi World</name>
+		<desc>Alex Kidd continues his adventures in Alex Kidd in Shinobi World, featuring remixes of the music you heard from Shinobi, and featuring the common enemy: Ninjas.
+
+The Dark Ninja, whom was banished 10,000 years ago, has returned to rule Miracle World. He also takes young Alex's girlfriend and use her as a sacrifice. To help Alex defeat the Dark Ninja and rescue his girlfriend, a god enters Alex's body, causing Alex to become a ninja master.
+
+There are four rounds, with three levels each, and has Alex travel through locations like office blocks, construction sites, shipyards, and jungles. He must go through each level defeating ninjas and other wildlife. In the last levels, he must defeat bosses including Kabuto, Heli, Robster, and Hanzo. To survive some levels, you must learn the secret jumping technique, described on page eight of the game's instruction manual. You start the game with three lives and are presented with an energy bar with three units, but you'll lose one if an enemy touches you. Furthermore, If you lose all three energy units, you lose a life, and if you lose all three lives, the game is over.
+
+Additional energy units can be obtained by collecting hearts that can be found by breaking treasure chests. The maximum units you can get is six. From there, the heart is replaced by a mini-Alex. Collect this and you've earned yourself an extra life. You'll get hearts if you have less than six units. 
+
+You can also get weapons like spears and power swords by breaking these treasure cheats. However, if you're lucky, you can obtain a Tornado icon, letting you transform into a tornado while mini-Tornados whirl around the screen, seeking enemies. This allows you to either go left or right so your enemies get sucked in and are knocked out.</desc>
+		<image>./images/Alex Kidd in Shinobi World (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Alex Kidd in Shinobi World (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Alex Kidd in Shinobi World (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19900101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Alex Kidd</family>
+		<players>1</players>
+		<crc32>D2417ED7</crc32>
+		<md5>d62b631506913712a2103f54912458a5</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222126" />
+	</game>
+	<game id="822">
+		<path>./Kenseiden (USA, Europe, Brazil).zip</path>
+		<name>Kenseiden</name>
+		<desc>In Kenseiden, you play Hayato, a fearless samurai warrior. You must get back the stolen swords and scrolls, and defeat the evil waiting in the Black Castle!
+
+Kenseiden is a one-player game that comprises of sixteen levels. Each of the levels are side-scrolling, with bamboo houses or dank, haunted caves as their backdrop. These levels see Hayato beseigned by ghosts, skeletons, and other spirits of the supernatural. On his side is his curved sword, which he can swish at will against the monsters. If Hayato comes in contact with a monster, he will lose some life.
+
+At the end of each level, you will have to fight a warlock or one of their henchmen. More often than not, there is a hut with a sealed door, but the door is not unlocked unless a warlock or henceman is defeated. You gain a new special power whenever you recover a scroll from them. These special powers range from high jumping to the ability to whirl your sword around like a windmill.</desc>
+		<image>./images/Kenseiden (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Kenseiden (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Kenseiden (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>19880901T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<players>1</players>
+		<crc32>516ED32E</crc32>
+		<md5>6ae8f011701608ae8b765a26eb0b7ce1</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222141" />
+	</game>
+	<game id="794">
+		<path>./Golden Axe Warrior (USA, Europe, Brazil).zip</path>
+		<name>Golden Axe Warrior</name>
+		<desc>Golden Axe Warrior is a spin-off of the Golden Axe games, a series of side-scrolling Beat'Em Ups from Sega.
+ 
+In ancient times a horde of giants rebelled against the elders and a brutal war ensued. Things looked grave until finally a hero, carrying the Golden Axe, appeared and drove back the giants. Since then, the kingdom of Firewood has been ruled by a family that had mastered the power of the nine crystals to ward off all evil from Firewood. Everyone lived in peace until one of Firewood's ministers betrayed his king and sold the nine crystals to Death Adder, one of the evil giants. Death Adder has hidden the nine crystals in nine dungeons, has unleashed hordes of monsters and is threatening to take over the world. Will there be another hero who can find the Golden Axe and defeat Death Adder?
+
+Gameplay in Golden Axe Warrior is very similar to The Legend Of Zelda, meaning you will spend most of your time exploring the large overworld fighting against lots of enemies and looking for the dungeons in which the crystals are hidden. Inside the dungeons you have to fight more enemies, find treasures and keys, solve simple puzzles and defeat the dungeon's boss to get one of the crystals. In order to survive against the large number of enemies, you will be able to find many different weapons and three different spells.</desc>
+		<image>./images/Golden Axe Warrior (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/Golden Axe Warrior (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Golden Axe Warrior (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19910401T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Game</genre>
+		<family>Golden Axe</family>
+		<players>1</players>
+		<crc32>C7DED988</crc32>
+		<md5>d46e40bbb729ba233f171ad7bf6169f5</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222153" />
+	</game>
+	<game id="915">
+		<path>./Zillion II - The Tri Formation (World).zip</path>
+		<name>Zillion II : The Tri Formation</name>
+		<desc>They're at it again. The dreaded Norsa Empire is back... and stronger than ever before. This time they won't make any mistakes. Others have tried to stop them and all have failed. The evil Baron Ricks knows you are coming. And it's a trap! But you're the galaxy's last hope. Can you do what's never been done before?</desc>
+		<image>./images/Zillion II - The Tri Formation (World)-image.png</image>
+		<marquee>./images/Zillion II - The Tri Formation (World)-marquee.png</marquee>
+		<thumbnail>./images/Zillion II - The Tri Formation (World)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19880701T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Zillion</family>
+		<players>1</players>
+		<crc32>2F2E3BC9</crc32>
+		<md5>605b0c360075876b4a0be479679d1075</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222205" />
+	</game>
+	<game id="916">
+		<path>./Sonic Spinball (Europe, Brazil).zip</path>
+		<name>Sonic Spinball</name>
+		<desc>The evil doctor Robotnik has a new plan to take over the world. He has built a new weapon, the Veg-O-Fortress on Mount Mobius and with it, he is transforming all creatures into robots. Sonic sneaks into the fortress and tries to stop Robotnik.
+
+Use Sonic as a pinball in 4 dangerous levels. Score points, get rings, collect Chaos Emeralds and destroy the boss at the end of each level.</desc>
+		<image>./images/Sonic Spinball (Europe, Brazil)-image.png</image>
+		<marquee>./images/Sonic Spinball (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Sonic Spinball (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19950125T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Pinball</genre>
+		<family>Sonic</family>
+		<players>1</players>
+		<crc32>11C1BC8A</crc32>
+		<md5>21b4bcf6b259d4550912ad6f4aeaf550</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222217" />
+	</game>
+	<game id="758">
+		<path>./Wonder Boy III - The Dragon's Trap (USA, Europe).zip</path>
+		<name>Wonder Boy III : The Dragon's Trap</name>
+		<desc>Wonder Boy III: The Dragon's Trap is a direct sequel to Wonder Boy in Monster Land. When Tom-Tom defeats the MEKA dragon, the wounded beast casts a spell on him, turning him into a Lizard-Man. To regain your original human form, you have to find the Salamander Cross, hidden by the Vampire Dragon in Monster Land.
+
+In this side-scrolling platform game, you can still buy equipment and items, but unlike its predecessor, it is not divided in sequences of levels. You are allowed to go anywhere, as long as you have the right shape or equipment. During his quest, Tom-Tom has to defeat various dragon bosses. Each win will give you a new shape with new abilities such as flying, swimming, walking on ceilings or clinging to walls, which also give you to access new parts of the world. The possible shapes are Lizard-Man, Mouse-Man, Piranha-Man, Lion-Man and Hawk-Man and the main abilities are defined by attacking power, defense points and charm points (needed for equipment by collecting charm stones). Also, certain blocks can only be destroyed by specific weapons or are only accessible to certain shapes.
+
+The basic actions consist of attacking and jumping, and in the status screen you can equip swords, shields and armour. Special attacks include fire balls, tornadoes, arrows, boomerangs and thunder strikes. Along the way, you collect keys (only one at all times) and gold left behind by defeated creatures, and you often have to revisit places to access new areas. A password is given at the beginning of each town to continue from there.</desc>
+		<image>./images/Wonder Boy III - The Dragon's Trap (USA, Europe)-image.png</image>
+		<marquee>./images/Wonder Boy III - The Dragon's Trap (USA, Europe)-marquee.png</marquee>
+		<thumbnail>./images/Wonder Boy III - The Dragon's Trap (USA, Europe)-thumb.png</thumbnail>
+		<rating>0.85</rating>
+		<releasedate>19890901T000000</releasedate>
+		<developer>Westone</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Wonder Boy</family>
+		<players>1</players>
+		<crc32>679E1676</crc32>
+		<md5>e7f86c049e4bd8b26844ff62bd067d57</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222231" />
+	</game>
+	<game id="801">
+		<path>./Fantasy Zone (World) (Rev 1).zip</path>
+		<name>Fantasy Zone</name>
+		<desc>The Fantasy Zone is a solar system consisting of eight brightly colored, fantastic planets. The evil Menons are trying to take over all of the planets in the Fantasy Zone by using misappropriated foreign currency to build their forces. It is the player's job to recover all of the coins and save the solar system! 
+
+Fantasy Zone is an arcade style shooter for one or two players. The goal is to destroy all of the creatures on each planet and collect as many of the lost coins as possible. At the end of each level is a large enemy that will have to be defeated before moving on to the next world.  At various points in the game, the player will be able to find a parts shop, which allows purchasing improvements for his spaceship, including better weapons and faster engines.</desc>
+		<image>./images/Fantasy Zone (World) (Rev 1)-image.png</image>
+		<marquee>./images/Fantasy Zone (World) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Fantasy Zone (World) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19860901T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shoot'em Up / Horizontal</genre>
+		<family>Fantasy Zone</family>
+		<players>1-2</players>
+		<crc32>65D7E4E0</crc32>
+		<md5>fed8690ee5fb895c09caa8e2b879ebd6</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222242" />
+	</game>
+	<game id="781">
+		<path>./Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil).zip</path>
+		<name>The Lucky Dime Caper Starring Donald Duck</name>
+		<desc>The Lucky Dime Caper is a 2D platform game featuring Donald Duck in search of Uncle Scrooge's lucky dime, stolen by Magica De Spell.
+
+The game is the 8-bit counterpart for Quack Shot (released only for Sega Genesis), which also features Donald Duck, but the story and gameplay are totally different.</desc>
+		<image>./images/Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil)-image.png</image>
+		<marquee>./images/Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19911201T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Donald Duck</family>
+		<players>1</players>
+		<crc32>A1710F13</crc32>
+		<md5>653f10042a5ee5854ccf971456641a4d</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222254" />
+	</game>
+	<game id="957">
+		<path>./Power Strike II (Europe, Brazil) (En).zip</path>
+		<name>Power Strike II</name>
+		<desc>In the early 1930s, people have lived in poverty since the great depression in 1929. Being laid off from their job, a great amount of pilots became the sky pirates in order to survive. The sea and the sky near Italy have been plundered by them. You earn a living by shooting down these pirates.
+
+Power Strike II is a top-down shooter where you must select which weapon you want to use during the game, and then fight your way through various stages, destroying both air- and ground-based enemies along the way. You can upgrade your weapons by collecting power-ups that can only be found by shooting specific ships. You will need to defeat the end-of-level boss (by destroying parts of it) in order to proceed to the next level.</desc>
+		<image>./images/Power Strike II (Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Power Strike II (Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Power Strike II (Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19930101T000000</releasedate>
+		<developer>Compile</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Aleste</family>
+		<players>1</players>
+		<crc32>A109A6FE</crc32>
+		<md5>bd7898393b716aff69132934bf7dccb8</md5>
+		<lang>en,br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222306" />
+	</game>
+	<game id="759">
+		<path>./Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1).zip</path>
+		<name>Castle of Illusion Starring Mickey Mouse</name>
+		<desc>Sega's 8-bit systems received their own version of the Genesis' popular Disney platformer. Story and themes remain the same, but the game has unique levels and slightly different gameplay mechanics.
+
+To save his girlfriend Minnie from the evil witch Mizrabel, Mickey Mouse must venture into the Castle of Illusion. Crossing six levels (including a magical forest, a toy land and a candy world), he must collect the gems of the rainbow in order to confront and defeat the witch.
+
+Each level features unique obstacles, enemies and a final boss. The enemies can be defeated by jumping on top of them. An alternative way is to pick up objects lying around (like rocks in the forest or blue balls in the toy level) and throwing them at the enemies. Mickey's ability to pick up things and carry them around also leads to puzzle-oriented gameplay. By placing objects in the right spot and jumping off of them, he can get to areas otherwise out of reach. In some levels, he also has to collect keys to open doors. A unique type of object is the treasure chest - by jumping on top of one or throwing it, Mickey gets access to its contents, which might include extra lives, a health power-up or coins to collect for points.</desc>
+		<image>./images/Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1)-image.png</image>
+		<marquee>./images/Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19910201T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform / Run &amp; Jump Scrolling</genre>
+		<family>Mickey Mouse</family>
+		<players>1</players>
+		<crc32>953F42E1</crc32>
+		<md5>e7e1ef0a9e20585e2266e8adbaf4b8c9</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222318" />
+	</game>
+	<game id="762">
+		<path>./Double Dragon (World).zip</path>
+		<name>Double Dragon</name>
+		<desc>Set in a post-apocalyptic New York, Double Dragon is the story of Billy and Jimmy Lee, twin brothers trained in the fighting style of Sou-Setsu-Ken. Together, they manage a small martial arts training school, teaching their students in self-defense. One day, Billy's girlfriend, Marian, is kidnapped off the street by the "Black Warriors", a savage street gang led by a man named Willy. The Black Warriors demand the Lee brothers disclose their martial arts secrets in exchange for Marian's freedom. The Lee brothers set out on a rescue mission to crush the Black Warriors and save Marian.
+
+Using whatever techniques they have at their disposal, from the basic punches and kicks to the invulnerable elbow strike, as well any weapon that comes into their hands, the Lee brothers must pursue the gang through the city slum, industrial area and the forest before reaching their hideout to confront the big boss, Willy.</desc>
+		<image>./images/Double Dragon (World)-image.png</image>
+		<marquee>./images/Double Dragon (World)-marquee.png</marquee>
+		<thumbnail>./images/Double Dragon (World)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19881101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Beat'em Up</genre>
+		<family>Double Dragon</family>
+		<players>1-2</players>
+		<crc32>A55D89F3</crc32>
+		<md5>fe9aa8044951b10f876b15f4456161a9</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222330" />
+	</game>
+	<game id="754">
+		<path>./Alex Kidd in Miracle World (World) (Sega Ages).zip</path>
+		<name>Alex Kidd in Miracle World</name>
+		<desc>Many centuries ago, on the planet Aries, there lived a boy called Alex Kidd. For seven years, he lived on Mt. Eternal studying Shellcore, an ancient art that makes one strong enough to break rocks into pieces. As he was leaving the mountain one day to travel to his spiritual homeland, a dying man told him that the peaceful city of Radactian was in grave danger. Before taking his last breath, the man gave Alex a piece of a map and a medallion made of Sun Stone.
+
+There are eleven locations in which Alex must explore, each of them has its own unique dangers. In each location, Alex can collect bags of coins, which can be used to buy items at the shop and are used to help Alex get through each location (eg: motorcycle, peticopter, power bracelet, etc.) There are also traps that Alex must avoid like the ghost that chases him. He can also collect the Telepathy Ball that will help him read people's minds.
+
+Later, Alex learns that in order to save Radactian from destruction, he must first defeat Janken the Great, Emperor of the planet Janbarik (he got his name from his expertise at the game of Janken -- or what people call "scissors, paper, stone" in the Western World. Janken has sent his henceman all over Radactian to prepare the game for Alex as he passes by them. In order to get past them, Alex must win three times at Janken. If he loses, he is turned to stone and vanished from Radactian forever. Later on in the game, Alex must play with the same henceman, but only this time, when Alex wins, they decide to play dirty.
+
+Alex uses his fists to wipe out some of Janken's enemies such as birds, sea horses, bats, monkeys, frogs, and a few others. If his quest to save Radactian from the evil hands of Janken becomes difficult, he can instead use the power bracelet to perform the "Shocking Waves of Destruction", an ancient trick in the art of Shellcore.
+
+Before Alex comes face-to-face with Janken, he should rescue his brother, Egle, from imprisonment, and get the letter and two medallions.</desc>
+		<image>./images/Alex Kidd in Miracle World (World) (Sega Ages)-image.png</image>
+		<marquee>./images/Alex Kidd in Miracle World (World) (Sega Ages)-marquee.png</marquee>
+		<thumbnail>./images/Alex Kidd in Miracle World (World) (Sega Ages)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19861201T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform / Run &amp; Jump</genre>
+		<family>Alex Kidd</family>
+		<players>1</players>
+		<crc32>50A8E8A7</crc32>
+		<md5>89da0a1c14b660741680104024aa5942</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222346" />
+	</game>
+	<game id="840">
+		<path>./California Games (USA, Europe, Brazil).zip</path>
+		<name>California Games</name>
+		<desc>California Games was the original "Extreme Games" – what today's generation might call "X-Games in the sun".  Players can select sponsors (absent in some versions) and compete in events such as skateboarding, footbag, surfing, roller skating, flying disc (frisbee) and BMX.  The surfing event is ranked by judges, which give a score to help the players improve their routine.
+
+The Atari versions (2600 and Lynx) of the game omit the flying disc and roller skating events, while the Genesis version omits only the flying disc event.</desc>
+		<image>./images/California Games (USA, Europe, Brazil)-image.png</image>
+		<marquee>./images/California Games (USA, Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/California Games (USA, Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19890501T000000</releasedate>
+		<developer>Epyx</developer>
+		<publisher>SEGA</publisher>
+		<genre>Sports / Multisports</genre>
+		<family>California Games</family>
+		<players>1-8</players>
+		<crc32>AC6009A7</crc32>
+		<md5>182b179a1226fb5b1e1cf6bb2f351c50</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222356" />
+	</game>
+	<game id="891">
+		<path>./Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En).zip</path>
+		<name>Miracle Warriors : Seal of the Dark Lord</name>
+		<desc>In Miracle Warriors: Seal of the Dark Lord, you have been asked to recover the Golden Seal which is being guarded by the Dark Lord Terarin.  You start your quest by yourself, but you must find three other companions who will join you to defeat Terarin. You also must venture through five lands. You will find villages, towns and castles in your travels in these lands. In each, you will find or be able to buy weapons and armor (both for you and your companions), medicine and...clues. You will also find caves, dungeons, and monuments that are scattered. Some you may enter unhindered. Others will be locked...until you find the right person or learn the right spell. 
+
+Also within each land, you will encounter monsters such as evil merchants, Weasly wimps, Unmutaks, Great Lions, Gelfises, Zirods, and many more. Some of these monsters do less damage than others, and  take more damage themselves. You can either attack them yourself using your weapons or spells, or make your companions attack the monsters themselves. When defeated, most monsters will either leave behind some coins, which you can spend to buy stuff at the towns, or some items, which you can also use to defeat monsters.
+
+However, not all inhabitants are monsters. You will also meet merchants and travelers who might tell you where to go and what to do.</desc>
+		<image>./images/Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19881101T000000</releasedate>
+		<developer>Kogado</developer>
+		<publisher>SEGA</publisher>
+		<genre>Role Playing Game / Japanese RPG</genre>
+		<players>1</players>
+		<crc32>0E333B6E</crc32>
+		<md5>e0a9cf889c27f3cb14903288f646d183</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222411" />
+	</game>
+	<game id="937">
+		<path>./Zillion (USA, Europe) (Rev 1).zip</path>
+		<name>Zillion</name>
+		<desc>Are you ready for the ultimate danger? You're alone, outnumbered and there's no guarantee you'll make it alive. You're J.J. Your objective: secretly infiltrate the underground labyrinth of The Norsa Empire and steal their plans for domination. Armed with the ultra speed and power of the Zillion Laser, your mission is complex. And sheer strength will not win this one alone. You'll need more brains than brawn in this sophisticated operation. So, how will you think your way to victory? With cunning strategy and memory to guide you successfully through the maze which awaits. Where once inside, you'll find the information needed to destroy the Norsas and restore peace forever.</desc>
+		<image>./images/Zillion (USA, Europe) (Rev 1)-image.png</image>
+		<marquee>./images/Zillion (USA, Europe) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Zillion (USA, Europe) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.8</rating>
+		<releasedate>19871101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Zillion</family>
+		<players>1</players>
+		<crc32>5718762C</crc32>
+		<md5>d4bf9e7bcf9a48da53785d2ae7bc4270</md5>
+		<lang>en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222545" />
+	</game>
+	<game id="888">
+		<path>./Danan - The Jungle Fighter (Europe, Brazil) (En).zip</path>
+		<name>Danan : The Jungle Fighter</name>
+		<desc>Long ago, in the distant land of Moralos, in a time when vast jungles still covered the Earth, an evil presence emerged from its tomb beneath the ground. His name was Gilbas, and he was about to destroy the inhabitants of the land. Aganan, a great warrior, was summoned to save the troubled land and put an end to Gilbas by sealing him in the tome from where it came.
+
+Unfortunately, Gilba was successfully resurrected and another warrior, Danan, was called. His quest is to locate the three sacred objects that Aganan used to defeat Gilbas: "The Orb of Light", "The Amulet of Light", and "The Knife of Light". 
+
+There are about four rounds to complete, and has Danan going through exotic locations defeating enemies such as valkyries, ogres, bees, spiders, and several others. At the end of each round, you come face to face with a boss, which takes quite a number of hits to kill with your sword. Once they are defeated, they are likely to give you one of the objects that you need to defeat Gilbas. More to the story is then revealed.
+
+Assisting you with your journey are three animals: an eagle, a monkey, and some other animal that I am unfamiliar with. To get these animals to help you, however, you will need to collect three of their tokens that are found in yellow chests. These animals are quite useful in dangerous situations. The eagle, for example, can get a hold of you and fly you to safety if more than one type of enemy surrounds you. Anyway, you can get these animals to help you at any place, at any time, as long as you have three of its tokens. Yellow chests can also reveal extra strength, extra time, or extra health.
+
+The game ends when you run out of time, or when you lose your health, and there are no second chances, unless you manage to find some elixirs, which are rare.</desc>
+		<image>./images/Danan - The Jungle Fighter (Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Danan - The Jungle Fighter (Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Danan - The Jungle Fighter (Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19900101T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<crc32>AE4A28D7</crc32>
+		<md5>6b0fc60aa886c060bf1a16ea97b4f441</md5>
+		<lang>en,br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222558" />
+	</game>
+	<game id="835">
+		<path>./Power Strike (USA, Europe, Brazil) (En).zip</path>
+		<name>Power Strike</name>
+		<desc>The Earth is threatened by mutant plant life and their brainwashed human followers. Only one force can stop the evil vegetables from taking root: Power Strike, the most versatile jet fighter in the world.  Blast the enemy in the air and and on the ground and save the planet from the creeping green menace. 
+
+There are six rounds to complete (three in the mobile version). In each round, numbers (from 1 to 8) can be found on the ground either enclosed by a ring, or in the air carried by a ship. Getting these numbers will upgrade your firepower. Get more of the same number for a maximum upgrade. Unfortunately, whatever the type of firepower you get, you will have a limited supply of ammo, so you need to stock up on the same type of firepower if you get too low. 
+
+At the end of each round, there is an end-of-round boss which involves shooting parts of its base in order to destroy it. Intermediate bosses can be found in the last three rounds (console version only).</desc>
+		<image>./images/Power Strike (USA, Europe, Brazil) (En)-image.png</image>
+		<marquee>./images/Power Strike (USA, Europe, Brazil) (En)-marquee.png</marquee>
+		<thumbnail>./images/Power Strike (USA, Europe, Brazil) (En)-thumb.png</thumbnail>
+		<rating>0.7</rating>
+		<releasedate>19881201T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Shoot'em Up / Vertical</genre>
+		<family>Aleste</family>
+		<players>1</players>
+		<crc32>4077EFD9</crc32>
+		<md5>8d9f02dcfea8f9728a3665ca12b044d1</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222612" />
+	</game>
+	<game id="771">
+		<path>./Land of Illusion Starring Mickey Mouse (Europe, Brazil).zip</path>
+		<name>Land of Illusion Estrelando Mickey Mouse</name>
+		<desc>Mickey Mouse is reading an interesting book and suddenly find himself in a strange, dreamy village. he is told that a curse has been placed on the village, turning its good magic into bad one. The evil Phantom, who lives in the castle in the clouds, is responsible for that! Mickey decides to help the villagers and to defeat the evil Phantom.
+
+This is a platform jump-and-run game. There is a time limit to each level. Mickey can jump, duck, climb, and defeat enemies by jumping on them and pressing the down arrow at the same time.</desc>
+		<image>./images/Land of Illusion Starring Mickey Mouse (Europe, Brazil)-image.png</image>
+		<marquee>./images/Land of Illusion Starring Mickey Mouse (Europe, Brazil)-marquee.png</marquee>
+		<thumbnail>./images/Land of Illusion Starring Mickey Mouse (Europe, Brazil)-thumb.png</thumbnail>
+		<rating>0.75</rating>
+		<releasedate>19930601T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Mickey Mouse</family>
+		<players>1</players>
+		<crc32>24E97200</crc32>
+		<md5>07fac1d61bc20cf6eb298f66ec2ffe49</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222627" />
+	</game>
+	<game id="799">
+		<path>./Action Fighter (USA, Europe, Brazil) (Rev 1).zip</path>
+		<name>Action Fighter</name>
+		<desc>This is a top down vertically scrolling shooter, in which you start off as a motorbike. You are quite vulnerable to attack at first, but power ups come in the form of a Sega van which you have to dock with. The first time you dock you get double fire, the second time gives you a rocket, the third gives a rear force field and the fourth invulnerablility.
+
+By destroying cars and bikes that appear on your way, you can collect A-F letters. Collecting A through to D allows you change into a sportscar which is less vulnerable to attack, but not as nimble. Collect all the letters in order to be able to transform into a high tech plane. This is the final stage of one of the five missions. Only the high tech plane can guide you to your destination in which your main target is hiding.
+
+There is also time limit in which you have to complete the mission. It is advisable to transform into the high tech plane as fast as it is possible.
+
+Picking up flags gives you bonus points with 10,000 points gaining you an extra life.</desc>
+		<image>./images/Action Fighter (USA, Europe, Brazil) (Rev 1)-image.png</image>
+		<marquee>./images/Action Fighter (USA, Europe, Brazil) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Action Fighter (USA, Europe, Brazil) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.5</rating>
+		<releasedate>19860102T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Racing, Driving</genre>
+		<players>1-2</players>
+		<crc32>3658F3E0</crc32>
+		<md5>47d736575f9a22f7490d62c76ed7c933</md5>
+		<lang>br,en</lang>
+		<region>us</region>
+		<scrap name="ScreenScraper" date="20251230T222640" />
+	</game>
+	<game id="834">
+		<path>./Aztec Adventure (World).zip</path>
+		<name>Aztec Adventure : The Golden Road to Paradise</name>
+		<desc>Aztec Adventure is a traditional action/labyrinth game in which the player assumes the role of Nino, an explorer whose aim is to find the Aztec Paradise.
+
+The labyrinth is full of Aztec mythology creatures and other ancient Mexican references.
+
+Although it is a maze game, the controls are very simple and easy to manage.</desc>
+		<image>./images/Aztec Adventure (World)-image.png</image>
+		<marquee>./images/Aztec Adventure (World)-marquee.png</marquee>
+		<thumbnail>./images/Aztec Adventure (World)-thumb.png</thumbnail>
+		<rating>0.65</rating>
+		<releasedate>19880301T000000</releasedate>
+		<developer>SEGA</developer>
+		<publisher>SEGA</publisher>
+		<genre>Puzzle</genre>
+		<players>1</players>
+		<crc32>FF614EB3</crc32>
+		<md5>12ce04ff557a96add46f04b12b0d47cc</md5>
+		<lang>en</lang>
+		<region>wr</region>
+		<scrap name="ScreenScraper" date="20251230T222653" />
+	</game>
+	<game id="756">
+		<path>./Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1).zip</path>
+		<name>Sonic The Hedgehog 2</name>
+		<desc>Coming back from the vacation Sonic took after foiling the plans of Dr Robotnik, he finds that Tails and all his other animal friends are missing. Sonic finds a letter waiting for him, that reads:
+
+"Dear Sonic,
+
+Robotnik is back, and he's captured all the animals on the island! He is holding me in a place called the Crystal Egg. In order to free me, you have to find and bring the six Chaos Emeralds.
+
+Robotnik made me write this. He says he's waiting for you, and he's created six really nasty robots in order to 'get rid of you once and for all.' I don't know what he has planned, but Sonic, please be careful!
+
+Sincerely, Tails."
+
+That being more that enough motivation for him, Sonic races out to defeat Robotnik again.
+
+The master system version is totally different than the Sonic 2 for Genesis. Tails obviously doesn't accompany you, like he can in the Genesis release. Sonic can also not do his infamous buzzsaw roll by simply ducking and pressing jump.</desc>
+		<image>./images/Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1)-image.png</image>
+		<marquee>./images/Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1)-marquee.png</marquee>
+		<thumbnail>./images/Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1)-thumb.png</thumbnail>
+		<rating>0.6</rating>
+		<releasedate>19921101T000000</releasedate>
+		<developer>Aspect</developer>
+		<publisher>SEGA</publisher>
+		<genre>Platform</genre>
+		<family>Sonic</family>
+		<players>1</players>
+		<crc32>D6F2BFCA</crc32>
+		<md5>0ac157b6b7e839953fc8eba7538fb74a</md5>
+		<lang>br</lang>
+		<region>eu</region>
+		<scrap name="ScreenScraper" date="20251230T222708" />
+	</game>
+</gameList>

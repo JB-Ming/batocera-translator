@@ -1,0 +1,317 @@
+{
+  "Phantasy Star Gaiden (Japan) (Translated)": {
+    "key": "Phantasy Star Gaiden (Japan) (Translated)",
+    "original_name": "Phantasy Star Gaiden",
+    "name": "白金版遊戲",
+    "name_source": "wiki",
+    "original_desc": "Long ago, the evil Cablon ravaged the Copto planet, a light year away of the Algol system. When he was defeated, he was sealed on a planet discovered by Alis, the heroine of the first \"Phantasy Star\", a planet that was also known as Alisland. In this gaiden (side-story) set in Phantasy Star universe, you play the role of two young people from the village Tedo - Alec and Mina. One day, Mina finds an old artifact. While wondering what that could be, the young people learn that Alec' father was attacked and kidnapped by bandits. Determined to find him, the two heroes embark on a dangerous journey that will eventually lead them much further than they suspect. \n\nPhantasy Star Gaiden plays pretty much like any other Phantasy Star starting with the second game: both towns and dungeons are in top-down view, the turn-based battles are viewed from first-person perspective. The gameplay is standard console-style RPG: you should fight random enemies, gain experience and gold, buy better equipment, visit many towns and dungeons, etc.",
+    "desc": "很久以前，邪惡的卡布隆蹂躪了距大陵五星系一光年遠的科普托星球。當他被擊敗後，他被封印在第一部《夢幻之星》女主角艾莉絲發現的星球上，這個星球也被稱為艾莉斯蘭。在這個以夢幻之星宇宙為背景的外傳（支線故事）中，你扮演來自泰多村的兩個年輕人 - 亞歷克和米娜。有一天，米娜發現了一件古老的神器。當年輕人想知道這可能是什麼時，他們得知亞歷克的父親被強盜襲擊並綁架了。兩位英雄決心找到他，踏上了危險的旅程，最終讓他們走得比他們想像的更遠。\n\n從第二款遊戲開始，《夢幻之星外傳》的玩法與任何其他《夢幻之星》非常相似：城鎮和地下城都是自上而下的視圖，回合製戰鬥是從第一人稱視角觀看的。遊戲玩法是標準的主機風格角色扮演遊戲：你應該與隨機的敵人戰鬥，獲得經驗和金幣，購買更好的裝備，參觀許多城鎮和地下城等。",
+    "desc_source": "api"
+  },
+  "Super Columns (USA, Europe)": {
+    "key": "Super Columns (USA, Europe)",
+    "original_name": "Super Columns",
+    "name": "Game Gear",
+    "name_source": "wiki",
+    "original_desc": "Super Columns is an updated version of Columns with more options of play, but with the same setup, maneuvering falling blocks into groups of three or more to eliminate them from the screen.  Along with a Versus mode there is also a Story mode as well.\n\nAn evil sorcerer by the name of Surhand has stolen a mystical amulet which brings peace and serenity to the land of Phoenicia and hopes to use it to bring death and destruction to the land.  The player must battle their way through his four guards in a series of best two-out-of-three games of Columns in order to face off against Surhand and bring peace back to the land.\n\nThe Flash Mode also returns to this version as well as the new Endless Mode where the main objective is to score as many points as possible before the timer runs out.  There are also special columns throughout these modes such as Glitter Columns which eliminates all blocks of the same color on the screen at once as well as Stone Block Columns which can only be eliminated through magic power-ups that can be obtained by eliminating the base blocks.",
+    "desc": "超級柱子是柱子的更新版本，具有更多的遊戲選項，但具有相同的設置，將下落的塊分成三個或更多的組以將它們從屏幕上消除。除了對戰模式之外，還有故事模式。\n\n一個名叫蘇爾漢德的邪惡巫師偷走了一個神秘的護身符，它給腓尼基的土地帶來了和平與安寧，並希望用它給這片土地帶來死亡和毀滅。玩家必須在一系列三局兩勝的縱隊遊戲中擊敗他的四名守衛，才能對抗蘇爾漢德並為這片土地帶來和平。\n\n閃光模式以及新的無盡模式也回歸到這個版本，其主要目標是在計時器耗盡之前獲得盡可能多的分數。這些模式中還有一些特殊的列，例如閃光列，它可以一次消除屏幕上所有相同顏色的塊，以及石塊列，它只能通過消除基本塊獲得的魔法增強來消除。",
+    "desc_source": "api"
+  },
+  "Sonic The Hedgehog 2 (World)": {
+    "key": "Sonic The Hedgehog 2 (World)",
+    "original_name": "Sonic the Hedgehog 2",
+    "name": "刺猬索尼克2",
+    "name_source": "api",
+    "original_desc": "Coming back from the vacation Sonic took after foiling the plans of Dr Robotnik, he finds that Tails and all his other animal friends are missing. Sonic finds a letter waiting for him, that reads:\n\n\"Dear Sonic,\n\nRobotnik is back, and he's captured all the animals on the island! He is holding me in a place called the Crystal Egg. In order to free me, you have to find and bring the six Chaos Emeralds.\n\nRobotnik made me write this. He says he's waiting for you, and he's created six really nasty robots in order to 'get rid of you once and for all.' I don't know what he has planned, but Sonic, please be careful!\n\nSincerely, Tails.\"\n\nThat being more that enough motivation for him, Sonic races out to defeat Robotnik again.\n\nThe master system version is totally different than the Sonic 2 for Genesis. Tails obviously doesn't accompany you, like he can in the Genesis release. Sonic can also not do his infamous buzzsaw roll by simply ducking and pressing jump.",
+    "desc": "索尼克挫敗了機器人博士的計劃後休假回來，發現塔爾斯和他所有的其他動物朋友都失踪了。索尼克發現一封信在等著他，上面寫著：\n\n“親愛的索尼克，\n\n機器人尼克回來了，他捕獲了島上所有的動物！他把我關在一個叫水晶蛋的地方。為了釋放我，你必須找到並帶來六顆混沌翡翠。\n\n機器人尼克讓我寫了這個。他說他正在等你，並且他創造了六個非常令人討厭的機器人，以便“一勞永逸地擺脫你”。我不知道他有什麼打算，但是索尼克，請小心！\n\n誠摯的，塔爾斯。”\n\n這對他來說已經足夠動力了，索尼克再次奮力擊敗機器人尼克。\n\n主系統版本與 Genesis 的 Sonic 2 完全不同。尾巴顯然不會像《創世紀》中那樣陪伴你。索尼克也不能通過簡單地躲避和按下跳躍來完成他臭名昭著的圓鋸滾。",
+    "desc_source": "api"
+  },
+  "Shining Force Gaiden - Final Conflict (Japan) (Translated)": {
+    "key": "Shining Force Gaiden - Final Conflict (Japan) (Translated)",
+    "original_name": "Shining Force Gaiden : Final Conflict",
+    "name": "任天堂DS游戏列表",
+    "name_source": "wiki",
+    "original_desc": "One of the three gaiden (side-story) Shining Force games for GameGear. The events of the game take place in a time period between the first and the second mainstream Shining Force games. After Max, the leader of the first Shining Force, defeated the Dark Dragon, peace was restored to the world. However, the sorceress Mishaela took control over the forces of evil. Pursuing her, Max' comrades got injured and were forced to quit. Upon returning back to their hometown, they found out Mishaela has already taken the Elder hostage. Lead by the young warrior Ian, the Force has to find Max and to defeat Mishaela.\n\nThe game is a strategy RPG with gameplay similar to other Shining Force games. You control a large party of warriors (you can choose the characters yourself from many available). The game consists mainly of large strategic turn-based battles, in which you navigate your characters around and attack the enemies physically, or cast area-based spells.",
+    "desc": "GameGear 的三款外傳（支線故事）Shining Force 遊戲之一。遊戲的事件發生在第一部和第二部主流《光輝力量》遊戲之間的時間段。第一光明力量的領袖麥克斯擊敗黑暗之龍後，世界恢復了和平。然而，女巫米莎埃拉控制了邪惡勢力。麥克斯的戰友在追擊她的過程中受傷並被迫退出。回到家鄉後，他們發現米莎埃拉已經劫持了長老作為人質。在年輕戰士伊恩的帶領下，原力必須找到麥克斯並擊敗米莎埃拉。\n\n該遊戲是一款策略角色扮演遊戲，玩法與其他 Shining Force 遊戲類似。你控制著一大群戰士（你可以從許多可用的角色中自己選擇）。該遊戲主要由大型戰略回合製戰鬥組成，您可以在其中操縱角色並物理攻擊敵人，或施放基於區域的法術。",
+    "desc_source": "api"
+  },
+  "Coca-Cola Kid (Japan) (Translated)": {
+    "key": "Coca-Cola Kid (Japan) (Translated)",
+    "original_name": "Coca-Cola Kid",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Coca Cola Kid is platformer starring the eponymous mascot of the Coca Cola company in the 90s. On his way through the levels, the kid can make use of a skateboard, but has to continue by foot if knocked off. Enemies can be defeated by kicks and flying kicks, energy is -not surprisingly- restored by collecting cans of a certain soft drink.\n\nThe game was released in Japan only.",
+    "desc": "《可口可樂小子》是一款平台遊戲，主角是 90 年代可口可樂公司的同名吉祥物。在通過關卡的過程中，孩子可以使用滑板，但如果被撞倒，就必須繼續步行。敵人可以通過踢腿和飛踢擊敗，能量可以通過收集某種軟飲料罐來恢復，這並不奇怪。\n\n該遊戲僅在日本發行。",
+    "desc_source": "api"
+  },
+  "Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En)": {
+    "key": "Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En)",
+    "original_name": "Sonic the Hedgehog : Triple Trouble",
+    "name": "Xbox 360游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Dr. Robotnik has stolen all the Chaos Emeralds, yet again, but when the experiment for his new weapon goes wrong, the Emeralds get scattered across the island. While Sonic & Tails are out searching for them, Robotnik finds the yellow emerald and convinces Knuckles the Echidna that Sonic wants to steal all the other Emeralds. While all this is happening, Nack the Weasel seizes his chance to take the emeralds for himself while everyone else is pre-occupied. Now it's a 4-way race to retrieve the emeralds.\n\nThe gameplay is like the other Sonic titles, but this is only available on the Game Gear. The player can choose to play as Sonic or Tails (who can fly), and you're trying to reach the Chaos Emeralds before anyone else. A change from other Sonic games is that when hit, all rings are not lost, only a set amount (30–50 depending on the level) is lost.",
+    "desc": "機器人博士再次偷走了所有的混沌翡翠，但當他的新武器實驗出現問題時，翡翠散落在島上。當索尼克和塔爾斯出去尋找它們時，機器人尼克找到了黃色祖母綠，並讓針鼴指關節相信索尼克想偷走所有其他祖母綠。當這一切發生時，黃鼠狼納克抓住機會，趁其他人全神貫注的時候將祖母綠據為己有。現在是一場奪回祖母綠的四人賽。\n\n遊戲玩法與其他索尼克遊戲類似，但這僅適用於 Game Gear。玩家可以選擇扮演索尼克或塔爾斯（會飛），並且你要嘗試先於其他人到達混沌翡翠。與其他索尼克遊戲的不同之處在於，當被擊中時，所有戒指都不會丟失，只會丟失一定數量（30-50 個，具體取決於級別）。",
+    "desc_source": "api"
+  },
+  "Legend of Illusion Starring Mickey Mouse (USA, Europe)": {
+    "key": "Legend of Illusion Starring Mickey Mouse (USA, Europe)",
+    "original_name": "Legend of Illusion Starring Mickey Mouse",
+    "name": "世嘉Master System游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Once upon a mouse, there was a kingdom that was ruled by the selfish king Pete. One day, a terrible shadow crept over the kingdom, threatening the lives of its inhabitants. The king's adviser said the only way to stop the shadow would be for the king himself to travel out and to seek the cure. But the cowardly king Pete preferred to stay in the castle, and sent a simple laundry boy named Mickey instead! \n\nAs Mickey Mouse, you will travel through various levels in this platform game. Mickey shoots an unlimited amount of little balls on the enemies, can jump, climb on stairs, hang on ropes, and perform other tricks. Mickey can also pick up items and put them in another place, for example to access a higher level or to break a treasure chest open.",
+    "desc": "從前，有一個老鼠王國，由自私的國王皮特統治。有一天，一股可怕的陰影籠罩了王國，威脅著居民的生命。國王的顧問說，阻止陰影的唯一方法是國王親自出國尋求治療方法。但膽怯的國王皮特寧願留在城堡裡，而是派了一個名叫米奇的簡單洗衣工！\n\n作為米老鼠，您將在這個平台遊戲中穿越各個關卡。米奇可以向敵人發射無限數量的小球，可以跳躍、爬樓梯、掛繩子以及其他特技。米奇還可以撿起物品並將其放在另一個地方，例如進入更高的級別或打開寶箱。",
+    "desc_source": "api"
+  },
+  "Streets of Rage 2 (World)": {
+    "key": "Streets of Rage 2 (World)",
+    "original_name": "Streets of Rage 2",
+    "name": "怒之鐵拳II 死鬥的鎮魂歌",
+    "name_source": "wiki",
+    "original_desc": "After Axel Stone, Blaze Fielding and Adam Hunter destroyed the evil Syndicate leader, Mr. X, the city became a peaceful place to live, and each one of them followed their own paths. One year later, after their reunion, Adam's brother Sammy returned from school to find their apartment in a mess, and Adam nowhere to be seen, and after calling his two friends, one of them notices a photo of Adam chained to a wall, next to someone they knew very well - Mr. X, who returned to turn the peaceful city once again into a war zone. Now, Axel, Blaze, Sammy, and Axel's good friend Max, a pro wrestler, must head out to stop Mr. X once again...hopefully for good...\n\nStreets of Rage 2 differs from the previous title in several ways. There are changes in both graphics (characters now are bigger, more detailed and with more animation frames, and scenarios are less grainy) and gameplay (the rocket move was replaced by a special move that doubles in offense and defense along several new moves), along other new features such as life bars (and names) for all enemies and the radically different new characters.",
+    "desc": "在阿克塞爾·斯通、布萊茲·菲爾丁和亞當·亨特消滅了邪惡的辛迪加頭目 X 先生之後，這座城市變成了一個和平的居住地，他們每個人都走著自己的道路。一年後，他們重聚後，亞當的哥哥薩米從學校回來，發現他們的公寓一片狼藉，而亞當卻不見踪影，在給他的兩個朋友打電話後，其中一個人注意到一張亞當被鎖在牆上的照片，旁邊是他們非常熟悉的人——X先生，他的回來將這座和平的城市再次變成了戰區。現在，阿克塞爾、布萊茲、薩米和阿克塞爾的好朋友麥克斯（一名職業摔跤手）必須再次出發阻止 X 先生……希望是永遠的……\n\n《怒之鐵拳 2》與前作在多個方面有所不同。圖形（角色現在更大，更詳細，有更多動畫幀，場景更少顆粒感）和遊戲玩法（火箭移動被一個特殊移動所取代，在幾個新移動中進攻和防禦加倍）以及其他新功能，例如所有敵人的生命條（和名稱）以及完全不同的新角色都發生了變化。",
+    "desc_source": "api"
+  },
+  "Phantasy Star Adventure (Japan) (Translated)": {
+    "key": "Phantasy Star Adventure (Japan) (Translated)",
+    "original_name": "Phantasy Star Adventure",
+    "name": "Dreamcast",
+    "name_source": "wiki",
+    "original_desc": "You are an agent of Paseo on Motavia. One day, in December 1268 A.W, you received a letter at base. The sender was Ken Miller. He was a scientist as well as an old friend of yours. He had immigrated to Dezolis to conduct his research years ago.  These were the contents of the letter: \"How are you?  I have succeeded in the discovery of the century. You must come and see it.\"\n\nYou travel to the planet Dezolis and visit a town called Carsonville. There, you find out that Dr. Miller has invented a machine that can make human beings immensely powerful. The problem is, Dr. Miller is kidnapped, along with his invention. With the help of his sister Laila you have to solve this mystery.\n\nThis game is a Japanese-style adventure game set in the Phantasy Star universe. You interact with the game world by choosing available options such as \"See\", \"Talk\", \"Move\", etc. There are a few puzzles to solve, but the largest part of the game is dedicated to exploration and dialogue with the characters.",
+    "desc": "您是 Motavia 上 Paseo 的代理商。公元 1268 年 12 月的一天，您在基地收到一封信。發件人是肯·米勒。他是一位科學家，也是你的老朋友。幾年前，他移民到德佐利斯進行研究。信中的內容是這樣的：“你好嗎？我已經成功發現了世紀，你一定要來看看。”\n\n你前往德佐利斯星球並參觀了一個名為卡森維爾的小鎮。在那裡，你發現米勒博士發明了一種可以使人類變得無比強大的機器。問題是，米勒博士連同他的發明一起被綁架了。在他妹妹萊拉的幫助下，你必須解開這個謎團。\n\n該遊戲是一款以夢幻之星宇宙為背景的日式冒險遊戲。你可以通過選擇“看”、“說話”、“移動”等可用選項來與遊戲世界互動。有一些謎題需要解決，但遊戲的最大部分是致力於探索和與角色對話。",
+    "desc_source": "api"
+  },
+  "Sonic Chaos (USA, Europe, Brazil) (En)": {
+    "key": "Sonic Chaos (USA, Europe, Brazil) (En)",
+    "original_name": "Sonic Chaos",
+    "name": "索尼克 未知邊境",
+    "name_source": "wiki",
+    "original_desc": "Here he comes, straight from his high-speed Sonic 2 adventure! Headstrong Sonic The Hedgehog and his feisty friend Tails blast into hyperspeed to save the Chaos Emeralds. If evil Dr. Robotnik snatches the emeralds first, he'll make a Super Bomb! Could this be the end?\nBe Sonic or Tails in an all-new quest. Roar through the zones with super attitude as Sonic! As Tails, spin your twin tails and fly high!\nBlast-astic action! Sonic soars with his new Rocket Shoes and Pogo Spring. Tails goes airborne for a dizzying sky ride to snag bonus items!\n6 zones, 18 levels of rollercoaster landscapes, corkscrewing speedways and wild, whirling thrills!",
+    "desc": "網際網路特有的社會和文化現象包括的網路迷因，像是流行主題、流行語、圖像、網路爆紅短片和笑話。當這種時尚和感覺在網路上出現時，它們往往會迅速增長並變得更加普遍，因為即時通信促進了口耳相傳的傳播。\n以下部分列表更側重於不受地區網際網路法律限制的網際網路現象；其他國家，例如中國或巴基斯坦，確實存在不受地區法律禁止的特定網際網路現象。 這些都包含在中國大陸網路熱點事件列表和巴基斯坦網路熱點事件列表中。",
+    "desc_source": "wiki"
+  },
+  "Gunstar Heroes (Japan)": {
+    "key": "Gunstar Heroes (Japan)",
+    "original_name": "Gunstar Heroes",
+    "name": "有生之年非玩不可的1001款游戏",
+    "name_source": "wiki",
+    "original_desc": "Chaos has broken out on the planet Gunstar-9!!\n\nThe mad Colonel Red has discovered four crystals that imprison a deadly being known as GoldenSilver, and plans on unleashing it onto the population of the planet! He must be stopped! Enter...the Gunstar Heroes, Red and Blue!\n\nUnleash some mad blasting action onto the Colonel's army and don't let him bring GoldenSilver to life!! The fate of Gunstar-9 is in your hands!",
+    "desc": "Gunstar-9 星球爆發混亂！ ！\n\n瘋狂的雷德上校發現了四塊水晶，囚禁了一種名為金銀的致命生物，併計劃將其釋放到地球上的人們身上！必須阻止他！輸入...槍星英雄，紅色和藍色！\n\n對上校的軍隊發動瘋狂的爆破行動，別讓他讓金銀復活！ ！Gunstar-9 的命運掌握在你的手中！",
+    "desc_source": "api"
+  },
+  "Mega Man (USA)": {
+    "key": "Mega Man (USA)",
+    "original_name": "Mega Man",
+    "name": "2025年遊戲大獎",
+    "name_source": "wiki",
+    "original_desc": "The insane scientist, Dr. Wily, has created an army of evil robots, and is using them to take over the world!  A robot called Rock volunteers to be converted into a fighting robot, Mega Man.  As Mega Man, he takes on Dr. Wily and his powerful robots.\n\nThe Game Gear version of Mega Man is an original game created by developer Freestyle, using Mega Man 4 and Mega Man 5 for the NES as its basis.  Mega Man is able to perform his slide that was introduced in Mega Man 3, as well as call his dog, Rush, for assistance.  He can also charge up his buster for a more powerful shot.\n\nPlayers can initially select any stage from a choice of four: Stone Man, Napalm Man, Bright Man and Star Man.  After defeating these four bosses, players progress to Dr. Cossack's fortress, which contains Wave Man and Toad Man as its bosses.  After they are defeated, it's off to the final confrontation with Dr. Wily himself.",
+    "desc": "瘋狂的科學家威利博士創造了一支邪惡的機器人軍隊，並利用它們來統治世界！一個名叫“洛克”的機器人自願被改造為格鬥機器人“洛克人”。作為《洛克人》，他將與威利博士和他強大的機器人較量。\n\nGame Gear 版本的《洛克人》是由開發商 Freestyle 以 NES 的《洛克人 4》和《洛克人 5》為基礎創建的原創遊戲。《洛克人》能夠表演《洛克人 3》中引入的滑梯，還可以呼叫他的狗 Rush 尋求幫助。他還可以為他的破壞者蓄力以進行更強大的射擊。\n\n玩家最初可以從四個階段中選擇任何一個：石人、凝固汽油彈人、光明人和星人。擊敗這四個 Boss 後，玩家將進入哥薩克博士的堡壘，其中的 Boss 包括波波人和蟾蜍人。他們被擊敗後，就要與威利博士本人進行最後的對抗。",
+    "desc_source": "api"
+  },
+  "Sonic Drift 2 (World)": {
+    "key": "Sonic Drift 2 (World)",
+    "original_name": "Sonic Drift 2",
+    "name": "铃木裕",
+    "name_source": "wiki",
+    "original_desc": "Sonic Drift 2 is the sequel to Sonic Drift, also on the Game Gear and the first in the series to be released outside Japan. One of the new things in the sequel is a lag boost system, which means that anyone who is behind gets a boost to catch up again. This keeps the action in the game. Another new thing is that the gadgets touched while racing do not come into effect immediately. They need to be triggered manually by pressing up on the D-pad.\n\nThere are 3 GPs to compete in and each GP has 6 tracks. The names of the GPs are:\n\n1. Purple Chaos GP\n2. White Chaos GP\n3. Blue Chaos GP\n\nRacing skills can be improved in the Free Run mode on any of the tracks, or, with a Gear-to-Gear cable and a spare copy of the game, direct competition against another human player in the versus mode.",
+    "desc": "本電子遊戲列表列舉了微軟Xbox360的電子遊戲。\n對於中文名稱部分的說明：\n\n列表中所有有官方中文的遊戲名字一律保持不變，絕大多數沒有官中的遊戲視情況而定：\n一般來說這裡選擇的是在現有各類五花八門的譯名中接受程度最高的。\n如果有同時存在民間和官方譯名的情況，那麼將使用如下格式，例如：\n獵天使魔女 / 魔兵驚天錄\n合金裝備崛起：復仇 / 潛龍諜影崛起：復仇\n刺客信條 / 刺客教條\n戰地 / 戰地風雲 等等，類似這樣。\n但因為絕大多數遊戲（尤其是各種美式問答和體育遊戲）沒有官方譯名，目前還是民間譯名占大多數。以後這些中文譯名將被編輯者不定期維護更新。",
+    "desc_source": "wiki"
+  },
+  "Baku Baku (USA)": {
+    "key": "Baku Baku (USA)",
+    "original_name": "Baku Baku",
+    "name": "尚-克勞德·范達美",
+    "name_source": "wiki",
+    "original_desc": "The Minister approaches the King to tell him that his only daughter, the Princess, wants a new pet. But the King says she already has too many, and she can't take care of so many animals. Thus the Minister purposes a contest of skill and daring to select the Royal Zookeeper. Master Piggy then sends his pupil, Polly, to participate in the contest.\n\nBaku Baku Animal is a variation on the very often copied Tetris type of game. The game has three different play modes: practice, normal and hard. It also can be played by two players against each other (except for the Master System version).\n\nThe objective is to pair animal heads with their respective food. If a rabbit head comes falling, you must make it fall on a pile of carrot tiles, dog heads with bones, panda heads with bamboos and monkey heads with bananas. There is a bonus item, the \"BB coin\", which will appear from times to times, and remove piled tiles from the playfield. Removed tiles will be sent to the opponent's playfield all at once, increasing the difficulty of the task. Polly will face several contestants, and she'll win when her opponents get their playfield piled to the top.",
+    "desc": "大臣找到國王，告訴他他唯一的女兒公主想要一隻新寵物。但國王說她的動物已經太多了，她無法照顧這麼多動物。因此，部長打算通過一場技巧和勇氣的競賽來選出皇家動物園管理員。豬豬師傅派他的徒弟波莉去參加比賽。\n\n巴庫巴庫動物是經常複製的俄羅斯方塊類型遊戲的變體。遊戲有三種不同的遊戲模式：練習、普通和困難。也可以由兩名玩家對戰（大師系統版本除外）。\n\n目標是將動物頭與各自的食物配對。如果兔子頭掉下來，你必須讓它掉在一堆胡蘿蔔磚上，狗頭掉在骨頭上，熊貓頭掉在竹子上，猴頭掉在香蕉上。有一個獎勵項目，“BB幣”，它會不時出現，並消除遊戲場上堆積的瓷磚。移除的棋子會一次性送到對手的場地，增加了任務的難度。波莉將面對幾位參賽者，當她的對手將比賽場地擠到頂部時，她就會獲勝。",
+    "desc_source": "api"
+  },
+  "GG Aleste (Japan) (En)": {
+    "key": "GG Aleste (Japan) (En)",
+    "original_name": "GG Aleste",
+    "name": "阿萊斯特夫人",
+    "name_source": "api",
+    "original_desc": "In the first installment of the Aleste series for the GG, you play as Ellinor Waisen, the daughter of the original Aleste pilot Ray Waisen.\nAs usual, your task is to exterminate level upon level of nasties with your space ship. The usual Aleste powerup systems remains fairly intact. You still have powerup pods which release P capsules for upgrading your main weapon. On the other hand, secondary weapon upgrades are no longer released from ground bases, but from another type of flying pods. When you start out, your secondary weapon is a laser, which can later be replaced with powerups ranging from split fire to napalm rockets and target seeking power balls. Both primary and secondary weapons are in constant use, since only button 2 is used for firing both weapons at once. Due to the smaller screen estate of the Game Gear, the sprites are larger and the playfield more constrained, for which the game compensates somewhat by introducing multidirectionally scrolling sections.",
+    "desc": "在 GG 的阿萊斯特系列第一部中，您將扮演艾莉諾·懷森 (Ellinor Waisen)，她是原阿萊斯特飛行員雷·懷森 (Ray Waisen) 的女兒。\n像往常一樣，你的任務是用你的太空飛船消滅一層又一層的討厭鬼。通常的阿萊斯特強化系統仍然完好無損。你仍然擁有可以釋放 P 膠囊來升級你的主要武器的加電艙。另一方面，輔助武器升級不再從地面基地發布，而是從另一種類型的飛行吊艙發布。當你開始時，你的次要武器是激光，稍後可以用從分裂火力到凝固汽油彈火箭和目標搜索能量球等能量升級物品來代替。主要武器和次要武器都在不斷使用，因為只有按鈕 2 用於同時發射兩種武器。由於 Game Gear 的屏幕空間較小，精靈較大，遊戲場地也更加受限，遊戲通過引入多向滾動部分對此進行了一定程度的補償。",
+    "desc_source": "api"
+  },
+  "Sylvan Tale (Japan) (Translated)": {
+    "key": "Sylvan Tale (Japan) (Translated)",
+    "original_name": "Sylvan Tale",
+    "name": "森林故事",
+    "name_source": "api",
+    "original_desc": "In \"Sylvan Tale,\" you play as a young warrior who is mysteriously teleported to the land of Verda by a glowing object. A voice tasks you with collecting six magical droplets from fortresses to save the inhabitants of Verda. You explore towns, traverse dungeons, engage in real-time combat against enemies, and collect items that allow you to transform into various creatures with unique abilities. As a mole, you can dig through rocks; as a merman, you can swim; as a turtle, you use your shell for defense; as a mouse, you squeeze through small holes; and as a bird, you can fly and evade attacks.",
+    "desc": "在“Sylvan Tale”中，你扮演一名年輕的戰士，他被一個發光的物體神秘地傳送到了維達之地。一個聲音要求您從堡壘中收集六滴魔法水滴，以拯救維爾達的居民。你探索城鎮，穿越地下城，與敵人進行實時戰鬥，並收集物品，讓你變身為具有獨特能力的各種生物。作為鼴鼠，你可以挖掘岩石；作為人魚，你會游泳；作為烏龜，你用你的殼來防禦；作為老鼠，你要從小洞裡鑽過去；作為一隻鳥，你可以飛行並躲避攻擊。",
+    "desc_source": "api"
+  },
+  "Tails Adventure (World) (En,Ja)": {
+    "key": "Tails Adventure (World) (En,Ja)",
+    "original_name": "Tails Adventures",
+    "name": "2024年電子遊戲界",
+    "name_source": "wiki",
+    "original_desc": "Before Tails met Sonic the Hedgehog he lived on Cocoa Island, a place that isn't on the map. It's an island pulled up by the Chaos Emeralds. Suddenly, while relaxing, Tails hears an explosion that seems like it's coming from inside the island. A Flicky tells Tails that Battle Kukku has invaded the island. He also tells Tails that Battle Kukku is mining here for the Chaos Emeralds, to obtain it's power. Tails gears up and heads for his quest to find the machine parts to build his weapon to defeat the evil Battle Kukku. There are however major plot differences between the Japanese and the western release. In the US and European version of the game it tells the story how Sonic and Tails decide to go separate ways for a while. Tails finds an unknown island and decides to dub it Tails Island. While resting there, a large explosion occurs and a Flicky tells him birds are invading the island.\n\nUnlike the other games in the series, this spin-off is less of a traditional platformer, but has a much slower pace with rpg elements and a focus on puzzle-solving. Tails can walk, jump, fly (momentarily), hang on ledges and throw bombs. He starts with ten health points that can be replenished with rings, but the amount can be extended to 99 by collecting chaos emeralds. In the twelve stages Tails can collect up to 26 items. Per level however, he is only allowed to bring along four and this adds a tactical dimension. One of the most vital tools is the Remote Robot that can squeeze through small areas that Tails cannot reach. Underwater he changes into the small submarine Sea Fox.",
+    "desc": "在塔爾斯遇到刺猬索尼克之前，他住在可可島，一個不在地圖上的地方。這是一座被混沌翡翠拉起的島嶼。就在塔爾斯放鬆的時候，突然，塔爾斯聽到了爆炸聲，似乎是從島內傳來的。阿弗利奇告訴塔爾斯，戰鬥庫庫已經入侵了該島。他還告訴塔爾斯，戰鬥庫庫正在這裡開採混沌翡翠，以獲得它的力量。塔爾斯整裝待發，前往尋找機器零件來製造他的武器，以擊敗邪惡的戰鬥庫庫。然而，日本版和西方版之間存在重大的情節差異。在美國和歐洲版本的遊戲中，講述了索尼克和塔爾斯如何決定暫時分道揚鑣的故事。塔爾斯發現了一個未知的島嶼，並決定將其命名為塔爾斯島。當他在那裡休息時，發生了一場大爆炸，弗利基告訴他鳥類正在入侵該島。\n\n與該系列中的其他遊戲不同，這款衍生遊戲不像傳統的平台遊戲，但節奏要慢得多，帶有角色扮演元素，並且注重解謎。尾巴可以行走、跳躍、飛行（暫時）、掛在壁架上和投擲炸彈。他的生命值一開始有 10 點，可以用戒指補充，但可以通過收集混沌翡翠將生命值增加到 99 點。在 12 個階段中，尾巴最多可以收集 26 件物品。然而，每個級別他只能攜帶四個人，這增加了戰術層面。最重要的工具之一是遠程機器人，它可以擠過尾巴無法到達的小區域。在水下他變成了小型潛艇“海狐”。",
+    "desc_source": "api"
+  },
+  "Power Strike II (Japan, Europe) (En)": {
+    "key": "Power Strike II (Japan, Europe) (En)",
+    "original_name": "GG Aleste II",
+    "name": "GC阿萊斯特二世",
+    "name_source": "api",
+    "original_desc": "Power Strike II is an Action game, developed by Compile and published by Sega, which was released in Europe in 1994.",
+    "desc": "這是一個PlayStation Vita遊戲列表，內容包括實體發行的閃存盒式遊戲和PlayStation Store下載遊戲。雖然PlayStation Vita可以玩PlayStation Portable、PlayStation、PlayStation Minis、PC Engine、PlayStation Mobile等平台的遊戲，但這列表只包括為這個系統所開發的各式遊戲。實體發行遊戲沒有區域鎖定，因此每個遊戲都可以在任何機台上使用；但下載遊戲及DLC限於玩家所在的PSN地區。本列表顯示各遊戲的地區發布日期和實體發行/下載發行狀態。截至2014年5月1日止，總共有562種遊戲。\n有關與PlayStation Vita兼容的PlayStation Portable遊戲，請參閱PlayStation Portable遊戲列表。",
+    "desc_source": "wiki"
+  },
+  "Royal Stone (Japan) (Translated)": {
+    "key": "Royal Stone (Japan) (Translated)",
+    "original_name": "Royal Stone : Hirakareshi Toki no Tobira",
+    "name": "忠誠的S和Ne：開放時間之門",
+    "name_source": "api",
+    "original_desc": "Royal Stone: Hirakareshi Toki no Tobira is a strategy RPG for the Sega Game Gear and a sequel to Crystal Warriors. The game follows the story of Eva, a former knight from Martalia, exiled from her kingdom for betraying the trust of the people and turning against her own team.",
+    "desc": "《Royal Stone: Hirakareshi Toki no Tobira》是 Sega Game Gear 的策略角色扮演遊戲，也是《水晶戰士》的續集。遊戲講述了來自馬爾塔利亞的前騎士伊娃的故事，她因背叛人民的信任並背叛自己的團隊而被逐出王國。",
+    "desc_source": "api"
+  },
+  "Ninja Gaiden (USA, Europe, Brazil) (En)": {
+    "key": "Ninja Gaiden (USA, Europe, Brazil) (En)",
+    "original_name": "Ninja Gaiden",
+    "name": "忍者外傳 (2004年遊戲)",
+    "name_source": "wiki",
+    "original_desc": "Ninja Gaiden begins with a cinematic animation in which 2 ninjas duel to the death; one goes down. It is revealed that the doomed ninja is the father of Ryu Hayabusa. When Ryu learns of this, he embarks on a quest to find out who killed his father and why. This quest takes him to America to find an archaeologist with whom Ryu's father was working. From there, Ryu becomes embroiled in an evil, supernatural conspiracy involving a villain named Jaquio who has plans to use an ancient castle and some relics to unleash a terrifying evil upon the world.\n\nNinja Gaiden is a side scrolling game where Ryu the ninja can run, jump, and slash with his ninja sword. He can also attach to any vertical surface. Powerups are littered throughout the landscape that allow Ryu to toss fireballs and ninja stars, and perform other feats.\n\nRyu will battle through urban city settings, forests, jungles, snow covered castles, underground railroads, and ancient castles. A major feature in Ninja Gaiden are the cinematic scenes -- sometimes fullscreen -- through which the storyline unfolds.",
+    "desc": "《忍者龍劍傳》以電影動畫開始，其中 2 位忍者決鬥至死；一個掉下來。據透露，這位注定失敗的忍者是隼龍的父親。當 Ryu 得知此事後，他開始調查是誰殺了他的父親以及原因。這個任務讓他前往美國尋找一位與 Ryu 的父親一起工作的考古學家。從那時起，Ryu 捲入了一個邪惡的超自然陰謀，其中涉及一個名叫 Jaquio 的惡棍，他計劃利用一座古老的城堡和一些文物向世界釋放可怕的邪惡。\n\n《忍者龍劍傳》是一款橫向捲軸遊戲，忍者龍可以奔跑、跳躍，並用他的忍者劍砍殺。他還可以附著在任何垂直表面上。整個場景中散佈著能量提昇道具，讓 Ryu 可以投擲火球和忍者之星，並執行其他壯舉。\n\n龍將在城市環境、森林、叢林、冰雪覆蓋的城堡、地下鐵路和古城堡中戰鬥。《忍者龍劍傳》的一個主要特點是故事情節展開的電影場景（有時是全屏）。",
+    "desc_source": "api"
+  },
+  "Mighty Morphin Power Rangers (USA, Europe)": {
+    "key": "Mighty Morphin Power Rangers (USA, Europe)",
+    "original_name": "Mighty Morphin Power Rangers",
+    "name": "垂庄",
+    "name_source": "wiki",
+    "original_desc": "This is a one-on-one fighting game for one or two players. \n\nSingle players pick a Ranger (Red, Pink, Blue, Yellow, Black, or the unlockable Green) and take him or her through a series of battles against Rita's monsters. After one normal battle, the monster grows very large, and then it is time to take out the MegaZord.",
+    "desc": "2024年遊戲大獎（英語：The Game Awards 2024）是一場表彰當2024年最佳電子遊戲的頒獎典禮。這是遊戲大獎創始人兼製作人傑夫·吉斯利主持的第11屆頒獎典禮，於2024年12月12日在美國加州洛杉磯的孔雀劇院現場舉行，並通過全球各大在線平台進行直播。典禮包括d4vd、Royal & the Serpent、史努比狗狗和二十一名飛員樂團的音樂表演，以及哈里遜·福特、小島秀夫和亞倫·保爾等名人嘉賓的頒獎演說。\n《宇宙機器人》和《Final Fantasy VII 重生》各獲七項提名並列最多，其中《宇宙機器人》以四項大獎領跑，包括年度遊戲。首屆「遊戲變革者」獎授予阿米爾·薩特瓦特（Amir Satvat），以表彰他在大規模裁員潮中幫助業界員工找到工作。活動期間宣布了多款新遊戲，包括《艾爾登法環 黑夜君臨》、《星際：異端先知》和《巫師4》。\n該活動的直播總觀看量超過1.54億次，創下歷史新高。媒體對遊戲發布、開發者演講以及獲獎者的實至名歸給予高度評價，但對可下載內容（DLC）的參選資格則存在分歧。",
+    "desc_source": "wiki"
+  },
+  "Crystal Warriors (USA, Europe)": {
+    "key": "Crystal Warriors (USA, Europe)",
+    "original_name": "Crystal Warriors",
+    "name": "Game Source Entertainment",
+    "name_source": "wiki",
+    "original_desc": "The continent of Tyramus has lived in peace for almost a century, thanks to the four elemental crystals of the kingdom of Arliel. However, peace is threatened by the invading armies of the Jyn Empire, led by Emperor Grym, who wants to use the four crystals to rule over Tyramus. Fortunately, Princess Iris can escape with one of the crystals and now the player has to protect her and the crystal and somehow find a way to drive back the hordes of Jyn.\n\nGameplay in Crystal Warriors is quite similar to Shining Force. The player fights in turn-based battles controlling different characters like fighters, healers, rangers and mages, all with different strengths and skills. Whenever two units engage in battle, they enter a duel mode lasting for up to two turns. In this mode the player can choose between four commands: \"battle\" (attack), \"retreat\", \"spell\" and \"monster\". While the first three commands are quite self-explanatory, the \"monster\" command is interesting. Whenever a non-human enemy is defeated, it can be tamed and be used in battles. While most monsters do not have many HP they can serve as good attackers for physically weak characters or take some hits in order to protect his master.\nIn-between battles the player can visit towns to rest, buy weapons and spells or recruit new party members.",
+    "desc": "多虧了阿利爾王國的四種元素水晶，泰拉姆斯大陸已經和平地生活了近一個世紀。然而，和平受到了由格林皇帝領導的吉恩帝國入侵軍隊的威脅，他想利用四顆水晶來統治泰拉姆斯。幸運的是，艾麗絲公主可以帶著其中一顆水晶逃脫，現在玩家必須保護她和水晶，並以某種方式找到一種方法來擊退琴的部落。\n\n《水晶勇士》的遊戲玩法與《光輝力量》非常相似。玩家在回合製戰鬥中控制不同的角色，如戰士、治療師、遊俠和法師，他們都具有不同的優勢和技能。每當兩個單位交戰時，他們就會進入最多持續兩回合的決鬥模式。在這種模式下，玩家可以選擇四個命令：“戰鬥”（攻擊）、“撤退”、“法術”和“怪物”。雖然前三個命令非常不言自明，但“monster”命令很有趣。每當擊敗非人類敵人時，它就可以被馴服並用於戰鬥。雖然大多數怪物沒有太多生命值，但它們可以成為體力較弱的角色的良好攻擊者，或者承受一些打擊以保護他的主人。\n在戰鬥之間，玩家可以訪問城鎮休息、購買武器和咒語或招募新的黨員。",
+    "desc_source": "api"
+  },
+  "Arena (USA, Europe)": {
+    "key": "Arena (USA, Europe)",
+    "original_name": "Arena : Maze of Death",
+    "name": "雅达利2600游戏列表",
+    "name_source": "wiki",
+    "original_desc": "In the year 2026, a corrupt government has used a television broadcasting company called Astralnet Broadcasting Company to secretly control the population and keep them brainwashed.  During these times a group of pro-democratic rebels, led by Guy Freelander, has obtained a secret taped meeting between top government officials and ABC directors discussing their diabolical plans.  Convinced that if they play the tape through ABC's broadcasting, they can convince the repressed population to rise up against the current regime.  The only problem that stands in their way is the way to the broadcasting center, a death trap nicknamed the maze.\n\nThe player takes control of Guy Freelander and must transverse this maze, with 20 levels and 100 different rooms in total, using a standard gun and a knife to take out security guards, androids, mutants and must avoid various pitfalls and traps scattered in these rooms.  The view of the game is isometric and has a password feature to allow players to pick up and return to the previous room they were in without having to replay the previous levels.  There are no life bars, instead the player can take four hits before their character dies with five lives.  After losing these five lives, the game will be over.",
+    "desc": "美國總統唐納·川普的言行一直被批評存在種族主義或同情白人至上主義。記者、好友、家人和前雇員都指責他在美國煽動種族主義。但川普屢次對種族主義指控表示否認。\n1973年，川普及其公司川普管理公司因涉對非裔租房者進行住宅歧視而被司法部起訴；川普達成和解並服從判決，在不承認有過錯的情況下終止這些做法。2011年至2016年，川普是已被揭穿的出生地陰謀論的主要支持者，錯誤地聲稱巴拉克·歐巴馬總統並非出生在美國。在一樁種族歧視的刑事案件中，川普直到2024年仍然聲稱一個被稱為「中央公園五人組」的團體應對1989年中央公園慢跑者強姦一名白人女性的案件負責，該團體主要由非裔美國青少年組成，儘管這五名男性已於2002年被正式宣告無罪。川普在2016年總統競選開始時發表演講，稱墨西哥將罪犯送到邊境：「他們帶來毒品。他們帶來犯罪。他們是強姦犯。但我認為，其中一些是好人。」在競選期間，川普利用白人工人階級選民的恐懼心理，並給人留下了對國家構成挑戰的團體具有全球危險性的印象。\n2017年，在維吉尼亞州夏綠蒂鎮舉行的白人至上主義者集會後，川普發表言論，批評人士認為這些言論暗示白人至上主義遊行者與抗議他們的人之間存在道德對等，都稱其為「非常優秀的人」，儘管川普聲明「我不是在談論新納粹分子和白人民族主義者，因為他們應該受到徹底的譴責」。2018年，在一次關於移民改革的橢圓形辦公室會議上，川普據稱將薩爾瓦多、海地和非洲國家稱為「糞坑」，這一言論被廣泛譴責為種族主義言論。2019年7月，川普在推特上批評四名有色人種民主黨女議員，其中三人出生於美國：「她們為什麼不回去，幫助修復她們來自的那個支離破碎、犯罪猖獗的地方。然後回來告訴我們怎麼做。」《大西洋月刊》等新聞媒體批評該評論是常見的種族主義言論。他後來否認自己的言論帶有種族主義色彩，並表示「如果有人對我們的國家有意見，如果有人不想留在我們國家，他們就應該離開。」\n川普的爭議言論遭到世界各地許多觀察家的譴責，但他的一些支持者認為這是對政治正確性的拒絕，而另一些人則認為是因為他們懷有相似的種族信仰。多項研究和調查顯示，種族怨恨促成了川普的政治崛起，並且在決定美國選民的政黨忠誠度方面比經濟因素更為重要。種族主義和仇視伊斯蘭教的態度已被證明是對川普支持率的有力指標。",
+    "desc_source": "wiki"
+  },
+  "Shinobi (World) (Rev A)": {
+    "key": "Shinobi (World) (Rev A)",
+    "original_name": "Shinobi",
+    "name": "Game Gear",
+    "name_source": "wiki",
+    "original_desc": "As with the original games, Shinobi for the GG (the first portable member of the franchise) is a action side-scroller in which you take the role of an elemental ninja seeking revenge, your task to clear several stages filled with evil ninja and other assorted enemies.\n\nNew to this release is the MegaMan-like ability to select which stage (all also unique for this release) to play in any sequence.  Each stage contains a fellow elemental ninja held prisoner, who gets released once you complete the level.  You can then switch between available ninja mid-stage to take advantage of their unique abilities (green ninja double jumps, blue ninja has a grappling hook, yellow ninja walks on water, etc.) which become a necessity to successfully complete all the levels.",
+    "desc": "《The Angry Video Game Nerd》（中文：憤怒電玩宅；縮寫：AVGN）是由詹姆士·鄧肯·羅弗創立的一部美國喜劇式復古遊戲評論網路節目。該節目圍繞著低品質視訊遊戲進行辛辣獨角戲的評論。從第二季開始到第六季爲止，新的一集會GameTrailers網站上先行上映。從第七季開始則轉爲在官網Cinemassacre上先行上映，而所有先行上映的劇集會隔一段時間之後在羅弗自己的YouTube頻道上重新投稿。劇集通常安排在每個月的第一個或第二個星期三發布。最初羅弗早期的工作日程允許每月投稿兩集，但由於其他工作承諾，羅弗便將其改為目前的安排。\n部分憤怒電玩宅節目已經或曾經在YouTube頻道上下架，但依舊可以在官網上觀看。其中「Atari Porn」一集因根據YouTube社區準則被標記為不當內容而下架；「Teenage Mutant Ninja Turtles III」的兩個部分因在節目中使用了受著作權保護的《忍者神龜III》電影剪輯而下架（重新剪輯的版本已於2020年9月11日上傳）；「Rocky」和「The Wizard / Super Mario Bros. 3」因在節目中分別使用了受著作權保護的《洛基》和《超級瑪利歐兄弟》電影剪輯而下架。",
+    "desc_source": "wiki"
+  },
+  "Magical Puzzle Popils (World) (En,Ja)": {
+    "key": "Magical Puzzle Popils (World) (En,Ja)",
+    "original_name": "Magical Puzzle Popils",
+    "name": "神奇的拼圖遊戲",
+    "name_source": "api",
+    "original_desc": "Magical Puzzle Popils is a single screen platform puzzle game. The object in each round is to go through the labyrinth until the player reaches the princess (or the princess reaches the player). The player can break blocks, climb ladders, go through portals. There are also hazards to avoid, like red spikes and enemies.\n\nBreaking blocks is the most important gameplay element. Breaking a block causes the column of blocks above it to fall one place down. The player must use this block breaking ability to change the labyrinth and create a way to the princess. \n\nThe short introduction sequence shows the back story: A beautiful princess fell in love with you! And you fell in love with her too... The wizard of forest \"Popil\" shut her in his labyrinth. Please save her!",
+    "desc": "Magical Puzzle Popils 是一款單屏平台益智遊戲。每輪的目標是穿過迷宮，直到玩家到達公主（或公主到達玩家）。玩家可以打破障礙、爬梯子、穿過傳送門。還有需要避免的危險，例如紅色尖刺和敵人。\n\n打破方塊是最重要的遊戲元素。打破一個方塊會導致其上方的方塊掉落一個位置。玩家必須使用這種破壞方塊的能力來改變迷宮並開闢一條通往公主的路。\n\n簡短的介紹序列展示了背景故事：一位美麗的公主愛上了你！而你也愛上了她……森林巫師“Popil”將她關進了他的迷宮。請救救她！",
+    "desc_source": "api"
+  },
+  "Lunar - Sanposuru Gakuen (Japan) (Translated)": {
+    "key": "Lunar - Sanposuru Gakuen (Japan) (Translated)",
+    "original_name": "Lunar : Sanpo-suru Gakuen",
+    "name": "Unar r：漫步學園",
+    "name_source": "api",
+    "original_desc": "This is a side-story, set in the same world as the famous Lunar RPGs:  Silver Star and  Eternal Blue. The town of Burg is populated by harvesters, and you take control of two girls, Ellie and Lena. One day, they are sent to the island of Ien where they should study magic, and there begins their adventure.\n\nThe game is a traditional Japanese-style RPG. You navigate your party through a top-down world, visiting towns and hostile areas. Enemy encounters are random, the battles are turn-based and are viewed from first-person perspective.",
+    "desc": "這是一個支線故事，與著名的月球角色扮演遊戲《銀星》和《永恆之藍》發生在同一個世界。伯格鎮擠滿了收割機，你控制著兩個女孩，艾莉和莉娜。有一天，他們被送到伊恩島學習魔法，並開始了他們的冒險。\n\n該遊戲是一款傳統的日式RPG。你帶領你的隊伍穿越一個自上而下的世界，參觀城鎮和敵對地區。敵人的遭遇是隨機的，戰鬥是回合製的，並且是從第一人稱視角觀看的。",
+    "desc_source": "api"
+  },
+  "Shining Force - The Sword of Hajya (USA)": {
+    "key": "Shining Force - The Sword of Hajya (USA)",
+    "original_name": "Shining Force II : The Sword of Hajya",
+    "name": "光輝力量2:哈吉亞之劍",
+    "name_source": "api",
+    "original_desc": "This is not a sequel to the game  Shining Force: The Legacy of Great Intention for Genesis, but a sequel to a  Shining Force Gaiden, which was released only in Japan.\n\nAfter a prolonged war, the kingdoms of Cypress and Gardiana decided to join forces fighting the evil empire of Iom. Nick, the Prince of Cypress, that was conquered by Iom, had his hand turned into stone during the last battle, and therefore cannot wield his legendary Sword of Hajya. Nevertheless, he tries to recruit people who would help him to gain his kingdom back.\n\nThe game is a strategy RPG. You command a large party composed of several units, and most of the game is spent in battles. The turn-based battles occupy the entire location; during your turn, you command your troops to move around and to attack. Your main heroes gain levels in a RPG fashion.",
+    "desc": "DC擴展宇宙（英語：DC Extended Universe，簡稱DCEU）是由華納兄弟影業與DC漫畫共同開發的共享宇宙系列，以DC漫畫角色為基礎，透過電影、電視劇等跨媒體形式呈現。該系列始於2013年的《超人：鋼鐵英雄》，並在隨後十年間推出多部作品，最終以2023年的《水行俠 失落王國》作結。2022年，隨著華納兄弟與探索公司合併，DC影業改組為DC工作室，由詹姆斯·岡恩與彼得·沙佛朗共同領導，並宣布以2023年《閃電俠》為分界線，逐步過渡至全新的DC宇宙（DCU）。\n系列中的電影由多名電影工作者編劇及執導。系列電影的主演包含亨利·卡維爾、班·艾佛列克、蓋兒·加朵、瑪格·羅比、伊薩·米勒、傑森·摩莫亞、雷·費雪和柴克·萊威等人。華納兄弟任命創意總監管理DC擴展宇宙部門。他們負責監督製片工作及劇情走向，以在系列電影中建構出一個具凝聚力的主線劇情。\nDC擴展宇宙的第一部電影為《超人：鋼鐵英雄》（2013年），之後依次是《蝙蝠俠對超人：正義曙光》、《自殺突擊隊》（2016年）、《神力女超人》、《正義聯盟》（2017年）、《水行俠》（2018年）、《沙贊！》（2019年）、《猛禽小隊：小丑女大解放》、《神力女超人1984》（2020年）、《查克·史奈德之正義聯盟》、《自殺突擊隊：集結》（2021年）、《黑亞當》（2022年）、《沙贊！眾神之怒》、《閃電俠》、《藍甲蟲》和《水行俠 失落王國》（2023年）。DC擴展宇宙還包括串流媒體平台HBO Max上的一部影集《和平使者》（2022年）。",
+    "desc_source": "wiki"
+  },
+  "Sonic Drift (Japan) (En)": {
+    "key": "Sonic Drift (Japan) (En)",
+    "original_name": "Sonic Drift",
+    "name": "铃木裕",
+    "name_source": "wiki",
+    "original_desc": "Sonic Drift is a Sonic the Hedgehog racing game. The evil Dr. Robotnik has stolen the chaos emeralds and you have to win them back in a racing tournament. In Sonic Drift, you can play as Sonic, Tails, Amy, or Robotnik. Sonic Drift can also be found on Sonic Adventure DX and Sega Mega Collection Plus. There are six levels in each game and three different  tournaments, totaling 18 levels.",
+    "desc": "本電子遊戲列表列舉了微軟Xbox360的電子遊戲。\n對於中文名稱部分的說明：\n\n列表中所有有官方中文的遊戲名字一律保持不變，絕大多數沒有官中的遊戲視情況而定：\n一般來說這裡選擇的是在現有各類五花八門的譯名中接受程度最高的。\n如果有同時存在民間和官方譯名的情況，那麼將使用如下格式，例如：\n獵天使魔女 / 魔兵驚天錄\n合金裝備崛起：復仇 / 潛龍諜影崛起：復仇\n刺客信條 / 刺客教條\n戰地 / 戰地風雲 等等，類似這樣。\n但因為絕大多數遊戲（尤其是各種美式問答和體育遊戲）沒有官方譯名，目前還是民間譯名占大多數。以後這些中文譯名將被編輯者不定期維護更新。",
+    "desc_source": "wiki"
+  },
+  "Shinobi II - The Silent Fury (World)": {
+    "key": "Shinobi II - The Silent Fury (World)",
+    "original_name": "Shinobi II : The Silent Fury",
+    "name": "2023年电子游戏界",
+    "name_source": "wiki",
+    "original_desc": "The second Shinobi game for the Game Gear, it’s a 2D side-scrolling platform game with basic strategy elements. You have to rescue the four elemental ninjas and their corresponding crystal. When you rescue a ninja they join up with you and you can switch to them. Each ninja has a different power and ability which must be used in order to progress through the game. The first four levels can be played in whichever order you want, when both the ninja and crystal have been recovered from all the levels the final level is unlocked.",
+    "desc": "本電子遊戲列表列舉了索尼 PlayStation的電子遊戲。索尼PlayStation最早於1994年12月3日在日本推出，之後於1995年9月9日在北美推出。",
+    "desc_source": "wiki"
+  },
+  "Ristar (World)": {
+    "key": "Ristar (World)",
+    "original_name": "Ristar",
+    "name": "任天堂Switch Online",
+    "name_source": "wiki",
+    "original_desc": "An evil tyrant with a silly name (Greedy) has arisen to control a solar system full of sentient beings. He Corrupts the leaders of each world and thereby enslaves the populace. He has sent his minions in the disguise of planet natives into the worlds to enforce his rule...\n\nA lush forest planet, the last planet in the tyrants agenda manages to send a call of help to the solar systems ancient hero before being over run. However Greedy even has managed to remove the great hero. Yet he did not count on the interference of the hero's sun... Ristar!\n\nYou control Ristar in his attempt to liberate the solar system. You will stretch his arms to grab enemies and summarily head-but them. Your long limbs will be used to climb various surfaces. Being a star adds even more to the unique gameplay, already chock-full of action and puzzles.",
+    "desc": "一個有著愚蠢名字（貪婪）的邪惡暴君已經崛起，控制著充滿眾生的太陽系。他腐蝕了每個世界的領導人，從而奴役了民眾。他派遣他的爪牙偽裝成行星原住民進入世界以執行他的統治......\n\n一個茂密森林的星球，暴君議程中的最後一個星球，在被佔領之前成功地向太陽系的古代英雄發出了求救信號。然而，貪婪甚至成功地除掉了這位偉大的英雄。但他沒有想到英雄太陽的干擾……Ristar！\n\n你控制瑞斯塔試圖解放太陽系。你將伸出雙臂抓住敵人並立即用頭攻擊他們。您的長四肢將用於攀爬各種表面。成為明星為獨特的遊戲玩法增添了更多元素，遊戲玩法已經充滿了動作和謎題。",
+    "desc_source": "api"
+  },
+  "Sonic The Hedgehog (Japan, Europe, Brazil) (En) (Rev 1)": {
+    "key": "Sonic The Hedgehog (Japan, Europe, Brazil) (En) (Rev 1)",
+    "original_name": "Sonic the Hedgehog",
+    "name": "刺猬索尼克",
+    "name_source": "api",
+    "original_desc": "SEGA's mascot Sonic the Hedgehog made his debut in a famous Genesis title, but Sega's 8-bit systems got their own version of the platformer, featuring the same story and gameplay style, but different levels. To stop the evil Dr. Robotnik, Sonic must traverse six zones consisting of three levels each. Most of the zones are based on those in the original game, but some are entirely new. Enemies and power-ups are mostly the same as well. Sonic can pick up golden rings for protection (when hit, he simply loses all of his rings instead of a life) and bonuses: 100 rings gain Sonic an extra life, and 50 remaining rings at the end of a level allow access to pinball-themed special stages full of bumpers and springs. The final level of a zone is always a boss fight against Robotnik. Sonic should also collect the six Chaos Emeralds to keep them from falling into Robotnik's hands. In a departure from the original game, these are not hidden in the special stages but somewhere in the regular levels.",
+    "desc": "網際網路特有的社會和文化現象包括的網路迷因，像是流行主題、流行語、圖像、網路爆紅短片和笑話。當這種時尚和感覺在網路上出現時，它們往往會迅速增長並變得更加普遍，因為即時通信促進了口耳相傳的傳播。\n以下部分列表更側重於不受地區網際網路法律限制的網際網路現象；其他國家，例如中國或巴基斯坦，確實存在不受地區法律禁止的特定網際網路現象。 這些都包含在中國大陸網路熱點事件列表和巴基斯坦網路熱點事件列表中。",
+    "desc_source": "wiki"
+  },
+  "Factory Panic (Europe, Brazil) (En)": {
+    "key": "Factory Panic (Europe, Brazil) (En)",
+    "original_name": "Factory Panic",
+    "name": "PlayStation Portable游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Mister Greede, a corrupt tycoon and factory owner, deprives the local citizens of the goods they need and deserve. That’s why you have infiltrated his factory. Now you must manipulate the conveyor belts skillfully to deliver the correct product to the right person waiting outside, but you have only a limited amount of time. Unfortunately, thugs with bats or even guns patrol the factory. Your only weapon against these security guards is a battle cry that temporarily stuns them, but not for too long.\n\nFactory Panic consists of four rounds, and each round consists of eight stages. Before a stage starts, the game tells you how many people are waiting in line and what product they are waiting for. Rounds one and three are played in “Switch Mode”: step on different switches to rotate associated sections of the conveyor belt. If you get off the switch, the section rotates back to its initial position. One switch may affect more than one section. Since you can only step on one switch at a time, you have to bustle quite a bit in later stages. Rounds two and four are played in “Bridge Mode”: remove and install small bridges between the belts to control the flow of products.\n\nIf a person gets an unwanted product, the time remaining on the timer will decrease. Sometimes, the belt carries special items, e.g. a megaphone that makes your scream attack more powerful, or a weight that can be placed on a switch.",
+    "desc": "格里德先生是一位腐敗的大亨和工廠主，他剝奪了當地公民所需要和應得的商品。這就是你潛入他工廠的原因。現在，您必須熟練地操縱傳送帶，將正確的產品交付給在外面等候的正確人員，但您的時間有限。不幸的是，工廠裡有拿著蝙蝠甚至槍支的暴徒巡邏。你對付這些保安的唯一武器就是發出戰斗口號，暫時擊暈他們，但不會持續太久。\n\nFactory Panic由四輪組成，每輪由八個階段組成。在一個階段開始之前，遊戲會告訴你有多少人在排隊以及他們在等待什麼產品。第一輪和第三輪以“開關模式”進行：踩不同的開關來旋轉傳送帶的相關部分。如果鬆開開關，該部分將旋轉回其初始位置。一個開關可能影響多個部分。由於你一次只能踩一個開關，所以在後期你必須忙得不可開交。第二輪和第四輪以“橋模式”進行：拆除並安裝傳送帶之間的小橋以控制產品的流動。\n\n如果一個人得到了不需要的產品，計時器上的剩餘時間就會減少。有時，腰帶上會攜帶特殊物品，例如一個能讓你的尖叫聲更有力的擴音器，或者一個可以放在開關上的重物。",
+    "desc_source": "api"
+  },
+  "Defenders of Oasis (USA, Europe)": {
+    "key": "Defenders of Oasis (USA, Europe)",
+    "original_name": "Defenders of Oasis",
+    "name": "原神的音乐",
+    "name_source": "wiki",
+    "original_desc": "A long, long time ago, the legendary king Jamseed defeated the evil Ahriman, the spirit of darkness. But just before, Ahriman managed to send into the world his most horrifying servant: the dragon Zahhark. Years have passed, Zahhark was defeated by the descendants of Jamseed, but its own descendants continued menacing the kingdom of Shanadar. Many generations later, you, the young Prince of Shanadar, has to confront the evil. Zahhark's offsprings plan to destroy the kingdom, and the Prince must first seek aid in a neighboring country, accompanied by a beautiful Princess, by the Genie from a lamp, and other friends.\n\nThis is a traditional Japanese-style RPG. You control the Prince and his party members, visiting various locations, buying and finding items, and fighting random enemies and bosses in a turn-based combat viewed from first-person perspective.",
+    "desc": "很久很久以前，傳說中的國王賈姆西德擊敗了邪惡的黑暗之靈阿里曼。但就在之前，阿里曼成功地將他最可怕的僕人：龍扎哈克送到了這個世界上。多年過去了，扎哈克被賈姆西德的後裔擊敗，但它自己的後裔繼續威脅沙納達爾王國。許多代之後，你，年輕的沙納達爾王子，必鬚麵對邪惡。扎哈克的後代計劃毀滅王國，王子必須首先向鄰國尋求援助，身邊有美麗的公主、燈精靈和其他朋友。\n\n這是一款傳統的日式RPG。您控制王子和他的隊伍成員，訪問不同的地點，購買和尋找物品，並在從第一人稱視角觀看的回合製戰鬥中與隨機的敵人和老闆戰鬥。",
+    "desc_source": "api"
+  },
+  "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En)": {
+    "key": "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En)",
+    "original_name": "Ax Battler : A Legend of Golden Axe",
+    "name": "斧戰者:金斧傳奇",
+    "name_source": "api",
+    "original_desc": "Use your wits and your razor sharp sword to recapture the Golden Axe from the diabolical Death Adder. Defeat skeletons and giant bats in dark, deep chasms and caves. And summon Earth, Thunder and Fire Magic to fight gargoyles that come to life before your eyes!",
+    "desc": "運用你的智慧和鋒利的劍從邪惡的死亡蝰蛇手中奪回金斧頭。在黑暗、深邃的裂縫和洞穴中擊敗骷髏和巨型蝙蝠。召喚土系、雷霆和火系魔法來對抗在你眼前復活的石像鬼！",
+    "desc_source": "api"
+  },
+  "Panzer Dragoon Mini (Japan)": {
+    "key": "Panzer Dragoon Mini (Japan)",
+    "original_name": "Panzer Dragoon Mini",
+    "name": "世嘉土星",
+    "name_source": "wiki",
+    "original_desc": "Panzer Dragoon Mini is the Japan-only 8-bit version of Sega's popular 32-bit rail shooter, but due to (massive) hardware limitations, the game has more in common with other classic Sega game, Space Harrier. Taking further away from the original games, there is no rider and the game lacks any plotline.\nThe player starts by choosing one of three dragons, and from there must shoot at incoming enemies (although for most time, just avoiding incoming fire is an easier way to progress in the game). At the end of the level (each with two bosses), a password appears and allows the game to be resumed later.",
+    "desc": "Panzer Dragoon Mini 是 Sega 流行的 32 位軌道射擊遊戲的僅限日本的 8 位版本，但由於（大量）硬件限制，該遊戲與其他經典 Sega 遊戲《太空鷂》有更多共同點。與原版遊戲相比，遊戲中沒有騎手，也沒有任何情節。\n玩家首先選擇三條龍中的一條，然後必須向來襲的敵人射擊（儘管在大多數情況下，避免來襲的火力是遊戲進展的更簡單方法）。在關卡結束時（每個關卡有兩個 Boss），會出現一個密碼，允許稍後繼續遊戲。",
+    "desc_source": "api"
+  }
+}

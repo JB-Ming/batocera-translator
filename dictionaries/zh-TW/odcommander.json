@@ -1,0 +1,11 @@
+{
+  "od-commander": {
+    "key": "od-commander",
+    "original_name": "OD-Commander",
+    "name": "PlayStation 2游戏列表",
+    "name_source": "wiki",
+    "original_desc": "A two-pane file manager, similar to Norton/Midnight commander, useful to manage all the /userdata files on your Batocera system.",
+    "desc": "兩窗格文件管理器，類似於 Norton/Midnight Commander，可用於管理 Batocera 系統上的所有 /userdata 文件。",
+    "desc_source": "api"
+  }
+}

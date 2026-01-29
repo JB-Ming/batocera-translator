@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+    <game>
+        <path>./test_game.zip</path>
+        <name>Test Game</name>
+    </game>
+</gameList>

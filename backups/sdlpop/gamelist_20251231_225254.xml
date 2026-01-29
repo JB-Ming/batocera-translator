@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./sdlpop.sdlpop</path>
+		<name>SdlPop</name>
+		<desc>Port of Prince of Persia</desc>
+		<image>./images/sdlpop.jpg</image>
+		<rating>0.7</rating>
+		<genre>Adventure</genre>
+		<players>1</players>
+		<lang>en</lang>
+		<scrap name="ScreenScraper" date="20251230T221530" />
+	</game>
+</gameList>

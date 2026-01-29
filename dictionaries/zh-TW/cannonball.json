@@ -1,0 +1,11 @@
+{
+  "Cannonball": {
+    "key": "Cannonball",
+    "original_name": "Cannonball",
+    "name": "麗婭·米歇爾",
+    "name_source": "wiki",
+    "original_desc": "Cannonball is an enhanced OutRun engine",
+    "desc": "Cannonball 是一款增強型 OutRun 引擎",
+    "desc_source": "api"
+  }
+}

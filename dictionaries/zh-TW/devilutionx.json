@@ -1,0 +1,20 @@
+{
+  "diabdat": {
+    "key": "diabdat",
+    "original_name": "Diablo 1",
+    "name": "暗黑破坏神IV",
+    "name_source": "wiki",
+    "original_desc": "Classic Hack & Slash Action RPG",
+    "desc": "2022年電子遊戲產業有諸多新作發售。\n根據SteamDB統計，2022年全年Steam發佈新遊戲超過一萬二千五百款。",
+    "desc_source": "wiki"
+  },
+  "hellfire": {
+    "key": "hellfire",
+    "original_name": "Diablo 1: Hellfire",
+    "name": "暴雪娱乐游戏列表",
+    "name_source": "wiki",
+    "original_desc": "Classic Hack & Slash Action RPG Expansion Pack",
+    "desc": "經典砍殺動作角色扮演遊戲擴展包",
+    "desc_source": "api"
+  }
+}
