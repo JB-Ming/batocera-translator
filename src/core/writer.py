@@ -117,7 +117,8 @@ class XmlWriter:
                            display_format: DisplayFormat = DisplayFormat.TRANSLATED_ONLY,
                            strategy: WriteStrategy = WriteStrategy.DICT_PRIORITY,
                            auto_backup: bool = True,
-                           preview_only: bool = False) -> WriteResult:
+                           preview_only: bool = False,
+                           write_rules: Optional[Dict] = None) -> WriteResult:
         """
         將翻譯寫回 XML
         
@@ -125,15 +126,27 @@ class XmlWriter:
             xml_path: gamelist.xml 路徑
             dictionary: 翻譯字典
             platform: 平台名稱
-            display_format: 顯示格式
+            display_format: 顯示格式（舊版參數，已被 write_rules 取代）
             strategy: 寫回策略
             auto_backup: 是否自動備份
             preview_only: 僅預覽不寫入
+            write_rules: 寫回規則設定，結構為:
+                {
+                    "name": {"target": "name|desc|skip", "format": "translated|trans_orig|orig_trans|original"},
+                    "desc": {"target": "desc|name|skip", "format": "translated|trans_orig|orig_trans|original"}
+                }
             
         Returns:
             寫回結果
         """
         result = WriteResult()
+        
+        # 預設寫回規則（向後相容）
+        if write_rules is None:
+            write_rules = {
+                "name": {"target": "name", "format": display_format.value},
+                "desc": {"target": "desc", "format": display_format.value}
+            }
         
         # 備份
         if auto_backup and not preview_only:
@@ -146,6 +159,20 @@ class XmlWriter:
         except ET.ParseError as e:
             result.failed = 1
             return result
+        
+        # 解析 write_rules 的 format 為 DisplayFormat
+        def get_display_format(format_str: str) -> DisplayFormat:
+            """將字串格式轉換為 DisplayFormat 列舉"""
+            format_map = {
+                'translated': DisplayFormat.TRANSLATED_ONLY,
+                'trans_orig': DisplayFormat.TRANSLATED_ORIGINAL,
+                'orig_trans': DisplayFormat.ORIGINAL_TRANSLATED,
+                'original': DisplayFormat.ORIGINAL_ONLY
+            }
+            return format_map.get(format_str, DisplayFormat.TRANSLATED_ONLY)
+        
+        name_rule = write_rules.get('name', {"target": "name", "format": "translated"})
+        desc_rule = write_rules.get('desc', {"target": "desc", "format": "translated"})
         
         # 遍歷所有遊戲
         for game in root.findall('game'):
@@ -167,15 +194,35 @@ class XmlWriter:
                 
             entry = dictionary[game_key]
             
-            # 處理名稱
+            # 取得 XML 中的 name 和 desc 元素
             name_elem = game.find('name')
-            if name_elem is not None and entry.name:
+            desc_elem = game.find('desc')
+            
+            # 準備要寫入各欄位的內容
+            # 結構：{欄位名稱: [(來源, 翻譯值, 原始值, 格式), ...]}
+            writes_to_field = {'name': [], 'desc': []}
+            
+            # 處理翻譯名稱的寫入
+            if entry.name and name_rule.get('target') != 'skip':
+                target = name_rule.get('target', 'name')
+                fmt = get_display_format(name_rule.get('format', 'translated'))
+                writes_to_field[target].append(('name', entry.name, entry.original_name, fmt))
+            
+            # 處理翻譯說明的寫入
+            if entry.desc and desc_rule.get('target') != 'skip':
+                target = desc_rule.get('target', 'desc')
+                fmt = get_display_format(desc_rule.get('format', 'translated'))
+                writes_to_field[target].append(('desc', entry.desc, entry.original_desc, fmt))
+            
+            # 執行寫入
+            updated = False
+            
+            # 寫入 name 欄位
+            if name_elem is not None and writes_to_field['name']:
                 original = name_elem.text or ""
-                
-                # 判斷是否需要更新
                 should_update = True
+                
                 if strategy == WriteStrategy.SKIP_TRANSLATED:
-                    # 檢查是否已有非英文字元（可能已翻譯）
                     if self._has_non_ascii(original):
                         should_update = False
                 elif strategy == WriteStrategy.XML_PRIORITY:
@@ -183,24 +230,28 @@ class XmlWriter:
                         should_update = False
                 
                 if should_update:
-                    name_elem.text = self._format_text(
-                        entry.name, entry.original_name, display_format
-                    )
+                    # 如果有多個來源要寫入同一欄位，取第一個
+                    source, translated, orig, fmt = writes_to_field['name'][0]
+                    name_elem.text = self._format_text(translated, orig, fmt)
+                    updated = True
             
-            # 處理描述
-            desc_elem = game.find('desc')
-            if desc_elem is not None and entry.desc:
+            # 寫入 desc 欄位
+            if desc_elem is not None and writes_to_field['desc']:
                 original_desc = desc_elem.text or ""
-                
                 should_update_desc = True
+                
                 if strategy == WriteStrategy.SKIP_TRANSLATED:
                     if self._has_non_ascii(original_desc):
                         should_update_desc = False
                 
                 if should_update_desc:
-                    desc_elem.text = entry.desc
+                    # 如果有多個來源要寫入同一欄位，取第一個
+                    source, translated, orig, fmt = writes_to_field['desc'][0]
+                    desc_elem.text = self._format_text(translated, orig, fmt)
+                    updated = True
             
-            result.updated += 1
+            if updated:
+                result.updated += 1
         
         # 寫入檔案（保留原始格式）
         if not preview_only:

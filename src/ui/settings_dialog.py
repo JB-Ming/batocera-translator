@@ -140,7 +140,58 @@ class SettingsDialog(QDialog):
         widget = QWidget()
         layout = QVBoxLayout(widget)
 
-        # 處理策略
+        # ========== 欄位寫回規則 ==========
+        rules_group = QGroupBox("欄位寫回規則")
+        rules_layout = QVBoxLayout(rules_group)
+
+        # 說明文字
+        rules_info = QLabel(
+            "設定翻譯結果要寫入 XML 的哪個欄位。\n"
+            "例如：將「翻譯名稱」寫到 desc 欄位，保留原始英文名稱。"
+        )
+        rules_info.setWordWrap(True)
+        rules_info.setStyleSheet("color: gray; font-size: 11px; margin-bottom: 8px;")
+        rules_layout.addWidget(rules_info)
+
+        # 翻譯名稱規則
+        name_rule_layout = QHBoxLayout()
+        name_rule_layout.addWidget(QLabel("翻譯後名稱："))
+
+        self.name_target_combo = QComboBox()
+        self.name_target_combo.addItems(["寫入 name", "寫入 desc", "不寫入"])
+        self.name_target_combo.setToolTip("翻譯後的名稱要寫入 XML 的哪個欄位")
+        name_rule_layout.addWidget(self.name_target_combo)
+
+        name_rule_layout.addWidget(QLabel("格式："))
+        self.name_format_combo = QComboBox()
+        self.name_format_combo.addItems(["僅翻譯", "翻譯(原文)", "原文(翻譯)", "僅原文"])
+        self.name_format_combo.setToolTip("寫入時的顯示格式")
+        name_rule_layout.addWidget(self.name_format_combo)
+
+        name_rule_layout.addStretch()
+        rules_layout.addLayout(name_rule_layout)
+
+        # 翻譯說明規則
+        desc_rule_layout = QHBoxLayout()
+        desc_rule_layout.addWidget(QLabel("翻譯後說明："))
+
+        self.desc_target_combo = QComboBox()
+        self.desc_target_combo.addItems(["寫入 desc", "寫入 name", "不寫入"])
+        self.desc_target_combo.setToolTip("翻譯後的說明要寫入 XML 的哪個欄位")
+        desc_rule_layout.addWidget(self.desc_target_combo)
+
+        desc_rule_layout.addWidget(QLabel("格式："))
+        self.desc_format_combo = QComboBox()
+        self.desc_format_combo.addItems(["僅翻譯", "翻譯(原文)", "原文(翻譯)", "僅原文"])
+        self.desc_format_combo.setToolTip("寫入時的顯示格式")
+        desc_rule_layout.addWidget(self.desc_format_combo)
+
+        desc_rule_layout.addStretch()
+        rules_layout.addLayout(desc_rule_layout)
+
+        layout.addWidget(rules_group)
+
+        # ========== 處理策略（保留原有） ==========
         strategy_group = QGroupBox("處理策略")
         strategy_layout = QVBoxLayout(strategy_group)
 
@@ -166,8 +217,8 @@ class SettingsDialog(QDialog):
 
         layout.addWidget(strategy_group)
 
-        # 顯示格式
-        format_group = QGroupBox("顯示格式")
+        # ========== 顯示格式（保留原有，作為全域預設） ==========
+        format_group = QGroupBox("全域顯示格式（僅供參考）")
         format_layout = QVBoxLayout(format_group)
 
         self.display_format_combo = QComboBox()
@@ -410,6 +461,31 @@ class SettingsDialog(QDialog):
         self.max_workers_spin.setValue(self.settings.get('max_workers', 3))
         self.batch_size_spin.setValue(self.settings.get('batch_size', 20))
 
+        # ========== 寫回規則設定 ==========
+        write_rules = self.settings.get('write_rules', {
+            "name": {"target": "name", "format": "translated"},
+            "desc": {"target": "desc", "format": "translated"}
+        })
+
+        # name 目標
+        name_target = write_rules.get('name', {}).get('target', 'name')
+        name_target_map = {'name': 0, 'desc': 1, 'skip': 2}
+        self.name_target_combo.setCurrentIndex(name_target_map.get(name_target, 0))
+
+        # name 格式
+        name_format = write_rules.get('name', {}).get('format', 'translated')
+        format_map = {'translated': 0, 'trans_orig': 1, 'orig_trans': 2, 'original': 3}
+        self.name_format_combo.setCurrentIndex(format_map.get(name_format, 0))
+
+        # desc 目標
+        desc_target = write_rules.get('desc', {}).get('target', 'desc')
+        desc_target_map = {'desc': 0, 'name': 1, 'skip': 2}
+        self.desc_target_combo.setCurrentIndex(desc_target_map.get(desc_target, 0))
+
+        # desc 格式
+        desc_format = write_rules.get('desc', {}).get('format', 'translated')
+        self.desc_format_combo.setCurrentIndex(format_map.get(desc_format, 0))
+
     def _save_and_close(self):
         """儲存設定並關閉"""
         # Gemini API Key
@@ -429,6 +505,23 @@ class SettingsDialog(QDialog):
         self.settings['translate_api'] = api_map[self.api_combo.currentIndex()]
         self.settings['api_key'] = self.api_key_input.text()
         self.settings['request_delay'] = self.request_delay_spin.value()
+
+        # ========== 寫回規則設定 ==========
+        name_target_map = ['name', 'desc', 'skip']
+        desc_target_map = ['desc', 'name', 'skip']
+        format_map = ['translated', 'trans_orig', 'orig_trans', 'original']
+
+        self.settings['write_rules'] = {
+            'name': {
+                'target': name_target_map[self.name_target_combo.currentIndex()],
+                'format': format_map[self.name_format_combo.currentIndex()]
+            },
+            'desc': {
+                'target': desc_target_map[self.desc_target_combo.currentIndex()],
+                'format': format_map[self.desc_format_combo.currentIndex()]
+            }
+        }
+
         self.accept()
 
     def get_settings(self) -> dict:

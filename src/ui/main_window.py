@@ -796,11 +796,12 @@ class TranslateWorker(StageWorker):
 class WritebackWorker(StageWorker):
     """階段四：寫回 Worker"""
 
-    def __init__(self, language: str, auto_backup: bool, selected_platforms: List[str] = None):
+    def __init__(self, language: str, auto_backup: bool, selected_platforms: List[str] = None, write_rules: dict = None):
         super().__init__()
         self.language = language
         self.auto_backup = auto_backup
         self.selected_platforms = selected_platforms or []  # 空清單表示全部
+        self.write_rules = write_rules  # 寫回規則設定
 
     def run(self):
         try:
@@ -850,7 +851,8 @@ class WritebackWorker(StageWorker):
                         dictionary=dictionary,
                         platform=platform_name,
                         display_format=DisplayFormat.TRANSLATED_ONLY,
-                        auto_backup=self.auto_backup
+                        auto_backup=self.auto_backup,
+                        write_rules=self.write_rules
                     )
 
                     self.log.emit("INFO", "Stage4",
@@ -1813,9 +1815,11 @@ class MainWindow(QMainWindow):
         language = self._get_selected_language()
         # 取得選中的平台
         selected = self.selected_platforms if self.selected_platforms else []
+        # 取得寫回規則設定
+        write_rules = self.app_settings.write_rules
 
         self.stage_worker = WritebackWorker(
-            language, self.backup_checkbox.isChecked(), selected)
+            language, self.backup_checkbox.isChecked(), selected, write_rules)
         self.stage_worker.progress.connect(self._on_stage_progress)
         self.stage_worker.log.connect(self._on_stage_log)
         self.stage_worker.finished.connect(lambda r: self._on_stage_finished(

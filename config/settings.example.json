@@ -13,6 +13,16 @@
   "name_strategy": "dict",
   "desc_strategy": "dict",
   "merge_strategy": "merge",
+  "write_rules": {
+    "name": {
+      "target": "name",
+      "format": "translated"
+    },
+    "desc": {
+      "target": "desc",
+      "format": "translated"
+    }
+  },
   "translate_api": "googletrans",
   "api_key": "",
   "gemini_api_key": "",

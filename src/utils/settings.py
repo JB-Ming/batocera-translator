@@ -63,6 +63,15 @@ class AppSettings:
     # ==================== 字典設定 ====================
     merge_strategy: str = "merge"       # 字典合併策略：merge/fill_empty/overwrite/skip
 
+    # ==================== 寫回規則設定 ====================
+    # write_rules: 控制翻譯結果寫入哪個 XML 欄位
+    # - target: 寫入目標欄位（name/desc/skip）
+    # - format: 顯示格式（translated/trans_orig/orig_trans/original）
+    write_rules: dict = field(default_factory=lambda: {
+        "name": {"target": "name", "format": "translated"},
+        "desc": {"target": "desc", "format": "translated"}
+    })
+
     # ==================== API 設定 ====================
     translate_api: str = "googletrans"  # 翻譯 API：googletrans/google_cloud/deepl/azure
     api_key: str = ""                   # 付費翻譯 API 金鑰
